@@ -1,0 +1,163 @@
+_id: h9myJHO0utMGSqfn
+name: Scything Claws
+type: weapon
+img: modules/neon-odyssey/icons/species/zorbrak.webp
+system:
+  activities:
+    H9sA759bPJSda7L3:
+      _id: H9sA759bPJSda7L3
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: '<p>Unarmed Strike (Damage option only) with your second pair of arms: 1d8 Slashing + your ability modifier, Finesse. With Advantage, scores a Critical Hit on a 19 or 20.</p>'
+    chat: ''
+  identifier: scything-claws
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+  cover: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: natural
+    baseItem: ''
+  ammunition: {}
+  damage:
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+      - slashing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        number: 1
+      modifiers: []
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+  - fin
+  proficient: 1
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ft
+  mastery: ''
+  rarities: []
+  crew:
+    value: []
+effects: []
+folder: m6DTYwJwl6bBB8mG
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: 1792443355978
+  modifiedTime: 1792443355978
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!h9myJHO0utMGSqfn'

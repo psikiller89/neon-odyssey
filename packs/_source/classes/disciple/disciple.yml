@@ -400,6 +400,9 @@ system:
         - uuid: Compendium.neon-odyssey.features.Item.MjmVT6i7IzuTEbtq
           optional: false
           sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.0lxDnkCpqdwvWj3W
+          optional: false
+          sort: 0
         optional: false
         spell: null
       value: {}

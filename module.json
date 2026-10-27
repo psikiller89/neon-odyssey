@@ -2,7 +2,7 @@
   "id": "neon-odyssey",
   "title": "Neon Odyssey: Outrunner’s Handbook & Overdrive",
   "description": "Neon Odyssey (Playtest v0.1.1) classes, subclasses, features, species, backgrounds, origin feats, spells and equipment for dnd5e 6.x with level-up Advancements and Activities.",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "authors": [
     {
       "name": "laurent"
@@ -159,6 +159,6 @@
   },
   "url": "https://github.com/psikiller89/neon-odyssey",
   "manifest": "https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json",
-  "download": "https://github.com/psikiller89/neon-odyssey/releases/download/v0.5.3/neon-odyssey.zip",
+  "download": "https://github.com/psikiller89/neon-odyssey/releases/download/v0.5.4/neon-odyssey.zip",
   "bugs": "https://github.com/psikiller89/neon-odyssey/issues"
 }

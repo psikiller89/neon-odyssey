@@ -83,6 +83,28 @@ system:
       level: 15
       title: Subclass Features
       hint: ''
+    6JGbY0QPX9v0jKrE:
+      _id: 6JGbY0QPX9v0jKrE
+      type: ScaleValue
+      level: 0
+      title: Impromptu Bomb (per type)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        identifier: bomb
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 2
+            faces: 6
+          '9':
+            number: 2
+            faces: 8
+      value: {}
   spellcasting:
     progression: none
     ability: ''

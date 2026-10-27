@@ -51,6 +51,9 @@ system:
         - uuid: Compendium.neon-odyssey.origins.Item.TAcWDEPJqPlO09fv
           optional: false
           sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.h9myJHO0utMGSqfn
+          optional: false
+          sort: 0
         optional: false
         spell: null
         sorting: m

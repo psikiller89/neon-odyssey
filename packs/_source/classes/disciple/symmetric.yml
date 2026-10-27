@@ -80,6 +80,34 @@ system:
       level: 17
       title: Subclass Features
       hint: ''
+    vI07rT4b9Rf1pV9H:
+      _id: vI07rT4b9Rf1pV9H
+      type: ItemChoice
+      level: 3
+      title: Harmonic Weapon
+      hint: Choose a Combat Staff or two Sabers.
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: weapon
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.VcpJLE1zIt71KKEd
+        - uuid: Compendium.neon-odyssey.features.Item.txHrGmiJvdSbuufw
+        spell: null
+        restriction:
+          type: ''
+          subtype: ''
+          list: []
+          level: ''
+          school: []
+        sorting: a
+      value: {}
   spellcasting:
     progression: none
     ability: ''

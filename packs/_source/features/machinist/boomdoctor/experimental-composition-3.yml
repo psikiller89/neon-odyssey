@@ -23,9 +23,14 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: max(2, 2 * @abilities.int.mod)
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
   type:
     value: class
     subtype: ''
@@ -39,14 +44,18 @@ system:
     zbs0e5yxSlYzKZyP:
       _id: zbs0e5yxSlYzKZyP
       type: save
-      name: ''
+      name: Impromptu Bomb
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: Magic action
       consumption:
-        targets: []
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -63,14 +72,17 @@ system:
       - _id: ssWn4jw6mN7qFmzO
         onSave: false
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: sphere
+          size: '10'
+          count: ''
         affects:
           choice: false
           count: ''
@@ -91,14 +103,38 @@ system:
       damage:
         onSave: half
         parts:
-        - number: 1
-          denomination: 4
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - acid
+          - cold
+          - fire
+          - lightning
+          - piercing
+          - poison
+          - thunder
           custom:
-            enabled: false
+            enabled: true
+            formula: '@scale.boomdoctor.bomb'
+          scaling:
+            mode: ''
+            number: null
             formula: ''
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - cold
+          - fire
+          - lightning
+          - piercing
+          - poison
+          - thunder
+          custom:
+            enabled: true
+            formula: '@scale.boomdoctor.bomb'
           scaling:
             mode: ''
             number: null

@@ -28,54 +28,7 @@ system:
     repeatable: false
   properties: []
   requirements: Symmetric Disciple
-  activities:
-    8RNNa8zG66v9IZRm:
-      _id: 8RNNa8zG66v9IZRm
-      type: utility
-      name: ''
-      activation:
-        type: bonus
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+  activities: {}
   enchant: {}
   identifier: harmonic-weapon
   advancement: {}

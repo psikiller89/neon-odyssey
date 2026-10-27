@@ -86,3 +86,11 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Passive traits now automated:** damage resistances (15 traits/feats) and Climb/Swim/Burrow/Fly speeds (11).
 - **Missing saves:** 11 monster attacks with a rider saving throw now have a Save button, as do Shockwave/Anchoring/Debilitating Smite and Hungering Void.
 - **Limited uses added:** Deploy Turret, Symbiotic Carnage, Inescapable Hunt, Chrono Control, Roaring Devastation, Reconstitution.
+
+## v0.5.4 fixes
+
+- **Disciple:** gets an Unarmed Strike weapon at level 1 (Combat Tradition die + Dex), with a Bonus Unarmed Strike button.
+- **Symmetric – Harmonic Weapon (level 3):** feature added; choose a Harmonic Combat Staff or two Harmonic Sabers (no Powered property, Necrotic/Radiant damage option, Bonus Action attack).
+- **Symmetric – Harmony's Balance:** Shift to Vital / Shift to Somber buttons apply the balance effect; Lesser Restoration and Hold Person cast for 2 Essence Points.
+- **Boomdoctor – Impromptu Bomb:** 2d6 of each of two chosen types (4d6 total), 2d8 each from level 9, Dex save for half, 10-ft sphere at 60 ft; Compositions tracked (twice Int mod, min 2).
+- **Zorbrak – Scything Claws:** now a weapon (1d8 Slashing, Finesse) in your inventory.

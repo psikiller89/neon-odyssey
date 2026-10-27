@@ -1,0 +1,392 @@
+_id: 0lxDnkCpqdwvWj3W
+name: Unarmed Strike
+type: weapon
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  activities:
+    H9sA759bPJSda7L3:
+      _id: H9sA759bPJSda7L3
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    Sl673lS0oweTsTHf:
+      type: save
+      name: Grapple/Shove
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: Grapple or Shove attempt
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+      - _id: OM3Rt1nQv3WKS0pc
+        onSave: false
+        uuid: null
+        level: {}
+      - _id: OgkonP6JL0AdFtQN
+        onSave: false
+        uuid: null
+        level: {}
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+        - str
+        - dex
+        dc:
+          calculation: ''
+          formula: max(@abilities.str.dc, @abilities.dex.dc)
+        visible: true
+      _id: Sl673lS0oweTsTHf
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    e6HkJdga3TmU3PwX:
+      _id: e6HkJdga3TmU3PwX
+      type: attack
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: Bonus Unarmed Strike
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p>Your Unarmed Strike, using your Combat Tradition die and Dexterity (Combat Tradition). Use <strong>Bonus Unarmed Strike</strong> for the Bonus Action strike.</p>
+    chat: ''
+  identifier: unarmed-strike
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+  cover: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: natural
+    baseItem: ''
+  ammunition: {}
+  damage:
+    base:
+      number: null
+      denomination: 0
+      types:
+      - bludgeoning
+      custom:
+        enabled: true
+        formula: '@scale.disciple.die + @mod'
+      scaling:
+        number: 1
+      bonus: ''
+      modifiers: []
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
+  properties:
+  - fin
+  proficient: 1
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ft
+  mastery: ''
+  rarities: []
+  crew:
+    value: []
+effects:
+- name: Grappled
+  img: systems/dnd5e/icons/svg/statuses/grappled.svg
+  origin: Compendium.dnd5e.classes24.Item.phbmnkUnarmedStr
+  transfer: false
+  _id: OM3Rt1nQv3WKS0pc
+  type: base
+  system:
+    changes: []
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses:
+  - grappled
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  _stats:
+    compendiumSource: null
+    duplicateSource: null
+    coreVersion: '14.369'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: 1792443355978
+    modifiedTime: 1792443355978
+    lastModifiedBy: dnd5ebuilder0000
+    exportSource: null
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!0lxDnkCpqdwvWj3W.OM3Rt1nQv3WKS0pc'
+- name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  origin: Compendium.dnd5e.classes24.Item.phbmnkUnarmedStr
+  transfer: false
+  _id: OgkonP6JL0AdFtQN
+  type: base
+  system:
+    changes: []
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses:
+  - prone
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  _stats:
+    compendiumSource: null
+    duplicateSource: null
+    coreVersion: '14.369'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: 1792443355978
+    modifiedTime: 1792443355978
+    lastModifiedBy: dnd5ebuilder0000
+    exportSource: null
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!0lxDnkCpqdwvWj3W.OgkonP6JL0AdFtQN'
+folder: crRjhx43F4K6uj1Y
+flags: {}
+_stats:
+  duplicateSource: null
+  coreVersion: '14.369'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: 1792443355978
+  modifiedTime: 1792443355978
+  lastModifiedBy: dnd5ebuilder0000
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+_key: '!items!0lxDnkCpqdwvWj3W'
