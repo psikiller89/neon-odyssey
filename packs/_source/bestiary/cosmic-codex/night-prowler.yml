@@ -1,0 +1,516 @@
+_id: MR9LrzHCZl1hn2s8
+name: Night Prowler
+type: npc
+img: modules/neon-odyssey/icons/creatures/night-prowler.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 1
+    dex:
+      value: 18
+      proficient: 1
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 7
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 14
+      calc: natural
+    hp:
+      value: 52
+      max: 52
+      formula: 7d10 + 14
+      temp: null
+      tempmax: null
+    movement:
+      walk: '40'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 3
+    type:
+      value: monstrosity
+      subtype: ''
+      custom: ''
+    alignment: Unaligned
+    biography:
+      value: '<p>NIGHT PROWLER</p><p>Elusive Shadow Hunter</p><p>Habitat: Forest, Plains; Treasure: None</p><p>Night prowlers are among the most elusive and terrifying  predators. They stalk the night in
+        the wilds across the  galaxy. These nocturnal hunters prowl through the shadows  with many-limbed, elongated bodies that grant them the  speed and flexibility to employ hit-and-run tactics until
+        their  prey surrenders to death. While their claws and fangs are  formidable, their most potent weapons are the venomous  quills that can be launched with shocking accuracy.</p><p>Night Prowler</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: None
+  skills:
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: nduziunfEzKdAiVQ
+  name: Evasion
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the prowler is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the save and half damage if
+        it fails. It can’t use this trait if it has the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: evasion
+  _key: '!actors.items!MR9LrzHCZl1hn2s8.nduziunfEzKdAiVQ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: xfaXKRlTCBkjhA9F
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The prowler makes two attacks, using Rend or Venomous Quill in any combination.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ae0vs0nNVzgUTf8H:
+        _id: ae0vs0nNVzgUTf8H
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!MR9LrzHCZl1hn2s8.xfaXKRlTCBkjhA9F'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: BuvDIPJx2zxIhYVd
+  name: Rend
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +6, reach 5 ft. Hit: 14 (2d10 + 3) Slashing damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      IWTcLM0cZXV1J1OB:
+        _id: IWTcLM0cZXV1J1OB
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '6'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: rend
+  _key: '!actors.items!MR9LrzHCZl1hn2s8.BuvDIPJx2zxIhYVd'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: NjaRJSa73JzjV8W8
+  name: Venomous Quill
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +6, range 20/60 ft. Hit: 7 (1d6 + 4) Piercing damage plus 7 (2d6) Poison damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      c2A2wKfR6Lxgq9bi:
+        _id: c2A2wKfR6Lxgq9bi
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '6'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '20'
+          long: '60'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: venomous-quill
+  _key: '!actors.items!MR9LrzHCZl1hn2s8.NjaRJSa73JzjV8W8'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: mnq23HSnZrKXdDyi
+  name: Prowl
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The prowler moves up to its Speed without provoking Opportunity Attacks. At the end of this movement, the prowler can take the Hide action.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      7dh31RSOXZqsIKhY:
+        _id: 7dh31RSOXZqsIKhY
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: prowl
+  _key: '!actors.items!MR9LrzHCZl1hn2s8.mnq23HSnZrKXdDyi'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Night Prowler
+  texture:
+    src: modules/neon-odyssey/icons/creatures/night-prowler-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!MR9LrzHCZl1hn2s8'

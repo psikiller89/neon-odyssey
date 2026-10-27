@@ -1,0 +1,572 @@
+_id: 56lno6ZeF4kOeyG1
+name: Infiltrator
+type: npc
+img: modules/neon-odyssey/icons/creatures/infiltrator.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 18
+      proficient: 1
+    con:
+      value: 15
+      proficient: 0
+    int:
+      value: 12
+      proficient: 0
+    wis:
+      value: 15
+      proficient: 1
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 84
+      max: 84
+      formula: 13d8 + 26
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 5
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>INFILTRATORS</p><p>Covert Operatives</p><p>Habitat: Any; Treasure: Implements</p><p>Infiltrators are specialists who make a living sneaking into  high security areas to gather intel, plant
+        incriminating  evidence, or assassinate a target. They often work in small  cells or alongside strike teams to accomplish seemingly  impossible missions. Many interstellar factions make use  of
+        infiltrators to gather critical intelligence that can turn  the tide of galactic politics. Roll on or choose a result from  the Infiltrator Motivations table to inspire the reason they  took the
+        job.</p><p>INFILTRATOR</p><p>INFILTRATOR</p><p>Career infiltrators are experienced secret agents that strive to  perfectly execute every job but are savvy enough to improvise  when complications
+        arise. They employ specialized weaponry,  gadgetry, and training that keep them undetected by anything  that would jeopardize the success of their mission. Most  infiltrators utilize a code name
+        to protect their identity,  oftentimes being a simple word or string of numbers.</p><p>Infiltrator</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common plus one other language
+  skills:
+    acr:
+      value: 1
+      ability: ''
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: DyxNb15T8am8KgB5
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The infiltrator makes two attacks, using Serrated Blade or Blackout Pistol in any combination.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      fIQ2YfvK3yd4zL9d:
+        _id: fIQ2YfvK3yd4zL9d
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!56lno6ZeF4kOeyG1.DyxNb15T8am8KgB5'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: EzbUx9d08pNTNeYr
+  name: Serrated Blade
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 7 (1d6 + 4) Piercing damage plus 7 (2d6) Poison damage. If the target is a creature and doesn’t already have a deep
+        wound, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target receives a deep wound. While wounded, the target loses 6 (1d12) Hit Points at the start of each
+        of its turns. The wound closes after 1 minute, after the target regains any Hit Points, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding
+        on a DC 15 Wisdom (Medicine) check.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      vuWWDrRKmDw0QTII:
+        _id: vuWWDrRKmDw0QTII
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '20'
+          long: '60'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: serrated-blade
+  _key: '!actors.items!56lno6ZeF4kOeyG1.EzbUx9d08pNTNeYr'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: uNlcD7YB14cuZvFU
+  name: Blackout Pistol
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +7 (being within 5 feet of an enemy doesn’t impose Disadvantage), range 80/320 ft. Hit: 7 (1d6 + 4) Force damage, and the target has the Blinded condition until the
+        start of the infiltrator’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      JbyxM3JFxQJIkOJj:
+        _id: JbyxM3JFxQJIkOJj
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '80'
+          long: '320'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: blackout-pistol
+  _key: '!actors.items!56lno6ZeF4kOeyG1.uNlcD7YB14cuZvFU'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: omwGGlGN4hO1Kp17
+  name: Vanish
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The infiltrator gives itself the Invisible condition until it loses Concentration. The condition ends immediately after the infiltrator hits or misses with an attack roll.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      07HAOatW1HMmE6sg:
+        _id: 07HAOatW1HMmE6sg
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: vanish
+  _key: '!actors.items!56lno6ZeF4kOeyG1.omwGGlGN4hO1Kp17'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: GEcx5cnKkc8K5308
+  name: Agile Escape
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The infiltrator is hit by an attack roll. Response: The infiltrator halves the damage (round down) it takes from that attack.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      h6hPQWOtlz5hF0C1:
+        _id: h6hPQWOtlz5hF0C1
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: agile-escape
+  _key: '!actors.items!56lno6ZeF4kOeyG1.GEcx5cnKkc8K5308'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Infiltrator
+  texture:
+    src: modules/neon-odyssey/icons/creatures/infiltrator-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!56lno6ZeF4kOeyG1'

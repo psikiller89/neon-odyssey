@@ -1,0 +1,606 @@
+_id: Wnv0VVJ3upef2njD
+name: Infiltrator Specter
+type: npc
+img: modules/neon-odyssey/icons/creatures/infiltrator-specter.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+    dex:
+      value: 20
+      proficient: 1
+    con:
+      value: 18
+      proficient: 1
+    int:
+      value: 13
+      proficient: 0
+    wis:
+      value: 17
+      proficient: 1
+    cha:
+      value: 16
+      proficient: 0
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+    hp:
+      value: 153
+      max: 153
+      formula: 18d8 + 72
+      temp: null
+      tempmax: null
+    movement:
+      walk: '35'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 10
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: <p>Infiltrator Specter</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value:
+      - exhaustion
+      - poisoned
+    languages:
+      value: []
+      custom: Common plus one other language
+  skills:
+    acr:
+      value: 1
+      ability: ''
+    ste:
+      value: 1
+      ability: ''
+    dec:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: bYp0MrR1IYn7jdyj
+  name: Poisoner
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Poison damage dealt by the specter ignores Resistance.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: poisoner
+  _key: '!actors.items!Wnv0VVJ3upef2njD.bYp0MrR1IYn7jdyj'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: gwCwq5kz3hfltOUP
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The specter makes three Toxic Stiletto attacks or two Blackout Rifle attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      Iw958eKxAgh0BpA0:
+        _id: Iw958eKxAgh0BpA0
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!Wnv0VVJ3upef2njD.gwCwq5kz3hfltOUP'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: yRtTUyu6CI61EkUG
+  name: Toxic Stiletto
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +9, reach 5 ft. or range 20/60 ft. Hit: 8 (1d6 + 5) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving
+        Throw: DC 17. Failure: The target has the Poisoned condition. While Poisoned, the target can’t regain Hit Points and takes 17 (5d6) Poison damage at the start of each of its turns. It repeats the
+        save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      B956LGZ3CywPHTyo:
+        _id: B956LGZ3CywPHTyo
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '9'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 5
+            denomination: 6
+            bonus: ''
+            types:
+            - poison
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '20'
+          long: '60'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: toxic-stiletto
+  _key: '!actors.items!Wnv0VVJ3upef2njD.yRtTUyu6CI61EkUG'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: uDV8RLyIjNHxJTIw
+  name: Blackout Rifle
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +9, range 200/800 ft. Hit: 22 (5d6 + 5) Force damage, and the target has the Blinded condition until the start of the specter’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      jsEgeqTT0YpRgbRH:
+        _id: jsEgeqTT0YpRgbRH
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '9'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 5
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '200'
+          long: '800'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: blackout-rifle
+  _key: '!actors.items!Wnv0VVJ3upef2njD.uDV8RLyIjNHxJTIw'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: vjcMJ0MinVhqFLX0
+  name: Vanish
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The specter gives itself the Invisible condition until it loses Concentration. The condition ends immediately after the specter hits or misses with an attack roll.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      ykN7C6ICqPgQFoW0:
+        _id: ykN7C6ICqPgQFoW0
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: vanish
+  _key: '!actors.items!Wnv0VVJ3upef2njD.vjcMJ0MinVhqFLX0'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: EdXi0tdtY0DzfSMG
+  name: Deflect
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The specter is hit by an attack roll while holding a weapon. Response: The specter adds 4 to its AC against that attack, possibly causing it to miss.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      KDue790EJsUttPTA:
+        _id: KDue790EJsUttPTA
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: deflect
+  _key: '!actors.items!Wnv0VVJ3upef2njD.EdXi0tdtY0DzfSMG'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Infiltrator Specter
+  texture:
+    src: modules/neon-odyssey/icons/creatures/infiltrator-specter-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!Wnv0VVJ3upef2njD'

@@ -1,0 +1,774 @@
+_id: GlUSsEkaQL6KIO1N
+name: Drift Gaunt Commander
+type: npc
+img: modules/neon-odyssey/icons/creatures/drift-gaunt-commander.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 20
+      proficient: 0
+    dex:
+      value: 15
+      proficient: 0
+    con:
+      value: 16
+      proficient: 1
+    int:
+      value: 16
+      proficient: 0
+    wis:
+      value: 15
+      proficient: 1
+    cha:
+      value: 18
+      proficient: 0
+  attributes:
+    ac:
+      flat: 19
+      calc: natural
+    hp:
+      value: 195
+      max: 195
+      formula: 26d8 + 78
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      fly: '40'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 120
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 13
+    type:
+      value: undead
+      subtype: ''
+      custom: ''
+    alignment: Chaotic Evil
+    biography:
+      value: <p>Drift Gaunt Lieutenant</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - cold
+      - necrotic
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - exhaustion
+      - paralyzed
+      - poisoned
+    languages:
+      value: []
+      custom: Common
+  skills:
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: zedInyYQxYPFn8az
+  name: Personal Warp Generator
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The drift gaunt wears a damaged personal warp generator on its back. While wearing it, the drift gaunt has a Fly Speed of 40 ft., can hover, and can use the Warp Cells Bonus Action. The
+        generator has AC 15; HP 40; and Immunity to Necrotic, Poison, and Psychic damage. If the generator is reduced to 0 Hit Points, it explodes. Strength Saving Throw: DC 16, each creature in a 20-foot
+        Emanation originating from the generator. The drift gaunt automatically fails this save. Failure: 35 (10d6) Force damage, and the target is pulled 10 feet toward the generator. Success: Half damage
+        only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: personal-warp-generator
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.zedInyYQxYPFn8az'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: M4FP8Ek9jm0hxVcF
+  name: Undead Fortitude
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If damage reduces the drift gaunt to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: undead-fortitude
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.M4FP8Ek9jm0hxVcF'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: XSN6j9OQKxVIV5z0
+  name: Critical Hit
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>On a successful save, the drift gaunt drops to 1 Hit Point instead.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: critical-hit
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.XSN6j9OQKxVIV5z0'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: nwO9AFFmlTulQg6c
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drift gaunt makes three Irradiated Slam attacks or three Plasma Cannon attacks. It can replace one attack with a use of Death’s-Head Visage if available.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      uTymk25247SEf8He:
+        _id: uTymk25247SEf8He
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.nwO9AFFmlTulQg6c'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: hxp6LoC4B2IQoFAP
+  name: Irradiated Slam
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +10, reach 5 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 4 (1d8) Necrotic damage. If the target is a creature, it has the Grappled condition (escape DC 15) from one
+        of two hands.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      kmIX8W3n3xjelvSG:
+        _id: kmIX8W3n3xjelvSG
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '10'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 3
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+            - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: irradiated-slam
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.hxp6LoC4B2IQoFAP'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: tziqCHAoflWce8rx
+  name: Plasma Cannon
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +10, range 200/800 ft. Hit: 18 (3d8 + 5) Lightning damage. Until the start of the drift gaunt’s next turn, the target’s Speed is halved, and the next attack against
+        the target has Advantage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      s8UPnem660CYgQGc:
+        _id: s8UPnem660CYgQGc
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '10'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 3
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '200'
+          long: '800'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: plasma-cannon
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.tziqCHAoflWce8rx'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: NVHUxCecaMFld6pO
+  name: Death’s-Head Visage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 16, each non-Undead creature in a 30-foot Cone. Failure: 16 (3d10) Psychic damage, and the target has the Frightened condition. The target repeats the save
+        at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While Frightened, the target has the Paralyzed condition.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ubHOD1MBwE2n7Rxc:
+        _id: ubHOD1MBwE2n7Rxc
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '16'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: deaths-head-visage
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.NVHUxCecaMFld6pO'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: WtzgP5ZyH96huSGd
+  name: Commanding Presence
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drift gaunt chooses one of its allies within 30 feet. That creature can take a Reaction to make an attack against a target that it and the drift gaunt can see.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      wMlRj7rl0uFJWjQP:
+        _id: wMlRj7rl0uFJWjQP
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: commanding-presence
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.WtzgP5ZyH96huSGd'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: FCBVmbEK1Vb2YImO
+  name: Warp Cells
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drift gaunt activates its personal warp generator to teleport, along with one creature it is grappling, up to 120 feet in any direction. </p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      1461XtrftAidj1vH:
+        _id: 1461XtrftAidj1vH
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: warp-cells
+  _key: '!actors.items!GlUSsEkaQL6KIO1N.FCBVmbEK1Vb2YImO'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Drift Gaunt Commander
+  texture:
+    src: modules/neon-odyssey/icons/creatures/drift-gaunt-commander-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!GlUSsEkaQL6KIO1N'

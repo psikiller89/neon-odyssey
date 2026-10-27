@@ -1,0 +1,472 @@
+_id: NXCR5WqqG9tTP2EJ
+name: Battle Bot
+type: npc
+img: modules/neon-odyssey/icons/creatures/battle-bot.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 6
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 15
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 9
+      proficient: 0
+    cha:
+      value: 11
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 26
+      max: 26
+      formula: 4d8 + 8
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>BATTLE BOTS</p><p>Mass-Produced Mechanical Infantry</p><p>Habitat: Any; Treasure: None</p><p>Battle bots are robotic soldiers mass-manufactured and sold  to militaries across the galaxy.
+        They represent the core of the  war industry that increases in profits every year. They can be  found as support units in grander forces, but some armies  are nearly entirely comprised of battle
+        bots.</p><p>BATTLE BOT</p><p>BATTLE BOT</p><p>The baseline model of battle bots are made at low cost and  minimal quality to serve as little more than the battlefield fodder  needed by many galactic
+        militaries. They are programmed  to march and do as they’re ordered, typically utilized to hold  formations, lay down synchronized fire, and stand watch without  sleep or pay. These bots can communicate
+        with a language  module that outputs a high-pitched mechanical voice.</p><p>BATTLE BOT HEAVY</p><p>BATTLE BOT HEAVY</p><p>Battle bot heavies are built from tougher alloys and enhanced  systems,
+        providing an upgraded and pricier option for robotic  infantry. Outfitted with reinforced servos and built-in laser  blasters, heavies are best equipped for taking or defending  critical objectives.
+        These bots come with a communication  chip that delivers a deeper and flatter voice that typically  speaks in short, precise sentences.</p><p>Battle Bot</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - charmed
+      - exhaustion
+      - petrified
+      - poisoned
+    languages:
+      value: []
+      custom: Common, SIGNAL
+  skills: {}
+items:
+- _id: pEqKHDfDXGtzRLJ8
+  name: Support Fire
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The bot has Advantage on an attack roll against a creature if at least two of the battle bot’s allies are within 5 feet of the battle bot.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: support-fire
+  _key: '!actors.items!NXCR5WqqG9tTP2EJ.pEqKHDfDXGtzRLJ8'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: aYunPRbSzGggpBLz
+  name: Tactical Network
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The bot is aware of what allied creatures that have this trait and are within 1 mile see, hear, and feel. This trait doesn’t function (to sense or send) while the battle bot has the Incapacitated
+        condition or is in an area of jamming.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: tactical-network
+  _key: '!actors.items!NXCR5WqqG9tTP2EJ.aYunPRbSzGggpBLz'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: RPYR6Yrhnr9izZY6
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The bot makes two Laser Rifle attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      tLdkhP45Wnvp119v:
+        _id: tLdkhP45Wnvp119v
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!NXCR5WqqG9tTP2EJ.RPYR6Yrhnr9izZY6'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 00I8SrW4NCwOXBw4
+  name: Arm Blade
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage plus 7 (2d6) Lightning damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      xTndeLna0cr8Iwbb:
+        _id: xTndeLna0cr8Iwbb
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: arm-blade
+  _key: '!actors.items!NXCR5WqqG9tTP2EJ.00I8SrW4NCwOXBw4'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: rQ6y9RSNaOySxnam
+  name: Laser Rifle
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +4, range 200/800 ft. Hit: 6 (1d8 + 2) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      zojHlQiRWjCvZf7J:
+        _id: zojHlQiRWjCvZf7J
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '200'
+          long: '800'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: laser-rifle
+  _key: '!actors.items!NXCR5WqqG9tTP2EJ.rQ6y9RSNaOySxnam'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Battle Bot
+  texture:
+    src: modules/neon-odyssey/icons/creatures/battle-bot-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!NXCR5WqqG9tTP2EJ'

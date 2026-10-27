@@ -1,0 +1,731 @@
+_id: c31ZqLVOlCSC76gl
+name: Hollow Hunger
+type: npc
+img: modules/neon-odyssey/icons/creatures/hollow-hunger.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+    dex:
+      value: 15
+      proficient: 1
+    con:
+      value: 16
+      proficient: 1
+    int:
+      value: 12
+      proficient: 0
+    wis:
+      value: 11
+      proficient: 0
+    cha:
+      value: 6
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 90
+      max: 90
+      formula: 12d8 + 36
+      temp: null
+      tempmax: null
+    movement:
+      walk: '40'
+      climb: '40'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 120
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 5
+    type:
+      value: fiend
+      subtype: ''
+      custom: ''
+    alignment: Lawful Evil
+    biography:
+      value: '<p>HOLLOW HUNGER</p><p>Ashen Life-Leeches</p><p>Habitat: Planar (Cacophony); Treasure: Any</p><p>Hollow hungers are the quintessential Fiends of Entropy  that have an unquenchable appetite
+        for life essence. They  are entirely empty, and no matter how much energy they  consume, they are never satiated. The forces of Entropy  unleash these wretches as terrifying predators who stalk
+        the  night and drag their shrieking victims into the darkness, never  to be seen again.</p><p>Hollow Hunger</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value:
+      - cold
+      - necrotic
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common, Dissonant; telepathy 120 ft.
+  skills:
+    acr:
+      value: 1
+      ability: ''
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: cCjntfwmFQ0RDjwH
+  name: Discordant Restoration
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the hunger dies outside Cacophony, its body crumbles to ash, and it gains a new body instantly, reviving with all its Hit Points somewhere in Cacophony.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: discordant-restoration
+  _key: '!actors.items!c31ZqLVOlCSC76gl.cCjntfwmFQ0RDjwH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: QKzJiPRqFxBhHH2k
+  name: Spider Climb
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The hunger can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: spider-climb
+  _key: '!actors.items!c31ZqLVOlCSC76gl.QKzJiPRqFxBhHH2k'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: QjyeBuV7Bd8tA97a
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The hunger makes two Claw attacks. It can replace one Claw attack with a use of Siphon Life.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      vC76LdqjjMcI8KaK:
+        _id: vC76LdqjjMcI8KaK
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!c31ZqLVOlCSC76gl.QjyeBuV7Bd8tA97a'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: JRcQoHDexNydkwPV
+  name: Claw
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 9 (2d8) Cold damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13)
+        from one of two claws.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      c9EzDaqdobis5xGH:
+        _id: c9EzDaqdobis5xGH
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '6'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 8
+            bonus: ''
+            types:
+            - cold
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: claw
+  _key: '!actors.items!c31ZqLVOlCSC76gl.JRcQoHDexNydkwPV'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: WJUpWaf3yQlqqfCR
+  name: Siphon Life
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 14, one creature within 5 feet that has the Grappled, Incapacitated, or Restrained condition. Failure: The target takes 5 (1d4 + 3) Necrotic damage and gains
+        1 Exhaustion level. The hunger regains 10 Hit Points.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      t3Z4ESE1lOJGIMfV:
+        _id: t3Z4ESE1lOJGIMfV
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '14'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: siphon-life
+  _key: '!actors.items!c31ZqLVOlCSC76gl.WJUpWaf3yQlqqfCR'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: hdykcGoHF13D1Mlp
+  name: Quell Warmth
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 14, each creature in a 20-foot Cone. Failure: The target takes 17 (5d6) Cold damage, its Speed is halved, and it has</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '6'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      5anfNiWN4UEUpMXS:
+        _id: 5anfNiWN4UEUpMXS
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '14'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: quell-warmth
+  _key: '!actors.items!c31ZqLVOlCSC76gl.hdykcGoHF13D1Mlp'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: x73ZGllsBTH9s0DY
+  name: Disadvantage on attack rolls and ability checks
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The target repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Success: Half damage only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      l2RQwsodtI0tI6OZ:
+        _id: l2RQwsodtI0tI6OZ
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: disadvantage-on-attack-rolls-and-ability-checks
+  _key: '!actors.items!c31ZqLVOlCSC76gl.x73ZGllsBTH9s0DY'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Cmn194us3MGz3ESx
+  name: Ashen Step
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The hunger teleports up to 30 feet to an unoccupied space it can see. A creature Grappled by the hunger must succeed on a DC 14 Charisma saving throw or teleport with it.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      nABwGm6R4Nim3ClL:
+        _id: nABwGm6R4Nim3ClL
+        type: save
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - cha
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: ashen-step
+  _key: '!actors.items!c31ZqLVOlCSC76gl.Cmn194us3MGz3ESx'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Hollow Hunger
+  texture:
+    src: modules/neon-odyssey/icons/creatures/hollow-hunger-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!c31ZqLVOlCSC76gl'

@@ -1,0 +1,792 @@
+_id: RHmNUKnY1Qn0HWRw
+name: Crag Crawler
+type: npc
+img: modules/neon-odyssey/icons/creatures/crag-crawler.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 1
+    dex:
+      value: 15
+      proficient: 0
+    con:
+      value: 16
+      proficient: 0
+    int:
+      value: 6
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 1
+    cha:
+      value: 8
+      proficient: 0
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+    hp:
+      value: 114
+      max: 114
+      formula: 12d12 + 36
+      temp: null
+      tempmax: null
+    movement:
+      walk: '45'
+      climb: '30'
+      swim: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 5
+    type:
+      value: monstrosity
+      subtype: ''
+      custom: ''
+    alignment: Unaligned
+    biography:
+      value: '<p>CRAG CRAWLER</p><p>Territorial Cliff Dwellers</p><p>Habitat: Coastal, Desert, Forest, Mountain; Treasure: None</p><p>Crag crawlers are incredibly aggressive and territorial hunters  that
+        typically make their home in dugouts along steep  cliffsides. They climb along the crags to gain an advantageous  position to strike at potential prey or even encroaching  predators with their hooked
+        claws and serrated tail. These  crawlers are just as comfortable living a semi-aquatic life  along sea cliffs as they are hunting in desert canyons, and  every biome in between.</p><p>Crag Crawler</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: huge
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: None
+  skills:
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: i5ElePvqMDCkC1Ky
+  name: Amphibious
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The crawler can breathe air and water.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: amphibious
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.i5ElePvqMDCkC1Ky'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: a03jP9p1QwWfFP2H
+  name: Spider Climb
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The crawler can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: spider-climb
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.a03jP9p1QwWfFP2H'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: pmyBx0yfiiiiUtEG
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The crawler makes one Bite attack and one</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      XWPefCPwB7aRmctO:
+        _id: XWPefCPwB7aRmctO
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.pmyBx0yfiiiiUtEG'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 4WKyXZ09bCTJJhGz
+  name: Pincer attack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>It can replace one attack with a Rending Tail attack.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      wf7NGbu2vDeZtYiM:
+        _id: wf7NGbu2vDeZtYiM
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: pincer-attack
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.4WKyXZ09bCTJJhGz'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 0BRTVPzfSAro57oo
+  name: Bite
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +7 (with Advantage if the target is Grappled by the crawler), reach 5 ft. Hit: 20 (3d10 + 4) Slashing damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      fQUV0RWUCtAZK6BA:
+        _id: fQUV0RWUCtAZK6BA
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 3
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: bite
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.0BRTVPzfSAro57oo'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Cttf0dYr45emW4Pp
+  name: Pincer
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +7, reach 10 ft. Hit: 14 (3d6 + 4)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      NNmcn2j5dsObF2Ol:
+        _id: NNmcn2j5dsObF2Ol
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '10'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: pincer
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.Cttf0dYr45emW4Pp'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: SFobLQ7O9LYbE7jB
+  name: Piercing damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two Pincers.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      fUQlf8teeXh86qwK:
+        _id: fUQlf8teeXh86qwK
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: piercing-damage
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.SFobLQ7O9LYbE7jB'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: x9TlChi0686enEeB
+  name: Rending Tail
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage. If the target is wearing armor, it is subjected to the following effect. Dexterity Saving Throw:</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      OndtfKsZwlPftkNQ:
+        _id: OndtfKsZwlPftkNQ
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '10'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: rending-tail
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.x9TlChi0686enEeB'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: cygeTCeeyYJ8c3YH
+  name: DC 15
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Failure: The target’s armor takes a −1 penalty to the AC it offers. Armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the Mending spell on the
+        armor.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      qvR8m8lcLhZbG80y:
+        _id: qvR8m8lcLhZbG80y
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: dc-15
+  _key: '!actors.items!RHmNUKnY1Qn0HWRw.cygeTCeeyYJ8c3YH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Crag Crawler
+  texture:
+    src: modules/neon-odyssey/icons/creatures/crag-crawler-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!RHmNUKnY1Qn0HWRw'

@@ -1,0 +1,432 @@
+_id: euIlOzNI6WGSyhew
+name: Space Pirate
+type: npc
+img: modules/neon-odyssey/icons/creatures/space-pirate.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 15
+      proficient: 0
+    dex:
+      value: 12
+      proficient: 0
+    con:
+      value: 13
+      proficient: 0
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 9
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 22
+      max: 22
+      formula: 4d8 + 4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.25
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>SPACE PIRATES</p><p>Scourges of the Aether Currents</p><p>Habitat: Outer Space; Treasure: Individual</p><p>Space pirates are bloodthirsty cutthroats that terrorize the  aether currents
+        and far reaches of space aboard ships built for  raiding and pillaging. They prey on unsuspecting vessels for  their cargo and whatever other valuables can be plundered.</p><p>Some pirates will
+        capture their victims for a hefty ransom,  while others leave no survivors to tell the tale.</p><p>SPACE PIRATE</p><p>SPACE PIRATE</p><p>Space pirates make up most of the crew aboard a pirate ship,  serving
+        just as much as deckhands as they do as raiders. They  are motivated by greed and have little loyalty for the crew they  serve with. They often make boarding attempts by the dozen  with jet boots
+        and hooks, hoping to reach the enemy ship  before they tumble off, lost in space.</p><p>SPACE PIRATE REAVER</p><p>SPACE PIRATE REAVER</p><p>Space pirate reavers are the ferocious fighters of a crew,
+        relishing  in the thrill of battle with their brethren beside them. With brutal  boarding axes, they cleave through hulls and defending parties  with reckless abandon until nothing stands in between
+        them and  their loot. With their scattershot guns, they can clear corridors  and cabins of hapless spacers with ease.</p><p>Space Pirate</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: 'Common, Smuggler’s Slang, plus one other '
+  skills:
+    sur:
+      value: 1
+      ability: ''
+    ath:
+      value: 1
+      ability: ''
+items:
+- _id: CozaRs45VG6fiLjl
+  name: Bloodied Frenzy
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>While Bloodied, the pirate has Advantage on attack rolls and saving throws.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: bloodied-frenzy
+  _key: '!actors.items!euIlOzNI6WGSyhew.CozaRs45VG6fiLjl'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: n7SqaG5oIHd2P06u
+  name: Scrap Hook
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, and the target has the Prone condition.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ioRC7NQjOldsgBl1:
+        _id: ioRC7NQjOldsgBl1
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: scrap-hook
+  _key: '!actors.items!euIlOzNI6WGSyhew.n7SqaG5oIHd2P06u'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: novNAuK8XLCjtgNC
+  name: Light Laser Pistol
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +5 (being within 5 feet of an enemy doesn’t impose Disadvantage), range 80/320 ft. Hit: 5 (1d6 + 2) Radiant damage, and the target has Disadvantage on attack rolls until
+        the start of the pirate’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      TnZ1ImsNb51OvvRg:
+        _id: TnZ1ImsNb51OvvRg
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '80'
+          long: '320'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: light-laser-pistol
+  _key: '!actors.items!euIlOzNI6WGSyhew.novNAuK8XLCjtgNC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: wjmOly6RuDwY84J8
+  name: Jump Jets
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The pirate gains a Flying Speed of 30 feet until the end of the turn. If the pirate is still aloft at that time, it falls.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '5'
+        type: recoverAll
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      AkbvI1RPN52JctCn:
+        _id: AkbvI1RPN52JctCn
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: jump-jets
+  _key: '!actors.items!euIlOzNI6WGSyhew.wjmOly6RuDwY84J8'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Space Pirate
+  texture:
+    src: modules/neon-odyssey/icons/creatures/space-pirate-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!euIlOzNI6WGSyhew'

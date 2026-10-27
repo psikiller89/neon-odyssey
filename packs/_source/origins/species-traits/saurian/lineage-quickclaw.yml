@@ -10,12 +10,13 @@ effects:
   img: null
   type: base
   system:
-    changes: []
-  changes:
-  - key: system.skills.ste.value
-    mode: 4
-    value: '1'
-    priority: null
+    changes:
+    - key: system.skills.ste.value
+      value: '1'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: uLx8eyUTW3MSz7dH
   statuses: []
   transfer: true
   disabled: false

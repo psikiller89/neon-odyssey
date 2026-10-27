@@ -1,0 +1,292 @@
+_id: nrlI047Gt9RYz3CG
+name: Weird Scientist Labtech
+type: npc
+img: modules/neon-odyssey/icons/creatures/weird-scientist-labtech.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+    dex:
+      value: 12
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 16
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 11
+      proficient: 0
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 39
+      max: 39
+      formula: 6d8 +12
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.5
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>WEIRD SCIENTISTS</p><p>Inventors of the Impossible</p><p>Habitat: Any; Treasure: Arcana, Implements</p><p>Weird scientists take the rigorous, highly controlled  experiments that a standard
+        scientist might conduct and  push them beyond the realm of what most consider proper  or reasonable. They throw caution to the wind and ignore the  laws of physics, hoping to achieve the impossible.
+        However,  it is a dangerous line of work, and many of these scientists  suffer explosive ends at the hands of their own experiments  or inventions.</p><p>WEIRD SCIENTIST LABTECH</p><p>WEIRD SCIENTIST
+        LABTECH</p><p>Weird scientist labtechs are newcomers to strange research,  often serving as test subjects or experiment fodder  themselves. They typically work under an experienced weird  scientist
+        dutifully and loyally, despite the treacherous working  conditions. If threatened, these labtechs have bizarre gadgets  at their disposal, but whether or not they can control the  tools’ effectiveness
+        is another question altogether.</p><p>WEIRD SCIENTIST</p><p>WEIRD SCIENTIST</p><p>Weird scientists are masters of the strange and  unconventional in scientific pursuits, having survived  innumerable
+        mishaps, explosions, leaks, and other  experimental disasters. No matter how far they rise, they  are never satisfied and are always looking toward the  next discovery or invention of the absurd.
+        Their  wide array of gizmos allows them to unleash a  plethora of unpredictable effects.</p><p>Weird Scientist Labtech</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - acid
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common plus one other language
+  skills:
+    arc:
+      value: 1
+      ability: ''
+items:
+- _id: ZXafllHiCONLqMLD
+  name: Hand Zapper
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft. Hit: 6 (1d6 + 3) Lightning damage, and the target can’t take Reactions until the start of the labtech’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ovgtTN6icHkNsSuv:
+        _id: ovgtTN6icHkNsSuv
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '30'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: hand-zapper
+  _key: '!actors.items!nrlI047Gt9RYz3CG.ZXafllHiCONLqMLD'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: lMFwGPnLkilwFvHC
+  name: Experimental Gadget Ray
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +5, range 60/240 ft. Hit: 6 (1d8 + 1d4) damage of a type randomly determined from the following: Acid, Necrotic, Poison, or Radiant.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      NBKcLtR1poLr3PGu:
+        _id: NBKcLtR1poLr3PGu
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '60'
+          long: '240'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: experimental-gadget-ray
+  _key: '!actors.items!nrlI047Gt9RYz3CG.lMFwGPnLkilwFvHC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Weird Scientist Labtech
+  texture:
+    src: modules/neon-odyssey/icons/creatures/weird-scientist-labtech-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!nrlI047Gt9RYz3CG'

@@ -1,0 +1,653 @@
+_id: YBIV6TOauGKiJ0A7
+name: Hive Ravager
+type: npc
+img: modules/neon-odyssey/icons/creatures/hive-ravager.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 14
+      proficient: 1
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 1
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 14
+      calc: natural
+    hp:
+      value: 120
+      max: 120
+      formula: 16d10 + 32
+      temp: null
+      tempmax: null
+    movement:
+      walk: '40'
+      climb: '40'
+      burrow: '40'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 5
+    type:
+      value: fiend
+      subtype: ''
+      custom: ''
+    alignment: Chaotic Evil
+    biography:
+      value: '<p>HIVE RAVAGER</p><p>Frontline Soldier of the Swarm</p><p>Habitat: Planar (Cacophony); Treasure: Armaments</p><p>Hive ravagers are the rank and file of Instinct Discordant  swarms. They are
+        typically employed in the swarming hordes  of nearly endless Fiends that consume any civilization in their  path, but they also guard the egg chambers and spawning  pools within their great hives.
+        Anything that isn’t torn apart by  their scythe-like arms and jagged spines are dissolved in the  deadly acid that drips from their maws.</p><p>Hive Ravager</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value: []
+    di:
+      value:
+      - acid
+    ci:
+      value:
+      - charmed
+      - frightened
+    languages:
+      value: []
+      custom: 'Common, Dissonant; telepathy 120 ft. (with other '
+  skills:
+    ath:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: 7rDdpljpEtgC8Ql1
+  name: Discordant Restoration
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the ravager dies outside Cacophony, its body dissolves into ichor, and it gains a new body with all its Hit Points somewhere in Cacophony.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: discordant-restoration
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.7rDdpljpEtgC8Ql1'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 0IrYnFLOCCHTVUZQ
+  name: Instinctual Avoidance
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the ravager fails a Strength, Dexterity, or Constitution saving throw, it can choose to succeed instead.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: instinctual-avoidance
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.0IrYnFLOCCHTVUZQ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: zVBUz3r85K6CSvHW
+  name: Pack Tactics
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The ravager has Advantage on an attack roll against a creature if at least one of the ravager’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: pack-tactics
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.zVBUz3r85K6CSvHW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: q81s2sbU6RNd5mOp
+  name: Siege Monster
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The ravager deals double damage to objects and structures.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: siege-monster
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.q81s2sbU6RNd5mOp'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: mpnRa5kBMR5nwopR
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The ravager makes two attacks, using Scythe Claw or Caustic Spine in any combination.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      swOTLDLubzw6Luae:
+        _id: swOTLDLubzw6Luae
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.mpnRa5kBMR5nwopR'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: NYDKR7g9uCOH9ID8
+  name: Scythe Claw
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d12 + 3) Slashing damage plus 7 (2d6) Acid damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      jfMAzo6F4VAv66xB:
+        _id: jfMAzo6F4VAv66xB
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '6'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 12
+            bonus: '@mod'
+            types:
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - acid
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '10'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: scythe-claw
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.NYDKR7g9uCOH9ID8'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 4tyqno7lasobAUxS
+  name: Caustic Spine
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +6, range 30 ft. Hit: 6 (1d6 + 3) Piercing damage plus 10 (3d6) Acid damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      cLB9lNVh20jdTHeW:
+        _id: cLB9lNVh20jdTHeW
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '6'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 3
+            denomination: 6
+            bonus: ''
+            types:
+            - acid
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '30'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: caustic-spine
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.4tyqno7lasobAUxS'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: TpvbrGagsScxO28P
+  name: Acid Spew
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Dexterity Saving Throw: DC 13, each creature in a 30-foot Cone. Failure: 19 (3d12) Acid damage. Success: Half damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '4'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      hQgiqghOb9Kn8QgP:
+        _id: hQgiqghOb9Kn8QgP
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '13'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: acid-spew
+  _key: '!actors.items!YBIV6TOauGKiJ0A7.TpvbrGagsScxO28P'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Hive Ravager
+  texture:
+    src: modules/neon-odyssey/icons/creatures/hive-ravager-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!YBIV6TOauGKiJ0A7'

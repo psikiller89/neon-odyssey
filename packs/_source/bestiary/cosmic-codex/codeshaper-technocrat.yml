@@ -1,0 +1,611 @@
+_id: vwOeSS5RCsb74S6Y
+name: Codeshaper Technocrat
+type: npc
+img: modules/neon-odyssey/icons/creatures/codeshaper-technocrat.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 1
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 21
+      proficient: 1
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 12
+      proficient: 0
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+    hp:
+      value: 165
+      max: 165
+      formula: 30d8 + 30
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 12
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: <p>Codeshaper</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - force
+      - lightning
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common, SIGNAL
+  skills: {}
+items:
+- _id: j4PTNYcoCH7smWbV
+  name: Consciousness Upload
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the technocrat dies outside the Hypergrid, its consciousness awakens somewhere in the Hypergrid in a digital body 1d4 hours later with all its Hit</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: consciousness-upload
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.j4PTNYcoCH7smWbV'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: sQTnYzRvz1FhhC7r
+  name: Points
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>It regains any expended uses of its actions, and its creature type changes to Construct. It then loses this trait.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: points
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.sQTnYzRvz1FhhC7r'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: AW4jdAus5husijZH
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The technocrat makes two Data Breach attacks and uses Grid Shock.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      hydYcHwnwnUuDrOf:
+        _id: hydYcHwnwnUuDrOf
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.AW4jdAus5husijZH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: czkibWPcGUOpmHAH
+  name: Data Breach
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +9, reach 15 ft. or range 90 ft. Hit: 27 (4d10 + 5) Force damage, and the technocrat learns one secret of its choice from the target’s mind or any data storage
+        devices the target carries.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      mNbr2ovslIFHKSGB:
+        _id: mNbr2ovslIFHKSGB
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '9'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 4
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '90'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: data-breach
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.czkibWPcGUOpmHAH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: KCX4zjPubVRSowgk
+  name: Grid Shock
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 17, one or two creatures the mage can see within 60 feet. Failure: 18 (4d8) Lightning damage, and the target has the Stunned condition until the start of the
+        technocrat’s next turn. Success: Half damage only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      7GSgBlIbNDjalMnD:
+        _id: 7GSgBlIbNDjalMnD
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '17'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: grid-shock
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.KCX4zjPubVRSowgk'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 8OWbc1KlADwyt3T7
+  name: Spellcasting
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The technocrat casts one of the following spells, using Intelligence as the spellcasting ability (save DC 17): At Will: Dancing Lights, Mage Armor (included in AC), Mage Hand, Message,
+        Minor Illusion 2/Day Each: Lightning Bolt (level 7 version), Locate Creature 1/Day Each: Arcane Eye, Chain Lightning, Knock, Modify Memory, Sending, Teleportation Circle, Wall of Force</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      g82mONARtVQmRdxd:
+        _id: g82mONARtVQmRdxd
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: spellcasting
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.8OWbc1KlADwyt3T7'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: tTy4bI1C14X0gskx
+  name: Escape Key
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The technocrat is hit by an attack roll. Response: The technocrat gains a +5 bonus to AC against the triggering attack. If this causes the attack to miss, the technocrat teleports
+        to an unoccupied space it can see within 30 feet or to an unoccupied space within 120 feet that is within 5 feet of a computer terminal. </p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      Xnp2ZTrR3zlICuTC:
+        _id: Xnp2ZTrR3zlICuTC
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: escape-key
+  _key: '!actors.items!vwOeSS5RCsb74S6Y.tTy4bI1C14X0gskx'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Codeshaper Technocrat
+  texture:
+    src: modules/neon-odyssey/icons/creatures/codeshaper-technocrat-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!vwOeSS5RCsb74S6Y'

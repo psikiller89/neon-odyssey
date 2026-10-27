@@ -1,0 +1,667 @@
+_id: GSOIciSb2t8XEHS4
+name: Battle Bot Heavy
+type: npc
+img: modules/neon-odyssey/icons/creatures/battle-bot-heavy.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 19
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 0
+    con:
+      value: 16
+      proficient: 1
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 12
+      proficient: 0
+  attributes:
+    ac:
+      flat: 17
+      calc: natural
+    hp:
+      value: 102
+      max: 102
+      formula: 12d10 + 36
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 5
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: <p>Battle Bot Heavy</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value: []
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - charmed
+      - exhaustion
+      - frightened
+    languages:
+      value: []
+      custom: Common, SIGNAL
+  skills: {}
+items:
+- _id: f0geVDdWCYExlgbm
+  name: Tactical Network
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The heavy is aware of what allied creatures that have this trait and are within 1 mile see, hear, and feel. This trait doesn’t function (to sense or send) while the heavy has the Incapacitated
+        condition or is in an area of jamming.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: tactical-network
+  _key: '!actors.items!GSOIciSb2t8XEHS4.f0geVDdWCYExlgbm'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: o4KsL218Icm8sBw0
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The heavy makes two attacks, using Slam or Wrist Blaster in any combination.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      b7Jxx6ngNWP6pTva:
+        _id: b7Jxx6ngNWP6pTva
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!GSOIciSb2t8XEHS4.o4KsL218Icm8sBw0'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 4r1YWUYNAUtZGaFo
+  name: Slam
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      m8MrsKTE8pux2VL9:
+        _id: m8MrsKTE8pux2VL9
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: slam
+  _key: '!actors.items!GSOIciSb2t8XEHS4.4r1YWUYNAUtZGaFo'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: U2nRVRZLwEuCbYmB
+  name: Bludgeoning damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the target is a Large or smaller creature, it has the Prone condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      SpmL8neIyZRQjERk:
+        _id: SpmL8neIyZRQjERk
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: bludgeoning-damage
+  _key: '!actors.items!GSOIciSb2t8XEHS4.U2nRVRZLwEuCbYmB'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: PMeQUcaI7ueWv7uK
+  name: Wrist Blaster
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +7, range 80/320 ft. Hit: 13 (2d8 + 4) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      du9QYMWR5dVKeD3Y:
+        _id: du9QYMWR5dVKeD3Y
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '80'
+          long: '320'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: wrist-blaster
+  _key: '!actors.items!GSOIciSb2t8XEHS4.PMeQUcaI7ueWv7uK'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: omm9qsQFn3bQl1jT
+  name: Suppressing Fire
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The heavy lays down a hail of laser fire in a 10-foot Cube centered on a point within 80 feet until the start of its next turn. Each creature in the Cube when it appears is subjected to
+        the following effect. Dexterity Saving Throw: DC 15. Failure: 13 (2d8 + 4)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '5'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      VP0xMRWPzOdaKUxU:
+        _id: VP0xMRWPzOdaKUxU
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '15'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: suppressing-fire
+  _key: '!actors.items!GSOIciSb2t8XEHS4.omm9qsQFn3bQl1jT'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: KXsxUbSYUHsakdfZ
+  name: Radiant damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Success: Half damage. While the Cube persists, the area is Difficult Terrain, and a creature in the area has Disadvantage on attack rolls. When a creature moves into, out of, or within
+        the area, it takes 4 (1d8) Radiant damage for every 5 feet it travels. Battle Bot Devastator</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      d1lwWrZTNpSFezpa:
+        _id: d1lwWrZTNpSFezpa
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: radiant-damage
+  _key: '!actors.items!GSOIciSb2t8XEHS4.KXsxUbSYUHsakdfZ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Battle Bot Heavy
+  texture:
+    src: modules/neon-odyssey/icons/creatures/battle-bot-heavy-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!GSOIciSb2t8XEHS4'

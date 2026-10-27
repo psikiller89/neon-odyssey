@@ -1,0 +1,735 @@
+_id: MG8Vcl2SICDCFVt9
+name: Drift Gaunt Cadet
+type: npc
+img: modules/neon-odyssey/icons/creatures/drift-gaunt-cadet.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+    dex:
+      value: 9
+      proficient: 0
+    con:
+      value: 14
+      proficient: 1
+    int:
+      value: 4
+      proficient: 0
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 6
+      proficient: 0
+  attributes:
+    ac:
+      flat: 15
+      calc: natural
+    hp:
+      value: 71
+      max: 71
+      formula: 11d8 + 22
+      temp: null
+      tempmax: null
+    movement:
+      walk: '20'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 3
+    type:
+      value: undead
+      subtype: ''
+      custom: ''
+    alignment: Chaotic Evil
+    biography:
+      value: "<p>DRIFT GAUNTS</p><p>The Ones Who Never Came Home</p><p>Habitat: Space; Treasure: Armaments</p><p>Few things are as horrifying as a space explorer losing their  tether back to their ship.\
+        \ They drift until they die from aether  radiation, dehydration, or despair. Sinister powers feast upon  their terror and grief, and when they are done, the bones  still hunger. \t Drift gaunts\
+        \ lurk in ruined space stations, lunar bases, and the  wreckage of space battles. The bones still wear their space suits,  often with the armor punctured or the helm shattered, and inflict  the\
+        \ irradiated doom that claimed them upon any they encounter.</p><p>DRIFT GAUNT CADET</p><p>DRIFT GAUNT CADET</p><p>Some lingering impulse still binds drift gaunts to their chain  of command. Drift\
+        \ gaunt cadets were once enlisted or junior  officers, and they instinctively obey commands from higher- ranking drift gaunts—regardless of their society of origin. More  rarely, they attempt to\
+        \ rejoin the service branch they belonged  to in life, only to attack their former comrades. Tall tales told in  every spaceport speak of drift gaunts spending an eternity in  drill formation, awaiting\
+        \ their commander’s return.</p><p>DRIFT GAUNT LIEUTENANT</p><p>DRIFT GAUNT LIEUTENANT</p><p>Drift gaunt lieutenants were once intrepid explorers or special  forces operatives. Now they gather drift\
+        \ gaunt cadets into their  command and lead them against isolated space stations or lunar  outposts. They tend to have visible insignia of their former lives.</p><p>DRIFT GAUNT COMMANDER</p><p>DRIFT\
+        \ GAUNT COMMANDER</p><p>Formerly famous explorers or fearless warriors, drift gaunt  commanders are outfitted with cutting-edge weapons, space  suits, and other technology. Undeath means they can\
+        \ never  enjoy their reputation and acclaim, and now they are doomed  to a bitter eternity of vengeance against the living.</p><p>Drift Gaunt Cadet</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - cold
+      - necrotic
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - exhaustion
+      - paralyzed
+      - poisoned
+    languages:
+      value: []
+      custom: Understands Common but can’t speak
+  skills: {}
+items:
+- _id: 6sryDvHM6wgKTqvH
+  name: Undead Fortitude
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If damage reduces the drift gaunt to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: undead-fortitude
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.6sryDvHM6wgKTqvH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: oKFEFmXOVdli5wOZ
+  name: Critical Hit
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>On a successful save, the drift gaunt drops to 1 Hit Point instead.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: critical-hit
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.oKFEFmXOVdli5wOZ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 6ghanEN5AHl5CGXP
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drift gaunt makes two Irradiated Slam attacks or two Laser Carbine attacks. It can replace one attack with a use of Unmask if available.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      LcaX7Cqjv7twiQ3D:
+        _id: LcaX7Cqjv7twiQ3D
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.6ghanEN5AHl5CGXP'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 52DoxjrEVcAGvSKu
+  name: Irradiated Slam
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 4 (1d8) Necrotic damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      9dXEgkiNVgiiHrZs:
+        _id: 9dXEgkiNVgiiHrZs
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+            - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: irradiated-slam
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.52DoxjrEVcAGvSKu'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 61vAefF6kJvqWtv4
+  name: Laser Carbine
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +5, range 150/600 ft. Hit: 10 (2d6 + 3) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      pWUFGcH5HNNEA5kl:
+        _id: pWUFGcH5HNNEA5kl
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '150'
+          long: '600'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: laser-carbine
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.61vAefF6kJvqWtv4'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 9z1JFIK4KsQZNv5Z
+  name: Unmask
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 13, each non-Undead creature in a 20-foot Emanation originating from the drift gaunt. Failure: 11 (2d10) Necrotic damage, and the creature has the Poisoned
+        condition until the start of the drift gaunt’s next turn. Success: Half damage only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      jMkEpHEXXMaSUbT9:
+        _id: jMkEpHEXXMaSUbT9
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '13'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: unmask
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.9z1JFIK4KsQZNv5Z'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: QPRLW1wTPhV2eveE
+  name: Air Jets
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drift gaunt releases compressed air to move up to 10 feet in any direction without provoking</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      WTiBrs4RmQpxm5jw:
+        _id: WTiBrs4RmQpxm5jw
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: air-jets
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.QPRLW1wTPhV2eveE'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: PS9EuJE3EVep2tpa
+  name: Opportunity Attacks
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>This distance is doubled in environments with reduced or no gravity.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      aHewWaHnOcOyLaf9:
+        _id: aHewWaHnOcOyLaf9
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: opportunity-attacks
+  _key: '!actors.items!MG8Vcl2SICDCFVt9.PS9EuJE3EVep2tpa'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Drift Gaunt Cadet
+  texture:
+    src: modules/neon-odyssey/icons/creatures/drift-gaunt-cadet-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!MG8Vcl2SICDCFVt9'

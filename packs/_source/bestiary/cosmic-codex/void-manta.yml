@@ -1,0 +1,663 @@
+_id: GZcyxUKwliTvhbG8
+name: Void Manta
+type: npc
+img: modules/neon-odyssey/icons/creatures/void-manta.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 16
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 180
+      max: 180
+      formula: 24d10 + 48
+      temp: null
+      tempmax: null
+    movement:
+      walk: '5'
+      fly: '50'
+      swim: '50'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: 120
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 10
+    type:
+      value: aberration
+      subtype: ''
+      custom: ''
+    alignment: Neutral Evil
+    biography:
+      value: '<p>VOID MANTA</p><p>Shadow of a Nightmare</p><p>Habitat: Forest, Planar (Abyssal Void); Treasure: None</p><p>Void mantas are one of the many alien things spawned from  the Abyssal Void. These
+        nightmarish creatures of the Deep  drift across both space and atmosphere, often hunting  unnoticed at high altitudes in pairs or trios. The fear of their  victims is their true feast, and they
+        prefer to devour flesh and  bone only once fully saturated in true terror.</p><p>Void Manta</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value:
+      - psychic
+    di:
+      value: []
+    ci:
+      value:
+      - frightened
+    languages:
+      value: []
+      custom: Understands Hadalic but can’t speak
+  skills:
+    acr:
+      value: 1
+      ability: ''
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: 8Fj2AReVlHVmYKU4
+  name: Spatial Distortion
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Attack rolls against the manta have Disadvantage, since it is slightly out of sync with the fabric of space. This trait is suppressed while the manta has the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: spatial-distortion
+  _key: '!actors.items!GZcyxUKwliTvhbG8.8Fj2AReVlHVmYKU4'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: WErH9CuOb47ExECV
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The manta makes two Tail attacks and uses Voidshadow if available.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      sQaV78Wzuf4fkKjT:
+        _id: sQaV78Wzuf4fkKjT
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!GZcyxUKwliTvhbG8.WErH9CuOb47ExECV'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: XEhXx5cjiDomn3bW
+  name: Tail
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +8, reach 10 ft. Hit: 22 (4d8 + 4)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      Lzboon6ScgTu5OtE:
+        _id: Lzboon6ScgTu5OtE
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '8'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '10'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: tail
+  _key: '!actors.items!GZcyxUKwliTvhbG8.XEhXx5cjiDomn3bW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: VobnH16yphuDw5EH
+  name: Piercing damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the target has the Frightened condition, the manta regains Hit Points equal to the damage taken. It can’t regain Hit Points in this way more than once per turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      RcxybKOvjPOEjNcn:
+        _id: RcxybKOvjPOEjNcn
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: piercing-damage
+  _key: '!actors.items!GZcyxUKwliTvhbG8.VobnH16yphuDw5EH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: araTbq9B0rTEWMd4
+  name: Voidshadow
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Wisdom Saving Throw: DC 15, each creature in a 60-foot Cone. Failure: The target takes 21 (4d8 + 3) Psychic damage and has the Frightened condition. The target repeats the save at the end
+        of its each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Success: Half damage only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '5'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      rBchzOaGBtlHDu3P:
+        _id: rBchzOaGBtlHDu3P
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - wis
+          dc:
+            calculation: ''
+            formula: '15'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: voidshadow
+  _key: '!actors.items!GZcyxUKwliTvhbG8.araTbq9B0rTEWMd4'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: ebA71Eiz5HP2CqZy
+  name: Void Slip
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The manta teleports up to 60 feet to an unoccupied space it can see. The destination space must be within 5 feet of another void manta or a creature with the</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      UNtcflx0EzAEMasV:
+        _id: UNtcflx0EzAEMasV
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: void-slip
+  _key: '!actors.items!GZcyxUKwliTvhbG8.ebA71Eiz5HP2CqZy'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: C3Pwj8KhjpAWW175
+  name: Frightened condition
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The manta gains Advantage on the first attack it makes before the end of its turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      RxQPlo9PF7a07eWw:
+        _id: RxQPlo9PF7a07eWw
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: frightened-condition
+  _key: '!actors.items!GZcyxUKwliTvhbG8.C3Pwj8KhjpAWW175'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Void Manta
+  texture:
+    src: modules/neon-odyssey/icons/creatures/void-manta-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!GZcyxUKwliTvhbG8'

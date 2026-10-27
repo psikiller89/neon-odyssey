@@ -85,43 +85,7 @@ system:
         visible: false
   enchant: {}
   identifier: spark-of-innovation
-  advancement:
-    8N6D9iRFC74dlp2o:
-      _id: 8N6D9iRFC74dlp2o
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbProtectionFro
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateObj
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplContingenc
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplForcecage0
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplIncendiary
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: '1'
-            per: lr
-            requireSlot: false
-          method: spell
-          prepared: 2
-      value: {}
-      level: 3
-      title: Spark of Innovation
-      hint: ''
+  advancement: {}
 effects: []
 folder: 09IhBNky5V3kpZ8Z
 sort: 0

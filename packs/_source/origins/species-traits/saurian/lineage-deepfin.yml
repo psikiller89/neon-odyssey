@@ -10,16 +10,19 @@ effects:
   img: null
   type: base
   system:
-    changes: []
-  changes:
-  - key: system.traits.dr.value
-    mode: 2
-    value: cold
-    priority: null
-  - key: system.attributes.movement.swim
-    mode: 4
-    value: '@attributes.movement.walk'
-    priority: null
+    changes:
+    - key: system.traits.dr.value
+      value: cold
+      priority: null
+      type: add
+      phase: initial
+      _id: VtlKq10iQzjvaRCw
+    - key: system.attributes.movement.swim
+      value: '@attributes.movement.walk'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: R1BHaZFtXcex8AOe
   statuses: []
   transfer: true
   disabled: false

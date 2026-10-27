@@ -1,0 +1,458 @@
+_id: xdgvJsuysgQ36VnM
+name: Boombot
+type: npc
+img: modules/neon-odyssey/icons/creatures/boombot.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 7
+      proficient: 0
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 7
+      proficient: 0
+  attributes:
+    ac:
+      flat: 14
+      calc: natural
+    hp:
+      value: 55
+      max: 55
+      formula: 10d6 + 20
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 3
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>BOOMBOT</p><p>Explosive Robotic Sentry</p><p>Habitat: Urban; Treasure: None</p><p>Boombots are built for location defense, serving as both  security camera and mobile land mine. Appearing
+        as spheres  with little feet and large eyes, they rigidly march through  the halls of the bases, headquarters, and lairs they are  programmed to defend, always keeping their sensors alert  for intruders,
+        which they attempt to subdue. If this fails, they  explode to slow down or destroy interlopers while alerting  nearby allies.</p><p>Boombot</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value:
+      - fire
+      - radiant
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - poisoned
+    languages:
+      value: []
+      custom: Common, SIGNAL
+  skills:
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: dKxC6lwSTannU1Mj
+  name: Explosive End
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The boombot explodes when it dies. The explosion can be heard up to 300 feet away. Dexterity Saving Throw: DC 12, each creature in a 10-foot Emanation originating from the boombot. Failure:
+        28 (8d6) Fire damage. Success: Half damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: explosive-end
+  _key: '!actors.items!xdgvJsuysgQ36VnM.dKxC6lwSTannU1Mj'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: IN6IUtvOEg19GDmN
+  name: Threat Assessment
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The boombot can’t be surprised.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: threat-assessment
+  _key: '!actors.items!xdgvJsuysgQ36VnM.IN6IUtvOEg19GDmN'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: CYvMEVojHBglfyN8
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The boombot makes two attacks, using Kick or Eye Lasers in any combination.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      5KBErRBkUmiHzUMX:
+        _id: 5KBErRBkUmiHzUMX
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!xdgvJsuysgQ36VnM.CYvMEVojHBglfyN8'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: m79sYPtqeBsgoWe2
+  name: Kick
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      HAjnpx71coBdx8aU:
+        _id: HAjnpx71coBdx8aU
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: kick
+  _key: '!actors.items!xdgvJsuysgQ36VnM.m79sYPtqeBsgoWe2'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: stCdi6b3UXrtuswc
+  name: Eye Lasers
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +4, range 60/240 ft. Hit: 9 (2d6 + 2) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      02J5OcemUwQXRTCM:
+        _id: 02J5OcemUwQXRTCM
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '60'
+          long: '240'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: eye-lasers
+  _key: '!actors.items!xdgvJsuysgQ36VnM.stCdi6b3UXrtuswc'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Boombot
+  texture:
+    src: modules/neon-odyssey/icons/creatures/boombot-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!xdgvJsuysgQ36VnM'

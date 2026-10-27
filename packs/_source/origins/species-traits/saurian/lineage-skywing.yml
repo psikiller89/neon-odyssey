@@ -10,12 +10,13 @@ effects:
   img: null
   type: base
   system:
-    changes: []
-  changes:
-  - key: system.attributes.movement.fly
-    mode: 4
-    value: '@attributes.movement.walk'
-    priority: null
+    changes:
+    - key: system.attributes.movement.fly
+      value: '@attributes.movement.walk'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: sQU4oZJGT0FShs6E
   statuses: []
   transfer: true
   disabled: false

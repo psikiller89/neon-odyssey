@@ -85,10 +85,10 @@ system:
       value: []
       custom: None
   skills:
-    acr:
+    ste:
       value: 1
       ability: ''
-    ste:
+    acr:
       value: 1
       ability: ''
     prc:

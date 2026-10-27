@@ -27,11 +27,126 @@ system:
     repeatable: false
   properties: []
   requirements: Machinist
-  activities: {}
+  activities:
+    NgiH8ElPFR4PHTG7:
+      _id: NgiH8ElPFR4PHTG7
+      type: enchant
+      name: Apply Schematic
+      img: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you finish a Short or Long Rest
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+      - _id: y2eIu4KQX2sUT5tF
+        uuid: null
+        level:
+          min: null
+          max: null
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: machinist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   identifier: hover-coils
   advancement: {}
-effects: []
+effects:
+- _id: y2eIu4KQX2sUT5tF
+  name: Hover Coils
+  img: icons/svg/upgrade.svg
+  type: enchantment
+  system:
+    changes:
+    - key: name
+      value: ', Hover Coils'
+      priority: null
+      type: add
+      phase: initial
+      _id: EXtcRw0m5rXXktUg
+    - key: system.properties
+      value: mgc
+      priority: null
+      type: add
+      phase: initial
+      _id: 3TTJtubPMkbppIlq
+    magical: true
+  disabled: true
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p><em>Prerequisite: Level 5+ Machinist</em></p><p><strong>Gear:</strong> Belt; boots; device The item gains 1 charge and regains its expended charge daily at dawn. A creature wearing the
+    item can expend 1 charge to cast <em>Levitate</em> on itself without a spell slot. When you use the item to cast the spell, the charge isn’t expended.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!jJe9kMJvQ6gbyFO1.y2eIu4KQX2sUT5tF'
 folder: rDqiq6VUZzbEUanT
 sort: 0
 _stats:

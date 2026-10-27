@@ -1,0 +1,580 @@
+_id: qfHTdNR7FXCxg793
+name: Ice Stalker
+type: npc
+img: modules/neon-odyssey/icons/creatures/ice-stalker.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 22
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 0
+    con:
+      value: 20
+      proficient: 1
+    int:
+      value: 5
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 0
+    cha:
+      value: 9
+      proficient: 0
+  attributes:
+    ac:
+      flat: 15
+      calc: natural
+    hp:
+      value: 136
+      max: 136
+      formula: 13d10 + 65
+      temp: null
+      tempmax: null
+    movement:
+      walk: '40'
+      climb: '40'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 8
+    type:
+      value: monstrosity
+      subtype: ''
+      custom: ''
+    alignment: Unaligned
+    biography:
+      value: '<p>ICE STALKER</p><p>Terror of the Tundra</p><p>Habitat: Arctic; Treasure: None</p><p>The apex predators of frigid climates, ice stalkers claim vast  territories across the galaxy, and the
+        tundras, mountains,  and frozen shorelines are their hunting grounds. Perfectly  camouflaged amid snow and ice, they shadow their prey  for days. When they strike, their hooked claws open deep  wounds,
+        allowing them to follow the scent of blood when  snowstorms obscure their quarry.</p><p>Traits</p><p>Abduct. The stalker needn’t spend extra movement to  move a creature it is grappling.</p><p>Blood
+        Tracker. The stalker has Advantage on Wisdom  checks made to find or track any creature that doesn’t have  all its Hit Points.</p><p>Ice Walk. The stalker can move across and climb icy surfaces  without
+        needing to make an ability check, and Difficult Terrain  composed of ice or snow doesn’t cost it extra movement.</p><p>Actions</p><p>Multiattack. The stalker makes one Bite attack and two</p><p>Claw
+        attacks.</p><p>Bite. Melee Attack Roll: +9, reach 5 ft. Hit: 17  (2d10 + 6) Piercing damage, and the target has the</p><p>Grappled condition (escape DC 16).</p><p>Claw. Melee Attack Roll: +9, reach
+        10 ft. Hit: 13 (2d6 + 6)</p><p>Slashing damage. If the target is a creature and doesn’t  already have a ragged wound, it is subjected to the following  effect. Constitution Saving Throw: DC 17.
+        Failure: The target  receives a ragged wound. While wounded, the target loses 7  (2d6) Hit Points at the start of each of its turns. The wound  closes after 1 minute, after the target regains any
+        Hit Points,  or after the target or a creature within 5 feet of it takes an  action to stanch the wound, doing so by succeeding on a</p><p>DC 17 Wisdom (Medicine) check.</p><p>Ice Stalker</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value: []
+    di:
+      value:
+      - cold
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: None
+  skills:
+    sur:
+      value: 1
+      ability: ''
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: UaAGWXGSjWR2k6lt
+  name: Abduct
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The stalker needn’t spend extra movement to move a creature it is grappling.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: abduct
+  _key: '!actors.items!qfHTdNR7FXCxg793.UaAGWXGSjWR2k6lt'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 1LJpjyTAxIV323Po
+  name: Blood Tracker
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The stalker has Advantage on Wisdom checks made to find or track any creature that doesn’t have all its Hit Points.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: blood-tracker
+  _key: '!actors.items!qfHTdNR7FXCxg793.1LJpjyTAxIV323Po'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 4AXnC2CEVIbOcmsk
+  name: Ice Walk
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The stalker can move across and climb icy surfaces without needing to make an ability check, and Difficult Terrain composed of ice or snow doesn’t cost it extra movement.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: ice-walk
+  _key: '!actors.items!qfHTdNR7FXCxg793.4AXnC2CEVIbOcmsk'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: aUDhTOUQBiDg27oV
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The stalker makes one Bite attack and two Claw attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      xLRue4BSJCJowK8p:
+        _id: xLRue4BSJCJowK8p
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!qfHTdNR7FXCxg793.aUDhTOUQBiDg27oV'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: v5wDctk7cij2iR6W
+  name: Bite
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +9, reach 5 ft. Hit: 17 (2d10 + 6) Piercing damage, and the target has the Grappled condition (escape DC 16).</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      NzgHmFY5Swjt7hGz:
+        _id: NzgHmFY5Swjt7hGz
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '9'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: bite
+  _key: '!actors.items!qfHTdNR7FXCxg793.v5wDctk7cij2iR6W'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: OtISo8dx6u34Efce
+  name: Claw
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +9, reach 10 ft. Hit: 13 (2d6 + 6)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ERguFU77i9yotkAG:
+        _id: ERguFU77i9yotkAG
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '9'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '10'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: claw
+  _key: '!actors.items!qfHTdNR7FXCxg793.OtISo8dx6u34Efce'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: msByc6rmKw8s3xNC
+  name: Slashing damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>If the target is a creature and doesn’t already have a ragged wound, it is subjected to the following effect. Constitution Saving Throw: DC 17. Failure: The target receives a ragged wound.
+        While wounded, the target loses 7 (2d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after the target regains any Hit Points, or after the target or a creature
+        within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check. Ice Stalker</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      9QvnLDW5tTUG8Rwv:
+        _id: 9QvnLDW5tTUG8Rwv
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '17'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: slashing-damage
+  _key: '!actors.items!qfHTdNR7FXCxg793.msByc6rmKw8s3xNC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Ice Stalker
+  texture:
+    src: modules/neon-odyssey/icons/creatures/ice-stalker-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!qfHTdNR7FXCxg793'

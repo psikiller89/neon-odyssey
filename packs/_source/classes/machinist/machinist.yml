@@ -372,12 +372,9 @@ system:
       type: ItemChoice
       configuration:
         choices:
-          '1':
-            count: null
-            replacement: false
           '2':
             count: 3
-            replacement: true
+            replacement: false
           '3':
             count: null
             replacement: true
@@ -466,7 +463,7 @@ system:
           list: []
       value: {}
       title: Hypertech Schematics
-      hint: ''
+      hint: Choose schematics you qualify for. Each schematic has a "Apply Schematic" button that enchants a piece of gear.
     c8sZY55NVosKgbaM:
       _id: c8sZY55NVosKgbaM
       type: ItemGrant
@@ -602,6 +599,150 @@ system:
       level: 20
       title: Class Features
       hint: ''
+    OXc3ZJugJTvuFUL5:
+      _id: OXc3ZJugJTvuFUL5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbProtectionFro
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 5
+      title: Spark of Innovation (level 3 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
+    6JtwlApbKnjKApVS:
+      _id: 6JtwlApbKnjKApVS
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFabricate0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 7
+      title: Spark of Innovation (level 4 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
+    tTPAYmXg0WjBQP2x:
+      _id: tTPAYmXg0WjBQP2x
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateObj
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCreation00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 9
+      title: Spark of Innovation (level 5 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
+    aK9tPz8frKjHysCT:
+      _id: aK9tPz8frKjHysCT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplContingenc
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDisintegra
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 11
+      title: Spark of Innovation (level 6 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
+    3T9bg4r4MC0xmYn3:
+      _id: 3T9bg4r4MC0xmYn3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplForcecage0
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSymbol0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 13
+      title: Spark of Innovation (level 7 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
+    dNN6ac91EIiEOwQc:
+      _id: dNN6ac91EIiEOwQc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplIncendiary
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordS
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: innate
+          prepared: 0
+      value: {}
+      level: 15
+      title: Spark of Innovation (level 8 spells)
+      hint: Cast one of these with Spark of Innovation without a spell slot; Spark recharges on a Long Rest.
   spellcasting:
     progression: artificer
     ability: int

@@ -27,11 +27,126 @@ system:
     repeatable: false
   properties: []
   requirements: Machinist
-  activities: {}
+  activities:
+    sPJLMu1M5dS2Eerb:
+      _id: sPJLMu1M5dS2Eerb
+      type: enchant
+      name: Apply Schematic
+      img: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you finish a Short or Long Rest
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+      - _id: acAOMskwyC2Lc3bg
+        uuid: null
+        level:
+          min: null
+          max: null
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: machinist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   identifier: refraction-generator
   advancement: {}
-effects: []
+effects:
+- _id: acAOMskwyC2Lc3bg
+  name: Refraction Generator
+  img: icons/svg/upgrade.svg
+  type: enchantment
+  system:
+    changes:
+    - key: name
+      value: ', Refraction Generator'
+      priority: null
+      type: add
+      phase: initial
+      _id: WlqYBhgd8tHi5sUS
+    - key: system.properties
+      value: mgc
+      priority: null
+      type: add
+      phase: initial
+      _id: 3TTJtubPMkbppIlq
+    magical: true
+  disabled: true
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p><em>Prerequisite: Level 9+ Machinist</em></p><p><strong>Gear:</strong> Device; Light, Medium, or Heavy armor When you apply this schematic, choose one of the following damage types: Acid,
+    Cold, Fire, Force, Lightning, Radiant, Necrotic, or Thunder. A creature wearing the item has Resistance to the chosen damage type.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!bsNZXQd5qblVj9W1.acAOMskwyC2Lc3bg'
 folder: rDqiq6VUZzbEUanT
 sort: 0
 _stats:

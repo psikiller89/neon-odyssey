@@ -55,3 +55,10 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 ## Rebuilding
 
 `tools/` contains the Python generators that read the PDFs and write `packs/_source`; `node build.mjs` compiles the packs.
+
+## v0.5.0 additions
+
+- **Cosmic Codex monsters:** 47 stat blocks (Abyssal Snapper through Weird Scientist) as NPC actors with book art, in the "Cosmic Codex Monsters" folder of the Bestiary & Summons compendium. Marines and Psi Minds have no art in the book and use the default token.
+- **Machinist – Hypertech Schematics:** chosen on level-up (3 at level 2, more per the table, one swap per later level), with level prerequisites enforced. Each schematic has an **Apply Schematic** enchant activity: drag your weapon/armor/gear onto the chat card to turn it into a hypertech item (Weapon/Shield/Armor Upgrade add their magic bonus; Armor Upgrade becomes +2 at Machinist 14).
+- **Machinist – Spark of Innovation:** spells are now granted per Machinist level (5, 7, 9, 11, 13, 15) instead of all at once, each castable once per Long Rest without a slot.
+- Fixed Active Effect format for Laika/Saurian lineage effects (Foundry v14).

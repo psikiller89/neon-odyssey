@@ -1,0 +1,536 @@
+_id: p0UUSGVIkaz3QDIe
+name: Security Bot
+type: npc
+img: modules/neon-odyssey/icons/creatures/security-bot.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 15
+      proficient: 1
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 13
+      proficient: 0
+    cha:
+      value: 1
+      proficient: 0
+  attributes:
+    ac:
+      flat: 15
+      calc: natural
+    hp:
+      value: 26
+      max: 26
+      formula: 4d8 + 8
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.5
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Unaligned
+    biography:
+      value: '<p>SECURITY BOT</p><p>Automated Security Solution</p><p>Habitat: Any; Treasure: None</p><p>Security bots are a ubiquitous feature of nearly all technology- based security systems. They are
+        designed for both offense  and defense to subdue and neutralize solo infiltrators and  violent mobs alike. These machines are best deployed  in groups, capable of monitoring multiple locations and  utilizing
+        their networked sensors to respond in unison should  any threats arise.</p><p>Security Bot</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - lightning
+    di:
+      value:
+      - poison
+      - psychic
+    ci:
+      value:
+      - exhaustion
+      - frightened
+      - poisoned
+    languages:
+      value: []
+      custom: Common, SIGNAL
+  skills:
+    ath:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: I0rwkABACAycRmx3
+  name: Networked Sensors
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>All allied security bots within 100 feet of each other can see and hear through each other’s senses simultaneously, gaining the benefits of any special senses one or more of them have. This
+        trait doesn’t function in an area of signal jamming.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: networked-sensors
+  _key: '!actors.items!p0UUSGVIkaz3QDIe.I0rwkABACAycRmx3'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Z8MrY4zMUa8KdsaU
+  name: Subduing Gauntlet
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d8) Lightning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12) from one of two hands. If the
+        target is reduced to 0 Hit Points from this attack, it is Stable and doesn’t make Death Saving Throws.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      wKF4RqGed9qfTMJT:
+        _id: wKF4RqGed9qfTMJT
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: subduing-gauntlet
+  _key: '!actors.items!p0UUSGVIkaz3QDIe.Z8MrY4zMUa8KdsaU'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Q01h4XhjzPHms7ub
+  name: Riot Gun
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +4 (being within 5 feet of an enemy doesn’t impose Disadvantage), range 60/240 ft. Hit: 5 (1d6 + 2) Piercing damage. Hit or Miss: Each creature in a 10-foot Emanation
+        originating from the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: 2 (1d4) Thunder damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      dBlQvSMc3VnLY88x:
+        _id: dBlQvSMc3VnLY88x
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 1
+            denomination: 4
+            bonus: ''
+            types:
+            - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '60'
+          long: '240'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: riot-gun
+  _key: '!actors.items!p0UUSGVIkaz3QDIe.Q01h4XhjzPHms7ub'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 2K8H8WkU2aUZ95uX
+  name: Deploy Riot Shield
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The bot shifts into defensive mode. While in this mode, it adds 5 to its AC, reduces its Speed to 0, has Advantage on Strength saving throws, and can’t make attacks. The bot can end this
+        mode as a Bonus Action.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      eO4tuluZl4utrLeB:
+        _id: eO4tuluZl4utrLeB
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - str
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: deploy-riot-shield
+  _key: '!actors.items!p0UUSGVIkaz3QDIe.2K8H8WkU2aUZ95uX'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: kwD7tvp20vqVdG8i
+  name: Detect Intruders
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The bot can see creatures and objects that have the Invisible condition as if they were visible until the start of its next turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '6'
+        type: recoverAll
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      SEqW3uwiQO2CuaQh:
+        _id: SEqW3uwiQO2CuaQh
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: detect-intruders
+  _key: '!actors.items!p0UUSGVIkaz3QDIe.kwD7tvp20vqVdG8i'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Security Bot
+  texture:
+    src: modules/neon-odyssey/icons/creatures/security-bot-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!p0UUSGVIkaz3QDIe'

@@ -1,0 +1,431 @@
+_id: 53RPShEzBfj896jE
+name: Demolitions Expert
+type: npc
+img: modules/neon-odyssey/icons/creatures/demolitions-expert.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 19
+      proficient: 0
+    dex:
+      value: 18
+      proficient: 1
+    con:
+      value: 16
+      proficient: 0
+    int:
+      value: 15
+      proficient: 0
+    wis:
+      value: 9
+      proficient: 0
+    cha:
+      value: 11
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 120
+      max: 120
+      formula: 16d8 + 48
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 6
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>DEMOLITIONS EXPERT</p><p>Grenade-Lobbing Detonator</p><p>Habitat: Any; Treasure: Individual</p><p>Demolitions experts are volatile specialists trained to use  explosives of all varieties.
+        They are typically called in when  a door needs to be breached or a structure needs to get  brought down, but they are equally as effective at demolishing  anyone in their way. In combat, they favor
+        the use of a trusty  grenade launcher that brings extra precision to the boom.</p><p>Demolitions Expert</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value:
+      - frightened
+    languages:
+      value: []
+      custom: Common
+  skills:
+    sur:
+      value: 1
+      ability: ''
+    ath:
+      value: 1
+      ability: ''
+items:
+- _id: 2N3WbKt6uiCRoF3Q
+  name: Shaped Charges
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The expert deals double damage to objects and structures.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: shaped-charges
+  _key: '!actors.items!53RPShEzBfj896jE.2N3WbKt6uiCRoF3Q'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Yt8tFuAfz8bHaKUq
+  name: Stock Strike
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      EazshqaFH8IFpDTj:
+        _id: EazshqaFH8IFpDTj
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: stock-strike
+  _key: '!actors.items!53RPShEzBfj896jE.Yt8tFuAfz8bHaKUq'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: z3lOLYBkr1koohd1
+  name: Grenade Launcher
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +7, range 50/200 ft. Hit: 8 (1d8 + 4) Bludgeoning damage. Hit or Miss: Pick one grenade from the Throw Grenade action below to land on a point in the target’s space.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      dr2DWjPyzlaXYhIb:
+        _id: dr2DWjPyzlaXYhIb
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '7'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - bludgeoning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '50'
+          long: '200'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: grenade-launcher
+  _key: '!actors.items!53RPShEzBfj896jE.z3lOLYBkr1koohd1'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: nBdH9UUUunKIqrzy
+  name: Throw Grenade
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The expert throws one of the following grenades at a point within 40 feet of itself (pick one or roll 1d4): 1. Photon Grenade. Dexterity Saving Throw: DC 15, each creature in a 10-foot
+        Sphere originating from the point. Failure: 22 (5d8) Radiant damage. Success: Half damage. 2. EMP Grenade. Constitution Saving Throw: DC 15, each creature in a 10-foot Sphere originating from the
+        point. Failure: 10 (3d6) Lightning damage, and Power Cells or powered devices the target is wearing or carrying don’t function until the end of the expert’s next turn. If the target is a Construct,
+        it has the Stunned condition for the duration. Success: Half damage only. 3. Flashbang Grenade. Constitution Saving Throw: DC 15, each creature in a 20-foot Sphere originating from the point. Failure:
+        The target has the Blinded condition for 1 minute or until its takes an action to rub its eyes. 4. Thermite Grenade. Dexterity Saving Throw: DC 15, each creature in a 10-foot Sphere originating
+        from the point. Failure: 14 (4d6) Fire damage, and the target starts burning, taking 5 (1d10) Fire damage at the start of each of its turns instead of the normal burning damage. Success: Half damage
+        only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      96VTdT7vxwjNOKbn:
+        _id: 96VTdT7vxwjNOKbn
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '15'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: throw-grenade
+  _key: '!actors.items!53RPShEzBfj896jE.nBdH9UUUunKIqrzy'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Demolitions Expert
+  texture:
+    src: modules/neon-odyssey/icons/creatures/demolitions-expert-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!53RPShEzBfj896jE'

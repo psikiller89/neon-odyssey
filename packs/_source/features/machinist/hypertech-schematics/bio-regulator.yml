@@ -28,11 +28,127 @@ system:
     repeatable: false
   properties: []
   requirements: Machinist
-  activities: {}
+  activities:
+    v2cLaG5kvXdfOBT1:
+      _id: v2cLaG5kvXdfOBT1
+      type: enchant
+      name: Apply Schematic
+      img: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you finish a Short or Long Rest
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+      - _id: 1BINC4ujENRFzsiC
+        uuid: null
+        level:
+          min: null
+          max: null
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: machinist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   identifier: bio-regulator
   advancement: {}
-effects: []
+effects:
+- _id: 1BINC4ujENRFzsiC
+  name: Bio-Regulator
+  img: icons/svg/upgrade.svg
+  type: enchantment
+  system:
+    changes:
+    - key: name
+      value: ', Bio-Regulator'
+      priority: null
+      type: add
+      phase: initial
+      _id: hezogvHpKJpEf1EG
+    - key: system.properties
+      value: mgc
+      priority: null
+      type: add
+      phase: initial
+      _id: 3TTJtubPMkbppIlq
+    magical: true
+  disabled: true
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p><em>Prerequisite: Level 5+ Machinist</em></p><p><strong>Gear:</strong> Light, Medium, or Heavy armor; Shield; Spellcasting Focus; device The item has 1 charge and regains its expended
+    charge daily at dawn. A creature wearing this item can expend 1 charge to use one of the following options:</p><ul><li><p>When it casts a spell that restores Hit Points to a creature, it can remove
+    one of the following conditions from one of the targets: Blinded, Deafened, Paralyzed, or Poisoned.</p></li><li><p>When it casts <em>Lesser Restoration</em>, it can target a second creature in reach.</p></li></ul>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!dwOLHbIQyiRLCIUL.1BINC4ujENRFzsiC'
 folder: rDqiq6VUZzbEUanT
 sort: 0
 _stats:

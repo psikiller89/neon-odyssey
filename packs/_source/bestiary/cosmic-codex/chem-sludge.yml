@@ -1,0 +1,412 @@
+_id: UrmPon2hVCLZezzJ
+name: Chem Sludge
+type: npc
+img: modules/neon-odyssey/icons/creatures/chem-sludge.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 6
+      proficient: 0
+    con:
+      value: 14
+      proficient: 1
+    int:
+      value: 1
+      proficient: 0
+    wis:
+      value: 8
+      proficient: 0
+    cha:
+      value: 1
+      proficient: 0
+  attributes:
+    ac:
+      flat: 8
+      calc: natural
+    hp:
+      value: 39
+      max: 39
+      formula: 6d8 + 12
+      temp: null
+      tempmax: null
+    movement:
+      walk: '20'
+      climb: '20'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: 60
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 2
+    type:
+      value: ooze
+      subtype: ''
+      custom: ''
+    alignment: Unaligned
+    biography:
+      value: '<p>CHEM SLUDGE</p><p>Pollution Given Toxic Life</p><p>Habitat: Urban; Treasure: Relics</p><p>A chem sludge is the result of when industrial waste animates  through strange chemical reactions,
+        turning the sludge into  a living mass of noxious muck and garbage. They lurk in the  grimy underside of industrial areas, sewers, junkyards, or  seedy alleys. Chem sludges are potent pollutants,
+        and their  primary instinct is to spread their contamination and taint the  natural world.</p><p>Chem Sludge</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value:
+      - acid
+      - poison
+    ci:
+      value:
+      - charmed
+      - deafened
+      - exhaustion
+    languages:
+      value: []
+      custom: None
+  skills:
+    ste:
+      value: 1
+      ability: ''
+items:
+- _id: U3fbUAs6q0IDBtkp
+  name: Amorphous
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The sludge can move through a space as narrow as 1 inch without expending extra movement to do so.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: amorphous
+  _key: '!actors.items!UrmPon2hVCLZezzJ.U3fbUAs6q0IDBtkp'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: smedI5h20j3I8qnD
+  name: Noxious Fumes
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 12, any creature that starts its turn in a 30-foot Emanation originating from the sludge. Failure: The target has the Poisoned condition until the start of
+        the sludge’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: noxious-fumes
+  _key: '!actors.items!UrmPon2hVCLZezzJ.smedI5h20j3I8qnD'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: y0hIvcKnoJpCCr32
+  name: Urban Camouflage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The sludge has Advantage on Dexterity (Stealth) checks in urban environments.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: urban-camouflage
+  _key: '!actors.items!UrmPon2hVCLZezzJ.y0hIvcKnoJpCCr32'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: CVqQS1bg593DcLFa
+  name: Pseudopod
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Acid damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      7F3YdngZw5FcBaXz:
+        _id: 7F3YdngZw5FcBaXz
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - acid
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: pseudopod
+  _key: '!actors.items!UrmPon2hVCLZezzJ.CVqQS1bg593DcLFa'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: rfe0y9iTKT6px2iY
+  name: Corrosive Spew
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Dexterity Saving Throw: DC 12, each creature in a 30-foot Cone. Failure: 10 (3d6) Acid damage. Nonmagical armor worn by the target takes a −1 penalty to the AC it offers. The armor is destroyed
+        if this penalty reduces its AC to 10. The penalty can be removed by casting the Mending spell on the armor.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '6'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      UyL7m75oRmAluep4:
+        _id: UyL7m75oRmAluep4
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '12'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: corrosive-spew
+  _key: '!actors.items!UrmPon2hVCLZezzJ.rfe0y9iTKT6px2iY'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Chem Sludge
+  texture:
+    src: modules/neon-odyssey/icons/creatures/chem-sludge-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!UrmPon2hVCLZezzJ'

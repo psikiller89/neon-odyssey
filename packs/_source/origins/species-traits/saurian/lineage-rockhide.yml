@@ -10,16 +10,19 @@ effects:
   img: null
   type: base
   system:
-    changes: []
-  changes:
-  - key: system.attributes.ac.bonus
-    mode: 2
-    value: '+1'
-    priority: null
-  - key: system.attributes.hp.bonuses.level
-    mode: 2
-    value: '+1'
-    priority: null
+    changes:
+    - key: system.attributes.ac.bonus
+      value: '+1'
+      priority: null
+      type: add
+      phase: initial
+      _id: igps2LMBTbjYPRvm
+    - key: system.attributes.hp.bonuses.level
+      value: '+1'
+      priority: null
+      type: add
+      phase: initial
+      _id: ZSMBv9oVsNszaIF1
   statuses: []
   transfer: true
   disabled: false

@@ -1,0 +1,326 @@
+_id: MY8gvORpAhbofDIu
+name: Codeshaper Junior
+type: npc
+img: modules/neon-odyssey/icons/creatures/codeshaper-junior.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 11
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 9
+      proficient: 0
+    int:
+      value: 15
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 9
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 17
+      max: 17
+      formula: 5d8 − 5
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.5
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>CODESHAPERS</p><p>Reality-Bending Datamancers</p><p>Habitat: Planar (Hypergrid), Urban; Treasure: Arcana,</p><p>Individual</p><p>Codeshapers manipulate the Hypergrid to alter reality, casting  powerful
+        spells and performing other impressive feats of  technomancy. Many codeshapers are employed by numerous  businesses and corporations of the galaxy, but some turn  to criminal endeavors, using their
+        mastery of code for profit  and power.</p><p>CODESHAPER JUNIOR</p><p>CODESHAPER JUNIOR</p><p>Codeshaper juniors are novices who only recently sat  behind their first real computer and began the
+        process of  unlocking the complex mysteries of the Hypergrid. They  have learned to execute a handful of basic scripts, but their  enthusiasm makes up for their inexperience. Most juniors  learn
+        from more senior codeshapers, starting their career as  unpaid interns.</p><p>CODESHAPER</p><p>CODESHAPER</p><p>Codeshapers are proficient programmers of the Hypergrid,  capable of executing a wider
+        variety of reality-bending  functions and an agile approach to code. They manipulate  data that weaves throughout the galaxy to jolt their enemies,  execute powerful scripts, or delete the magic
+        of their foes  from existence. They are typically employed by massive  organizations where they work with other codeshapers, or  they live a life of solo freelancing.</p><p>CODESHAPER TECHNOCRAT</p><p>CODESHAPER
+        TECHNOCRAT</p><p>Only a rare few programmers ascend in expertise and power  to become codeshaper technocrats. Often driven by unbound  ambition and the desire for immortality, they seek to shape  an
+        “unfit” reality to their own will to create a future of their  making. The scripts they have mastered are immensely  potent, allowing them to rewrite the code of a person’s mind,  step through the
+        Hypergrid in an instant, or digitally replicate  themselves upon death.</p><p>Codeshaper Junior</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common
+  skills: {}
+items:
+- _id: vorgmf13unL0QS1O
+  name: Learner
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>When the junior succeeds on a D20 Test, it gains 5 Temporary Hit Points.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: learner
+  _key: '!actors.items!MY8gvORpAhbofDIu.vorgmf13unL0QS1O'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: FYQBbcyJdpuvAC3E
+  name: Data Jolt
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +4, reach 10 ft. or range 60 ft. Hit: 9 (2d6 + 2) Force damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      mZ96VW1CgYywawFm:
+        _id: mZ96VW1CgYywawFm
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '60'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: data-jolt
+  _key: '!actors.items!MY8gvORpAhbofDIu.FYQBbcyJdpuvAC3E'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: AGIdc43Lh5WBdfE1
+  name: Spellcasting
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The junior casts one of the following spells, using Intelligence as the spellcasting ability (save DC 12): At Will: Dancing Lights, Message 1/Day Each: Color Spray, Detect Magic, Unseen
+        Servant</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      AOTvP9ykaVXDya15:
+        _id: AOTvP9ykaVXDya15
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: spellcasting
+  _key: '!actors.items!MY8gvORpAhbofDIu.AGIdc43Lh5WBdfE1'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Codeshaper Junior
+  texture:
+    src: modules/neon-odyssey/icons/creatures/codeshaper-junior-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!MY8gvORpAhbofDIu'

@@ -1,0 +1,278 @@
+_id: PBBXvvn6H9GmWWvQ
+name: Abyssal Snapper
+type: npc
+img: modules/neon-odyssey/icons/creatures/abyssal-snapper.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 12
+      proficient: 0
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 1
+      proficient: 0
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 4
+      proficient: 0
+  attributes:
+    ac:
+      flat: 11
+      calc: natural
+    hp:
+      value: 13
+      max: 13
+      formula: 3d6 + 3
+      temp: null
+      tempmax: null
+    movement:
+      walk: '5'
+      fly: '40'
+      swim: '40'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 120
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.25
+    type:
+      value: aberration
+      subtype: ''
+      custom: ''
+    alignment: Chaotic Evil
+    biography:
+      value: '<p>NEW MONSTERS</p><p>A selection of new monsters are presented here.</p><p>ABYSSAL SNAPPER</p><p>Schooling Frenzy of the Void</p><p>Habitat: Planar (Abyssal Void); Treasure: None</p><p>Abyssal
+        snappers are among the smallest of the terrors  spawned by the Abyssal Void, but their hunger is no less  immense. Though individually weak, they hunt in devastating  frenzied schools that can strip
+        prey to nothing in mere  moments, their eroding bites shredding organic and  inorganic matter alike. They often cling to the behemoth  predators of the Deep, feeding on the devastation left in  their
+        wake.</p><p>Abyssal Snapper</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value:
+      - psychic
+    di:
+      value: []
+    ci:
+      value:
+      - exhaustion
+      - frightened
+    languages:
+      value: []
+      custom: Understands Hadalic but can’t speak
+  skills: {}
+items:
+- _id: h1b4Kuvepl2D4AaZ
+  name: Cling
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>When an allied Aberration that is Small or larger leaves a space within 5 feet of the snapper, it can cling to the allied Aberration and move with it. This trait doesn’t function if the
+        snapper’s Speed is 0.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: cling
+  _key: '!actors.items!PBBXvvn6H9GmWWvQ.h1b4Kuvepl2D4AaZ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: pEhokfdLq4MHeNOd
+  name: Pack Tactics
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The snapper has Advantage on an attack roll against a creature if at least one of the snapper’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: pack-tactics
+  _key: '!actors.items!PBBXvvn6H9GmWWvQ.pEhokfdLq4MHeNOd'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: ILwYrDIV1s1cPRV2
+  name: Voracious Bite
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 8 (1d12 + 2) Necrotic damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      OWXScamCRUEM163q:
+        _id: OWXScamCRUEM163q
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 12
+            bonus: '@mod'
+            types:
+            - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: voracious-bite
+  _key: '!actors.items!PBBXvvn6H9GmWWvQ.ILwYrDIV1s1cPRV2'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Abyssal Snapper
+  texture:
+    src: modules/neon-odyssey/icons/creatures/abyssal-snapper-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!PBBXvvn6H9GmWWvQ'

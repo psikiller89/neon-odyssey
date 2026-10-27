@@ -1,0 +1,325 @@
+_id: UocIvJ4i4opOwjq5
+name: Citizen
+type: npc
+img: modules/neon-odyssey/icons/creatures/citizen.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 11
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 10
+      calc: natural
+    hp:
+      value: 4
+      max: 4
+      formula: 1d8
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>CITIZEN</p><p>Ordinary Civilian of the Galaxy</p><p>Habitat: Any; Treasure: Individual</p><p>Citizens are the everyday people throughout the Stardust</p><p>Rhapsody. While they typically
+        have a career that gives them  purpose, they do not seek out extraordinary pursuits like  hypertech, magic, or the dangerous life of an outrunner. They  can be any species and come from all walks
+        of life, operating  utility drones to assist them in their daily life.</p><p>Citizen</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common plus one other language
+  skills: {}
+items:
+- _id: RWvA1kNcmjenui9t
+  name: Handicraft
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The citizen has proficiency in one skill or with one Crafter’s Tool of the GM’s choice.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: handicraft
+  _key: '!actors.items!UocIvJ4i4opOwjq5.RWvA1kNcmjenui9t'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 0DwB0ydYouyyLoPr
+  name: Light Pistol
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Ranged Attack Roll: +2 (being within 5 feet of an enemy doesn’t impose Disadvantage), range 80/320 ft. Hit: 3 (1d6) Piercing damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      lAR5bNtUHoc1efnp:
+        _id: lAR5bNtUHoc1efnp
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '2'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '80'
+          long: '320'
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: light-pistol
+  _key: '!actors.items!UocIvJ4i4opOwjq5.0DwB0ydYouyyLoPr'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Ujia8rEdNAhhIACJ
+  name: Utility Drone
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The citizen activates a Tiny drone that hovers around it for 8 hours. When activated, and as a Bonus Action on subsequent turns for the duration, the citizen can command the drone to use
+        the Help action to assist an ability check using the citizen’s Handicraft proficiency.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      m0ZYXB3Y1bqE9sNR:
+        _id: m0ZYXB3Y1bqE9sNR
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: utility-drone
+  _key: '!actors.items!UocIvJ4i4opOwjq5.Ujia8rEdNAhhIACJ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Citizen
+  texture:
+    src: modules/neon-odyssey/icons/creatures/citizen-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!UocIvJ4i4opOwjq5'

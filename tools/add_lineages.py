@@ -3,9 +3,9 @@ from common import OUT, stats
 from autoact import mkid
 O=os.path.join(OUT,'origins')
 def eff(iid,name,changes): 
-    eid=mkid(iid+':eff'); return {'_id':eid,'name':name,'img':None,'type':'base','system':{'changes':[]},'changes':changes,'statuses':[],'transfer':True,'disabled':False,
+    eid=mkid(iid+':eff'); return {'_id':eid,'name':name,'img':None,'type':'base','system':{'changes':changes},'statuses':[],'transfer':True,'disabled':False,
       'duration':{'value':None,'units':'seconds','expiry':None,'expired':False},'origin':None,'tint':'#ffffff','sort':0,'flags':{},'description':'','showIcon':1,'start':None,'folder':None,'_stats':stats(),'_key':f'!items.effects!{iid}.{eid}'}
-def ch(k,mode,v): return {'key':k,'mode':mode,'value':str(v),'priority':None}
+def ch(k,mode,v): return {'key':k,'value':str(v),'priority':None,'type':{2:'add',4:'upgrade',5:'override'}[mode],'phase':'initial','_id':mkid(f'lin:{k}:{v}')}
 L={'laika':('Laika Lineage',[
   ('Confidant','You have Advantage on Intelligence, Wisdom, and Charisma saving throws.','You and the ally you help each gain a number of Temporary Hit Points equal to three times your Proficiency Bonus.',[]),
   ('Guardian','When a creature damages you or your allies, you have Advantage on the next attack roll you make against that creature before the end of your next turn.','The next time you or the ally you help take damage within 1 minute, the target gains Resistance against that damage.',[]),

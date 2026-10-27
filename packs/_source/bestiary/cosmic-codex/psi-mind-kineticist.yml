@@ -1,0 +1,622 @@
+_id: 5jMvgKuy8j9Vyy36
+name: Psi Mind Kineticist
+type: npc
+img: icons/svg/mystery-man.svg
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 12
+      proficient: 1
+    dex:
+      value: 16
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 19
+      proficient: 1
+    wis:
+      value: 13
+      proficient: 0
+    cha:
+      value: 12
+      proficient: 0
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 110
+      max: 110
+      formula: 17d8 + 34
+      temp: null
+      tempmax: null
+    movement:
+      walk: '40'
+      fly: '60'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 9
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: '<p>PSI MINDS</p><p>Unbound Psionic Savants</p><p>Habitat: Any; Treasure: Arcana</p><p>Psi minds are individuals who have pushed their minds  beyond normal limits, granting them incredible
+        psionic  powers. They use their psi to cast spells and warp reality  with a thought alone. Some psi minds use these abilities in  the employ of powerful organizations, while others remain  solitary
+        and simply want to understand their gifts.</p><p>PSI MIND KINETICIST</p><p>PSI MIND KINETICIST</p><p>Psi mind kineticists have let go and allowed their psionic  power to be completely unbound. They
+        unleash volatile  telekinesis that lashes from their minds with destructive  force that can obliterate anything in their path. These wild psi  minds often wreak havoc wherever they go, whether on
+        the  battlefield or the streets of the city they call home.</p><p>PSI MIND TELEPATH</p><p>PSI MIND TELEPATH</p><p>Psi mind telepaths have honed their psi and can wield it with  precision, using
+        powerful telepathy to pierce into others’  minds. This psychic infiltration allows them to effortlessly  read or implant thoughts, shred the mind, or even completely  dominate a target until they
+        are a mesmerized thrall. Many of  these psi minds end up as masterminds, pulling the strings  of vast networks to advance their mysterious aims.</p><p>Psi Mind Kineticist</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - psychic
+    di:
+      value: []
+    ci:
+      value:
+      - charmed
+      - frightened
+    languages:
+      value: []
+      custom: Common; telepathy 30 ft.
+  skills:
+    ath:
+      value: 1
+      ability: ''
+    acr:
+      value: 1
+      ability: ''
+    arc:
+      value: 1
+      ability: ''
+items:
+- _id: ooRpBM5no6vEAluW
+  name: Destructive Aura
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>At the end of each of the kineticist’s turns, each creature of the kineticist’s choice in a 5-foot Emanation originating from the kineticist takes 6 (1d12) Force damage unless the kineticist
+        has the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: destructive-aura
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.ooRpBM5no6vEAluW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: p2LDgUIKBpgG4uBI
+  name: Psyk-Bolstered Physique
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kineticist has Advantage on D20 Tests using Strength or Dexterity.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: psyk-bolstered-physique
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.p2LDgUIKBpgG4uBI'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: UAX7AiMyTnDqgdoY
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kineticist makes three Kinetic Burst attacks and can use Spellcasting to cast Gust of Wind.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      gOGGS3X3jjH6LVAA:
+        _id: gOGGS3X3jjH6LVAA
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.UAX7AiMyTnDqgdoY'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 24Vn5nPtBdSuOoSD
+  name: Kinetic Burst
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +8, reach 5 ft., or range 120 ft. Hit: 20 (3d10 + 4) Force damage, and the target is pushed up to 5 feet straight away from the kineticist.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      1E5EPs83GmProTSz:
+        _id: 1E5EPs83GmProTSz
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '8'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 3
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '120'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: kinetic-burst
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.24Vn5nPtBdSuOoSD'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: uF7eai87ufJ1O2mk
+  name: Spellcasting
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The kineticist casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16): At Will: Gust of Wind, Mage Armor
+        (included in AC), Mage Hand (the hand is Invisible) 2/Day Each: Fireball (level 4 version), Wall of Force 1/Day Each: Disintegrate, Reverse Gravity</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      qu6nISxJ7vc8XIaJ:
+        _id: qu6nISxJ7vc8XIaJ
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: spellcasting
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.uF7eai87ufJ1O2mk'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: WgmfPVjrKUvXTmJM
+  name: Psyk-Boosted Speed
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kineticist takes the Dash or Disengage action.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      WPTWnNCQwsqs3Izm:
+        _id: WPTWnNCQwsqs3Izm
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: psyk-boosted-speed
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.WgmfPVjrKUvXTmJM'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: eyUGqIdrdDP9uUj0
+  name: Deflect
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kineticist casts Shield in response to the spell’s trigger, requiring no spell components and using the same spellcasting ability as Spellcasting. Psi Mind Telepath</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      F0kFYornH5n1Ntuf:
+        _id: F0kFYornH5n1Ntuf
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: deflect
+  _key: '!actors.items!5jMvgKuy8j9Vyy36.eyUGqIdrdDP9uUj0'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Psi Mind Kineticist
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!5jMvgKuy8j9Vyy36'

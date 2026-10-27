@@ -1,0 +1,445 @@
+_id: OqEvHRy3hFtJZEBE
+name: Brood Swarmer
+type: npc
+img: modules/neon-odyssey/icons/creatures/brood-swarmer.webp
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 1
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 6
+      proficient: 0
+  attributes:
+    ac:
+      flat: 14
+      calc: natural
+    hp:
+      value: 16
+      max: 16
+      formula: 3d8 + 3
+      temp: null
+      tempmax: null
+    movement:
+      walk: '50'
+      climb: '40'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: 30
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.5
+    type:
+      value: fiend
+      subtype: ''
+      custom: ''
+    alignment: Neutral Evil
+    biography:
+      value: '<p>BROOD SWARMER</p><p>Skittering Crawler of the Infinite Swarm</p><p>Habitat: Planar (Cacophony), Underground; Treasure: None</p><p>Brood swarmers are the infinite chafe of Instinct Cacophony,  spawned
+        by the thousands in pulsing hatcheries. They are  driven solely by the instinct to shred, kill, feed, and skitter  forward in an endless cycle, instantly replaced as soon as  they die. Tethered
+        by a hive mind, they join countless others  in a swarming tide of devastation as they rush down and  overwhelm any force that hopes to oppose them.</p><p>Brood Swarmer</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value:
+      - acid
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: None; telepathy 30 ft. (emotions only)
+  skills:
+    ath:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: wW9R0bEBN8RjTgdh
+  name: Discordant Restoration
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the swarmer dies outside Cacophony, its body explodes in a spray of ichor, and a new swarmer hatches instantly somewhere in Cacophony.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: discordant-restoration
+  _key: '!actors.items!OqEvHRy3hFtJZEBE.wW9R0bEBN8RjTgdh'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: knGOiSz3OZuzimyH
+  name: Pack Tactics
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The swarmer has Advantage on an attack roll against a creature if at least one of the swarmer’s allies is within 5 feet of the creature and the ally doesn’t have the Incapacitated condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: pack-tactics
+  _key: '!actors.items!OqEvHRy3hFtJZEBE.knGOiSz3OZuzimyH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: tJuXQhj3AXQ3fs4l
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The swarmer makes two Corrosive Claw attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      0kAIOKcle6DXD10W:
+        _id: 0kAIOKcle6DXD10W
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!OqEvHRy3hFtJZEBE.tJuXQhj3AXQ3fs4l'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 9l0qpv7OG8XLSPU5
+  name: Corrosive Claw
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Acid damage. If the target is a Medium or smaller creature, it has the Prone condition.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      lDeUDhHYB7wF3lxb:
+        _id: lDeUDhHYB7wF3lxb
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 4
+            bonus: '@mod'
+            types:
+            - acid
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: corrosive-claw
+  _key: '!actors.items!OqEvHRy3hFtJZEBE.9l0qpv7OG8XLSPU5'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: AlKC1Y2cZBgFXg6y
+  name: Scatter
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The swarmer is a target of an area of effect. Response: The swarmer moves up to 20 feet. If it leaves the area, it is no longer a target of the effect.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      2CGmsHKb6VKI02tz:
+        _id: 2CGmsHKb6VKI02tz
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: scatter
+  _key: '!actors.items!OqEvHRy3hFtJZEBE.AlKC1Y2cZBgFXg6y'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Brood Swarmer
+  texture:
+    src: modules/neon-odyssey/icons/creatures/brood-swarmer-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!OqEvHRy3hFtJZEBE'

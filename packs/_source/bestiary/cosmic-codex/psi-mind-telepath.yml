@@ -1,0 +1,507 @@
+_id: Wylft8fvGyRzkksm
+name: Psi Mind Telepath
+type: npc
+img: icons/svg/mystery-man.svg
+folder: k5rTBECLPnuppoi3
+system:
+  abilities:
+    str:
+      value: 11
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 18
+      proficient: 1
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 17
+      proficient: 1
+  attributes:
+    ac:
+      flat: 16
+      calc: natural
+    hp:
+      value: 121
+      max: 121
+      formula: 22d8 + 22
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 9
+    type:
+      value: humanoid
+      subtype: ''
+      custom: ''
+    alignment: Neutral Good
+    biography:
+      value: '<p>PSI MINDS</p><p>Unbound Psionic Savants</p><p>Habitat: Any; Treasure: Arcana</p><p>Psi minds are individuals who have pushed their minds  beyond normal limits, granting them incredible
+        psionic  powers. They use their psi to cast spells and warp reality  with a thought alone. Some psi minds use these abilities in  the employ of powerful organizations, while others remain  solitary
+        and simply want to understand their gifts.</p><p>PSI MIND KINETICIST</p><p>PSI MIND KINETICIST</p><p>Psi mind kineticists have let go and allowed their psionic  power to be completely unbound. They
+        unleash volatile  telekinesis that lashes from their minds with destructive  force that can obliterate anything in their path. These wild psi  minds often wreak havoc wherever they go, whether on
+        the  battlefield or the streets of the city they call home.</p><p>PSI MIND TELEPATH</p><p>PSI MIND TELEPATH</p><p>Psi mind telepaths have honed their psi and can wield it with  precision, using
+        powerful telepathy to pierce into others’  minds. This psychic infiltration allows them to effortlessly  read or implant thoughts, shred the mind, or even completely  dominate a target until they
+        are a mesmerized thrall. Many of  these psi minds end up as masterminds, pulling the strings  of vast networks to advance their mysterious aims.</p><p>Psi Mind Kineticist</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - psychic
+    di:
+      value: []
+    ci:
+      value:
+      - charmed
+      - frightened
+    languages:
+      value: []
+      custom: Common; telepathy 120 ft.
+  skills:
+    arc:
+      value: 1
+      ability: ''
+    ins:
+      value: 1
+      ability: ''
+    per:
+      value: 1
+      ability: ''
+items:
+- _id: LJeXEWLOdGRRxCh7
+  name: Thought Shield
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The telepath has Advantage on saving throws using Intelligence, Wisdom, and Charisma.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: thought-shield
+  _key: '!actors.items!Wylft8fvGyRzkksm.LJeXEWLOdGRRxCh7'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 52iAohJUSXlRjKBH
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The telepath makes three Psi Shred attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      X3TJscfj6MdFXXiP:
+        _id: X3TJscfj6MdFXXiP
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!Wylft8fvGyRzkksm.52iAohJUSXlRjKBH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: hr43OmUZ5XVKqSYe
+  name: Psi Shred
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +8, reach 5 ft. or range 120 ft. Hit: 20 (3d10 + 4) Psychic damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      M71xvDsscvY9IG9S:
+        _id: M71xvDsscvY9IG9S
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '8'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 3
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '120'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: psi-shred
+  _key: '!actors.items!Wylft8fvGyRzkksm.hr43OmUZ5XVKqSYe'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: O4QE4l5mSuP0QiDq
+  name: Spellcasting
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The telepath casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16): At Will: Detect Thoughts, Minor Illusion,
+        Phantasmal Force, Suggestion 2/Day Each: Dominate Person (level 6 version), Invisibility, Modify Memory (level 6 version) 1/Day Each: Hold Monster (level 7 version), Phantasmal Killer (level 8 version),
+        Psychic Storm* (level 6 version)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      saQmMc1hLVUPYaKc:
+        _id: saQmMc1hLVUPYaKc
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: spellcasting
+  _key: '!actors.items!Wylft8fvGyRzkksm.O4QE4l5mSuP0QiDq'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: WGNz9gfO4pVZhqO0
+  name: Repulse
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The telepath is hit by a melee attack roll from a creature it can see. Response—Wisdom Saving Throw: DC 16, the triggering creature. Failure: The attack misses, and the attacker
+        must choose a new creature within its reach using the same attack roll total against it. If there are no other valid targets, the attack is wasted. </p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      mkqYRGHk8SJBefvV:
+        _id: mkqYRGHk8SJBefvV
+        type: save
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - wis
+          dc:
+            calculation: ''
+            formula: '16'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: repulse
+  _key: '!actors.items!Wylft8fvGyRzkksm.WGNz9gfO4pVZhqO0'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Psi Mind Telepath
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!Wylft8fvGyRzkksm'
