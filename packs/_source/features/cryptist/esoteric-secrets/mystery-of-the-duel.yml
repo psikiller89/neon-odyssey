@@ -31,31 +31,41 @@ system:
   properties: []
   requirements: Cryptist
   activities:
-    TP8yUW72eDyXQubJ:
-      _id: TP8yUW72eDyXQubJ
-      type: utility
-      name: ''
+    Z5qwaK3di91XE617:
+      _id: Z5qwaK3di91XE617
+      type: enchant
+      name: Bind Weapon
+      img: ''
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: perm
         concentration: false
         override: false
-      effects: []
+      effects:
+      - _id: x5ElL2ivqjZvouSP
+        uuid: null
+        level:
+          min: null
+          max: null
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
         override: false
-        units: self
+        units: touch
         special: ''
       target:
         template:
@@ -64,24 +74,111 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: object
+          special: ''
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   enchant: {}
   identifier: mystery-of-the-duel
   advancement: {}
-effects: []
+effects:
+- _id: x5ElL2ivqjZvouSP
+  name: Bound Weapon
+  img: icons/svg/upgrade.svg
+  type: enchantment
+  system:
+    magical: false
+    changes:
+    - key: name
+      value: ', Bound'
+      priority: null
+      type: add
+      phase: initial
+      _id: naeOiSkWmBW9qVNJ
+    - key: system.proficient
+      value: '1'
+      priority: null
+      type: override
+      phase: initial
+      _id: ysGHWzd4y52XTrKK
+    - key: activities[attack].attack.ability
+      value: spellcasting
+      priority: null
+      type: override
+      phase: initial
+      _id: V44TbryeQNjHD0hm
+    - key: system.damage.base.types
+      value: necrotic
+      priority: null
+      type: add
+      phase: initial
+      _id: 66J2HOhLZ4DT6BVQ
+    - key: system.damage.base.types
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: XM2Q8LeDRgHOKU90
+    - key: system.damage.base.types
+      value: radiant
+      priority: null
+      type: add
+      phase: initial
+      _id: kzVzsBM7F3dewv3S
+    - key: system.properties
+      value: foc
+      priority: null
+      type: add
+      phase: initial
+      _id: 3t6GlJntxwdXnVFR
+  disabled: true
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Bonded weapon: proficient, Spellcasting Focus, uses your spellcasting ability for attack and damage, and can deal Necrotic, Psychic or Radiant damage.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gLgV6k0BeBcjHRIW.x5ElL2ivqjZvouSP'
 folder: k1V6joZdVOI9jccL
 sort: 0
 _stats:

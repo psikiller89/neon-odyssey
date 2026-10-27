@@ -94,3 +94,8 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Symmetric – Harmony's Balance:** Shift to Vital / Shift to Somber buttons apply the balance effect; Lesser Restoration and Hold Person cast for 2 Essence Points.
 - **Boomdoctor – Impromptu Bomb:** 2d6 of each of two chosen types (4d6 total), 2d8 each from level 9, Dex save for half, 10-ft sphere at 60 ft; Compositions tracked (twice Int mod, min 2).
 - **Zorbrak – Scything Claws:** now a weapon (1d8 Slashing, Finesse) in your inventory.
+
+## v0.5.5 fixes
+
+- **Cryptist – Mystery of the Duel:** new **Bind Weapon** button (Bonus Action). Drop any weapon on the chat card: it becomes your bound weapon (proficient, Spellcasting Focus, attacks/damage use your spellcasting ability, Necrotic/Psychic/Radiant damage option). Remove the enchantment from the weapon's Effects tab to end the bond.
+- **Duelist's Due:** damage button for the extra 1d6 Necrotic/Psychic/Radiant.

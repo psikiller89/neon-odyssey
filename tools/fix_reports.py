@@ -109,3 +109,25 @@ write('origins','species-traits/zorbrak/scything-claws-weapon.yml',sc_)
 zp='origins/species/zorbrak.yml'; z=L(zp)
 grant([a for a in z['system']['advancement'].values() if a['type']=='ItemGrant'][0],uuid('origins',sc_['_id'])); D(zp,z)
 print('reports fixed')
+
+# F. Mystery of the Duel: Bind Weapon enchantment
+wu=L('features/machinist/hypertech-schematics/weapon-upgrade.yml')
+tmpl=[a for a in wu['system']['activities'].values() if a['type']=='enchant'][0]
+mp='features/cryptist/esoteric-secrets/mystery-of-the-duel.yml'; md=L(mp)
+eid=mkid('duel:bound-effect'); aid=mkid('duel:bind-activity')
+ench={'_id':eid,'name':'Bound Weapon','img':md.get('img'),'type':'enchantment','system':{'magical':False,'changes':[
+  chg('name',', Bound','add'),chg('system.proficient','1','override'),chg('activities[attack].attack.ability','spellcasting','override'),
+  chg('system.damage.base.types','necrotic','add'),chg('system.damage.base.types','psychic','add'),chg('system.damage.base.types','radiant','add'),
+  chg('system.properties','foc','add')]},'disabled':True,'transfer':False,
+  'duration':{'value':None,'units':'seconds','expiry':None,'expired':False},'description':'<p>Bonded weapon: proficient, Spellcasting Focus, uses your spellcasting ability for attack and damage, and can deal Necrotic, Psychic or Radiant damage.</p>',
+  'tint':'#ffffff','statuses':[],'sort':0,'flags':{},'origin':None,'start':None,'showIcon':1,'folder':None,'_stats':stats(),'_key':f"!items.effects!{md['_id']}.{eid}"}
+a=copy.deepcopy(tmpl); a['_id']=aid; a['name']='Bind Weapon'; a['effects']=[{'_id':eid,'uuid':None,'level':{'min':None,'max':None},'riders':{'activity':[],'effect':[],'item':[]}}]
+a['activation']={'type':'bonus','value':None,'override':False,'condition':''}; a['visibility']['identifier']=''
+a['restrictions']={'allowMagical':True,'categories':[],'properties':[],'type':'weapon'}
+md['system']['activities']={aid:a}; md['effects']=[ench]; D(mp,md)
+dp='features/cryptist/esoteric-secrets/duelists-due.yml'; dd=L(dp); did=mkid('duel:due-damage')
+dmg=copy.deepcopy(L('origins/species-traits/zorbrak/scything-claws.yml')['system']['activities'])
+da=list(dmg.values())[0]; da['_id']=did; da['name']="Duelist's Due"; da['activation']={'type':'special','value':None,'override':False,'condition':'Once per turn, on a hit with your bound weapon'}
+da['damage']['parts']=[{'number':1,'denomination':6,'bonus':'','types':['necrotic','psychic','radiant'],'custom':{'enabled':False,'formula':''},'scaling':{'mode':'','number':None,'formula':''}}]
+dd['system']['activities']={did:da}; D(dp,dd)
+print('duel fixed')
