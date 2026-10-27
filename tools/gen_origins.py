@@ -7,25 +7,38 @@ from PIL import Image
 L=json.load(open('lines.json')); F=json.load(open('lines_front.json'))
 HB='/home/ubuntu/attachments/b5d7ad51-25c5-4f45-99ae-512a102d1eec/Outrunners_Handbook_v0.1.1_-_Neon_Odyssey_Playtest_1.pdf'
 DOC=pymupdf.open(HB)
+OD='/home/ubuntu/attachments/511d651c-f209-4eb8-a6e5-d1e0b47364d1/Overdrive_Expansion_v0.1.1_-_Neon_Odyssey_Playtest_1.pdf'
+DOCS={'handbook':DOC,'overdrive':pymupdf.open(OD)}
 SKILL={'acrobatics':'acr','animal handling':'ani','arcana':'arc','athletics':'ath','deception':'dec','history':'his','insight':'ins','intimidation':'itm','investigation':'inv','medicine':'med','nature':'nat','perception':'prc','performance':'prf','persuasion':'per','religion':'rel','sleight of hand':'slt','stealth':'ste','survival':'sur','computers':'cmp','technology':'tec'}
 TYPES={'humanoid','construct','ooze','plant','elemental','fey','celestial','aberration','monstrosity','beast','dragon','fiend','giant','undead'}
 ICON_DIR=os.path.expanduser('~/work/neon-odyssey/icons/species')
-def species_icon(page,name):
+_COMMON={}
+SP_RANK={'Benthos':1}
+def species_icon(page,name,DOC=DOC):
     os.makedirs(ICON_DIR,exist_ok=True)
-    infos=[i for i in DOC[page-1].get_image_info(xrefs=True) if i['xref']]
+    if id(DOC) not in _COMMON:
+        cnt={}
+        for pg in DOC:
+            for x in {i['xref'] for i in pg.get_image_info(xrefs=True) if i['xref']}: cnt[x]=cnt.get(x,0)+1
+        _COMMON[id(DOC)]={x for x,c in cnt.items() if c>=3}
+    infos=[i for i in DOC[page-1].get_image_info(xrefs=True) if i['xref'] and i['xref'] not in _COMMON[id(DOC)]]
     if not infos: return None
-    x=max(infos,key=lambda i:i['width']*i['height'])['xref']
+    infos=[i for i in infos if i['bbox'][0]>-20] or infos
+    port=[i for i in infos if i['height']>i['width']*1.1]
+    cand=sorted(port or infos,key=lambda i:-i['width']*i['height'])
+    x=cand[min(SP_RANK.get(name,0),len(cand)-1)]['xref']
     base=pymupdf.Pixmap(DOC,x); sm=DOC.extract_image(x).get('smask')
     if base.colorspace and base.colorspace.n!=3: base=pymupdf.Pixmap(pymupdf.csRGB,base)
     if sm:
         if base.alpha: base=pymupdf.Pixmap(base,0)
         base=pymupdf.Pixmap(base,pymupdf.Pixmap(DOC,sm))
     im=Image.open(io.BytesIO(base.tobytes('png'))).convert('RGBA'); im=im.crop(im.getbbox() or (0,0,im.width,im.height))
+    fn=ident(name); art=im.copy(); art.thumbnail((700,1100)); art.save(f'{ICON_DIR}/{fn}-art.webp',quality=88)
     w,h=im.size; s=min(w,h); im=im.crop(((w-s)//2,0,(w-s)//2+s,s)).resize((512,512),Image.LANCZOS)
-    fn=ident(name); im.save(f'{ICON_DIR}/{fn}.webp',quality=88); return f'modules/{MOD}/icons/species/{fn}.webp'
-def lineage_text(page):
+    im.save(f'{ICON_DIR}/{fn}.webp',quality=88); return f'modules/{MOD}/icons/species/{fn}.webp'
+def lineage_text(page,book='handbook',DOC=DOC):
     out=''
-    for l in L['handbook']:
+    for l in L[book]:
         if l['p']==page and l.get('k')=='TABLE' and l['text'].strip().endswith('Lineages'):
             r=pymupdf.Rect(l['x0']-8,l['y0']+10,l['x0']+262,l['y0']+330)
             txt=DOC[page-1].get_text('text',clip=r)
@@ -41,14 +54,14 @@ def main():
     FS=folder('origins','species','Species',sort=1); FB=folder('origins','backgrounds','Backgrounds',sort=2); FF=folder('origins','origin-feats','Homeworld Origin Feats',sort=3)
     FT=folder('origins','species-traits','Species Traits',sort=4)
     # ---------- species ----------
-    lines=[l for l in L['handbook'] if 127<=l['p']<=147]
+    lines=[dict(l,book='handbook') for l in L['handbook'] if 127<=l['p']<=147]+[dict(l,book='overdrive') for l in L['overdrive'] if 41<=l['p']<=61]
     species=[]; cur=None; mode=None; tr=None; tab=False
     for ln in lines:
         k=ln.get('k'); t=ln.get('text','').strip()
         if k=='TAB': tab=True; continue
         if k=='H_SECTION':
             if cur and cur['name'].upper()==t: continue
-            cur={'name':t.title(),'p':ln['p'],'intro':Item('i'),'meta':{},'traits':[]}; species.append(cur); mode='intro'; continue
+            cur={'name':t.title(),'p':ln['p'],'book':ln['book'],'intro':Item('i'),'meta':{},'traits':[]}; species.append(cur); mode='intro'; continue
         if cur is None: continue
         if k=='H_FEATURE' and t.endswith('Traits'): mode='meta'; continue
         if k=='SPELLMETA' and mode=='meta':
@@ -79,13 +92,13 @@ def main():
     count={'species':0,'traits':0}
     for sp in species:
         sid=ident(sp['name']); meta=sp['meta']
-        img=species_icon(sp['p'],sp['name']) or 'icons/environment/people/commoner.webp'
+        img=species_icon(sp['p'],sp['name'],DOCS[sp['book']]) or 'icons/environment/people/commoner.webp'
         tf=folder('origins',f'species-traits/{sid}',sp['name'],parent=FT)
         tuuids=[]; ouuids=[]; alltext=''
         for tr in sp['traits']:
             text=tr['body'].text(); html=tr['body'].html(); alltext+=' '+text
             html=re.sub(r'^<p><strong>[^<]*</strong>\s*','<p>',html)
-            if 'Lineage' in tr['name']: html+=lineage_text(sp['p'])
+            if 'Lineage' in tr['name']: html+=lineage_text(sp['p'],sp['book'],DOCS[sp['book']])
             for ex in tr.get('extra',[]): html+=ex['body'].html(); text+=' '+ex['body'].text()
             d=feat(tr['name'],html,text,seed=f'sptrait:{sp["name"]}:{tr["name"]}',typ='race',subtype='',req=sp['name'],img=img,folder=tf)
             write('origins',f'species-traits/{sid}/{ident(tr["name"])}.yml',d); count['traits']+=1
@@ -110,7 +123,8 @@ def main():
             if not pool: continue
             ch=[{'count':1,'pool':pool}] if len(pool)>1 and re.search(r'\bor\b',m3.group(1)) else []
             a={'_id':mkid(f'sk:{sid}:{i}'),'type':'Trait','configuration':{'mode':'default','allowReplacements':False,'grants':[] if ch else pool,'choices':ch},'value':{'chosen':[]},'level':0,'title':'Skill Proficiency','hint':''}; adv[a['_id']]=a
-        sysd={'description':{'value':sp['intro'].html(),'chat':''},'source':dict(SRC_HB),'advancement':adv,
+        arthtml=f'<p><img src="{img.replace(".webp","-art.webp")}" style="max-height:420px;float:right;margin-left:8px"></p>' if img.startswith('modules/') else ''
+        sysd={'description':{'value':arthtml+sp['intro'].html(),'chat':''},'source':dict(SRC_HB if sp['book']=='handbook' else SRC_OD),'advancement':adv,
               'movement':{'units':None,'hover':False,'speeds':speeds,'ignoredDifficultTerrain':[]},
               'senses':{'units':None,'special':'','ranges':{'darkvision':int(dv.group(1)) if dv else None,'blindsight':None,'tremorsense':None,'truesight':None}},
               'type':{'value':ct if ct in TYPES else 'humanoid','custom':'','subtype':''},'identifier':sid}

@@ -1,7 +1,7 @@
 _id: GlUSsEkaQL6KIO1N
 name: Drift Gaunt Commander
 type: npc
-img: modules/neon-odyssey/icons/creatures/drift-gaunt-commander.webp
+img: icons/svg/mystery-man.svg
 folder: k5rTBECLPnuppoi3
 system:
   abilities:
@@ -112,7 +112,70 @@ items:
       type: ''
       value: null
       condition: ''
-    activities: {}
+    activities:
+      t8oDTk0RyIqkd8wt:
+        _id: t8oDTk0RyIqkd8wt
+        type: save
+        name: Save
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - str
+          dc:
+            calculation: ''
+            formula: '16'
+        damage:
+          onSave: half
+          parts:
+          - number: 10
+            denomination: 6
+            bonus: ''
+            types:
+            - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
     properties: []
     requirements: ''
     identifier: personal-warp-generator
@@ -753,7 +816,7 @@ sort: 0
 prototypeToken:
   name: Drift Gaunt Commander
   texture:
-    src: modules/neon-odyssey/icons/creatures/drift-gaunt-commander-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

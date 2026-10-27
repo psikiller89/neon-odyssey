@@ -1,0 +1,49 @@
+_id: trFe26IYtWWLjyng
+name: Relaxing Revel
+type: feat
+img: modules/neon-odyssey/icons/species/flambego.webp
+folder: a5xs7p6NnSf7ik3D
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You can lead up to eight creatures in lively song, dance, or other revelry for 1 minute. At the end of the revel, each creature gains the benefit of a Short Rest, regains one expended Hit
+      Point Die, and its Exhaustion level, if any, decreases by 1. A creature can’t benefit from this manifestation again until it finishes a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Flambego
+  activities: {}
+  enchant: {}
+  identifier: relaxing-revel
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!trFe26IYtWWLjyng'

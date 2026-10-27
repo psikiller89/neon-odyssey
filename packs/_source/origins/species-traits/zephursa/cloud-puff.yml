@@ -1,0 +1,102 @@
+_id: xtj7ULogyoNSxpOc
+name: Cloud Puff
+type: feat
+img: modules/neon-odyssey/icons/species/zephursa.webp
+folder: Omp8lIjH8bVXbUyj
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>As a Bonus Action, you can puff up with swirling cloud stuff and gain a Fly Speed equal to half your Speed for 1 minute.</p><p>When you are hit by an attack roll during this time, you can
+      take a Reaction to subtract 1d4 from the total, possibly causing it to miss.</p><p>Once you puff up with this trait, you can’t use it again until you finish a Short or Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zephursa
+  activities:
+    SOIn4YNJljcIR7xn:
+      _id: SOIn4YNJljcIR7xn
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: cloud-puff
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!xtj7ULogyoNSxpOc'

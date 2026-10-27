@@ -79,13 +79,13 @@ system:
       value: []
       custom: Common, Dissonant; telepathy 120 ft.
   skills:
-    prc:
+    acr:
       value: 1
       ability: ''
     ste:
       value: 1
       ability: ''
-    acr:
+    prc:
       value: 1
       ability: ''
 items:

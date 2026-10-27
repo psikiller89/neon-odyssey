@@ -4,11 +4,12 @@ type: race
 img: modules/neon-odyssey/icons/species/rangor.webp
 system:
   description:
-    value: <p>Rangor <em>(RAING-gor)</em> are a hulking, subterranean species with an inherent supernatural force of momentum brought on by the aether that suffuses their core. They can propel themselves
-      forward at surprising speeds given their bulk and have the innate ability to become an unstoppable force that can smash through anything in their way. Having first burrowed out of an asteroid of crystalized
-      aether, rangor typically have a wanderlust that keeps them in outer space. Many of them stay on the move and stop for limited periods of time at space stations, moons, asteroids, and other off-world
-      locations. Rangor generally have broad, bulky builds with proportionally long arms that end in digging claws and short legs. Their thick hides are mottled with patches of tough scales, and they grow
-      flaps of skin that resemble shaggy hair. A rangor’s nostrils sit in the middle of their forehead, and their short tusks continue to grow as they age.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/rangor-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Rangor <em>(RAING-gor)</em> are a hulking, subterranean species with
+      an inherent supernatural force of momentum brought on by the aether that suffuses their core. They can propel themselves forward at surprising speeds given their bulk and have the innate ability to
+      become an unstoppable force that can smash through anything in their way. Having first burrowed out of an asteroid of crystalized aether, rangor typically have a wanderlust that keeps them in outer
+      space. Many of them stay on the move and stop for limited periods of time at space stations, moons, asteroids, and other off-world locations. Rangor generally have broad, bulky builds with proportionally
+      long arms that end in digging claws and short legs. Their thick hides are mottled with patches of tough scales, and they grow flaps of skin that resemble shaggy hair. A rangor’s nostrils sit in the
+      middle of their forehead, and their short tusks continue to grow as they age.</p>
     chat: ''
   source:
     custom: ''

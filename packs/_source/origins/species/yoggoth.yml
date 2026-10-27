@@ -1,0 +1,93 @@
+_id: pLDKqfUj8U9BF1EF
+name: Yoggoth
+type: race
+img: modules/neon-odyssey/icons/species/yoggoth.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/yoggoth-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Yoggoths <em>(YAW-goth)</em> are a strange species rumored to have
+      been birthed from the eldritch dreams of the mysterious elder beings of the galaxy. Hailing from a remote homeworld scattered with the ruins of their creators, they experience otherworldly dreams
+      said to be an echo of what brought their people into being.</p><p>As the ultimate survivors, yoggoths are extremely resourceful and prone to recycling everything they possibly can. Many are drawn
+      to salvaging operations, but some are driven to uncover the mysteries of their dreams and eldritch origins, not stopping until they discover the answers they seek.</p><p>Yoggoths appear like alien
+      flies in a bipedal humanoid shape with both leathery and chitinous hides that are typically earthy in color. They have large glassy eyes, four nostrils on their elongated snouts, and fleshy tendrils
+      that can grow from their head or chin. Two pairs of leathery wings grow from their shoulders, from which they emit their infamous drone.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    ZF6rrVQOqhUHkaxM:
+      _id: ZF6rrVQOqhUHkaxM
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    SUCMHNzdfc2vTSOf:
+      _id: SUCMHNzdfc2vTSOf
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.eUNmjONFrm8zAn3J
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.9p64FCiUtjTjUvWR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.8QZmv4KNdFlKRLWR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.h5EskBAd9DZWeiP9
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Yoggoth Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: yoggoth
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!pLDKqfUj8U9BF1EF'

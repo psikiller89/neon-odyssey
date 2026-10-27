@@ -74,10 +74,10 @@ system:
       value: []
       custom: Common, Smuggler’s Slang, plus one other language
   skills:
-    sur:
+    ath:
       value: 1
       ability: ''
-    ath:
+    sur:
       value: 1
       ability: ''
     itm:

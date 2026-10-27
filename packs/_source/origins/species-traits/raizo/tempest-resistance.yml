@@ -4,7 +4,52 @@ type: feat
 img: modules/neon-odyssey/icons/species/raizo.webp
 folder: TtWeEeuehIhn2HoK
 sort: 0
-effects: []
+effects:
+- _id: LKo2eUlIEqzeMjh6
+  name: Tempest Resistance
+  img: modules/neon-odyssey/icons/species/raizo.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: yTt77lgBSEOfPtmf
+    - key: system.traits.dr.value
+      value: thunder
+      priority: null
+      type: add
+      phase: initial
+      _id: wUNFoksviGLLa4K1
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!YxzvZUUkMdSYfLFb.LKo2eUlIEqzeMjh6'
 system:
   description:
     value: <p>You have Resistance to Lightning damage and Thunder damage.</p>

@@ -4,10 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/saurian.webp
 system:
   description:
-    value: <p>Saurians <em>(SOR-ee-in)</em> are the oldest species in the Stardust Rhapsody, appearing as humanoid versions of the galaxy’s numerous dinosaurs and similarly prehistoric reptiles. They bear
-      a special connection with the Harmony and can channel its lifegiving energies through that spark. This connection manifests in an intimate ancestral connection that grants them special insight on
-      how to approach their daily lives. Across five distinct lineages, saurians comprise a wide range of body types and statures, with each one reminiscent of a broader category of dinosaur. These grant
-      them the traits of water-dwellers, fliers, predators, scavengers, and hardy grazers. They typically have naturalistic hues, but some have vibrantly prismatic scales.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/saurian-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Saurians <em>(SOR-ee-in)</em> are the oldest species in the Stardust
+      Rhapsody, appearing as humanoid versions of the galaxy’s numerous dinosaurs and similarly prehistoric reptiles. They bear a special connection with the Harmony and can channel its lifegiving energies
+      through that spark. This connection manifests in an intimate ancestral connection that grants them special insight on how to approach their daily lives. Across five distinct lineages, saurians comprise
+      a wide range of body types and statures, with each one reminiscent of a broader category of dinosaur. These grant them the traits of water-dwellers, fliers, predators, scavengers, and hardy grazers.
+      They typically have naturalistic hues, but some have vibrantly prismatic scales.</p>
     chat: ''
   source:
     custom: ''

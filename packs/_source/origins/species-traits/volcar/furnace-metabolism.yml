@@ -1,0 +1,48 @@
+_id: u5h4iUBWAnLD6hbC
+name: Furnace Metabolism
+type: feat
+img: modules/neon-odyssey/icons/species/volcar.webp
+folder: SUCxDZg2tjidEMIJ
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You don’t gain Exhaustion levels from dehydration, and you can eat minerals and glass as if they were a similar amount of food.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Volcar
+  activities: {}
+  enchant: {}
+  identifier: furnace-metabolism
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!u5h4iUBWAnLD6hbC'

@@ -120,6 +120,59 @@ system:
             mode: whole
             number: 1
             formula: ''
+    vkhpUfHSdhk2sVaB:
+      _id: vkhpUfHSdhk2sVaB
+      type: save
+      name: Save
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: Gs0hpBNuJt19nmoh
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts: []
   identifier: hungering-void
 effects:
 - _id: Gs0hpBNuJt19nmoh

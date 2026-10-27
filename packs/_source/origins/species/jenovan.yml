@@ -1,0 +1,118 @@
+_id: t1L5TZH41JRXZihj
+name: Jenovan
+type: race
+img: modules/neon-odyssey/icons/species/jenovan.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/jenovan-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Jenovans <em>(jeh-NOH-vin)</em> are the descendants of an artificial
+      psionic species created through genetic experimentation to achieve a perfected lifeform. For eons, these bio-engineered creations intermingled with their creators until nothing but the jenovans remained,
+      beings of enhanced physicality and fearsome telekinetic power.</p><p>Whatever homeworld they once had was lost to legend, so jenovans became a nomadic people who wander across the galaxy and settle
+      numerous planets in tight-knit communities. They often strive to perfect themselves within and without, pushing their abilities to the limit and beyond. Many seek mightier challenges and opponents
+      to test their skills and train against.</p><p>Jenovans have an appearance that betrays their genetically engineered origin, with unnaturally smooth skin in tones of gray, green, and purple. Their
+      bodies are adorned with plates of natural armor as well as crystalline protrusions that focus their telekinesis. All jenovans bear either a prominent tail or a head tendril, though many have both.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    vSPoG2me2F0Jc1jS:
+      _id: vSPoG2me2F0Jc1jS
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–7 feet tall)
+      value: {}
+      title: ''
+    xBnU7jEhr4r8mATk:
+      _id: xBnU7jEhr4r8mATk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.yBmKidXXNXz8y7j2
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.y8fqWo1C2aAXw62T
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.GOuzFMcYlhTmhmKy
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.eg0svLJ4EZALeCPg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Iv7IR52C5nrh2zuC
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.v3OKycqZZty1KvU7
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.BRsQWNjFVMPOOE6Z
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Jenovan Traits
+    y6Qsnv9nDLO4iTJX:
+      _id: y6Qsnv9nDLO4iTJX
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:acr
+          - skills:ath
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: jenovan
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!t1L5TZH41JRXZihj'

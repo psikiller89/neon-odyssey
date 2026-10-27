@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/amanite.webp
 system:
   description:
-    value: <p>Amanites <em>(A-muh-nite) </em>are fungal folk who originated in marshes and bogs overgrown with tree-sized mushrooms and teeming with huge, voracious creatures. They have adapted to thrive
-      in this treacherous environment, developing magical spores they harness to evade the predators that seek to devour them. Despite the threats that surround them, many amanites laugh in the face of
-      danger and possess a love of adventure and discovery, seeking out mysteries to solve and relics to unearth. Amanites are a diminutive people who resemble bipedal humanoid mushrooms that can vary in
-      a wide spectrum of colors, textures, and patterns reminiscent of a huge diversity of fungus. Most typically have rounded noses, feature caps on their heads, and can grow fungal tendrils that evoke
-      hair.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/amanite-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Amanites <em>(A-muh-nite) </em>are fungal folk who originated in
+      marshes and bogs overgrown with tree-sized mushrooms and teeming with huge, voracious creatures. They have adapted to thrive in this treacherous environment, developing magical spores they harness
+      to evade the predators that seek to devour them. Despite the threats that surround them, many amanites laugh in the face of danger and possess a love of adventure and discovery, seeking out mysteries
+      to solve and relics to unearth. Amanites are a diminutive people who resemble bipedal humanoid mushrooms that can vary in a wide spectrum of colors, textures, and patterns reminiscent of a huge diversity
+      of fungus. Most typically have rounded noses, feature caps on their heads, and can grow fungal tendrils that evoke hair.</p>
     chat: ''
   source:
     custom: ''

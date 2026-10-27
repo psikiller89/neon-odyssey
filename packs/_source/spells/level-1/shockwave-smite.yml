@@ -102,6 +102,59 @@ system:
             mode: whole
             number: 1
             formula: ''
+    Et2W6i3fMNtxE7WF:
+      _id: Et2W6i3fMNtxE7WF
+      type: save
+      name: Save
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: QHoPQJkMPQVjBWWP
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts: []
   identifier: shockwave-smite
 effects:
 - _id: QHoPQJkMPQVjBWWP

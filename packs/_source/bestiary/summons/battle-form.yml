@@ -1,7 +1,7 @@
 _id: Q6V1SUYogllCcBSQ
 name: Battle Form
 type: npc
-img: modules/neon-odyssey/icons/creatures/battle-form.webp
+img: icons/svg/mystery-man.svg
 folder: zffxSCFFcVJK6PwY
 system:
   abilities:
@@ -406,7 +406,7 @@ sort: 0
 prototypeToken:
   name: Battle Form
   texture:
-    src: modules/neon-odyssey/icons/creatures/battle-form-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

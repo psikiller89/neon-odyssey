@@ -1,0 +1,48 @@
+_id: v3OKycqZZty1KvU7
+name: Genetic Perfection
+type: feat
+img: modules/neon-odyssey/icons/species/jenovan.webp
+folder: EmUGsLF45Zkp2Obr
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You gain Expertise in one of your skill proficiencies.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Jenovan
+  activities: {}
+  enchant: {}
+  identifier: genetic-perfection
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!v3OKycqZZty1KvU7'

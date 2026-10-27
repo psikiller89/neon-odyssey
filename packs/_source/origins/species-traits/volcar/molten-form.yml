@@ -1,0 +1,152 @@
+_id: FvRx8XZVx2lpVrjw
+name: Molten Form
+type: feat
+img: modules/neon-odyssey/icons/species/volcar.webp
+folder: SUCxDZg2tjidEMIJ
+sort: 0
+effects:
+- _id: 0YSWrO3u3CNNrNWJ
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!FvRx8XZVx2lpVrjw.0YSWrO3u3CNNrNWJ'
+system:
+  description:
+    value: <p>As a Bonus Action, you can melt your rocky body into lava for 1 minute, until you have the Incapacitated condition, or until you end it early (no action required). For the duration, you have
+      Immunity to Fire damage, you can move through spaces as narrow as 1 foot without spending extra movement to do so, and you can move through a creature’s space as if it were Difficult Terrain. When
+      you move through a creature’s space, you can deal 1d4 Fire damage to it. A creature takes this damage only once per turn. The damage increases by 1d4 when you reach character levels 5 (2d4), 11 (3d4),
+      and 17 (4d4). Your equipment shapes with your molten form and is unharmed by this transformation.</p><p>Once you use this Bonus Action, you can’t do so again until you finish a Short or Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Volcar
+  activities:
+    Xz9G0XhqdF8pMLjN:
+      _id: Xz9G0XhqdF8pMLjN
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: 0YSWrO3u3CNNrNWJ
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 4
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: molten-form
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!FvRx8XZVx2lpVrjw'

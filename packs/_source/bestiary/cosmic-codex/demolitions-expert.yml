@@ -77,10 +77,10 @@ system:
       value: []
       custom: Common
   skills:
-    sur:
+    ath:
       value: 1
       ability: ''
-    ath:
+    sur:
       value: 1
       ability: ''
 items:

@@ -4,12 +4,12 @@ type: race
 img: modules/neon-odyssey/icons/species/zamani.webp
 system:
   description:
-    value: <p>Zamani <em>(zuh-MAH-nee)</em> are a people with an inherent, supernatural connection to time itself. They perceive time and their place in it differently than every other species of the galaxy,
-      allowing them to look into the immediate future and see numerous outcomes. Between this and their physical adaptation to handle heat, zamani thrive on their harsh desert homeworld. Many zamani have
-      a stoic philosophy of acceptance, and many of the worries of day-to-day life can seem insignificant in the grand scheme of time. While some believe that their temporal powers make them the masters
-      of their own fate, others believe nothing can be done to change one’s destiny. Zamani have sun-tempered skin that runs from dark earth shades to muted jewel tones with embedded gemstones that focus
-      their inherent energies. Their heads have raised ridges and plates that serve as heat sinks, and their bodies are typically covered in elaborate, geometric patterns of gold that evoke the flow of
-      time.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/zamani-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Zamani <em>(zuh-MAH-nee)</em> are a people with an inherent, supernatural
+      connection to time itself. They perceive time and their place in it differently than every other species of the galaxy, allowing them to look into the immediate future and see numerous outcomes. Between
+      this and their physical adaptation to handle heat, zamani thrive on their harsh desert homeworld. Many zamani have a stoic philosophy of acceptance, and many of the worries of day-to-day life can
+      seem insignificant in the grand scheme of time. While some believe that their temporal powers make them the masters of their own fate, others believe nothing can be done to change one’s destiny. Zamani
+      have sun-tempered skin that runs from dark earth shades to muted jewel tones with embedded gemstones that focus their inherent energies. Their heads have raised ridges and plates that serve as heat
+      sinks, and their bodies are typically covered in elaborate, geometric patterns of gold that evoke the flow of time.</p>
     chat: ''
   source:
     custom: ''

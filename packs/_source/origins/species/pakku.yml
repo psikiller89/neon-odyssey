@@ -1,0 +1,94 @@
+_id: KwEsPw4UUG0ouFjD
+name: Pakku
+type: race
+img: modules/neon-odyssey/icons/species/pakku.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/pakku-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Pakku <em>(PAH-koo)</em> are a species of sapient plants with the combined
+      elements of cacti and carnivorous flora. To survive their deadly, venomous homeworld, they have developed a variety of adaptations to overcome both predators and prey.</p><p>Favoring the more lawless
+      corners of the galaxy, pakku usually seek their fortune through grit and resolve. Many of them have a strong interest in the crafting and handling of weapons, especially firearms, striving to master
+      the art of the duel with their implement of choice.</p><p>Widely varied in shape and size, pakku appear as bipedal plants with spiny cactus bodies that are usually a shade of green. Their heads are
+      typically topped with hair-like vines or colorful, exotic flowers with extra-wide, toothy mouths that resemble carnivorous plants.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    qDCNpNxIhrk3M1hK:
+      _id: qDCNpNxIhrk3M1hK
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    X6WmXoQ731fMgFoB:
+      _id: X6WmXoQ731fMgFoB
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.1wrgHyK4jurJrVZX
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.tewhAIZp4G9drOUp
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.TpLB5Jxmy6yvK7ud
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.P8G4oHQ0rKbftQEp
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.5vblE9amFnNivcnZ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Pakku Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: plant
+    custom: ''
+    subtype: ''
+  identifier: pakku
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!KwEsPw4UUG0ouFjD'

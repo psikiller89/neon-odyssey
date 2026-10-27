@@ -1,0 +1,49 @@
+_id: Qf3rC1lQ3DJ4Iljv
+name: Wings of Night
+type: feat
+img: modules/neon-odyssey/icons/species/varg.webp
+folder: lWV6CwSgdkzyK5b1
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Your creature type becomes Fiend, and you grow a pair of bat wings from your shoulders that grant you a Fly Speed equal to your Speed. When you cast <em>Chill </em> <em>Touch</em>, you can
+      wrap your wings around the target to gain Advantage on the spell&#x27;s attack roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Varg
+  activities: {}
+  enchant: {}
+  identifier: wings-of-night
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Qf3rC1lQ3DJ4Iljv'

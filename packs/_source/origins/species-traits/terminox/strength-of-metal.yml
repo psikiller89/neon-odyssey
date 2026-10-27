@@ -1,0 +1,48 @@
+_id: 5mkpmDJsBLDtWSvH
+name: Strength of Metal
+type: feat
+img: modules/neon-odyssey/icons/species/terminox.webp
+folder: WlsNN1QGij5JQSEg
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Resistance to Poison damage, and you have Advantage on saving throws to avoid or end the Petrified and Poisoned conditions.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Terminox
+  activities: {}
+  enchant: {}
+  identifier: strength-of-metal
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!5mkpmDJsBLDtWSvH'

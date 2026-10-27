@@ -1,0 +1,97 @@
+_id: MJo0n4rqBSndEtu5
+name: Inventory Management
+type: feat
+img: modules/neon-odyssey/icons/species/navili.webp
+folder: rdjb04Lu75ttAUaR
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You can store and retrieve items from a digital inventory. With a Utilize Action, you can digitize an item you are wearing or carrying and store it in your inventory, or retrieve a digitized
+      item into your hand and return it to normal. Your inventory can hold a number of items equal to your Proficiency Bonus. Digitized items appear in your space when you die.</p><p><strong>Look! Listen!</strong>
+      You have proficiency in the Insight, Investigation, or Perception skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Navili
+  activities:
+    o7qmSUX6ZKIQzkIk:
+      _id: o7qmSUX6ZKIQzkIk
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: inventory-management
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MJo0n4rqBSndEtu5'

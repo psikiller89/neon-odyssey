@@ -1,0 +1,93 @@
+_id: NyLbTe4PNepQP5x6
+name: Igneous Hide
+type: feat
+img: modules/neon-odyssey/icons/species/volcar.webp
+folder: SUCxDZg2tjidEMIJ
+sort: 0
+effects:
+- _id: yoT0Wr7LIoNkTSEX
+  name: Igneous Hide
+  img: modules/neon-odyssey/icons/species/volcar.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: ZUOgKACSt0gWLjpV
+    - key: system.traits.dr.value
+      value: poison
+      priority: null
+      type: add
+      phase: initial
+      _id: bYoAilPm9GQ3UpDq
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!NyLbTe4PNepQP5x6.yoT0Wr7LIoNkTSEX'
+system:
+  description:
+    value: <p>You have Resistance to Fire damage and Poison damage. You also have Advantage on saving throws you make to avoid or end the Petrified condition or the Poisoned condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Volcar
+  activities: {}
+  enchant: {}
+  identifier: igneous-hide
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!NyLbTe4PNepQP5x6'

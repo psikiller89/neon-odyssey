@@ -1,0 +1,97 @@
+_id: skcXNi6tw5QhsqOG
+name: Checkpoint
+type: feat
+img: modules/neon-odyssey/icons/species/bitling.webp
+folder: WFSGsoVHjaFqQTxv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>As a Magic action, you can expend a token to create a shimmering checkpoint on a surface you touch. The checkpoint lasts for 24 hours or until you use this action again. While you&#x27;re
+      on the same plane of existence, as a Magic action, you can teleport to the point, appearing in its space or the closest unoccupied space. When you do, you can expend a token to bring a willing creature
+      you touch with you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Bitling
+  activities:
+    mvRjNyESHQa3B1tY:
+      _id: mvRjNyESHQa3B1tY
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: checkpoint
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!skcXNi6tw5QhsqOG'

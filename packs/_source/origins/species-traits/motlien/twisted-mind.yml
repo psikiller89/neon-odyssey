@@ -1,0 +1,87 @@
+_id: GvAxAJmfMinEzQEH
+name: Twisted Mind
+type: feat
+img: modules/neon-odyssey/icons/species/motlien.webp
+folder: CGraPsu6vqO1GQmv
+sort: 0
+effects:
+- _id: 1F3gbT6bNcHnISdp
+  name: Twisted Mind
+  img: modules/neon-odyssey/icons/species/motlien.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: YTUfvDJxZ54hKS5n
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!GvAxAJmfMinEzQEH.1F3gbT6bNcHnISdp'
+system:
+  description:
+    value: <p>You have Resistance to Psychic damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Motlien
+  activities: {}
+  enchant: {}
+  identifier: twisted-mind
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GvAxAJmfMinEzQEH'

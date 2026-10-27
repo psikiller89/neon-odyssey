@@ -1,7 +1,7 @@
 _id: KNB7rqulAFBEKajv
 name: Drift Gaunt Lieutenant
 type: npc
-img: modules/neon-odyssey/icons/creatures/drift-gaunt-lieutenant.webp
+img: icons/svg/mystery-man.svg
 folder: k5rTBECLPnuppoi3
 system:
   abilities:
@@ -108,7 +108,58 @@ items:
       type: ''
       value: null
       condition: ''
-    activities: {}
+    activities:
+      ByoBKWpOyV6dX9kM:
+        _id: ByoBKWpOyV6dX9kM
+        type: save
+        name: Save
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '14'
+        damage:
+          onSave: half
+          parts: []
     properties: []
     requirements: ''
     identifier: jetpack
@@ -738,7 +789,7 @@ sort: 0
 prototypeToken:
   name: Drift Gaunt Lieutenant
   texture:
-    src: modules/neon-odyssey/icons/creatures/drift-gaunt-lieutenant-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

@@ -1,0 +1,109 @@
+_id: o6nw79VOMcSWvH55
+name: Cygnian
+type: race
+img: modules/neon-odyssey/icons/species/cygnian.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/cygnian-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Cygnians <em>(SIG-nee-in)</em> are the star-touched of Agathos, once
+      mortal beings remade by the will of the gods. Some were heroes who lived by the tenets of their favored deity so completely that they were chosen to ascend and begin their journey anew as a Celestial.
+      Others were selected at birth due to prophecies of greatness in the stars, discovered places or relics of divine import, or caught the eye of a god on a whim.</p><p>While some live their new immortal
+      lives in the heavenly realm of Agathos, many return to the galaxy to serve the god that reforged them</p><p>The physical form of cygnians is comprised of starstuff, with resilient skin and flowy hair
+      that evoke the night sky and statues of sacred stone and metal. They typically share a humanoid visage adorned by star shapes with distinct features that reflect their god, but some retain traits
+      of their original species.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    5aTG6xfDPA8AwaIQ:
+      _id: 5aTG6xfDPA8AwaIQ
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–7 feet tall)
+      value: {}
+      title: ''
+    HTTddPRMRZWLkVNL:
+      _id: HTTddPRMRZWLkVNL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.WJMXkis9z0uEd73z
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hhXp0OsKNuHITEZt
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.pei2AeR2BwAMKIE6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.sBfFewW1w0D9S7s9
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ek97L1gs27UIqdEb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.4nIQcuVqM8jZTpTq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.IVGSJLyHTd3noqmZ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.t8XgHlcHRTMRXlc2
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.56DPhKSfK7yHv8qg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.YkojN5h5fVXBfUka
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Cygnian Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: celestial
+    custom: ''
+    subtype: ''
+  identifier: cygnian
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!o6nw79VOMcSWvH55'

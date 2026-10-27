@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/solari.webp
 folder: 3Gj4qgogbyug5gzB
 sort: 0
-effects: []
+effects:
+- _id: zrXJQpK283FM8m0L
+  name: Solar Mettle
+  img: modules/neon-odyssey/icons/species/solari.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: radiant
+      priority: null
+      type: add
+      phase: initial
+      _id: eBPbFqldUNi87Foo
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!5Q42ATemfQU1gTo6.zrXJQpK283FM8m0L'
 system:
   description:
     value: <p>You have Resistance to Radiant damage.</p>

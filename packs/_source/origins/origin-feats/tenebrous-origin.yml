@@ -4,7 +4,46 @@ type: feat
 img: icons/magic/symbols/star-yellow.webp
 folder: zwHjzj1gRncwSsrp
 sort: 0
-effects: []
+effects:
+- _id: qppskI74JmTfp2rh
+  name: Tenebrous Origin
+  img: icons/magic/symbols/star-yellow.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: necrotic
+      priority: null
+      type: add
+      phase: initial
+      _id: QMalFZSx9zd5FSLX
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!WZvWKLsbbVzdFCTk.qppskI74JmTfp2rh'
 system:
   description:
     value: '<p><em>Origin Feat (Prerequisite: Deathly, Harmonic, or Shadowy Homeworld)</em></p><p>You have absorbed the essence of your home’s grim nature or world soul, gaining the following benefits.</p><p><strong>Necrotic

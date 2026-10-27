@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/oozoid.webp
 folder: G1PDkDhNlTe2b9ll
 sort: 0
-effects: []
+effects:
+- _id: YiexccwDWtjsUdW6
+  name: Amorphous
+  img: modules/neon-odyssey/icons/species/oozoid.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.swim
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: w0oZkc8bRc4rIrai
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Trh6VcbYs3aAxnhh.YiexccwDWtjsUdW6'
 system:
   description:
     value: <p>You have a Swim Speed equal to your Speed, and you can move through a space as narrow as 1 foot without expending extra movement to do so.</p>

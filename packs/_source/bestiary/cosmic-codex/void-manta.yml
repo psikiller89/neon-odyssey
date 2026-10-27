@@ -80,13 +80,13 @@ system:
       value: []
       custom: Understands Hadalic but can’t speak
   skills:
-    prc:
+    acr:
       value: 1
       ability: ''
     ste:
       value: 1
       ability: ''
-    acr:
+    prc:
       value: 1
       ability: ''
 items:

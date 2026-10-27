@@ -1,0 +1,51 @@
+_id: UoKeQ6K3tCwipVkm
+name: The Pit Within
+type: feat
+img: modules/neon-odyssey/icons/species/varg.webp
+folder: lWV6CwSgdkzyK5b1
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You don’t gain Exhaustion levels from dehydration or malnutrition, but you must drain vital energy to survive. If you go a number of days equal to your Constitution modifier plus 1 (minimum
+      of 1) without damaging a creature with your <em>Chill Touch</em>, you gain 1 Exhaustion level. Until you damage a creature with <em>Chill </em> <em>Touch</em>, you can’t remove Exhaustion levels,
+      and you continue to gain 1 Exhaustion level every 24 hours that pass. This trait can’t cause your Exhaustion level to rise higher than 5.</p><p>If you reduce a creature to 0 Hit Points using <em>Chill
+      Touch</em>, you remove all Exhaustion levels gained from this trait.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Varg
+  activities: {}
+  enchant: {}
+  identifier: the-pit-within
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UoKeQ6K3tCwipVkm'

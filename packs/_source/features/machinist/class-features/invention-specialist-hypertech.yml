@@ -1,0 +1,103 @@
+_id: iDidzrfOtj2IqCg3
+name: 'Invention Specialist: Hypertech'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><strong>Hypertech.</strong> You know two extra cantrips from the Machinist spell list. In addition, choose one of the following skills in which you have proficiency: Arcana Computers, Investigation,
+      or Technology. You have Expertise in the chosen skill.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: invention-specialist-hypertech
+  advancement:
+    yC6341dHFecDPpXo:
+      _id: yC6341dHFecDPpXo
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 2
+            replacement: false
+        pool: []
+        restriction:
+          list:
+          - class:machinist
+          level: '0'
+          school: []
+          subtype: ''
+          type: ''
+        spell:
+          ability:
+          - int
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+        type: spell
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      level: 1
+      title: Hypertech Cantrips
+      hint: ''
+    8WqUJgNwvCHQlyj0:
+      _id: 8WqUJgNwvCHQlyj0
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:arc
+          - skills:cmp
+          - skills:inv
+          - skills:tec
+      value:
+        chosen: []
+      level: 1
+      title: Hypertech Expertise
+      hint: ''
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 1
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!iDidzrfOtj2IqCg3'

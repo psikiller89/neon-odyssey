@@ -1,0 +1,50 @@
+_id: J84pHs76nmyoTI3X
+name: Collectible Drop
+type: feat
+img: modules/neon-odyssey/icons/species/bitling.webp
+folder: WFSGsoVHjaFqQTxv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you finish a Long Rest, you gain a token that looks like a digital collectible (coin, ring, gem, etc.). When you fail a D20 Test, you can expend one token to add 1d4 to the total, potentially
+      causing it to succeed instead.</p><p>When an enemy within 30 feet of you is reduced to 0 Hit Points, a token appears in its space and remains for 1 minute or until you collect it. You can have a maximum
+      number of tokens equal to your Proficiency Bonus at one time.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Bitling
+  activities: {}
+  enchant: {}
+  identifier: collectible-drop
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!J84pHs76nmyoTI3X'

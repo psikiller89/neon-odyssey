@@ -4,10 +4,10 @@ type: race
 img: modules/neon-odyssey/icons/species/anitron.webp
 system:
   description:
-    value: <p>Anitrons <em>(AN-ih-tron)</em> are living robots with a hyperspark—a technological soul originating from the Hypergrid and infused with the Harmony’s life energy. Scholars debate whether the
-      first hypersparks manifested spontaneously, or if some inventor gave the first anitron their synthetic spirit. Their mechanical bodies are each designed for a singular specialty in which they excel
-      and often fixate on executing through free will instead of programmatic dictate. Constructed from various materials and fashioned into a wide variety of body shapes and sizes, anitrons are one of
-      the most physically diverse species in the galaxy.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/anitron-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Anitrons <em>(AN-ih-tron)</em> are living robots with a hyperspark—a
+      technological soul originating from the Hypergrid and infused with the Harmony’s life energy. Scholars debate whether the first hypersparks manifested spontaneously, or if some inventor gave the first
+      anitron their synthetic spirit. Their mechanical bodies are each designed for a singular specialty in which they excel and often fixate on executing through free will instead of programmatic dictate.
+      Constructed from various materials and fashioned into a wide variety of body shapes and sizes, anitrons are one of the most physically diverse species in the galaxy.</p>
     chat: ''
   source:
     custom: ''

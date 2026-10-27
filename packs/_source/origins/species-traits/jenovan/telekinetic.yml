@@ -1,0 +1,49 @@
+_id: GOuzFMcYlhTmhmKy
+name: Telekinetic
+type: feat
+img: modules/neon-odyssey/icons/species/jenovan.webp
+folder: EmUGsLF45Zkp2Obr
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You know the <em>Kinetic Propulsion</em>* cantrip and the <em>Mage Hand </em>cantrip (the hand is invisible).</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose
+      the ability when you select this species).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Jenovan
+  activities: {}
+  enchant: {}
+  identifier: telekinetic
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GOuzFMcYlhTmhmKy'

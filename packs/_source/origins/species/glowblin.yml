@@ -4,10 +4,10 @@ type: race
 img: modules/neon-odyssey/icons/species/glowblin.webp
 system:
   description:
-    value: <p>Glowblins <em>(GLOH-blin) </em>are small folk who feel big and intense emotions with an inner neon radiance. This emotionial glow colors their physical appearance and shines with vibrant light.
-      Many glowblins tap into this magic to entertain and influence, shaping light and sound to evoke powerful feelings. They&#x27;re drawn to fun, color, music, and all things maximalist. Glowblins have
-      colorful skin, hair, and luminous eyes that change to match their affinity for emotion and selfexpression, taking on a wide spectrum of hues and shades. They also have large, expressive ears, sharp
-      teeth, and prominent, often pointed noses.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/glowblin-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Glowblins <em>(GLOH-blin) </em>are small folk who feel big and intense
+      emotions with an inner neon radiance. This emotionial glow colors their physical appearance and shines with vibrant light. Many glowblins tap into this magic to entertain and influence, shaping light
+      and sound to evoke powerful feelings. They&#x27;re drawn to fun, color, music, and all things maximalist. Glowblins have colorful skin, hair, and luminous eyes that change to match their affinity
+      for emotion and selfexpression, taking on a wide spectrum of hues and shades. They also have large, expressive ears, sharp teeth, and prominent, often pointed noses.</p>
     chat: ''
   source:
     custom: ''

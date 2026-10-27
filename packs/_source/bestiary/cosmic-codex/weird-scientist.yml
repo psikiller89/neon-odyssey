@@ -80,10 +80,10 @@ system:
       value: []
       custom: Common plus two other languages
   skills:
-    arc:
+    med:
       value: 1
       ability: ''
-    med:
+    arc:
       value: 1
       ability: ''
 items:

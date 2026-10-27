@@ -1,0 +1,103 @@
+_id: SKmTooPGO6ZMFgMs
+name: Metal Shaper
+type: feat
+img: modules/neon-odyssey/icons/species/oculok.webp
+folder: pyrOxAdqCIb5xftZ
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You know the <em>Mending</em> cantrip. If you target a metal object, you can change the casting time to a Bonus Action. Intelligence, Wisdom, or Charisma is your spellcasting ability for it
+      (choose the ability when you select this species).</p><p>Additionally, as a Magic action, you can touch a metal object (or part of a larger metal object or structure) no larger than a 5-foot Cube.
+      The target gains Resistance or Vulnerability to all damage (your choice) for 1 minute. Once you use this action, you can’t use it again until you finish a Short or Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Oculok
+  activities:
+    1ciuzWJtReiJixCV:
+      _id: 1ciuzWJtReiJixCV
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: metal-shaper
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!SKmTooPGO6ZMFgMs'

@@ -1,0 +1,107 @@
+_id: ugJiassXWD6XoDSi
+name: Navili
+type: race
+img: modules/neon-odyssey/icons/species/navili.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/navili-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Navili <em>(nuh-VEE-lee) </em>are an ethereal folk who first stepped
+      out of Arcadia and found a home in the Stardust Rhapsody. Their time among the mortal species changed them, but they never lost touch with the mystic power of their enchanted origin.</p><p>All navili
+      embody a primary ideal—valor, might, or clarity— tracing back to the virtues of the sages that first guided them from Arcadia. Drawn to opportunities for heroism and to embody their chosen ideal,
+      navili regularly seek secrets and relics within ancient ruins or lost temples.</p><p>They are typically willowy and graceful with skin that ranges from muted tones of nature to the brilliant blues,
+      pinks, and greens of Arcadia, often marked with intricate runic patterns. Navili have shimmering eyes, broad noses, and leaf-like ears with several delicate points. A pair of prismatic, polygonal
+      wings drift behind their backs.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    mcysb0GfQvFtNttR:
+      _id: mcysb0GfQvFtNttR
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    XdUds22puqCxu9vN:
+      _id: XdUds22puqCxu9vN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.MJo0n4rqBSndEtu5
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.EHRpPLvNma2UuDYT
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.TKpgQzhW31uf43RC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Navili Traits
+    tYM1yK1V9SMFodIR:
+      _id: tYM1yK1V9SMFodIR
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ins
+          - skills:inv
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: fey
+    custom: ''
+    subtype: ''
+  identifier: navili
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ugJiassXWD6XoDSi'

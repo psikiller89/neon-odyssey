@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/raizo.webp
 system:
   description:
-    value: <p>Raizo <em>(RYE-zoh)</em> are a people born of the storm, and they all carry the power and ferocity of a raging tempest within them. Hailing from a world beset by never-ending, violent storms,
-      they possess the supernatural ability to unleash the power of thunder, lightning, and rain to overcome staggering odds. They typically have a fearlessness against danger and overwhelming obstacles,
-      often conquering any barrier in their way. This relentlessness has allowed many to master the elements and thrive in harsh, inhospitable environments. Raizo are typically tall, solidly built, and
-      often heavily muscled. A pair of horns grow from the top of their foreheads, and they sport tusks from their lower jaw. Their skin runs in shades of red, blue, green, gray, or yellow. Many raizo display
-      tattoos that reflect particularly important aspects of their nature or personality.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/raizo-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Raizo <em>(RYE-zoh)</em> are a people born of the storm, and they all
+      carry the power and ferocity of a raging tempest within them. Hailing from a world beset by never-ending, violent storms, they possess the supernatural ability to unleash the power of thunder, lightning,
+      and rain to overcome staggering odds. They typically have a fearlessness against danger and overwhelming obstacles, often conquering any barrier in their way. This relentlessness has allowed many
+      to master the elements and thrive in harsh, inhospitable environments. Raizo are typically tall, solidly built, and often heavily muscled. A pair of horns grow from the top of their foreheads, and
+      they sport tusks from their lower jaw. Their skin runs in shades of red, blue, green, gray, or yellow. Many raizo display tattoos that reflect particularly important aspects of their nature or personality.</p>
     chat: ''
   source:
     custom: ''

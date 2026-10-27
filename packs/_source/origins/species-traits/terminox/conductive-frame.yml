@@ -1,0 +1,87 @@
+_id: hRsl3oHNyJLIfLOT
+name: Conductive Frame
+type: feat
+img: modules/neon-odyssey/icons/species/terminox.webp
+folder: WlsNN1QGij5JQSEg
+sort: 0
+effects:
+- _id: qPVmmMzToB3ZstM4
+  name: Conductive Frame
+  img: modules/neon-odyssey/icons/species/terminox.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: yTt77lgBSEOfPtmf
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!hRsl3oHNyJLIfLOT.qPVmmMzToB3ZstM4'
+system:
+  description:
+    value: <p>You have Resistance to Lightning damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Terminox
+  activities: {}
+  enchant: {}
+  identifier: conductive-frame
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hRsl3oHNyJLIfLOT'

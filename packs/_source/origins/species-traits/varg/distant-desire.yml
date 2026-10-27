@@ -1,0 +1,48 @@
+_id: KqdZ7gQpOSzHCdW9
+name: Distant Desire
+type: feat
+img: modules/neon-odyssey/icons/species/varg.webp
+folder: lWV6CwSgdkzyK5b1
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Your <em>Chill Touch</em> cantrip now has a range of 60 feet. When you damage a creature with it, you gain a number of Temporary Hit Points equal to twice your Proficiency Bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Varg
+  activities: {}
+  enchant: {}
+  identifier: distant-desire
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!KqdZ7gQpOSzHCdW9'

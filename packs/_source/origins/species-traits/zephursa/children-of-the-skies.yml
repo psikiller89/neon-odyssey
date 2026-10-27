@@ -1,0 +1,51 @@
+_id: 9IV2M0Mon3QQDsAG
+name: Children of the Skies
+type: feat
+img: modules/neon-odyssey/icons/species/zephursa.webp
+folder: Omp8lIjH8bVXbUyj
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You know the <em>Befriend</em>* cantrip.</p><p>Additionally, starting at character level 3, you always have the <em>Fog Cloud</em> spell prepared, and starting at character level 5, you always
+      have the <em>Gust of Wind</em> spell prepared. You can cast each one once without a spell slot, and you regain the ability to cast them in that way when you finish a Long Rest. You can also cast the
+      spells using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when
+      you select this species).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zephursa
+  activities: {}
+  enchant: {}
+  identifier: children-of-the-skies
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!9IV2M0Mon3QQDsAG'

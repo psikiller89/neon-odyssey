@@ -1,0 +1,102 @@
+_id: X4sFTsvnOYxCsJ75
+name: Bitling
+type: race
+img: modules/neon-odyssey/icons/species/bitling.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/bitling-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Bitlings <em>(BIT-ling)</em> are a widely varied species that hail
+      from the video game realm of Arcadia. The imaginative creativity and bombastic energy of the arcade plane infuse them with whimsical powers that change based on their inherent archetype—strong, swift,
+      or soaring.</p><p>Bitlings often travel through Arcadia and the galaxy beyond seeking shiny collectibles that power their magic. Many set out on grand quests seeking fun adventures, sidekicks to befriend,
+      and loot to add to their collection.</p><p>Unified by bright colors and exaggerated proportions, a bitlings’s appearance is only limited by one’s imagination. Their most common form is a bipedal animal
+      of any variety, but there are those who resemble toy-like humanoids, walking inanimate objects, or even bizarre oblong shapes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    zy1BGs0bVlOd4A2t:
+      _id: zy1BGs0bVlOd4A2t
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    CODQq0QuYUbwzPYs:
+      _id: CODQq0QuYUbwzPYs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.J84pHs76nmyoTI3X
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.n07yUTmLQFEn8OAo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.He90ynjqtVwFRTel
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.URbLZlfPtIPiJ0sm
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.vEwWysuoi6k1gYHX
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.skcXNi6tw5QhsqOG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.azEw1uQI5VtPH2jA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Bitling Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      climb: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: fey
+    custom: ''
+    subtype: ''
+  identifier: bitling
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!X4sFTsvnOYxCsJ75'

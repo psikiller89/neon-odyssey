@@ -4,7 +4,46 @@ type: feat
 img: icons/magic/symbols/star-yellow.webp
 folder: zwHjzj1gRncwSsrp
 sort: 0
-effects: []
+effects:
+- _id: FCIAMRFac53AfFCv
+  name: Awakened Mind Origin
+  img: icons/magic/symbols/star-yellow.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: YTUfvDJxZ54hKS5n
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!umpWO733Mc8sQ59W.FCIAMRFac53AfFCv'
 system:
   description:
     value: '<p><em>Origin Feat (Prerequisite: Eldritch or Psychic Homeworld)</em></p><p>You have absorbed the essence of your home’s psychically awakened nature or world soul, gaining the following benefits.</p><p><strong>Psychic

@@ -4,10 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/laika.webp
 system:
   description:
-    value: <p>Laika <em>(LIE-kuh)</em> are a canine species that resemble bipedal dogs of any breed, with an innate sense of loyalty to their community and anyone they consider a packmate. While all laika
-      have a powerful bark and bite, most prefer to focus their efforts on cooperation and teamwork, particularly in the areas best suited to the talents of their respective canine lineage. Many of them
-      strive to make a difference in their society, and a good number of historical laika have greatly benefited societies across the galaxy. Laika come in all shapes, sizes, and physical characteristics
-      that evoke canine breeds. They are covered in fur of varying length and thickness, which typically features naturalistic colors and patterns but can sometimes be vibrant and prismatic in hue.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/laika-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Laika <em>(LIE-kuh)</em> are a canine species that resemble bipedal
+      dogs of any breed, with an innate sense of loyalty to their community and anyone they consider a packmate. While all laika have a powerful bark and bite, most prefer to focus their efforts on cooperation
+      and teamwork, particularly in the areas best suited to the talents of their respective canine lineage. Many of them strive to make a difference in their society, and a good number of historical laika
+      have greatly benefited societies across the galaxy. Laika come in all shapes, sizes, and physical characteristics that evoke canine breeds. They are covered in fur of varying length and thickness,
+      which typically features naturalistic colors and patterns but can sometimes be vibrant and prismatic in hue.</p>
     chat: ''
   source:
     custom: ''

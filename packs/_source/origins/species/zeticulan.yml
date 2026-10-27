@@ -1,0 +1,113 @@
+_id: GB0vS08xQGgwDcn6
+name: Zeticulan
+type: race
+img: modules/neon-odyssey/icons/species/zeticulan.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/zeticulan-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Zeticulans <em>(zeh-TIK-yoo-lin) </em>are one of the oldest and
+      most enigmatic species of the Stardust Rhapsody, with some theorizing that they impossibly arrived from outside the galaxy. Their minds are so expansive that they have unlocked a psionic power that
+      emanates past their own bodies and allows them to pierce into the minds of others using telepathy.</p><p>Many zeticulans crave k nowledge above all else, desiring to study, understand, and catalog
+      every aspect of existence down to its last atom. They are drawn to any opportunity to conduct experiments of all varieties or the chance to expand their mental databases. While many remain elusive
+      and mysterious, there are some who venture to mingle with other peoples of the galaxy to learn through new and unpredictable life experiences. njjjjh ]</p><p>Varying in size and shape, zeticulans
+      are alien humanoids with smooth skin that is typically gray or green. They have thin, elongated necks, oversized, bulbous craniums, and large, dark eyes with slit-like pupils. Among the hairless majority,
+      a few can grow shocks of vibrant, nearly neon hair atop their heads.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    9LqRk3RDOJEfWpGZ:
+      _id: 9LqRk3RDOJEfWpGZ
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    I8S34N8jvqb3rlny:
+      _id: I8S34N8jvqb3rlny
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.9A8T0B7kT1kuc36s
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.oQ1gXoemexIlMGfb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ngLgVms5iIJ1tKLl
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ZfnlDQBBu30PALQo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.U4HFH1uzMAN35SE3
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Zeticulan Traits
+    A6rmA5nu1eJJnz8D:
+      _id: A6rmA5nu1eJJnz8D
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ins
+          - skills:inv
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: zeticulan
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GB0vS08xQGgwDcn6'

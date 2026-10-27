@@ -4,7 +4,52 @@ type: feat
 img: modules/neon-odyssey/icons/species/amanite.webp
 folder: BBRZaC1xkxH8DGaR
 sort: 0
-effects: []
+effects:
+- _id: KtC0jwvVf8SlvWdx
+  name: Fungal Resistance
+  img: modules/neon-odyssey/icons/species/amanite.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: kSGa2XEMn3CjNatK
+    - key: system.traits.dr.value
+      value: poison
+      priority: null
+      type: add
+      phase: initial
+      _id: bYoAilPm9GQ3UpDq
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!jZJ50bW1ciEncztq.KtC0jwvVf8SlvWdx'
 system:
   description:
     value: <p>You have Resistance to Acid damage and Poison damage.</p>

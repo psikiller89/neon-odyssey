@@ -1,7 +1,7 @@
 _id: bnY5vMbCYJ6j4A8r
 name: Rivet Turret
 type: npc
-img: modules/neon-odyssey/icons/creatures/rivet-turret.webp
+img: icons/svg/mystery-man.svg
 folder: zffxSCFFcVJK6PwY
 system:
   abilities:
@@ -83,7 +83,7 @@ sort: 0
 prototypeToken:
   name: Rivet Turret
   texture:
-    src: modules/neon-odyssey/icons/creatures/rivet-turret-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

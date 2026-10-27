@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/rangor.webp
 folder: s1m82U4ih8MIaJuu
 sort: 0
-effects: []
+effects:
+- _id: pOjpiYn7WHAQFIKR
+  name: Burrowing
+  img: modules/neon-odyssey/icons/species/rangor.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.burrow
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: eFKBpZW0yfLR9GgP
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!lqNRvZhoBEKOMV34.pOjpiYn7WHAQFIKR'
 system:
   description:
     value: <p>You have a Burrow Speed equal to your Speed.</p>

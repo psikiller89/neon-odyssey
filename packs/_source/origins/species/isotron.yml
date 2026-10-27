@@ -1,0 +1,109 @@
+_id: mYtffF2Yfvh7jZQz
+name: Isotron
+type: race
+img: modules/neon-odyssey/icons/species/isotron.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/isotron-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Isotrons <em>(EYE-soh-tron)</em> are wholly digital beings brought
+      to life by a synthetic soul called a hyperspark. Originating from the digital realm of the Hypergrid, they are comprised of code that can be compiled into physical forms of hard light. This grants
+      them an innate ability to interface with computers and manipulate software with a touch.</p><p>Many isotrons live their entire lives within the Hypergrid, but others venture into physical reality
+      to discover new experiences across the Stardust Rhapsody. In such a technological galaxy, isotrons have no trouble finding ways to put their inherent skills to use.</p><p>Isotron bodies vary in shape,
+      size, and color, and they are often bedecked with bold or saturated hues that glow from the code within them. Their heads are typically humanoid with built-in visors, but some are entirely flat with
+      a digital face projected upon it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    5h6QyaNQYVHget8h:
+      _id: 5h6QyaNQYVHget8h
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    OwbwBFQrpWjAwESu:
+      _id: OwbwBFQrpWjAwESu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.RBX2U5wwCMwFFymp
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.aSXiXY6i9Uss02Pf
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ti9T0Z3zcaUDKU0k
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.mqqEqNvc4HnZopOM
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Pi2iTjfhwcLtUjbY
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Isotron Traits
+    6PS1fLZj6JGf6uv7:
+      _id: 6PS1fLZj6JGf6uv7
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - skills:cmp
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: construct
+    custom: ''
+    subtype: ''
+  identifier: isotron
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mYtffF2Yfvh7jZQz'

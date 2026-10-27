@@ -1,0 +1,96 @@
+_id: r7Ezp89X2mi9aQJ8
+name: Benthos
+type: race
+img: modules/neon-odyssey/icons/species/benthos.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/benthos-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Benthos <em>(BEN-thoess)</em> are a people forever changed by the
+      eldritch power of the Abyssal Void. Eons ago, their homeworld was ripped into a black hole and lost to the Wyrmways, the border dimension between the galaxy and the Void. They irrevocably transformed
+      to survive the alien environment, taking on traits of the Void creatures known as the Deep. In time, they learned to harness dark matter, shaping it to their will and utilizing it in their magic and
+      technology.</p><p>Benthos are diminutive people with features reminiscent of deep sea fish and skin in shades of the Void. They typically lack color outside their glowing circular eyes and lamp-like
+      lures at the end of the flexible stalk that grows from their head. Their mouths are especially wide and can unhinge indefinitely.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    sAdP2EQ5M7r9nbXu:
+      _id: sAdP2EQ5M7r9nbXu
+      type: Size
+      configuration:
+        sizes:
+        - sm
+      level: 0
+      hint: Small (about 3–4 feet tall)
+      value: {}
+      title: ''
+    ptoPGWGnUzq4nECm:
+      _id: ptoPGWGnUzq4nECm
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.STimBSPa4LDquJl1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.TqWFB8nKSyaijx24
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.bnOnv8EnoJZDQP4I
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.SkDPz38NeLDy0UlP
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.7iIAmERtDWT6F5OV
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ZneJsgRb9jhfJ63n
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Benthos Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 120
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: benthos
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!r7Ezp89X2mi9aQJ8'

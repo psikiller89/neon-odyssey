@@ -1,0 +1,48 @@
+_id: XruX7XEYQFm5Vby0
+name: Path of Thrill
+type: feat
+img: modules/neon-odyssey/icons/species/motlien.webp
+folder: CGraPsu6vqO1GQmv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you reach character level 3, you must choose the path your discordant nature takes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Motlien
+  activities: {}
+  enchant: {}
+  identifier: path-of-thrill
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!XruX7XEYQFm5Vby0'

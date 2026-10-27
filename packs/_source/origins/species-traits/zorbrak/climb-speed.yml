@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/zorbrak.webp
 folder: m6DTYwJwl6bBB8mG
 sort: 0
-effects: []
+effects:
+- _id: nh4zVAhXfSEk7vQE
+  name: Climb Speed
+  img: modules/neon-odyssey/icons/species/zorbrak.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.climb
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: wrSYcw79RUpvrJ9H
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!6sBkKmFm6amky6vL.nh4zVAhXfSEk7vQE'
 system:
   description:
     value: <p>You have a Climb Speed equal to your Speed.</p>

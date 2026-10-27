@@ -1,0 +1,102 @@
+_id: sBfFewW1w0D9S7s9
+name: Glory of Agathos
+type: feat
+img: modules/neon-odyssey/icons/species/cygnian.webp
+folder: EiU5Oi8YAxdZiazv
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p>You are marked by one of the triads of Agathos: Beacon, Chronicle, Fountain, or Tower (choose the triad when you select this species). You can take a Bonus Action to gain a benefit determined
+      by your triad.</p><p>Once you use this Bonus Action, you can’t use it again until you finish a Long Rest unless you expend Heroic Inspiration to use it again.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Cygnian
+  activities:
+    934Sao7zIfeLofPc:
+      _id: 934Sao7zIfeLofPc
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: glory-of-agathos
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!sBfFewW1w0D9S7s9'

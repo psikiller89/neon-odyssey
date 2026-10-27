@@ -1,0 +1,98 @@
+_id: Fy8XKp7Lyc44Ibgi
+name: Greeble
+type: race
+img: modules/neon-odyssey/icons/species/greeble.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/greeble-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Greebles (<em>GREE-bull</em>) are a worm-like species driven by an
+      innate desire to voyage across the galaxy. Said to be blessed by Pelogos the Navigator, they possess a supernatural ability to always sense the stars and navigate by their light.</p><p>Many greebles
+      are drawn to space travel of all varieties, whether as transport pilots, explorers, or anything in between. This extrasensory power and internal cosmic compass is so strong that none can doubt the
+      navigation skills of the greeble.</p><p>Despite their segmented worm biology, Greebles have a humanoid shape with nearly universally thin legs. They have pointed noses, disproportionately large eyes,
+      and soft skin in shades of pink to more earthy tones.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    tkT0foNPdwZesm6k:
+      _id: tkT0foNPdwZesm6k
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (4–6 feet tall) or Small (3–4 feet tall)
+      value: {}
+      title: ''
+    My0EsH0ghhTnxLxr:
+      _id: My0EsH0ghhTnxLxr
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.I0ScIQ5qQ134yK1K
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.osPxbIqtD6T7CB11
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.MfM2urgHTvOiYeMH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.czUSsVhlHWUM1AOE
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hJ5hpMsqS2d44p7A
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.bpCDADOmmVreoYBJ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Greeble Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      burrow: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: greeble
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Fy8XKp7Lyc44Ibgi'

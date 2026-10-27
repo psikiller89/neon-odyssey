@@ -1,0 +1,48 @@
+_id: BRsQWNjFVMPOOE6Z
+name: Kinetic Levitation
+type: feat
+img: modules/neon-odyssey/icons/species/jenovan.webp
+folder: EmUGsLF45Zkp2Obr
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>While you aren’t wearing Medium or Heavy armor, you have a Fly Speed equal to your Speed and can hover.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Jenovan
+  activities: {}
+  enchant: {}
+  identifier: kinetic-levitation
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BRsQWNjFVMPOOE6Z'

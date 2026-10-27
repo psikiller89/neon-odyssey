@@ -4,11 +4,12 @@ type: race
 img: modules/neon-odyssey/icons/species/oozoid.webp
 system:
   description:
-    value: <p>Oozoids <em>(OO-zoid)</em> are a pliable species of living slime that congealed from the remnants of the first primordial ooze that lingered from the creation of the cosmos. Despite their
-      malleability, they have a brain, eyes, and nervous system that form them into a bipedal shape within a translucent membrane. While they hail from the deep seas of ooze on their homeworld, oozoids
-      have since spread across the galaxy, and some choose to don special pressurized suits to more easily hold their form in any environment. Many favor selfexpression across various media, including art
-      and the creation of oblong “blobjects.” Bright and highly saturated colors of slime typically comprise the wide variety of shapes and sizes of oozoids. Some favor a singular color, while others are
-      multi-toned with strong gradients. Many choose to morph their heads to evoke hair-like shapes.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/oozoid-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Oozoids <em>(OO-zoid)</em> are a pliable species of living slime that
+      congealed from the remnants of the first primordial ooze that lingered from the creation of the cosmos. Despite their malleability, they have a brain, eyes, and nervous system that form them into
+      a bipedal shape within a translucent membrane. While they hail from the deep seas of ooze on their homeworld, oozoids have since spread across the galaxy, and some choose to don special pressurized
+      suits to more easily hold their form in any environment. Many favor selfexpression across various media, including art and the creation of oblong “blobjects.” Bright and highly saturated colors of
+      slime typically comprise the wide variety of shapes and sizes of oozoids. Some favor a singular color, while others are multi-toned with strong gradients. Many choose to morph their heads to evoke
+      hair-like shapes.</p>
     chat: ''
   source:
     custom: ''

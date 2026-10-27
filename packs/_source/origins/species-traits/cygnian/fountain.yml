@@ -1,0 +1,48 @@
+_id: IVGSJLyHTd3noqmZ
+name: Fountain
+type: feat
+img: modules/neon-odyssey/icons/species/cygnian.webp
+folder: EiU5Oi8YAxdZiazv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Touch a creature and roll a number of d6s equal to your Proficiency Bonus. The target gains Temporary Hit Points equal to the total rolled, which vanish after 1 minute.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Cygnian
+  activities: {}
+  enchant: {}
+  identifier: fountain
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IVGSJLyHTd3noqmZ'

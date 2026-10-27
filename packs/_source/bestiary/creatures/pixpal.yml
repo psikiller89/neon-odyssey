@@ -1,7 +1,7 @@
 _id: f1NEGL8FiXo0vDyU
 name: Pixpal
 type: npc
-img: modules/neon-odyssey/icons/creatures/pixpal.webp
+img: icons/svg/mystery-man.svg
 folder: CQUu17swVoeIgl53
 system:
   abilities:
@@ -566,7 +566,7 @@ sort: 0
 prototypeToken:
   name: Pixpal
   texture:
-    src: modules/neon-odyssey/icons/creatures/pixpal-token.webp
+    src: icons/svg/mystery-man.svg
   width: 0.5
   height: 0.5
   disposition: 1

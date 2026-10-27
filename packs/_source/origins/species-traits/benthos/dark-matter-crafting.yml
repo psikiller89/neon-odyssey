@@ -1,0 +1,104 @@
+_id: TqWFB8nKSyaijx24
+name: Dark Matter Crafting
+type: feat
+img: modules/neon-odyssey/icons/species/benthos.webp
+folder: 0BA2qQPbvhycMYrF
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>While not in Bright Light, you can take a Magic action to shape shadows into one Small or smaller nonmagical item of your choice worth no more than $1,000. The item must appear in your hand,
+      or in your space on a surface that can support it. The item disappears after a number of hours equal to your Proficiency Bonus or when it is reduced to 0 Hit Points. A creature that examines the object
+      can discern its true nature with a successful Intelligence (Investigation) check. The DC is 8 plus your Proficiency Bonus and the ability modifier you chose for Lure of the Deep.</p><p>Once you create
+      an item with this trait, you can’t do so again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Benthos
+  activities:
+    PvPbCinGkGDIQ9sC:
+      _id: PvPbCinGkGDIQ9sC
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: dark-matter-crafting
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!TqWFB8nKSyaijx24'

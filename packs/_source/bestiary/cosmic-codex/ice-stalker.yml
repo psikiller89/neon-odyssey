@@ -84,13 +84,13 @@ system:
       value: []
       custom: None
   skills:
-    sur:
-      value: 1
-      ability: ''
     ste:
       value: 1
       ability: ''
     prc:
+      value: 1
+      ability: ''
+    sur:
       value: 1
       ability: ''
 items:

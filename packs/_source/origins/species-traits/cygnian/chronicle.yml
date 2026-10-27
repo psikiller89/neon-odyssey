@@ -1,0 +1,48 @@
+_id: 4nIQcuVqM8jZTpTq
+name: Chronicle
+type: feat
+img: modules/neon-odyssey/icons/species/cygnian.webp
+folder: EiU5Oi8YAxdZiazv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Choose an ability score. For 1 minute, you can add a bonus equal to your Proficiency Bonus to saving throws using the chosen score.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Cygnian
+  activities: {}
+  enchant: {}
+  identifier: chronicle
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4nIQcuVqM8jZTpTq'

@@ -4,7 +4,46 @@ type: feat
 img: icons/magic/symbols/star-yellow.webp
 folder: zwHjzj1gRncwSsrp
 sort: 0
-effects: []
+effects:
+- _id: rwArdnYSaqT1yVL1
+  name: Blazing Origin
+  img: icons/magic/symbols/star-yellow.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: ZUOgKACSt0gWLjpV
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!BZaCWii16QukBEHY.rwArdnYSaqT1yVL1'
 system:
   description:
     value: '<p><em>Origin Feat (Prerequisite: Scorching Homeworld)</em></p><p>You have absorbed the essence of your home’s heated nature or world soul, gaining the following benefits.</p><p><strong>Fire

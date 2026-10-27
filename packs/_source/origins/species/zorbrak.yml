@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/zorbrak.webp
 system:
   description:
-    value: <p>Zorbraks <em>(ZOR-brak)</em> are a bipedal insectile species that have mantis-like features and boast a secondary pair of powerful scythe-like appendages in addition to their arms. They are
-      the consummate hunters with a powerful predator’s instinct and the supernatural ability to stalk their prey. Zorbraks typically lack any sense of fear, allowing them to seek and kill the most dangerous
-      game across the galaxy without hesitation. Many are instilled with immense pride by the hunting trophies they have won over their lifetime and are driven by the desire to leave a legendary legacy.
-      Zorbrak body types range from hulking to lithe, and their carapace can come in a wide range of hues from earthy to vibrant. They typically have a protruding, jagged maw and two sensory antennae, and
-      they sometimes grow chitinous tendrils from their head.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/zorbrak-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Zorbraks <em>(ZOR-brak)</em> are a bipedal insectile species that
+      have mantis-like features and boast a secondary pair of powerful scythe-like appendages in addition to their arms. They are the consummate hunters with a powerful predator’s instinct and the supernatural
+      ability to stalk their prey. Zorbraks typically lack any sense of fear, allowing them to seek and kill the most dangerous game across the galaxy without hesitation. Many are instilled with immense
+      pride by the hunting trophies they have won over their lifetime and are driven by the desire to leave a legendary legacy. Zorbrak body types range from hulking to lithe, and their carapace can come
+      in a wide range of hues from earthy to vibrant. They typically have a protruding, jagged maw and two sensory antennae, and they sometimes grow chitinous tendrils from their head.</p>
     chat: ''
   source:
     custom: ''

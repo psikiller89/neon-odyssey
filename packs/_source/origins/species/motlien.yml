@@ -1,0 +1,100 @@
+_id: 208u3EeDFOrG4XOl
+name: Motlien
+type: race
+img: modules/neon-odyssey/icons/species/motlien.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/motlien-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Motliens <em>(MOT-lee-in)</em> are an absurd people twisted by the
+      discordant tone of Thrill through their indulgence in sensory overload to drown out their pain. They relish in antics and folly that spark maximum excitement, pleasure, and pain, all of which fuel
+      their cartoonish and reality-warping magic.</p><p>Driven to be thrill seekers at heart, many Motliens crave the most dangerous or bombastic environments they can find. Others turn to sharing their
+      laughter, fighting their darker impulses lest they join the hellish circus of Thrill.</p><p>Motliens resemble fools, jesters, and clowns, with rubbery, colorful skin marked with strange psychedelic
+      or motley patterns. Their heads sprout fleshy tendrils that resemble a cap and bells, and they often have honkable noses, razorsharp teeth, and long, slithery tongues.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    1jLcm7HImyLmE5jp:
+      _id: 1jLcm7HImyLmE5jp
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    f4H0zGTJAb28j99l:
+      _id: f4H0zGTJAb28j99l
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.Zmo72VfwXtAG0i3u
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.27DdxJQ8IHtYNLIm
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.zPjl2bO9zZqVeBA4
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.GvAxAJmfMinEzQEH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.XruX7XEYQFm5Vby0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.c4AqpYmhqiw2OBKR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.dEGkWtGLDoZBUsRN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Motlien Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: motlien
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!208u3EeDFOrG4XOl'

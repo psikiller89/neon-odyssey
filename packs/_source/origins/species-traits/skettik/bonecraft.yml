@@ -1,0 +1,49 @@
+_id: KwY8PSeEJtzaXDLY
+name: Bonecraft
+type: feat
+img: modules/neon-odyssey/icons/species/skettik.webp
+folder: iX2RUYAkVnVp903n
+sort: 0
+effects: []
+system:
+  description:
+    value: <ul><li><p><strong>Bonecraft.</strong> With 1 minute of work, you can magically shape bone into useful forms. You can create a piece of outrunning gear that doesn’t require power and is worth
+      $500 or less, or a Simple weapon that lacks the Ammunition or Powered properties, using an amount of bone equal to the weight of the item. The item crumbles to dust after 24 hours.</p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Skettik
+  activities: {}
+  enchant: {}
+  identifier: bonecraft
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!KwY8PSeEJtzaXDLY'

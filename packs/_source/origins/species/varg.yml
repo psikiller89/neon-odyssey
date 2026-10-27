@@ -1,0 +1,105 @@
+_id: hOI5E2s6uYyOmrxo
+name: Varg
+type: race
+img: modules/neon-odyssey/icons/species/varg.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/varg-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Vargs <em>(VAHRG) </em>are a vampiric people corrupted by the discordant
+      tone of Entropy through the envious yearning to fill the emptiness within them in the hopes it may quiet their pain. They hunger for the life essence of others, which they drain to briefly satiate
+      themselves. Those who work to control or even master this craving avoid succumbing to its addictive nature. The rest become ravenous killers.</p><p>Whether enticed by the ease of feeding within heavily
+      populated areas or brooding in the remote reaches of far-flung worlds, the desire of a varg to fill the pit within themselves often leads them to achieve impressive levels of wealth or power—though
+      it is never enough.</p><p>Vargs have pallid skin in desaturated hues, and on their backs are leathery flaps that resemble cloaks. They typically have prominent foreheads, ears that evoke bat wings,
+      and prominent fangs. All vargs have one or more patches of fiendish energy on their chest, neck, or abdomen that serve as windows to the emptiness within.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    DPOCg0UjOVJnKx3n:
+      _id: DPOCg0UjOVJnKx3n
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–6 feet tall) or Small (about 2–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    eXCqrRNcpavFd3wo:
+      _id: eXCqrRNcpavFd3wo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.PTQNg3CLagWX35S0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.dseR7mjAWvom4Ihh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.8kXoKqhFAWNC5xWe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ulKXlQ5QXN9X8wlB
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.UoKeQ6K3tCwipVkm
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.kwXJt3rqC2ezZulR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.KqdZ7gQpOSzHCdW9
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Qf3rC1lQ3DJ4Iljv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Varg Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: varg
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hOI5E2s6uYyOmrxo'

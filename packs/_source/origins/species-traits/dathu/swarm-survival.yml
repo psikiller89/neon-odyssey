@@ -1,0 +1,50 @@
+_id: Hjb08dvBlnSgZB9F
+name: Swarm Survival
+type: feat
+img: modules/neon-odyssey/icons/species/dathu.webp
+folder: 7RWYuqWW1IoNtfWy
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you finish a Long Rest, you can choose a number of creatures you can see equal to your Proficiency Bonus and form a telepathic hive mind with them that lasts until you next finish a Long
+      Rest. You and the chosen creatures can communicate telepathically with each other out to the range of your Hive Mind. Additionally, when you regain Hit Points from your Wrathful Devour trait, you
+      can grant those Hit Points to one of the chosen creatures instead if they are within range of your Hive Mind.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Dathu
+  activities: {}
+  enchant: {}
+  identifier: swarm-survival
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Hjb08dvBlnSgZB9F'

@@ -91,10 +91,10 @@ system:
       value: []
       custom: Common, Dissonant
   skills:
-    prc:
+    ste:
       value: 1
       ability: ''
-    ste:
+    prc:
       value: 1
       ability: ''
 items:

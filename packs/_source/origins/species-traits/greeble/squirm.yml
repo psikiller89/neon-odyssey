@@ -1,0 +1,135 @@
+_id: hJ5hpMsqS2d44p7A
+name: Squirm
+type: feat
+img: modules/neon-odyssey/icons/species/greeble.webp
+folder: PNcSYQsV3ejzC6kV
+sort: 0
+effects:
+- _id: soXe7IjsuSdycvHf
+  name: Squirm
+  img: modules/neon-odyssey/icons/species/greeble.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.burrow
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: eFKBpZW0yfLR9GgP
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!hJ5hpMsqS2d44p7A.soXe7IjsuSdycvHf'
+system:
+  description:
+    value: <p>You have a Burrow Speed equal to your Speed. Additionally, you have Advantage on ability checks and saving throws to avoid or end the Grappled or Restrained conditions. When you fail such
+      a roll, you can take a Reaction to expend and roll a Hit Point Die and add it to the total, possibly turning the failure into a success.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Greeble
+  activities:
+    oMNcKRwDbwz5ZMqu:
+      _id: oMNcKRwDbwz5ZMqu
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: squirm
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hJ5hpMsqS2d44p7A'

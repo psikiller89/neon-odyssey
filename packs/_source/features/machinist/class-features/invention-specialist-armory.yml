@@ -1,0 +1,65 @@
+_id: 7i7XpcWoJNQPhwoE
+name: 'Invention Specialist: Armory'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p><strong>Armory.</strong> You gain proficiency with Martial weapons and training with Heavy armor. You can use Intelligence in place of Strength or Dexterity for attack rolls, damage rolls,
+      and the Heavy property for weapons, and you can use Intelligence to meet the Strength requirement of Heavy armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: invention-specialist-armory
+  advancement:
+    LGBOoYDlZ6KseqaU:
+      _id: LGBOoYDlZ6KseqaU
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:mar
+        - armor:hvy
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armory Training
+      hint: ''
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 1
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7i7XpcWoJNQPhwoE'

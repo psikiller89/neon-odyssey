@@ -1,0 +1,98 @@
+_id: EaJn6HMam56jU6Ts
+name: Skettik
+type: race
+img: modules/neon-odyssey/icons/species/skettik.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/skettik-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Skettiks <em>(SKEH-tik)</em> are a flightless avian species suffused
+      with innate necromantic energy, the remnants of a cataclysmic ritual that killed and reanimated the world soul of their homeworld. These warped carrion-eaters use their necrotic magic to craft personal
+      minions or strange relics from bone.</p><p>Many skettiks are reclusive, shying away from places touched by garish sunlight, and often find themselves operating in the galaxy’s criminal underworld.
+      Others find great success in business and as merchants, utilizing their shrewdness and skepticism to score the best deals.</p><p>Skettiks resemble wingless vultures in a humanoid shape with scaly
+      skin and sparse patches of feathers that range from grayscale to drab shades of other colors. They have long claws on their hands and feet that they use for climbing the huge trees of their homeworld,
+      and their jagged beaks are filled with sharp teeth for cracking bone.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    1QjY25RkcKUusAQz:
+      _id: 1QjY25RkcKUusAQz
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–6 feet tall)
+      value: {}
+      title: ''
+    W8JePgF8nJ9bKVxp:
+      _id: W8JePgF8nJ9bKVxp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.KwY8PSeEJtzaXDLY
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ia0Gp7EeYFdRHJtO
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.jfg9HFrgMri4xtbO
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.8fmRvicTX5rXod1z
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.xSomioLof89Tm6Or
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.I0YOnSfGWGXksFMz
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Skettik Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      climb: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: skettik
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!EaJn6HMam56jU6Ts'

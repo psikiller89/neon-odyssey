@@ -32,78 +32,41 @@ system:
     repeatable: false
   properties: []
   requirements: Machinist
-  activities:
-    Gqza6xNDhldUSyg2:
-      _id: Gqza6xNDhldUSyg2
-      type: utility
-      name: ''
-      activation:
-        type: action
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+  activities: {}
   enchant: {}
   identifier: invention-specialist
   advancement:
-    L9FBRE4EoJzyEge9:
-      _id: L9FBRE4EoJzyEge9
-      type: ItemGrant
+    zjLuOcnytI4MuYTE:
+      _id: zjLuOcnytI4MuYTE
+      type: ItemChoice
       configuration:
-        items:
-        - uuid: Compendium.neon-odyssey.spells.Item.PTGbnlcUXBRMfbeO
-          optional: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.7i7XpcWoJNQPhwoE
           sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: spell
-          prepared: 2
-      value: {}
+        - uuid: Compendium.neon-odyssey.features.Item.iDidzrfOtj2IqCg3
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.1UgXIAsMwPlWLAkf
+          sort: 0
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+          list: []
+          level: ''
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
       level: 1
       title: Invention Specialist
-      hint: ''
+      hint: Choose Armory, Hypertech or Robotics.
 effects: []
 folder: 09IhBNky5V3kpZ8Z
 sort: 0

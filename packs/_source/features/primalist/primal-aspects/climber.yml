@@ -30,7 +30,46 @@ system:
   enchant: {}
   identifier: climber
   advancement: {}
-effects: []
+effects:
+- _id: jtFNzPFPXRZ6JMqL
+  name: Climber
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.climb
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: wrSYcw79RUpvrJ9H
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!MD70RBCHUM8lJGQP.jtFNzPFPXRZ6JMqL'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

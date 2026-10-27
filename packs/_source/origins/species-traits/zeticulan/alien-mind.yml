@@ -1,0 +1,87 @@
+_id: 9A8T0B7kT1kuc36s
+name: Alien Mind
+type: feat
+img: modules/neon-odyssey/icons/species/zeticulan.webp
+folder: PWQTlEhTBc3FBtah
+sort: 0
+effects:
+- _id: UXPw6yVLPtWawUwN
+  name: Alien Mind
+  img: modules/neon-odyssey/icons/species/zeticulan.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: YTUfvDJxZ54hKS5n
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!9A8T0B7kT1kuc36s.UXPw6yVLPtWawUwN'
+system:
+  description:
+    value: <p>You have Resistance to Psychic damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zeticulan
+  activities: {}
+  enchant: {}
+  identifier: alien-mind
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!9A8T0B7kT1kuc36s'

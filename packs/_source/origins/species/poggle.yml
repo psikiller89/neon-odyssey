@@ -1,0 +1,91 @@
+_id: PZiQPQ2iwhifuzhv
+name: Poggle
+type: race
+img: modules/neon-odyssey/icons/species/poggle.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/poggle-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Poggles <em>(PAW-gull)</em> are born lucky. Said to be the creation
+      of the luck goddess Tykris the Dealer, the favor of fortune touches everything they do. While they use this blessing to seek prosperous and happy lives, they also can share their innate luck with
+      others.</p><p>Drawn to games of chance, they can be found at gambling tables across the galaxy. Some use their death-defying fortune to take extremely dangerous jobs where a little luck is required
+      for survival. Others find themselves in the world of finance, amassing their wealth through risky investments.</p><p>Poggles are a diminutive species covered in fur that is typically white, brown,
+      gray, or pink, though it can grow in other hues. They have long, sometimes-floppy ears, small, bat-like wings on their back, and a wire-like tail that ends in a colorful puff ball.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    WuzEtEObqAP4G0q8:
+      _id: WuzEtEObqAP4G0q8
+      type: Size
+      configuration:
+        sizes:
+        - sm
+      level: 0
+      hint: Small (about 2–4 feet tall)
+      value: {}
+      title: ''
+    MzksAyWvWPiobNNN:
+      _id: MzksAyWvWPiobNNN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.YthjlMAb1ZfUz0RE
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.mFKvcrjBXbXirlZP
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.CcuZU0r4escFu0QC
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.7vXpTM5GUHrSVfTj
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Poggle Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: poggle
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PZiQPQ2iwhifuzhv'

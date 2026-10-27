@@ -1,7 +1,7 @@
 _id: UocIvJ4i4opOwjq5
 name: Citizen
 type: npc
-img: modules/neon-odyssey/icons/creatures/citizen.webp
+img: icons/svg/mystery-man.svg
 folder: k5rTBECLPnuppoi3
 system:
   abilities:
@@ -304,7 +304,7 @@ sort: 0
 prototypeToken:
   name: Citizen
   texture:
-    src: modules/neon-odyssey/icons/creatures/citizen-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

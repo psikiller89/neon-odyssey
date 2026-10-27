@@ -19,9 +19,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: max(1, @abilities.int.mod)
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -42,7 +44,13 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+        - type: itemUses
+          target: ''
+          value: '1'
+          scaling:
+            mode: ''
+            formula: ''
         scaling:
           allowed: false
           max: ''
@@ -89,7 +97,13 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+        - type: itemUses
+          target: ''
+          value: '1'
+          scaling:
+            mode: ''
+            formula: ''
         scaling:
           allowed: false
           max: ''

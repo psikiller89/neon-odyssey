@@ -1,0 +1,50 @@
+_id: MfM2urgHTvOiYeMH
+name: Navigator’s Heading
+type: feat
+img: modules/neon-odyssey/icons/species/greeble.webp
+folder: PNcSYQsV3ejzC6kV
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You always have the <em>Augury</em> spell prepared, and you can cast it once without a spell slot. You regain the ability to cast it that way when you finish a Long Rest. You can also cast
+      it using any spell slots you have of the appropriate level. Whenever you cast the spell, if you can see the stars, you require no Material components. Intelligence, Wisdom, or Charisma is your spellcasting
+      ability for it (choose the ability when you select this species).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Greeble
+  activities: {}
+  enchant: {}
+  identifier: navigators-heading
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MfM2urgHTvOiYeMH'

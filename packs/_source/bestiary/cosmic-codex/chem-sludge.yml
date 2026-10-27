@@ -144,7 +144,58 @@ items:
       type: ''
       value: null
       condition: ''
-    activities: {}
+    activities:
+      3i20VPIi0OmbqtB5:
+        _id: 3i20VPIi0OmbqtB5
+        type: save
+        name: Save
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '12'
+        damage:
+          onSave: half
+          parts: []
     properties: []
     requirements: ''
     identifier: noxious-fumes

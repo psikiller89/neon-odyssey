@@ -4,11 +4,12 @@ type: race
 img: modules/neon-odyssey/icons/species/yaungu.webp
 system:
   description:
-    value: <p>Yaungu <em>(YAWN-goo)</em> are a hearty people born of the cold, bearing a deep, supernatural connection to ice and snow. Having descended from the giants of the frozen mountains and tundras
-      of their frigid homeworld, they have adapted to thrive and build remarkable civilizations in the most inhospitable of environments. Many yaungu have a deep appreciation for the sharing of and passing
-      down of knowledge, whether it be through story, song, or written text. Some even seek out well-hidden truths or heavily guarded secrets so that the learnings can be shared by the many to lead to a
-      brighter future. Yaungu tend to be tall and powerfully built, with long arms and prominent claws for climbing. Horns grow from the sides of their head, which many of them decorate with carvings or
-      other adornments. Their shaggy, insulating fur is typically white or some shade of blue, but some yaungu sport pelts of brown, gray, or black.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/yaungu-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Yaungu <em>(YAWN-goo)</em> are a hearty people born of the cold, bearing
+      a deep, supernatural connection to ice and snow. Having descended from the giants of the frozen mountains and tundras of their frigid homeworld, they have adapted to thrive and build remarkable civilizations
+      in the most inhospitable of environments. Many yaungu have a deep appreciation for the sharing of and passing down of knowledge, whether it be through story, song, or written text. Some even seek
+      out well-hidden truths or heavily guarded secrets so that the learnings can be shared by the many to lead to a brighter future. Yaungu tend to be tall and powerfully built, with long arms and prominent
+      claws for climbing. Horns grow from the sides of their head, which many of them decorate with carvings or other adornments. Their shaggy, insulating fur is typically white or some shade of blue, but
+      some yaungu sport pelts of brown, gray, or black.</p>
     chat: ''
   source:
     custom: ''

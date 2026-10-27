@@ -74,16 +74,16 @@ system:
       value: []
       custom: Common plus one other language
   skills:
-    his:
-      value: 1
-      ability: ''
-    per:
+    ins:
       value: 1
       ability: ''
     prc:
       value: 1
       ability: ''
-    ins:
+    his:
+      value: 1
+      ability: ''
+    per:
       value: 1
       ability: ''
 items:

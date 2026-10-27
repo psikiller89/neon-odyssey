@@ -84,13 +84,13 @@ system:
       value: []
       custom: Common; telepathy 30 ft.
   skills:
-    arc:
+    acr:
       value: 1
       ability: ''
     ath:
       value: 1
       ability: ''
-    acr:
+    arc:
       value: 1
       ability: ''
 items:

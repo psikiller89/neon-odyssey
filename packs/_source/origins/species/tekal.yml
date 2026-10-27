@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/tekal.webp
 system:
   description:
-    value: <p>Tekal <em>(teh-KAHL)</em> are a people constructed from stone, crystal, and plant matter, powered by Harmonyte gemstone technology. Their souls are manifested from the vital and somber energies
-      of the Harmony itself, granting them the ability to harness the cycle of life and death. Many tekal have an unbound curiosity in the natural world and a sense of wonder in discovering all aspects
-      of the Stardust Rhapsody and galactic living. Their affinity to the unique intersection of harmonic and primordial powers typically grants them a unique appreciation for all living things. Tekal have
-      solidly built bodies embedded with gemstones and glowing patterns of inlaid crystal that evoke the circuitry of their natural technology. They have typically humanoid faces and plants that grow from
-      their heads to resemble hair.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/tekal-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Tekal <em>(teh-KAHL)</em> are a people constructed from stone, crystal,
+      and plant matter, powered by Harmonyte gemstone technology. Their souls are manifested from the vital and somber energies of the Harmony itself, granting them the ability to harness the cycle of life
+      and death. Many tekal have an unbound curiosity in the natural world and a sense of wonder in discovering all aspects of the Stardust Rhapsody and galactic living. Their affinity to the unique intersection
+      of harmonic and primordial powers typically grants them a unique appreciation for all living things. Tekal have solidly built bodies embedded with gemstones and glowing patterns of inlaid crystal
+      that evoke the circuitry of their natural technology. They have typically humanoid faces and plants that grow from their heads to resemble hair.</p>
     chat: ''
   source:
     custom: ''

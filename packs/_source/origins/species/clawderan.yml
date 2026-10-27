@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/clawderan.webp
 system:
   description:
-    value: <p>Clawderan <em>(klaw-DAIR-in)</em> are an energetic species of humanoids with feline traits and are known to take pride in proving themselves in combat and other physical pursuits. Many seek
-      glory to honor Myrmona the Paragon, the war goddess with whom they hold a cosmic connection. While many clawderan seek the galactic battlefronts across the Stardust Rhapsody, some prefer to show off
-      their athletic prowess through sports, dance, high-intensity industrial careers, and other such pursuits. Clawderan builds range from agile to brawny and come in a variety of body and fur types, their
-      feline traits resembling the full spectrum of cats both great and small. They typically have a short layer of fur across their bodies, with the notable exceptions being their manes, tails, and fluffy
-      tufts that might grow on their torso or limbs.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/clawderan-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Clawderan <em>(klaw-DAIR-in)</em> are an energetic species of humanoids
+      with feline traits and are known to take pride in proving themselves in combat and other physical pursuits. Many seek glory to honor Myrmona the Paragon, the war goddess with whom they hold a cosmic
+      connection. While many clawderan seek the galactic battlefronts across the Stardust Rhapsody, some prefer to show off their athletic prowess through sports, dance, high-intensity industrial careers,
+      and other such pursuits. Clawderan builds range from agile to brawny and come in a variety of body and fur types, their feline traits resembling the full spectrum of cats both great and small. They
+      typically have a short layer of fur across their bodies, with the notable exceptions being their manes, tails, and fluffy tufts that might grow on their torso or limbs.</p>
     chat: ''
   source:
     custom: ''

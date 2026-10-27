@@ -1,0 +1,111 @@
+_id: mQoWcHSelEF18OkJ
+name: Oculok
+type: race
+img: modules/neon-odyssey/icons/species/oculok.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/oculok-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Oculoks <em>(AHK-yoo-lahk)</em> are a cyclopean species that hails
+      from a vast underground civilization. They are highly adapted to subterranean life with enhanced monocular vision that can see through inorganic matter and a magnetic touch that can manipulate metal
+      to their needs.</p><p>Seeking opportunities to put their metal-bending to use, many oculoks possess a keen interest in building, from structures to vehicles. Their societies typically favor cooperation
+      and rigid structure, and most citizens find purpose in contributing to a collective of any scale.</p><p>Oculoks have sturdy bodies covered in scaly, earth-toned skin and protruding armored nodules.
+      Their heads are broad with lateral ridges and a spiked crown, with the most prominent feature being a large, singular eye. Their tails act as a built-in defense mechanism, ending in either a club
+      or spikes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    IpRBR5DXQqpagyVK:
+      _id: IpRBR5DXQqpagyVK
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–7 feet tall)
+      value: {}
+      title: ''
+    ynmh05ltKzrmNqsy:
+      _id: ynmh05ltKzrmNqsy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.PQwK8gLwUmmL9VFD
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.I55L1CSwXkuAQrtM
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.SKmTooPGO6ZMFgMs
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.b0AzuAsQrYBMS4Ag
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.EeQcGeueB5Ph2iSR
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Oculok Traits
+    f9FuOPMdpzLuRWix:
+      _id: f9FuOPMdpzLuRWix
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ins
+          - skills:inv
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 120
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: oculok
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mQoWcHSelEF18OkJ'

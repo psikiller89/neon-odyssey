@@ -4,10 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/gorgonite.webp
 system:
   description:
-    value: <p>Gorgonites (<em>GOR-guh-nite</em>) are a species of serpentinefeatured humanoids that emerged from toxic jungles of beautiful but highly venomous flora and fauna. This has made them highly
-      adapted to surviving poisonous environments and all of the threats within, in no small part to their powerful magical gaze. Many of them have a deep appreciation for the balance of beauty and danger,
-      accepting them as equal and necessary halves to a life truly lived. This can lead them to seek out death-defying opportunities across the galaxy. Gorgonites have a skin of soft scales that range from
-      earthy to vivid, with all manner of patterning. Instead of hair, gorgonites possess tendrils atop their head that resemble snake tails, which can be shaped into a variety of styles.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/gorgonite-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Gorgonites (<em>GOR-guh-nite</em>) are a species of serpentinefeatured
+      humanoids that emerged from toxic jungles of beautiful but highly venomous flora and fauna. This has made them highly adapted to surviving poisonous environments and all of the threats within, in
+      no small part to their powerful magical gaze. Many of them have a deep appreciation for the balance of beauty and danger, accepting them as equal and necessary halves to a life truly lived. This can
+      lead them to seek out death-defying opportunities across the galaxy. Gorgonites have a skin of soft scales that range from earthy to vivid, with all manner of patterning. Instead of hair, gorgonites
+      possess tendrils atop their head that resemble snake tails, which can be shaped into a variety of styles.</p>
     chat: ''
   source:
     custom: ''

@@ -101,6 +101,59 @@ system:
             mode: whole
             number: 1
             formula: ''
+    YemHVWZs5AoO53qD:
+      _id: YemHVWZs5AoO53qD
+      type: save
+      name: Save
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: 5dnD2MRxsSKVOxeq
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts: []
   identifier: debilitating-smite
 effects:
 - _id: 5dnD2MRxsSKVOxeq

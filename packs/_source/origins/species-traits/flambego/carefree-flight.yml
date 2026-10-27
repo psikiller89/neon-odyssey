@@ -1,0 +1,48 @@
+_id: ylrZRCTGg0tlNXRa
+name: Carefree Flight
+type: feat
+img: modules/neon-odyssey/icons/species/flambego.webp
+folder: a5xs7p6NnSf7ik3D
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Your Fly Speed becomes magical, and it no longer requires you to use your Arm Wings with free hands, and you can hover.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Flambego
+  activities: {}
+  enchant: {}
+  identifier: carefree-flight
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ylrZRCTGg0tlNXRa'

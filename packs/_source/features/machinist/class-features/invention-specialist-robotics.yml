@@ -1,0 +1,73 @@
+_id: 1UgXIAsMwPlWLAkf
+name: 'Invention Specialist: Robotics'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><strong>Robotics.</strong> You always have the <em>Autonomous Assistant</em>* spell prepared and can cast it as a Magic action without expending a spell slot.</p><p>When you cast the spell
+      in this way, you choose one of the normal forms for your assistant or one of the following special forms: <strong>Omnibot</strong>* or <strong>Spy Drone</strong>*. The assistant appears robotic.</p><p>Additionally,
+      when you take the Attack action, you can forgo one of your own attacks to allow a special form assistant to make one attack of its own with its Reaction.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: invention-specialist-robotics
+  advancement:
+    NJkby6xaKMzSdIBs:
+      _id: NJkby6xaKMzSdIBs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.PTGbnlcUXBRMfbeO
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability:
+          - int
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: atwill
+          prepared: 2
+      value: {}
+      level: 1
+      title: Autonomous Assistant
+      hint: ''
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 1
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1UgXIAsMwPlWLAkf'

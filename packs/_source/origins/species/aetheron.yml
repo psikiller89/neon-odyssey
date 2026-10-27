@@ -4,11 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/aetheron.webp
 system:
   description:
-    value: <p>Aetheron <em>(EE-ther-awn)</em> are a resilient people made of the stuff of space itself, allowing them to manipulate their connection to gravity and resist the effects of aether exposure.
-      They typically prefer to live in outer space, often residing in massive space stations or spending their days aboard starships. Many aetheron believe that they were crafted by Khorabos the Architect
-      from a proto form of aether that drifted through the cosmos as a crystalized rock. They often seek orderliness in their lives that matches the tenets of their god, and this sense of order seems to
-      manifest around them innately. They are relatively short, often stoutly built, and are heavier than their size would suggest. Their skin tones are usually muted with casts of dull gray, blue, or purple,
-      but they often have vibrant streaks of aether hues in their hair.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/aetheron-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Aetheron <em>(EE-ther-awn)</em> are a resilient people made of the
+      stuff of space itself, allowing them to manipulate their connection to gravity and resist the effects of aether exposure. They typically prefer to live in outer space, often residing in massive space
+      stations or spending their days aboard starships. Many aetheron believe that they were crafted by Khorabos the Architect from a proto form of aether that drifted through the cosmos as a crystalized
+      rock. They often seek orderliness in their lives that matches the tenets of their god, and this sense of order seems to manifest around them innately. They are relatively short, often stoutly built,
+      and are heavier than their size would suggest. Their skin tones are usually muted with casts of dull gray, blue, or purple, but they often have vibrant streaks of aether hues in their hair.</p>
     chat: ''
   source:
     custom: ''

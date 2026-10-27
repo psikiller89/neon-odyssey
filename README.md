@@ -77,3 +77,12 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Dirty Fighting (Enforcer, Renegade):** unarmored AC 10 + Dex + Cha.
 - **Thick Hide (Primal Aspect):** +1 AC.
 - **Conditional AC bonuses** as toggleable effects (turn on in the Effects tab): Upgrade Algorithm (+2 while Hardlight Armory is active), Borrowed Time (+1 while concentrating on Haste), Abyssal Parasite (+2 while under Mage Armor).
+
+## v0.5.3 fixes
+
+- **Species:** added the 21 Overdrive Expansion species (Benthos to Zeticulan); 42 species total. Fixed species art: most species icons were a yellow page decoration instead of the character art. Each species description now also shows the full portrait.
+- **Creature art and tokens:** creatures no longer use page decorations or background scenes as art. Creatures without their own picture in the books use Foundry's default token.
+- **Invention Specialist (Machinist):** now asks you to choose Armory, Hypertech or Robotics. Armory grants Martial weapons and Heavy armor. Hypertech gives 2 Machinist cantrips and Expertise in a skill. Robotics gives Autonomous Assistant at will.
+- **Passive traits now automated:** damage resistances (15 traits/feats) and Climb/Swim/Burrow/Fly speeds (11).
+- **Missing saves:** 11 monster attacks with a rider saving throw now have a Save button, as do Shockwave/Anchoring/Debilitating Smite and Hungering Void.
+- **Limited uses added:** Deploy Turret, Symbiotic Carnage, Inescapable Hunt, Chrono Control, Roaring Devastation, Reconstitution.

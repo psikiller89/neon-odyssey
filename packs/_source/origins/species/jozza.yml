@@ -4,11 +4,12 @@ type: race
 img: modules/neon-odyssey/icons/species/jozza.webp
 system:
   description:
-    value: <p>Jozza <em>(JAW-zuh)</em> are a hulking species of humanoids with shark-like features, hailing from a world covered almost entirely by oceans. They have a particular taste for blood and a biological
-      penchant for violence, known best for their large jaws filled with razor-sharp teeth. Many of them dive into fights with a rowdy glee, and their tough physicality makes them well suited to survive
-      and push through any pain. However, some jozza prefer non-violent battles of wit and word or get their fix through virtual gameplay. Jozza have coarse, gritty skin that can take on a wide range of
-      colors, although many are shades of gray, blue, brown, and olive. A prominent dorsal fin rises from the top of their head or the back of their neck, and smaller fins grow on each of their arms. They
-      sometimes have serrated exterior plates over their lower jaw or protruding bones at the hinges.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/jozza-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Jozza <em>(JAW-zuh)</em> are a hulking species of humanoids with shark-like
+      features, hailing from a world covered almost entirely by oceans. They have a particular taste for blood and a biological penchant for violence, known best for their large jaws filled with razor-sharp
+      teeth. Many of them dive into fights with a rowdy glee, and their tough physicality makes them well suited to survive and push through any pain. However, some jozza prefer non-violent battles of wit
+      and word or get their fix through virtual gameplay. Jozza have coarse, gritty skin that can take on a wide range of colors, although many are shades of gray, blue, brown, and olive. A prominent dorsal
+      fin rises from the top of their head or the back of their neck, and smaller fins grow on each of their arms. They sometimes have serrated exterior plates over their lower jaw or protruding bones at
+      the hinges.</p>
     chat: ''
   source:
     custom: ''

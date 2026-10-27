@@ -1,0 +1,48 @@
+_id: 0TV1buTy5j1ipD7x
+name: Gentle Descent
+type: feat
+img: modules/neon-odyssey/icons/species/zephursa.webp
+folder: Omp8lIjH8bVXbUyj
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>While you don’t have the Incapacitated condition, when you fall, your rate of descent is 60 feet per round, and you take no damage from falling.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zephursa
+  activities: {}
+  enchant: {}
+  identifier: gentle-descent
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0TV1buTy5j1ipD7x'

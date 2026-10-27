@@ -1,0 +1,141 @@
+_id: TKpgQzhW31uf43RC
+name: Virtue of the Sages
+type: feat
+img: modules/neon-odyssey/icons/species/navili.webp
+folder: rdjb04Lu75ttAUaR
+sort: 0
+effects:
+- _id: KI9Zp7FL1SxERbTH
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!TKpgQzhW31uf43RC.KI9Zp7FL1SxERbTH'
+system:
+  description:
+    value: <p>You gain some traits based on the ideal you embody. Choose a virtue from the Virtues of the Sages table. You gain the level 1 benefit of that ideal.</p><p>When you reach character levels 3
+      and 5, you learn a spell as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a
+      Long Rest. You can also cast those spells using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast
+      them with this trait (choose the ability when you select this species). Clarity You know the <em>Message</em> cantrip. Additionally, you have Advantage on Intelligence saving throws and you have proficiency
+      in Perception. <em>Detect Magic</em> <em>Zone </em> <em>of Truth</em> Might You know the <em>Thunder Blast</em>* cantrip. Additionally, you have Advantage on Strength saving throws, and you can use
+      your Fly Speed while wearing Medium or Heavy armor. <em>Divine Favor</em> <em>Magic </em> <em>Weapon</em> Valor You know the <em>Resistance</em> cantrip. In addition, you have Advantage on Charisma
+      saving throws and on saving throws to avoid or end the Frightened condition. While you have the Frightened condition, you can still move closer to the source of your fear. <em>Heroism</em> <em>Aid</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Navili
+  activities:
+    mHfB1IJt4hnIXCga:
+      _id: mHfB1IJt4hnIXCga
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: KI9Zp7FL1SxERbTH
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: virtue-of-the-sages
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!TKpgQzhW31uf43RC'

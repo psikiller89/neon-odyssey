@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/yaungu.webp
 folder: HRgqOCAskxYYRGOZ
 sort: 0
-effects: []
+effects:
+- _id: wS6oKqctDC7LUi7a
+  name: Long Arms
+  img: modules/neon-odyssey/icons/species/yaungu.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.climb
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: wrSYcw79RUpvrJ9H
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!0BzAd9bDeeY4v5ex.wS6oKqctDC7LUi7a'
 system:
   description:
     value: <p>You have a Climb Speed equal to your Speed, and your reach with your arms increases by 5 feet.</p>

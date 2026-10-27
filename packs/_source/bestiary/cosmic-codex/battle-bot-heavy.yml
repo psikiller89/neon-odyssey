@@ -1,7 +1,7 @@
 _id: GSOIciSb2t8XEHS4
 name: Battle Bot Heavy
 type: npc
-img: modules/neon-odyssey/icons/creatures/battle-bot-heavy.webp
+img: icons/svg/mystery-man.svg
 folder: k5rTBECLPnuppoi3
 system:
   abilities:
@@ -657,7 +657,7 @@ sort: 0
 prototypeToken:
   name: Battle Bot Heavy
   texture:
-    src: modules/neon-odyssey/icons/creatures/battle-bot-heavy-token.webp
+    src: icons/svg/mystery-man.svg
   width: 1
   height: 1
   disposition: 1

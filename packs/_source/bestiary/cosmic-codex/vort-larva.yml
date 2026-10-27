@@ -1,7 +1,7 @@
 _id: nDxp2vjnDff6KEf3
 name: Vort Larva
 type: npc
-img: modules/neon-odyssey/icons/creatures/vort-larva.webp
+img: icons/svg/mystery-man.svg
 folder: k5rTBECLPnuppoi3
 system:
   abilities:
@@ -363,7 +363,7 @@ sort: 0
 prototypeToken:
   name: Vort Larva
   texture:
-    src: modules/neon-odyssey/icons/creatures/vort-larva-token.webp
+    src: icons/svg/mystery-man.svg
   width: 0.5
   height: 0.5
   disposition: 1

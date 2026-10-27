@@ -1,0 +1,87 @@
+_id: eUNmjONFrm8zAn3J
+name: Buzzing Wings
+type: feat
+img: modules/neon-odyssey/icons/species/yoggoth.webp
+folder: twO1NZU4ZM1qVRaZ
+sort: 0
+effects:
+- _id: E4OBvfz0O7Ld89bC
+  name: Buzzing Wings
+  img: modules/neon-odyssey/icons/species/yoggoth.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.fly
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: YbTdm6ME4RRBvLvH
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!eUNmjONFrm8zAn3J.E4OBvfz0O7Ld89bC'
+system:
+  description:
+    value: <p>You have a Fly Speed equal to your Speed. You can’t use this Fly Speed if you’re wearing Medium or Heavy armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Yoggoth
+  activities: {}
+  enchant: {}
+  identifier: buzzing-wings
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!eUNmjONFrm8zAn3J'

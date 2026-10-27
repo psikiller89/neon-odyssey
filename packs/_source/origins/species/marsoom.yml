@@ -1,0 +1,107 @@
+_id: fnjqVDNcAlWXNPzf
+name: Marsoom
+type: race
+img: modules/neon-odyssey/icons/species/marsoom.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/marsoom-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Marsoom <em>(mar-SOOM) </em>are a bovine species with especially
+      alien biology that grants them psionic prescience and highly tuned danger sense. They have adapted to the strange red planet they call home, making their physical prowess no less formidable.</p><p>Most
+      marsoom believe that strength and safety come through unity, and they are typically welcoming to people of all creeds and origins. While they normally engage in diplomatic pursuits, marsoom are prepared
+      to fight to defend what they value most.</p><p>They appear as sturdy bipedal cattle but have large, dark, oblong eyes with a third on their forehead. A pair of antennae sprouts from between their
+      horns, their tails are split into two bushy ends, and their skin, hair, and tufts of fur come in a wide variety of vivid, unnatural colors.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    9JaCREW6hKh3fopQ:
+      _id: 9JaCREW6hKh3fopQ
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–8 feet tall)
+      value: {}
+      title: ''
+    f10P9AgtjKsSJ24G:
+      _id: f10P9AgtjKsSJ24G
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.tSZtZeN318r6Zb8H
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.kPHiN9cANAiUC3wY
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.NZf103BzWV1kRnSJ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.HZwp6EpPmrR7t7rG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.UhmVSu7CKeuSa4tE
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Marsoom Traits
+    o9qclfG9FkTiB1Vd:
+      _id: o9qclfG9FkTiB1Vd
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - skills:prc
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: marsoom
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fnjqVDNcAlWXNPzf'

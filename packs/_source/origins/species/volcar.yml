@@ -1,0 +1,93 @@
+_id: 1vduahYZtcqyNhVB
+name: Volcar
+type: race
+img: modules/neon-odyssey/icons/species/volcar.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/volcar-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Volcar <em>(VOAL-car) </em>are a species of earth and fire, with fully
+      elemental bodies of lava that they can melt and solidify at will. Able to sustain themselves entirely on minerals, they are a hearty people who thrive on their volcanic homeworld.</p><p>Many volcar
+      are fascinated by and study cycles, especially the relationship between destruction and renewal. They are often nomadic, following seasons, currents, patterns, and other natural phases. Some prefer
+      more social or political cycles, getting involved in governments or militaries.</p><p>Their rocky hide runs a variety of earthen shades from dark obsidian to pale limestone, with a humanoid visage
+      that appears like a chiseled statue or a natural rock formation. Glowing lava forms lines and patterns in their exterior and can ignite at a moment’s notice, turning their whole form redhot and malleable.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    rD8LUsusxEiDGfst:
+      _id: rD8LUsusxEiDGfst
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 6–8 feet tall)
+      value: {}
+      title: ''
+    Lx2JB0jUhNdcabKo:
+      _id: Lx2JB0jUhNdcabKo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.u5h4iUBWAnLD6hbC
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.xROcu29J6NAY9Bq8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.NyLbTe4PNepQP5x6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.FvRx8XZVx2lpVrjw
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.n9U1jQqkVto8c8F7
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Volcar Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: elemental
+    custom: ''
+    subtype: ''
+  identifier: volcar
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1vduahYZtcqyNhVB'

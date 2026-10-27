@@ -1,0 +1,51 @@
+_id: U4HFH1uzMAN35SE3
+name: Telepathic
+type: feat
+img: modules/neon-odyssey/icons/species/zeticulan.webp
+folder: PWQTlEhTBc3FBtah
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You know the <em>Psychic Needle</em>* cantrip.</p><p>Additionally, starting at character level 3, you always have the <em>Command</em> spell prepared, and starting at character level 5, you
+      always have the <em>Detect Thoughts</em> spell prepared. You can cast each of these spells once without a spell slot, and you regain the ability to cast them in that way when you finish a Long Rest.
+      You can also cast them using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast using this trait (choose
+      the ability when you select this species).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zeticulan
+  activities: {}
+  enchant: {}
+  identifier: telepathic
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!U4HFH1uzMAN35SE3'

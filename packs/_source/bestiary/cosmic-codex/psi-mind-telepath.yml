@@ -83,13 +83,13 @@ system:
       value: []
       custom: Common; telepathy 120 ft.
   skills:
+    ins:
+      value: 1
+      ability: ''
     arc:
       value: 1
       ability: ''
     per:
-      value: 1
-      ability: ''
-    ins:
       value: 1
       ability: ''
 items:

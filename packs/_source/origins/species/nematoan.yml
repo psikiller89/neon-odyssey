@@ -4,10 +4,11 @@ type: race
 img: modules/neon-odyssey/icons/species/nematoan.webp
 system:
   description:
-    value: <p>Nematoans <em>(NEE-muh-TOE-in)</em> are a four-armed amphibian species with a voracious appetite. Their unique stomachs allow them to magically ingest traits of the things that they eat, temporarily
-      enhancing their own abilities. This has led many nematoans to develop a focus on food and seek out new dishes to taste across the galaxy. Some become chefs or ship’s cooks, while others get into dangerous
-      trades where exotic and even black market delicacies can be procured. Hailing from a world covered in putrid swamps, nematoans have physical traits that lend themselves to comfortable bog living,
-      including webbed hands and feet, eye stalks, long tongues, and slimy skin that is typically earthy in tone.</p>
+    value: <p><img src="modules/neon-odyssey/icons/species/nematoan-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Nematoans <em>(NEE-muh-TOE-in)</em> are a four-armed amphibian species
+      with a voracious appetite. Their unique stomachs allow them to magically ingest traits of the things that they eat, temporarily enhancing their own abilities. This has led many nematoans to develop
+      a focus on food and seek out new dishes to taste across the galaxy. Some become chefs or ship’s cooks, while others get into dangerous trades where exotic and even black market delicacies can be procured.
+      Hailing from a world covered in putrid swamps, nematoans have physical traits that lend themselves to comfortable bog living, including webbed hands and feet, eye stalks, long tongues, and slimy skin
+      that is typically earthy in tone.</p>
     chat: ''
   source:
     custom: ''

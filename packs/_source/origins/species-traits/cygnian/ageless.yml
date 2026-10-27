@@ -1,0 +1,48 @@
+_id: WJMXkis9z0uEd73z
+name: Ageless
+type: feat
+img: modules/neon-odyssey/icons/species/cygnian.webp
+folder: EiU5Oi8YAxdZiazv
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You don&#x27;t suffer from or die of old age.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Cygnian
+  activities: {}
+  enchant: {}
+  identifier: ageless
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!WJMXkis9z0uEd73z'

@@ -30,7 +30,46 @@ system:
   enchant: {}
   identifier: burrower
   advancement: {}
-effects: []
+effects:
+- _id: sPCghKk3JvXSC5R0
+  name: Burrower
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.burrow
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: eFKBpZW0yfLR9GgP
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!QNqdwbXzhs7Kb4r8.sPCghKk3JvXSC5R0'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

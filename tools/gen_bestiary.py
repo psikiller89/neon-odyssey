@@ -10,19 +10,37 @@ DT={'acid','bludgeoning','cold','fire','force','lightning','necrotic','piercing'
 CONDS={'blinded','charmed','deafened','exhaustion','frightened','grappled','incapacitated','invisible','paralyzed','petrified','poisoned','prone','restrained','stunned','unconscious'}
 SKL={'acrobatics':'acr','animal handling':'ani','arcana':'arc','athletics':'ath','deception':'dec','history':'his','insight':'ins','intimidation':'itm','investigation':'inv','medicine':'med','nature':'nat','perception':'prc','performance':'prf','persuasion':'per','religion':'rel','sleight of hand':'slt','stealth':'ste','survival':'sur'}
 IDIR=os.path.expanduser('~/work/neon-odyssey/icons/creatures')
+_COMMON={}
+NOART={'Rivet Turret'}
 def art(page,name,rank=0):
     os.makedirs(IDIR,exist_ok=True)
-    infos=[i for i in DOC[page-1].get_image_info(xrefs=True) if i['xref'] and i['width']<1100]
-    if not infos: infos=[i for i in DOC[page-1].get_image_info(xrefs=True) if i['xref']]
+    key=DOC.name
+    if key not in _COMMON:
+        cnt={}
+        for pg in DOC:
+            for xx in {i['xref'] for i in pg.get_image_info(xrefs=True) if i['xref']}: cnt[xx]=cnt.get(xx,0)+1
+        _COMMON[key]={xx for xx,c in cnt.items() if c>=3}
+    pr=DOC[page-1].rect; parea=pr.width*pr.height
+    def bg(i):
+        b=pymupdf.Rect(i['bbox']) & pr
+        return b.width*b.height>0.5*parea or b.width>0.85*pr.width
+    allc=[i for i in DOC[page-1].get_image_info(xrefs=True) if i['xref'] and i['xref'] not in _COMMON[key]]
+    infos=[i for i in allc if DOC.extract_image(i['xref']).get('smask')] or [i for i in allc if not bg(i)]
     if not infos: return None,None
+    if name in NOART: return None,None
     infos=sorted(infos,key=lambda i:-i['width']*i['height'])
-    x=infos[min(rank,len(infos)-1)]['xref']
-    base=pymupdf.Pixmap(DOC,x); sm=DOC.extract_image(x).get('smask')
-    if base.colorspace and base.colorspace.n!=3: base=pymupdf.Pixmap(pymupdf.csRGB,base)
-    if sm:
-        if base.alpha: base=pymupdf.Pixmap(base,0)
-        base=pymupdf.Pixmap(base,pymupdf.Pixmap(DOC,sm))
-    im=Image.open(io.BytesIO(base.tobytes('png'))).convert('RGBA'); im=im.crop(im.getbbox() or (0,0,im.width,im.height))
+    im=None
+    for i in infos[min(rank,len(infos)-1):]+infos[:min(rank,len(infos)-1)]:
+        x=i['xref']
+        base=pymupdf.Pixmap(DOC,x); sm=DOC.extract_image(x).get('smask')
+        if base.colorspace and base.colorspace.n!=3: base=pymupdf.Pixmap(pymupdf.csRGB,base)
+        if sm:
+            if base.alpha: base=pymupdf.Pixmap(base,0)
+            base=pymupdf.Pixmap(base,pymupdf.Pixmap(DOC,sm))
+        c=Image.open(io.BytesIO(base.tobytes('png'))).convert('RGBA'); c=c.crop(c.getbbox() or (0,0,c.width,c.height))
+        al=c.getchannel('A').resize((64,64)); tr=sum(1 for v in al.getdata() if v<128)/4096
+        if tr>=0.08: im=c; break
+    if im is None: return None,None
     fn=ident(name); w,h=im.size
     full=im.copy(); full.thumbnail((1024,1024)); full.save(f'{IDIR}/{fn}.webp',quality=88)
     s=max(w,h); tok=Image.new('RGBA',(s,s),(0,0,0,0)); tok.paste(im,((s-w)//2,(s-h)//2)); tok=tok.resize((512,512),Image.LANCZOS); tok.save(f'{IDIR}/{fn}-token.webp',quality=88)

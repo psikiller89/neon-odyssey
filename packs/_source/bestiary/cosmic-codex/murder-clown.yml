@@ -79,13 +79,13 @@ system:
       value: []
       custom: Common, Dissonant
   skills:
-    prf:
+    acr:
       value: 1
       ability: ''
     dec:
       value: 1
       ability: ''
-    acr:
+    prf:
       value: 1
       ability: ''
 items:

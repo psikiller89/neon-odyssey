@@ -1,0 +1,104 @@
+_id: MsReSmbFEwWjhAvH
+name: Terminox
+type: race
+img: modules/neon-odyssey/icons/species/terminox.webp
+system:
+  description:
+    value: <p><img src="modules/neon-odyssey/icons/species/terminox-art.webp" style="max-height:420px;float:right;margin-left:8px"></p><p>Terminox <em>(TER-mi-noks)</em> are a bio-mechanical people reforged
+      by the discordant tone of Progress through the hyper-logical denial of emotion to build structures of control around their pain. Their indomitable bodies are designed to neither cease nor slow in
+      the face of whatever obstacle stands before them.</p><p>Typically driven to achieve perfection in the areas of their obsession, terminox are always seeking the next step of optimization. While some
+      uphold an advancement of the self, finding a solitary path or embedding in a small unit, many assimilate into the collective and join the never-ending march of Progress.</p><p>Terminox are a species
+      built of fiendish metal with cables of synthetic flesh that cling to their frame like muscle. Their heads appear approximately skeletal, sometimes connected to cords that resemble hair. The parts
+      that make up their construction are typically colored in shades of gray or red.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    eDqsBWIIFJ58ObD0:
+      _id: eDqsBWIIFJ58ObD0
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall)
+      value: {}
+      title: ''
+    y5BiDytiQqLoaGSF:
+      _id: y5BiDytiQqLoaGSF
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.2H4m3s1uuK6ex3HA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hRsl3oHNyJLIfLOT
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.IVNT6RtGhiQY7Dd6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.iTiQL595gyrGE9a5
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.5mkpmDJsBLDtWSvH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.agdvAN71tkiuFqdD
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Y2B4U0WGgLhD96YL
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.pKaktcdXn1E4J9rm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Terminox Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: terminox
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MsReSmbFEwWjhAvH'

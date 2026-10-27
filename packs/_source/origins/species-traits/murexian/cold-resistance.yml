@@ -4,7 +4,46 @@ type: feat
 img: modules/neon-odyssey/icons/species/murexian.webp
 folder: npeQLHhkOLtCAR2F
 sort: 0
-effects: []
+effects:
+- _id: 9q51WufiKWqE7qeb
+  name: Cold Resistance
+  img: modules/neon-odyssey/icons/species/murexian.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: cold
+      priority: null
+      type: add
+      phase: initial
+      _id: vmbRvVjIpxztFDlP
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!64ORmngGMQVbcF0F.9q51WufiKWqE7qeb'
 system:
   description:
     value: <p>You have Resistance to Cold damage.</p>

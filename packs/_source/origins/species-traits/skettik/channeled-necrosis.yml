@@ -1,0 +1,48 @@
+_id: 8fmRvicTX5rXod1z
+name: Channeled Necrosis
+type: feat
+img: modules/neon-odyssey/icons/species/skettik.webp
+folder: iX2RUYAkVnVp903n
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you deal damage, you can change the damage type to Necrotic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Skettik
+  activities: {}
+  enchant: {}
+  identifier: channeled-necrosis
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!8fmRvicTX5rXod1z'

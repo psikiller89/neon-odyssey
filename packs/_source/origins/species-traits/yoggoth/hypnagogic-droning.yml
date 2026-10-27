@@ -1,0 +1,108 @@
+_id: 9p64FCiUtjTjUvWR
+name: Hypnagogic Droning
+type: feat
+img: modules/neon-odyssey/icons/species/yoggoth.webp
+folder: twO1NZU4ZM1qVRaZ
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>As a Bonus Action, you can create a vibration that resonates with your most alien dreams in a 20-foot Emanation originating from you. The droning lasts for 1 minute or until you lose your
+      Concentration. When you create the Emanation, and at the start of each of your turns for the duration, each creature of your choice in that area must succeed on a Wisdom saving throw (DC 8 plus your
+      Constitution modifier and Proficiency Bonus) or subtract 1d4 from ability checks and attack rolls until the start of your next turn. Once you use this Bonus Action, you can’t use it again until you
+      finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Yoggoth
+  activities:
+    jx0MhhGed3qxlwBj:
+      _id: jx0MhhGed3qxlwBj
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: hypnagogic-droning
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!9p64FCiUtjTjUvWR'
