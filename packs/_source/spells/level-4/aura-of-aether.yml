@@ -1,0 +1,126 @@
+_id: rASJHD2XMwwEUUJa
+name: Aura of Aether
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: <p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws against the Blinded,
+      Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, or Stunned conditions.</p><p>If a creature within the aura forces a creature affected by the aura to make a saving throw against any
+      of the above conditions, you can take a Reaction to end the spell early. If you do, the triggering creature must make a Strength saving throw. On a failure, it takes 5d10 Radiant damage and is pushed
+      straight away from you to the nearest space outside the Emanation. On a success, it takes half as much damage only.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: radius
+      size: '30'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: abj
+  properties:
+  - vocal
+  - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    SVpGOmJ8PAGUSbpN:
+      _id: SVpGOmJ8PAGUSbpN
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 5
+          denomination: 10
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: aura-of-aether
+effects: []
+folder: sEPVmwo0fZxpCj2K
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rASJHD2XMwwEUUJa'

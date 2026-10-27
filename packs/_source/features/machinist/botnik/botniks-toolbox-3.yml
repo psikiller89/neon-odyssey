@@ -1,0 +1,50 @@
+_id: S1XiZ83WvediXAAx
+name: Botnik’s Toolbox
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have what you need to patch up your bots. You gain proficiency with Electronics Tools. If you already have this proficiency, you gain proficiency with one other type of Crafter’s Tools
+      of your choice.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Botnik Machinist
+  activities: {}
+  enchant: {}
+  identifier: botniks-toolbox
+  advancement: {}
+effects: []
+folder: giWvboa9uiRIucmh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!S1XiZ83WvediXAAx'

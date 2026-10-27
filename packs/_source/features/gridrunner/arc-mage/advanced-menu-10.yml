@@ -1,0 +1,122 @@
+_id: N3Od8w2AXUlE0ohA
+name: Advanced Menu
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You unlock secret abilities from Arcadia, granting you the following benefits while you are holding your Arcadian Implement.</p><p><strong>Protect.</strong> If you damage an ally with a spell,
+      you can expend 5 MP to cause them to take no damage and instead gain Temporary Hit Points equal to 5 plus your Intelligence modifier.</p><p><strong>Reflect.</strong> When you or a creature you can
+      see within 30 feet of you makes a saving throw against a spell, you can take a Reaction and expend 1 MP to grant the target Advantage on the saving throw. If the save succeeds and the spell targeted
+      only that creature, you can cause the spell to reflect at the caster if it is level 1 or lower. You can expend more MP up to the level of the spell, to a maximum of 5, to reflect a higher-level spell.
+      The caster must make a saving throw against its own spell save DC, and the spell affects it without Concentration for its maximum duration.</p><p><strong>Revive.</strong> You can expend 7 MP and a
+      level 3+ spell slot to cast <em>Revivify</em>, requiring no Material components.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arc-Mage Gridrunner
+  activities:
+    PkknBSPMeyq8qIdH:
+      _id: PkknBSPMeyq8qIdH
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: advanced-menu
+  advancement:
+    NjlDVUgPFdRMBD81:
+      _id: NjlDVUgPFdRMBD81
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRevivify00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 10
+      title: Advanced Menu
+      hint: ''
+effects: []
+folder: PYCwpEUVFCmKqZBN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!N3Od8w2AXUlE0ohA'

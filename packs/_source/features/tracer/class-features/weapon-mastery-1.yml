@@ -1,0 +1,68 @@
+_id: 80uk2s5Zqo6f3uZV
+name: Weapon Mastery
+type: feat
+img: icons/skills/melee/strike-sword-steel-yellow.webp
+system:
+  description:
+    value: <p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Laser Rifles and Quickblades.</p><p>Whenever
+      you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Sabers and Combat Swords.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: weapon-mastery
+  advancement:
+    cvPNAaphQTdoQqAb:
+      _id: cvPNAaphQTdoQqAb
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      flags: {}
+      name: Weapon Mastery
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!80uk2s5Zqo6f3uZV'

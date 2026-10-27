@@ -1,0 +1,136 @@
+_id: 1nyY0CWQ3FkxRQ5A
+name: Hypnotic
+type: feat
+img: modules/neon-odyssey/icons/species/gorgonite.webp
+folder: XTMsCNdLEGfz0u2k
+sort: 0
+effects:
+- _id: VruvSxK3N9KSiVku
+  name: Charmed
+  img: systems/dnd5e/icons/svg/statuses/charmed.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - charmed
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!1nyY0CWQ3FkxRQ5A.VruvSxK3N9KSiVku'
+system:
+  description:
+    value: <p>Your eyes become captivating pools. The target must succeed on a Wisdom saving throw or have the Charmed condition for 1 minute. If you or your allies damage the target or force it to make
+      a saving throw, the condition ends on it, and it is immune to your gaze for 24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Gorgonite
+  activities:
+    efNLVwdlFMCIUSqc:
+      _id: efNLVwdlFMCIUSqc
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: VruvSxK3N9KSiVku
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: hypnotic
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1nyY0CWQ3FkxRQ5A'

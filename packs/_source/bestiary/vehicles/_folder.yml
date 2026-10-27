@@ -1,0 +1,20 @@
+name: Planetary Vehicles
+sorting: a
+folder: null
+type: Actor
+_id: B7KoyN2Wquc83gzV
+description: ''
+sort: 3
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!B7KoyN2Wquc83gzV'

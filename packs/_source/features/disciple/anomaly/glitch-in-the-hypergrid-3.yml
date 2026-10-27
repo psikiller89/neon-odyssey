@@ -1,0 +1,52 @@
+_id: ERIsX3Epkq36VEgh
+name: Glitch in the Hypergrid
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your connection to the Hypergrid grants your body and soul additional combat features. You gain the following benefits.</p><p><strong>Hyper Arsenal.</strong> Simple Ranged weapons are Disciple
+      weapons for you, and Submachine Guns have the Light property for you.</p><p><strong>Ballistic Protocol.</strong> When you use Ensouled Strikes, you can use a Simple Ranged weapon with the Light property
+      to make the extra attacks that feature grants instead of Unarmed Strikes.</p><p><strong>Gridwarped Strikes.</strong> Once per turn, when you hit a creature with an attack roll using a Disciple weapon
+      or an Unarmed Strike, you can push the target up to 10 feet away from yourself.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Anomaly Disciple
+  activities: {}
+  enchant: {}
+  identifier: glitch-in-the-hypergrid
+  advancement: {}
+effects: []
+folder: R1sTyl01UoM2xoW9
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ERIsX3Epkq36VEgh'

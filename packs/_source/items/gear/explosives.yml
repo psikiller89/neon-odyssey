@@ -1,0 +1,218 @@
+_id: tAWtwBoeJmfVqC5w
+name: Explosives
+type: consumable
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Explosive devices with various effects and applications abound.</p><p><strong>Breaching Charge.</strong> Breaching Charges are blocks or satchels of explosives shaped to penetrate doors, or
+      reinforced walls. You can attach a charge to a surface and arm it as a Utilize action. When you arm the charge, you can set a timer up to 1 hour, or set it to receive a signal from a transmitter or
+      Communicator. You can signal a charge to explode as a Utilize action. When the charge detonates, the surface it’s attached to takes damage determined by the charge type. <strong>Small Breaching Charge.</strong>
+      8d10 Force damage. Creatures within a 20-foot-radius Sphere make a DC 15 Constitution saving throw, taking 4d10 Thunder damage on a failure or half as much damage on a success. <strong>Large Breaching
+      Charge.</strong> 20d10 Force damage. Creatures within a 50-foot-radius Sphere make a DC 15 Constitution saving throw, taking 10d10 Thunder damage on a failure or half as much damage on a success.</p><p><strong>Using
+      Grenades.</strong> When you take the Attack action, you can replace one of your attacks with throwing a Grenade at a point up to 60 feet away or using a Grenade Launcher to fire one at a point up
+      to 1,000 feet away. The Grenade explodes at that point, creating an effect in a 20-foot-radius Sphere. You can load and fire a Grenade Launcher once per action, even if you can make multiple attacks.</p><p><strong>EMP
+      Grenade.</strong> Each creature in the Sphere makes a DC 15 Constitution saving throw. On a failed save, all powered devices carried by the creature don’t function for 1 minute. A Construct that fails
+      the save has the Incapacitated condition for the duration. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p><p>A Power Cell or powered device
+      in the Sphere that isn’t being worn or carried doesn’t function for 1 minute.</p><p><strong>Flashbang Grenade.</strong> Each creature in the Sphere must succeed on a DC 15 Constitution saving throw
+      or have the Blinded and Deafened conditions. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute it succeeds automatically.</p><p><strong>Frag
+      Grenade.</strong> Each creature in the Sphere makes a DC 15 Dexterity saving throw, taking 14 (4d6) Piercing damage on a failed save or half as much damage on a successful one.</p><p><strong>Incendiary
+      Grenade.</strong> Each creature in the Sphere makes a DC 15 Dexterity saving throw, taking 14 (4d6) Fire damage on a failed save and starts burning, or takes half as much damage only on a successful
+      one. Flammable objects in the area that aren’t being worn or carried start burning.</p><p><strong>Smoke Grenade.</strong> The Sphere is Heavily Obscured by smoke for 1 minute. A strong wind disperses
+      the smoke.</p><p><strong>Plasma Grenade.</strong> Each creature in the sphere makes a DC 15 Dexterity saving throw, taking 17 (5d6) Lightning damage and can’t take Reactions until the start of its
+      next turn on a failed save, or half as much damage on a successful one. Breaching Charge (Small) 1 lb. $7,500 Breaching Charge (Large) 20 lb. $25,000 Grenade Launcher 7 lb. $3,000 EMP Grenade 3 lb.
+      $1,000 Flashbang Grenade 1 lb. $1,000 Frag Grenade 1 lb. $1,000 Incendiary Grenade 2 lb. $2,500 Smoke Grenade 3 lb. $250 Plasma Grenade 1 1b. $2,500</p><table><tbody><tr><td>Breaching Charge (Small)</td><td>1
+      lb.</td></tr><tr><td>Breaching Charge (Large)</td><td>20 lb.</td></tr><tr><td>Grenade Launcher</td><td>7 lb.</td></tr><tr><td>EMP Grenade</td><td>3 lb.</td></tr><tr><td>Flashbang Grenade</td><td>1
+      lb.</td></tr><tr><td>Frag Grenade</td><td>1 lb.</td></tr><tr><td>Incendiary Grenade</td><td>2 lb.</td></tr><tr><td>Smoke Grenade</td><td>3 lb.</td></tr><tr><td>Plasma Grenade</td><td>1 1b.</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    subtype: ''
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities:
+    2vIWAA6OgtRcHQsg:
+      _id: 2vIWAA6OgtRcHQsg
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: g2cssut6ExAs43ni
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 8
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 4
+          denomination: 10
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 20
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: explosives
+effects:
+- _id: g2cssut6ExAs43ni
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!tAWtwBoeJmfVqC5w.g2cssut6ExAs43ni'
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!tAWtwBoeJmfVqC5w'

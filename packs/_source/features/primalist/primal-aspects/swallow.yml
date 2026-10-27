@@ -1,0 +1,49 @@
+_id: DVija5Uip1rMieh8
+name: Swallow
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 8+ Primalist</em></p><p>You gain the following action:</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalAspect
+  prerequisites:
+    level: 8
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: swallow
+  advancement: {}
+effects: []
+folder: 6paiNqmrbvrvrO5j
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!DVija5Uip1rMieh8'

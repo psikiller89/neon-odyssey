@@ -1,0 +1,106 @@
+_id: 4DBToNQKUWPeQRnn
+name: Calamity-Touched
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You are infused with elemental calamity, granting you the following benefits.</p><p><strong>Archaic Element.</strong> Choose one of the following damage types to master: Acid, Cold, Fire,
+      Lightning, or Thunder. You gain Resistance to the damage type you mastered. Additionally, when you deal damage with a spell or a weapon, you can change the damage type to the type you mastered, and
+      you ignore Resistance to that type.</p><p><strong>Consuming Calamity.</strong> When a creature you can see within 30 feet takes damage of the same type as your chosen Archaic Element, you can take
+      a Reaction to grant the creature Resistance to that instance of damage, and you gain a number of Temporary Hit Points equal to the amount of damage the creature takes. You can use this feature a number
+      of times equal to your Occult Magic spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @attributes.spell.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities:
+    lQDzKshW7WJbxNh6:
+      _id: lQDzKshW7WJbxNh6
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: calamity-touched
+  advancement: {}
+effects: []
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4DBToNQKUWPeQRnn'

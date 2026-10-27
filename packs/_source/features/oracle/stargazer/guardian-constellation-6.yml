@@ -1,0 +1,51 @@
+_id: jA4Seqy7VEbyHP8R
+name: Guardian Constellation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The will of Agathos protects and empowers you. If you aren’t surprised when you roll Initiative, you can activate your Field of Stars without using an action (expend a use of Cosmic Conduit
+      as normal).</p><p>Additionally, creatures affected by your field now gain a bonus to two saving throws equal to your Wisdom modifier (minimum of +1). The type of save is determined by your Guiding
+      Starlight triad. Beacon Strength and Dexterity Chronicle Wisdom and Intelligence Fountain Strength and Constitution Tower Constitution and Charisma</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Stargazer Oracle
+  activities: {}
+  enchant: {}
+  identifier: guardian-constellation
+  advancement: {}
+effects: []
+folder: S0v5ja68ap8lA9lh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jA4Seqy7VEbyHP8R'

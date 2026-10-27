@@ -1,0 +1,114 @@
+_id: hBt8Jb4EU5hfqzBb
+name: Construct Companion
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You create a special Construct in an unoccupied space within range. This creature uses the <strong>Construct Companion</strong> stat block. If you already have a companion from this spell,
+      the companion is replaced by the new one. You determine the companion’s appearance, such as a hovering drone, a miniature android, or a wheeled or tracked task bot.</p><p><strong>Combat.</strong>
+      The companion is an ally to you and your allies. In combat, it shares your Initiative count, but takes its turn immediately after yours. It obeys your commands (no action required by you). If you
+      don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot’s level for the spell’s level in the stat
+      block.</p><ul><li><p><strong>Traits Actions Reactions</strong></p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: hour
+    value: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '10'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 2
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  - ritual
+  materials:
+    value: computer parts worth $5,000+
+    consumed: false
+    cost: 5000
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    1fPTC2r1nQrzf8ji:
+      _id: 1fPTC2r1nQrzf8ji
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: construct-companion
+effects: []
+folder: j9jMRFUkViNxi7SM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hBt8Jb4EU5hfqzBb'

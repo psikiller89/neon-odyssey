@@ -1,0 +1,159 @@
+_id: kiBdcJwSvvwcjycG
+name: Psychonaut Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach an Esper level specified in the Psychonaut Spells table, you thereafter always have the listed spells prepared. <em>Calm Emotions, Command</em>, <em>Detect Thoughts</em>, <em>Dissonant
+      Whispers</em>, <em>Psychic Needle</em>* <em>Nondetection</em>, <em>Sending</em> <em>Compulsion</em>, <em>Phantasmal Killer</em> <em>Dream</em>, <em>Telepathic Bond</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Psychonaut Esper
+  activities: {}
+  enchant: {}
+  identifier: psychonaut-spells
+  advancement:
+    CGqxDbmPkAi3Asr0:
+      _id: CGqxDbmPkAi3Asr0
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.IMqVx9OOI2DS9i0I
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Psychonaut Spells
+      hint: ''
+    LCyvQ3E05U3IU7dD:
+      _id: LCyvQ3E05U3IU7dD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplNondetecti
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSending000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Psychonaut Spells
+      hint: ''
+    mqvalPuUhrTgcbT4:
+      _id: mqvalPuUhrTgcbT4
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCompulsion
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Psychonaut Spells
+      hint: ''
+    2MtCErlpHRflSEDU:
+      _id: 2MtCErlpHRflSEDU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRarysTelep
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Psychonaut Spells
+      hint: ''
+effects: []
+folder: iIYvvG9Ga4e5RgAN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kiBdcJwSvvwcjycG'

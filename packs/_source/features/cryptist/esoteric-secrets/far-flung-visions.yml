@@ -1,0 +1,49 @@
+_id: MOwNWk1wCJk7g4i0
+name: Far-Flung Visions
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 9+ Cryptist</em></p><p>You can cast <em>Arcane Eye</em> without expending a spell slot.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: far-flung-visions
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MOwNWk1wCJk7g4i0'

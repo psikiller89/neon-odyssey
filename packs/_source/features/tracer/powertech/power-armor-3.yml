@@ -1,0 +1,103 @@
+_id: kehgr4PVrYh1tP1z
+name: Power Armor
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have fused primordial and technological power into armor that becomes a second skin. As a Magic action while you have Mechanic’s Tools in hand, you can turn a suit of armor you are wearing
+      into Power Armor. The armor continues to be Power Armor until you don another suit of armor or if you die.</p><p>You gain the following benefits while wearing your Power Armor.</p><p><strong>Hypertech
+      Upgrades.</strong> You can use your Power Armor as a Spellcasting Focus for your Tracer spells. When you do so, a spell lacks a <em>V</em> component and gains an <em>M</em> component.</p><p><strong>Second
+      Skin.</strong> If the armor normally has a Strength requirement, the Power Armor lacks this requirement for you. Additionally, it doesn’t count as Heavy armor for your OmniTraversal feature.</p><p><strong>Swift
+      Suit-Up.</strong> You can don or doff the armor as a Utilize action. The armor can’t be removed against your will.</p><p><strong>Utility Attachments.</strong> You create and install one of the following
+      pieces of outrunning gear into your armor (ignoring its weight), and you can take the Utilize action with it as a Bonus Action: Ascension Gun, Bypass Tools (you have proficiency with it), Climbing
+      Gear, Macro Scope (affects your Hunter’s Arsenal, see below, regardless of the scope’s properties), or Med Pack (replenishes 1d6 uses when you finish a Long Rest).</p><p>The gear can’t be removed
+      from the armor, but you can change the selection when you finish a Short or Long Rest. The gear vanishes if the armor stops being your Power Armor.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Powertech Tracer
+  activities:
+    vzgxxhs0NMR4ZOZc:
+      _id: vzgxxhs0NMR4ZOZc
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: power-armor
+  advancement: {}
+effects: []
+folder: X4HPIohiyzVSXvRW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kehgr4PVrYh1tP1z'

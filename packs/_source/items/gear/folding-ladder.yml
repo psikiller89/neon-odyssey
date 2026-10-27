@@ -1,0 +1,52 @@
+_id: seMxbfr7yArbP9NR
+name: Folding Ladder
+type: loot
+img: icons/sundries/misc/ladder-improvised.webp
+system:
+  quantity: 1
+  weight:
+    value: 20.0
+    units: lb
+  price:
+    value: 75
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Folding Ladder is 10 feet tall when fully deployed, and it collapses to 3 feet long. You must climb to move up or down it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: folding-ladder
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!seMxbfr7yArbP9NR'

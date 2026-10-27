@@ -1,0 +1,50 @@
+_id: fwH3CzDWbNAAqXR4
+name: Augment Overcharge
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your cybernetic sensor suite is highly tuned. You gain Blindsight with a range of 10 feet. If you already have Blindsight, its range increases by 10 feet.</p><p>While your Cyber Assassin feature
+      is active, the range of your Blindsight increases to 60 feet, and if you make an attack roll while hidden and the roll misses, making the attack roll doesn’t reveal your location.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 11
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Ghostframe Disciple
+  activities: {}
+  enchant: {}
+  identifier: augment-overcharge
+  advancement: {}
+effects: []
+folder: bqQIVg0cPp9SIgRN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fwH3CzDWbNAAqXR4'

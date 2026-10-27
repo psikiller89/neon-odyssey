@@ -1,0 +1,111 @@
+_id: MKlt7sYG1fsItvpe
+name: Gravgunner
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/gravgunner.webp
+system:
+  description:
+    value: <p><em>Weaponize Gravity with High-Tech Heavy Weaponry</em> Gravgunners are Machinists who specialize in exceedingly complex, advanced, and rare technology that manipulates the force of gravity
+      and space itself. They utilize their discovery of a condensed singularity, miniaturized warp gate, or similar gravitational phenomenon to power a cutting-edge heavy weapon to blast foes with devastating,
+      experimental gravitons capable of warping space or dematerializing their targets. Their impossibly heavy grav guns can only be lifted due to built-in anti-grav adaptations, and manipulating such a
+      weapon is so complicated that none but Gravgunners themselves can even fire the weapons.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: gravgunner
+  classIdentifier: machinist
+  advancement:
+    cHurOUWKZVF5u4sW:
+      _id: cHurOUWKZVF5u4sW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.BmgOKQqbJ1lPiDqs
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.uqSD6Kti7yNjWZs6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.0E2ejSXpLZxPkNB2
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Aw5ox6yUOOauNQY6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    3kUvrpSwJCLu97jH:
+      _id: 3kUvrpSwJCLu97jH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.2KoBwUdBODA4GZgg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.rLIPD3yzDT93GXs1
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Subclass Features
+      hint: ''
+    18dTxDKJlGyFd99s:
+      _id: 18dTxDKJlGyFd99s
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.UiEvX3OIe7qUfoOv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    NP0k6s1aEd5mTXpj:
+      _id: NP0k6s1aEd5mTXpj
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LQ4nuScjB00BCMM0
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: AJj8g0fypwhXwvoN
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!MKlt7sYG1fsItvpe'

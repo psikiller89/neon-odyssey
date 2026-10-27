@@ -1,0 +1,52 @@
+_id: srAz4XRaGuCWFhcm
+name: Omni Pen
+type: loot
+img: icons/tools/scribal/pen-steel-grey-brown.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 20
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>An Omni Pen is used to write or draw and contains an internal supply of ink. Commonly, many also function as a stylus for Datapads. It can write underwater or in zero G.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: omni-pen
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!srAz4XRaGuCWFhcm'

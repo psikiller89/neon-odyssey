@@ -1,0 +1,124 @@
+_id: 3maPAO0xgKMGrFLW
+name: Experimental Systems
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You discover new system enhancements to make your exosuit deadlier. You can use one of the options below based on your exosuit’s chassis. You can use this feature a number of times equal to
+      your Strength or Dexterity modifier (your choice), and you regain all expended uses when you finish a Long Rest.</p><p><strong>Bastion.</strong> When you use Evasion Circuits, you can project a defensive
+      screen in a 10-foot Emanation originating from you until the start of your next turn. You and your allies in that area have Half Cover.</p><p><strong>Comet.</strong> As a Bonus Action, you can move
+      up to your Speed without provoking Opportunity Attacks. If you then hit a creature with a melee weapon attack or an Unarmed Strike before the end of your turn, you can activate the Push or Topple
+      mastery property, in addition to another mastery property you’re using.</p><p><strong>Mortar.</strong> When you take the Attack action on your turn, you can replace one attack with a spread of micro
+      rockets. Each creature in a 30-foot Cone makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier [your choice] and Proficiency Bonus), taking 4d6 Fire damage on a failed save
+      or half as much damage on a successful one.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.dex.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Exomech Soldier
+  activities:
+    UIxxvmI0pOZpG6XU:
+      _id: UIxxvmI0pOZpG6XU
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: experimental-systems
+  advancement: {}
+effects: []
+folder: X91gcBRCD5t5HCHj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3maPAO0xgKMGrFLW'

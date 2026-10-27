@@ -1,0 +1,127 @@
+_id: YxNHOl26EJMFmv4N
+name: Life Cycle
+type: spell
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  description:
+    value: <p>One creature of your choice within 10 feet of the triggering creature makes a Constitution saving throw, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful
+      one. The triggering creature then regains Hit Points equal to half the damage dealt.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above
+      1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: reaction
+    value: null
+    condition: when a creature you can see within 30 feet of you drops to 0 Hit Points
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '30'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: nec
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: a seed
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    IT3T2bIsCl7Y2AJ8:
+      _id: IT3T2bIsCl7Y2AJ8
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: life-cycle
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!YxNHOl26EJMFmv4N'

@@ -1,0 +1,104 @@
+_id: zc9lxJDbkrn3oAq8
+name: Infiltrator’s Kit
+type: tool
+img: icons/equipment/back/cloak-hooded-blue.webp
+system:
+  quantity: 1
+  weight:
+    value: 3.0
+    units: lb
+  price:
+    value: 1250
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Charisma</p><p><strong>Weight:</strong> 3 lb.</p><p><strong>Utilize:</strong> Apply makeup (DC 10)</p><p><strong>Craft:</strong> Disguise</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: ''
+    baseItem: ''
+  ability: cha
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    K8OcDhOu3bdjRKJ9:
+      _id: K8OcDhOu3bdjRKJ9
+      type: check
+      name: Apply makeup
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: cha
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+  identifier: infiltrators-kit
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!zc9lxJDbkrn3oAq8'

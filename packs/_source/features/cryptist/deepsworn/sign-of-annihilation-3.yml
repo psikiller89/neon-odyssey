@@ -1,0 +1,102 @@
+_id: Qj5gVMiGuNxqmvEs
+name: Sign of Annihilation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You unravel the song of creation within your foes. You can cast <em>Hex</em> without a spell slot once, and you regain the ability to do so when you finish a Long Rest.</p><p>A creature cursed
+      by your <em>Hex</em> must make a Constitution saving throw against your spell save DC at the start of each of its turns. On a failed save, its Armor Class is reduced by 1 until the <em>Hex</em> ends.
+      Successive failures worsen the penalty by 1 to a maximum of 5. On a success, this effect ends and its Armor Class returns to normal (but the spell remains).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Deepsworn Cryptist
+  activities:
+    i39A4BzfG02jzH2N:
+      _id: i39A4BzfG02jzH2N
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: sign-of-annihilation
+  advancement: {}
+effects: []
+folder: eLWbUPabyo7jvGuT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Qj5gVMiGuNxqmvEs'

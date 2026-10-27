@@ -1,0 +1,53 @@
+_id: t2BQ0yCLskvIdFfd
+name: Archaic Pathways
+type: feat
+img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+system:
+  description:
+    value: <p>You walk an ancient path that determines how you connect with the primal forces, dedicating yourself to one of the following roles of your choice.</p><p><strong>Guardian.</strong> Trained
+      for battle, you gain proficiency with Martial weapons and training with Medium armor.</p><p><strong>Naturalist.</strong> You know one extra cantrip from the Primalist spell list. In addition, your
+      mystical connection to nature gives you a bonus to your Intelligence (Arcana, Investigation, or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: archaic-pathways
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 700000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!t2BQ0yCLskvIdFfd'

@@ -1,0 +1,87 @@
+_id: E649dPSR2flBRdgq
+name: Souljammer
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/souljammer.webp
+system:
+  description:
+    value: <p><em>Jam to Soothe and Stir the Soul</em> Improvisation and flexibility are core to the soul-touching song of Souljammers. These Icons weave smooth melodies to soothe the hearts of their allies
+      one moment, then erupt into a frenetic jam session to throw their enemies into chaos the next. While many Souljammers are jazz or blues musicians, there are those who make their mark through slam
+      poetry and other spoken words.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: souljammer
+  classIdentifier: icon
+  advancement:
+    32ZC4ZJXsE5X3oEz:
+      _id: 32ZC4ZJXsE5X3oEz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.zeJ5OoAXyH0y1aOW
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.9HHH78M349ay4B0J
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    oYL6lPEb5C8fXkh5:
+      _id: oYL6lPEb5C8fXkh5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.pHJO4R6fedmYD0EM
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    FpT0gEQ9BO7kXEnR:
+      _id: FpT0gEQ9BO7kXEnR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.yqIbD3BrHn2zVXOb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: iTtWgDdgkKnLdWfc
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!E649dPSR2flBRdgq'

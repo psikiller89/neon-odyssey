@@ -1,0 +1,52 @@
+_id: H8quCPyYLUQf3XTw
+name: Pry Bar
+type: loot
+img: icons/tools/hand/pickaxe-steel-white.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 100
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: cUcJJjUdS1ApzGK4
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Using a Pry Bar gives you Advantage on Strength checks where the Pry Bar’s leverage can be applied.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: pry-bar
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!H8quCPyYLUQf3XTw'

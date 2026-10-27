@@ -1,0 +1,103 @@
+_id: IRjvGobtXSV9uNHS
+name: Fortune Favored
+type: feat
+img: icons/commodities/flowers/clover.webp
+system:
+  description:
+    value: <p>Lady Luck is always on your side. You gain the following benefits.</p><p><strong>Defy the Odds.</strong> If you fail a D20 Test, you can turn the roll into a 20.</p><p>Once you use this feature,
+      you can’t use it again until you finish a Short or Long Rest.</p><p><strong>Supreme Savvy.</strong> You have Expertise in all skills in which you have proficiency.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities:
+    y4PG8Ow1eNEle580:
+      type: utility
+      name: Stroke of Luck
+      _id: y4PG8Ow1eNEle580
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you fail a D20 Test
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  enchant: {}
+  identifier: fortune-favored
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!IRjvGobtXSV9uNHS'

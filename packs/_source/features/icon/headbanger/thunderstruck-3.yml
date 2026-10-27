@@ -1,0 +1,50 @@
+_id: 6mTZHdzUodp06vnB
+name: Thunderstruck
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You amp up your allies to tear down any obstacle. When a creature that has your Iconic Inspiration die makes a damage roll, it can roll the die and deal extra Thunder damage equal to the number
+      rolled to one of the targets, and the target is pushed up to 10 feet straight away from the inspired creature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Headbanger Icon
+  activities: {}
+  enchant: {}
+  identifier: thunderstruck
+  advancement: {}
+effects: []
+folder: 4HG1MuYpX6idf014
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!6mTZHdzUodp06vnB'

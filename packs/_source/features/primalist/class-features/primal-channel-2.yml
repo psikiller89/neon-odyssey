@@ -1,0 +1,266 @@
+_id: 4bUR4pv4yvroX0BD
+name: Primal Channel
+type: feat
+img: icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp
+system:
+  description:
+    value: '<p>You can harness the primal power flowing through you to create magical effects. You start with two such effects, Call Wildling and Primal Form, each of which is described below. Each time
+      you use Primal Channel, choose which effect to create.</p><p>You can use Primal Channel twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when
+      you finish a Long Rest. You gain additional uses when you reach certain Primalist levels, as shown in the Primal Channel column of the Primalist Features table.</p><p>If a Primal Channel effect requires
+      a saving throw, the DC equals the spell save DC from this class’s Spellcasting feature.</p><p><strong>Call Wildling.</strong> You can summon a spirit of the wild that assumes a form to aid you. As
+      a Magic action, you can cast the <em>Autonomous Assistant</em>* spell without Material components.</p><p>When you cast the spell in this way, the summoned creature is an Elemental or a Monstrosity
+      (your choice) and disappears when you finish a Long Rest. It appears as an alien or an elementally infused creature.</p><p><strong>Primal Form.</strong> Your connection to primordial forces allows
+      you to adopt its form in various ways. As a Bonus Action, you shape-shift into one of the forms you know for this feature, which are detailed in the “Primal Forms” section later in this class’s description.
+      You stay in that form for a number of hours equal to half your Primalist level or until you use Primal Form again, have the Unconscious condition, or die. You can also leave the form early as a Bonus
+      Action.</p><p>While in one of these forms, you retain your personality, memories, and ability to speak, and the following rules apply: <strong>Temporary Hit Points.</strong> When you assume a Primal
+      Form, you gain a number of Temporary Hit Points equal to your Primalist level. <strong>Game Statistics.</strong> Your game statistics are replaced by the form’s stat block. <strong>No Spellcasting.</strong>
+      You can’t cast spells, but shape-shifting doesn’t break your Concentration or otherwise interfere with a spell you’ve already cast. <strong>Objects.</strong> Your ability to handle objects is determined
+      by your form’s limbs. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether
+      the new form can wear a piece of equipment based on the creature’s size and shape. Your equipment doesn’t change size or shape to match the new form, and any equipment that the new form can’t wear
+      must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you’re in that form.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.primalist.wild-shape-uses'
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities:
+    FsDnynyqno8XNHgf:
+      type: transform
+      _id: FsDnynyqno8XNHgf
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      profiles:
+      - cr: '0.25'
+        name: CR ¼
+        _id: xUPf0uISOwKy3mhO
+        uuid: ''
+        sizes: []
+        types:
+        - beast
+        movement:
+        - fly
+        level:
+          min: null
+          max: 3
+      - cr: '0.5'
+        name: CR ½
+        _id: yu86xk21fVzHg9r5
+        uuid: ''
+        sizes: []
+        types:
+        - beast
+        movement:
+        - fly
+        level:
+          min: 4
+          max: 7
+      - cr: '1'
+        name: CR 1
+        _id: ZFqKHYlY9JhLYnx0
+        uuid: ''
+        sizes: []
+        types:
+        - beast
+        movement: []
+        level:
+          min: 8
+          max: null
+      settings: null
+      transform:
+        customize: false
+        identifier: druid
+        preset: wildshape
+      name: ''
+      img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+      visibility:
+        level:
+          min: null
+          max: null
+    OZP6ki7rMK0EZuf5:
+      _id: OZP6ki7rMK0EZuf5
+      type: summon
+      name: Primal Form
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        override: false
+      range:
+        override: false
+        units: self
+      target:
+        override: false
+        prompt: false
+      effects: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+      - _id: e0Lx8zjdtPU5JS6O
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Ambush Form
+        uuid: Compendium.neon-odyssey.bestiary.Actor.0coZyTudCtYtklqg
+      - _id: O5IzMgVHI8is31fH
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Battle Form
+        uuid: Compendium.neon-odyssey.bestiary.Actor.Q6V1SUYogllCcBSQ
+      - _id: r3lF5xZn8jGmv7rw
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Swift Form
+        uuid: Compendium.neon-odyssey.bestiary.Actor.0EGRvzqVxNKjLZQ1
+      summon:
+        mode: ''
+        prompt: true
+      creatureSizes: []
+      creatureTypes: []
+  enchant: {}
+  identifier: primal-channel
+effects:
+- _id: XJKXAvpXcrbYumuJ
+  name: Unconscious
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - unconscious
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4bUR4pv4yvroX0BD.XJKXAvpXcrbYumuJ'
+flags: {}
+sort: 1200000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!4bUR4pv4yvroX0BD'

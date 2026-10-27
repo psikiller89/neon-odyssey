@@ -1,0 +1,157 @@
+_id: MAFD6XeQpyTB6lsB
+name: Voidcaller Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach out to the Void, its eldritch magic answers your call. When you reach an Oracle level specified in the Voidcaller Spells table, you thereafter always have the listed spells
+      prepared. <em>Bane</em>, <em>Darkness</em>, <em>Silence</em>, <em>Void Lash</em>* <em>Hungering Void</em>*, <em>Hypnotic Pattern</em> <em>Black Tentacles</em>, <em>Summon Void-Dweller</em>* <em>Forceful
+      Majesty</em>*<em>, Psychic Storm</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Voidcaller Oracle
+  activities: {}
+  enchant: {}
+  identifier: voidcaller-spells
+  advancement:
+    JYQBqbZf3Ttk4ZaO:
+      _id: JYQBqbZf3Ttk4ZaO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.RixDonTjNecGTNDP
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilence000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Voidcaller Spells
+      hint: ''
+    uDL6AXtkCBkCkOGD:
+      _id: uDL6AXtkCBkCkOGD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.Gm5OXs0BUV02je4J
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Voidcaller Spells
+      hint: ''
+    MMb82myESHtwkN0x:
+      _id: MMb82myESHtwkN0x
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.HemZOAKCKCoTgeFN
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Voidcaller Spells
+      hint: ''
+    1pgERdFOuyAhCjeo:
+      _id: 1pgERdFOuyAhCjeo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.iOfnFrOwpKHYKuOc
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.KVted2ztd8uPdBmG
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Voidcaller Spells
+      hint: ''
+effects: []
+folder: L8lMOeWgMj3Vj0Fc
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MAFD6XeQpyTB6lsB'

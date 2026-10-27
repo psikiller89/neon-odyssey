@@ -1,0 +1,105 @@
+_id: pswAzUrhI0mwXJO7
+name: Call the Power
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You call upon the power of your inner hero to transform. While your Surge is active and your Vessel of Power is in your possession, you gain the following benefits.</p><p><strong>Heroic Alter-Ego</strong>.
+      When you activate your Surge, you transform into a heroic ideal for the duration. You can choose your appearance, but you must retain the same body configuration. While in this form, you have Advantage
+      on Charisma checks, and creatures can recognize your true identity only with a successful DC 20 Intelligence (Investigation) check.</p><p><strong>Energy Beam.</strong> On your turn, you can replace
+      one of your attacks with an Energy Beam. Each creature of your choice in a 30-foot-long, 5-foot-wide Line must succeed on a Dexterity saving throw (DC 8 plus your Strength modifier and Proficiency
+      Bonus) or take Force damage equal to 1d6 plus your Strength modifier and your Surge Damage bonus.</p><p><strong>Mythic Presence.</strong> You radiate eternal power in a 10-foot Emanation originating
+      from you. Your allies in the Emanation add 1d4 to saving throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Eternal Juggernaut
+  activities:
+    gFqRh3cD5SiEaQ5N:
+      _id: gFqRh3cD5SiEaQ5N
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: call-the-power
+  advancement: {}
+effects: []
+folder: m9J3z6dsJoJabIPZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!pswAzUrhI0mwXJO7'

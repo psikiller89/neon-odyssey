@@ -1,0 +1,185 @@
+_id: aAFIIoZqZLw6zSm1
+name: Bonus Upgrade
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your command of Arcadian magic levels up. When you use an option from your Magic Command feature, you can expend 1 additional MP to improve one chosen option in the following ways.</p><p><strong>Curative
+      Remedy.</strong> When you roll to restore Hit Points with a spell, add a bonus to the total restored equal to your Intelligence modifier (minimum of 1 Hit Point).</p><p><strong>Element Shift.</strong>
+      When you roll damage dice for the spell, you can reroll any dice that roll a 1 or 2. You must use the new rolls.</p><p><strong>Magic Boost.</strong> When you use a Magic Boost option, you ignore Resistance
+      to that damage type, and one target must succeed on a Constitution saving throw against your spell save DC or the effect for the creature is modified depending on the option: <strong>Freeze.</strong>
+      The target has the Restrained condition. It repeats the save at the end of each if its turns, ending the condition on itself on a success. <strong>Ignite.</strong> The burning damage increases to
+      2d6. <strong>Shock.</strong> The target takes an extra 2d6 Lightning damage and has the Prone condition.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arc-Mage Gridrunner
+  activities:
+    j9SXqnlJy8h56wdK:
+      _id: j9SXqnlJy8h56wdK
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: SXD280wWjk3N9Vga
+        onSave: false
+      - _id: q1ezDd6fT9Gqz874
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: bonus-upgrade
+  advancement: {}
+effects:
+- _id: SXD280wWjk3N9Vga
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!aAFIIoZqZLw6zSm1.SXD280wWjk3N9Vga'
+- _id: q1ezDd6fT9Gqz874
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!aAFIIoZqZLw6zSm1.q1ezDd6fT9Gqz874'
+folder: PYCwpEUVFCmKqZBN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aAFIIoZqZLw6zSm1'

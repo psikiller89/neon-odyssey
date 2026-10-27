@@ -1,0 +1,110 @@
+_id: XpU39QFKYC3hBRcl
+name: Accelerate Fall
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: <p>Choose up to five falling creatures within range. A target’s rate of descent doubles until the spell ends. If a target lands before the spell ends, it takes double damage from the fall, and
+      the spell ends for it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you cast this spell using a level 5+ spell slot, its range increases to 20 miles, it can target vehicles in addition
+      to creatures, and the duration increases to 10 minutes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: reaction
+    value: null
+    condition: when you or a creature you can see within 60 feet of you falls
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '60'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: trs
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    T95D82Y3ZFkCLs2l:
+      _id: T95D82Y3ZFkCLs2l
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: accelerate-fall
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!XpU39QFKYC3hBRcl'

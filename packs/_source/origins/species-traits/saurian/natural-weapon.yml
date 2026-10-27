@@ -1,0 +1,49 @@
+_id: jVbBzbWKGB1HufT1
+name: Natural Weapon
+type: feat
+img: modules/neon-odyssey/icons/species/saurian.webp
+folder: EYJDACraFtUaKRXo
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have a natural weapon you can use to make Unarmed Strikes. It deals 1d6 damage of a type appropriate to the weapon instead of the normal damage; Bludgeoning for a slam (club, tail, or
+      headbutt), Piercing for a bite or gore, or Slashing for a claw. Your Saurian Lineage trait determines your natural weapon.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Saurian
+  activities: {}
+  enchant: {}
+  identifier: natural-weapon
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jVbBzbWKGB1HufT1'

@@ -1,0 +1,97 @@
+_id: RcOE2EI7XgQ3AXHU
+name: Harmonic Vigil
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The presence of the Harmony deflects harm. You and your allies in your Zone of Safety have Resistance to Necrotic and Radiant damage, and when you take the Dodge action, you and allies in
+      your aura have Half Cover until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arbiter Enforcer
+  activities:
+    4gp1mJo7Bubbwmtv:
+      _id: 4gp1mJo7Bubbwmtv
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: harmonic-vigil
+  advancement: {}
+effects: []
+folder: IMuGSJX19FaEdpSg
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RcOE2EI7XgQ3AXHU'

@@ -1,0 +1,103 @@
+_id: rf8QaSsAHSP7z3k9
+name: Astral Radiance
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The godly radiance of the stars grows brighter, granting you the following benefits.</p><p><strong>Astral Wave.</strong> As a Magic action, you can expend 2 Essence Points to unleash a wave
+      of crackling stellar brilliance in a 60foot Line that is 10 feet wide. Each creature in the Line must make a Dexterity saving throw. On a failed save, a creature takes Radiant damage equal to three
+      rolls of your Combat Tradition die. On a successful save, a creature takes half as much damage.</p><p><strong>Emissary of the Gods.</strong> You have Resistance to Radiant damage.</p><p><strong>Godhand’s
+      Reach.</strong> The range of your radiant blasts from your Star Gauntlet feature increases to 120 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Godhand Disciple
+  activities:
+    0lYRE2ApWukHBTM2:
+      _id: 0lYRE2ApWukHBTM2
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: wis
+          formula: ''
+      damage:
+        onSave: half
+        parts: []
+  enchant: {}
+  identifier: astral-radiance
+  advancement: {}
+effects: []
+folder: Nhk9pe5HQ8Aa5HxI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rf8QaSsAHSP7z3k9'

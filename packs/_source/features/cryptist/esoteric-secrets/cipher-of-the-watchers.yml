@@ -1,0 +1,100 @@
+_id: 0jbwjtx4etbp6shK
+name: Cipher of the Watchers
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 9+ Cryptist, Mystery of the Cipher Secret</em></p><p>With your permission, a creature can take an action to input its name in your Codex of Ciphers, which can contain
+      a number of names equal to your Occult Magic spellcasting ability modifier (minimum of one name).</p><p>When any creature whose name is in the codex is reduced to 0 Hit Points but not killed outright,
+      the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.</p><p>As a Magic action, you can erase a name from
+      the codex by touching it.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 9
+    items:
+    - Compendium.neon-odyssey.features.Item.B3IHmgvrcV0P6OU5
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities:
+    s4FypbB0lRC5pu4R:
+      _id: s4FypbB0lRC5pu4R
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: cipher-of-the-watchers
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0jbwjtx4etbp6shK'

@@ -1,0 +1,99 @@
+_id: HBIxuWMkhFKqDc5P
+name: Psychic Fortitude
+type: feat
+img: modules/neon-odyssey/icons/species/nilari.webp
+folder: ISAyCGPeuUb5dYNH
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Nilari
+  activities:
+    JJTonl2JrVIysXUK:
+      _id: JJTonl2JrVIysXUK
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - cha
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: psychic-fortitude
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!HBIxuWMkhFKqDc5P'

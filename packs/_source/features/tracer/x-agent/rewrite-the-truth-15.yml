@@ -1,0 +1,719 @@
+_id: 4v37clO57qEGWwyx
+name: Rewrite the Truth
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You gain the ultimate clearance to decide what is known and unknown. You can cast <em>Hold Monster</em> or <em>Modify Memory</em> without a spell slot. Once you cast a spell in this way,
+      you can’t cast either spell with this feature again until you finish a Long Rest.</p><p>Additionally, a creature has Disadvantage on saving throws you force it to make if it has no allies within 10
+      feet of it. Benthos <em>(BEN-thoess)</em> are a people forever changed by the eldritch power of the Abyssal Void. Eons ago, their homeworld was ripped into a black hole and lost to the Wyrmways, the
+      border dimension between the galaxy and the Void. They irrevocably transformed to survive the alien environment, taking on traits of the Void creatures known as the Deep. In time, they learned to
+      harness dark matter, shaping it to their will and utilizing it in their magic and technology.</p><p>Benthos are diminutive people with features reminiscent of deep sea fish and skin in shades of the
+      Void. They typically lack color outside their glowing circular eyes and lamp-like lures at the end of the flexible stalk that grows from their head. Their mouths are especially wide and can unhinge
+      indefinitely.</p><ul><li><p><strong>Benthos Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Small (about 3–4 feet tall) <strong>Speed:</strong> 30 feet As a Benthos, you have these
+      special traits.</p></li></ul><p><strong>Born of the Deep.</strong> You have Resistance to Necrotic and Psychic damage.</p><p><strong>Dark Matter Crafting.</strong> While not in Bright Light, you can
+      take a Magic action to shape shadows into one Small or smaller nonmagical item of your choice worth no more than $1,000. The item must appear in your hand, or in your space on a surface that can support
+      it. The item disappears after a number of hours equal to your Proficiency Bonus or when it is reduced to 0 Hit Points. A creature that examines the object can discern its true nature with a successful
+      Intelligence (Investigation) check. The DC is 8 plus your Proficiency Bonus and the ability modifier you chose for Lure of the Deep.</p><p>Once you create an item with this trait, you can’t do so
+      again until you finish a Long Rest.</p><p><strong>Darkvision.</strong> You have Darkvision with a range of 120 feet.</p><p><strong>Lure of the Deep.</strong> You know the <em>Dimness</em>* cantrip.</p><p>Additionally,
+      starting at character level 3, you always have the <em>Dissonant Whispers</em> spell prepared, and starting at character level 5, you always have the <em>Web</em> spell prepared (the webs are spun
+      shadow). You can cast each spell once without a spell slot, and you regain the ability to cast the spells in that way when you finish a Long Rest. You can also cast the spells using any spell slots
+      you have of the appropriate level.</p><p>You can make a target that fails its saving throw against your <em>Dissonant Whispers</em> move toward you instead of away.</p><p>Intelligence, Wisdom, or
+      Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the species).</p><p><strong>One with Shadows.</strong> You can take the Hide action
+      while only Lightly Obscured, even if you are within an enemy’s line of sight.</p><p><strong>Swarming Shoal.</strong> When you deal damage while two or more of your allies are within 10 feet of you,
+      you can deal an extra 1d4 Force damage to one target. You can deal this extra damage only once per turn.</p><p>The damage die changes when you reach character levels 5 (1d6), 11 (1d8), and 17 (1d10).
+      Bitlings <em>(BIT-ling)</em> are a widely varied species that hail from the video game realm of Arcadia. The imaginative creativity and bombastic energy of the arcade plane infuse them with whimsical
+      powers that change based on their inherent archetype—strong, swift, or soaring.</p><p>Bitlings often travel through Arcadia and the galaxy beyond seeking shiny collectibles that power their magic.
+      Many set out on grand quests seeking fun adventures, sidekicks to befriend, and loot to add to their collection.</p><p>Unified by bright colors and exaggerated proportions, a bitlings’s appearance
+      is only limited by one’s imagination. Their most common form is a bipedal animal of any variety, but there are those who resemble toy-like humanoids, walking inanimate objects, or even bizarre oblong
+      shapes.</p><ul><li><p><strong>Bitling Traits Creature Type:</strong> Fey <strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong>
+      30 feet As a Bitling, you have these special traits.</p></li></ul><p><strong>Collectible Drop.</strong> When you finish a Long Rest, you gain a token that looks like a digital collectible (coin, ring,
+      gem, etc.). When you fail a D20 Test, you can expend one token to add 1d4 to the total, potentially causing it to succeed instead.</p><p>When an enemy within 30 feet of you is reduced to 0 Hit Points,
+      a token appears in its space and remains for 1 minute or until you collect it. You can have a maximum number of tokens equal to your Proficiency Bonus at one time.</p><p><strong>Arcade Archetype.</strong>
+      Your Arcadian nature grants you certain benefits. Choose Soaring, Strong, or Swift: <strong>Soaring.</strong> You have a Fly Speed equal to your Speed while you&#x27;re not wearing Medium or Heavy
+      armor. As a Magic action, you can expend a token and touch an ally to give it a Fly Speed equal to your Fly Speed for 1 minute. <strong>Strong.</strong> You have a Climb Speed equal to your Speed,
+      and you have Advantage on Strength checks and Strength saving throws. Additionally, once per turn when you hit a target with an attack roll, you can expend a token to push the target up to 20 feet
+      straight away. If the target is an object, it takes double damage from your attack. <strong>Swift.</strong> Your Speed increases by 5 feet. As a Bonus Action, you can expend a token to take the Dash
+      action. When you do, until the start of your next turn, your Speed is doubled and your movement doesn’t provoke Opportunity Attacks.</p><p><strong>Checkpoint.</strong> As a Magic action, you can expend
+      a token to create a shimmering checkpoint on a surface you touch. The checkpoint lasts for 24 hours or until you use this action again. While you&#x27;re on the same plane of existence, as a Magic
+      action, you can teleport to the point, appearing in its space or the closest unoccupied space. When you do, you can expend a token to bring a willing creature you touch with you.</p><p><strong>Respawn.</strong>
+      When you drop to 0 Hit Points and don’t die outright, you can expend a token you’re carrying to drop to 1 Hit Point instead. Once you use this trait, you can’t use it again until you finish a Long
+      Rest. Cygnians <em>(SIG-nee-in)</em> are the star-touched of Agathos, once mortal beings remade by the will of the gods. Some were heroes who lived by the tenets of their favored deity so completely
+      that they were chosen to ascend and begin their journey anew as a Celestial. Others were selected at birth due to prophecies of greatness in the stars, discovered places or relics of divine import,
+      or caught the eye of a god on a whim.</p><p>While some live their new immortal lives in the heavenly realm of Agathos, many return to the galaxy to serve the god that reforged them</p><p>The physical
+      form of cygnians is comprised of starstuff, with resilient skin and flowy hair that evoke the night sky and statues of sacred stone and metal. They typically share a humanoid visage adorned by star
+      shapes with distinct features that reflect their god, but some retain traits of their original species.</p><ul><li><p><strong>Cygnian Traits Creature Type:</strong> Celestial <strong>Size:</strong>
+      Medium (about 5–7 feet tall) <strong>Speed:</strong> 30 feet As a Cygnian, you have these special traits.</p></li></ul><p><strong>Ageless.</strong> You don&#x27;t suffer from or die of old age.</p><p><strong>Darkvision.</strong>
+      You have Darkvision with a range of 60 feet.</p><p><strong>Epic Resolve.</strong> You have Advantage on saving throws to avoid or end the Frightened condition.</p><p><strong>Glory of Agathos.</strong>
+      You are marked by one of the triads of Agathos: Beacon, Chronicle, Fountain, or Tower (choose the triad when you select this species). You can take a Bonus Action to gain a benefit determined by your
+      triad.</p><p>Once you use this Bonus Action, you can’t use it again until you finish a Long Rest unless you expend Heroic Inspiration to use it again. <strong>Beacon.</strong> For 1 minute, when you
+      miss with an attack roll, you can take a Reaction to reroll the d20 and use the new roll. <strong>Chronicle.</strong> Choose an ability score. For 1 minute, you can add a bonus equal to your Proficiency
+      Bonus to saving throws using the chosen score. <strong>Fountain.</strong> Touch a creature and roll a number of d6s equal to your Proficiency Bonus. The target gains Temporary Hit Points equal to
+      the total rolled, which vanish after 1 minute. <strong>Tower.</strong> For 1 minute, when you take damage, you can take a Reaction to reduce the damage taken by 1d12 plus your Proficiency Bonus.</p><p><strong>Made
+      of Stars.</strong> You have Resistance to Radiant damage. When you take Radiant damage, you can take a Reaction to redirect some of the energy. The next time you deal damage before the end of your
+      next turn, one target takes an extra 1d6 Radiant damage.</p><p><strong>Starfall.</strong> When you fall at least 10 feet, you can take a Reaction to either slow or speed your fall until the start
+      of your next turn. If you slow your fall, you fall only 60 feet and take no falling damage if you land during that time.</p><p>If you speed your fall, you descend with comet-like force. You have Resistance
+      to the fall&#x27;s damage, and one creature within 5 feet of you during the fall takes 2d6 Radiant damage. Dathu <em>(DAH-thoo) </em>are a ferocious people who have been transformed by the discordant
+      tone of Instinct through their wrath and desire to tear down the perceived source of their pain. Despite this corruption, they remain free and can choose to restrain their aggressive urges or focus
+      their rage on something rather than their impulse to commit mindless acts of destruction.</p><p>Many dathu follow pursuits that allow them to give in to their destructive nature, favoring groups and
+      organizations they can link to their personal hivemind. Others surrender to their corruption and join the endless skittering swarms of cacophony.</p><p>Dathu possess insectile traits found in the
+      forces of Instinct, with scaly skin and chitinous carapaces, often streaked with amber-colored resin. Their jaws are split into mandibles lined with jagged teeth that drip with corrosive acid.</p><ul><li><p><strong>Dathu
+      Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 5–7 feet tall) <strong>Speed:</strong> 30 feet As a Dathu, you have these special traits.</p></li></ul><p><strong>Ageless.</strong>
+      You don&#x27;t suffer from or die of old age.</p><p><strong>Acid Spray.</strong> You know the <em>Acid Splash</em> cantrip. Constitution is your spellcasting ability for it.</p><p>You can modify the
+      spell to cast it as a Bonus Action. When you cast the spell in this way, you can change the area to a 30-foot Line that is 5 feet wide that sprays from you. You can modify this spell a number of times
+      equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Corrosive Blood.</strong> You have Resistance to Acid damage.</p><p><strong>Hive Mind.</strong>
+      You have telepathy with a range in feet equal to 10 times your character level.</p><p><strong>Wrathful Devour.</strong> As an action, you can consume 1 pound of organic matter and expend and roll
+      a Hit Point Die. You regain a number of Hit Points equal to the number rolled plus your Constitution modifier (minimum of 1 Hit Point).</p><p><strong>Path of Instinct.</strong> When you reach character
+      level 3, you must choose the path your discordant nature takes. <strong>Swarm Survival.</strong> When you finish a Long Rest, you can choose a number of creatures you can see equal to your Proficiency
+      Bonus and form a telepathic hive mind with them that lasts until you next finish a Long Rest. You and the chosen creatures can communicate telepathically with each other out to the range of your Hive
+      Mind. Additionally, when you regain Hit Points from your Wrathful Devour trait, you can grant those Hit Points to one of the chosen creatures instead if they are within range of your Hive Mind. <strong>Unending
+      Hunger.</strong> Your creature type becomes Fiend. When you deal Acid damage to a creature, before the end of your next turn, you can use your Wrathful Devour trait as a Bonus Action (no additional
+      organic matter required). Flambego <em>(flahm-BAY-goh) </em>are a colorful avian species that hail from idyllic tropical islands where life is leisurely. Bearing a mystical bond with the revelry god
+      Xavrius the Celebrant, they are an easygoing people who prioritize relaxation and fun as major virtues.</p><p>Empowered by the magic of the party, most flambego seek to spread the carefree joy within
+      them to people across the galaxy. They are often drawn to vacation destinations, but they won’t shy away from danger, especially when it threatens their chill vibes.</p><p>Flambego possess the traits
+      of all manner of tropical birds, sporting vibrant, colorful plumage and wings that line each of their arms. Their proportions can vary, and while many have long legs, necks, and beaks, others are
+      compact and round.</p><ul><li><p><strong>Flambego Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 4–6 feet tall) <strong>Speed:</strong> 30 feet As a Flambego, you have
+      these special traits.</p></li></ul><p><strong>Celebrant’s Revelry.</strong> You know the <em>Befriend</em>* cantrip.</p><p>Additionally, starting at character level 3 you always have the <em>Heroism</em>
+      spell prepared, and when you reach character level 5, you always have the <em>Lesser Restoration</em> spell prepared. You can cast each spell once without a spell slot, and you regain the ability
+      to cast them in that way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting
+      ability for the spells you cast with this trait (choose when you select this species).</p><p><strong>Chill Under Pressure. </strong>You have Advantage on saving throws you make to avoid or end the
+      Charmed or Frightened condition.</p><p><strong>Tropical Skies.</strong> You have a Fly Speed equal to your Speed. If you’re wearing Medium or Heavy armor, or holding anything in your hands, you can’t
+      use this Fly Speed.</p><p><strong>Festive Flourish.</strong> Your jubilant nature manifests in flamboyant ways. When you finish a Long Rest, choose one of the following manifestations, which lasts
+      until you finish your next Long Rest: <strong>Good Vibes.</strong> Choose an ability score. You and your allies within 10 feet of you gain a bonus to saving throws that use that ability. The bonus
+      is equal to the ability modifier you chose for Celebrant’s Revelry. <strong>Relaxing Revel.</strong> You can lead up to eight creatures in lively song, dance, or other revelry for 1 minute. At the
+      end of the revel, each creature gains the benefit of a Short Rest, regains one expended Hit Point Die, and its Exhaustion level, if any, decreases by 1. A creature can’t benefit from this manifestation
+      again until it finishes a Long Rest. <strong>Carefree Flight.</strong> Your Fly Speed becomes magical, and it no longer requires you to use your Arm Wings with free hands, and you can hover. Greebles
+      (<em>GREE-bull</em>) are a worm-like species driven by an innate desire to voyage across the galaxy. Said to be blessed by Pelogos the Navigator, they possess a supernatural ability to always sense
+      the stars and navigate by their light.</p><p>Many greebles are drawn to space travel of all varieties, whether as transport pilots, explorers, or anything in between. This extrasensory power and internal
+      cosmic compass is so strong that none can doubt the navigation skills of the greeble.</p><p>Despite their segmented worm biology, Greebles have a humanoid shape with nearly universally thin legs.
+      They have pointed noses, disproportionately large eyes, and soft skin in shades of pink to more earthy tones.</p><ul><li><p><strong>Greeble Traits Creature Type:</strong> Humanoid <strong>Size:</strong>
+      Medium (4–6 feet tall) or Small (3–4 feet tall) <strong>Speed:</strong> 30 feet As a Greeble, you have these special traits.</p></li></ul><p><strong>Cosmic Compass.</strong> You have proficiency with
+      Navigation Tools and in the Survival skill.</p><p><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</p><p><strong>Navigator’s Heading.</strong> You always have the <em>Augury</em>
+      spell prepared, and you can cast it once without a spell slot. You regain the ability to cast it that way when you finish a Long Rest. You can also cast it using any spell slots you have of the appropriate
+      level. Whenever you cast the spell, if you can see the stars, you require no Material components. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose the ability when you
+      select this species).</p><p><strong>Segmented Biology.</strong> You have redundant internal organs. When an attack roll against you is a Critical Hit, you can take a Reaction to make it a normal hit
+      instead. Once you use this trait, you can’t use it again until you finish a Long Rest.</p><p><strong>Squirm.</strong> You have a Burrow Speed equal to your Speed. Additionally, you have Advantage
+      on ability checks and saving throws to avoid or end the Grappled or Restrained conditions. When you fail such a roll, you can take a Reaction to expend and roll a Hit Point Die and add it to the total,
+      possibly turning the failure into a success.</p><p><strong>Stellar Navigator.</strong> You can see or sense the stars from anywhere in the galaxy, though they are faint during daylight or while an
+      opaque object is between you and the sky. When you succeed on an ability check using Navigator’s Tools or the Survival skill while lost, or to avoid becoming lost, you gain Heroic Inspiration. You
+      can’t gain Heroic Inspiration with this trait again until you finish a Short or Long Rest. Isotrons <em>(EYE-soh-tron)</em> are wholly digital beings brought to life by a synthetic soul called a hyperspark.
+      Originating from the digital realm of the Hypergrid, they are comprised of code that can be compiled into physical forms of hard light. This grants them an innate ability to interface with computers
+      and manipulate software with a touch.</p><p>Many isotrons live their entire lives within the Hypergrid, but others venture into physical reality to discover new experiences across the Stardust Rhapsody.
+      In such a technological galaxy, isotrons have no trouble finding ways to put their inherent skills to use.</p><p>Isotron bodies vary in shape, size, and color, and they are often bedecked with bold
+      or saturated hues that glow from the code within them. Their heads are typically humanoid with built-in visors, but some are entirely flat with a digital face projected upon it.</p><ul><li><p><strong>Isotron
+      Traits Creature Type:</strong> Construct <strong>Size:</strong> Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As
+      an Isotron, you have these special traits.</p></li></ul><p><strong>Data Jump.</strong> You always have the <em>Misty Step</em> spell prepared. You can cast it without a spell slot a number of times
+      equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also cast it using any spell slots you have of the appropriate level.</p><p>When you cast the
+      spell using this trait while you are within 5 feet of a power or data connection, if your destination space is also within 5 feet of that connection, you don’t expend a use of this trait.</p><p>Intelligence,
+      Wisdom, or Charisma is your spellcasting ability for it (choose the ability when you select this species).</p><p><strong>Hard Light Body.</strong> You don’t gain Exhaustion levels from dehydration,
+      malnutrition, or suffocation.</p><p><strong>Hypergrid Soul.</strong> You have Advantage on saving throws against spells and magical effects.</p><p><strong>Native Interfacing.</strong> You have proficiency
+      in the Computers skill, and you can interface with a data port as if you were using a Spiking Deck by touching the port.</p><p><strong>Surge Protection.</strong> You have Resistance to Lightning damage.
+      Jenovans <em>(jeh-NOH-vin)</em> are the descendants of an artificial psionic species created through genetic experimentation to achieve a perfected lifeform. For eons, these bio-engineered creations
+      intermingled with their creators until nothing but the jenovans remained, beings of enhanced physicality and fearsome telekinetic power.</p><p>Whatever homeworld they once had was lost to legend,
+      so jenovans became a nomadic people who wander across the galaxy and settle numerous planets in tight-knit communities. They often strive to perfect themselves within and without, pushing their abilities
+      to the limit and beyond. Many seek mightier challenges and opponents to test their skills and train against.</p><p>Jenovans have an appearance that betrays their genetically engineered origin, with
+      unnaturally smooth skin in tones of gray, green, and purple. Their bodies are adorned with plates of natural armor as well as crystalline protrusions that focus their telekinesis. All jenovans bear
+      either a prominent tail or a head tendril, though many have both.</p><ul><li><p><strong>Jenovan Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 5–7 feet tall) <strong>Speed:</strong>
+      30 feet As a Jenovan, you have these special traits.</p></li></ul><p><strong>Bioengineered.</strong> You have proficiency in the Acrobatics, Athletics, or Stealth skill.</p><p><strong>Psionic Deflection.</strong>
+      When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to add your Proficiency bonus to your AC, possibly causing it to miss. If you
+      make an attack miss this way, choose a creature you can see within 30 feet of you that isn’t behind Total Cover. The target takes 1d10 Force damage. You can take this Reaction a number of times equal
+      to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Telekinetic.</strong> You know the <em>Kinetic Propulsion</em>* cantrip and the <em>Mage Hand
+      </em>cantrip (the hand is invisible).</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose the ability when you select this species).</p><p><strong>Final Form.</strong>
+      Starting at character level 3, you can transform as a Bonus Action and gain the benefits below. The transformation lasts for 1 minute or until you end it (no action required). Once you transform,
+      you can’t do so again until you finish a Long Rest. <strong>Energy Reversal.</strong> You can use your Psionic Deflection trait on attacks regardless of damage type. <strong>Genetic Perfection.</strong>
+      You gain Expertise in one of your skill proficiencies. <strong>Kinetic Levitation.</strong> While you aren’t wearing Medium or Heavy armor, you have a Fly Speed equal to your Speed and can hover.
+      Marsoom <em>(mar-SOOM) </em>are a bovine species with especially alien biology that grants them psionic prescience and highly tuned danger sense. They have adapted to the strange red planet they call
+      home, making their physical prowess no less formidable.</p><p>Most marsoom believe that strength and safety come through unity, and they are typically welcoming to people of all creeds and origins.
+      While they normally engage in diplomatic pursuits, marsoom are prepared to fight to defend what they value most.</p><p>They appear as sturdy bipedal cattle but have large, dark, oblong eyes with a
+      third on their forehead. A pair of antennae sprouts from between their horns, their tails are split into two bushy ends, and their skin, hair, and tufts of fur come in a wide variety of vivid, unnatural
+      colors.</p><ul><li><p><strong>Marsoom Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 5–8 feet tall) <strong>Speed:</strong> 30 feet As a Marsoom, you have these special
+      traits.</p></li></ul><p><strong>Cratering Jump.</strong> As a Bonus Action, you can unleash your inner strength to jump up to your Speed to an unoccupied space. When you land, you can unleash a shockwave
+      in a 10foot Emanation originating from you. Each creature in that area must make a Constitution saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature
+      takes 1d10 Thunder damage and is pushed or pulled (your choice) up to 10 feet toward or away from you. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all
+      expended uses when you finish a Long Rest.</p><p><strong>Danger Sense.</strong> Your antennae tingle when danger is imminent. You have proficiency in the Perception skill. In addition, you can’t be
+      surprised.</p><p><strong>Herd Instinct.</strong> Once during your turn, when you hit a creature with an attack roll and deal damage, if you or an ally you can see took damage from that creature since
+      the start of your last turn, the target takes an extra 1d6 Force damage.</p><p><strong>Mighty Horns.</strong> You have a pair of horns, which you can use to make Unarmed Strikes. When you hit with
+      an Unarmed Strike using your horns and deal damage with them, you can deal 1d8 Piercing damage plus your Strength modifier instead of the normal damage for an Unarmed Strike.</p><p><strong>Split-Second
+      Warning.</strong> When you are hit by an attack roll, you can take a Reaction to force the attacker to reroll the d20 and use the lower roll. You can use this trait a number of times equal to your
+      Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. Motliens <em>(MOT-lee-in)</em> are an absurd people twisted by the discordant tone of Thrill through their indulgence
+      in sensory overload to drown out their pain. They relish in antics and folly that spark maximum excitement, pleasure, and pain, all of which fuel their cartoonish and reality-warping magic.</p><p>Driven
+      to be thrill seekers at heart, many Motliens crave the most dangerous or bombastic environments they can find. Others turn to sharing their laughter, fighting their darker impulses lest they join
+      the hellish circus of Thrill.</p><p>Motliens resemble fools, jesters, and clowns, with rubbery, colorful skin marked with strange psychedelic or motley patterns. Their heads sprout fleshy tendrils
+      that resemble a cap and bells, and they often have honkable noses, razorsharp teeth, and long, slithery tongues.</p><ul><li><p><strong>Motlien Traits Creature Type:</strong> Humanoid <strong>Size:</strong>
+      Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As a Motlien, you have these special traits.</p></li></ul><p><strong>Ageless.</strong>
+      You don&#x27;t suffer from or die of old age.</p><p><strong>Motley Tricks.</strong> You know the <em>Minor Illusion</em> and <em>Vicious </em> <em>Mockery</em> cantrips.</p><p>Additionally, starting
+      at character level 3, you always have the <em>Hideous Laughter</em> spell prepared, and starting at character level 5, you always have the <em>Suggestion</em> spell prepared. You can cast each of
+      these spells once without a spell slot, and you regain the ability to cast them in that way when you finish a Long Rest. You can also cast them using any spell slots you have of the appropriate level.</p><p>Intelligence,
+      Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).</p><p><strong>Toon Force.</strong> You can take a Reaction
+      when you gain one of the following conditions to end it before it takes effect: Charmed, Frightened, Poisoned, Prone, or Stunned. You can use this trait a number of times equal to your Proficiency
+      Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Twisted Mind.</strong> You have Resistance to Psychic damage.</p><p><strong>Path of Thrill.</strong> When you reach
+      character level 3, you must choose the path your discordant nature takes. <strong>Honkweave.</strong> Your creature type becomes Fiend. As a Bonus Action, you can take on a wickedly cartoonish form
+      for 1 minute. Once during each of your turns during that time, you can expend movement to teleport an equal distance to an unoccupied space you can see. Once you transform using this trait, you can’t
+      do so again until you finish a Short or Long Rest. <strong>Laugh it Off.</strong> You can use your Toon Force trait on an ally you can see within 30 feet of yourself when it gains one of the listed
+      conditions. Additionally, when you end a condition using that trait, a creature you can see within 30 feet of yourself must succeed on a Charisma saving throw (DC 8 plus your Proficiency Bonus and
+      the ability modifier you chose for Motley Tricks) or gain the condition you ended. Navili <em>(nuh-VEE-lee) </em>are an ethereal folk who first stepped out of Arcadia and found a home in the Stardust
+      Rhapsody. Their time among the mortal species changed them, but they never lost touch with the mystic power of their enchanted origin.</p><p>All navili embody a primary ideal—valor, might, or clarity—
+      tracing back to the virtues of the sages that first guided them from Arcadia. Drawn to opportunities for heroism and to embody their chosen ideal, navili regularly seek secrets and relics within ancient
+      ruins or lost temples.</p><p>They are typically willowy and graceful with skin that ranges from muted tones of nature to the brilliant blues, pinks, and greens of Arcadia, often marked with intricate
+      runic patterns. Navili have shimmering eyes, broad noses, and leaf-like ears with several delicate points. A pair of prismatic, polygonal wings drift behind their backs.</p><ul><li><p><strong>Navili
+      Traits Creature Type:</strong> Fey <strong>Size:</strong> Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As a Navili,
+      you have these special traits.</p></li></ul><p><strong>Inventory Management.</strong> You can store and retrieve items from a digital inventory. With a Utilize Action, you can digitize an item you
+      are wearing or carrying and store it in your inventory, or retrieve a digitized item into your hand and return it to normal. Your inventory can hold a number of items equal to your Proficiency Bonus.
+      Digitized items appear in your space when you die.</p><p><strong>Look! Listen!</strong> You have proficiency in the Insight, Investigation, or Perception skill.</p><p><strong>Polygon Wings.</strong>
+      You have a Fly Speed equal to your Speed while you aren&#x27;t wearing Medium or Heavy armor.</p><p><strong>Virtue of the Sages.</strong> You gain some traits based on the ideal you embody. Choose
+      a virtue from the Virtues of the Sages table. You gain the level 1 benefit of that ideal.</p><p>When you reach character levels 3 and 5, you learn a spell as shown on the table. You always have that
+      spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast those spells using any spell slots you have
+      of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose the ability when you select this species).
+      Clarity You know the <em>Message</em> cantrip. Additionally, you have Advantage on Intelligence saving throws and you have proficiency in Perception. <em>Detect Magic</em> <em>Zone </em> <em>of Truth</em>
+      Might You know the <em>Thunder Blast</em>* cantrip. Additionally, you have Advantage on Strength saving throws, and you can use your Fly Speed while wearing Medium or Heavy armor. <em>Divine Favor</em>
+      <em>Magic </em> <em>Weapon</em> Valor You know the <em>Resistance</em> cantrip. In addition, you have Advantage on Charisma saving throws and on saving throws to avoid or end the Frightened condition.
+      While you have the Frightened condition, you can still move closer to the source of your fear. <em>Heroism</em> <em>Aid</em> Oculoks <em>(AHK-yoo-lahk)</em> are a cyclopean species that hails from
+      a vast underground civilization. They are highly adapted to subterranean life with enhanced monocular vision that can see through inorganic matter and a magnetic touch that can manipulate metal to
+      their needs.</p><p>Seeking opportunities to put their metal-bending to use, many oculoks possess a keen interest in building, from structures to vehicles. Their societies typically favor cooperation
+      and rigid structure, and most citizens find purpose in contributing to a collective of any scale.</p><p>Oculoks have sturdy bodies covered in scaly, earth-toned skin and protruding armored nodules.
+      Their heads are broad with lateral ridges and a spiked crown, with the most prominent feature being a large, singular eye. Their tails act as a built-in defense mechanism, ending in either a club
+      or spikes.</p><ul><li><p><strong>Oculok Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 5–7 feet tall) <strong>Speed:</strong> 30 feet As an Oculok, you have these special
+      traits.</p></li></ul><p><strong>Cyclopean Focus.</strong> You have proficiency in the Insight, Investigation, or Perception skill.</p><p><strong>Darkvision.</strong> You have Darkvision with a range
+      of 120 feet.</p><p><strong>Metal Shaper.</strong> You know the <em>Mending</em> cantrip. If you target a metal object, you can change the casting time to a Bonus Action. Intelligence, Wisdom, or Charisma
+      is your spellcasting ability for it (choose the ability when you select this species).</p><p>Additionally, as a Magic action, you can touch a metal object (or part of a larger metal object or structure)
+      no larger than a 5-foot Cube. The target gains Resistance or Vulnerability to all damage (your choice) for 1 minute. Once you use this action, you can’t use it again until you finish a Short or Long
+      Rest.</p><p><strong>Stonebreaking Tail.</strong> You have your choice of a spike or club on your tail that you can use to make Unarmed Strikes. When you hit with your tail and deal damage with it,
+      you deal 1d8 Bludgeoning or Piercing damage, as appropriate, plus your Strength modifier instead of the normal damage for an Unarmed Strike.</p><p><strong>Tunnel Vision.</strong> As a Bonus Action,
+      you can adjust your vision to see through inorganic matter for up to 1 minute while you maintain Concentration on the vision. For the duration, you can see through objects and structures made of stone,
+      metal, plastics, or similar materials to a range of 30 feet beyond the obstruction. The area you view through an object is Lightly Obscured. Living or once-living material of any thickness blocks
+      your sight. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. Pakku <em>(PAH-koo)</em> are a species of
+      sapient plants with the combined elements of cacti and carnivorous flora. To survive their deadly, venomous homeworld, they have developed a variety of adaptations to overcome both predators and prey.</p><p>Favoring
+      the more lawless corners of the galaxy, pakku usually seek their fortune through grit and resolve. Many of them have a strong interest in the crafting and handling of weapons, especially firearms,
+      striving to master the art of the duel with their implement of choice.</p><p>Widely varied in shape and size, pakku appear as bipedal plants with spiny cactus bodies that are usually a shade of green.
+      Their heads are typically topped with hair-like vines or colorful, exotic flowers with extra-wide, toothy mouths that resemble carnivorous plants.</p><ul><li><p><strong>Pakku Traits Creature Type:</strong>
+      Plant <strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As a Pakku, you have these special traits.</p></li></ul><p><strong>Cactus
+      Spines.</strong> Your body is covered in fine, sharp spines you can use to make Unarmed Strikes or use as a Thrown weapon with a normal range of 20 feet and a long range of 60 feet. When you hit with
+      your spines and deal damage with them, you can deal 1d6 Piercing damage plus your Strength modifier instead of the normal damage for an Unarmed Strike. Your spines have the Finesse property.</p><p><strong>Dissolving
+      Enzymes.</strong> When you deal damage with an Unarmed Strike, a weapon with the Thrown property, or your Prickly Skin trait, you can deal an extra 1d6 Acid or Poison damage. You can use this trait
+      a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Fibrous Body.</strong> You have Resistance to Acid and Poison damage.</p><p><strong>Photosynthesis.</strong>
+      When you finish a Short Rest in Bright Light and expend Hit Point Dice to regain Hit Points, you can roll each expended die twice and use the higher roll. After using this trait, you don’t gain Exhaustion
+      levels from malnutrition for 24 hours.</p><p><strong>Prickly Skin.</strong> When a creature grapples you, it takes 1d6 Piercing damage. Poggles <em>(PAW-gull)</em> are born lucky. Said to be the creation
+      of the luck goddess Tykris the Dealer, the favor of fortune touches everything they do. While they use this blessing to seek prosperous and happy lives, they also can share their innate luck with
+      others.</p><p>Drawn to games of chance, they can be found at gambling tables across the galaxy. Some use their death-defying fortune to take extremely dangerous jobs where a little luck is required
+      for survival. Others find themselves in the world of finance, amassing their wealth through risky investments.</p><p>Poggles are a diminutive species covered in fur that is typically white, brown,
+      gray, or pink, though it can grow in other hues. They have long, sometimes-floppy ears, small, bat-like wings on their back, and a wire-like tail that ends in a colorful puff ball.</p><ul><li><p><strong>Poggle
+      Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Small (about 2–4 feet tall) <strong>Speed:</strong> 30 feet As a Poggle, you have these special traits.</p></li></ul><p><strong>Dealer’s
+      Favor. </strong>You have 4 Luck Dice which are d6s, and you regain 1d4 expended Luck Dice when you finish a Long Rest. When you or a creature you can see within 10 feet of you makes a D20 Test, you
+      can take a Reaction to expend and roll 1 Luck Die and apply it as a bonus or penalty (your choice) to the total.</p><p>The maximum number of Luck Dice you have increases at levels 5 (6 dice), 11 (8
+      dice), and 17 (10 dice). Additionally, the number of expended Luck Dice you regain increases when you reach levels 5 (1d6), 11 (1d8), and 17 (1d10).</p><p><strong>Flutter Flight.</strong> Because
+      of your wings, you have a Fly Speed equal to your Speed. You can’t use this Fly Speed if you’re wearing Medium or Heavy armor.</p><p><strong>Go-To Game.</strong> You have proficiency with one Game
+      Set of your choice.</p><p><strong>Lucky Knack.</strong> You have proficiency in one skill of your choice. Skettiks <em>(SKEH-tik)</em> are a flightless avian species suffused with innate necromantic
+      energy, the remnants of a cataclysmic ritual that killed and reanimated the world soul of their homeworld. These warped carrion-eaters use their necrotic magic to craft personal minions or strange
+      relics from bone.</p><p>Many skettiks are reclusive, shying away from places touched by garish sunlight, and often find themselves operating in the galaxy’s criminal underworld. Others find great
+      success in business and as merchants, utilizing their shrewdness and skepticism to score the best deals.</p><p>Skettiks resemble wingless vultures in a humanoid shape with scaly skin and sparse patches
+      of feathers that range from grayscale to drab shades of other colors. They have long claws on their hands and feet that they use for climbing the huge trees of their homeworld, and their jagged beaks
+      are filled with sharp teeth for cracking bone.</p><ul><li><p><strong>Skettik Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 5–6 feet tall) <strong>Speed:</strong> 30
+      feet As a Skettik, you have these special traits.</p></li><li><p><strong>Bonecraft.</strong> With 1 minute of work, you can magically shape bone into useful forms. You can create a piece of outrunning
+      gear that doesn’t require power and is worth $500 or less, or a Simple weapon that lacks the Ammunition or Powered properties, using an amount of bone equal to the weight of the item. The item crumbles
+      to dust after 24 hours.</p></li><li><p><strong>Carrion Eater.</strong> You can eat spoiled food without issue. Additionally, you have Resistance to Poison damage, and you have Advantage on saving
+      throws to avoid or end the Poisoned condition.</p></li><li><p><strong>Canopy Climber.</strong> You have a Climb Speed equal to your Speed.</p></li></ul><p><strong>Channeled Necrosis.</strong> When
+      you deal damage, you can change the damage type to Necrotic.</p><p><strong>Necromantic Curse.</strong> You know the <em>Culling</em>* cantrip.</p><p>Additionally, starting at character level 3, you
+      always have the <em>Inflict Wounds</em> spell prepared, and at character level 5, you always have the <em>Construct Companion</em>* (the Construct is made of bone) spell prepared. You can cast each
+      spell once without a spell slot, and you regain the ability to cast them in that way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level.</p><p>Intelligence,
+      Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose ability when you select this species).</p><p><strong>Rotproof.</strong> You have Resistance to Necrotic
+      damage. Terminox <em>(TER-mi-noks)</em> are a bio-mechanical people reforged by the discordant tone of Progress through the hyper-logical denial of emotion to build structures of control around their
+      pain. Their indomitable bodies are designed to neither cease nor slow in the face of whatever obstacle stands before them.</p><p>Typically driven to achieve perfection in the areas of their obsession,
+      terminox are always seeking the next step of optimization. While some uphold an advancement of the self, finding a solitary path or embedding in a small unit, many assimilate into the collective and
+      join the never-ending march of Progress.</p><p>Terminox are a species built of fiendish metal with cables of synthetic flesh that cling to their frame like muscle. Their heads appear approximately
+      skeletal, sometimes connected to cords that resemble hair. The parts that make up their construction are typically colored in shades of gray or red.</p><ul><li><p><strong>Terminox Traits Creature
+      Type:</strong> Humanoid <strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 3–4 feet tall) <strong>Speed:</strong> 30 feet As a Terminox, you have these special traits.</p></li></ul><p><strong>Ageless.</strong>
+      You don&#x27;t suffer from or die of old age.</p><p><strong>Conductive Frame.</strong> You have Resistance to Lightning damage.</p><p><strong>Darkvision.</strong> You have Darkvision with a range
+      of 60 feet.</p><p><strong>Relentless March.</strong> When you drop to 0 Hit Points but aren’t killed outright, you can choose to ignore the effects of the Unconscious condition until you regain any
+      Hit Points. You must still make Death Saving Throws until you regain any Hit Points or become Stable. If you take an action while you are at 0 Hit Points, you suffer a Death Saving Throw failure unless
+      that action stabilizes you or restores you to 1 Hit Point or more. Once you ignore the Unconscious condition with this trait, you can’t do so again until you finish a Long Rest.</p><p><strong>Strength
+      of Metal.</strong> You have Resistance to Poison damage, and you have Advantage on saving throws to avoid or end the Petrified and Poisoned conditions.</p><p><strong>Path of Progress.</strong> When
+      you reach character level 3, you must choose the path your discordant nature takes. <strong>Adaptive Plating.</strong> Your creature type becomes Fiend. When you take damage, you can take a Reaction
+      to change the damage type of your Conductive Frame trait to the triggering damage type for 1 minute. You can end the change early at any time (no action required). You can use this Reaction a number
+      of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. <strong>Collective Protocol.</strong> While you can see at least one ally within 60 feet of
+      yourself, when you or one such ally fails a D20 Test, you can take a Reaction to grant a bonus to the total equal to your Proficiency Bonus, possibly turning the failure into a success. You can use
+      this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. Vargs <em>(VAHRG) </em>are a vampiric people corrupted by the discordant
+      tone of Entropy through the envious yearning to fill the emptiness within them in the hopes it may quiet their pain. They hunger for the life essence of others, which they drain to briefly satiate
+      themselves. Those who work to control or even master this craving avoid succumbing to its addictive nature. The rest become ravenous killers.</p><p>Whether enticed by the ease of feeding within heavily
+      populated areas or brooding in the remote reaches of far-flung worlds, the desire of a varg to fill the pit within themselves often leads them to achieve impressive levels of wealth or power—though
+      it is never enough.</p><p>Vargs have pallid skin in desaturated hues, and on their backs are leathery flaps that resemble cloaks. They typically have prominent foreheads, ears that evoke bat wings,
+      and prominent fangs. All vargs have one or more patches of fiendish energy on their chest, neck, or abdomen that serve as windows to the emptiness within.</p><ul><li><p><strong>Varg Traits Creature
+      Type:</strong> Humanoid <strong>Size:</strong> Medium (about 4–6 feet tall) or Small (about 2–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As a Varg, you have
+      these special traits.</p></li></ul><p><strong>Ageless.</strong> You don&#x27;t suffer from or die of old age.</p><p><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</p><p><strong>Drain
+      Energy.</strong> You know the <em>Chill Touch</em> cantrip, and Constitution is your spellcasting ability for it.</p><p>You can cast the spell as a Bonus Action a number of times equal to your Proficiency
+      Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Hollow Flesh.</strong> You have Resistance to Cold damage and Necrotic damage.</p><p><strong>The Pit Within.</strong>
+      You don’t gain Exhaustion levels from dehydration or malnutrition, but you must drain vital energy to survive. If you go a number of days equal to your Constitution modifier plus 1 (minimum of 1)
+      without damaging a creature with your <em>Chill Touch</em>, you gain 1 Exhaustion level. Until you damage a creature with <em>Chill </em> <em>Touch</em>, you can’t remove Exhaustion levels, and you
+      continue to gain 1 Exhaustion level every 24 hours that pass. This trait can’t cause your Exhaustion level to rise higher than 5.</p><p>If you reduce a creature to 0 Hit Points using <em>Chill Touch</em>,
+      you remove all Exhaustion levels gained from this trait.</p><p><strong>Path of Entropy.</strong> When you reach character level 3, you must choose the path your discordant nature takes. <strong>Distant
+      Desire.</strong> Your <em>Chill Touch</em> cantrip now has a range of 60 feet. When you damage a creature with it, you gain a number of Temporary Hit Points equal to twice your Proficiency Bonus.
+      <strong>Wings of Night.</strong> Your creature type becomes Fiend, and you grow a pair of bat wings from your shoulders that grant you a Fly Speed equal to your Speed. When you cast <em>Chill </em>
+      <em>Touch</em>, you can wrap your wings around the target to gain Advantage on the spell&#x27;s attack roll. Volcar <em>(VOAL-car) </em>are a species of earth and fire, with fully elemental bodies
+      of lava that they can melt and solidify at will. Able to sustain themselves entirely on minerals, they are a hearty people who thrive on their volcanic homeworld.</p><p>Many volcar are fascinated
+      by and study cycles, especially the relationship between destruction and renewal. They are often nomadic, following seasons, currents, patterns, and other natural phases. Some prefer more social or
+      political cycles, getting involved in governments or militaries.</p><p>Their rocky hide runs a variety of earthen shades from dark obsidian to pale limestone, with a humanoid visage that appears like
+      a chiseled statue or a natural rock formation. Glowing lava forms lines and patterns in their exterior and can ignite at a moment’s notice, turning their whole form redhot and malleable.</p><ul><li><p><strong>Volcar
+      Traits Creature Type:</strong> Elemental <strong>Size:</strong> Medium (about 6–8 feet tall) <strong>Speed:</strong> 30 feet As a Volcar, you have these special traits.</p></li></ul><p><strong>Furnace
+      Metabolism.</strong> You don’t gain Exhaustion levels from dehydration, and you can eat minerals and glass as if they were a similar amount of food.</p><p><strong>Hot Lava.</strong> You know the <em>Produce
+      Flame</em> cantrip. Constitution is your spellcasting ability for it.</p><p><strong>Igneous Hide.</strong> You have Resistance to Fire damage and Poison damage. You also have Advantage on saving throws
+      you make to avoid or end the Petrified condition or the Poisoned condition.</p><p><strong>Molten Form.</strong> As a Bonus Action, you can melt your rocky body into lava for 1 minute, until you have
+      the Incapacitated condition, or until you end it early (no action required). For the duration, you have Immunity to Fire damage, you can move through spaces as narrow as 1 foot without spending extra
+      movement to do so, and you can move through a creature’s space as if it were Difficult Terrain. When you move through a creature’s space, you can deal 1d4 Fire damage to it. A creature takes this
+      damage only once per turn. The damage increases by 1d4 when you reach character levels 5 (2d4), 11 (3d4), and 17 (4d4). Your equipment shapes with your molten form and is unharmed by this transformation.</p><p>Once
+      you use this Bonus Action, you can’t do so again until you finish a Short or Long Rest.</p><p><strong>Solidified Obsidian.</strong> When you are hit by an attack roll, you can take a Reaction to add
+      your Proficiency Bonus to your AC against that attack, possibly causing it to miss. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when
+      you finish a Long Rest. Yoggoths <em>(YAW-goth)</em> are a strange species rumored to have been birthed from the eldritch dreams of the mysterious elder beings of the galaxy. Hailing from a remote
+      homeworld scattered with the ruins of their creators, they experience otherworldly dreams said to be an echo of what brought their people into being.</p><p>As the ultimate survivors, yoggoths are
+      extremely resourceful and prone to recycling everything they possibly can. Many are drawn to salvaging operations, but some are driven to uncover the mysteries of their dreams and eldritch origins,
+      not stopping until they discover the answers they seek.</p><p>Yoggoths appear like alien flies in a bipedal humanoid shape with both leathery and chitinous hides that are typically earthy in color.
+      They have large glassy eyes, four nostrils on their elongated snouts, and fleshy tendrils that can grow from their head or chin. Two pairs of leathery wings grow from their shoulders, from which they
+      emit their infamous drone.</p><ul><li><p><strong>Yoggoth Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 4–6 feet tall) or Small (about 3–4 feet tall), chosen when you
+      select this species <strong>Speed:</strong> 30 feet As a Yoggoth, you have these special traits.</p></li></ul><p><strong>Buzzing Wings.</strong> You have a Fly Speed equal to your Speed. You can’t
+      use this Fly Speed if you’re wearing Medium or Heavy armor.</p><p><strong>Hypnagogic Droning.</strong> As a Bonus Action, you can create a vibration that resonates with your most alien dreams in a
+      20-foot Emanation originating from you. The droning lasts for 1 minute or until you lose your Concentration. When you create the Emanation, and at the start of each of your turns for the duration,
+      each creature of your choice in that area must succeed on a Wisdom saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or subtract 1d4 from ability checks and attack rolls until
+      the start of your next turn. Once you use this Bonus Action, you can’t use it again until you finish a Long Rest.</p><p><strong>Lingering Dreams.</strong> When you sleep, your dreams connect to the
+      lingering echoes of the Eldest that created the yoggoth species, gifting you with knowledge you can’t explain. When you finish a Long Rest, you gain proficiency in one skill and with one tool of your
+      choice until you make a different selection with this trait.</p><p><strong>Sole Survivor.</strong> You have Advantage on saving throws made to avoid or end the Charmed, Exhaustion, or Poisoned conditions.
+      Zephursa <em>(zeh-FUR-suh)</em> are a small, ursine species that hail from floating cities atop a sea of clouds. They bear a special connection to the skies, allowing them to call the wind and even
+      puff up in a cloudy form. They value the power of friendship, which they can genuinely manifest and harness to overcome challenges.</p><p>With a spark of ingenuity and a clever knack for invention,
+      many Zephursa are drawn to tinkering with gizmos and developing new ways of approaching daily tasks. Many zephursa are most comfortable soaring through the skies of worlds across the galaxy, but there
+      are those who stay more grounded and find their joy in the community that surrounds them.</p><p>Zephursa are little humanoid bears with colorful fur, often with pastel hues although more natural colors
+      do appear. They have swirling cloud patterns somewhere on their coat that sometimes grow into bushier tufts of fluff. The clouds that encircle them when they puff up usually take on the prismatic
+      color of their fur.</p><ul><li><p><strong>Zephursa Traits Creature Type:</strong> Humanoid <strong>Size:</strong> Small (about 3–4 feet tall) <strong>Speed:</strong> 30 feet As a Zephursa, you have
+      these special traits.</p></li></ul><p><strong>Children of the Skies.</strong> You know the <em>Befriend</em>* cantrip.</p><p>Additionally, starting at character level 3, you always have the <em>Fog
+      Cloud</em> spell prepared, and starting at character level 5, you always have the <em>Gust of Wind</em> spell prepared. You can cast each one once without a spell slot, and you regain the ability
+      to cast them in that way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting
+      ability for the spells you cast with this trait (choose the ability when you select this species).</p><p><strong>Cloud Puff.</strong> As a Bonus Action, you can puff up with swirling cloud stuff and
+      gain a Fly Speed equal to half your Speed for 1 minute.</p><p>When you are hit by an attack roll during this time, you can take a Reaction to subtract 1d4 from the total, possibly causing it to miss.</p><p>Once
+      you puff up with this trait, you can’t use it again until you finish a Short or Long Rest.</p><p><strong>Gentle Descent.</strong> While you don’t have the Incapacitated condition, when you fall, your
+      rate of descent is 60 feet per round, and you take no damage from falling.</p><p><strong>Soothing Stare.</strong> As a Magic action, you target a creature you can see within 30 feet of you and end
+      one of the following conditions affecting it: Charmed, Frightened, or Stunned.</p><p>You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when
+      you finish a Long Rest. Zeticulans <em>(zeh-TIK-yoo-lin) </em>are one of the oldest and most enigmatic species of the Stardust Rhapsody, with some theorizing that they impossibly arrived from outside
+      the galaxy. Their minds are so expansive that they have unlocked a psionic power that emanates past their own bodies and allows them to pierce into the minds of others using telepathy.</p><p>Many
+      zeticulans crave k nowledge above all else, desiring to study, understand, and catalog every aspect of existence down to its last atom. They are drawn to any opportunity to conduct experiments of
+      all varieties or the chance to expand their mental databases. While many remain elusive and mysterious, there are some who venture to mingle with other peoples of the galaxy to learn through new and
+      unpredictable life experiences. njjjjh ]</p><p>Varying in size and shape, zeticulans are alien humanoids with smooth skin that is typically gray or green. They have thin, elongated necks, oversized,
+      bulbous craniums, and large, dark eyes with slit-like pupils. Among the hairless majority, a few can grow shocks of vibrant, nearly neon hair atop their heads.</p><ul><li><p><strong>Zeticulan Traits
+      Creature Type:</strong> Humanoid <strong>Size:</strong> Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species <strong>Speed:</strong> 30 feet As a Zeticulan,
+      you have these special traits.</p></li></ul><p><strong>Alien Mind.</strong> You have Resistance to Psychic damage.</p><p><strong>Big Brained.</strong> You have proficiency in the Insight, Investigation,
+      or Persuasion skill.</p><p><strong>Mental Speech.</strong> You have telepathy with a range of 10 feet times your character level.</p><p><strong>Repulsion Field.</strong> As a Bonus Action, you can
+      project a psychic field in a 15-foot Emanation originating from you that deters your enemies. Until the start of your next turn, you and your allies within the Emanation don’t provoke Opportunity
+      Attacks when leaving an enemy’s reach. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><strong>Telepathic.</strong>
+      You know the <em>Psychic Needle</em>* cantrip.</p><p>Additionally, starting at character level 3, you always have the <em>Command</em> spell prepared, and starting at character level 5, you always
+      have the <em>Detect Thoughts</em> spell prepared. You can cast each of these spells once without a spell slot, and you regain the ability to cast them in that way when you finish a Long Rest. You
+      can also cast them using any spell slots you have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast using this trait (choose the
+      ability when you select this species).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: X-Agent Tracer
+  activities:
+    veBHeFVdFuYVH6BM:
+      _id: veBHeFVdFuYVH6BM
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: J5hKI18ikMk0SjAg
+        onSave: false
+      - _id: ydcX5y4WJ4171u1W
+        onSave: false
+      - _id: sKkVKvfZP1lizrSm
+        onSave: false
+      - _id: 09vhcmiFAFd7RFgJ
+        onSave: false
+      - _id: ro6t3kqHkmiEL4bb
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 1
+          denomination: 4
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: rewrite-the-truth
+  advancement:
+    wLmiwsACksDSOfPa:
+      _id: wLmiwsACksDSOfPa
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.pYSAP7GEPAoMCu7d
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAcidSplash
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.ZOSwz4XxQcoxLvyv
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHeroism000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLesserRest
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAugury0000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMistyStep0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.xiBfq4gdVxNRi4jR
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMageHand00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMessage000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.X7E3zb2e9z4vepkJ
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplResistance
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMending000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.XGkbUA9wS2o4lCLY
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplProduceFla
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFogCloud00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.IMqVx9OOI2DS9i0I
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 15
+      title: Rewrite the Truth
+      hint: ''
+effects:
+- _id: J5hKI18ikMk0SjAg
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4v37clO57qEGWwyx.J5hKI18ikMk0SjAg'
+- _id: ydcX5y4WJ4171u1W
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4v37clO57qEGWwyx.ydcX5y4WJ4171u1W'
+- _id: sKkVKvfZP1lizrSm
+  name: Petrified
+  img: systems/dnd5e/icons/svg/statuses/petrified.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - petrified
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4v37clO57qEGWwyx.sKkVKvfZP1lizrSm'
+- _id: 09vhcmiFAFd7RFgJ
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4v37clO57qEGWwyx.09vhcmiFAFd7RFgJ'
+- _id: ro6t3kqHkmiEL4bb
+  name: Unconscious
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - unconscious
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4v37clO57qEGWwyx.ro6t3kqHkmiEL4bb'
+folder: zHKdbS3wrngiYRsW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4v37clO57qEGWwyx'

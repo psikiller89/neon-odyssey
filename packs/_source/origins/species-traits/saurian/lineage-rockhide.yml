@@ -1,0 +1,90 @@
+_id: oasxFUoE4NWHptHm
+name: 'Saurian Lineage: Rockhide'
+type: feat
+img: modules/neon-odyssey/icons/species/saurian.webp
+folder: EYJDACraFtUaKRXo
+sort: 0
+effects:
+- _id: XoLrgsmZYvqsFO54
+  name: 'Saurian Lineage: Rockhide'
+  img: null
+  type: base
+  system:
+    changes: []
+  changes:
+  - key: system.attributes.ac.bonus
+    mode: 2
+    value: '+1'
+    priority: null
+  - key: system.attributes.hp.bonuses.level
+    mode: 2
+    value: '+1'
+    priority: null
+  statuses: []
+  transfer: true
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oasxFUoE4NWHptHm.XoLrgsmZYvqsFO54'
+system:
+  description:
+    value: '<p>Natural Weapon: Slam or Gore. You have a +1 bonus to AC; your Hit Point maximum increases by 1, and by 1 again each time you gain a level.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Saurian
+  activities: {}
+  enchant: {}
+  identifier: saurian-lineage-rockhide
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!oasxFUoE4NWHptHm'

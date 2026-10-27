@@ -1,0 +1,50 @@
+_id: gGdED2yFwgehpsGU
+name: Corrosive Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Acidic, Radioactive, or Toxic Homeworld)</em></p><p>You have absorbed the essence of your home’s corrosive nature or world soul, gaining the following benefits.</p><p><strong>Damage
+      Resistance.</strong> You have Resistance to the damage type that corresponds to your homeworld: Acid (Acidic), Necrotic (Radioactive), or Poison (Toxic).</p><p><strong>Toxin Resilience.</strong> You
+      have Advantage on saving throws to avoid or end the Poisoned condition.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Acidic, Radioactive, or Toxic Homeworld
+  activities: {}
+  enchant: {}
+  identifier: corrosive-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!gGdED2yFwgehpsGU'

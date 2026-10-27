@@ -1,0 +1,104 @@
+_id: LrAm2GweJjTY99Wb
+name: Botnik
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/botnik.webp
+system:
+  description:
+    value: <p><em>Build, Upgrade, and Command Your Own Robot</em> Botniks are masters of robotics, they innovate in artificial intelligence and use it to create loyal mechanical assistants that protect
+      them in their endeavors across the galaxy. These bots are smarter, tougher, and more upgraded for combat protocols than standard models, with unique personalities that often reflect the idiosyncrasies
+      of their creators. Many Botniks view their robot creations as precious companions or even friends, while some see them as disposable minions to do their bidding.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: botnik
+  classIdentifier: machinist
+  advancement:
+    WaRrvvpVyahk1sVY:
+      _id: WaRrvvpVyahk1sVY
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.S1XiZ83WvediXAAx
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.qHS8UPFp9tOy8wv1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.f28tKOWG9cjKq21h
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    xPIVMRcq5sdTyG7y:
+      _id: xPIVMRcq5sdTyG7y
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.dhn5ioaNbfzxqxUc
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Subclass Features
+      hint: ''
+    nopcSpwfqM1MaXu3:
+      _id: nopcSpwfqM1MaXu3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.6Tb7kA2iSE8FCBi9
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    py0uI5wOrTMWxsDW:
+      _id: py0uI5wOrTMWxsDW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.OPkRC0bfeyyyrGQf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: AJj8g0fypwhXwvoN
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!LrAm2GweJjTY99Wb'

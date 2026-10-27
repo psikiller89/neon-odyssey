@@ -1,0 +1,51 @@
+_id: cR96QM9kbDlDdtc6
+name: Doom Anathema
+type: feat
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+system:
+  description:
+    value: <p>Your cosmic power radiantly burns reality invaders. Whenever you use Rebuke Anathema, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8) and add the rolls together.
+      Each anathema creature that fails its saving throw against that use of Rebuke Anathema takes Radiant damage equal to the roll’s total. This damage doesn’t end the rebuke effect.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: channelDivinity
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: doom-anathema
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 900000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!cR96QM9kbDlDdtc6'

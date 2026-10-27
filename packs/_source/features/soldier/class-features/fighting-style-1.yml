@@ -1,0 +1,52 @@
+_id: 7YJALLDxZW2mjCPl
+name: Fighting Style
+type: feat
+img: icons/skills/melee/hand-grip-staff-blue.webp
+system:
+  description:
+    value: <p>You have completed rigorous training and gained a Fighting Style feat of your choice (see the <em>D&amp;D Beyond Basic Rules</em>). Defense is recommended.</p><p>Whenever you gain a Soldier
+      level, you can replace the feat you chose with a different Fighting Style feat.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities: {}
+  enchant: {}
+  identifier: fighting-style
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!7YJALLDxZW2mjCPl'

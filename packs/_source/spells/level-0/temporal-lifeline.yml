@@ -1,0 +1,107 @@
+_id: pOQPNetkP9uakzDL
+name: Temporal Lifeline
+type: spell
+img: icons/svg/book.svg
+system:
+  description:
+    value: <p>You summon a perfect copy of a creature from a fraction of a second before it suffers lethal damage. The triggering damage is reduced to 0, and the copy vanishes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: reaction
+    value: null
+    condition: when a creature you can see within range takes damage that would reduce it to 0 Hit Points
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '60'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 0
+  school: ''
+  properties:
+  - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    gJq0a4pZNl5K9eJD:
+      _id: gJq0a4pZNl5K9eJD
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: temporal-lifeline
+effects: []
+folder: N14uQ9l4I9dridBe
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!pOQPNetkP9uakzDL'

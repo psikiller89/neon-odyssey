@@ -1,0 +1,156 @@
+_id: k1MKCZMiDDDEbsLm
+name: Abyssal Breach
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You open rifts to the Abyssal Void, calling forth what waits on the other side. As a Bonus Action, you can expend one use of your Cosmic Conduit to summon nether energies from the Abyssal
+      Void at a point you can see within 60 feet of yourself. Choose Crushing Deep or Hunger Beyond. The energies create the chosen effect in a 10-foot Sphere originating from the point. Each creature that
+      enters the area for the first time on a turn or starts its turn there is affected by the breach. When you create the breach, you can designate creatures to be unaffected by it.</p><p>As a Bonus Action
+      on your subsequent turns, you can move the breach up to 30 feet, but no farther than 60 feet away from yourself.</p><p>The breach remains for 1 minute. It ends early if you dismiss it (no action required),
+      if you have the Incapacitated condition, or if you die.</p><p><strong>Crushing Deep.</strong> The Sphere is distorted and warped by the abyssal intrusion. An affected creature’s Speed is halved, and
+      it must succeed on a Wisdom saving throw or have Disadvantage on attack rolls and ability checks until the start of its next turn.</p><p><strong>Hunger Beyond.</strong> The Sphere is filled with shadowy
+      manifestations of skittering, slithering, or flying void creatures. An affected creature must succeed on a Dexterity saving throw or take 1d8 Necrotic or Psychic damage (your choice). This damage
+      increases by 1d8 when you reach Oracle levels 5 (2d8) and 13 (3d8).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Voidcaller Oracle
+  activities:
+    oKyrHf9p3g1znf46:
+      _id: oKyrHf9p3g1znf46
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: fi6ulmNYBeLAx2PU
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - necrotic
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: abyssal-breach
+  advancement: {}
+effects:
+- _id: fi6ulmNYBeLAx2PU
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!k1MKCZMiDDDEbsLm.fi6ulmNYBeLAx2PU'
+folder: L8lMOeWgMj3Vj0Fc
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!k1MKCZMiDDDEbsLm'

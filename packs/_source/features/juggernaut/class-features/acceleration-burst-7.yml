@@ -1,0 +1,50 @@
+_id: R4vP5oiPco0A7gpe
+name: Acceleration Burst
+type: feat
+img: icons/creatures/mammals/wolf-shadow-black.webp
+system:
+  description:
+    value: <p>You channel your Surge into a sudden burst of speed. As part of the Bonus Action you take to activate your Surge, you can move up to half your Speed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: acceleration-burst
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!R4vP5oiPco0A7gpe'

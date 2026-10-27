@@ -1,0 +1,126 @@
+_id: fpN0YbZ4DVuNWsMJ
+name: Flamethrower
+type: equipment
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 3.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Flamethrower is a pistol-like device with a pressure nozzle and an igniter beneath it. When you take the Attack action, you can replace one of your attacks with firing the Flamethrower.
+      Each creature in a 15-foot Cone must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d4 Fire damage. Flammable objects in the Cone that aren’t
+      being worn or carried start burning (see the <em>D&amp;D Beyond </em> <em>Basic Rules</em>). After three uses, you must reload the Flamethrower with a Fuel Oil flask as an action or a Bonus Action.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    QioTt03CxVll8ZpK:
+      _id: QioTt03CxVll8ZpK
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: dex
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 2
+          denomination: 4
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: flamethrower
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fpN0YbZ4DVuNWsMJ'

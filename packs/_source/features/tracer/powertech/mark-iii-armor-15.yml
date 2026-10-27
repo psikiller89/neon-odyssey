@@ -1,0 +1,112 @@
+_id: VPTqa2jAHSvyZdfu
+name: Mark III Armor
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have developed the ultimate upgrades to your Power Armor and gain the following benefits.</p><p><strong>Overcharged Pulse.</strong> On a hit, your Charge Burst Bonus Action attack now
+      deals 2d8 Force damage on a hit, and you add Topple to the mastery property options you can activate on a hit.</p><p><strong>Reinforced Plating.</strong> While wearing your Power Armor, it provides
+      the <em>M</em> component when you cast <em>Stoneskin</em>. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p><p>Whenever
+      you start casting the spell while wearing your Power Armor, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting, and you
+      gain Resistance to Radiant damage for the duration.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Powertech Tracer
+  activities:
+    8oigWybdS1Tz4r5w:
+      _id: 8oigWybdS1Tz4r5w
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: mark-iii-armor
+  advancement: {}
+effects: []
+folder: X4HPIohiyzVSXvRW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VPTqa2jAHSvyZdfu'

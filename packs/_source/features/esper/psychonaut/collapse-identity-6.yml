@@ -1,0 +1,104 @@
+_id: RKC1uD4wnwsEJ1u6
+name: Collapse Identity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You chart your own pathways between mindscapes. You gain the following benefits.</p><p><strong>Ego Death.</strong> As a Magic action, you can force a creature you can see within 60 feet of
+      yourself to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Charmed or Frightened condition (your choice). The target repeats the save at the end of each
+      of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.</p><p>You can use this benefit once, and you regain the ability to do so when you finish a Long Rest.</p><p><strong>Persona
+      Shift.</strong> If a creature you are in telepathic contact with has the Charmed or Frightened condition, you can take a Magic action to end one of those conditions and immediately use Ego Death,
+      restoring an expended use of it to do so if necessary.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Psychonaut Esper
+  activities:
+    N0NBBnhCDoKaCubQ:
+      _id: N0NBBnhCDoKaCubQ
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: collapse-identity
+  advancement: {}
+effects: []
+folder: iIYvvG9Ga4e5RgAN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RKC1uD4wnwsEJ1u6'

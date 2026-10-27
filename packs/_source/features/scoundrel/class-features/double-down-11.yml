@@ -1,0 +1,51 @@
+_id: bKigPNIFwLTgKfR7
+name: Double Down
+type: feat
+img: icons/skills/melee/blade-tip-smoke-green.webp
+system:
+  description:
+    value: <p>You master your old tricks. You can use up to two Dirty Trick effects when you deal Cheap Shot damage, paying the die cost for each effect.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 11
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: double-down
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!bKigPNIFwLTgKfR7'

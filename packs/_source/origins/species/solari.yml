@@ -1,0 +1,94 @@
+_id: 0yTigCmy234d7clH
+name: Solari
+type: race
+img: modules/neon-odyssey/icons/species/solari.webp
+system:
+  description:
+    value: <p>Solari (<em>soh-LAH-ree</em>) are the people of the solar phoenix, which has imbued them with the essence of the sun and an inherent connection to the cycle of rebirth. While they were once
+      the same progenitor species as the nilari eons ago, the people who would become solari chose to accept their fate when their homeworld’s sun exploded and turned the planet to ash. However, once they
+      were consumed by the blazing radiance, they were reborn as an entirely new species by the will of Alara the Lightbringer. They typically exhibit the unbound passion of the Lightbringer, pursuing that
+      which they value and love with vivacious zeal. Many solari seek to share their inner light and passion with people across the galaxy, guiding them toward lofty achievement. Solari tend to be gracefully
+      built, with especially long, pointed ears and floating hair that spans a gradient of vibrant hues. Their soft skin can have the tone of any of the galaxy’s countless suns, ranging broadly from typical
+      oranges, yellows, reds, and pinks to rarer blues, violets, and beyond.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    HFQvEibrF6Z8Wx8P:
+      _id: HFQvEibrF6Z8Wx8P
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–6 feet tall)
+      value: {}
+      title: ''
+    rjUhpewAr0CchEYw:
+      _id: rjUhpewAr0CchEYw
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.qZ7KFMtn11dNAznA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.p0HhO77H7wRGy27m
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.qvyXHxLncpkpo7RR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.OS5eOG8yo6uuBg1V
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.5Q42ATemfQU1gTo6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Solari Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: solari
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0yTigCmy234d7clH'

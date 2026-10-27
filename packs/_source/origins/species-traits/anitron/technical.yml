@@ -1,0 +1,48 @@
+_id: BjnBAJbDffgytZK8
+name: Technical
+type: feat
+img: modules/neon-odyssey/icons/species/anitron.webp
+folder: 5ZWpjV4OAPSf3Yyy
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have proficiency in the Computers, Medicine, or Technology skill, and with one tool of your choice. You also know the <em>Mending</em> cantrip, and its casting time is an action for you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Anitron
+  activities: {}
+  enchant: {}
+  identifier: technical
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BjnBAJbDffgytZK8'

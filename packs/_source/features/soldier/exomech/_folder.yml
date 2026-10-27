@@ -1,0 +1,20 @@
+name: Exomech Soldier
+sorting: a
+folder: IRrKoImhMAUG66ov
+type: Item
+_id: X91gcBRCD5t5HCHj
+description: ''
+sort: 52
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!X91gcBRCD5t5HCHj'

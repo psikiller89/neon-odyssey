@@ -1,0 +1,123 @@
+_id: UiEvX3OIe7qUfoOv
+name: Gravitic Flux
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your weapon can destabilize space and gravity with a single shot. As a Magic action while holding your Grav Gun, you can create an intense fluctuation of gravity at a point you can see within
+      150 feet of yourself. Each creature in a 20-foot-radius Sphere centered on that point makes a Strength saving throw, taking 6d8 Force damage on a failed save or half as much damage on a successful
+      one. The area within the Sphere then retains a high or low gravity field (your choice) for 1 minute or until you dismiss it (no action required).</p><p>While in a high gravity field, a creature’s
+      Speed is halved, it has Disadvantage on Dexterity saving throws, and it has Advantage on Strength saving throws.</p><p>While in a low gravity field, a creature’s jump distance is doubled, it has Disadvantage
+      on Strength saving throws, and it has Advantage on Dexterity saving throws.</p><p>Once you use this action, you can’t use it again until you finish a Long Rest unless you expend a level 3+ spell slot
+      (no action required) to restore your use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities:
+    1zSFwP33tNSnnkBM:
+      _id: 1zSFwP33tNSnnkBM
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 6
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: gravitic-flux
+  advancement: {}
+effects: []
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UiEvX3OIe7qUfoOv'

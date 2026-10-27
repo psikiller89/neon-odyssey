@@ -1,0 +1,104 @@
+_id: pZfK86FtzSvZQT9k
+name: Protostalker
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/protostalker.webp
+system:
+  description:
+    value: <p><em>Become a Primeval Predator with a Dinosaur Packmate</em> Protostalkers are among the most primal and untamed Tracers, fostering a mystical connection with protosaurs, especially primeval
+      dinosaurs and prehistoric reptiles found across the Stardust Rhapsody. Together, they stalk the primordial wilds, honing their instinct to hunt and fight as one. Many Protostalkers seek out the biggest
+      and most ferocious game of the galaxy, collecting trophies from prehistoric titans that could never be taken down alone.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: protostalker
+  classIdentifier: tracer
+  advancement:
+    xxcIkFExA53WWP1R:
+      _id: xxcIkFExA53WWP1R
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.inPn21ptXkUelP4k
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.OMnorU8C9VhLWGiR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.7iJ5sCrrEAz7lcvF
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    W2pm62oKmLDDuJcw:
+      _id: W2pm62oKmLDDuJcw
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4ZQwcTf5M1O5fQKl
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    5goafKK0GsSsdlzz:
+      _id: 5goafKK0GsSsdlzz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.TtATr5u1TW6iR9rK
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    HKgfGTEv6FJuG0aB:
+      _id: HKgfGTEv6FJuG0aB
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.844rJfgoPfQzigH7
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: oThN1a3KYkRfeQTe
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!pZfK86FtzSvZQT9k'

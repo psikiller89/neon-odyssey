@@ -1,0 +1,76 @@
+_id: RIcLjliNizqL39oE
+name: Shells
+type: consumable
+img: icons/weapons/ammunition/shot-round-lead.webp
+system:
+  quantity: 10
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 100
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Ammunition is required by a weapon that has the Ammunition property. A weapon’s description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types
+      and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately. Bullets 20 Magazine 1 lb. $100 Power Cell 1 1/2
+      lb. $100 Shells 10 Magazine 1 lb. $100</p><table><tbody><tr><td>Bullets</td><td>20</td><td>Magazine</td><td>1 lb.</td><td>$100</td></tr><tr><td>Power Cell</td><td>1</td><td>—</td><td>1/2 lb.</td><td>$100</td></tr><tr><td>Shells</td><td>10</td><td>Magazine</td><td>1
+      lb.</td><td>$100</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: ammo
+    subtype: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+    autoDestroy: false
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities: {}
+  identifier: shells
+effects: []
+folder: KmqFHJ5eS3WW8Npw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RIcLjliNizqL39oE'

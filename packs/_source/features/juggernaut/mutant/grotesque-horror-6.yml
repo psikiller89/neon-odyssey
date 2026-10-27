@@ -1,0 +1,137 @@
+_id: STiHc3R1JALZssY7
+name: Grotesque Horror
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your growing mutation is unsettling to those around you. While your Surge is active, once on each of your turns when you hit a creature with an attack roll, the creature must succeed on a
+      Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or have the Frightened condition until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Mutant Juggernaut
+  activities:
+    Keqo5SG0MzfHeLse:
+      _id: Keqo5SG0MzfHeLse
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: R22bvUd4q9l9zSvP
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: grotesque-horror
+  advancement: {}
+effects:
+- _id: R22bvUd4q9l9zSvP
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!STiHc3R1JALZssY7.R22bvUd4q9l9zSvP'
+folder: pHst4AIH8mv1gllA
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!STiHc3R1JALZssY7'

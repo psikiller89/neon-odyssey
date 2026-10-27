@@ -1,0 +1,49 @@
+_id: n1sR2IGiKd2l2jmH
+name: Battle
+type: feat
+img: modules/neon-odyssey/icons/species/anitron.webp
+folder: 5ZWpjV4OAPSf3Yyy
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have proficiency in the Athletics or Intimidation skill, and you know the <em>Deflection</em>* cantrip. When you cast the spell, you can modify it so that it doesn’t require Concentration
+      and its duration becomes 1 minute. You can’t modify it in this way again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Anitron
+  activities: {}
+  enchant: {}
+  identifier: battle
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!n1sR2IGiKd2l2jmH'

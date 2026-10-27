@@ -1,0 +1,78 @@
+_id: rkTCqu3ezK8NXFN7
+name: Gravity Solution
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of gravity. You learn the <em>Kinetic </em> <em>Propulsion</em>* cantrip if you don’t already know it. Once you have
+      Occult Magic spell slots capable of casting each of the following spells, you always have that spell prepared: <em>Gravity </em> <em>Shackle</em>*, <em>Levitate</em>, <em>Fly</em>, <em>Vortex</em>*,
+      <em>Graviton Wave</em>*.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: gravity-solution
+  advancement:
+    KymMsydtxFXZrOXi:
+      _id: KymMsydtxFXZrOXi
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLevitate00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFly0000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.fm6GlTfNGM1hsXDY
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Gravity Solution
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rkTCqu3ezK8NXFN7'

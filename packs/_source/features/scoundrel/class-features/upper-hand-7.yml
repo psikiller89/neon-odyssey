@@ -1,0 +1,80 @@
+_id: 4METXdL1navGTVlI
+name: Upper Hand
+type: feat
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+system:
+  description:
+    value: <p>You know how to maintain the edge in any scenario. Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: upper-hand
+effects:
+- _id: TIw25thHBYEPdKR1
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: Compendium.neon-odyssey.features.Item.4METXdL1navGTVlI
+  transfer: true
+  flags: {}
+  tint: '#ffffff'
+  name: Reliable Talent
+  description: ''
+  statuses: []
+  img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+  type: base
+  system:
+    changes:
+    - key: flags.dnd5e.reliableTalent
+      value: true
+      priority: null
+      type: override
+      phase: initial
+      _id: 69Zcm7BOEgvBUtLW
+  sort: 0
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!4METXdL1navGTVlI.TIw25thHBYEPdKR1'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!4METXdL1navGTVlI'

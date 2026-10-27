@@ -1,0 +1,101 @@
+_id: EQdqtsO4aiwQvsNU
+name: Hypercoder
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/hypercoder.webp
+system:
+  description:
+    value: <p><em>Hack Reality with Improvised Hotfixes</em> While most Gridrunners carefully prepare their scripts ahead of execution, Hypercoders are the ultimate improvisers who rewrite code in real
+      time. With a simple input, they can hotfix the Hypergrid to reconfigure their technomancy beyond its intended function. Many Hypercoders are drawn to the world of gridspiking, where they use their
+      unparalleled hacking skills to secure systems against intrusion or exploit vulnerabilities for profit and power.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: hypercoder
+  classIdentifier: gridrunner
+  advancement:
+    08sgpW2dywThq1D7:
+      _id: 08sgpW2dywThq1D7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1AlePSN44jTO3lIi
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.th3P6TWhf0WYothf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    kNhP4ycq2CIaxquZ:
+      _id: kNhP4ycq2CIaxquZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Mw7AeeB4jtgrdL6u
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    yQAuYn8XtLcNGN1p:
+      _id: yQAuYn8XtLcNGN1p
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8h2LFeRsBwTxrRC3
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    uA8t6b0UbB3hSyzT:
+      _id: uA8t6b0UbB3hSyzT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.R7dtYG9YWcGW8Xam
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FRciaMbl0nqmWuaH
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!EQdqtsO4aiwQvsNU'

@@ -1,0 +1,143 @@
+_id: QDEoUGmbfpHDDxIA
+name: Healing Stim
+type: consumable
+img: icons/consumables/potions/potion-tube-corked-red.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 2500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A <em>Healing Stim</em> is a hypertech version of a <em>Potion of Healing</em>. This injector, medicine elixir, or dermal patch is a magic item. As a Bonus Action, you can use it yourself
+      or administer it to another creature within 5 feet of you. The target regains 2d4 + 2 Hit Points.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: potion
+    subtype: ''
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities:
+    cNvH4obx5XJ2myYr:
+      type: heal
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: touch
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      healing:
+        number: 2
+        denomination: '4'
+        bonus: '2'
+        types:
+        - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: whole
+          number: null
+          formula: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      _id: cNvH4obx5XJ2myYr
+      name: ''
+      img: ''
+      appliedEffects: []
+  identifier: healing-stim
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!QDEoUGmbfpHDDxIA'

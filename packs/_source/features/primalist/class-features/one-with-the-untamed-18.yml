@@ -1,0 +1,52 @@
+_id: Ip43EGu7QMR7E0oj
+name: One with the Untamed
+type: feat
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+system:
+  description:
+    value: <p>You have mastered your primal shaping. While using Primal Form, you can cast spells in that form, except for any spell that has a Material component with a cost specified or that consumes
+      its Material component.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: one-with-the-untamed
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 200000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!Ip43EGu7QMR7E0oj'

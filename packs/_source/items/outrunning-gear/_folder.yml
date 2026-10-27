@@ -1,0 +1,20 @@
+name: Outrunning Gear
+sorting: a
+folder: null
+type: Item
+_id: dlbjf0QdqIT50lW2
+description: ''
+sort: 4
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!dlbjf0QdqIT50lW2'

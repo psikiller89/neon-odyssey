@@ -1,0 +1,114 @@
+_id: P1ATJCPLvJj4FW9L
+name: Dream Figment
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can manifest a figment of your imagination to bolster you and your allies with hope. As a Bonus Action, you present your Cosmic Symbol and expend a use of your Cosmic Conduit to choose
+      a creature you can see within 30 feet of yourself. An intangible dream figment appears in the target’s space and moves with it for 1 minute. You choose one of the benefits below, which affects both
+      you and the target, and you decide the figment’s appearance. For the duration, you can take a Bonus Action to either choose a different benefit or move the figment to a different creature you can
+      see within 30 feet of yourself.</p><p><strong>Cozy Bubble.</strong> At the start of an affected creature’s turn, it gains Temporary Hit Points equal to your Wisdom modifier (minimum of 1).</p><p><strong>Glitter
+      Burst.</strong> Once per turn when an affected creature hits with an attack roll, it can deal an extra 1d4 Psychic or Radiant damage (affected creature’s choice).</p><p><strong>Rainbow Boost.</strong>
+      The affected creature’s Speed increases by 10 feet, and Opportunity Attacks have Disadvantage against it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Dreamer Oracle
+  activities:
+    cQlHjQ6ifwWaXAEj:
+      _id: cQlHjQ6ifwWaXAEj
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 4
+          bonus: ''
+          types:
+          - psychic
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: dream-figment
+  advancement: {}
+effects: []
+folder: 7RSAV4C2JMHE3ORI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!P1ATJCPLvJj4FW9L'

@@ -1,0 +1,80 @@
+_id: upSAbGPswXS7DCwb
+name: Destined Path
+type: feat
+img: icons/magic/light/explosion-star-glow-blue-purple.webp
+system:
+  description:
+    value: <p>You have dedicated yourself to one of the following cosmic pursuits of your choice.</p><p><strong>Seer.</strong> You know one extra cantrip from the Oracle spell list. In addition, your mystical
+      connection to the cosmic forces gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p><p><strong>Sentinel.</strong> Trained
+      for battle, you gain proficiency with Martial weapons and training with Heavy armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: destined-path
+  advancement:
+    V8GfnoZYTe1PLXPI:
+      _id: V8GfnoZYTe1PLXPI
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderPr
+          sort: 0
+        - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderTh
+          sort: 0
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+          list: []
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: <p>You have dedicated yourself to one of the following sacred roles of your choice.</p>
+      name: Divine Order Choice
+      flags: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 400000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!upSAbGPswXS7DCwb'

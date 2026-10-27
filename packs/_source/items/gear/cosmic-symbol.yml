@@ -1,0 +1,55 @@
+_id: W6LiL6PRkq1TzchD
+name: Cosmic Symbol
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Cosmic Symbol takes on of the forms in the Cosmic Symbol table and is machined or inscribed to channel cosmic magic. An Enforcer or Oracle can use a Cosmic Symbol as a Spellcasting Focus.</p><p>The
+      table indicates whether a Cosmic Symbol needs to be held, worn, or born on fabric (such as clothing or a banner) or a suit of armor or a Shield. Amulet or Badge (worn or held) 1 lb. $250 Insignia
+      (on fabric, armor, or a Shield) $250 Relic (held) 2 lb. $250</p><table><tbody><tr><td>Amulet or Badge (worn or held)</td><td>1 lb.</td></tr><tr><td>Insignia (on fabric, armor, or a Shield)</td><td>—</td></tr><tr><td>Relic
+      (held)</td><td>2 lb.</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: cosmic-symbol
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!W6LiL6PRkq1TzchD'

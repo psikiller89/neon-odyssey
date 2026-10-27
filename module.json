@@ -1,0 +1,164 @@
+{
+  "id": "neon-odyssey",
+  "title": "Neon Odyssey: Outrunner’s Handbook & Overdrive",
+  "description": "Neon Odyssey (Playtest v0.1.1) classes, subclasses, features, species, backgrounds, origin feats, spells and equipment for dnd5e 6.x with level-up Advancements and Activities.",
+  "version": "0.4.0",
+  "authors": [
+    {
+      "name": "laurent"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "6.0.6"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/neon-odyssey.mjs"
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Neon Odyssey: Classes & Subclasses",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "types": [
+            "class",
+            "subclass"
+          ]
+        }
+      }
+    },
+    {
+      "name": "features",
+      "label": "Neon Odyssey: Class & Subclass Features",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "origins",
+      "label": "Neon Odyssey: Species, Backgrounds & Feats",
+      "path": "packs/origins",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Neon Odyssey: Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Neon Odyssey: Equipment",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spell-lists",
+      "label": "Neon Odyssey: Spell Lists",
+      "path": "packs/spell-lists",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiary",
+      "label": "Neon Odyssey: Bestiary & Summons",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Neon Odyssey: Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Neon Odyssey",
+      "sorting": "m",
+      "color": "#c026d3",
+      "packs": [
+        "classes",
+        "features",
+        "origins",
+        "spells",
+        "items",
+        "spell-lists",
+        "bestiary",
+        "rules"
+      ]
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.J90fvRAjY0XODnCC",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.wAtzQk3GrWS51IH8",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.zpgDVEdqfDgX24Wu",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.QGa2Z9ywUpJXVM25",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.d9CqFiWwojpCrHQO",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.gql1zP9Rh8BiOKJb",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.QNTPQle8MAXm0SKP",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.4cZKWFEbcRaZ3pwB",
+        "Compendium.neon-odyssey.spell-lists.JournalEntry.CchBSJ3H2CbyJVjs.JournalEntryPage.G1EzlHxaOxfM4YmC"
+      ]
+    }
+  },
+  "url": "https://github.com/psikiller89/neon-odyssey",
+  "manifest": "https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json",
+  "download": "https://github.com/psikiller89/neon-odyssey/releases/download/v0.4.0/neon-odyssey.zip",
+  "bugs": "https://github.com/psikiller89/neon-odyssey/issues"
+}

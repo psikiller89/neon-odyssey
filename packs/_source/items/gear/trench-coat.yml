@@ -1,0 +1,61 @@
+_id: UYJycdDN7uZbGwCG
+name: Trench Coat
+type: equipment
+img: icons/equipment/back/cloak-hooded-blue.webp
+system:
+  quantity: 1
+  weight:
+    value: 1.0
+    units: lb
+  price:
+    value: 50
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Trench Coat is a practical or vocational garment. It is waterproof, has many pockets, and can conceal larger carried objects.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  identifier: trench-coat
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UYJycdDN7uZbGwCG'

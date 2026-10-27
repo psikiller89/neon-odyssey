@@ -1,0 +1,98 @@
+_id: k3EMvXGIamJT8JjB
+name: Hungering Host
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your parasite hungers for your psionic power and will aid you in exchange for a feast.</p><p><strong>Consume Pain.</strong> When you take damage, you can spend a number of Psi Points up to
+      your Proficiency Bonus. Reduce the damage you take by 1d6 per Psi Point you spend.</p><p><strong>Void Rend.</strong> As a Bonus Action, you can spend 1 Psi Point to make an Unarmed Strike. If you
+      previously cast a spell this turn, you have Advantage on the attack roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symbiote Esper
+  activities:
+    X60LACOu1sdg3Uyn:
+      _id: X60LACOu1sdg3Uyn
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: hungering-host
+  advancement: {}
+effects: []
+folder: WiG1piX4f1E9zDYD
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!k3EMvXGIamJT8JjB'

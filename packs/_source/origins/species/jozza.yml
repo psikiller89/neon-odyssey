@@ -1,0 +1,97 @@
+_id: GduNWQFBUkhPhWOR
+name: Jozza
+type: race
+img: modules/neon-odyssey/icons/species/jozza.webp
+system:
+  description:
+    value: <p>Jozza <em>(JAW-zuh)</em> are a hulking species of humanoids with shark-like features, hailing from a world covered almost entirely by oceans. They have a particular taste for blood and a biological
+      penchant for violence, known best for their large jaws filled with razor-sharp teeth. Many of them dive into fights with a rowdy glee, and their tough physicality makes them well suited to survive
+      and push through any pain. However, some jozza prefer non-violent battles of wit and word or get their fix through virtual gameplay. Jozza have coarse, gritty skin that can take on a wide range of
+      colors, although many are shades of gray, blue, brown, and olive. A prominent dorsal fin rises from the top of their head or the back of their neck, and smaller fins grow on each of their arms. They
+      sometimes have serrated exterior plates over their lower jaw or protruding bones at the hinges.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    xxglv9T6NPQP0Hoi:
+      _id: xxglv9T6NPQP0Hoi
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 6–8 feet tall)
+      value: {}
+      title: ''
+    oP90dTM2anLzbXLw:
+      _id: oP90dTM2anLzbXLw
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.1hYBxo3gcNBOnuhF
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.RmidAHoOepnataYG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.myuxcmG68pJ7J5LG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.3NlytCnYlMR3dqUT
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.khPCbQGRs7jvweq9
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.dCPLautDbsecJ0he
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Jozza Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      swim: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: jozza
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GduNWQFBUkhPhWOR'

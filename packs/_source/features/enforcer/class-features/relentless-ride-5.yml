@@ -1,0 +1,74 @@
+_id: nQv1jvpqO8ogT8ht
+name: Relentless Ride
+type: feat
+img: icons/environment/creatures/horse-brown.webp
+system:
+  description:
+    value: <p>You always have the means to pursue the enforcement of your code. You always have the <em>Relentless Ride</em>* spell prepared.</p><p>You can also cast the spell once without expending a spell
+      slot, and you regain the ability to do so when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: relentless-ride
+  advancement:
+    jIdizZFknw8W4QWV:
+      name: ''
+      type: ItemGrant
+      _id: jIdizZFknw8W4QWV
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+          optional: false
+          sort: 0
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!nQv1jvpqO8ogT8ht'

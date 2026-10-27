@@ -1,0 +1,424 @@
+_id: Mpfb0gF809Rmzawd
+name: Chatterling
+type: npc
+img: modules/neon-odyssey/icons/creatures/chatterling.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 1
+    con:
+      value: 13
+      proficient: 1
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 8
+      proficient: 0
+    cha:
+      value: 14
+      proficient: 0
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 21
+      max: 21
+      formula: 6d4 + 6
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      burrow: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 120
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: fiend
+      subtype: ''
+      custom: ''
+    alignment: Neutral Evil
+    biography:
+      value: "<p>CHATTERLING</p><p>Annoying Little Helper</p><p>Habitat: Cacophony; Treasure: None</p><p>Chatterlings are what take form when the smallest \ndollop of Discord coalesces into a creature,\
+        \ muting \nits inherent malevolence into more of a nuisance \nthat is almost helpful. Their shape is determined by \ntheir Discordant tone, but they are often ugly-cute \nand always loud and foul-mouthed.\
+        \ They typically \nattempt to bond with targets marked for corruption \nbut oftentimes end up becoming a “friend” despite the \nmaddening shrieks and chittering they use against all \nwithin earshot.</p><p>Chatterling</p><p>Chatterling</p><p>Tiny\
+        \ Fiend, Neutral Evil</p><p>AC 13</p><p>Initiative +3 (13)</p><p>HP 21 (6d4 + 6)</p><p>Speed 30 ft., Burrow 30 ft. (Instinct only)</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>STR\t\n\
+        8\t\n−1\t\n−1</p><p>DEX\t 16\t\n+3\t\n+5\t CON\t 13\t\n+1\t\n+3</p><p>INT\t\n8\t\n−1\t\n−1</p><p>WIS\t\n8\t\n−1\t\n−1</p><p>CHA\t 14\t\n+2\t\n+2</p><p>Skills Stealth +5, Perception +1</p><p>Immunities\
+        \ Acid (Instinct only), Cold (Entropy only), Lightning \n(Progress only), Psychic (Thrill only)</p><p>Senses Darkvision 120 ft.; Passive Perception 11</p><p>Languages Common, Dissonant</p><p>CR\
+        \ 1 (XP 200; PB +2)</p><p>Traits</p><p>Discordant Tone. The chatterling is of one of the tones of</p><p>Cacophony: Entropy, Instinct, Progress, or Thrill. Its tone \ndetermines its Speed, its Immunities,\
+        \ and the damage type \nof its Discordant Shriek.</p><p>Endless Annoyance. If the chatterling dies outside</p><p>Cacophony, unless its remains are doused in Cosmic</p><p>Suspension*, it comes back\
+        \ to life in 1d4 hours with all its</p><p>Hit Points, regrowing any missing body parts.</p><p>Magic Resistance. The chatterling has Advantage on saving \nthrows against spells and other magical\
+        \ effects.</p><p>Actions</p><p>Gnaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3)</p><p>Piercing damage and 3 (1d6) damage of the same type as its \ndamage Immunity.</p><p>Discordant Shriek\
+        \ (Recharge 5–6). Constitution Saving Throw:</p><p>DC 12, each creature in a 30-foot Emanation originating from \nthe chatterling. A target makes the save with Advantage if it \nwas affected by\
+        \ this chatterling’s shriek in the last 24 hours.</p><p>Failure: 5 (2d4) Thunder damage, and until the start of the \nchatterling’s next turn, the creature has Disadvantage on \nattack rolls, and\
+        \ attack rolls against it have Advantage.</p><p>Reactions</p><p>Distracting Chatter (Recharge after a Short or Long Rest).</p><p>Trigger: A creature targets the chatterling or one of its allies\
+        \ \nit can see within 30 feet with an attack roll. Response: The \nattack roll has Disadvantage, and if the attack misses, the \nattacker takes 5 (1d6 + 2) Psychic damage.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value: []
+    di:
+      value:
+      - acid
+      - cold
+      - lightning
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Common, Dissonant
+  skills:
+    ste:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: hifdCO9gkLq5rBEU
+  name: 'Discordant Tone. The chatterling is of one of the tones of Cacophony: Entropy, Instinct, Progress, or Thrill'
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Its tone determines its Speed, its Immunities, and the damage type of its Discordant Shriek.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: discordant-tone-the-chatterling-is-of-one-of-the-tones-of-cacophony-entropy-instinct-progress-or-thrill
+  _key: '!actors.items!Mpfb0gF809Rmzawd.hifdCO9gkLq5rBEU'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: l4lpbM8WzQtrl1bt
+  name: Endless Annoyance
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the chatterling dies outside Cacophony, unless its remains are doused in Cosmic Suspension*, it comes back to life in 1d4 hours with all its Hit Points, regrowing any missing body parts.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: endless-annoyance
+  _key: '!actors.items!Mpfb0gF809Rmzawd.l4lpbM8WzQtrl1bt'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: aPO6fP0LGzxepuo3
+  name: Magic Resistance. The chatterling has Advantage on saving throws against spells and other magical effects.
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p></p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: magic-resistance-the-chatterling-has-advantage-on-saving-throws-against-spells-and-other-magical-effects
+  _key: '!actors.items!Mpfb0gF809Rmzawd.aPO6fP0LGzxepuo3'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: C4FYmsJth9Gp9iuP
+  name: Gnaw
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage and 3 (1d6) damage of the same type as its damage Immunity.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      w7sllSPHfcAU0geD:
+        _id: w7sllSPHfcAU0geD
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: gnaw
+  _key: '!actors.items!Mpfb0gF809Rmzawd.C4FYmsJth9Gp9iuP'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 7qfEzZffqrTkYDKC
+  name: Discordant Shriek
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 12, each creature in a 30-foot Emanation originating from the chatterling. A target makes the save with Advantage if it was affected by this chatterling’s
+        shriek in the last 24 hours. Failure: 5 (2d4) Thunder damage, and until the start of the chatterling’s next turn, the creature has Disadvantage on attack rolls, and attack rolls against it have
+        Advantage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: recharge
+        formula: '5'
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      sqt39TWMMxf40FvU:
+        _id: sqt39TWMMxf40FvU
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '12'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: discordant-shriek
+  _key: '!actors.items!Mpfb0gF809Rmzawd.7qfEzZffqrTkYDKC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Chatterling
+  texture:
+    src: modules/neon-odyssey/icons/creatures/chatterling-token.webp
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!Mpfb0gF809Rmzawd'

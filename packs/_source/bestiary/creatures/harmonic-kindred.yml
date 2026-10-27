@@ -1,0 +1,661 @@
+_id: RSk5GVMdD4eQVwiG
+name: Harmonic Kindred
+type: npc
+img: modules/neon-odyssey/icons/creatures/harmonic-kindred.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 16
+      proficient: 0
+    cha:
+      value: 7
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 22
+      max: 22
+      formula: 4d8 + 4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.5
+    type:
+      value: celestial
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: "<p>HARMONIC KINDRED</p><p>Masked Echo of Many</p><p>Habitat: Planar (Harmony); Treasure: None</p><p>Harmonic kindred are formed when dispersed essence within \nthe Harmony coalesces, giving\
+        \ rise to masked beings that \ncontain the remnants of dozens of once-individual souls.</p><p>Their forms can vary drastically from bestial to humanoid and \nbeyond, each kindred personifying the\
+        \ Harmony in its own \nway. They can exist in one of two states, embodying either</p><p>Vital or Somber energies, which they channel through masks \nthat grant them mystical powers.</p><p>Harmonic\
+        \ Kindred</p><p>Harmonic Kindred</p><p>Medium or Small Celestial, Neutral</p><p>AC 12</p><p>Initiative +0 (10)</p><p>HP 22 (4d8 + 4)</p><p>Speed 30 ft.</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t\
+        \ SAVE</p><p>STR\t 10\t\n+0\t +0</p><p>DEX\t 10\t\n+0\t +0\t CON\t 12\t\n+1\t\n+1</p><p>INT\t\n10\t\n+0\t +0</p><p>WIS\t 16\t\n+3\t\n+3\t CHA\t\n7\t\n−2\t\n−2</p><p>Resistances Necrotic, Radiant</p><p>Immunities\
+        \ Exhaustion</p><p>Senses Darkvision 60 ft.; Passive Perception 13</p><p>Languages Lyric; telepathy 30 ft.</p><p>CR 1/2 (XP 100; PB +2)</p><p>Traits</p><p>Mask. The kindred wears one of the following\
+        \ masks, gaining \nits benefit. Choose a mask or roll 1d6 to determine it. The \nmask dissolves into light when removed from the kindred \nor if the kindred dies. A removed mask reappears on the\
+        \ \nkindred when it finishes a Long Rest.\n1–2 Enigmatic Mask. No magic can observe the kindred \nremotely or detect its thoughts without its permission.</p><p>Wisdom (Insight) checks made to ascertain\
+        \ the intentions \nor sincerity of the kindred are made with Disadvantage.\n3–4 Requiem Mask. When a creature within 5 feet of the \nkindred is reduced to 0 Hit Points, the creature immediately\
+        \ \ngains one failed Death Saving Throw.\n5–6 Thriving Mask. While not Bloodied, the kindred has</p><p>Advantage on attack rolls and saving throws.</p><p>Actions</p><p>Multiattack. The kindred makes\
+        \ one Resonate attack and \ncan use Harmonic Aura.</p><p>Resonate. Melee or Ranged Attack Roll: +5, reach 5 ft. or \nrange 30 ft. Hit: 7 (1d8 + 3) Necrotic or Radiant damage \n(kindred’s choice).</p><p>Harmonic\
+        \ Aura. The kindred projects one of the following \nauras in a 5-foot Emanation until the start of its next turn.</p><p>Any creature that starts its turn there is subjected to the \naura’s effect:</p><p>Somber\
+        \ Decay. The creature takes 3 (1d6) Necrotic damage.</p><p>Vital Rejuvenation. The creature regains 2 (1d4) Hit Points.</p><p>Bonus Actions</p><p>Many Faces and None (1/Day). The kindred chooses\
+        \ a \ndifferent Mask.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value:
+      - necrotic
+      - radiant
+    di:
+      value: []
+    ci:
+      value:
+      - exhaustion
+    languages:
+      value: []
+      custom: Lyric; telepathy 30 ft.
+  skills: {}
+items:
+- _id: XINOa61lrZAW1Ufy
+  name: Mask
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kindred wears one of the following masks, gaining its benefit. Choose a mask or roll 1d6 to determine it. The mask dissolves into light when removed from the kindred or if the kindred
+        dies. A removed mask reappears on the kindred when it finishes a Long Rest. 1–2 Enigmatic Mask. No magic can observe the kindred remotely or detect its thoughts without its permission. Wisdom (Insight)
+        checks made to ascertain the intentions or sincerity of the kindred are made with Disadvantage. 3–4 Requiem Mask. When a creature within 5 feet of the kindred is reduced to 0 Hit Points, the creature
+        immediately gains one failed Death Saving Throw. 5–6 Thriving Mask. While not Bloodied, the kindred has Advantage on attack rolls and saving throws.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: mask
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.XINOa61lrZAW1Ufy'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: PybqV31E9v7Co1Qf
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kindred makes one Resonate attack and can use Harmonic Aura.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      qAPhVFSfcxb3VKCU:
+        _id: qAPhVFSfcxb3VKCU
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.PybqV31E9v7Co1Qf'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: Uk4aiKOCCkcLqb7K
+  name: Resonate
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft. Hit: 7 (1d8 + 3) Necrotic or Radiant damage (kindred’s choice).</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      drBYSf7VEYCvwn6t:
+        _id: drBYSf7VEYCvwn6t
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '30'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: resonate
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.Uk4aiKOCCkcLqb7K'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: h6kV3U7QmTHUr47c
+  name: Harmonic Aura
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kindred projects one of the following auras in a 5-foot Emanation until the start of its next turn. Any creature that starts its turn there is subjected to the aura’s effect:</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      uSAqCUKHl8V8lKRu:
+        _id: uSAqCUKHl8V8lKRu
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: harmonic-aura
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.h6kV3U7QmTHUr47c'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: pQiKvrJ0BdRCMiVS
+  name: Somber Decay
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The creature takes 3 (1d6) Necrotic damage.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      3Vlu3TACL0HFnGEl:
+        _id: 3Vlu3TACL0HFnGEl
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: somber-decay
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.pQiKvrJ0BdRCMiVS'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: tQRBgHiXVL0SUc33
+  name: Vital Rejuvenation
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The creature regains 2 (1d4) Hit Points.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      qGRcqoScmNyza8qb:
+        _id: qGRcqoScmNyza8qb
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: vital-rejuvenation
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.tQRBgHiXVL0SUc33'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 0F5rXD2sh8Cf3rqp
+  name: Many Faces and None
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The kindred chooses a different Mask.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      EZ3eQqoUETlPxbhG:
+        _id: EZ3eQqoUETlPxbhG
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: many-faces-and-none
+  _key: '!actors.items!RSk5GVMdD4eQVwiG.0F5rXD2sh8Cf3rqp'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Harmonic Kindred
+  texture:
+    src: modules/neon-odyssey/icons/creatures/harmonic-kindred-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!RSk5GVMdD4eQVwiG'

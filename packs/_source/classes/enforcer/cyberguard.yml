@@ -1,0 +1,104 @@
+_id: VzUr2kIpINnXTKpz
+name: Cyberguard
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/cyberguard.webp
+system:
+  description:
+    value: <p><em>Uphold Justice and Order with Cybernetic Might</em> Cyberguards are Enforcers who turn their bodies into instruments of justice through cutting-edge cybernetics, upholding that technology
+      is the greatest equalizer. With augmented senses, enhanced mobility, and integrated systems for tactical shielding and precision targeting, they stand as living bulwarks against those who prey on
+      the innocent. Some cyberguards seek to uphold law and order as members of government or security forces, but many operate as independent guardians asserting justice through cybernetic superiority.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: cyberguard
+  classIdentifier: enforcer
+  advancement:
+    ySqIJt1AVex9M3sR:
+      _id: ySqIJt1AVex9M3sR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.XrIOKIRSwB0Uy3Ck
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.oyuoSZsp0J0NfH9f
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ZOj995QaDedrg9l6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    AL0xY43wqp3j9Snn:
+      _id: AL0xY43wqp3j9Snn
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.igyhH19ytcmcvtPz
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    nt5NXQN423NQKq9b:
+      _id: nt5NXQN423NQKq9b
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fmp5W3EF99wGvLQc
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    Q48Hci3IgLppvD6V:
+      _id: Q48Hci3IgLppvD6V
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.stjEgnF22pHAwiho
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: spYUbXQtBgB2o1ja
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!VzUr2kIpINnXTKpz'

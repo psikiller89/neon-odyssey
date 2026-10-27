@@ -1,0 +1,51 @@
+_id: hpoZK3iFWHAjJK0L
+name: Arcadian Implement
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You harness your magic through arcade relics. Your hyperpad takes on the form of an Arcadian mage’s implement such as a staff, wand, orb, or spellbook. When you finish a Long Rest, you can
+      change the implement’s form (including reverting it to a standard Datapad).</p><p>You can use your Arcadian Implement as a Spellcasting Focus for your Gridrunner spells. You can also cast your Gridrunner
+      spells using Verbal components, and if you do so, you needn’t be holding your implement and can instead use any listed Material components for the spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arc-Mage Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: arcadian-implement
+  advancement: {}
+effects: []
+folder: PYCwpEUVFCmKqZBN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hpoZK3iFWHAjJK0L'

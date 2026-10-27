@@ -1,0 +1,148 @@
+_id: yTNGm8Mlp1gckpKP
+name: Chemist’s Supplies
+type: tool
+img: icons/tools/cooking/mortar-herbs-yellow.webp
+system:
+  quantity: 1
+  weight:
+    value: 8.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Intelligence</p><p><strong>Weight:</strong> 8 lb.</p><p><strong>Utilize:</strong> Identify a substance (DC 15), or start a fire (DC 15)</p><p><strong>Craft:</strong>
+      Acid Vial, Component Pack, Explosives, Fragrance, Fuel Oil, Stationery, Thermasene</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: art
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    2LArLC8J2WEa74Qd:
+      _id: 2LArLC8J2WEa74Qd
+      type: check
+      name: Identify a substance
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '15'
+    f9EmOXsljiOQVUnZ:
+      _id: f9EmOXsljiOQVUnZ
+      type: check
+      name: Start a fire
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '15'
+  identifier: chemists-supplies
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!yTNGm8Mlp1gckpKP'

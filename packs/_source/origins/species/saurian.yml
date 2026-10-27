@@ -1,0 +1,147 @@
+_id: lwF7QpB0MAyrDrko
+name: Saurian
+type: race
+img: modules/neon-odyssey/icons/species/saurian.webp
+system:
+  description:
+    value: <p>Saurians <em>(SOR-ee-in)</em> are the oldest species in the Stardust Rhapsody, appearing as humanoid versions of the galaxy’s numerous dinosaurs and similarly prehistoric reptiles. They bear
+      a special connection with the Harmony and can channel its lifegiving energies through that spark. This connection manifests in an intimate ancestral connection that grants them special insight on
+      how to approach their daily lives. Across five distinct lineages, saurians comprise a wide range of body types and statures, with each one reminiscent of a broader category of dinosaur. These grant
+      them the traits of water-dwellers, fliers, predators, scavengers, and hardy grazers. They typically have naturalistic hues, but some have vibrantly prismatic scales.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    VgZsQgX12dUFB2SX:
+      _id: VgZsQgX12dUFB2SX
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    rDVpQy53zhjBcCWm:
+      _id: rDVpQy53zhjBcCWm
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.7WR1SR75zbCWWQQ1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Mv9A2j11FNl7tnoN
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.jVbBzbWKGB1HufT1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.vnLr1c61WgIRbt6l
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Saurian Traits
+    saGRhuGE99S5X8Fs:
+      _id: saGRhuGE99S5X8Fs
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:arc
+          - skills:his
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    gn9vdvZ4gRhYbEQA:
+      _id: gn9vdvZ4gRhYbEQA
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - skills:ste
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    wDDxNWLKQfkV5Ub1:
+      _id: wDDxNWLKQfkV5Ub1
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.origins.Item.DiObe2Bhc9tom9YJ
+        - uuid: Compendium.neon-odyssey.origins.Item.AE0qKpML6rz7Why3
+        - uuid: Compendium.neon-odyssey.origins.Item.oasxFUoE4NWHptHm
+        - uuid: Compendium.neon-odyssey.origins.Item.Gxot7WOgEj748vcZ
+        - uuid: Compendium.neon-odyssey.origins.Item.3TuplfUZcW4r3Iq7
+        restriction:
+          type: race
+          subtype: ''
+          list: []
+      value: {}
+      level: 0
+      title: Saurian Lineage
+      hint: Choose your lineage.
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      swim: '30'
+      fly: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: saurian
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!lwF7QpB0MAyrDrko'

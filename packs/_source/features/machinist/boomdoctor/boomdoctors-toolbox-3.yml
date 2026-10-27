@@ -1,0 +1,50 @@
+_id: VzhbHRtLd5fvAvKG
+name: Boomdoctor’s Toolbox
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You keep your portable laboratory with you. You gain proficiency with Chemist’s Supplies. If you already have this proficiency, you gain proficiency with one other type of Crafter’s Tools
+      of your choice.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities: {}
+  enchant: {}
+  identifier: boomdoctors-toolbox
+  advancement: {}
+effects: []
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VzhbHRtLd5fvAvKG'

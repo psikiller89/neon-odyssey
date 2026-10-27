@@ -1,0 +1,93 @@
+_id: Ye6mZ6csYbOLYfjb
+name: Adaptive Arsenal
+type: feat
+img: icons/sundries/documents/blueprint-axe.webp
+system:
+  description:
+    value: <p>Your martial aptitude allows you to find an edge with any weapon you know how to use. When you attack with a weapon whose mastery property you can use, you can replace that property with the
+      Push, Sap, or Slow property for that attack.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities: {}
+  enchant: {}
+  identifier: adaptive-arsenal
+effects:
+- name: Tactial Master
+  img: icons/sundries/documents/blueprint-axe.webp
+  _id: 9Dwnc4r39iE997j0
+  type: base
+  system:
+    changes:
+    - key: system.traits.weaponProf.mastery.bonus
+      value: push
+      priority: null
+      type: add
+      phase: initial
+      _id: 6JfjUZqSei2xTTDa
+    - key: system.traits.weaponProf.mastery.bonus
+      value: sap
+      priority: null
+      type: add
+      phase: initial
+      _id: KxJcRhqy7VUbWiW0
+    - key: system.traits.weaponProf.mastery.bonus
+      value: slow
+      priority: null
+      type: add
+      phase: initial
+      _id: d3cAe1ruUwtUPmAw
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!Ye6mZ6csYbOLYfjb.9Dwnc4r39iE997j0'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!Ye6mZ6csYbOLYfjb'

@@ -1,0 +1,101 @@
+_id: VlKj6gnDneyw2Pwp
+name: Warhead
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/warhead.webp
+system:
+  description:
+    value: <p><em>Become an Explosive Weapon of Psychic Destruction</em> The minds of Warheads are unstable bombs of crackling psionic devastation. These volatile Espers erupt with explosive bursts of telekinetic
+      force that indiscriminately rip apart everything around them. Many Warheads find themselves on war-torn battlefields as living weapons of mass destruction, but some seek to control their demolition
+      before they fully lose control.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: warhead
+  classIdentifier: esper
+  advancement:
+    6gvmjfuOY4UyLdTw:
+      _id: 6gvmjfuOY4UyLdTw
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Z2nP378djhFfKQwg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.DXTcVMpRBDCeYV03
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    ZScgvlPi3qDByt4X:
+      _id: ZScgvlPi3qDByt4X
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.az3yP5K0qBR3XlU4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    4J6R4N7wmiDu3ebl:
+      _id: 4J6R4N7wmiDu3ebl
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.aZGAr7lMk55ff2Zw
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    uByVGHGbdFkKrsYY:
+      _id: uByVGHGbdFkKrsYY
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Pw3rv9vhdc1ppezf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: ddSGGMi8xJuRURTI
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!VlKj6gnDneyw2Pwp'

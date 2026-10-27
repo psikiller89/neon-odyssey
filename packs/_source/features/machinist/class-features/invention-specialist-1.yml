@@ -1,0 +1,123 @@
+_id: WEhIgtIHtORQDJUl
+name: Invention Specialist
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You focused your technological invention to the specialty of your choice. Later features provide upgrades to your chosen specialty.</p><p><strong>Armory.</strong> You gain proficiency with
+      Martial weapons and training with Heavy armor. You can use Intelligence in place of Strength or Dexterity for attack rolls, damage rolls, and the Heavy property for weapons, and you can use Intelligence
+      to meet the Strength requirement of Heavy armor.</p><p><strong>Hypertech.</strong> You know two extra cantrips from the Machinist spell list. In addition, choose one of the following skills in which
+      you have proficiency: Arcana Computers, Investigation, or Technology. You have Expertise in the chosen skill.</p><p><strong>Robotics.</strong> You always have the <em>Autonomous Assistant</em>* spell
+      prepared and can cast it as a Magic action without expending a spell slot.</p><p>When you cast the spell in this way, you choose one of the normal forms for your assistant or one of the following
+      special forms: <strong>Omnibot</strong>* or <strong>Spy Drone</strong>*. The assistant appears robotic.</p><p>Additionally, when you take the Attack action, you can forgo one of your own attacks to
+      allow a special form assistant to make one attack of its own with its Reaction.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    Gqza6xNDhldUSyg2:
+      _id: Gqza6xNDhldUSyg2
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: invention-specialist
+  advancement:
+    L9FBRE4EoJzyEge9:
+      _id: L9FBRE4EoJzyEge9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.PTGbnlcUXBRMfbeO
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 1
+      title: Invention Specialist
+      hint: ''
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!WEhIgtIHtORQDJUl'

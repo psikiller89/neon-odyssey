@@ -1,0 +1,20 @@
+name: Psychonaut Esper
+sorting: a
+folder: rH1Mf3I77SHNIXOt
+type: Item
+_id: iIYvvG9Ga4e5RgAN
+description: ''
+sort: 50
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!iIYvvG9Ga4e5RgAN'

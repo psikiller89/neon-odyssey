@@ -1,0 +1,56 @@
+_id: wyk5UV4O3Oyn8Cew
+name: Acolyte’s Pack
+type: container
+img: icons/containers/bags/pack-engraved-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 29.0
+    units: lb
+  price:
+    value: 1730
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p>An Acolyte’s Pack contains the following items: Rucksack, Cosmic Suspension, Flashlight, Power Cell, 10 Ration Pouches, Thermal Blanket.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  capacity:
+    count: null
+    volume:
+      units: cubicFoot
+    weight:
+      units: lb
+  currency: {}
+  properties: []
+  identifier: acolytes-pack
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!wyk5UV4O3Oyn8Cew'

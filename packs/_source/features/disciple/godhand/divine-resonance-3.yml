@@ -1,0 +1,75 @@
+_id: dWGZu401l8zfphF8
+name: Divine Resonance
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your soul resonates with one of the godly triads of Agathos. You gain proficiency in the Religion skill (or another skill of your choice if you already have it), and you know the <em>Thaumaturgy</em>
+      cantrip. If you already know it, you learn a different cantrip of your choice from the Oracle spell list. Wisdom is your spellcasting ability for it.</p><p>Additionally, when you gain this feature,
+      choose one of the triads on the Triad Affinity table. Once per turn, when you hit a creature with an Unarmed Strike or with the radiant blast of your Star Gauntlet feature, you can apply the resonance
+      effect associated with your chosen triad. Beacon The next attack roll that misses the target before the end of your next turn adds 1d4 to the total, potentially causing it to hit. Chronicle You can
+      push the target up to 10 feet away from you. Fountain The next time the target deals damage before the start of your next turn, reduce the damage by one roll of your Combat Tradition die. Tower The
+      target has Disadvantage on the next attack roll it makes before the end of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Godhand Disciple
+  activities: {}
+  enchant: {}
+  identifier: divine-resonance
+  advancement:
+    p4eEfwRSrkm05GrW:
+      _id: p4eEfwRSrkm05GrW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Divine Resonance
+      hint: ''
+effects: []
+folder: Nhk9pe5HQ8Aa5HxI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!dWGZu401l8zfphF8'

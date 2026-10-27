@@ -1,0 +1,200 @@
+_id: t7AEGsh61W9VsNYc
+name: Plasma Pistol
+type: weapon
+img: icons/weapons/guns/gun-purple.webp
+system:
+  quantity: 1
+  weight:
+    value: 4.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p><em>1d8 Lightning; Ammunition (Range 80/320; Power Cell), Close Quarters, Reload (25 shots); Mastery: Sap</em></p><p><strong>Close Quarters.</strong> Being within 5 feet of an enemy doesn’t
+      impose Disadvantage on your ranged attack rolls with a Close Quarters weapon.</p><p><strong>Reload.</strong> A Reload weapon’s ammunition is held in a magazine or a Power Cell. After the number of
+      shots noted in the property, you must reload the weapon as an action or a Bonus Action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: martialR
+    baseItem: ''
+  damage:
+    base:
+      number: 1
+      denomination: 8
+      bonus: ''
+      types:
+      - lightning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  range:
+    value: 80
+    long: 320
+    units: ft
+    reach: null
+  properties:
+  - amm
+  - closeQuarters
+  - reload
+  mastery: sap
+  uses:
+    max: '25'
+    spent: 0
+    recovery: []
+  magicalBonus: null
+  proficient: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  ammunition: {}
+  activities:
+    6Nn05jKw0KWbJOHc:
+      _id: 6Nn05jKw0KWbJOHc
+      type: attack
+      name: Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+    Ho0ZTPLgdlMKgt3E:
+      _id: Ho0ZTPLgdlMKgt3E
+      type: utility
+      name: Reload
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-25'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+  identifier: plasma-pistol
+effects: []
+folder: GzA6lKBKXs3lxJUF
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!t7AEGsh61W9VsNYc'

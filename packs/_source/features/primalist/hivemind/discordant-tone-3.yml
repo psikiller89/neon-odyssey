@@ -1,0 +1,51 @@
+_id: X6E8dC0u1ps26RtD
+name: Discordant Tone
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can warp your swarm with the tones of Cacophony. Choose your discordant tone when you select this subclass or roll it randomly, using the Discordant Tones table. Your tone is associated
+      with a damage type and affects later features. When you deal damage with a spell or Hivemind feature, you can change the damage type to that of your tone. Entropy Cold Instinct Acid Progress Lightning
+      Thrill Psychic</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities: {}
+  enchant: {}
+  identifier: discordant-tone
+  advancement: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!X6E8dC0u1ps26RtD'

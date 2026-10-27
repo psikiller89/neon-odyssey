@@ -1,0 +1,767 @@
+_id: ANLJLdv94EDoo8sM
+name: Spy Drone
+type: npc
+img: modules/neon-odyssey/icons/creatures/spy-drone.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 1
+      proficient: 0
+    dex:
+      value: 13
+      proficient: 0
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 15
+      calc: natural
+    hp:
+      value: 12
+      max: 12
+      formula: 5d4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '5'
+      fly: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0.125
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: "<p>SPY DRONE</p><p>Stealthy Surveillance Bot</p><p>Habitat: Any; Treasure: None</p><p>Spy drones are utilized for surveillance, typically recording \nand streaming encrypted feeds to linked\
+        \ databases. If \ndiscovered, a spy drone attempts to flee using sedative darts \nto stall pursuers. To ensure that their controllers are not \ncompromised, they self-destruct when critically damaged.</p><p>Spy\
+        \ Drone</p><p>Spy Drone</p><p>Tiny Construct, Neutral</p><p>AC 15</p><p>Initiative +3 (13)</p><p>HP 12 (5d4)</p><p>Speed 5 ft., Fly 30 ft.</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>STR\t\
+        \n1\t\n−5\t\n−5</p><p>DEX\t 13\t\n+1\t\n+1\t CON\t 10\t\n+0\t +0</p><p>INT\t\n8\t\n−1\t\n−1</p><p>WIS\t 14\t\n+2\t\n+2\t CHA\t 10\t\n+0\t +0</p><p>Skills Perception +4, Stealth +5, Survival +6</p><p>Immunities\
+        \ Poison; Charmed, Exhaustion, Frightened, Petrified,</p><p>Poisoned</p><p>Gear Data Chip</p><p>Senses Darkvision 60 ft.; Passive Perception 14</p><p>Languages SIGNAL; understands Common and one\
+        \ other \nlanguage but can’t speak them</p><p>CR 1/8 (XP 25; PB +2)</p><p>Traits</p><p>Self-Destruct. The drone explodes when it dies, destroying \nany installed Data Chip. Dexterity Saving Throw:\
+        \ DC 10, each \ncreature in a 5-foot Emanation originating from the drone.</p><p>Failure: 2 (1d4) Fire damage. Success: Half damage.</p><p>Actions</p><p>Shock. Melee Attack Roll: +3, reach 5 ft.\
+        \ Hit: 4 (1d6 + 1)</p><p>Lightning damage. If the target is a Medium or smaller \ncreature, it has the Prone condition.</p><p>Sleep Dart. Constitution Saving Throw: DC 11, one creature \nthe drone\
+        \ can see within 20 feet. Failure: The target has \nthe Poisoned condition until the start of the drone’s next \nturn. The target also has the Incapacitated condition while</p><p>Poisoned in this\
+        \ way. Failure by 5 or More: The Poisoned \ncondition lasts for 1 minute, and the Poisoned target has the</p><p>Unconscious condition until it takes damage or a creature \nwithin 5 feet of it takes\
+        \ an action to shake it awake.</p><p>Transmit. The drone can transmit what it sees and hears \nin real time up to 1 mile to a communication receiver or \ncomputer. Alternatively, while the drone\
+        \ is connected to a \ndatabase within 1 mile, it can upload recordings while it \nmaintains Concentration. It can upload the contents of a full</p><p>Data Chip over the course of 10 minutes.</p><p>Bonus\
+        \ Actions</p><p>Record. The drone starts or stops recording sound and video.</p><p>Video is recorded from its main sensor’s perspective. The \nrecording is stored on a Data Chip installed in the\
+        \ drone.\n\t As an action, a creature can remove or install a chip in the \ndrone—if it is willing or has the Incapacitated condition—\nwith a successful DC 20 Intelligence (Technology) or</p><p>Dexterity\
+        \ (Sleight of Hand) check using Engineer’s Tools. If \nthe check fails by 5 or more, any data on the chip is erased.</p><p>PIXPAL</p><p>Helpful Pixelated Buddy</p><p>Habitat: Planar (Arcadia); Treasure:\
+        \ None</p><p>Pixpals are playful sprites from Arcadia that have an \ninherently helpful nature, typically seeking to bond with a \nhero on an epic quest whose collectibles they can share in.</p><p>They\
+        \ float behind their favorite protagonist, guiding them \ntoward the next objective and shielding them with arcade \nmagic. Pixpals can take a wide variety of forms from animals \nto living objects,\
+        \ often with large, goofy eyes.</p><p>Pixpal</p><p>Pixpal</p><p>Tiny Fey, Neutral</p><p>AC 12</p><p>Initiative +2 (12)</p><p>HP 25 (10d4)</p><p>Speed 10 ft., Fly 30 ft. (hover)</p><p>MOD\t SAVE</p><p>MOD\t\
+        \ SAVE</p><p>MOD\t SAVE</p><p>STR\t\n7\t\n−2\t\n−2</p><p>DEX\t 14\t\n+2\t\n+4\t CON\t 10\t\n+0\t +0</p><p>INT\t\n12\t\n+1\t\n+1</p><p>WIS\t 12\t\n+1\t\n+1</p><p>CHA\t 12\t\n+1\t\n+1</p><p>Skills\
+        \ Acrobatics +4</p><p>Senses Darkvision 60 ft.; Passive Perception 11</p><p>Languages Pixlish, Common</p><p>CR 1 (XP 200; PB +2)</p><p>Traits</p><p>Flyby. The pixpal doesn’t provoke an Opportunity\
+        \ Attack \nwhen it flies out of an enemy’s reach.</p><p>Actions</p><p>Multiattack. The pixpal makes two Guiding Zap attacks.</p><p>Guiding Zap. Melee or Ranged Attack Roll: +4, reach 5 ft. or \n\
+        range 60 ft. Hit: 9 (2d6 + 2) Lightning damage, and the next \nattack roll another creature makes against the target before \nthe start of the pixpal’s next turn has Advantage.</p><p>Bonus Actions</p><p>Bonded\
+        \ Ward (1/Day). The pixpal can form or dissolve a \nmagical bond with a willing creature within 5 feet. While they \nare on the same plane of existence, if the bonded creature \ndrops to 0 Hit Points,\
+        \ the pixpal vanishes and the target is \nreduced to 1 Hit Point instead. The pixpal reappears within 5 \nfeet of the bonded creature 24 hours later.</p><p>Reactions</p><p>Warding Burst. Trigger.\
+        \ A creature the pixpal can see within \n60 feet makes an attack roll against the target of its Bonded</p><p>Ward. Response: The triggering attack roll has Disadvantage.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value: []
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - charmed
+      - exhaustion
+      - frightened
+      - petrified
+    languages:
+      value: []
+      custom: 'SIGNAL; understands Common and one other '
+  skills:
+    ste:
+      value: 1
+      ability: ''
+    sur:
+      value: 1
+      ability: ''
+    prc:
+      value: 1
+      ability: ''
+items:
+- _id: RQQAzIF5iAa9pOwE
+  name: Self-Destruct
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The drone explodes when it dies, destroying any installed Data Chip. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the drone. Failure: 2 (1d4) Fire
+        damage. Success: Half damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: self-destruct
+  _key: '!actors.items!ANLJLdv94EDoo8sM.RQQAzIF5iAa9pOwE'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: NhdpwObgQkDqGQ9u
+  name: Shock
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      3kh8EY4yQYfozlac:
+        _id: 3kh8EY4yQYfozlac
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '3'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: shock
+  _key: '!actors.items!ANLJLdv94EDoo8sM.NhdpwObgQkDqGQ9u'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: chwqFpp5fTqVFU9L
+  name: Lightning damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the target is a Medium or smaller creature, it has the Prone condition.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      yvXqk1prY6eXgIUx:
+        _id: yvXqk1prY6eXgIUx
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: lightning-damage
+  _key: '!actors.items!ANLJLdv94EDoo8sM.chwqFpp5fTqVFU9L'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: GCmLcpSMELB9aSWr
+  name: Sleep Dart
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC 11, one creature the drone can see within 20 feet. Failure: The target has the Poisoned condition until the start of the drone’s next turn. The target also
+        has the Incapacitated condition while</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      aNPyh7EusmKsdiQC:
+        _id: aNPyh7EusmKsdiQC
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - con
+          dc:
+            calculation: ''
+            formula: '11'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: sleep-dart
+  _key: '!actors.items!ANLJLdv94EDoo8sM.GCmLcpSMELB9aSWr'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: eOPn9jRmVs2Uh4wh
+  name: Poisoned in this way
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Failure by 5 or More: The Poisoned condition lasts for 1 minute, and the Poisoned target has the Unconscious condition until it takes damage or a creature within 5 feet of it takes an action
+        to shake it awake.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      Vl2vTNpYHzbKSVXO:
+        _id: Vl2vTNpYHzbKSVXO
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: poisoned-in-this-way
+  _key: '!actors.items!ANLJLdv94EDoo8sM.eOPn9jRmVs2Uh4wh'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: IetUJqY2KtgG6U4c
+  name: Transmit
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drone can transmit what it sees and hears in real time up to 1 mile to a communication receiver or computer. Alternatively, while the drone is connected to a database within 1 mile,
+        it can upload recordings while it maintains Concentration. It can upload the contents of a full Data Chip over the course of 10 minutes.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      wqtedmgjCE7OhV5x:
+        _id: wqtedmgjCE7OhV5x
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: transmit
+  _key: '!actors.items!ANLJLdv94EDoo8sM.IetUJqY2KtgG6U4c'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: u3agYyXfPjYdOp5d
+  name: Record
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The drone starts or stops recording sound and video.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      at4kgjAFwBd6IfQn:
+        _id: at4kgjAFwBd6IfQn
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: record
+  _key: '!actors.items!ANLJLdv94EDoo8sM.u3agYyXfPjYdOp5d'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: pxcw4Ppe26rHyYih
+  name: Video is recorded from its main sensor’s perspective
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The recording is stored on a Data Chip installed in the drone. As an action, a creature can remove or install a chip in the drone—if it is willing or has the Incapacitated condition— with
+        a successful DC 20 Intelligence (Technology) or Dexterity (Sleight of Hand) check using Engineer’s Tools. If the check fails by 5 or more, any data on the chip is erased.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      rPreQJbkr6wCLBop:
+        _id: rPreQJbkr6wCLBop
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: video-is-recorded-from-its-main-sensors-perspective
+  _key: '!actors.items!ANLJLdv94EDoo8sM.pxcw4Ppe26rHyYih'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Spy Drone
+  texture:
+    src: modules/neon-odyssey/icons/creatures/spy-drone-token.webp
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!ANLJLdv94EDoo8sM'

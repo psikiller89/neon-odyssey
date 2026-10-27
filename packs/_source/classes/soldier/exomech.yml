@@ -1,0 +1,118 @@
+_id: CwIzLNLSXSqNBMPm
+name: Exomech
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/exomech.webp
+system:
+  description:
+    value: <p><em>Pilot a Personal Mobile Suit as a Second Skin</em> Exomechs are Soldiers who stride into battle at the controls of personalized mechs that are hardwired into their own bodies. They regard
+      their mobile suits as extensions of themselves, reconfiguring them to meet the demands of each conflict. These Soldiers often customize their mechs with distinct designs, attachments, and paint schemes
+      that reflect the pilot’s identity.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: exomech
+  classIdentifier: soldier
+  advancement:
+    8BP4mYNfN9N3cPMk:
+      _id: 8BP4mYNfN9N3cPMk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.85Xpb9JRXiwRPWLF
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.GUjh57r6YH7c1wOr
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.vC9DrV56YKmuq6ia
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    5cCoe3JVtzH9DnSV:
+      _id: 5cCoe3JVtzH9DnSV
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3maPAO0xgKMGrFLW
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    7VVryrs9z89bJM7o:
+      _id: 7VVryrs9z89bJM7o
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.oEKJrkmhxhMLVvze
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    8zkaIFHXs0t3EZqa:
+      _id: 8zkaIFHXs0t3EZqa
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.5FZxPqZX4KDa1SUs
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    EANHQZFd16pKYVNO:
+      _id: EANHQZFd16pKYVNO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.6dWg0PQNwvYeCmEP
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: TdKAX1k0iVoi5LgI
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!CwIzLNLSXSqNBMPm'

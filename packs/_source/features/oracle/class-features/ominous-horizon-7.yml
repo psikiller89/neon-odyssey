@@ -1,0 +1,81 @@
+_id: ezHUQalDH5UiSKcv
+name: Ominous Horizon
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  description:
+    value: <p>Your strikes become guided by cosmic forces. You gain one of the following options of your choice.</p><p><strong>Ascendant Edge.</strong> Once on each of your turns when you hit a creature
+      with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).</p><p><strong>Mystic Flare.</strong> Add your Wisdom modifier to the damage
+      you deal with any Oracle cantrip.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: ominous-horizon
+  advancement:
+    C9ABIfTHZkeFpUva:
+      _id: C9ABIfTHZkeFpUva
+      type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.dnd5e.classes24.Item.phbDivineStrike0
+          sort: 0
+        - uuid: Compendium.dnd5e.classes24.Item.phbClcPotentSpel
+          sort: 0
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+          list: []
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: <p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose
+        for this feature).</p>
+      name: Blessed Strikes Choice
+      flags: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 100000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!ezHUQalDH5UiSKcv'

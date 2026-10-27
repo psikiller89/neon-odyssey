@@ -1,0 +1,52 @@
+_id: r7baVlqPCTkHkbd6
+name: Exponential Replication
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your nanite cluster now replicates more rapidly to spread when deployed. You gain the following benefits.</p><p><strong>Infectious Intervention.</strong> When a creature regains Hit Points
+      from the Lingering Nanites benefit of your Surgical Swarm feature, up to two other creatures of your choice within 10 feet of it also regain the same number of Hit Points. A creature can’t be affected
+      by this benefit again until the start of its next turn.</p><p><strong>Rapid Replenishment.</strong> When you roll Initiative, you can expend any number of Hit Point Dice. Your nanite cluster regains
+      a number of expended Hit Points equal to five times the Hit Dice expended. To use this benefit, you must have a Pharma Kit on your person.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities: {}
+  enchant: {}
+  identifier: exponential-replication
+  advancement: {}
+effects: []
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!r7baVlqPCTkHkbd6'

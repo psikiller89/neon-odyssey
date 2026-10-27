@@ -1,0 +1,51 @@
+_id: zntHscgtJRJJbtCK
+name: Sharp Wits
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  description:
+    value: <p>You hone your guile to keep your mind your own. You gain proficiency in Wisdom and Charisma saving throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: sharp-wits
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!zntHscgtJRJJbtCK'

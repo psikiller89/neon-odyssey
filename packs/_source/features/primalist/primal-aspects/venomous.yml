@@ -1,0 +1,108 @@
+_id: vlHz4fajoUUwzSL7
+name: Venomous
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your attacks deal an extra 1d6 Poison damage on a hit. When you reach Primalist level 8, the damage increases to 2d6.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalAspect
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities:
+    AslwTqAlIUmMvkqf:
+      _id: AslwTqAlIUmMvkqf
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - poison
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: venomous
+  advancement: {}
+effects: []
+folder: 6paiNqmrbvrvrO5j
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!vlHz4fajoUUwzSL7'

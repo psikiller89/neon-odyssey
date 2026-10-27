@@ -1,0 +1,159 @@
+_id: rS2Nq4fJPp1OTFvy
+name: Deploy Turret
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have invented easily deployable turrets to blast your foes. Using Engineer’s Tools or Mechanic’s Tools, you can take a Bonus Action to create a Small turret in an unoccupied space within
+      5 feet of you. If the turret would fall when it appears in the space, the action fails without expending its use. The turret’s game statistics appear below. You determine its appearance.</p><p>You
+      can create a number of turrets equal to your Intelligence modifier (minimum 1), and you regain all expended uses when you finish a Long Rest or expend a spell slot (no action required) to regain the
+      use of this feature.</p><p>You can have up to two turrets at a time. If you create a new turret while you already have two, the first one that you created collapses into worthless scrap metal. A turret
+      also collapses into worthless scrap metal if it is reduced to 0 Hit Points, after 1 hour, or if you dismiss it as a Magic action.</p><p>When you cast a Machinist spell, you can cast it as if you were
+      in the space of one of your turrets.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riveter Machinist
+  activities:
+    mzOaJ12vwh3ABEir:
+      _id: mzOaJ12vwh3ABEir
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+    kGU4CJSoOXuf23hA:
+      _id: kGU4CJSoOXuf23hA
+      type: summon
+      name: Summon
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        override: false
+      range:
+        override: false
+        units: self
+      target:
+        override: false
+        prompt: false
+      effects: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+      - _id: XGMWsIe6luHvHuax
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Rivet Turret
+        uuid: Compendium.neon-odyssey.bestiary.Actor.bnY5vMbCYJ6j4A8r
+      summon:
+        mode: ''
+        prompt: true
+      creatureSizes: []
+      creatureTypes: []
+  enchant: {}
+  identifier: deploy-turret
+  advancement: {}
+effects: []
+folder: 2QlK6RvbP5omfpcX
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rS2Nq4fJPp1OTFvy'

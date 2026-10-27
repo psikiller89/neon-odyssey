@@ -1,0 +1,99 @@
+_id: mPcaJf0USa6rNUmH
+name: Intrusive Awareness
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 5+ Cryptist</em></p><p>You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature
+      is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if
+      you don’t maintain it in this way.</p><p>While perceiving through the other creature’s senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were
+      in your space or the other creature’s space if the two of you are within 60 feet of each other.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities:
+    UtvApKUWFPL0hyb2:
+      _id: UtvApKUWFPL0hyb2
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: intrusive-awareness
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mPcaJf0USa6rNUmH'

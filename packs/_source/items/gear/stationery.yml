@@ -1,0 +1,53 @@
+_id: qwSbmJ4wSuOECmCg
+name: Stationery
+type: loot
+img: icons/sundries/documents/paper-plain-white.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 30
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Stationery is high-quality paper often used for official written communication. It comes in packs of 10 sheets. One sheet of Stationery can hold about 250 handwritten words, or 500 printed
+      words.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: stationery
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!qwSbmJ4wSuOECmCg'

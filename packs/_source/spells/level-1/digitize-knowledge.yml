@@ -1,0 +1,108 @@
+_id: ttK7u5LSH0dOe6lw
+name: Digitize Knowledge
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+system:
+  description:
+    value: <p>Choose one skill in which you have proficiency. You create a Data Chip in your hand containing a copy of your knowledge in that skill. A creature with an Intelligence score of 4 or higher
+      that is holding the chip can take the Utilize action to absorb the skill knowledge, granting them proficiency in the skill for the duration. The storage device vanishes after being used or when you
+      cast the spell again, whichever occurs first. <strong>Using a Higher-Level Spell Slot.</strong> The spell’s duration increases with a spell slot of level 2 (1 hour), 3-4 (8 hours), or 5+ (24 hours).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: enc
+  properties:
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    3q7BCPhGCDUSKfgP:
+      _id: 3q7BCPhGCDUSKfgP
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: digitize-knowledge
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ttK7u5LSH0dOe6lw'

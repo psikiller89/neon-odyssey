@@ -1,0 +1,52 @@
+_id: mGgl6gHPjzD1VfR8
+name: Hyper-Rendering
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your digital renders are directly from the Hypergrid. You gain the following benefits.</p><p><strong>Hardened Hardlight. </strong>When you cast a Conjuration spell that summons a creature,
+      you can change the creature’s type to Construct. When you do so, you can empower it to gain Temporary Hit Points equal to your Gridrunner level, have Resistance to Lightning damage, and deal Lightning
+      damage instead of its normal damage type.</p><p><strong>Photoreal.</strong> When you cast an Illusion spell that creates an image of a creature or an object, creatures have Disadvantage on ability
+      checks or saving throws to discern it as an illusion.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cybertronic Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: hyper-rendering
+  advancement: {}
+effects: []
+folder: 5VLOMVrwRFpYo4cB
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mGgl6gHPjzD1VfR8'

@@ -1,0 +1,54 @@
+_id: ZanM57fcI5iSZpTn
+name: Camo Netting
+type: loot
+img: icons/tools/fishing/net-simple-brown.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 400
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Camo Netting is a thin mesh with multicolored swatches attached to it used to camouflage vehicles and similar sized objects. The netting is large enough to cover a Gargantuan object up to
+      a 20-foot Cube. With 1 minute of work, you can cover a Huge or smaller object with the netting. Covering a Gargantuan object that fits under the net takes 10 minutes of work. Once the object is covered,
+      make a Dexterity (Stealth) check to hide the object, as if you were taking the Hide action for yourself.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: camo-netting
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZanM57fcI5iSZpTn'

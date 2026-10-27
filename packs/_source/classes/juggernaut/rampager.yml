@@ -1,0 +1,98 @@
+_id: 6N5jaqRu2vqzkAZ6
+name: Rampager
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/rampager.webp
+system:
+  description:
+    value: <p><em>Unleash Devastation as an Alien Behemoth</em> Rampagers are the ultimate unstoppable brutes who embody the destructive ferocity of titanic monsters. Their Surge becomes an overwhelming
+      force, violently changing them into hulking behemoths that can obliterate all obstacles in their path and toss enemies around like playthings. Many Rampagers enhance the alien traits of their species,
+      while others call forth longdormant biology of monstrous titans.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: rampager
+  classIdentifier: juggernaut
+  advancement:
+    oqnYNnxZHSqOSs4I:
+      _id: oqnYNnxZHSqOSs4I
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.6uZ2EpmOdr6pNVw5
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    cuZaa0O5rSrm5YLh:
+      _id: cuZaa0O5rSrm5YLh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8vS4zld7mFXw3vwz
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    AFafAAZ6YRp9A3bL:
+      _id: AFafAAZ6YRp9A3bL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.yuBvwH2HYUDRGswn
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    vikcDGB5NUnDcLPA:
+      _id: vikcDGB5NUnDcLPA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.QvRxlVHKz2B3ck2n
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 645rw480t9huQVb4
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!6N5jaqRu2vqzkAZ6'

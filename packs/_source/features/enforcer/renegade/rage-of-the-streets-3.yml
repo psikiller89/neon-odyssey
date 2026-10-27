@@ -1,0 +1,97 @@
+_id: GBvQ9YeZXHG7wGvE
+name: Rage of the Streets
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You solve your problems with fists and fury. As a Bonus Action, you can expend one use of your Cosmic Conduit to fill yourself with fury for 1 minute. When you activate this feature, and as
+      a Bonus Action on your subsequent turns for the duration, you can make one attack with an Unarmed Strike or an improvised weapon.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Renegade Enforcer
+  activities:
+    rU2NdHFEDJ7JwzE8:
+      _id: rU2NdHFEDJ7JwzE8
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: rage-of-the-streets
+  advancement: {}
+effects: []
+folder: VePsIxjaLdRqQXJR
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GBvQ9YeZXHG7wGvE'

@@ -1,0 +1,53 @@
+_id: 6wTzXNrzbEAg2z8G
+name: Deflection Circuitry (Weapon Module)
+type: loot
+img: icons/commodities/cloth/thread-spindle-white-needle.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>This weapon module enhances melee weapons with forceprojection circuitry and can only be applied to weapons with the Powered property. When you are hit by a ranged attack roll that deals Force,
+      Lightning, or Radiant damage, you can take a Reaction to expend a charge from its Power Cell and add 1d4 to your AC against that attack, possibly causing it to miss.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: deflection-circuitry
+effects: []
+folder: wwiINoc0nKMcIjvz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!6wTzXNrzbEAg2z8G'

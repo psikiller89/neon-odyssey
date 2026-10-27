@@ -1,0 +1,54 @@
+_id: MpA4jdm06VRyzOF5
+name: Integrated Tool (Armor Module)
+type: loot
+img: icons/commodities/cloth/thread-spindle-white-needle.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 2500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>This armor module integrates a tool and necessary controls for it into your armor. Bypass tools, Electronics Tools, Engineer’s Tools, Spiking Deck, and Mechanic’s Tools are by far the most
+      common tools to integrate this way. The tool extends from the armor’s forearm, glove, or gauntlet.</p><p>You can install multiple Integrated Tool modules in a suit of armor, but you must choose different
+      tools for each module.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: integrated-tool
+effects: []
+folder: wwiINoc0nKMcIjvz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MpA4jdm06VRyzOF5'

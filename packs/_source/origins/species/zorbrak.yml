@@ -1,0 +1,114 @@
+_id: iEAHCzmKxKzDvj7r
+name: Zorbrak
+type: race
+img: modules/neon-odyssey/icons/species/zorbrak.webp
+system:
+  description:
+    value: <p>Zorbraks <em>(ZOR-brak)</em> are a bipedal insectile species that have mantis-like features and boast a secondary pair of powerful scythe-like appendages in addition to their arms. They are
+      the consummate hunters with a powerful predator’s instinct and the supernatural ability to stalk their prey. Zorbraks typically lack any sense of fear, allowing them to seek and kill the most dangerous
+      game across the galaxy without hesitation. Many are instilled with immense pride by the hunting trophies they have won over their lifetime and are driven by the desire to leave a legendary legacy.
+      Zorbrak body types range from hulking to lithe, and their carapace can come in a wide range of hues from earthy to vibrant. They typically have a protruding, jagged maw and two sensory antennae, and
+      they sometimes grow chitinous tendrils from their head.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    hhvsmkLyS7zAvPAt:
+      _id: hhvsmkLyS7zAvPAt
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–7 feet tall)
+      value: {}
+      title: ''
+    15mR4E7JrqJxHnma:
+      _id: 15mR4E7JrqJxHnma
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.6sBkKmFm6amky6vL
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.2OQoijLP9lJPFjX6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hsiCVgMO2zb7vswA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.i3KdyGIS0njH7Xnp
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.VkOjVMvyM7jiHYlH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.TAcWDEPJqPlO09fv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Zorbrak Traits
+    kQ6vq5UuolOEShh7:
+      _id: kQ6vq5UuolOEShh7
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:prc
+          - skills:ste
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      climb: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: zorbrak
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!iEAHCzmKxKzDvj7r'

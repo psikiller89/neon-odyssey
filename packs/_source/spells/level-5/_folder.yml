@@ -1,0 +1,20 @@
+name: Level 5
+sorting: a
+folder: null
+type: Item
+_id: KWpE1CiC6PgaF2z3
+description: ''
+sort: 5000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!KWpE1CiC6PgaF2z3'

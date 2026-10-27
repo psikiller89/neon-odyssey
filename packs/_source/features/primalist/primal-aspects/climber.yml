@@ -1,0 +1,49 @@
+_id: MD70RBCHUM8lJGQP
+name: Climber
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You gain a Climb Speed equal to your Speed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalAspect
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: climber
+  advancement: {}
+effects: []
+folder: 6paiNqmrbvrvrO5j
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MD70RBCHUM8lJGQP'

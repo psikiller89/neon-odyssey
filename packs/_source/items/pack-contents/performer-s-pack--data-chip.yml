@@ -1,0 +1,54 @@
+_id: RWTk80ij1H7u4dlr
+name: Data Chip
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 125
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: UkkQ5CtN1WjfrVYc
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Data Chip is a digital storage unit easily held in the palm of a hand. You can insert the chip into Datapads, computers, or other devices to access, transfer, and store information. A standard
+      Data Chip can store 4,000 pages of simple, text-only data—about 100 books worth. The same device can hold 400 photos or other still images, 200 hours of audio, 48 hours of high-definition video, or
+      3 Complex Programs.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: data-chip
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RWTk80ij1H7u4dlr'

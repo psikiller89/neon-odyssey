@@ -1,0 +1,78 @@
+_id: BbOdracKIPf83tnG
+name: Whispered Influence
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your whispers cut deep, and your commands linger unnoticed until triggered. You can cast <em>Mass Suggestion</em> once without a spell slot, and you regain the ability to do so when you finish
+      a Long Rest.</p><p>When a target fails its saving throw against a <em>Suggestion</em> or <em>Mass Suggestion</em> spell you cast, you can modify the spell to linger on the target without effect for
+      up to 1 year. When you modify the spell in this way, you can specify a triggering event that causes the spell to then take effect on the target. The event must be perceptible to the targets, so it
+      can’t include game statistics that aren’t apparent such as a creature’s alignment or uncommunicated attitudes. When the target perceives the specified trigger, the spell takes effect for its full
+      duration, no Concentration required.</p><p>You can have one lingering <em>Suggestion</em> and <em>Mass Suggestion</em> spell each using this feature at a time. If you cast one of those spells using
+      this feature a second time, the first embedded instance of that spell ends without effect.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Shadowtongue Cryptist
+  activities: {}
+  enchant: {}
+  identifier: whispered-influence
+  advancement:
+    YsWodPLVckrplfAQ:
+      _id: YsWodPLVckrplfAQ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMassSugges
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 14
+      title: Whispered Influence
+      hint: ''
+effects: []
+folder: RFmJWYeRQQ3zwzgZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BbOdracKIPf83tnG'

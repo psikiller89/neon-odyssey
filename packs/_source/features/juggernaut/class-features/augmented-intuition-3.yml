@@ -1,0 +1,157 @@
+_id: dN7EJ9GCI34uPIMi
+name: Augmented Intuition
+type: feat
+img: icons/creatures/birds/raptor-owl-flying-moon.webp
+system:
+  description:
+    value: '<p>You can focus the power coursing through you, honing your agility, bearing, and senses. You gain proficiency in another skill of your choice from the skill list available to Juggernauts at
+      level 1. +2 Hardened Form, Surge, Weapon Mastery 2 +2 2 +2 Amplified Reflexes, Unstable Assault 2 +2 2 +2 Augmented Intuition, Juggernaut Subclass 3 +2 2 +2 Ability Score Improvement 3 +2 3 +3 Driving
+      Momentum, Extra Attack 3 +2 3 +3 Subclass feature 4 +2 3 +3 Acceleration Burst, Heightened Awareness 4 +2 3 +3 Ability Score Improvement 4 +2 3 +4 Kinetic Impact 4 +3 3 +4 Subclass feature 4 +3 4
+      +4 Unstoppable Force 4 +3 4 +4 Ability Score Improvement 5 +3 4 +5 Kinetic Expansion 5 +3 4 +5 Subclass feature 5 +3 4 +5 Surging Core 5 +3 4 +5 Ability Score Improvement 5 +4 4 +6 Kinetic Overload
+      6 +4 4 +6 Overcharged Might 6 +4 4 +6 Epic Boon 6 +4 4 +6 Shattered Limits 6 +4 4</p><p>In addition, while your Surge is active, you can channel inner power when you attempt certain tasks; whenever
+      you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Medicine, Perception, Stealth,
+      or Survival.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: augmented-intuition
+  advancement:
+    n7u8pfM928PJ8Mkd:
+      _id: n7u8pfM928PJ8Mkd
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ani
+          - skills:ath
+          - skills:itm
+          - skills:nat
+          - skills:prc
+          - skills:sur
+      value:
+        chosen: []
+      level: 3
+      hint: You gain proficiency in another skill of your choice from the skill list available to Barbarians at level 1.
+      flags: {}
+      name: Primal Knowledge
+  crewed: false
+effects:
+- name: Primal Knowledge
+  img: icons/creatures/birds/raptor-owl-flying-moon.webp
+  _id: ufbJRsGGW3REMmJm
+  type: base
+  system:
+    changes:
+    - key: system.skills.acr.roll.bonus
+      value: max(0, @abilities.str.mod - @mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: 6lRF6fjrziyY9FC8
+      conditions: '{}'
+      replacement: ''
+    - key: system.skills.itm.roll.bonus
+      value: max(0, @abilities.str.mod - @mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: 6axbAhDGHvndBwiD
+      conditions: '{}'
+      replacement: ''
+    - key: system.skills.prc.roll.bonus
+      value: max(0, @abilities.str.mod - @mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: 9rrYaEKT9UBhNIsP
+      conditions: '{}'
+      replacement: ''
+    - key: system.skills.ste.roll.bonus
+      value: max(0, @abilities.str.mod - @mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: Fo7CXzG7LjJ89Grc
+      conditions: '{}'
+      replacement: ''
+    - key: system.skills.sur.roll.bonus
+      value: max(0, @abilities.str.mod - @mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: Uz8OSIQyj1Z8zzcd
+      conditions: '{}'
+      replacement: ''
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  origin: Compendium.neon-odyssey.features.Item.dN7EJ9GCI34uPIMi
+  tint: '#ffffff'
+  transfer: false
+  statuses: []
+  sort: 0
+  flags: {}
+  start:
+    combat: null
+    round: null
+    time: 0
+    turn: null
+    combatant: null
+    initiative: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!dN7EJ9GCI34uPIMi.ufbJRsGGW3REMmJm'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!dN7EJ9GCI34uPIMi'

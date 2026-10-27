@@ -1,0 +1,155 @@
+_id: l7exvNzvRpywADGa
+name: Cacophonous Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Cryptist level specified in the Cacophonous Spells table, you thereafter always have the listed Cacophony spells and the spells for your tone of discord prepared.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cacophonous Cryptist
+  activities: {}
+  enchant: {}
+  identifier: cacophonous-spells
+  advancement:
+    T4Qy5uIuRkEEvaD7:
+      _id: T4Qy5uIuRkEEvaD7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilence000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Cacophonous Spells
+      hint: ''
+    D6Cc09ass0kfEbAZ:
+      _id: D6Cc09ass0kfEbAZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Cacophonous Spells
+      hint: ''
+    4cnXqO62jI8HjqH8:
+      _id: 4cnXqO62jI8HjqH8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Cacophonous Spells
+      hint: ''
+    aMW7OXYY2EXOPH3N:
+      _id: aMW7OXYY2EXOPH3N
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.iOfnFrOwpKHYKuOc
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Cacophonous Spells
+      hint: ''
+effects: []
+folder: T4nBRlumg2E718hz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!l7exvNzvRpywADGa'

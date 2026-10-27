@@ -1,0 +1,109 @@
+_id: UbqvcHPuiJBx9uTm
+name: Gridline Trail
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The inner code of the Hypergrid follows you wherever you go. While your Hardlight Armory is active, you can leave a trail of damaging energy behind. When you move to a space within 5 feet
+      of an enemy during this time, you can deal 1d6 Lightning damage to it. A creature takes this damage only once per turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cybertronic Gridrunner
+  activities:
+    WONSDMVlwfszKZAb:
+      _id: WONSDMVlwfszKZAb
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: gridline-trail
+  advancement: {}
+effects: []
+folder: 5VLOMVrwRFpYo4cB
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UbqvcHPuiJBx9uTm'

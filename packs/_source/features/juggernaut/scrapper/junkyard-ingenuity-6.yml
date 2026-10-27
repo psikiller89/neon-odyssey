@@ -1,0 +1,142 @@
+_id: 3ls0hK2NcKY3Q7lA
+name: Junkyard Ingenuity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can scrap together improvised tools to survive the deadly chaos around you. You gain one of the following options of your choice. When you finish a Long Rest, you can choose a different
+      option. You can activate the chosen option as part of the Bonus Action you take to activate or maintain your Surge.</p><p><strong>Dragline. </strong>While holding a weapon, you can fire a hook and
+      chain at a creature, object, or surface you can see within a range equal to your Speed. If the target is a creature up to one size larger than you, it must succeed on a Strength saving throw or have
+      the Grappled condition and be pulled to the nearest unoccupied space to you (you can maintain the grapple without a free hand while holding the weapon). If the target is an object up to one size larger
+      than you, it is automatically pulled in the same way.</p><p>If the target is larger than you or is a point on a surface, you can instead pull yourself to the nearest unoccupied space to the target.</p><p><strong>Boombounce.</strong>
+      You slam a weapon you’re holding into the ground and immediately jump as if you had a running start, and your jump distance is doubled. You can choose a number of allies up to your Strength modifier
+      (minimum of one creature) within 10 feet of you to jump the same distance you do.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Scrapper Juggernaut
+  activities:
+    DmL33lhVNBqKR881:
+      _id: DmL33lhVNBqKR881
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: M9Yuje8TxBB0lDB5
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: junkyard-ingenuity
+  advancement: {}
+effects:
+- _id: M9Yuje8TxBB0lDB5
+  name: Grappled
+  img: systems/dnd5e/icons/svg/statuses/grappled.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - grappled
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3ls0hK2NcKY3Q7lA.M9Yuje8TxBB0lDB5'
+folder: Lzdgh5AIn4r1NEZp
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3ls0hK2NcKY3Q7lA'

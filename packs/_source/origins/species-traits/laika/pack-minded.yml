@@ -1,0 +1,110 @@
+_id: IG3FsaNezuzdhQXw
+name: Pack Minded
+type: feat
+img: modules/neon-odyssey/icons/species/laika.webp
+folder: HxdiA1xDFFhCaHQ4
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When an ally you can see within 30 feet of yourself fails a D20 Test, you can take a Reaction to encourage that ally. The target adds 1d6 to the total, possibly turning the failure into a
+      success. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. Starting at character level 3, you and the target gain
+      an additional benefit determined by your Laika Lineage. You have Advantage on Intelligence, Wisdom, and Charisma saving throws. You and the ally you help each gain a number of Temporary Hit Points
+      equal to three times your Proficiency Bonus. When a creature damages you or your allies, you have Advantage on the next attack roll you make against that creature before the end of your next turn.
+      The next time you or the ally you help take damage within 1 minute, the target gains Resistance against that damage. Your Speed increases to 35 feet. You and the ally you help each have Advantage
+      on the next ability check or attack roll either of you make within the next minute.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Laika
+  activities:
+    2fjkuHYfJMbnFVGa:
+      _id: 2fjkuHYfJMbnFVGa
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - cha
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: pack-minded
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IG3FsaNezuzdhQXw'

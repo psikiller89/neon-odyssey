@@ -1,0 +1,177 @@
+_id: 8vS4zld7mFXw3vwz
+name: Monstrous Charge
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your rampaging energies smash obstacles out of your path. While your Surge is active, you gain the following benefits.</p><p><strong>Crash Through.</strong> Once per turn, you can move through
+      an object no larger than a 10-foot Cube. An unfixed object is pushed aside, and a fixed one is broken or bent out of your way. You can break through a wall or portion of a larger object with a successful
+      DC 20 Strength (Athletics) check. Objects and barriers without Hit Points, such as a <em>Wall of Force</em>, can’t be broken this way.</p><p><strong>Shattered Chains.</strong> You automatically succeed
+      on D20 Tests to avoid or end the Restrained condition.</p><p><strong>Toss Aside.</strong> You can move through a Hostile creature’s space as though it were Difficult Terrain. When you enter an enemy’s
+      space, it must succeed on a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or be pushed 5 feet away from you and have the Prone condition. A creature makes this save
+      only once per turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Rampager Juggernaut
+  activities:
+    UAcuyltoxAfh3e1Z:
+      _id: UAcuyltoxAfh3e1Z
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: zSZyiplUvKFcMu3d
+        onSave: false
+      - _id: R58jxyQ2GXTWWupM
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: monstrous-charge
+  advancement: {}
+effects:
+- _id: zSZyiplUvKFcMu3d
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!8vS4zld7mFXw3vwz.zSZyiplUvKFcMu3d'
+- _id: R58jxyQ2GXTWWupM
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!8vS4zld7mFXw3vwz.R58jxyQ2GXTWWupM'
+folder: hLU5UDAQzd80GlTj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!8vS4zld7mFXw3vwz'

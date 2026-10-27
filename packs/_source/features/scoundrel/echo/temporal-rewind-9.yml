@@ -1,0 +1,101 @@
+_id: 4fbn8T4SOJKaLipL
+name: Temporal Rewind
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You go back in time to undo wounds you’ve taken. When you take a Reaction as part of your Lucky Break feature or when you take no damage after a successful Dexterity saving throw from your
+      Agile Escape feature, you can expend and roll one Hit Point Die. You regain Hit Points equal to the number rolled plus your Dexterity modifier.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Echo Scoundrel
+  activities:
+    1tyMwuU0v2fObVqK:
+      _id: 1tyMwuU0v2fObVqK
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: dex
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: temporal-rewind
+  advancement: {}
+effects: []
+folder: FdzKYNMlQWd7KSiC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4fbn8T4SOJKaLipL'

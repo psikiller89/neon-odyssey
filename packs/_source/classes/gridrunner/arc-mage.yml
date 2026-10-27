@@ -1,0 +1,101 @@
+_id: p3FYpUxQHRuXcgdj
+name: Arc-Mage
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/arc-mage.webp
+system:
+  description:
+    value: <p><em>Command Elemental and Curative Arcade Magic</em> Arc-Mages are Gridrunners who plug into the video game realm of Arcadia, harnessing its digital origins to perform magic in the style of
+      classic arcanists. With staff, wand, or spellbook in hand, they unleash the elements upon their foes and cure the wounds of their allies by spending tokens of arcade magic. Through Arcadia’s influence,
+      Arc-Mage spells can sometimes appear entirely comprised of pixels and polygons, accompanied by melodic bleeps and bloops.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: arc-mage
+  classIdentifier: gridrunner
+  advancement:
+    rTXf7YEl9zoQVnjc:
+      _id: rTXf7YEl9zoQVnjc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.hpoZK3iFWHAjJK0L
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.4bZABRAeOguqEemP
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    x2zlsPJORQ9gza7M:
+      _id: x2zlsPJORQ9gza7M
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.aAFIIoZqZLw6zSm1
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    WayJ8peZSLWa6Km5:
+      _id: WayJ8peZSLWa6Km5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.N3Od8w2AXUlE0ohA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    fVgLPpGV3va4WRxi:
+      _id: fVgLPpGV3va4WRxi
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Qth4fqagbtXD6Db6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FRciaMbl0nqmWuaH
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!p3FYpUxQHRuXcgdj'

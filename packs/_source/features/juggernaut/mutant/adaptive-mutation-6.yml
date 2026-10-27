@@ -1,0 +1,52 @@
+_id: YlBcXbXqgry25RAf
+name: Adaptive Mutation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your mutation progresses, permanently changing your physiology with strange adaptations. You gain one of the following options. When you activate your Surge, you can change your selection.</p><p><strong>Amorphous.</strong>
+      Your body breaks down into formless sludge. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to end either the Grappled or Prone condition.</p><p><strong>Amphibious.</strong>
+      You gain a Swim Speed equal to your Speed, and you can breathe both air and water.</p><p><strong>Subterranean.</strong> You gain a Burrow Speed equal to your Speed.</p><p><strong>Clinging.</strong>
+      You gain a Climb Speed equal to your Speed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Mutant Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: adaptive-mutation
+  advancement: {}
+effects: []
+folder: pHst4AIH8mv1gllA
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!YlBcXbXqgry25RAf'

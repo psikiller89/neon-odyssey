@@ -1,0 +1,80 @@
+_id: EgRtB3bOYFQ8LdeC
+name: Perfect Alignment
+type: feat
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  description:
+    value: <p>You have perfected the union between your body and soul.</p><p><strong>Essence Absorption.</strong> When you reduce an attack’s damage to 0 with Centered Deflection, or when you succeed on
+      a saving throw, you regain 1 Essence Point. You can’t use this benefit again until the start of your next turn.</p><p><strong>Unified Being.</strong> Your Dexterity and Wisdom scores increase by 4,
+      to a maximum of 30.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: perfect-alignment
+  advancement:
+    Yj4v0ul6dJiogWZy:
+      type: AbilityScoreImprovement
+      _id: Yj4v0ul6dJiogWZy
+      configuration:
+        cap: 4
+        fixed:
+          str: 0
+          dex: 4
+          con: 0
+          int: 0
+          wis: 4
+          cha: 0
+        locked:
+        - str
+        - dex
+        - con
+        - int
+        - wis
+        - cha
+        points: 0
+        recommendation: null
+        max: 25
+      value:
+        type: asi
+      level: 20
+      hint: ''
+      name: ''
+      flags: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 200000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!EgRtB3bOYFQ8LdeC'

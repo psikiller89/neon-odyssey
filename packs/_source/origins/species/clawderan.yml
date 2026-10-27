@@ -1,0 +1,111 @@
+_id: rspYqc2zEEpqRbbN
+name: Clawderan
+type: race
+img: modules/neon-odyssey/icons/species/clawderan.webp
+system:
+  description:
+    value: <p>Clawderan <em>(klaw-DAIR-in)</em> are an energetic species of humanoids with feline traits and are known to take pride in proving themselves in combat and other physical pursuits. Many seek
+      glory to honor Myrmona the Paragon, the war goddess with whom they hold a cosmic connection. While many clawderan seek the galactic battlefronts across the Stardust Rhapsody, some prefer to show off
+      their athletic prowess through sports, dance, high-intensity industrial careers, and other such pursuits. Clawderan builds range from agile to brawny and come in a variety of body and fur types, their
+      feline traits resembling the full spectrum of cats both great and small. They typically have a short layer of fur across their bodies, with the notable exceptions being their manes, tails, and fluffy
+      tufts that might grow on their torso or limbs.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    kNoW7R77wVw8vwdF:
+      _id: kNoW7R77wVw8vwdF
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    yMBonbg7HH9sEv3m:
+      _id: yMBonbg7HH9sEv3m
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.FcDwq3RR4BYwNLUi
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.WNAPNl8BdqgCYK9m
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.0QxiRZHnvr505a3p
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.1Z3z79pgsrRazUNZ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.G3uKNBGkPzANdqX4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Clawderan Traits
+    MpRAY45AVZdhri3R:
+      _id: MpRAY45AVZdhri3R
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:acr
+          - skills:ath
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '35'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: clawderan
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rspYqc2zEEpqRbbN'

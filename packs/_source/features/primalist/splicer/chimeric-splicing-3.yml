@@ -1,0 +1,128 @@
+_id: i8IgtcxdA4nqPMm3
+name: Chimeric Splicing
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You fuse your DNA with alien biology and primordial power. You gain the following benefits.</p><p><strong>Accelerated Adaptation.</strong> You count your Primalist level as 2 higher when
+      determining the Primal Aspects you qualify for.</p><p><strong>Extra Aspect.</strong> When you assume a Primal Form, you can choose one additional Primal Aspect.</p><p><strong>Spliced Body.</strong>
+      When you assume a Primal Form, you can retain your basic body shape, but you otherwise use the Primal Form statistics as normal. You can cast spells and use your equipment while retaining your own
+      shape, and you can’t choose a form size smaller than your normal size. If you increase in size while retaining your shape, your equipment grows with you.</p><p>Starting at level 18, while in a Primal
+      Form, when you cast a spell from the Abjuration school that has a casting time of an action, you can cast it as a Bonus Action instead.</p><p><strong>Strange Biodiversity.</strong> You add the following
+      Primal Aspects to your list of options:</p><ul><li><p><strong>Barbed Spines</strong> <em>Prerequisite: Level 3+ Splicer</em> You gain the following Reaction.</p></li><li><p><strong>Grasping Tendril</strong>
+      <em>Prerequisite: Level 3+ Splicer</em> You grow a pseudopod, tentacle, or similar appendage you can use to make Unarmed Strikes. Your reach with it is 10 feet, you use your Wisdom in place of Strength
+      for attack and damage rolls, and it deals 1d6 Bludgeoning damage instead of the normal damage for an Unarmed Strike. The save DC for the Grapple and Shove options using this strike is your spell save
+      DC.</p></li><li><p><strong>Noxious</strong> <em>Prerequisite: Level 3+ Splicer</em> A creature that starts its turn in a 5-foot Emanation originating from you takes 1d6 Poison damage.</p></li></ul>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Splicer Primalist
+  activities:
+    BJE6WxGIDlIcLe4u:
+      _id: BJE6WxGIDlIcLe4u
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - poison
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: chimeric-splicing
+  advancement: {}
+effects: []
+folder: osfCE3XmJgJuQ0v7
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!i8IgtcxdA4nqPMm3'

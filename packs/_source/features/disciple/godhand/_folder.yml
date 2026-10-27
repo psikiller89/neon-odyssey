@@ -1,0 +1,20 @@
+name: Godhand Disciple
+sorting: a
+folder: PpkYtT2LyMvbicWL
+type: Item
+_id: Nhk9pe5HQ8Aa5HxI
+description: ''
+sort: 50
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!Nhk9pe5HQ8Aa5HxI'

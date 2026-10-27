@@ -1,0 +1,50 @@
+_id: fmp5W3EF99wGvLQc
+name: Full-System Upgrade
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You replace more of your flesh with cybernetics. You enhance your body with all four Tactical Cybernetics implants at once.</p><p>In addition, your optics are fitted with enhanced targeting
+      sensors. While your Peacekeeper is active, you gain Advantage on attack rolls against creatures that dealt damage to you or an ally since the end of your last turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities: {}
+  enchant: {}
+  identifier: full-system-upgrade
+  advancement: {}
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fmp5W3EF99wGvLQc'

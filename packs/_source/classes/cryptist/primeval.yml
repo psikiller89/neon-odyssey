@@ -1,0 +1,104 @@
+_id: 8n7sU1C7Fb3XVfty
+name: Primeval
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/primeval.webp
+system:
+  description:
+    value: <p><em>Unleash the Elemental Calamity of Natural Disasters</em> The Primeval are Cryptists who uncover the archaic mysteries of the untamed elemental chaos that still rages since the song of
+      creation was first sung. They call forth the unbowed primordial wrath seen in natural disasters and brutal environments, unleashing formidable blizzards and devastating volcanic eruptions against
+      those in their path. The Primeval are most at home in the remote and wild reaches of the galaxy amongst the prehistoric ruins they study, but some seek out the neon lights of civilization.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: primeval
+  classIdentifier: cryptist
+  advancement:
+    7VrtW01ZS8zGOd00:
+      _id: 7VrtW01ZS8zGOd00
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4DBToNQKUWPeQRnn
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.W0zNxF3cvQlBGuQg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.w18qRBbihf96lQ46
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    6heJig7kuqGheGA8:
+      _id: 6heJig7kuqGheGA8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.68yflnGLyKPMn5sx
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    r0i1ZyKr3NQWpQku:
+      _id: r0i1ZyKr3NQWpQku
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.I6fxmZf48Y0JPJbk
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    UqPONf6g7lYATIB5:
+      _id: UqPONf6g7lYATIB5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.eutxTvRoUMHgExno
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: V33SdDpvnwMZjPPw
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!8n7sU1C7Fb3XVfty'

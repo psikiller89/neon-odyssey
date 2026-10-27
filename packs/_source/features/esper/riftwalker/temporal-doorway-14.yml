@@ -1,0 +1,115 @@
+_id: jGWr42CkXs3DAUsZ
+name: Temporal Doorway
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your rifts in spacetime linger. When you teleport using your Rift Walk feature, you can choose to leave persistent rifts in your starting and destination spaces. The rifts remain for 1 minute,
+      or until you create more. When a creature enters the space of a rift, it is affected depending on whether it is your ally or your enemy. A creature is affected by the rifts only once per turn.</p><p><strong>Ally.</strong>
+      The creature teleports to the other rift, and its Speed increases by 10 feet until the start of its next turn.</p><p><strong>Enemy.</strong> The creature makes a Charisma saving throw against your
+      spell save DC. On a failed save, the creature takes 2d10 Force damage, and you can cause it to teleport to the other rift. On a successful save, it takes half as much damage only.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riftwalker Esper
+  activities:
+    659z8XoscUrZz42g:
+      _id: 659z8XoscUrZz42g
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: temporal-doorway
+  advancement: {}
+effects: []
+folder: DitCL3G22RycGBNb
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jGWr42CkXs3DAUsZ'

@@ -1,0 +1,20 @@
+name: Eternal Juggernaut
+sorting: a
+folder: ChlAkyosB3yvCTTT
+type: Item
+_id: m9J3z6dsJoJabIPZ
+description: ''
+sort: 52
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!m9J3z6dsJoJabIPZ'

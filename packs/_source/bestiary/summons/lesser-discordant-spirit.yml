@@ -1,0 +1,646 @@
+_id: 8AKcKqTlG6qo0Yzp
+name: Lesser Discordant Spirit
+type: npc
+img: icons/svg/mystery-man.svg
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 13
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 16
+      proficient: 0
+  attributes:
+    ac:
+      flat: 11
+      calc: natural
+    hp:
+      value: 20
+      max: 20
+      formula: Entropy and Progress only
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      fly: '40'
+      climb: '30'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: 60
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: fiend
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: <p>Summoned creature from Neon Odyssey (page 178).</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value:
+      - acid
+      - lightning
+    di:
+      value: []
+    ci:
+      value:
+      - poisoned
+    languages:
+      value: []
+      custom: Dissonant; telepathy 60 ft.
+  skills: {}
+items:
+- _id: WB5o8tqMeaA4bQOV
+  name: Death Burst
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Constitution Saving Throw: DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit when it dies. Failure: 2d6 + the spell’s level Acid (Instinct only),
+        Necrotic (Entropy only), Lightning (Progress only), or Thunder (Thrill only) damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: death-burst
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.WB5o8tqMeaA4bQOV'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 8Nm26t9cspGQwdKk
+  name: Flyby
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The spirit doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: flyby
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.8Nm26t9cspGQwdKk'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: F19OLPHDM1XIvIPM
+  name: Magic Resistance
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The spirit has Advantage on saving throws against spells and other magical effects.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: magic-resistance
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.F19OLPHDM1XIvIPM'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: f5qnSOJfk4SlrPAO
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The spirit makes a number of attacks equal to half this spell’s level (round down).</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      5R89ERC6iUeVUXUc:
+        _id: 5R89ERC6iUeVUXUc
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.f5qnSOJfk4SlrPAO'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: X1WFoNrejQR1AKee
+  name: Cackling Cling
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. or range 60 ft. Hit: 2d6 + 2 + the spell’s level Psychic damage, and the spirit attaches to the target.
+        While attached, the target takes 2d6 Psychic damage at the start of each of the spirit’s turns. The spirit can detach itself by spending 5 feet of its movement. The target or a creature within 5
+        feet of it can detach the spirit as an action.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      JW6U0NVDwdeQu7kh:
+        _id: JW6U0NVDwdeQu7kh
+        type: damage
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        damage:
+          critical:
+            allow: false
+            bonus: ''
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: cackling-cling
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.X1WFoNrejQR1AKee'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: SIlMfAwKdNpaSUAo
+  name: Chilling Bite
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 2d6 + 2 + the spell’s level Cold damage, and the target’s Speed is reduced by 10 feet until the start of the
+        spirit’s next turn.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      9JfDLe3JKVL2zHcH:
+        _id: 9JfDLe3JKVL2zHcH
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: chilling-bite
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.SIlMfAwKdNpaSUAo'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: uUtlVZ0KIPyEsD7w
+  name: Corrosive Spit
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. or range 60 ft. Hit: 2d8 + 2 + the spell’s level Acid damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      1ezjempVwCFAMD4h:
+        _id: 1ezjempVwCFAMD4h
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: corrosive-spit
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.uUtlVZ0KIPyEsD7w'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: J6YA1JWv7vNmqMCH
+  name: Tractor Beam
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. or range 60 ft. Hit: 2d6 + 2 + the spell’s level Lightning damage. If the target is a Large or smaller
+        creature, it is pulled up to 15 feet toward the spirit.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      B5T35huYzpmI6QNF:
+        _id: B5T35huYzpmI6QNF
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: tractor-beam
+  _key: '!actors.items!8AKcKqTlG6qo0Yzp.J6YA1JWv7vNmqMCH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Lesser Discordant Spirit
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!8AKcKqTlG6qo0Yzp'

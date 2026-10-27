@@ -1,0 +1,90 @@
+_id: kVmbWmFjIVJMp0l5
+name: Stardust Human
+type: race
+img: modules/neon-odyssey/icons/species/stardust-human.webp
+system:
+  description:
+    value: <p>Humans are the most populous species of the Stardust Rhapsody by a wide margin, and they can be found on virtually every habitable planet across the galaxy. They have no singular homeworld,
+      and legend says that they simply stepped out of the Harmony on all worlds simultaneously one day. They are highly adaptable and can make a comfortable life no matter where they’re from or where they
+      choose to settle down. In the face of trials, tribulations, and hardships, the indomitable human spirit oftentimes prevails, allowing them to overcome whatever challenges they face and complete whatever
+      hero’s journey they are set on by fate. Humans are as diverse in appearance as they are in personality, and come in all shapes, sizes, colors, and physical attributes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    jG1F4VRUCcJQFzoO:
+      _id: jG1F4VRUCcJQFzoO
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall) chosen when you select this species
+      value: {}
+      title: ''
+    LaF0I2T1gMhhVzqm:
+      _id: LaF0I2T1gMhhVzqm
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.nq9XOgV1iZfVucFd
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.67p9P2HpTKrT0GWN
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Q86dpumlz0Wm1nEl
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.7JmGrpZmeOpXSIBn
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Stardust Human Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: stardust-human
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kVmbWmFjIVJMp0l5'

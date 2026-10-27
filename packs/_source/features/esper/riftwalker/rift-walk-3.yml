@@ -1,0 +1,52 @@
+_id: HdrdGM0qkTJ5FHoR
+name: Rift Walk
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You open a tear in spacetime and step through. Once on your turn while your Unbound Psyche feature is active, if your Speed isn’t 0 you can teleport up to 10 feet to an unoccupied space you
+      can see (no action required). When you do so, choose a creature you can see within 10 feet of your starting or destination space. The target’s Speed increases or decreases (your choice) by 10 feet
+      until the start of your next turn.</p><p>The distance you can teleport and the amount you can modify another creature’s Speed each increase by 10 feet when you reach Esper levels 6 (20 feet) and 14
+      (30 feet).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riftwalker Esper
+  activities: {}
+  enchant: {}
+  identifier: rift-walk
+  advancement: {}
+effects: []
+folder: DitCL3G22RycGBNb
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!HdrdGM0qkTJ5FHoR'

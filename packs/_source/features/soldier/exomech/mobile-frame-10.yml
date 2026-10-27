@@ -1,0 +1,104 @@
+_id: oEKJrkmhxhMLVvze
+name: Mobile Frame
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You upgrade your exosuit with utility and traversal systems, granting you the following benefits while piloting it.</p><p><strong>Compression Form.</strong> As a Bonus Action, you can engage
+      miniaturization systems. For 1 minute, you ignore the Hulking Form feature of your Bonded Exosuit. Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</p><p><strong>Thruster
+      Jets.</strong> You can expend 10 feet of movement to jump up to 30 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Exomech Soldier
+  activities:
+    CHiyYHH2y8FkHyKp:
+      _id: CHiyYHH2y8FkHyKp
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: mobile-frame
+  advancement: {}
+effects: []
+folder: X91gcBRCD5t5HCHj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!oEKJrkmhxhMLVvze'

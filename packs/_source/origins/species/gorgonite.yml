@@ -1,0 +1,115 @@
+_id: 9RMkJao7hu1iAoaF
+name: Gorgonite
+type: race
+img: modules/neon-odyssey/icons/species/gorgonite.webp
+system:
+  description:
+    value: <p>Gorgonites (<em>GOR-guh-nite</em>) are a species of serpentinefeatured humanoids that emerged from toxic jungles of beautiful but highly venomous flora and fauna. This has made them highly
+      adapted to surviving poisonous environments and all of the threats within, in no small part to their powerful magical gaze. Many of them have a deep appreciation for the balance of beauty and danger,
+      accepting them as equal and necessary halves to a life truly lived. This can lead them to seek out death-defying opportunities across the galaxy. Gorgonites have a skin of soft scales that range from
+      earthy to vivid, with all manner of patterning. Instead of hair, gorgonites possess tendrils atop their head that resemble snake tails, which can be shaped into a variety of styles.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    O7S90uehOGKq05eN:
+      _id: O7S90uehOGKq05eN
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–6 feet tall)
+      value: {}
+      title: ''
+    mGW68Eun6TRAWXjC:
+      _id: mGW68Eun6TRAWXjC
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.xTsN3LEpS7oN37DS
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.BEU9EejKRNG4G3Z0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.lqNqrPUt1Q3N5ZWB
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.1nyY0CWQ3FkxRQ5A
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.dDxDCnR1lxDPPDtM
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hcG5Oi2ppXzjKkRI
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.UtQbkUOkxwk0mT7T
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Gorgonite Traits
+    uqQXZweykyY77RVV:
+      _id: uqQXZweykyY77RVV
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ins
+          - skills:prc
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: gorgonite
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!9RMkJao7hu1iAoaF'

@@ -1,0 +1,87 @@
+_id: XFqE8XYMwERM7V3F
+name: Remix
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/remix.webp
+system:
+  description:
+    value: <p><em>Flow Freely with Rhythm, Speed, and Style</em> Remixes are the champions of free expression, constantly reinventing rhythms that keep their movement and magic flowing. They set the tempo
+      of every scrap, pumping up allies and throwing enemies off beat. Many of these Icons express themselves through hip-hop, funk, or electronic music, but others find their rhythm through graffiti, breakdancing,
+      parkour, and various styles of street art.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: remix
+  classIdentifier: icon
+  advancement:
+    Xd1ZwBEIXeUgNrEo:
+      _id: Xd1ZwBEIXeUgNrEo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.DiqpCbK8XRA4LsQJ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.OqHZ1kZNeFLoUT4x
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    9meIptZdS32anQWc:
+      _id: 9meIptZdS32anQWc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Mda9pZNwnGTGPSbA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    2ZU6J6RVFrPFKiiy:
+      _id: 2ZU6J6RVFrPFKiiy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.58T6fAJ9KEA9YYoO
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: iTtWgDdgkKnLdWfc
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!XFqE8XYMwERM7V3F'

@@ -1,0 +1,50 @@
+_id: 9RFRw1cWCJWjzlOo
+name: Inescapable End
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your foes cannot easily escape their fate. When you cast <em>Hex</em>, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that
+      casting.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Deepsworn Cryptist
+  activities: {}
+  enchant: {}
+  identifier: inescapable-end
+  advancement: {}
+effects: []
+folder: eLWbUPabyo7jvGuT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!9RFRw1cWCJWjzlOo'

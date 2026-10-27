@@ -1,0 +1,308 @@
+_id: xXOntmAfRyXg0XPF
+name: Autonomous Assistant
+type: npc
+img: icons/svg/mystery-man.svg
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 4
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 6
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 2
+      max: 2
+      formula: 1d4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '20'
+      fly: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: <p>Summoned creature from Neon Odyssey (page 164).</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value: []
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - exhaustion
+      - poisoned
+    languages:
+      value: []
+      custom: Telepathy 100 ft. (works only with you)
+  skills: {}
+items:
+- _id: GdqNZblY6cERFs8J
+  name: Limited Playback
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The assistant can store up to 10 short phrases, and can speak them in a language you know. As a Magic action while you are within range of the assistant’s telepathy, you can change a phrase
+        to a new one.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: limited-playback
+  _key: '!actors.items!xXOntmAfRyXg0XPF.GdqNZblY6cERFs8J'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: PA8ICLGc8gb7okSr
+  name: Action
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The assistant takes an action other than the Attack action.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      6t63K9DpVdfms9xp:
+        _id: 6t63K9DpVdfms9xp
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: action
+  _key: '!actors.items!xXOntmAfRyXg0XPF.PA8ICLGc8gb7okSr'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: EjarJQIulcpSYrJE
+  name: Channel Magic
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: You cast a spell that has a range of touch while the assistant is within 100 feet of you. Response: The assistant delivers the spell through its touch.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      ol0avHYjqWlcdFs4:
+        _id: ol0avHYjqWlcdFs4
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: channel-magic
+  _key: '!actors.items!xXOntmAfRyXg0XPF.EjarJQIulcpSYrJE'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Autonomous Assistant
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!xXOntmAfRyXg0XPF'

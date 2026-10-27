@@ -1,0 +1,416 @@
+_id: 65DypJkONcSWgAPt
+name: Dirty Trick
+type: feat
+img: icons/skills/melee/blade-tip-acid-poison-green.webp
+system:
+  description:
+    value: '<p>You’re not above employing dirty tricks when you catch foes unaware. When you deal Cheap Shot damage, you can add one of the following Dirty Trick effects. Each effect has a die cost, which
+      is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack’s damage is dealt. For example, if
+      you add the Toxic Payload effect, remove 1d6 from the Cheap Shot’s damage before rolling.</p><p>If a Dirty Trick effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency
+      Bonus.</p><p><strong>Quick Getaway (Cost: 1d6).</strong> Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.</p><p><strong>Tendon Strike (Cost: 1d6).</strong>
+      If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition. +2 Cheap Shot, Expertise, Smuggler&#x27;s Slang, Weapon Mastery 1d6 +2 Slick Maneuver 1d6
+      +2 Scoundrel Subclass, Zero In 2d6 +2 Ability Score Improvement 2d6 +3 Dirty Trick, Lucky Break 3d6 +3 Expertise 3d6 +3 Agile Escape, Upper Hand 4d6 +3 Ability Score Improvement 4d6 +4 Subclass feature
+      5d6 +4 Ability Score Improvement 5d6 +4 Double Down 6d6 +4 Ability Score Improvement 6d6 +5 Subclass feature 7d6 +5 Dirty Deeds 7d6 +5 Sharp Wits 8d6 +5 Ability Score Improvement 8d6 +6 Subclass feature
+      9d6 +6 One Step Ahead 9d6 +6 Epic Boon 10d6 +6 Fortune Favored 10d6</p><p><strong>Toxic Payload (Cost: 1d6).</strong> You add a toxin to your strike, forcing the target to make a Constitution saving
+      throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.</p><p>To
+      use this effect, you must have a Toxin Kit on your person.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities:
+    n64fvJMT9fPUy7DH:
+      type: save
+      name: Poison
+      _id: n64fvJMT9fPUy7DH
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you deal Sneak Attack damage
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: RazTM6biKVtNtjEW
+        onSave: false
+      - _id: aSokON7x0hEW3JDJ
+        onSave: false
+      - _id: ovvUYkpVOPo2Ym1H
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 100000
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+        - con
+        dc:
+          calculation: dex
+          formula: ''
+    dWcCw1vTWRMx4YzD:
+      type: save
+      name: Trip
+      _id: dWcCw1vTWRMx4YzD
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you deal Snack Attack damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: La47n2N3VtECtnA9
+        onSave: false
+      - _id: aSokON7x0hEW3JDJ
+        onSave: false
+      - _id: ovvUYkpVOPo2Ym1H
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: Larger or smaller
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 200000
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: dex
+          formula: ''
+    jR7KqMuPOZYUCDyO:
+      type: damage
+      name: Cunning Sneak Attack
+      _id: jR7KqMuPOZYUCDyO
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you deal Sneak Attack damage
+      consumption:
+        scaling:
+          allowed: true
+          max: '@scale.scoundrel.sneak-attack.number'
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: aSokON7x0hEW3JDJ
+        onSave: false
+      - _id: ovvUYkpVOPo2Ym1H
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 400000
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - custom:
+            enabled: true
+            formula: (@scale.scoundrel.sneak-attack.number - @scaling)d6
+          number: null
+          denomination: 0
+          bonus: ''
+          types:
+          - acid
+          - bludgeoning
+          - cold
+          - fire
+          - force
+          - lightning
+          - necrotic
+          - piercing
+          - poison
+          - psychic
+          - radiant
+          - slashing
+          - thunder
+          scaling:
+            mode: ''
+            number: 1
+    m2bRZ1YeD3yf9nV7:
+      type: utility
+      name: Withdraw
+      _id: m2bRZ1YeD3yf9nV7
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: When you deal Sneak Attack damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: aSokON7x0hEW3JDJ
+        onSave: false
+      - _id: ovvUYkpVOPo2Ym1H
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 300000
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  enchant: {}
+  identifier: dirty-trick
+effects:
+- name: 'Cunning Strike: Poisoned'
+  img: icons/skills/melee/blade-tip-acid-poison-green.webp
+  origin: Compendium.neon-odyssey.features.Item.65DypJkONcSWgAPt
+  transfer: false
+  _id: RazTM6biKVtNtjEW
+  type: base
+  system:
+    changes: []
+  disabled: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>On a failed save, the target has the Poisoned condition for 1 minute.</p>
+  tint: '#ffffff'
+  statuses:
+  - poisoned
+  sort: 0
+  flags: {}
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!65DypJkONcSWgAPt.RazTM6biKVtNtjEW'
+- name: 'Cunning Strike: Tripped'
+  img: icons/skills/melee/blade-tip-acid-poison-green.webp
+  origin: Compendium.neon-odyssey.features.Item.65DypJkONcSWgAPt
+  transfer: false
+  _id: La47n2N3VtECtnA9
+  type: base
+  system:
+    changes: []
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses:
+  - prone
+  sort: 0
+  flags: {}
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!65DypJkONcSWgAPt.La47n2N3VtECtnA9'
+- _id: aSokON7x0hEW3JDJ
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!65DypJkONcSWgAPt.aSokON7x0hEW3JDJ'
+- _id: ovvUYkpVOPo2Ym1H
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!65DypJkONcSWgAPt.ovvUYkpVOPo2Ym1H'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!65DypJkONcSWgAPt'

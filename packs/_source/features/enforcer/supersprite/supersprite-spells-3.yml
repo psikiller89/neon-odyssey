@@ -1,0 +1,169 @@
+_id: z7tILZNpnDNCja9P
+name: Supersprite Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>The magic of Arcadia is yours to command. When you reach an Enforcer level specified in the Supersprite Spells table, you thereafter always have the listed spells prepared. <em>Heroism</em>,
+      <em>Jump</em> <em>Aid</em>, <em>Blur</em> <em>Blink</em>, <em>Haste</em> <em>Freedom of Movement</em>, <em>Temporal </em> <em>Lifeline</em>* <em>Flame Strike</em>, <em>Hardlight Strikes</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Supersprite Enforcer
+  activities: {}
+  enchant: {}
+  identifier: supersprite-spells
+  advancement:
+    vsjAkK4KvTXl9tiH:
+      _id: vsjAkK4KvTXl9tiH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHeroism000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplJump000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Supersprite Spells
+      hint: ''
+    Kt85HxNdnCLDLhZU:
+      _id: Kt85HxNdnCLDLhZU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlur000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Supersprite Spells
+      hint: ''
+    9miKTv5qe4cMdJaf:
+      _id: 9miKTv5qe4cMdJaf
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlink00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Supersprite Spells
+      hint: ''
+    bL8mZaSF0oDExpc5:
+      _id: bL8mZaSF0oDExpc5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Supersprite Spells
+      hint: ''
+    NXIOTCx2LhdnbuuX:
+      _id: NXIOTCx2LhdnbuuX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.mcZewDsqTqiFOTyA
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Supersprite Spells
+      hint: ''
+effects: []
+folder: DYc5L750iJ36XVct
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!z7tILZNpnDNCja9P'

@@ -1,0 +1,107 @@
+_id: B44sj0M5CN6IqgXF
+name: Psychonaut
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/psychonaut.webp
+system:
+  description:
+    value: <p><em>Dive into Mindscapes to Fracture Identity</em> Psychonauts are navigators of thought, voyaging into the minds of others to alter perception, emotion, and even identity. These Espers are
+      master telepaths who effortlessly explore mindscapes, traversing ideas and memories to reshape reality or shatter the very psyche of their enemies. Some Psychonauts use their gifts to guide troubled
+      minds through healing memory, while others command mesmerized minions whose identities have been lost in an endless dream.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: psychonaut
+  classIdentifier: esper
+  advancement:
+    oR6UF7S9ta2izXH2:
+      _id: oR6UF7S9ta2izXH2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.kiBdcJwSvvwcjycG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.z0z3nC6ToXjLEsEo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.tkr9rf7iq4rSYSsb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    tTCmRHaaOlV5H8aw:
+      _id: tTCmRHaaOlV5H8aw
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.aiS9YAIa4HYkC9dK
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.RKC1uD4wnwsEJ1u6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    G3WAhABIT8puoJQv:
+      _id: G3WAhABIT8puoJQv
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.72tGqaM8r4P0Hvaj
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    2Q8dXk9JxJOOfqZ4:
+      _id: 2Q8dXk9JxJOOfqZ4
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.vD9LwBjcdbars2Aj
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: ddSGGMi8xJuRURTI
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!B44sj0M5CN6IqgXF'

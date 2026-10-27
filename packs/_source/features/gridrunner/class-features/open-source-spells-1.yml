@@ -1,0 +1,52 @@
+_id: N4nuCIef6X6i5oZC
+name: Open-Source Spells
+type: feat
+img: icons/sundries/scrolls/scroll-yellow-teal.webp
+system:
+  description:
+    value: <p>Unlike the code that Gridrunners typically run to cast their spells, some spells run through an archaic script called a ritual. You can cast any spell as a Ritual if that spell has the Ritual
+      tag and the spell is in your hyperpad. You needn’t have the spell prepared, but you must use the pad as a focus (even if the spell requires no Material components) to cast a spell in this way.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: open-source-spells
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: vpRfQY6bZevS9uKl
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!N4nuCIef6X6i5oZC'

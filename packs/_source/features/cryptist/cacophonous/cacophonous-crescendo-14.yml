@@ -1,0 +1,149 @@
+_id: C5U0uvMHhzBEbNWs
+name: Cacophonous Crescendo
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can now tear a rift in the fabric of the galaxy and usher in Cacophony. You can use one of the options below. Once you use this feature, you can’t do so again until you finish a Long Rest.</p><p><strong>Cacophony
+      Breach.</strong> You can cast <em>Summon Discordant</em>* (your chosen tone only) once without a spell slot or Material components, and you regain the ability to do so when you finish a Long Rest.
+      When you cast the spell in this way, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting, and when summoned, the Fiend
+      has a number of Temporary Hit Points equal to your Cryptist level plus your Occult Magic spellcasting ability modifier.</p><p><strong>Discordant Ascension.</strong> As a Bonus Action, you consume
+      a torrent of discordant energy and transform for 1 minute, gaining the following benefits:</p><ul><li><p>Your creature type becomes Fiend.</p></li><li><p>You have a +2 bonus to AC.</p></li><li><p>You
+      have Immunity to Necrotic damage and the damage type associated with your discordant tone.</p></li><li><p>When you deal damage, you can change the damage type to Necrotic or the damage type associated
+      with your discordant tone, and you ignore targets’ Resistance to that damage.</p></li><li><p>Whenever an enemy starts its turn within 30 feet of you, it must succeed on a Wisdom saving throw against
+      your spell save DC or have the Frightened condition until the start of its next turn.</p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cacophonous Cryptist
+  activities:
+    FGVypcEaBFfXFWGy:
+      _id: FGVypcEaBFfXFWGy
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: 076VqckpLc6wKkiV
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: cacophonous-crescendo
+  advancement: {}
+effects:
+- _id: 076VqckpLc6wKkiV
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!C5U0uvMHhzBEbNWs.076VqckpLc6wKkiV'
+folder: T4nBRlumg2E718hz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!C5U0uvMHhzBEbNWs'

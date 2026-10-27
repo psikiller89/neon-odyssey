@@ -1,0 +1,204 @@
+_id: GNT2BlLYrSIZfHw4
+name: Threat Suppression
+type: feat
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  description:
+    value: '<p>As a vanguard of your code, you have the means to subdue threats to your code. As a Magic action, you can expend one use of this class’s Cosmic Conduit to overwhelm your foes. As you present
+      your Cosmic Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on
+      a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an
+      action, or take a Bonus Action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: channelDivinity
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties:
+  - mgc
+  requirements: Enforcer
+  activities:
+    coLSoQzZ6lGbXtIw:
+      type: save
+      _id: coLSoQzZ6lGbXtIw
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:channel-divinity-paladin
+          scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+      - _id: iY8KgqafX22tiBVw
+        uuid: null
+        onSave: false
+        level:
+          min: null
+          max: null
+      - _id: es8x7NuJgjyYH9vG
+        onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          size: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: false
+          count: max(1, @abilities.cha.mod)
+          type: creature
+          special: That you can see
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+        bonus: ''
+        visible: true
+      name: ''
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireMagic: true
+        requireAttunement: false
+        requireIdentification: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: threat-suppression
+  advancement: {}
+  crewed: false
+effects:
+- name: Abjured
+  img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+  origin: Compendium.neon-odyssey.features.Item.GNT2BlLYrSIZfHw4
+  transfer: false
+  _id: iY8KgqafX22tiBVw
+  type: base
+  system:
+    changes: []
+    magical: true
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    rider:
+      statuses: []
+  disabled: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses:
+  - frightened
+  sort: 0
+  flags: {}
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!GNT2BlLYrSIZfHw4.iY8KgqafX22tiBVw'
+- _id: es8x7NuJgjyYH9vG
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!GNT2BlLYrSIZfHw4.es8x7NuJgjyYH9vG'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!GNT2BlLYrSIZfHw4'

@@ -1,0 +1,149 @@
+_id: kSRDQ8VFQ2rCemKe
+name: Planetary Embodiment
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You unleash the elemental biome of your world. As a Bonus Action, you can expend a use of your Primal Channel feature to embody the power of a world soul. If you embody the bond that matches
+      a world you are currently on, you can activate this feature without expending a use of Primal Channel once, and you regain the ability to do so when you finish a Long Rest.</p><p>While Planetary Embodiment
+      is active, you are surrounded by swirling material or elements that resonate with the energy you channel. This embodiment lasts for 10 minutes. It ends early if you dismiss it (no action required),
+      have the Incapacitated condition, or use this feature again.</p><p>When you activate this feature, choose which of the following embodiments you manifest and gain its benefits for the duration. If
+      this feature forces a creature to make a saving throw, the DC equals your spell save DC, and if an effect deals damage, choose a damage type of your current World Bond.</p><p><strong>Abundant.</strong>
+      When you activate this embodiment, one creature you can see within 30 feet of yourself regains 1d8 Hit Points. For the duration, when you restore Hit Points to a creature, you can add a bonus to the
+      total restored equal to your Wisdom modifier (minimum of +1). If your World Bond is Abundant, increase the bonus by 2.</p><p><strong>Defiled.</strong> When you activate this embodiment, or as a Bonus
+      Action on your subsequent turns, one creature you can see within 30 feet of yourself takes damage equal to your Wisdom modifier (minimum of 1). The target must succeed on a Constitution saving throw
+      or have Disadvantage on attack rolls and ability checks until the start of your next turn. If your World Bond is Defiled, the target has Disadvantage on its saving throw against this effect.</p><p><strong>Turbulent.</strong>
+      When you activate this embodiment, or as a Bonus Action on your subsequent turns, choose a creature you can see within 30 feet of yourself. The target’s Speed is halved until the start of your next
+      turn, and it must succeed on a Strength saving throw or be pushed up to 10 feet in a horizontal direction of your choice. If your World Bond is Turbulent, increase the distance a creature is pushed
+      by 5 feet.</p><p><strong>Unforgiving.</strong> When you activate this embodiment, or as a Bonus Action on your subsequent turns, you can blast a creature you can see within 30 feet of yourself. The
+      target must succeed on a Dexterity saving throw or take damage equal to a number of d6s equal to your Wisdom modifier (minimum of 1d6) and starts burning. If your World Bond is Unforgiving, on a successful
+      save, the target takes half as much damage only.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities:
+    VghwRH7kvFjC7ZQe:
+      _id: VghwRH7kvFjC7ZQe
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: J2CVzkt88ZAOHTVi
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts: []
+  enchant: {}
+  identifier: planetary-embodiment
+  advancement: {}
+effects:
+- _id: J2CVzkt88ZAOHTVi
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!kSRDQ8VFQ2rCemKe.J2CVzkt88ZAOHTVi'
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kSRDQ8VFQ2rCemKe'

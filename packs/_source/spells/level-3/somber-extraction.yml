@@ -1,0 +1,127 @@
+_id: PW3cPsltN2947cCR
+name: Somber Extraction
+type: spell
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  description:
+    value: <p>This spell steals a fragment of life force from its target’s soul. A creature you can see within range makes a Wisdom saving throw. On a failure, the target takes 4d8 Necrotic damage. On a
+      success, it takes half as much damage. You gain a number of Temporary Hit Points equal to the Necrotic damage dealt. While you have Temporary Hit Points from this spell, you have Advantage on saving
+      throws.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 3.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '30'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: nec
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: ashes from a cremation, or defibrillator paddles
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    Xld5Wx354nGEbSD5:
+      _id: Xld5Wx354nGEbSD5
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 4
+          denomination: 8
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: somber-extraction
+effects: []
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PW3cPsltN2947cCR'

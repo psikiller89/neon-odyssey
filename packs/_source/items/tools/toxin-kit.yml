@@ -1,0 +1,116 @@
+_id: BtfnXgHN6AsXeJVt
+name: Toxin Kit
+type: tool
+img: icons/containers/bags/pouch-gold-green.webp
+system:
+  quantity: 1
+  weight:
+    value: 2.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Intelligence</p><p><strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Detect a poisoned object (DC 10)</p><p><strong>Craft:</strong> Simple Toxin</p><p>Academic’s
+      Pack 30 1/2 lb. $1,090 Acid Vial $250 Acolyte’s Pack 29 lb. $1,730 Ammunition Varies Varies Amplifier 1 1/2 lb. $500 Antidote $2,500 Ascension Gun 2 lb. $2,000 Bag 1/2 lb. $5 Belt Pack 1/2 lb. $5
+      Bin 2 lb. $5 Breath Mask 2 lb. $50 Briefcase 2 1/2 lb. $50 Camera 1/2 lb. $500 Camo Netting 5 lb. $400 Canteen 5 lb. (full) $10 Climbing Gear 10 lb. $1,250 Clothes, Designer 6 lb. $750 Clothes, Streetwear
+      4 lb. $100 Collapsible Pole 5 lb. 25 Communicator, High Power 8 lb. $15,000 Communicator, Personal 1/2 lb. $1,500 Component Pack 2 lb. $1,250 Computer Varies Varies Cord $5 Cosmic Suspension 1 lb.
+      $1,250 Cosmic Symbol Varies Varies Data Chip $125 Datapad 1/2 lb. $250 Disguise 4 lb. $250 Enviro Suit 50 lb. $2,000 Explosives Varies Varies False ID Varies Flamethrower 3 lb. $2,000 Flashlight 1
+      lb. $25 Folding Ladder 20 lb. $75 Footlocker 20 lb. $75 Fragrance $25 Fuel Oil 1 lb. $5 Gas Canister 8 lb.(full) $10 Generator 50 lb. $5,000 Grapnel 4 lb. $100 Grav Spikes 2 lb. $50 Handcuffs 1/2
+      lb. $50 Hauling Pulley 5 lb. $10 <em>Healing Stim</em> $2,500 Holoprojector 1/2 lb. $250 Hypertech Component Pack 5 lb. $1,250 Intruder’s Pack 35 lb. $785 Lighter $5 Link Cable 1/2 lb. $15 Macro Scope
+      1 lb. $250 Magazine $10 Mag Lock 1 lb. $500 Magnifying Lens $10 Media Device Varies Varies Med Pack 3 lb. $250 Mesh Net 3 lb. $50 Motion Sensor $25 Nav Chart $50 Night Vision Goggles 1 lb. $3,500
+      Occult Focus Varies Varies Omni Pen $20 Outrunner’s Pack 41 lb. $730 Performer’s Pack 52 1/2 lb. $2,440 Pigment $5 Power Cell 1/2 lb. $100 Power Cell, Rechargeable 1/2 lb. $3,000 Primal Focus Varies
+      Varies Pry Bar 5 lb. $100 Ration Pouch 2 lb. $25 Repair Parts 60 lb. Varies Rucksack 5 lb. $100 Scanner 2 lb. $1,500 Shelter Tent 5 lb. $150 Signal Jammer 5 lb. $10,000 Silencer 1/2 lb. $1,500 Sleeping
+      Bag 7 lb. $50 Spade 5 lb. $10 <em>Spell Chip</em> (Cantrip) $300 <em>Spell Chip</em> (Level 1) $1,500 Spring Trap 25 lb. $250 Stationery $30 Steel Bearings 2 lb. $50 Steel Chain 10 lb. $250 Storage
+      Drum 25 lb. $50 Survivor’s Pack 118 1/2 lb. $4,375 Synth Line 2 1/2 lb. $50 Technician’s Pack 26 1/2 lb. $880 Thermal Blanket 1 lb. $5 Thermasene 1 lb. $250 Toxin, Simple $500 Tracker $500 Trench
+      Coat 1 lb. $50 Utility Jug 40 lb. (full) $50 Vial, Glass $2</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: ''
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    16Knwm1ZD4I0w8yd:
+      _id: 16Knwm1ZD4I0w8yd
+      type: check
+      name: Detect a poisoned object
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+  identifier: toxin-kit
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BtfnXgHN6AsXeJVt'

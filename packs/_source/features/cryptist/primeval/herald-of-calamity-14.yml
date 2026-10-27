@@ -1,0 +1,54 @@
+_id: eutxTvRoUMHgExno
+name: Herald of Calamity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Natural disasters manifest at your call. You can cast <em>Earthquake</em> once without a spell slot, and you regain the ability to do so when you finish a Long Rest.</p><p>When you cast the
+      spell in this way and choose the Fissures option, you can choose one of your Archaic Element damage types. The fissures are filled with the chosen element. A creature in a fissure that fails its saving
+      throw against the spell takes 3d10 damage of the chosen type and suffers the corresponding effect below. On a successful save, it takes half as much damage only.</p><p><strong>Acid.</strong> The target
+      has the Poisoned condition until the start of your next turn.</p><p><strong>Cold.</strong> The target’s Speed is reduced by 10 feet until the start of your next turn.</p><p><strong>Fire.</strong>
+      The target starts burning.</p><p><strong>Lightning.</strong> The target can’t take Reactions until the start of your next turn.</p><p><strong>Thunder. </strong>The target has the Deafened condition
+      until the start of your next turn. While Deafened in this way, the target can’t cast spells with Verbal components.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: herald-of-calamity
+  advancement: {}
+effects: []
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!eutxTvRoUMHgExno'

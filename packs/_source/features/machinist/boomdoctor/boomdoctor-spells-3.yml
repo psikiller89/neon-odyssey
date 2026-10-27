@@ -1,0 +1,175 @@
+_id: Mgi5PD4iryjuVmth
+name: Boomdoctor Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Machinist level specified in the Boomdoctor Spells table, you thereafter always have the listed spells prepared. <em>Chromatic Orb</em>, <em>Color Spray</em> <em>Dragon’s
+      Breath</em>, <em>Enlarge/Reduce</em> <em>Fireball</em>, <em>Stinking Cloud</em> <em>Tech Overload</em>*, <em>Vitriolic Sphere</em> <em>Dominate Person</em>, <em>Grid Storm</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities: {}
+  enchant: {}
+  identifier: boomdoctor-spells
+  advancement:
+    cae4ETUL2zjhjwPF:
+      _id: cae4ETUL2zjhjwPF
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplColorSpray
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Boomdoctor Spells
+      hint: ''
+    oo7WEmhtzvrxgjEx:
+      _id: oo7WEmhtzvrxgjEx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDragonsBre
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEnlargeRed
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Boomdoctor Spells
+      hint: ''
+    u7WfYEGoMxBdRqBS:
+      _id: u7WfYEGoMxBdRqBS
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStinkingCl
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Boomdoctor Spells
+      hint: ''
+    yHstIzF1VMNJp2z0:
+      _id: yHstIzF1VMNJp2z0
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.nw8WLScRIXy19tAp
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Boomdoctor Spells
+      hint: ''
+    ZU5RTyvjAFzBhD3y:
+      _id: ZU5RTyvjAFzBhD3y
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.6pOg3gbpUqTr4M2Y
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Boomdoctor Spells
+      hint: ''
+effects: []
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Mgi5PD4iryjuVmth'

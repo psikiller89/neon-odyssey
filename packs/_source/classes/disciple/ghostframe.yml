@@ -1,0 +1,100 @@
+_id: LqMaaLJPzObIWwDI
+name: Ghostframe
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/ghostframe.webp
+system:
+  description:
+    value: <p><em>Infiltrate and Eliminate with Cybernetic Precision</em> Ghostframes blur the boundary between flesh and machine. These Disciples channel their Essence through soul-linked cybernetic augmentations
+      to become unmatched infiltrators and assassins. Some become instruments of death in service to secretive organizations, while others use their enhancements to protect the innocent from the shadows.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: ghostframe
+  classIdentifier: disciple
+  advancement:
+    ayY3mLeVerCOr7Ll:
+      _id: ayY3mLeVerCOr7Ll
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.YyBEvJePGMBuzYuh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.uZwu01C8nOWuhn4P
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    n3EF7eyXIJscuLpe:
+      _id: n3EF7eyXIJscuLpe
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.UrJNwA4DKpIto7ph
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    rxHuwbXK82xMysKL:
+      _id: rxHuwbXK82xMysKL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fwH3CzDWbNAAqXR4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    G4ZHjie5eKtej4lb:
+      _id: G4ZHjie5eKtej4lb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.KvCIvqNZ8bjXILsS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: MrkCyjRQd9KEa1GC
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!LqMaaLJPzObIWwDI'

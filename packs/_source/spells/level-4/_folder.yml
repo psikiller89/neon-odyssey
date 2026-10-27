@@ -1,0 +1,20 @@
+name: Level 4
+sorting: a
+folder: null
+type: Item
+_id: sEPVmwo0fZxpCj2K
+description: ''
+sort: 4000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!sEPVmwo0fZxpCj2K'

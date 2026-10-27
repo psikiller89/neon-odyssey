@@ -1,0 +1,53 @@
+_id: wer9adHAPzs515tU
+name: Concealed Compartment (Armor Module)
+type: loot
+img: icons/commodities/cloth/thread-spindle-white-needle.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 3000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>This armor module is typically placed on the forearm or thigh. It can hold one Tiny object, and you can take an object out of the compartment, or put an object in, as a Bonus Action. A creature
+      can locate the compartment as a Search action with a successful DC 15 Wisdom (Perception) check.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: concealed-compartment
+effects: []
+folder: wwiINoc0nKMcIjvz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!wer9adHAPzs515tU'

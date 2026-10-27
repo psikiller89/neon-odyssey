@@ -1,0 +1,618 @@
+_id: EdVcsm3W0wcOg4MV
+name: Enforcer
+type: class
+img: modules/neon-odyssey/icons/classes/enforcer.png
+system:
+  description:
+    value: '<h3>Core Enforcer Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Strength and Charisma</p></td></tr><tr><th scope="row"><p>Hit Point
+      Die</p></th><td><p>D10 per Enforcer level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose
+      2: Athletics, Insight, Intimidation, Medicine, Persuasion, Religion, or Technology</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th
+      scope="row"><p>Armor Training</p></th><td><p>Light, Medium, and Heavy armor and Shields</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Heavy Armor, Shield,
+      Combat Sword, Shotgun, Power Cell, 20 Shells, Magazine, Cosmic Symbol or Hypertech Component Pack, Outrunner’s Pack and $210; or (B) $9,000</p></td></tr></tbody></table><p><strong>Primary Ability</strong>
+      Strength and Charisma <strong>Hit Point Die</strong> D10 per Enforcer level <strong>Saving Throw  Proficiencies</strong> Wisdom and Charisma <strong>Skill Proficiencies</strong> <em>Choose 2:</em>
+      Athletics, Insight, Intimidation, Medicine, Persuasion, Religion, or Technology <strong>Weapon  Proficiencies</strong> Simple and Martial weapons <strong>Armor Training</strong> Light, Medium, and
+      Heavy armor and Shields <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Heavy Armor, Shield, Combat Sword, Shotgun, Power Cell, 20 Shells, Magazine, Cosmic Symbol or Hypertech Component
+      Pack, Outrunner’s Pack and $210; or (B) $9,000 Enforcers are warriors defined by personal codes that they uphold with such unyielding conviction that they become imbued with cosmic power. They wield
+      this transcendent might to rally their allies and subdue their enemies, serving as vanguards and guardians of their cherished ideals. Every combat technique, spell, and cosmic empowerment that they
+      master serves the enforcement of their code, allowing them to make their principles manifest across the Stardust Rhapsody.</p><p>Every Enforcer unlocks their defining power in a single monumental
+      moment that changes their life forever. It could be a glorious stand against overwhelming odds, a stunning discovery at the end of a relentless pursuit, or even a quiet, personal sacrifice made in
+      service of their deepest conviction. Whatever form it takes, this moment of dedication draws the attention of the cosmos, and they are forever changed as Enforcers of their chosen code.</p><p>This
+      new purpose leads Enforcers to seek out places where their devotional code has been corrupted or forsaken. Some wander the galaxy as lone avengers, while others find strength in the fellowship of
+      like-minded crews, orders, or movements. Whether standing alone or shoulder-to-shoulder with allies, all Enforcers are relentlessly driven to see their code upheld.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: r27GSWduAlD0CKzU
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: LOu6EZe5o7q1h5el
+    type: AND
+    group: r27GSWduAlD0CKzU
+    requiresProficiency: false
+    sort: 200000
+  - _id: KpQ4SNzApyCKoymJ
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.1WkfdQsWuMpndXNN
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 300000
+  - _id: 2mD7RenwEEGRAwIX
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.QivqvWK41jGn7tMT
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 400000
+  - _id: pFGDUfpyN0gNl85b
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.Yc5QzdGvGPDA5Ln7
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 500000
+  - _id: zqV15n3hadDH6NZL
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.CEgtCwJrW1cRyWPI
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 600000
+  - _id: MVzKssepxrhxAUQT
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 700000
+  - _id: 2prl9NOjG4kr9Vat
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.RIcLjliNizqL39oE
+    count: 20
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 800000
+  - _id: MxPIeUqFHYwZOJVN
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.mLKj3oXtb6ljMqyz
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 900000
+  - _id: PoIhHjBAIZXHZ4lx
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.W6LiL6PRkq1TzchD
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 1000000
+  - _id: 7RSRTu4QUIa5e5G4
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3XAIc6y4pYahQGLN
+    count: null
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 1100000
+  - _id: XMC60fr1kGRrU0a5
+    type: currency
+    key: gn
+    count: 210
+    group: LOu6EZe5o7q1h5el
+    requiresProficiency: false
+    sort: 1200000
+  - _id: cKLE6a0u3fVc2VI6
+    type: AND
+    group: r27GSWduAlD0CKzU
+    requiresProficiency: false
+    sort: 1300000
+  - _id: bgjzrb0BY1EKMndZ
+    type: currency
+    key: gn
+    count: 9000
+    group: cKLE6a0u3fVc2VI6
+    requiresProficiency: false
+    sort: 1400000
+  identifier: enforcer
+  levels: 1
+  advancement:
+    H67dh2nWpE6JMoS2:
+      _id: H67dh2nWpE6JMoS2
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      name: ''
+      flags: {}
+      hint: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      name: ''
+      flags: {}
+      hint: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      name: ''
+      flags: {}
+      hint: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      name: ''
+      flags: {}
+      hint: ''
+    xNrNjQXdjdqudAk8:
+      _id: xNrNjQXdjdqudAk8
+      type: ScaleValue
+      configuration:
+        identifier: aura
+        type: distance
+        distance:
+          units: ''
+        scale:
+          '6':
+            value: 10
+          '18':
+            value: 30
+      value: {}
+      hint: ''
+      name: Aura Distance
+      flags: {}
+    K0m33nbxbp3BfUKd:
+      _id: K0m33nbxbp3BfUKd
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '2':
+            value: 3
+          '3':
+            value: 4
+          '4':
+            value: 5
+          '5':
+            value: 6
+          '7':
+            value: 7
+          '9':
+            value: 9
+          '11':
+            value: 10
+          '13':
+            value: 11
+          '15':
+            value: 12
+          '17':
+            value: 14
+          '19':
+            value: 15
+      value: {}
+      hint: ''
+      name: Prepared Spells
+      flags: {}
+      classRestriction: ''
+    czWJhEH2Xw1gaXzl:
+      _id: czWJhEH2Xw1gaXzl
+      type: ScaleValue
+      configuration:
+        identifier: channel-divinity
+        type: usage
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 2
+          '11':
+            value: 3
+      value: {}
+      hint: ''
+      name: Channel Divinity
+      flags: {}
+      classRestriction: ''
+    tU89l5dpMkYJBBJ5:
+      _id: tU89l5dpMkYJBBJ5
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: <p>You gain a Enforcer subclass of your choice. The Oath of Devotion, Oath of Glory, Oath of the Ancients, and Oath of Vengeance subclasses are detailed after this class’s description. A subclass
+        is a specialization that grants you features at certain Enforcer levels. For the rest of your career, you gain each of your subclass’s features that are of your Enforcer level or lower.</p>
+      name: ''
+      flags: {}
+      classRestriction: ''
+    iZReGwulhKjVqgRD:
+      _id: iZReGwulhKjVqgRD
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      name: Weapon Proficiencies
+      flags: {}
+    2sq0pcazOXs74X5l:
+      _id: 2sq0pcazOXs74X5l
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:med
+        - armor:hvy
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      name: Armor Training
+      flags: {}
+    dSjz0J0F5cQLvWTd:
+      _id: dSjz0J0F5cQLvWTd
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: secondary
+      name: Weapon Proficiencies
+      flags: {}
+    TZP9M5VqcBv8D313:
+      _id: TZP9M5VqcBv8D313
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:med
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: secondary
+      name: Armor Training
+      flags: {}
+    29Ufd0MpG7PBckVs:
+      type: AbilityScoreImprovement
+      _id: 29Ufd0MpG7PBckVs
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd-players-handbook.feats.Item.phbBoonofTruesig
+        max: null
+      value:
+        type: asi
+      level: 19
+      hint: ''
+      name: Epic Boon
+      flags: {}
+    BlihMkbPKVfKjS0x:
+      _id: BlihMkbPKVfKjS0x
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:wis
+        - saves:cha
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    lVdNIN1imgeatmp3:
+      _id: lVdNIN1imgeatmp3
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:ath
+          - skills:ins
+          - skills:itm
+          - skills:med
+          - skills:per
+          - skills:rel
+          - skills:tec
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    7RldJb1VdTVD2RJv:
+      _id: 7RldJb1VdTVD2RJv
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.d0UZXchcfg69xWZh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.DPBhpnlnObj5VVaY
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.p9910QYqoNI9zLsk
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    wVI7Z4Ss6RKVjUm7:
+      _id: wVI7Z4Ss6RKVjUm7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8khkAmTExl4qr4iO
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.EObZHcLBJLRy3iw1
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    c7zz4l1H3nOTG2wj:
+      _id: c7zz4l1H3nOTG2wj
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.GHyeTZ1OdBS3PiaN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      hint: ''
+    YHBuvt0AlI72vwAD:
+      _id: YHBuvt0AlI72vwAD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.z9ONYAHYXt1EFcu4
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.nQv1jvpqO8ogT8ht
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    PNocBDpGNAJZIcS0:
+      _id: PNocBDpGNAJZIcS0
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.5gYal2zyzIqRWdMg
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Class Features
+      hint: ''
+    bwafIStzXvBhHfVN:
+      _id: bwafIStzXvBhHfVN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.GNT2BlLYrSIZfHw4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Class Features
+      hint: ''
+    F8uIKbMwZDLIR8KA:
+      _id: F8uIKbMwZDLIR8KA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.JjaK5oVEWm0nBBbP
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      hint: ''
+    vMsUIDpd5PAz98Ju:
+      _id: vMsUIDpd5PAz98Ju
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gpUXPznCf3b9lgUe
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Class Features
+      hint: ''
+    9E3tfZ6iokOW6KwT:
+      _id: 9E3tfZ6iokOW6KwT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.g3SSyih0QfXJ9CS8
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      hint: ''
+    UDSBBTm962XHDvPN:
+      _id: UDSBBTm962XHDvPN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ULqs4WfWDqdhFeqH
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: half
+    ability: cha
+    preparation:
+      formula: '@scale.enforcer.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - str
+    - cha
+    all: true
+  hd:
+    denomination: d10
+    spent: 0
+    additional: ''
+  properties: []
+effects: []
+folder: spYUbXQtBgB2o1ja
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!EdVcsm3W0wcOg4MV'

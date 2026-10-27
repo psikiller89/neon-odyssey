@@ -1,0 +1,90 @@
+_id: wAICmEcdA9uk1bQD
+name: Stargazer
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/stargazer.webp
+system:
+  description:
+    value: <p><em>Read and Call Upon Divine Portents in the Stars</em> Stargazers are Oracles who find guidance in the heavenly stars that surround and protect the Stardust Rhapsody. Able to see the course
+      of fate written in the constellations, they call down the divine power of the gods of Agathos to enact their grand designs. Most Stargazers foster an especially deep communion with a single patron
+      deity, but some embody the virtues of an entire triad or even seek to serve the will of the twelve.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: stargazer
+  classIdentifier: oracle
+  advancement:
+    cRb5YNMZ9Pf4hK5j:
+      _id: cRb5YNMZ9Pf4hK5j
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nEeI14D1ft9PZxZa
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.PY3YFlz46IhW7kSA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Yz371C2qi9V0wYKA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    DsfXPAr6gq8qKnAW:
+      _id: DsfXPAr6gq8qKnAW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.jA4Seqy7VEbyHP8R
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    NUf6MmKy6rsbe0YL:
+      _id: NUf6MmKy6rsbe0YL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ObzH1Rgx8ZrHiqRz
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: dYNWA7lTuGoJ83X0
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!wAICmEcdA9uk1bQD'

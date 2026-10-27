@@ -1,0 +1,20 @@
+name: Souljammer Icon
+sorting: a
+folder: n4Ly2NesPJs8k4kM
+type: Item
+_id: qaA0bMPEx2BVOKkM
+description: ''
+sort: 53
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!qaA0bMPEx2BVOKkM'

@@ -1,0 +1,109 @@
+_id: Stiwx09lXXhqfLxw
+name: Devour the Metaphysical
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can devour magic itself and send the Deep to those who would cast it. When you cause a spell to dissipate using <em>Counterspell</em>, or when you end an ongoing spell with <em>Dispel
+      </em> <em>Magic</em>, the caster of the spell takes 4d6 Force damage from the unmade magic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Deepsworn Cryptist
+  activities:
+    TvUYo6iTTglrLZD8:
+      _id: TvUYo6iTTglrLZD8
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: devour-the-metaphysical
+  advancement: {}
+effects: []
+folder: eLWbUPabyo7jvGuT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Stiwx09lXXhqfLxw'

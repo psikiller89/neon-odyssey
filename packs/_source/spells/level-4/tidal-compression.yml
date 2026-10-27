@@ -1,0 +1,162 @@
+_id: g8JKe0eWTi4xbOH3
+name: Tidal Compression
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: <p>Gravity churns around a creature or an object that isn’t being worn or carried (or a 10-foot Cube portion of a larger object) within range, compressing it from multiple angles. The target
+      makes a Constitution saving throw. On a failed save the target takes 5d10 Force damage and has the Restrained condition until the start of your next turn. On a successful save the target takes half
+      as much damage only.</p><p>Objects take double damage automatically.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cube
+      size: '10'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '60'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: trs
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    QU6EaICz1KHYhgwo:
+      _id: QU6EaICz1KHYhgwo
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: LltHercjFlwIHh9N
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 5
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: tidal-compression
+effects:
+- _id: LltHercjFlwIHh9N
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!g8JKe0eWTi4xbOH3.LltHercjFlwIHh9N'
+folder: sEPVmwo0fZxpCj2K
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!g8JKe0eWTi4xbOH3'

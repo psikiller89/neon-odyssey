@@ -1,0 +1,52 @@
+_id: kToXbcA1A8Nnrtjq
+name: Cosmic Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Starry or Temporal Homeworld)</em></p><p>You have absorbed the essence of your home’s cosmically charged nature or world soul, gaining the following benefits.</p><p><strong>Cosmic
+      Understanding.</strong> You have proficiency in the Arcana, History, or Religion skill.</p><p><strong>Foretelling.</strong> You can cast <em>Augury</em> once without a spell slot and requiring no
+      Material components, and you regain the ability to do so when you finish a Long Rest. You can also cast the spell using spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma
+      is your spellcasting ability for it (choose when you select this feat).</p><p>When you cast <em>Augury</em> with this feat, your premonition is accompanied by an image of a constellation (Starry)
+      or swirling sand (Temporal).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Starry or Temporal Homeworld
+  activities: {}
+  enchant: {}
+  identifier: cosmic-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kToXbcA1A8Nnrtjq'

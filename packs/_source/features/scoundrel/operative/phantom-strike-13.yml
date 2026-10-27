@@ -1,0 +1,145 @@
+_id: 3rFogCxxPz5Arrd4
+name: Phantom Strike
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your ability to expertly and stealthily eliminate targets can cause panic among those who remain. When you use your Without a Trace feature, the target takes 2d6 Psychic damage. A number of
+      other creatures of your choice up to your Dexterity modifier (minimum of 1 creature) within 30 feet of the target have the Frightened condition toward the target until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Operative Scoundrel
+  activities:
+    R7Jz1UaEiMHMJMnW:
+      _id: R7Jz1UaEiMHMJMnW
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: QyHVuoVMLnWLSSPM
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: phantom-strike
+  advancement: {}
+effects:
+- _id: QyHVuoVMLnWLSSPM
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3rFogCxxPz5Arrd4.QyHVuoVMLnWLSSPM'
+folder: 5aLGQfj1PneVxUbs
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3rFogCxxPz5Arrd4'

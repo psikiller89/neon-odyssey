@@ -1,0 +1,52 @@
+_id: ANMNRkCsewgnj5bP
+name: Duelist’s Due
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 9+ Cryptist, Mystery of the Duel Secret</em></p><p>Once per turn when you hit a creature with your bound weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant
+      damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit
+      Point).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 9
+    items:
+    - Compendium.neon-odyssey.features.Item.gLgV6k0BeBcjHRIW
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: duelists-due
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ANMNRkCsewgnj5bP'

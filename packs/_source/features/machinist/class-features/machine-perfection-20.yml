@@ -1,0 +1,108 @@
+_id: v4SWv92u2jJsxATq
+name: Machine Perfection
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your being now perfectly resonates with mechanical technomancy. You gain the following benefits.</p><p><strong>Mechanical Ascension.</strong> While you are attuned to at least one magic item,
+      have at least one <em>Prosthetic Implant</em>* attached, or have at least one active schematic, you gain the following benefits:</p><ul><li><p>Your creature type is Construct.</p></li><li><p>Your
+      Intelligence score and its maximum increase by 2.</p></li><li><p>Critical Hits against you become normal hits.</p></li><li><p>You no longer suffer the negative effects of aging, and your lifespan
+      becomes 500 years. If you lose this benefit while you’ve lived beyond the natural lifespan for your species, you must roll a d20 when you finish each Long Rest. On a 1, the GM rolls 1d10 and keeps
+      the number secret. You die of old age after that many days.</p></li></ul><p><strong>Perfect Repair.</strong> As a Magic action, you can touch a dead Construct or a destroyed object or structure no
+      larger than a 100-foot Cube. A Construct is restored to life with all its Hit Points. An object or structure is restored to function with all its Hit Points. If the structure is a vehicle, any mishaps
+      affecting it end, and its Exhaustion level is reduced by 1. Once you use this benefit, you can’t do so again until you finish 1d4 Long Rests.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    QfQuGVRXIaSQBYRU:
+      _id: QfQuGVRXIaSQBYRU
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: machine-perfection
+  advancement: {}
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!v4SWv92u2jJsxATq'

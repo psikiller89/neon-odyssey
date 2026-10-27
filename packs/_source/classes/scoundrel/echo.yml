@@ -1,0 +1,101 @@
+_id: IWBOH2ccKZXXsg6M
+name: Echo
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/echo.webp
+system:
+  description:
+    value: <p><em>Tamper with the Timeline to Rewind Fate</em> While time flows in one set direction for nearly all things in the galaxy, Echoes can manipulate their place in the timeline. They can glimpse
+      alternative possibilities, skipping forward or rewinding to make their preferred future a reality. Some Echoes deliberately sought to control the force of time, but many unlocked their abilities through
+      accidental meddling in powers they did not fully comprehend.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: echo
+  classIdentifier: scoundrel
+  advancement:
+    cUDJZvQ43ZvgKsRx:
+      _id: cUDJZvQ43ZvgKsRx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.arYEmw90JNDM6dBw
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.mUmZ0Dd2zTFTGXEx
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    9wZMhlZZJJcroRKh:
+      _id: 9wZMhlZZJJcroRKh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4fbn8T4SOJKaLipL
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    oAI5x9YNt6zsKbAg:
+      _id: oAI5x9YNt6zsKbAg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.z1nEeasMepnA47KN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Subclass Features
+      hint: ''
+    MtpF6JYtlBT0hzHH:
+      _id: MtpF6JYtlBT0hzHH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gpq3KNV9bu0Yc3wW
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 3gZ4ytt18QnUbQoV
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!IWBOH2ccKZXXsg6M'

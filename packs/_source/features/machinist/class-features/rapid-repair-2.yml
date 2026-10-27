@@ -1,0 +1,98 @@
+_id: C0kjFHewy30w8fpR
+name: Rapid Repair
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have a knack for swiftly repairing damage to constructed objects and creatures through targeted technomancy. You have a pool of repair dice (d6s) equal to twice your Intelligence modifier
+      (minimum of 2).</p><p>As a Bonus Action while holding tools you can use as a Spellcasting Focus, you can repair one Construct, object, structure, or vehicle you can see within 30 feet of yourself.
+      Expend and roll any number of repair dice from the pool and restore a number of Hit Points equal to the total. Your pool regains all expended dice when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    qXaeTPT8NlwBR4yu:
+      _id: qXaeTPT8NlwBR4yu
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: rapid-repair
+  advancement: {}
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!C0kjFHewy30w8fpR'

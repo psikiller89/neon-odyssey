@@ -1,0 +1,587 @@
+_id: f1NEGL8FiXo0vDyU
+name: Pixpal
+type: npc
+img: modules/neon-odyssey/icons/creatures/pixpal.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 7
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 1
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 12
+      proficient: 0
+    wis:
+      value: 12
+      proficient: 0
+    cha:
+      value: 12
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 25
+      max: 25
+      formula: 10d4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '10'
+      fly: '30'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: fey
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: "<p>PIXPAL</p><p>Helpful Pixelated Buddy</p><p>Habitat: Planar (Arcadia); Treasure: None</p><p>Pixpals are playful sprites from Arcadia that have an \ninherently helpful nature, typically seeking\
+        \ to bond with a \nhero on an epic quest whose collectibles they can share in.</p><p>They float behind their favorite protagonist, guiding them \ntoward the next objective and shielding them with\
+        \ arcade \nmagic. Pixpals can take a wide variety of forms from animals \nto living objects, often with large, goofy eyes.</p><p>Pixpal</p><p>Pixpal</p><p>Tiny Fey, Neutral</p><p>AC 12</p><p>Initiative\
+        \ +2 (12)</p><p>HP 25 (10d4)</p><p>Speed 10 ft., Fly 30 ft. (hover)</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>STR\t\n7\t\n−2\t\n−2</p><p>DEX\t 14\t\n+2\t\n+4\t CON\t 10\t\n+0\t +0</p><p>INT\t\
+        \n12\t\n+1\t\n+1</p><p>WIS\t 12\t\n+1\t\n+1</p><p>CHA\t 12\t\n+1\t\n+1</p><p>Skills Acrobatics +4</p><p>Senses Darkvision 60 ft.; Passive Perception 11</p><p>Languages Pixlish, Common</p><p>CR 1\
+        \ (XP 200; PB +2)</p><p>Traits</p><p>Flyby. The pixpal doesn’t provoke an Opportunity Attack \nwhen it flies out of an enemy’s reach.</p><p>Actions</p><p>Multiattack. The pixpal makes two Guiding\
+        \ Zap attacks.</p><p>Guiding Zap. Melee or Ranged Attack Roll: +4, reach 5 ft. or \nrange 60 ft. Hit: 9 (2d6 + 2) Lightning damage, and the next \nattack roll another creature makes against the\
+        \ target before \nthe start of the pixpal’s next turn has Advantage.</p><p>Bonus Actions</p><p>Bonded Ward (1/Day). The pixpal can form or dissolve a \nmagical bond with a willing creature within\
+        \ 5 feet. While they \nare on the same plane of existence, if the bonded creature \ndrops to 0 Hit Points, the pixpal vanishes and the target is \nreduced to 1 Hit Point instead. The pixpal reappears\
+        \ within 5 \nfeet of the bonded creature 24 hours later.</p><p>Reactions</p><p>Warding Burst. Trigger. A creature the pixpal can see within \n60 feet makes an attack roll against the target of its\
+        \ Bonded</p><p>Ward. Response: The triggering attack roll has Disadvantage.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Pixlish, Common
+  skills:
+    acr:
+      value: 1
+      ability: ''
+items:
+- _id: JcQzAOu4Zo1MXZHW
+  name: Flyby
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The pixpal doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: flyby
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.JcQzAOu4Zo1MXZHW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: ugl8K0eV2asXfZSC
+  name: Multiattack
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The pixpal makes two Guiding Zap attacks.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      YLGlaBh41kIKtgy1:
+        _id: YLGlaBh41kIKtgy1
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: multiattack
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.ugl8K0eV2asXfZSC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: itRW1d8L0vJSKS0y
+  name: Guiding Zap
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft. Hit: 9 (2d6 + 2) Lightning damage, and the next attack roll another creature makes against the target before the start of the
+        pixpal’s next turn has Advantage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      mk30uPiX033ZJvXr:
+        _id: mk30uPiX033ZJvXr
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: '@mod'
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '60'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: guiding-zap
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.itRW1d8L0vJSKS0y'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: KiYJU43QEGQNSw4C
+  name: Bonded Ward
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The pixpal can form or dissolve a magical bond with a willing creature within 5 feet. While they are on the same plane of existence, if the bonded creature drops to 0 Hit Points, the pixpal
+        vanishes and the target is reduced to 1 Hit Point instead. The pixpal reappears within 5 feet of the bonded creature 24 hours later.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      MtJc9Yw4UDQJHJ6Z:
+        _id: MtJc9Yw4UDQJHJ6Z
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: bonded-ward
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.KiYJU43QEGQNSw4C'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 6TUYyGNNj5PnNODH
+  name: Warding Burst
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Trigger. A creature the pixpal can see within 60 feet makes an attack roll against the target of its Bonded</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      MYGona1zlqOinnDq:
+        _id: MYGona1zlqOinnDq
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: warding-burst
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.6TUYyGNNj5PnNODH'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: D4Mmi8wcPuXLnukE
+  name: Ward
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Response: The triggering attack roll has Disadvantage. </p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      ViSaq0cs39RGIZ1r:
+        _id: ViSaq0cs39RGIZ1r
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: ward
+  _key: '!actors.items!f1NEGL8FiXo0vDyU.D4Mmi8wcPuXLnukE'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Pixpal
+  texture:
+    src: modules/neon-odyssey/icons/creatures/pixpal-token.webp
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!f1NEGL8FiXo0vDyU'

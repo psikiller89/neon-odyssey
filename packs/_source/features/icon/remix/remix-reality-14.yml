@@ -1,0 +1,146 @@
+_id: 58T6fAJ9KEA9YYoO
+name: Remix Reality
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can now effortlessly remaster the rhythms of the cosmic song. You gain the following benefits.</p><p><strong>Groove and Grind.</strong> You and your allies in your Upbeat Aura ignore Difficult
+      Terrain.</p><p><strong>Wallride.</strong> You can move along vertical surfaces and across liquids on your turn without falling during the movement.</p><p><strong>Drop the Beat.</strong> You can take
+      a Magic action to target up to two enemies in your aura. A target must make a Constitution saving throw against your spell save DC. On a failed save, the target has the Stunned condition until the
+      end of your next turn. On a successful save, its Speed is halved until the end of your next turn, and it has Disadvantage on the next attack roll it makes during that time. Once you use this benefit,
+      you can’t use it again until you finish a Long Rest unless you expend a level 5+ spell slot (no action required) to restore your use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Remix Icon
+  activities:
+    uTBajtP1Qg0FBlbu:
+      _id: uTBajtP1Qg0FBlbu
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: u2HQvmZR6eM6Rq1F
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: remix-reality
+  advancement: {}
+effects:
+- _id: u2HQvmZR6eM6Rq1F
+  name: Stunned
+  img: systems/dnd5e/icons/svg/statuses/stunned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - stunned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!58T6fAJ9KEA9YYoO.u2HQvmZR6eM6Rq1F'
+folder: uOX2aXIm3TCM5Aaf
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!58T6fAJ9KEA9YYoO'

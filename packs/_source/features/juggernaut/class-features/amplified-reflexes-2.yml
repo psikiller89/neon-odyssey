@@ -1,0 +1,93 @@
+_id: OHgn8EpQ7ObuZejo
+name: Amplified Reflexes
+type: feat
+img: icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  description:
+    value: <p>Your nerves crackle with kinetic energy, allowing you to instantly react when danger presents itself. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: amplified-reflexes
+  advancement: {}
+  crewed: false
+effects:
+- name: Danger Sense
+  img: icons/skills/wounds/injury-face-impact-orange.webp
+  origin: Compendium.neon-odyssey.features.Item.OHgn8EpQ7ObuZejo
+  _id: lTOwmIJoE8GLm1oy
+  type: base
+  system:
+    changes:
+    - key: system.abilities.dex.save.roll.mode
+      value: 1
+      priority: null
+      type: add
+      phase: initial
+      _id: KWRELCZZNOZiRbeT
+      conditions: '{}'
+      replacement: ''
+    conditions: "{\n  \"o\": \"NOT\",\n  \"v\": {\n    \"k\": \"statuses.incapacitated\",\n    \"v\": 1\n  }\n}"
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    magical: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>You have Advantage on Dexterity saving throws unless you have the &amp;Reference[Incapacitated] condition.</p>
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!OHgn8EpQ7ObuZejo.lTOwmIJoE8GLm1oy'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!OHgn8EpQ7ObuZejo'

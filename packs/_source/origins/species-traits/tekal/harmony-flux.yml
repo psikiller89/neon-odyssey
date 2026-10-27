@@ -1,0 +1,52 @@
+_id: wUnVDYzKJ3hmj1Bo
+name: Harmony Flux
+type: feat
+img: modules/neon-odyssey/icons/species/tekal.webp
+folder: l0JLecTkokebn849
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p>The essence of Harmony fills you. You know the <em>Culling</em>* and <em>Druidcraft</em> cantrips. Additionally, starting at character level 3, you can cast the following spells without a
+      spell slot: <em>Cure Wounds</em> or <em>Ray of </em> <em>Sickness</em>. Once you cast one of these spells, you can’t cast either of them in this way again until you finish a Long Rest. Starting at
+      character level 5, you can cast the following spells without a spell slot: <em>Blindness/Deafness</em> or <em>Lesser </em> <em>Restoration</em>. Once you cast one of these spells, you can’t cast either
+      of them again in this way until you finish a Long Rest. You always have these spells prepared, and you can also cast them using any spell slots you have of the appropriate level. Intelligence, Wisdom,
+      or Charisma is your spellcasting ability for these spells (choose the ability when you select this species).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Tekal
+  activities: {}
+  enchant: {}
+  identifier: harmony-flux
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!wUnVDYzKJ3hmj1Bo'

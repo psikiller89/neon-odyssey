@@ -1,0 +1,125 @@
+_id: nY6rSBVRamUF1of0
+name: Gas Canister
+type: consumable
+img: icons/consumables/drinks/tea-jug-gourd-brown.webp
+system:
+  quantity: 3
+  weight:
+    value: 8.0
+    units: lb
+  price:
+    value: 10
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: rqAteONd99zN3DDR
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Gas Canister is a compact cylinder with a valve. It holds compressed gas, typically oxygen to allow for breathing. A Small or Medium creature can breathe for 24 hours using a full canister.
+      You can refill the canister by connecting it to a life support system (such as those on starships).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    subtype: ''
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities:
+    NUv8lvZJPOljE4Vi:
+      _id: NUv8lvZJPOljE4Vi
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: gas-canister
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nY6rSBVRamUF1of0'

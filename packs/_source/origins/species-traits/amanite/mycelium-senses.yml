@@ -1,0 +1,48 @@
+_id: u7Q7VQTVsd5Sq3bH
+name: Mycelium Senses
+type: feat
+img: modules/neon-odyssey/icons/species/amanite.webp
+folder: BBRZaC1xkxH8DGaR
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have proficiency in the Perception, Stealth, or Survival skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Amanite
+  activities: {}
+  enchant: {}
+  identifier: mycelium-senses
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!u7Q7VQTVsd5Sq3bH'

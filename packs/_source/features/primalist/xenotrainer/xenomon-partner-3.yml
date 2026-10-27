@@ -1,0 +1,138 @@
+_id: oftzTyUH2KsRy74j
+name: Xenomon Partner
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have formed bonds with alien beings infused with primordial energies. As a Magic action, you can expend one use of your Primal Channel to summon a xenomon from one of three environments.
+      The xenomon appears in an unoccupied space of your choice that you can see within 30 feet of yourself. Choose the xenomon’s stat block: Arctic, Tropical, or Volcanic. You determine the creature’s
+      appearance, selecting a form whose nature matches the chosen stat block. Whatever its appearance, the xenomon is marked by the element of the chosen stat block.</p><p>The xenomon is Friendly to you
+      and your allies and obeys your commands. It vanishes if it drops to 0 Hit Points, if you die, if you dismiss it (no action required), or if you expend another Primal Channel to summon a different
+      xenomon.</p><p><strong>The Xenomon in Combat.</strong> In combat, the xenomon acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless
+      you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the xenomon to
+      take an Elemental attack action. If you have the Incapacitated condition, the xenomon acts on its own and isn’t limited to the Dodge action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Xenotrainer Primalist
+  activities:
+    BvB7UBydc6caHiyW:
+      _id: BvB7UBydc6caHiyW
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: M9NtCV8bihx9x02C
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: xenomon-partner
+  advancement: {}
+effects:
+- _id: M9NtCV8bihx9x02C
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oftzTyUH2KsRy74j.M9NtCV8bihx9x02C'
+folder: KENRPQOqunM85j0c
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!oftzTyUH2KsRy74j'

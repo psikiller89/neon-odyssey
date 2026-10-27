@@ -1,0 +1,125 @@
+_id: RixDonTjNecGTNDP
+name: Void Lash
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>Channeling the Abyssal Void, tentacles of flowing darkness lash out from you. Each creature in a 15-foot Cube originating from you makes a Strength saving throw. On a failed save, a target
+      takes 3d4 Psychic damage and can’t take Reactions until the start of its next turn. On a successful save, a target takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+      The damage increases by 1d4 for each spell slot level above 1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cube
+      size: '15'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: con
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    PCZxvseLxrat53Fx:
+      _id: PCZxvseLxrat53Fx
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 3
+          denomination: 4
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: void-lash
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RixDonTjNecGTNDP'

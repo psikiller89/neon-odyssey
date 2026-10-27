@@ -1,0 +1,72 @@
+_id: TTx9mtCjOqeImqUb
+name: Psychic Talent
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your consciousness stretches beyond its bounds to enter minds and manipulate matter. You gain the following benefits.</p><p><strong>Minor Telekinesis.</strong> You learn the <em>Mage Hand</em>
+      spell, and the hand is Invisible when you cast it. If you know the spell from another source, the range increases to 60 feet.</p><p><strong>Telepathic Speech.</strong> You have telepathy with a range
+      of 30 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: psychic-talent
+  advancement:
+    3DJHqdFjKdDQAvCp:
+      _id: 3DJHqdFjKdDQAvCp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMageHand00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 1
+      title: Psychic Talent
+      hint: ''
+effects: []
+folder: A48O1TAuWsYMNrHN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!TTx9mtCjOqeImqUb'

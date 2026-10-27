@@ -1,0 +1,101 @@
+_id: eTAr70dYeUBRXCg0
+name: Lead from the Front
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>When the odds are against you, you push yourself to lead your squad to victory. Whenever you have no Tactical Dice remaining, you can expend a Hit Die to regain one expended Tactical Die (no
+      action required). Additionally, you gain the following tactics.</p><p><strong>Create Diversion.</strong> As a Bonus Action, you can expend one Tactical Die and choose two allies within 30 feet of
+      yourself that can see or hear you. The next time a chosen creature deals damage before the start of your next turn, another chosen creature can take a Reaction to take the Hide action, adding your
+      Tactical Die to its Dexterity (Stealth) check.</p><p><strong>Cut Them Off.</strong> As a Bonus Action, you can expend one Tactical Die to choose two allies within 30 feet of yourself that can see
+      or hear you. For 1 minute, each chosen creature adds your Tactical Die to the attack rolls of any Opportunity Attacks it makes against creatures within 5 feet of another creature you chose. When any
+      chosen creature hits with an Opportunity Attack, the target’s Speed is reduced to 0 until the end of the turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Trooper Soldier
+  activities:
+    qRLCPIySFxS02S2I:
+      _id: qRLCPIySFxS02S2I
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: lead-from-the-front
+  advancement: {}
+effects: []
+folder: W5aOFEPr4VrQ1en8
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!eTAr70dYeUBRXCg0'

@@ -1,0 +1,603 @@
+_id: rDWKOGLNV0P04slO
+name: Racing Bike
+type: vehicle
+img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+system:
+  identifier: racing-bike
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      walk: 120
+    ac:
+      flat: 23
+      calc: flat
+      motionless: 19 while stationary
+    hp:
+      value: 30
+      max: 30
+      temp: 0
+      tempmax: 0
+      dt: 5
+      mt: 10
+    actions:
+      stations: true
+      thresholds:
+        '0': null
+        '1': null
+        '2': null
+      max: 0
+      spent: 0
+    capacity:
+      creature: '2'
+      cargo:
+        value: 0.05
+        units: tn
+    travel:
+      units: mph
+      paces: {}
+      speeds:
+        land: 125
+      time: 24
+    price:
+      value: null
+      denomination: gp
+    quality:
+      value: 4
+  details:
+    biography:
+      value: <p>Racing bikes are motorcycles built for speed and maneuverability, though unskilled riders can quickly find themselves out of their depth.</p><p><strong>Class</strong> Light Planetary. <strong>Cargo</strong>
+        100 lb.. <strong>Passengers</strong> 1. <strong>Crew</strong> 1. <strong>Initiative</strong> +4 plus PB.</p>
+      public: ''
+    type: land
+  source:
+    revision: 1
+    rules: '2024'
+    license: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: '197'
+    custom: ''
+  traits:
+    size: lg
+    di:
+      bypasses: []
+      value:
+      - poison
+      - psychic
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+      - blinded
+      - charmed
+      - deafened
+      - frightened
+      - paralyzed
+      - petrified
+      - poisoned
+      - stunned
+      - unconscious
+      custom: ''
+    dimensions: ''
+    weight:
+      value: 450
+      units: lb
+    keel:
+      units: ft
+    beam:
+      units: ft
+  cargo:
+    crew: []
+    passengers: []
+  crew:
+    value: []
+  draft:
+    value: []
+  passengers:
+    value: []
+prototypeToken:
+  name: Racing Bike
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 2
+  height: 2
+  texture:
+    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 2
+items:
+- _id: agFqntxDxiEmiXnh
+  name: Jump
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the bike moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap or obstacle. It reaches a maximum height of
+        one-quarter the distance jumped. Each foot it clears on the jump costs 1 foot of movement.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: jump
+  _key: '!actors.items!rDWKOGLNV0P04slO.agFqntxDxiEmiXnh'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 1KroKdM7VawFZR3F
+  name: Prone Deficiency
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the bike has the Prone condition, it can’t right itself and its Speed is 0 until pulled upright.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: prone-deficiency
+  _key: '!actors.items!rDWKOGLNV0P04slO.1KroKdM7VawFZR3F'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: eUo3k8qMyHugPpZJ
+  name: Stunt
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>On its turn, the bike’s driver can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie, traversing an obstacle up to 5 feet high without expending additional
+        movement, or balancing on a surface up to 6 inches wide. The bike must first move at least 10 feet in a straight line. If the driver then succeeds on a DC 10 vehicle Dexterity check, the stunt is
+        successful. Otherwise, the driver is unable to perform the stunt and can’t attempt another stunt until the start of its next turn. If the check fails by 5 or more, the bike and all creatures riding
+        it gain the Prone condition as the bike wipes out and comes to a dead stop.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: stunt
+  _key: '!actors.items!rDWKOGLNV0P04slO.eUo3k8qMyHugPpZJ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: nStTI0t6TMaumO40
+  name: Controls
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Drive and steer the bike. Reactions</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      ZIDDXS9AlmIlPHTo:
+        _id: ZIDDXS9AlmIlPHTo
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: controls
+  _key: '!actors.items!rDWKOGLNV0P04slO.nStTI0t6TMaumO40'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: xZvyQZ2tUnPXZVOu
+  name: Agile Dodge
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger. The driver makes a vehicle Dexterity saving throw while the bike can move. Response: The driver has Advantage on the triggering save.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      eHQLEfojJqs96LJd:
+        _id: eHQLEfojJqs96LJd
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: agile-dodge
+  _key: '!actors.items!rDWKOGLNV0P04slO.xZvyQZ2tUnPXZVOu'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+folder: B7KoyN2Wquc83gzV
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+sort: 200000
+ownership:
+  default: 0
+_key: '!actors!rDWKOGLNV0P04slO'

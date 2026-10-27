@@ -1,0 +1,127 @@
+_id: jpxXcjhZVk0F9An0
+name: Scrap Modder
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You upgrade your gear with scrap mods and force them to function through the force of your Surge. While your Surge is active and you’re holding a Simple or Martial weapon, you can use the
+      options presented below.</p><p>You can use this feature a number of times equal to your Strength modifier (minimum of once). You regain one expended use when you finish a Short Rest, and you regain
+      all expended uses when you finish a Long Rest.</p><p><strong>Junkerbuss.</strong> When you take the Attack action on your turn, in place of one attack, you can unleash a blast of red-hot scrap in
+      a 30-foot Cone. Each creature in that area must make a Dexterity saving throw. Roll a number of d8s equal to your Surge Damage bonus. On a failed save, a target takes Fire damage equal to the total
+      rolled and begins burning. On a successful save, it takes half as much damage only.</p><p><strong>Scrapburst.</strong> Once on each of your turns, when you hit with an attack roll using a Melee weapon,
+      you can deal an extra 1d8 Thunder damage to the target. When you do so, you can activate the Push or Topple mastery property in addition to another property you’re using. The Thunder damage increases
+      by 1d8 when you reach Juggernaut levels 9 (2d8) and 16 (3d8).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.str.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Scrapper Juggernaut
+  activities:
+    txsQWf6Oq9Al3Hpb:
+      _id: txsQWf6Oq9Al3Hpb
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: scrap-modder
+  advancement: {}
+effects: []
+folder: Lzdgh5AIn4r1NEZp
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jpxXcjhZVk0F9An0'

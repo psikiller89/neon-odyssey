@@ -1,0 +1,132 @@
+_id: dOCh3KSZw93mn8oM
+name: Camouflage
+type: feat
+img: modules/neon-odyssey/icons/species/murexian.webp
+folder: npeQLHhkOLtCAR2F
+sort: 0
+effects:
+- _id: M7VN0o3gGktE3adZ
+  name: Invisible
+  img: systems/dnd5e/icons/svg/statuses/invisible.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - invisible
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!dOCh3KSZw93mn8oM.M7VN0o3gGktE3adZ'
+system:
+  description:
+    value: <p>As a Bonus Action, you can give yourself the Invisible condition until the start of your next turn. The condition ends early if you make an attack roll, cast a spell, or force a creature to
+      make a saving throw.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Murexian
+  activities:
+    zlYAJvcypk4XlHEO:
+      _id: zlYAJvcypk4XlHEO
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: M7VN0o3gGktE3adZ
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: camouflage
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!dOCh3KSZw93mn8oM'

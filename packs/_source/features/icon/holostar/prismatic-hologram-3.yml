@@ -1,0 +1,144 @@
+_id: loGtFlc232dZvvxi
+name: Prismatic Hologram
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can create colorful holograms that become extensions of your cosmic song. As a Bonus Action, or as part of the same Bonus Action you use to grant an Iconic Inspiration die, you can conjure
+      a Medium or smaller hologram within 30 feet of you. You decide the hologram’s form, but it is obviously a holographic image.</p><p>The hologram persists for 1 minute. For the duration, you can use
+      the benefits below. Once you use this feature to create a hologram, you can’t do so again until you finish a Short or Long Rest.</p><p><strong>Backup.</strong> You can cast spells as though you were
+      in the hologram’s space, but you must use your own senses.</p><p><strong>Harmonize.</strong> When a creature you can see within 30 feet of the hologram succeeds or fails on a D20 Test, you can take
+      a Reaction to roll 1d4 and add it to or subtract it from the total (your choice), potentially changing the result.</p><p><strong>Moonwalk.</strong> As a Bonus Action, you can move the hologram up
+      to 30 feet to a space you can see within 120 feet of yourself.</p><p><strong>Spotlight.</strong> When you create the hologram, you can cause it to shed Bright Light or Dim Light up to 20 feet, or
+      no light, and you can change this selection once on each of your turns if you don’t have the Incapacitated condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Holostar Icon
+  activities:
+    OWjYVQ3fWKLs5XqF:
+      _id: OWjYVQ3fWKLs5XqF
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: Ti7M5jjAn2v5RBuN
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: prismatic-hologram
+  advancement: {}
+effects:
+- _id: Ti7M5jjAn2v5RBuN
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!loGtFlc232dZvvxi.Ti7M5jjAn2v5RBuN'
+folder: gHY5pYrSBJNC2d2E
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!loGtFlc232dZvvxi'

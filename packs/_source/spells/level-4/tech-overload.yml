@@ -1,0 +1,139 @@
+_id: nw8WLScRIXy19tAp
+name: Tech Overload
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+system:
+  description:
+    value: <p>You target one Power Cell you can see within range. If the Power Cell isn’t being worn or carried, it explodes. Each creature in 10-foot-radius Sphere centered on the Power Cell must make
+      a Dexterity saving throw, taking 4d6 Fire damage and 4d6 Lightning damage on a failed save and half as much damage on a successful one.</p><p>If the Power Cell is being worn or carried, the creature
+      must succeed on a Wisdom saving throw, or the Power Cell explodes as above.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target an additional Power Cell for every two spell slot
+      levels above 4.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: sphere
+      size: '10'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '30'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: evo
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    WrUpkNyii3utkoGH:
+      _id: WrUpkNyii3utkoGH
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: tech-overload
+effects: []
+folder: sEPVmwo0fZxpCj2K
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nw8WLScRIXy19tAp'

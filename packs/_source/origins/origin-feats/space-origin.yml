@@ -1,0 +1,104 @@
+_id: 06QBZczgQYX77MzS
+name: Space Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Space Homeworld)</em></p><p>You have absorbed the essence of your home’s space-bound nature or world soul, gaining the following benefits.</p><p><strong>Aetheric
+      Metabolism.</strong> You subsist on minute amounts of aether in the environment. You can go without food or water for twice the usual time before you need to make saving throws against dehydration
+      or malnutrition.</p><p><strong>Aetheric Resilience.</strong> If you fail a saving throw against Exhaustion, you can choose to succeed instead. You can use this benefit a number of times equal to your
+      Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Space Homeworld
+  activities:
+    aPKlNbGN73pv5ezs:
+      _id: aPKlNbGN73pv5ezs
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: space-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!06QBZczgQYX77MzS'

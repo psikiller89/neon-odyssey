@@ -1,0 +1,103 @@
+_id: uL8K6cmyUBUW8os2
+name: Metamorphosis
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your bond with your xenomon deepens, and they metamorphosize into their next stage, granting the following benefits.</p><p><strong>Second Stage.</strong> The size of each of your xenomon increases
+      to Medium and it Hit Dice becomes d8s.</p><p><strong>Switch Out.</strong> As a Bonus Action while you have a xenomon summoned, you can replace it with a different xenomon. Each creature (other than
+      you) in a 10-foot Emanation originating from the new xenomon must succeed on a Dexterity saving throw against your spell save DC or take 2d6 damage of the same type the xenomon’s Elemental attack
+      deals. You can command the xenomon as part of the same Bonus Action.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Xenotrainer Primalist
+  activities:
+    Z1FYhTVU5mqhj8Bm:
+      _id: Z1FYhTVU5mqhj8Bm
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: metamorphosis
+  advancement: {}
+effects: []
+folder: KENRPQOqunM85j0c
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uL8K6cmyUBUW8os2'

@@ -1,0 +1,51 @@
+_id: gx8X4zQXOdaoZP7O
+name: Agile Escape
+type: feat
+img: icons/skills/movement/arrow-down-pink.webp
+system:
+  description:
+    value: <p>Your heightened spirit allows you to detect and evade danger. When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take
+      no damage if you succeed on the saving throw and only half damage if you fail.</p><p>You don’t benefit from this feature if you have the Incapacitated condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: agile-escape
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 800000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!gx8X4zQXOdaoZP7O'

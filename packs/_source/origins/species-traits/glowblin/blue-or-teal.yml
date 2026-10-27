@@ -1,0 +1,48 @@
+_id: s9WGg3J8sYXQfr1W
+name: Blue or Teal
+type: feat
+img: modules/neon-odyssey/icons/species/glowblin.webp
+folder: Xu1Hy0zFJ2JAyshu
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You and your allies within the light have Resistance to Psychic damage and have Advantage on saving throws made to avoid or end the Charmed or Frightened condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Glowblin
+  activities: {}
+  enchant: {}
+  identifier: blue-or-teal
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!s9WGg3J8sYXQfr1W'

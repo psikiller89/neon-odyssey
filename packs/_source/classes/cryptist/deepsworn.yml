@@ -1,0 +1,111 @@
+_id: 242DBd13YJ59k1jN
+name: Deepsworn
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/deepsworn.webp
+system:
+  description:
+    value: <p><em>Unmake Existence with the Annihilation of the Void</em> The Deepsworn are Cryptists who scour the secrets of the infinite depths of the Abyssal Void and the prophecies that the Stardust
+      Rhapsody will end how it began—in darkness. They dredge up the annihilating power of the Deep, unfathomable beings inimical to galactic existence, to unmake whatever or whomever does not fall into
+      their cosmic designs. Many Deepsworn are drawn to the lost ruins of the Eldest in hopes to discover truths of what existed before the galaxy, while some look only forward to advance the unraveling
+      of the song of creation.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: deepsworn
+  classIdentifier: cryptist
+  advancement:
+    oiAgTHg6tnypPoit:
+      _id: oiAgTHg6tnypPoit
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Mr8clzJ659VsYwJ6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.aV6IX4jupZSjGjQY
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Qj5gVMiGuNxqmvEs
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    eP0x0g6llRQzqUJX:
+      _id: eP0x0g6llRQzqUJX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Stiwx09lXXhqfLxw
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.9RFRw1cWCJWjzlOo
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    IzN1gch0g49FIcRy:
+      _id: IzN1gch0g49FIcRy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.n7q8qYMD9rQZQzG7
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.xuKeXcdDhYUf1puB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    WRpqrBjgBPJBXKcz:
+      _id: WRpqrBjgBPJBXKcz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.RBNoLBQqlagN8ceW
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: V33SdDpvnwMZjPPw
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!242DBd13YJ59k1jN'

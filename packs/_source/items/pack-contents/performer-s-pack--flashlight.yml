@@ -1,0 +1,111 @@
+_id: it0yuzhJxXZRUHA1
+name: Flashlight
+type: equipment
+img: icons/sundries/lights/lantern-steel.webp
+system:
+  quantity: 1
+  weight:
+    value: 1.0
+    units: lb
+  price:
+    value: 25
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: UkkQ5CtN1WjfrVYc
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Flashlight is a handheld device that uses a Power Cell to produce light. You can turn the light on or off (no action required) once on your turn. A Power Cell powers a Flashlight for 10
+      hours of use.</p><p>The Flashlight has three modes, which you can switch as a Bonus Action.</p><p><strong>Ambient.</strong> The light produces Bright Light in a 30-foot radius and Dim Light for an
+      additional 30 feet.</p><p><strong>Spotlight.</strong> The light produces Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.</p><p><strong>Subtle.</strong> The light produces Dim
+      Light in a 5-foot radius.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    GzwB4tbrLoSVRtmp:
+      _id: GzwB4tbrLoSVRtmp
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: flashlight
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!it0yuzhJxXZRUHA1'

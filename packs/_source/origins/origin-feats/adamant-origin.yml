@@ -1,0 +1,50 @@
+_id: jlPZo0uSOA6nOlh8
+name: Adamant Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Rocky Homeworld)</em></p><p>You have absorbed the essence of your home’s stoney nature or world soul, gaining the following benefits.</p><p><strong>Solid Foundation.</strong>
+      You have Advantage on saving throws against being moved against your will and against the Prone condition.</p><p><strong>Stone’s Toughness.</strong> You know the <em>Deflection</em>* cantrip and you
+      don’t require spell components for it. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (chosen when you select this feat).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Rocky Homeworld
+  activities: {}
+  enchant: {}
+  identifier: adamant-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jlPZo0uSOA6nOlh8'

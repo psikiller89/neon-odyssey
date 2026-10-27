@@ -1,0 +1,124 @@
+_id: ZOj995QaDedrg9l6
+name: Tactical Cybernetics
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your cybernetic enhancements give you an edge in the pursuit of justice. You gain a set of Engineer’s Tools and you have proficiency with them, and you choose two cybernetic systems from the
+      list below with which you enhance your body. When you finish a Long Rest, you can use Engineer’s Tools to change one implant to a different one.</p><p><strong>Dermal-Fused Armor.</strong> You have
+      your armor integrated into your body. This armor is part of you, and it can’t be doffed except with surgery.</p><p>In addition, when you use Invigorate to target another creature, you can regain half
+      as many Hit Points (rounded down).</p><p><strong>Optical Scanner.</strong> Scanner implants boost your senses. You gain Darkvision with a range of 60 feet, and you have Advantage on Intelligence (Investigation)
+      and Wisdom (Perception) checks.</p><p><strong>Pursuit Chassis.</strong> Your legs are enhanced for high-speed chases. As a Bonus Action, you can take the Dash action, and your jump distance is doubled
+      until the end of your turn.</p><p><strong>Vox Amplifier.</strong> This vocal implant allows you to increase the volume of your voice beyond its normal range. When you speak, you can choose to do so
+      through the amplifier to make your voice audible to a range of 300 feet. Additionally, you can cast <em>Command</em> once without a spell slot, and you regain the ability to do so when you finish
+      a Long Rest.</p><p>When you cast <em>Command</em>, a target has Disadvantage on the saving throw against the spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities:
+    Rx5UggUKBgc2WATn:
+      _id: Rx5UggUKBgc2WATn
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: tactical-cybernetics
+  advancement:
+    RRSClHH5CFiJLVyE:
+      _id: RRSClHH5CFiJLVyE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Tactical Cybernetics
+      hint: ''
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZOj995QaDedrg9l6'

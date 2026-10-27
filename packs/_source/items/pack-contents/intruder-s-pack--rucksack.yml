@@ -1,0 +1,56 @@
+_id: IeDaIff6Icr6lMvP
+name: Rucksack
+type: container
+img: icons/containers/bags/pack-simple-leather.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 100
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: hqbR1P4EpjiaCdiB
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Rucksack is a backpack that holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag for a mount, or for a motorcycle or similar vehicle.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  capacity:
+    count: null
+    volume:
+      units: cubicFoot
+    weight:
+      units: lb
+  currency: {}
+  properties: []
+  identifier: rucksack
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IeDaIff6Icr6lMvP'

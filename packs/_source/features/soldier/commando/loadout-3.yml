@@ -1,0 +1,102 @@
+_id: hXG4JQ6ja4gczyhv
+name: Loadout
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You store your arsenal in a digital armory. You can register your gear to a Hypergrid armory and quickly store or retrieve that gear.</p><p>When you finish a Short or Long Rest, you can register
+      a loadout consisting of up to three items you touch, each of which can be a set of armor, a weapon, or a Shield. This registration fails if another creature is wearing or carrying the item, another
+      Soldier has already registered it, or if an item is a magic item to which someone else is attuned. If you register an item beyond your maximum, you must unregister one of the others, which appears
+      at your feet in your space. You also can unregister an item as a Bonus Action.</p><p>As a Bonus Action, you can digitize a registered item and send it into Hypergrid storage, or you can summon one
+      from storage. If you summon armor, you can don it instantly if you aren’t wearing armor, and if you summon a weapon, it appears in a free hand. Otherwise, a summoned object appears at your feet in
+      your space.</p><p>Additionally, if you unequip a weapon on your turn, you can equip a different weapon as part of the same action or attack if you equip a registered weapon.</p><p>The maximum number
+      of items you can have registered at once increases when you reach Soldier levels 7 (four items), 10 (five items), 15 (six items), and 18 (seven items).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities:
+    SevVfOZhwx3tEt7Z:
+      _id: SevVfOZhwx3tEt7Z
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: loadout
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hXG4JQ6ja4gczyhv'

@@ -1,0 +1,84 @@
+_id: JNeRxPQjWFxIBKRM
+name: Abyssal Revelation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of the Abyssal Void. You learn the <em>Disruption</em>* cantrip if you don’t already know it. Once you have Occult
+      Magic spell slots capable of casting each of the following spells, you always have that spell prepared: <em>Bane</em>, <em>Darkness</em>, <em>Hungering Void</em>*, <em>Summon Void-Dweller</em>*, <em>Planar
+      Binding</em>.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: abyssal-revelation
+  advancement:
+    5YuhURJxs9gAuNd2:
+      _id: 5YuhURJxs9gAuNd2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.cAhBBvloJ13pb899
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDarkness00
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.Gm5OXs0BUV02je4J
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.HemZOAKCKCoTgeFN
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Abyssal Revelation
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!JNeRxPQjWFxIBKRM'

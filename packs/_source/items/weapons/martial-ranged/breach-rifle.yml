@@ -1,0 +1,267 @@
+_id: 0qjUeR99Upfd5XxS
+name: Breach Rifle
+type: weapon
+img: icons/weapons/guns/gun-blunderbuss-gold.webp
+system:
+  quantity: 1
+  weight:
+    value: 10.0
+    units: lb
+  price:
+    value: 4000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p><em>2d6 Piercing; Ammunition (Range 80/320; Shells), Braced, Burst, Heavy, Reload (20 shots), Two Handed; Mastery: Cleave</em></p><p><strong>Braced.</strong> When making an attack with a
+      Braced weapon, use your Strength modifier for the attack and damage rolls. If the weapon has the Heavy property, use your Strength score to determine if you can use it without Disadvantage.</p><p><strong>Burst.</strong>
+      As an action, or in place of one attack when you take the Attack action, you can expend 3 shots of a Burst weapon’s ammunition and make an attack with the weapon. On a hit or a miss, a second target
+      within 5 feet of the first must make a DC 15 Dexterity saving throw or take the weapon’s damage, but you don’t add your ability modifier to that damage unless it is negative.</p><p><strong>Reload.</strong>
+      A Reload weapon’s ammunition is held in a magazine or a Power Cell. After the number of shots noted in the property, you must reload the weapon as an action or a Bonus Action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: martialR
+    baseItem: ''
+  damage:
+    base:
+      number: 2
+      denomination: 6
+      bonus: ''
+      types:
+      - piercing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  range:
+    value: 80
+    long: 320
+    units: ft
+    reach: null
+  properties:
+  - amm
+  - braced
+  - burst
+  - hvy
+  - reload
+  - two
+  mastery: cleave
+  uses:
+    max: '20'
+    spent: 0
+    recovery: []
+  magicalBonus: null
+  proficient: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  ammunition: {}
+  activities:
+    PcSHGkIzbUYTel3h:
+      _id: PcSHGkIzbUYTel3h
+      type: attack
+      name: Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+    iMdUnVPjkfUvH5zk:
+      _id: iMdUnVPjkfUvH5zk
+      type: utility
+      name: Reload
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-20'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+    P5PivtOaCkM8nknh:
+      _id: P5PivtOaCkM8nknh
+      type: save
+      name: Burst (Second Target)
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '2'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: ''
+          formula: '15'
+      damage:
+        onSave: none
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: breach-rifle
+effects: []
+folder: GzA6lKBKXs3lxJUF
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0qjUeR99Upfd5XxS'

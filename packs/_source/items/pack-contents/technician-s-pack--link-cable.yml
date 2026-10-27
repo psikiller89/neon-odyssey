@@ -1,0 +1,52 @@
+_id: 3jv5eslOsXKOFBHp
+name: Link Cable
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 15
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: cUcJJjUdS1ApzGK4
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A 20-foot spool of cable with connectors at each end for transferring power or data.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: link-cable
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3jv5eslOsXKOFBHp'

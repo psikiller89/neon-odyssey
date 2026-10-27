@@ -1,0 +1,111 @@
+_id: 0InX8vaqjZyrrK5P
+name: Psychic Link
+type: spell
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  description:
+    value: <p>You establish a psychic connection between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if
+      you or the target are no longer on the same plane.</p><p>Until the spell ends, you and the target can instantly share words, images, sounds, and other sensory messages with each other through the
+      connection, and the target recognizes you as the creature it is communicating with. The spell enables a creature to understand the meaning of your words and any sensory messages you send to it.</p><p>During
+      the spell’s duration, you can cast a spell as if you were in the target’s space, after which this spell ends immediately.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: any
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 8
+  school: div
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: two shards from the same crystal
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    jma3cfVGbCceWKyp:
+      _id: jma3cfVGbCceWKyp
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: psychic-link
+effects: []
+folder: 07ITleK1yClTBiAu
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0InX8vaqjZyrrK5P'

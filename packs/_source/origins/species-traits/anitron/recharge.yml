@@ -1,0 +1,49 @@
+_id: QATrDwWo8Yz0dLI8
+name: Recharge
+type: feat
+img: modules/neon-odyssey/icons/species/anitron.webp
+folder: 5ZWpjV4OAPSf3Yyy
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You don’t need sleep, and magic can’t put you to sleep. During a Long Rest, you appear inert but remain conscious. You can finish a Long Rest in 4 hours if you consume a full Power Cell or
+      connect to an energy source.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Anitron
+  activities: {}
+  enchant: {}
+  identifier: recharge
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!QATrDwWo8Yz0dLI8'

@@ -1,0 +1,109 @@
+_id: lmfxegpNQuR0W1je
+name: Decisive Action
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You and your squad have trained in more advanced tactics. You gain the following tactics.</p><p><strong>Bolster Morale.</strong> As a Bonus Action, you can expend one Tactical Die and target
+      an ally within 30 feet of yourself that has the Charmed, Frightened, or Stunned condition, and that can see or hear you. The target makes a new saving throw against the effect that caused the condition,
+      or a DC 15 Wisdom saving throw if there was no initial save, adding the Tactical Die to the roll. On a success, the condition ends.</p><p><strong>Counterattack.</strong> When an ally within 30 feet
+      of you and that can see or hear you takes damage, you can take a Reaction to expend and roll a Tactical Die to reduce the damage taken by the number rolled. The next time that creature is the target
+      of an attack roll before the end of its next turn, it can take a Reaction to make an attack with Advantage against that attacker.</p><p><strong>Medevac.</strong> As a Bonus Action, you can expend
+      and roll a Tactical Die to choose an ally within your reach that is willing and Bloodied or that has 0 Hit Points and isn’t dead. Until the start of your next turn, the target gains the number rolled
+      as a bonus to its AC and Death Saving Throws. If the target is Medium or smaller, you can move it with you when you move. The first time the target regains Hit Points before the start of your next
+      turn, it regains an additional number of Hit Points equal to one roll of your Tactical Die.</p><p><strong>Vault Over.</strong> As a Bonus Action, you can expend one Tactical Die to choose an ally
+      within 30 feet of yourself that can see or hear you. While the target has a free hand, it can help one of its allies within 5 feet of it make a jump, adding your Tactical Die to its jump distance.
+      If the jumping creature must make a D20 Test before landing, it also adds the number rolled to the total.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Trooper Soldier
+  activities:
+    EQmTB99NumddJ6iL:
+      _id: EQmTB99NumddJ6iL
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: decisive-action
+  advancement: {}
+effects: []
+folder: W5aOFEPr4VrQ1en8
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!lmfxegpNQuR0W1je'

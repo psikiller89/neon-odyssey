@@ -1,0 +1,107 @@
+_id: nmJvTZ52dKX051GD
+name: Mark II Armor
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You make substantive upgrades to your Power Armor designs, gaining the following benefits.</p><p><strong>Expanded Systems.</strong> You create and install one of the following pieces of outrunning
+      gear into your armor (ignoring its weight): Flamethrower (refuels when you finish a Long Rest), Grenade Launcher (with one Frag Grenade, which replenishes when you finish a Long Rest), High Power
+      Communicator (provides its own power), or Night Vision Goggles (provides its own power).</p><p>The gear can’t be removed from the armor, but you can change the selection when you finish a Short or
+      Long Rest. The gear vanishes if the armor stops being your Power Armor.</p><p><strong>Flight Jets.</strong> You build flight systems into your armor. As a Bonus Action while wearing your Power Armor,
+      you gain a Fly Speed equal to your Speed for 1 minute or until you remove the armor.</p><p>You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once), and you
+      regain all expended uses when you finish a Long Rest.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.wis.mod)
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Powertech Tracer
+  activities:
+    dG6YnJYyp4Xzr51J:
+      _id: dG6YnJYyp4Xzr51J
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: mark-ii-armor
+  advancement: {}
+effects: []
+folder: X4HPIohiyzVSXvRW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nmJvTZ52dKX051GD'

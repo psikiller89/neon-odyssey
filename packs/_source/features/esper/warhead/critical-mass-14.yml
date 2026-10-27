@@ -1,0 +1,50 @@
+_id: aZGAr7lMk55ff2Zw
+name: Critical Mass
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your telekinetic power crackles to unbound heights, granting the following benefits.</p><p><strong>Exploding Power.</strong> You gain one additional use of your Unbound Psyche feature (total
+      of three uses).</p><p><strong>Kinetic Suspension.</strong> While your Unbound Psyche feature is active, you gain a Fly Speed of 60 feet and can hover.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Warhead Esper
+  activities: {}
+  enchant: {}
+  identifier: critical-mass
+  advancement: {}
+effects: []
+folder: rox6ZyB1LxbRugjH
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aZGAr7lMk55ff2Zw'

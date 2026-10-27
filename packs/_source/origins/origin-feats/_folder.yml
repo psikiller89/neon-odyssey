@@ -1,0 +1,20 @@
+name: Homeworld Origin Feats
+sorting: a
+folder: null
+type: Item
+_id: zwHjzj1gRncwSsrp
+description: ''
+sort: 3
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!zwHjzj1gRncwSsrp'

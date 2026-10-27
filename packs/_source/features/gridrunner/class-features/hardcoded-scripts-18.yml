@@ -1,0 +1,144 @@
+_id: MldxsTYC5RLE1E0g
+name: Hardcoded Scripts
+type: feat
+img: icons/magic/unholy/beam-impact-purple.webp
+system:
+  description:
+    value: <p>You have coded certain scripts so many times that they become effortless to execute. Choose a level 1 and a level 2 spell in your hyperpad that have a casting time of an action. You always
+      have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.</p><p>Whenever you finish
+      a Long Rest, you can update your hyperpad and replace one of those spells with an eligible spell of the same level from the pad.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    repeatable: false
+  properties: []
+  requirements: Gridrunner
+  activities:
+    bT2LjQRvFei2uzIl:
+      type: enchant
+      name: Master Spell
+      _id: bT2LjQRvFei2uzIl
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: P5SxPZNi4KPzW8dD
+        level:
+          min: null
+          max: null
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: ''
+  enchant: {}
+  identifier: hardcoded-scripts
+effects:
+- type: enchantment
+  name: Mastered
+  img: icons/magic/unholy/beam-impact-purple.webp
+  disabled: true
+  _id: P5SxPZNi4KPzW8dD
+  system:
+    changes:
+    - key: name
+      value: ', Mastered'
+      priority: null
+      type: add
+      phase: initial
+      _id: lKHICaE1K0Z4JaDq
+    - key: system.preparation.mode
+      value: always
+      priority: null
+      type: override
+      phase: initial
+      _id: Uszwgx5FR5n8R07Z
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!MldxsTYC5RLE1E0g.P5SxPZNi4KPzW8dD'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: vpRfQY6bZevS9uKl
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!MldxsTYC5RLE1E0g'

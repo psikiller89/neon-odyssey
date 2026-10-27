@@ -1,0 +1,52 @@
+_id: Mw7AeeB4jtgrdL6u
+name: Upgraded Codebase
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have upgraded your code protocols to enhance the alterations of your Hotfix feature.</p><p><strong>Decrypt.</strong> When the altered spell first deals damage, if any of its targets have
+      Immunity to that damage type, you can change the damage type the spell deals to one type other than Force. The change lasts for the remainder of the spell’s duration.</p><p><strong>Refactor.</strong>
+      Spells with a range of Touch now have a range of 60 feet, and the areas you can choose now have the following dimensions: 40-foot Cone, 20-foot Emanation, 60foot Line that is 10 feet wide, 20-foot
+      Sphere, 15-foot-radius Cylinder that is 50 feet high.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hypercoder Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: upgraded-codebase
+  advancement: {}
+effects: []
+folder: Jm9pck4aLvG2dZ1L
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Mw7AeeB4jtgrdL6u'

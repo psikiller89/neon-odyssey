@@ -1,0 +1,71 @@
+_id: CKXz5DGf7qOyKRv4
+name: Medium Armor Vest
+type: equipment
+img: icons/equipment/chest/breastplate-collared-steel-grey.webp
+system:
+  quantity: 1
+  weight:
+    value: 20.0
+    units: lb
+  price:
+    value: 2500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><em>AC 13 + Dex modifier (max 2)</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: medium
+    baseItem: ''
+  armor:
+    value: 13
+    magicalBonus: null
+    dex: 2
+  strength: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  proficient: null
+  activities: {}
+  identifier: medium-armor-vest
+effects: []
+folder: 49juRR3r5WiVOAz9
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!CKXz5DGf7qOyKRv4'

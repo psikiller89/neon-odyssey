@@ -1,0 +1,127 @@
+_id: 3Odo96agiczdAv1b
+name: Indirect Fire
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>A red targeting circle briefly appears on the ground beneath a point you choose within range. A cascade of digitized arrows, bullets, or artillery shells rains down, then disappears. Each
+      creature in a 40-foot-radius, 40-foot-high Cylinder centered on that point makes a Dexterity saving throw. On a failed save, a target takes 10d6 Force damage and the next attack roll made against
+      it before the end of your next turn has Advantage. On a successful save it takes half as much damage only.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cylinder
+      size: '40'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '150'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: a scope or gun sight
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    QdetuD9QHMfqVmM7:
+      _id: QdetuD9QHMfqVmM7
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 10
+          denomination: 6
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: indirect-fire
+effects: []
+folder: KWpE1CiC6PgaF2z3
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3Odo96agiczdAv1b'

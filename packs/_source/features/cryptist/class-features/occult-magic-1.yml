@@ -1,0 +1,68 @@
+_id: kN3ULn4nMBU4jipM
+name: Occult Magic
+type: feat
+img: icons/skills/wounds/injury-hand-blood-red.webp
+system:
+  description:
+    value: <p>Through 1 discovery and study of occult secrets, you have unlocked the art of spellcasting. See the <em>D&amp;D Beyond Basic </em> <em>Rules</em> for the rules on spellcasting. The information
+      below details how you use those rules with Cryptist spells, which appear in the Cryptist spell list later in the class’s description.</p><p><strong>Spellcasting Ability.</strong> Intelligence or Charisma
+      is your spellcasting ability for your Cryptist spells, chosen as your Primary Ability (see the Core Cryptist Traits table) when you first select this class. Intelligence represents power drawn from
+      your comprehension of the truth behind secrets, while Charisma represents a realization that truth is perception, and your truth can override any other.</p><p><strong>Cantrips.</strong> You know two
+      Cryptist cantrips of your choice. <em>Eldritch Blast</em> and <em>Prestidigitation</em> are recommended. Whenever you gain a Cryptist level, you can replace one of your cantrips from this feature
+      with another Cryptist cantrip of your choice.</p><p>When you reach Cryptist levels 4 and 10, you learn another Cryptist cantrip of your choice, as shown in the Cantrips column of the Cryptist Features
+      table.</p><p><strong>Spell Slots.</strong> The Cryptist Features table shows how many spell slots you have to cast your Cryptist spells of levels 1–5. The table also shows the level of those slots,
+      all of which are the same level. You regain all expended Occult Magic spell slots when you finish a Short or Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of
+      level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Cryptist spells. <em>Charm Person</em> and <em>Hex</em> are recommended.</p><p>The number of spells
+      on your list increases as you gain Cryptist levels, as shown in the Prepared Spells column of the Cryptist Features table. Whenever that number increases, choose additional Cryptist spells until the
+      number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach level
+      6, for example, you learn a new Cryptist spell, which can be of levels 1–3.</p><p>If another Cryptist feature gives you spells that you always have prepared, those spells don’t count against the number
+      of spells you can prepare with this feature, but those spells otherwise count as Cryptist spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a Cryptist level,
+      you can replace one spell on your list with another Cryptist spell of an eligible level.</p><p><strong>Spellcasting Focus.</strong> You can use an Occult Focus as a Spellcasting Focus for your Cryptist
+      spells. +2 Esoteric Secrets, Occult Magic 1 2 2 1 1 +2 Cryptic Guile 3 2 3 2 1 +2 Cryptist Subclass 3 2 4 2 2 +2 Ability Score Improvement 3 3 5 2 2 +3 Hidden Truth 5 3 6 2 3 +3 Subclass feature 5
+      3 7 2 3 +3 6 3 8 3 4 +3 Ability Score Improvement 6 3 9 3 4 +4 Forbidden Knowledge 7 3 10 3 5 +4 Subclass feature 7 4 10 3 5 +4 Eldritch Revelation (level 6 spell) 7 4 11 3 5 +4 Ability Score Improvement
+      8 4 11 3 5 +5 Eldritch Revelation (level 7 spell) 8 4 12 4 5 +5 Subclass feature 8 4 12 4 5 +5 Eldritch Revelation (level 8 spell) 9 4 13 4 5 +5 Ability Score Improvement 9 4 13 4 5 +6 Eldritch Revelation
+      (level 9 spell) 9 4 14 4 5 +6 10 4 14 4 5 +6 Epic Boon 10 4 15 5 5 +6 Master of Whispers 10 4 15 5 5</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: occult-magic
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: TJJaZ451oPDfNSkq
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!kN3ULn4nMBU4jipM'

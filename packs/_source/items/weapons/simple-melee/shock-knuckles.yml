@@ -1,0 +1,289 @@
+_id: UoSL6ueSI3Z3n58d
+name: Shock Knuckles
+type: weapon
+img: icons/skills/melee/unarmed-punch-fist-white.webp
+system:
+  quantity: 1
+  weight:
+    value: 1.0
+    units: lb
+  price:
+    value: 100
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p><em>1d6 Bludgeoning; Light, Powered (1d8 Lightning), Pummel; Mastery: Nick</em></p><p><strong>Powered.</strong> You can activate a Powered weapon that has a charged Power Cell when you make
+      an attack with it. On a hit while activated, the weapon’s damage die changes to the value noted with the property. If a damage type is also noted, the weapon deals damage of that type when activated.
+      If the weapon also has the Versatile property, the Powered property has a second notation for the activated damage when wielded with two hands. A full Power Cell powers the weapon for 25 attacks.
+      You can exchange the cell as an action or a Bonus Action.</p><p><strong>Pummel.</strong> Attacks with a Pummel weapon count as making Unarmed Strikes in addition to using a weapon. Breaker Axe 1d12
+      Slashing Heavy, Powered (2d8), Two-Handed Cleave 7 lb. $1,500 Breaker Sword 2d6 Slashing Heavy, Powered (2d8), Two-Handed Graze 6 lb. $2,500 Combat Axe 1d8 Slashing Powered (1d10; 1d12), Versatile
+      (1d10) Topple 4 lb. $750 Combat Sword 1d8 Slashing Powered (1d10; 1d12), Versatile (1d10) Sap 3 lb. $750 Combat Hammer 1d8 Bludgeoning Powered (1d10; 1d12), Versatile (1d10) Push 5 lb. $750 Concussion
+      Maul 2d6 Bludgeoning Heavy, Powered (2d8 Thunder), Two-Handed Topple 10 lb. $2,500 Dueling Blade 1d8 Piercing Finesse, Powered (1d10) Vex 2 lb. $1,250 Filament Whip 1d4 Slashing Finesse, Powered (1d6
+      Fire), Reach Slow 2 lb. $500 Mag Flail 1d8 Bludgeoning Powered (1d10) Sap 2 lb. $500 Nano-Edge Spear 1d8 Piercing Powered (1d10; 1d12), Thrown (Range 20/60), Versatile (1d10) Sap 4 lb. $250 Pole Axe
+      1d10 Slashing Heavy, Powered (1d12), Reach, Two-Handed Cleave 6 lb. $1,000 Power Fist 1d8 Bludgeoning Heavy, Powered (1d10), Pummel Topple 4 lb. $1,250 Power Glaive 1d10 Slashing Heavy, Powered (1d12),
+      Reach, Two-Handed Graze 6 lb. $1,000 Quickblade 1d6 Piercing Finesse, Light, Powered (1d8) Vex 2 lb. $500 Saber 1d6 Slashing Finesse, Light, Powered (1d8) Nick 3 lb. $1,250 Vibro Pike 1d10 Piercing
+      Heavy, Powered (1d12), Reach, Two-Handed Push 18 lb. $1,000 Shock Lance 1d10 Piercing Heavy, Powered (1d12 Lightning), Reach, Two-Handed (unless mounted) Topple 6 lb. $1,000 Assault Rifle 1d8 Piercing
+      Ammunition (Range 200/800; Bullets), Burst, Heavy, Reload (40 shots), Two-Handed Push 8 lb. $2,500 Breach Rifle 2d6 Piercing Ammunition (Range 80/320; Shells), Braced, Burst, Heavy, Reload (20 shots),
+      Two Handed Cleave 10 lb. $4,000 Pulse Cannon 1d12 Thunder Ammunition (Range 20/80; Power Cell), Braced, Heavy, Reload (5 shots) Push 4 lb. $2,500 Hand Cannon 1d12 Piercing Ammunition (Range 20/80;
+      Shells), Braced, Heavy, Reload (5 shots) Topple 5 lb. $2,500 Heavy Laser Rifle 2d6 Radiant Ammunition (Range 300/1,200; Power Cell), Heavy, Loading, Reload (5 Shots), Two-Handed Sap 25 lb. $7,500
+      Laser Rifle 1d8 Radiant Ammunition (Range 200/800; Power Cell), Burst, Heavy, Reload (25 Shots), Two-Handed Slow 7 lb. $2,500 Light Machine Gun 1d10 Piercing Ammunition (Range 200/800, Bullets), Burst,
+      Finesse, Heavy, Reload (20 Shots), Two-Handed Cleave 15 lb. $3,750 Plasma Pistol 1d8 Lightning Ammunition (Range 80/320; Power Cell), Close Quarters, Reload (25 shots) Sap 4 lb. $2,000 Plasma Rifle
+      1d10 Lightning Ammunition (Range 200/800; Power Cell), Heavy, Reload (15 Shots), Two-Handed Vex 8 lb. $3,750 Repeating Laser 1d10 Radiant Ammunition (Range 200/800; Power Cell), Burst, Finesse, Heavy,
+      Reload (20 Shots), Two-Handed Graze 12 lb. $3,750 Scatterblast 1d10 Fire Ammunition (Range 60/240; Power Cell), Close Quarters, Finesse, Reload (10 Shots), Scatter (15 ft.) Push 4 lb. $2,500 Shotgun
+      1d10 Piercing Ammunition (Range 60/240; Shells), Close Quarters, Finesse, Reload (10 Shots), Scatter (15 ft.) Vex 5 lb. $2,500 Sniper Rifle 2d6 Piercing Ammunition (Range 300/1,200; Bullets), Heavy,
+      Loading, Two-Handed Graze 30 lb. $7,500</p><ul><li><p><strong>Simple Melee Weapons</strong> Combat Baton 1d4 Bludgeoning Light, Powered (1d6) Slow 2 lb. $100 Combat Knife 1d4 Piercing Finesse, Light,
+      Powered (1d6), Thrown (Range 20/60) Nick 1 lb. $100 Combat Staff 1d6 Bludgeoning Powered (1d8; 1d10), Versatile (1d8) Topple 4 lb. $250 Hatchet 1d6 Slashing Light, Powered (1d8), Thrown (Range 20/60)
+      Vex 2 lb. $250 Hook Blade 1d4 Slashing Light, Powered (1d6) Nick 2 lb. $50 Power Cudgel 1d8 Bludgeoning Powered (1d10), Two-Handed Push 10 lb. $500 Shock Sap 1d6 Bludgeoning Powered (1d8 Lightning)
+      Sap 3 lb. $250 Shock Knuckles 1d6 Bludgeoning Light, Powered (1d8 Lightning), Pummel Nick 1 lb. $100 Throwing Hammer 1d4 Bludgeoning Light, Powered (1d6), Thrown (Range 20/60) Nick 2 lb. $100 Throwing
+      Spear 1d6 Piercing Powered (1d8), Thrown (Range 30/120) Slow 2 lb. $250 Vibro Claw 1d4 Slashing Finesse, Light, Powered (1d6), Pummel Nick 1 lb. $250 Vibro Spear 1d6 Piercing Powered (1d8; 1d10),
+      Thrown (Range 20/60), Versatile (1d8) Sap 3 lb. $50</p></li><li><p><strong>Simple Ranged Weapons</strong> Throwing Blade 1d4 Piercing Finesse, Thrown, Range (20/60) Vex 1/4 lb. $10 Laser Carbine 1d6
+      Radiant Ammunition (Range 150/600; Power Cell), Burst, Reload (25 Shots), Versatile (1d8) Slow 5 lb. $1,250 Light Laser Pistol 1d6 Radiant Ammunition (Range 80/320; Power Cell), Close Quarters, Light,
+      Reload (50 Shots) Nick 1 lb. $750 Light Pistol 1d6 Piercing Ammunition (Range 80/320; Bullets), Close Quarters, Light, Reload (15 Shots) Vex 1 lb. $750 Heavy Laser Pistol 1d8 Radiant Ammunition (Range
+      50/200; Power Cell), Close Quarters, Reload (25 Shots) Push 3 lb. $1,250 Heavy Pistol 1d8 Piercing Ammunition (Range 50/200; Bullets), Close Quarters, Reload (10 Shots) Sap 4 lb. $1,250 Submachine
+      Gun 1d6 Piercing Ammunition (Range 150/600; Bullets), Burst, Reload (25 Shots), Versatile (1d8) Push 5 lb. $1,250</p></li></ul></p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: simpleM
+    baseItem: ''
+  damage:
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
+      - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  properties:
+  - lgt
+  - powered
+  - pummel
+  mastery: nick
+  uses:
+    max: '25'
+    spent: 0
+    recovery: []
+  magicalBonus: null
+  proficient: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  ammunition: {}
+  activities:
+    tPNuD1zJXeyeFpb0:
+      _id: tPNuD1zJXeyeFpb0
+      type: attack
+      name: Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+    K5Sv3uWj3hPNQKPF:
+      _id: K5Sv3uWj3hPNQKPF
+      type: attack
+      name: Powered Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: '@mod'
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    WApgbYRwEKgdCf3A:
+      _id: WApgbYRwEKgdCf3A
+      type: utility
+      name: Replace Power Cell
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-25'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+  identifier: shock-knuckles
+effects: []
+folder: JasYKmnmM8C9XRUq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UoSL6ueSI3Z3n58d'

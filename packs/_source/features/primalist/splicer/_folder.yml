@@ -1,0 +1,20 @@
+name: Splicer Primalist
+sorting: a
+folder: 73u6dSypgcgv8vdP
+type: Item
+_id: osfCE3XmJgJuQ0v7
+description: ''
+sort: 50
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!osfCE3XmJgJuQ0v7'

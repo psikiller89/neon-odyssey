@@ -1,0 +1,91 @@
+_id: DiObe2Bhc9tom9YJ
+name: 'Saurian Lineage: Deepfin'
+type: feat
+img: modules/neon-odyssey/icons/species/saurian.webp
+folder: EYJDACraFtUaKRXo
+sort: 0
+effects:
+- _id: MVdf9qoBrULHHtl8
+  name: 'Saurian Lineage: Deepfin'
+  img: null
+  type: base
+  system:
+    changes: []
+  changes:
+  - key: system.traits.dr.value
+    mode: 2
+    value: cold
+    priority: null
+  - key: system.attributes.movement.swim
+    mode: 4
+    value: '@attributes.movement.walk'
+    priority: null
+  statuses: []
+  transfer: true
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!DiObe2Bhc9tom9YJ.MVdf9qoBrULHHtl8'
+system:
+  description:
+    value: '<p>Natural Weapon: Bite or Slam. You have Resistance to Cold damage and a Swim Speed equal to your Speed. In addition, you can hold your breath for a number of hours equal to your Constitution
+      modifier (minimum of 1).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Saurian
+  activities: {}
+  enchant: {}
+  identifier: saurian-lineage-deepfin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!DiObe2Bhc9tom9YJ'

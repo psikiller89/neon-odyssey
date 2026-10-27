@@ -1,0 +1,175 @@
+_id: qHS8UPFp9tOy8wv1
+name: Botnik Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Machinist level specified in the Botnik Spells table, you thereafter always have the listed spells prepared. <em>Burning Hands, Grease</em> <em>Heat Metal, Scorching Ray</em>
+      <em>Haste, Lightning Bolt</em> <em>Stoneskin, Summon Gridwrought</em>* <em>Animate Objects, Arcane Hand</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Botnik Machinist
+  activities: {}
+  enchant: {}
+  identifier: botnik-spells
+  advancement:
+    GLiAET3fiDAuYR1W:
+      _id: GLiAET3fiDAuYR1W
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBurningHan
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGrease0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Botnik Spells
+      hint: ''
+    h6XW6vJcCBuNJkIs:
+      _id: h6XW6vJcCBuNJkIs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Botnik Spells
+      hint: ''
+    QMDOSWsKDp1VSc9X:
+      _id: QMDOSWsKDp1VSc9X
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLightningB
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Botnik Spells
+      hint: ''
+    Jg8ozZULDvdFOpI3:
+      _id: Jg8ozZULDvdFOpI3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.0gxXs4DLv47g8jiI
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStoneskin0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Botnik Spells
+      hint: ''
+    cRSMaKL9uCamv8t6:
+      _id: cRSMaKL9uCamv8t6
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateObj
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBigbysHand
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Botnik Spells
+      hint: ''
+effects: []
+folder: giWvboa9uiRIucmh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!qHS8UPFp9tOy8wv1'

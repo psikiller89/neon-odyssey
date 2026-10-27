@@ -1,0 +1,170 @@
+_id: dNLdo1ja6dwyPNSb
+name: Cheap Shot
+type: feat
+img: icons/skills/melee/strike-dagger-white-orange.webp
+system:
+  description:
+    value: <p>You don’t play fair, and you know how to strike an opponent when and where they least expect it. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll
+      if you have Advantage on the roll and the attack uses a Finesse or Ranged weapon. The extra damage type is the same as the weapon’s type.</p><p>You don’t need Advantage on the attack roll if at least
+      one of your allies is within 5 feet of the target, the ally doesn’t have the Incapacitated condition, and you don’t have Disadvantage on the attack roll.</p><p>The extra damage increases as you gain
+      Scoundrel levels, as shown in the Cheap Shot column of the Scoundrel Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities:
+    a1T6nHaqmvbLpyJr:
+      type: damage
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: activityUses
+          value: '1'
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects:
+      - _id: 882FrvXnzgkT0spW
+        onSave: false
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+        - custom:
+            enabled: true
+            formula: '@scale.scoundrel.sneak-attack'
+          number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - bludgeoning
+          - cold
+          - fire
+          - force
+          - lightning
+          - necrotic
+          - piercing
+          - poison
+          - psychic
+          - radiant
+          - slashing
+          - thunder
+          scaling:
+            number: 1
+      uses:
+        spent: 0
+        recovery:
+        - period: turn
+          type: recoverAll
+        max: '1'
+      sort: 0
+      _id: a1T6nHaqmvbLpyJr
+      name: ''
+  enchant: {}
+  identifier: cheap-shot
+effects:
+- _id: 882FrvXnzgkT0spW
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!dNLdo1ja6dwyPNSb.882FrvXnzgkT0spW'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!dNLdo1ja6dwyPNSb'

@@ -1,0 +1,151 @@
+_id: ZOSwz4XxQcoxLvyv
+name: Befriend
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+system:
+  description:
+    value: <p>You create a feeling of trust toward you in one creature you can see within range. The target must succeed on a Wisdom saving throw or you have Advantage on Charisma checks made for the Influence
+      action against the target for the duration. The target succeeds automatically if it has Immunity to the Charmed condition, if you’re fighting it, or if you have cast this spell on it within the past
+      24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '10'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 0
+  school: enc
+  properties:
+  - somatic
+  - material
+  - concentration
+  materials:
+    value: some makeup
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    U6SFy9Nu6yFP8WEK:
+      _id: U6SFy9Nu6yFP8WEK
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: QXv3lJh5ZD04p9Oo
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  identifier: befriend
+effects:
+- _id: QXv3lJh5ZD04p9Oo
+  name: Charmed
+  img: systems/dnd5e/icons/svg/statuses/charmed.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - charmed
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!ZOSwz4XxQcoxLvyv.QXv3lJh5ZD04p9Oo'
+folder: N14uQ9l4I9dridBe
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZOSwz4XxQcoxLvyv'

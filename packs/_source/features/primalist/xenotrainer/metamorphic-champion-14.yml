@@ -1,0 +1,55 @@
+_id: QuT4kpt1weSSyvJ2
+name: Metamorphic Champion
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your xenomon metamorphosize into their final form. You gain the following benefits.</p><p><strong>Final Stage.</strong> The size of each of your xenomon increases to Large and its Hit Dice
+      become d10s.</p><p><strong>Super Effective.</strong> Your xenomon gains a new capability determined by its Cosmic Infusion. <strong>Lightning.</strong> A creature that fails the saving throw against
+      your xenomon’s level 10+ action gains the Incapacitated condition until the start of your next turn. <strong>Necrotic.</strong> A creature that fails the saving throw against your xenomon’s level
+      10+ action gains the Frightened condition until the start of your next turn. <strong>Psychic.</strong> When your xenomon hits a creature with its Elemental attack, the next attack roll against the
+      target before the start of your next turn has Advantage. <strong>Radiant.</strong> A creature that fails the saving throw against your xenomon’s level 10+ action gains the Blinded condition until
+      the start of your next turn. <strong>Thunder.</strong> Your xenomon gains a Fly Speed equal to twice its Speed.</p><ul><li><p><strong>Traits Actions</strong></p></li><li><p><strong>Traits Actions</strong></p></li><li><p><strong>Traits
+      Actions</strong></p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Xenotrainer Primalist
+  activities: {}
+  enchant: {}
+  identifier: metamorphic-champion
+  advancement: {}
+effects: []
+folder: KENRPQOqunM85j0c
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!QuT4kpt1weSSyvJ2'

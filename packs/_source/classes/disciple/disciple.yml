@@ -1,0 +1,635 @@
+_id: VLWu1qosr1sXN6mq
+name: Disciple
+type: class
+img: modules/neon-odyssey/icons/classes/disciple.png
+system:
+  description:
+    value: '<h3>Core Disciple Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Dexterity and Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point
+      Die</p></th><td><p>D8 per Disciple level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Strength and Dexterity</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose
+      2: Acrobatics, Arcana, Athletics, History, Insight, Investigation, Religion, or Stealth</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons and Martial weapons that
+      have the Light property</p></td></tr><tr><th scope="row"><p>Tool Proficiencies</p></th><td><p>Choose one type of Crafter’s Tools or Musician’s Instrument</p></td></tr><tr><th scope="row"><p>Armor
+      Training</p></th><td><p>None</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Combat Knife, Combat Staf,f 2 Power Cells, Crafter’s Tools or Musician’s Instrument
+      chosen for the tool proficiency above, Datapad (philosophy), Outrunner’s Pack, and $720; or (B) $3,000</p></td></tr></tbody></table><p><strong>Primary Ability</strong> Dexterity and Wisdom <strong>Hit
+      Point Die</strong> D8 per Disciple level <strong>Saving Throw  Proficiencies</strong> Strength and Dexterity <strong>Skill Proficiencies</strong> <em>Choose 2:</em> Acrobatics, Arcana, Athletics,
+      History, Insight, Investigation, Religion, or Stealth <strong>Weapon  Proficiencies</strong> Simple weapons and Martial weapons that have the Light property <strong>Tool Proficiencies</strong> <em>Choose
+      one type of Crafter’s Tools or </em> <em>Musician’s Instrument</em> <strong>Armor Training</strong> None <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Combat Knife, Combat Staff,
+      2 Power Cells, Crafter’s Tools or Musician’s Instrument chosen for the tool proficiency above, Datapad (philosophy), Outrunner’s Pack, and $720; or (B) $3,000 Disciples follow the traditions developed
+      by legendary philosopher heroes who taught throughout the galaxy, practicing their techniques to cultivate the connection between body and soul. They amplify and channel the energy of this balance,
+      called Essence, directing its flow through their bodies to accomplish incredible feats beyond what’s naturally possible.</p><p>Essence flows through everything a Disciple does. They move with uncanny
+      grace and speed, attack with strikes empowered by their very soul, supernaturally detect and avoid harm before it happens, shake off injury and sickness, and expand their minds and spirit.</p><p>Some
+      Disciples gather into orders devoted to a particular philosopher hero, where they study the teachings and practice the techniques of these mythic figures with intense focus and dedication. Others
+      intuitively find the path that expands their Essence and sharpens their soul connection. Some of these traditions have ties to greater powers and realms beyond the Stardust Rhapsody, drawing Disciples
+      who follow them on quests to the galaxy’s edge and beyond.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: 8B8EzWDP1usajBXk
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: 2fbZhO2O8hTB0VHB
+    type: AND
+    group: 8B8EzWDP1usajBXk
+    requiresProficiency: false
+    sort: 200000
+  - _id: 8RgpAEJHPPky4TtN
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: null
+    group: 2fbZhO2O8hTB0VHB
+    requiresProficiency: false
+    sort: 300000
+  - _id: Ij98C3UWRDTFfTKg
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.h6DsW5a6NAl70hgS
+    count: null
+    group: 2fbZhO2O8hTB0VHB
+    requiresProficiency: false
+    sort: 400000
+  - _id: VYq7xL6QNG1AsIRN
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.VIlAxstCFC33QTB6
+    count: null
+    group: 2fbZhO2O8hTB0VHB
+    requiresProficiency: false
+    sort: 500000
+  - _id: mtHJW3iqp4lco0nP
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3XAIc6y4pYahQGLN
+    count: null
+    group: 2fbZhO2O8hTB0VHB
+    requiresProficiency: false
+    sort: 600000
+  - _id: p0ZueCi51OIpqV4c
+    type: currency
+    key: gn
+    count: 720
+    group: 2fbZhO2O8hTB0VHB
+    requiresProficiency: false
+    sort: 700000
+  - _id: HPRa3xiZvZtIesnL
+    type: AND
+    group: 8B8EzWDP1usajBXk
+    requiresProficiency: false
+    sort: 800000
+  - _id: vpxh2cC1F0nfbsfj
+    type: currency
+    key: gn
+    count: 3000
+    group: HPRa3xiZvZtIesnL
+    requiresProficiency: false
+    sort: 900000
+  identifier: disciple
+  levels: 1
+  advancement:
+    LfwDqrjK9TQZpwDU:
+      _id: LfwDqrjK9TQZpwDU
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      flags: {}
+      hint: ''
+      name: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      flags: {}
+      hint: ''
+      name: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      flags: {}
+      hint: ''
+      name: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      flags: {}
+      hint: ''
+      name: ''
+    ddtuQmULKmXOQU4i:
+      _id: ddtuQmULKmXOQU4i
+      type: ScaleValue
+      configuration:
+        identifier: die
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            faces: 6
+          '5':
+            faces: 8
+          '11':
+            faces: 10
+          '17':
+            faces: 12
+      value: {}
+      hint: ''
+      flags: {}
+      name: Martial Arts
+      classRestriction: ''
+    wMwMS7RC49lh1hp2:
+      _id: wMwMS7RC49lh1hp2
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '2':
+            value: 10
+          '6':
+            value: 15
+          '10':
+            value: 20
+          '14':
+            value: 25
+          '18':
+            value: 30
+      value: {}
+      hint: ''
+      flags: {}
+      name: Unarmored Movement
+    OGo9kMbx7cFuGx00:
+      _id: OGo9kMbx7cFuGx00
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: <p>You gain a Disciple subclass of your choice. The Warrior of Mercy, Warrior of Shadow, Warrior of the Elements, and Warrior of the Open Hand subclasses are detailed after this class’s description.
+        A subclass is a specialization that grants you features at certain Disciple levels. For the rest of your career, you gain each of your subclass’s features that are of your Disciple level or lower.</p>
+      flags: {}
+      classRestriction: ''
+      name: ''
+    iohrMAJkjQtDeSXa:
+      _id: iohrMAJkjQtDeSXa
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        - weapon:mar:handcrossbow
+        - weapon:mar:scimitar
+        - weapon:mar:shortsword
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      flags: {}
+      name: Weapon Proficiencies
+    XoLzEcH6CBYyK9qz:
+      _id: XoLzEcH6CBYyK9qz
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - tool:art:*
+          - tool:music:*
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      flags: {}
+      name: Tool Proficiencies
+    lWLJqkOpz8hzx5Vo:
+      _id: lWLJqkOpz8hzx5Vo
+      type: ScaleValue
+      configuration:
+        identifier: focus
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 2
+          '3':
+            value: 3
+          '4':
+            value: 4
+          '5':
+            value: 5
+          '6':
+            value: 6
+          '7':
+            value: 7
+          '8':
+            value: 8
+          '9':
+            value: 9
+          '10':
+            value: 10
+          '11':
+            value: 11
+          '12':
+            value: 12
+          '13':
+            value: 13
+          '14':
+            value: 14
+          '15':
+            value: 15
+          '16':
+            value: 16
+          '17':
+            value: 17
+          '18':
+            value: 18
+          '19':
+            value: 19
+          '20':
+            value: 20
+      value: {}
+      hint: ''
+      flags: {}
+      classRestriction: ''
+      name: Focus Points
+    29Ufd0MpG7PBckVs:
+      type: AbilityScoreImprovement
+      _id: 29Ufd0MpG7PBckVs
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis
+        max: null
+      value:
+        type: asi
+      level: 19
+      hint: ''
+      flags: {}
+      name: Epic Boon
+    QvfFVy7MfDha1OHq:
+      _id: QvfFVy7MfDha1OHq
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:str
+        - saves:dex
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    vuB30mEQo60EoaPr:
+      _id: vuB30mEQo60EoaPr
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:acr
+          - skills:arc
+          - skills:ath
+          - skills:his
+          - skills:ins
+          - skills:inv
+          - skills:rel
+          - skills:ste
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    nSAp7LQWS5fQHVDo:
+      _id: nSAp7LQWS5fQHVDo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.2rsBT5PeNKLEXFC9
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.MjmVT6i7IzuTEbtq
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    wneLmxnCaylyAcjx:
+      _id: wneLmxnCaylyAcjx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.QHdr4349kBpi9t6H
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.c54h2CsdfvzmdkXF
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Jba9yVHnhh4UZltZ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    p7Yj3BabQK48N2RI:
+      _id: p7Yj3BabQK48N2RI
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.077fKR0nImmpH7JT
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      hint: ''
+    l5FZzP90qP115RNa:
+      _id: l5FZzP90qP115RNa
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.p25emV9AXTFGwWRD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      title: Class Features
+      hint: ''
+    8YekYlabnsH1eAN8:
+      _id: 8YekYlabnsH1eAN8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.mZTzz93mKhrqfffA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.676PSnFYj3q38TmT
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    C2bSAyV1Kn4IO9P5:
+      _id: C2bSAyV1Kn4IO9P5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.iiLpsdscnnDVW6th
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Class Features
+      hint: ''
+    LvEThbBmm0mVfzNO:
+      _id: LvEThbBmm0mVfzNO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gx8X4zQXOdaoZP7O
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    Ni21QYivvTD3JFj9:
+      _id: Ni21QYivvTD3JFj9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.7F6NiaDsQQlYyWj5
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Class Features
+      hint: ''
+    kDcw7oTCGeNfRdL9:
+      _id: kDcw7oTCGeNfRdL9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4tznBACwFlJU5GFQ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.4F9xIoEdqstM6ym6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      hint: ''
+    vTtSbGzel55w0Alg:
+      _id: vTtSbGzel55w0Alg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.wHHKM5XWujwYB6v2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Class Features
+      hint: ''
+    1jfqf3XRqWVtAGpE:
+      _id: 1jfqf3XRqWVtAGpE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.bKF34BzvngFc2LSz
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      hint: ''
+    mfQbfAGZyovxJ58L:
+      _id: mfQbfAGZyovxJ58L
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LugBBzIjHCcONoTb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Class Features
+      hint: ''
+    a0FibgZTZ3Od1Mvd:
+      _id: a0FibgZTZ3Od1Mvd
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.0b0GoLpFEv8fFLVm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    phVleeT77WOdMpDC:
+      _id: phVleeT77WOdMpDC
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.EgRtB3bOYFQ8LdeC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+  wealth: ''
+  primaryAbility:
+    value:
+    - dex
+    - wis
+    all: true
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  properties: []
+effects: []
+folder: MrkCyjRQd9KEa1GC
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!VLWu1qosr1sXN6mq'

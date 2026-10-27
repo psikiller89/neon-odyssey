@@ -1,0 +1,53 @@
+_id: aJtBo5cnekXPSpX2
+name: Forbidden Knowledge
+type: feat
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+system:
+  description:
+    value: <p>Your occult experience guides you to probe the cosmos in search of deeper understanding. You always have the <em>Contact </em> <em>Other Plane</em> spell prepared. With this feature, you can
+      cast the spell without expending a spell slot to draw hidden knowledge from the power of your occult secrets, and you automatically succeed on the spell’s saving throw.</p><p>Once you cast the spell
+      with this feature, you can’t do so in this way again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: forbidden-knowledge
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: TJJaZ451oPDfNSkq
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!aJtBo5cnekXPSpX2'

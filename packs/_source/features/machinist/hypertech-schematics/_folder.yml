@@ -1,0 +1,20 @@
+name: Hypertech Schematics Options
+sorting: a
+folder: iw6iW1DIoPwtKF9s
+type: Item
+_id: rDqiq6VUZzbEUanT
+description: ''
+sort: 10
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!rDqiq6VUZzbEUanT'

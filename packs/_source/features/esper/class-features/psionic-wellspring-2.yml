@@ -1,0 +1,204 @@
+_id: fotZwwfzGPbFxiIc
+name: Psionic Wellspring
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+system:
+  description:
+    value: <p>Your magic draws from the font of psychic power that flows from your mind. This mental reservoir is represented by Psi Points, which allow you to create a variety of magical effects.</p><p>You
+      have 2 Psi Points, and you gain more as you reach higher levels, as shown in the Psi Points column of the Esper Features table. You can’t have more Psi Points than the number shown in the table for
+      your level. You regain all expended Psi Points when you finish a Long Rest.</p><p>You can use your Psi Points to fuel the options below, along with other features, such as Psi Shaping, that use those
+      points.</p><p><strong>Converting Spell Slots to Psi Points.</strong> You can expend a spell slot to gain a number of Psi Points equal to the slot’s level (no action required).</p><p><strong>Creating
+      Spell Slots.</strong> As a Bonus Action, you can transform unexpended Psi Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it
+      lists the minimum Esper level you must be to create a slot. You can create a spell slot no higher than level 5.</p><p>Any spell slot you create with this feature vanishes when you finish a Long Rest.
+      2 2 3 3 5 5 6 7 7 9</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.esper.points'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties:
+  - mgc
+  requirements: Esper
+  activities:
+    rYDgagyWjp6f3jtO:
+      type: utility
+      name: Regain Spell Slot
+      _id: rYDgagyWjp6f3jtO
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: 1 + @scaling + floor(@scaling / 3)
+          target: ''
+          scaling:
+            mode: ''
+        - type: spellSlots
+          value: '-1'
+          target: '1'
+          scaling:
+            mode: level
+            formula: ''
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/damage/force.svg
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireMagic: true
+        requireAttunement: false
+        requireIdentification: false
+      behaviors: []
+      flags: {}
+    qAphJay1yKd7VWxH:
+      type: utility
+      name: Regain Sorcery Points
+      _id: qAphJay1yKd7VWxH
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+        - type: spellSlots
+          value: '1'
+          target: '1'
+          scaling:
+            mode: level
+            formula: ''
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling:
+            mode: amount
+            formula: '-1'
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireMagic: true
+        requireAttunement: false
+        requireIdentification: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: psionic-wellspring
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: A48O1TAuWsYMNrHN
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!fotZwwfzGPbFxiIc'

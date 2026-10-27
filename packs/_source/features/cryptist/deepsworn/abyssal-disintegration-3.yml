@@ -1,0 +1,49 @@
+_id: Mr8clzJ659VsYwJ6
+name: Abyssal Disintegration
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The annihilation of the Deep suffuses all your magic. When you deal damage with a Cryptist spell, you can change the damage type to Force or Necrotic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Deepsworn Cryptist
+  activities: {}
+  enchant: {}
+  identifier: abyssal-disintegration
+  advancement: {}
+effects: []
+folder: eLWbUPabyo7jvGuT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Mr8clzJ659VsYwJ6'

@@ -1,0 +1,153 @@
+_id: aJcryXgw7oZKrRia
+name: Spacetime Anchor
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: <p>One Large or smaller object that you touch can’t be altered in form or position for the duration of the spell, supporting up to 16,000 pounds of weight, even if it defies gravity. If the target
+      object is in another creature’s possession, the creature can make an Intelligence saving throw. On a success, the spell has no effect.</p><p>If the target object can’t be released without moving the
+      object, such as an article of clothing it wears, a creature wearing it has the Restrained condition for the spell’s duration, but as the clothing or armor also can’t be pierced by any force, the target’s
+      AC increases by 5 while Restrained in this way. Smaller objects, such as a glove or bracelet, only reduce the target’s Speed to 0.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration
+      can last longer with a spell slot of up to level 6 (up to 10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: abj
+  properties:
+  - vocal
+  - somatic
+  - material
+  - concentration
+  materials:
+    value: an hourglass or wristwatch
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    zwIZbuA8SIhNSPhe:
+      _id: zwIZbuA8SIhNSPhe
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: u5FuzY7KgllYM5Hh
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  identifier: spacetime-anchor
+effects:
+- _id: u5FuzY7KgllYM5Hh
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!aJcryXgw7oZKrRia.u5FuzY7KgllYM5Hh'
+folder: KWpE1CiC6PgaF2z3
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aJcryXgw7oZKrRia'

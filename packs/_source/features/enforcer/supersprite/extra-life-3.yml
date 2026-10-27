@@ -1,0 +1,103 @@
+_id: kVyL8Pb4sGtBc3D6
+name: Extra Life
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have a 1-up to try again. When you would drop to 0 Hit Points but are not killed outright, you drop to 1 Hit Point instead, and you can expend and roll a Hit Point Die. You regain a number
+      of Hit Points equal to the number rolled plus your Charisma modifier (minimum of 1 Hit Point). Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Supersprite Enforcer
+  activities:
+    8OzyfPPGOVyHODBy:
+      _id: 8OzyfPPGOVyHODBy
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: extra-life
+  advancement: {}
+effects: []
+folder: DYc5L750iJ36XVct
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kVyL8Pb4sGtBc3D6'

@@ -1,0 +1,51 @@
+_id: 7pMfwTe3prZfzNYh
+name: Armor Protocols
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You suit up with even more advanced armor. While wearing a set of Light, Medium, or Heavy armor registered to your Loadout, you gain the following benefits.</p><p><strong>Energy Shield.</strong>
+      Whenever you don this armor or finish a Short or Long Rest, you gain Temporary Hit Points equal to 1d8 + half your Soldier level (round up).</p><p><strong>Power-Assist Servos.</strong> Your carrying
+      capacity and jump distance are doubled.</p><p><strong>Sonic Dampeners.</strong> The armor doesn’t impose Disadvantage on Dexterity (Stealth) checks.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities: {}
+  enchant: {}
+  identifier: armor-protocols
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7pMfwTe3prZfzNYh'

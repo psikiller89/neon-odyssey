@@ -1,0 +1,101 @@
+_id: Ns8fDVycL5L4GTgF
+name: Invest the Stranger
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 5+ Cryptist, Mystery of the Stranger Secret</em></p><p>When you cast <em>Autonomous Assistant</em>*, you infuse the summoned assistant with a measure of your eldritch
+      power, granting the creature the following benefits.</p><p><strong>Aerial or Aquatic.</strong> The assistant gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.</p><p><strong>Quick
+      Attack.</strong> As a Bonus Action, you can command the assistant to take the Attack action.</p><p><strong>Necrotic or Radiant Damage.</strong> Whenever the assistant deals Bludgeoning, Piercing,
+      or Slashing damage, you can make it deal Necrotic or Radiant damage instead.</p><p><strong>Your Save DC.</strong> If the assistant forces a creature to make a saving throw, it uses your spell save
+      DC.</p><p><strong>Resistance.</strong> When the assistant takes damage, you can take a Reaction to grant it Resistance against that damage.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 5
+    items:
+    - Compendium.neon-odyssey.features.Item.yJGYYQvayCM5Ky3i
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities:
+    u9eERpeEUJBnUnUA:
+      _id: u9eERpeEUJBnUnUA
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: invest-the-stranger
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Ns8fDVycL5L4GTgF'

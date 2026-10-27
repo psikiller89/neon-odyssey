@@ -1,0 +1,101 @@
+_id: JufxOt7ip2IqSGa6
+name: No Surrender
+type: feat
+img: icons/skills/melee/shield-block-fire-orange.webp
+system:
+  description:
+    value: <p>When war and strife try to break you, you refuse to yield. If you fail a saving throw, you can reroll it with a bonus equal to your Soldier level. You must use the new roll, and you can’t
+      use this feature again until you finish a Long Rest.</p><p>You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at 17.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.soldier.indomitable'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities:
+    84EBzlT1nDmNqhqM:
+      type: utility
+      _id: 84EBzlT1nDmNqhqM
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: Bonus
+        formula: '@classes.fighter.levels'
+      name: ''
+  enchant: {}
+  identifier: no-surrender
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!JufxOt7ip2IqSGa6'

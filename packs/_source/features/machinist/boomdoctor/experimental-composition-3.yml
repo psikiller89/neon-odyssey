@@ -1,0 +1,193 @@
+_id: d2eGVePVkkJArdpN
+name: Experimental Composition
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have discovered the formula to volatile chemical Compositions that make a big boom. You create a number of Compositions equal to twice your Intelligence modifier (minimum of 2). These
+      Compositions fuel your other features. If you have Chemist’s Supplies on your person, you regain one expended Composition when you finish a Short Rest, and you regain all expended Compositions when
+      you finish a Long Rest.</p><p><strong>Impromptu Bomb.</strong> As a Magic action, you can expend a Composition to create and throw a Tiny bomb. Choose two damage types from the following: Acid, Cold,
+      Fire, Lightning, Piercing, Poison, or Thunder.</p><p>You throw the bomb at a point you can see up to 60 feet away from yourself. Each creature in a 10-foot-Sphere originating from that point makes
+      a Dexterity saving throw against your spell save DC, taking 2d6 damage of each chosen type (total of 4d6) on a failed save or half as much damage on a successful one. If the total of each damage type
+      is equal, this bomb doesn’t expend a Composition. For example, if the bomb deals Fire and Acid damage, and both types roll a total of 8 damage each, the bomb’s Composition isn’t expended.</p><p>Compare
+      the damage rolls to the table below to see if the bomb has any additional effects (multiple effects can trigger at one time). If any of the damage type’s dice rolled the same number, that type’s additional
+      effect triggers. Acid A creature that failed the save takes 1d4 Acid damage at the start of its next turn. Cold A creature that failed the save has its Speed halved until the start of your next turn.
+      Fire A creature that failed the save starts burning. Lightning A creature that failed the save can’t take Reactions until the start of your next turn. Piercing A creature that failed the save is pushed
+      10 feet away from the bomb. Poison A creature that failed the save has the Poisoned condition until the start of your next turn. Thunder A creature that failed the save has the Prone condition.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities:
+    zbs0e5yxSlYzKZyP:
+      _id: zbs0e5yxSlYzKZyP
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: SUF6jNYuo2UNeqxy
+        onSave: false
+      - _id: ssWn4jw6mN7qFmzO
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 1
+          denomination: 4
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: experimental-composition
+  advancement: {}
+effects:
+- _id: SUF6jNYuo2UNeqxy
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!d2eGVePVkkJArdpN.SUF6jNYuo2UNeqxy'
+- _id: ssWn4jw6mN7qFmzO
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!d2eGVePVkkJArdpN.ssWn4jw6mN7qFmzO'
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!d2eGVePVkkJArdpN'

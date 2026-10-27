@@ -1,0 +1,93 @@
+_id: P3C0IJK5zxEzd53T
+name: Dreamer
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/dreamer.webp
+system:
+  description:
+    value: <p><em>Make Wishes Reality with the Power of Imagination</em> Dreamers are Oracles who embody the energetic whimsy and unbound creativity of Arcadia. They commune with the arcade realm through
+      fantastical dreams that they call forth into reality with nothing but their imagination, manifesting figments to aid their allies. While the imaginary friends of most Dreamers are cute, cool, or colorful,
+      some tap into the darker corners of Arcadia to unleash their waking nightmares.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: dreamer
+  classIdentifier: oracle
+  advancement:
+    KNg02heZn7CGjPuh:
+      _id: KNg02heZn7CGjPuh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.P1ATJCPLvJj4FW9L
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ny2LKRoXcOyQqDKD
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.wJvF90wTArSd9XLw
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    GEe7bP9WP7lPtJhV:
+      _id: GEe7bP9WP7lPtJhV
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1I3AUgynmvGA8Dvv
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.VNf1cJZ4RjNJYSMJ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    QvrnFI4v72bPsS8c:
+      _id: QvrnFI4v72bPsS8c
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.vEZRhEgGoTFvYqB0
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: dYNWA7lTuGoJ83X0
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!P3C0IJK5zxEzd53T'

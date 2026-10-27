@@ -1,0 +1,50 @@
+_id: s6aH6Z1DPQS5RVjI
+name: Symbiotic Carnage
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You and your parasite can devour the minds of your enemies. Once per turn when you deal damage to an enemy with an Unarmed Strike, you can choose to deal an extra 1d6 damage of the same type
+      or regain 1 expended Psi Point. You can use this feature to regain Psi Points a number of times equal to half your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symbiote Esper
+  activities: {}
+  enchant: {}
+  identifier: symbiotic-carnage
+  advancement: {}
+effects: []
+folder: WiG1piX4f1E9zDYD
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!s6aH6Z1DPQS5RVjI'

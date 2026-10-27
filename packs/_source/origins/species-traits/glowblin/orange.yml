@@ -1,0 +1,48 @@
+_id: 1VXyzqaKsB6clGrQ
+name: Orange
+type: feat
+img: modules/neon-odyssey/icons/species/glowblin.webp
+folder: Xu1Hy0zFJ2JAyshu
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Your Speed increases by 10 feet. When an ally enters the light for the first time on a turn or starts its turn there, its Speed increases by 10 feet until the end of its next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Glowblin
+  activities: {}
+  enchant: {}
+  identifier: orange
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1VXyzqaKsB6clGrQ'

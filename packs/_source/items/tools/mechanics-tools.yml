@@ -1,0 +1,151 @@
+_id: ls9En7asIx46b5et
+name: Mechanic’s Tools
+type: tool
+img: icons/skills/trades/smithing-tongs-metal-red.webp
+system:
+  quantity: 1
+  weight:
+    value: 8.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Strength or Intelligence</p><p><strong>Weight:</strong> 8 lb.</p><p><strong>Utilize:</strong> Seal or cut open a door or container (DC 20), repair a damaged vehicle
+      (DC 10)</p><p><strong>Craft:</strong> Heavy armor, Medium armor, Melee weapons, metal equipment (non-electronics)</p><ul><li><p><strong>Light Armor (1 Minute to Don or Doff)</strong> Light Armor 11
+      + Dex modifier 10 lb. $500</p></li><li><p><strong>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</strong> Medium Armor Vest 13 + Dex modifier (max 2) 20 lb. $2,500 Medium Armor Suit 14 + Dex
+      modifier (max 2) Disadvantage 45 lb. $2,500</p></li><li><p><strong>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</strong> Heavy Armor 16 Str 13 Disadvantage 55 lb. $3,750</p></li><li><p><strong>Shield
+      (Utilize action to Don or Doff)</strong> Shield +2 6 lb. $500</p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: art
+    baseItem: ''
+  ability: str
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    XWb5NLHYEixVeAkw:
+      _id: XWb5NLHYEixVeAkw
+      type: check
+      name: Seal or cut open a door or container
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: str
+        associated: []
+        dc:
+          calculation: ''
+          formula: '20'
+    5M8oQ9bCjpqzz2jp:
+      _id: 5M8oQ9bCjpqzz2jp
+      type: check
+      name: Epair a damaged vehicle
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: str
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+  identifier: mechanics-tools
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ls9En7asIx46b5et'

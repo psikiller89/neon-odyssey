@@ -1,0 +1,53 @@
+_id: XfQISy2GX5feyf4Q
+name: Surgical Swarm
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your nanites now have enough power to overcome more ailments, and they can remain with a subject and continue treating their wounds for a short time. You gain the following benefits.</p><p><strong>Cure-All.</strong>
+      When you use your Nanite Medicine feature, you can expend 5 Hit Points from the cluster to remove one of the following conditions on the target: Blinded, Deafened, Frightened; those points don’t also
+      restore Hit Points to the creature.</p><p><strong>Lingering Nanites.</strong> When you use your Nanite Medicine feature, at the start of the target’s next turn, it can expend and roll one of its Hit
+      Point Dice. It regains a number of Hit Points equal to the number rolled.</p><p><strong>Nano-Stim.</strong> When you use your Nanite Medicine feature, you can give the target Temporary Hit Points
+      instead of restoring lost Hit Points.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities: {}
+  enchant: {}
+  identifier: surgical-swarm
+  advancement: {}
+effects: []
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!XfQISy2GX5feyf4Q'

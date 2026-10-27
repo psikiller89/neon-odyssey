@@ -1,0 +1,91 @@
+_id: K2LKDigKhhAIsz8t
+name: Heightened Awareness
+type: feat
+img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+system:
+  description:
+    value: <p>Your internal power elevates your awareness so that you have Advantage on Initiative rolls.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: heightened-awareness
+  advancement: {}
+  crewed: false
+effects:
+- _id: CaV1VYMaVjjPceJs
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: Compendium.neon-odyssey.features.Item.K2LKDigKhhAIsz8t
+  transfer: true
+  flags: {}
+  tint: '#ffffff'
+  name: Feral Instinct
+  description: ''
+  statuses: []
+  img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+  type: base
+  system:
+    changes:
+    - key: flags.dnd5e.initiativeAdv
+      value: true
+      priority: null
+      type: override
+      phase: initial
+      _id: 9f86hfkzOQ2xKI9j
+      conditions: '{}'
+      replacement: ''
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  sort: 0
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!K2LKDigKhhAIsz8t.CaV1VYMaVjjPceJs'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!K2LKDigKhhAIsz8t'

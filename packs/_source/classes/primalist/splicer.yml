@@ -1,0 +1,101 @@
+_id: nxAlB3sd51yrs4D2
+name: Splicer
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/splicer.webp
+system:
+  description:
+    value: <p><em>Engineer Your Flesh with Genetic Experimentation</em> Splicers are Primalists who believe that science is simply an expression of interacting with the natural world, looking to discover
+      ways to fuse the scientific and primordial to enhance themselves. By splicing their DNA with the biology of primordial and alien creatures, they can alter their flesh in bizarre new ways and become
+      an evolved amalgamation never before seen. Many Splicers view their body as a research laboratory, experimenting on themselves and concocting new chimeric fusions until they discover the apex lifeform.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: splicer
+  classIdentifier: primalist
+  advancement:
+    FhuZouZ0wirxqpXU:
+      _id: FhuZouZ0wirxqpXU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.i8IgtcxdA4nqPMm3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.77VZ88xQ2kF63b0B
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    wVbzHb4dpySKNSFn:
+      _id: wVbzHb4dpySKNSFn
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.QvzvSHCat6tlJxg8
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    W172U25GBdCWUXLT:
+      _id: W172U25GBdCWUXLT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.5U5M6HFzxA4fyiMk
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    BeKuBUOmyPAba9Dt:
+      _id: BeKuBUOmyPAba9Dt
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.pauyCJoeY70RS2ID
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FXtdPbgogvsyHjaE
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!nxAlB3sd51yrs4D2'

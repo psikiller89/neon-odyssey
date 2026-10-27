@@ -1,0 +1,52 @@
+_id: 5UmoXEl4NssLfziq
+name: Hauling Pulley
+type: loot
+img: icons/tools/fishing/reel-brown-white.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 10
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Hauling Pulley lets you hoist up to four times the weight you can normally lift.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: hauling-pulley
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!5UmoXEl4NssLfziq'

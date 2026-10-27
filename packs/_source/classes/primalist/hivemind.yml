@@ -1,0 +1,105 @@
+_id: LU4dDPt7A8WRQVDM
+name: Hivemind
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/hivemind.webp
+system:
+  description:
+    value: <p><em>Command the Infinite as One Through Discordant Swarms</em> Hiveminds are Primalists fascinated by the corrupting influence of Cacophony on the natural world and its ability to twist all
+      life into malevolent mockeries of what they once were. They claim this union of Discordant and primordial for themselves, utilizing it to summon and dominate endless swarms of creatures corrupted
+      by Cacophony. Most Hiveminds use this as a weapon to fight back against the Discordant powers and all else who would defile the wild, but some fall to corruption themselves and become agents of Entropy,
+      Instinct, Progress, or Thrill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: hivemind
+  classIdentifier: primalist
+  advancement:
+    I7MUk14GhyNTnAGN:
+      _id: I7MUk14GhyNTnAGN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.X6E8dC0u1ps26RtD
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.xDDIgCFP2c5oQit3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.SktjjLeaI6MB52jF
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    AFDN8UOUZi9ChXyk:
+      _id: AFDN8UOUZi9ChXyk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ootHe872fA20XueD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    GJ3powJF1wp4sy2v:
+      _id: GJ3powJF1wp4sy2v
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nxw46nqCu7O0sEY2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    EOLWuVkVCn7WZh1B:
+      _id: EOLWuVkVCn7WZh1B
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.jHm1P3tbJIQ1Qp9g
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FXtdPbgogvsyHjaE
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!LU4dDPt7A8WRQVDM'

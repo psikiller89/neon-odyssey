@@ -1,0 +1,50 @@
+_id: hxe7qNDsDyPOJ821
+name: Airy Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Airy or Storming Homeworld)</em></p><p>You have absorbed the essence of your home’s airy nature or world soul, gaining the following benefits.</p><p><strong>Damage
+      Resistance.</strong> You have Resistance to falling damage, Lightning damage, or Thunder damage (chosen when you select this feat).</p><p><strong>Lasting Breath.</strong> You can hold your breath
+      for a number of hours equal to 3 plus your Constitution modifier (minimum of +1).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Airy or Storming Homeworld
+  activities: {}
+  enchant: {}
+  identifier: airy-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hxe7qNDsDyPOJ821'

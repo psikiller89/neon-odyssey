@@ -1,0 +1,20 @@
+name: Simple Ranged
+sorting: a
+folder: 1wQHVjOo9xhg5ZGX
+type: Item
+_id: dQOSm8TVlxWTSSpX
+description: ''
+sort: 1
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!dQOSm8TVlxWTSSpX'

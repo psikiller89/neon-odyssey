@@ -1,0 +1,49 @@
+_id: NXcPEpUGvF0pWtkQ
+name: Aquatic Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Oceanic Homeworld)</em></p><p>You have absorbed the essence of your home’s aquatic nature or world soul, gaining the following benefits.</p><p><strong>Amphibious.</strong>
+      You can breathe air and water.</p><p><strong>Swim Speed.</strong> You have a Swim Speed equal to your Speed. If you already have a Swim Speed, it increases by 10 feet.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Oceanic Homeworld
+  activities: {}
+  enchant: {}
+  identifier: aquatic-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!NXcPEpUGvF0pWtkQ'

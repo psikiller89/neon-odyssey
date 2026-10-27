@@ -1,0 +1,52 @@
+_id: 0LzZA07OCCghU21r
+name: Endless Encore
+type: feat
+img: icons/magic/sonic/explosion-impact-shock-wave.webp
+system:
+  description:
+    value: <p>The thrill of a crowd or an important performance replenishes your creativity. When you roll Initiative, you regain expended uses of Iconic Inspiration until you have two if you have fewer
+      than that.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    repeatable: false
+  properties: []
+  requirements: Icon
+  activities: {}
+  enchant: {}
+  identifier: endless-encore
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: ZxVxQl648X8VTI7d
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!0LzZA07OCCghU21r'

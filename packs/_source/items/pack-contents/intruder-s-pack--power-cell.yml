@@ -1,0 +1,127 @@
+_id: IJ8CIaubiNze928U
+name: Power Cell
+type: consumable
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 100
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: hqbR1P4EpjiaCdiB
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Power Cells are compact energy storage devices compatible with a wide spectrum of equipment. A standard Power Cell can’t be recharged. A Power Cell is empty when first crafted and can be charged
+      to full once by connecting it to a power supply for 24 hours.</p><p><strong>Energy Weapons.</strong> A Power Cell powers a Ranged weapon that uses it for ammunition or a Melee weapon with the Powered
+      property. A weapon’s Reload property lists how many shots or attacks a cell can power.</p><p><strong>Powered Devices.</strong> The description of a piece of equipment that requires a Power Cell to
+      operate notes how long the cell can power it. You can exchange a Power Cell in a device as an action or a Bonus Action.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    subtype: ''
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities:
+    DCNypTGBirS29p29:
+      _id: DCNypTGBirS29p29
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: power-cell
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IJ8CIaubiNze928U'

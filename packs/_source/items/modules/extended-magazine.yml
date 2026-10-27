@@ -1,0 +1,52 @@
+_id: qCYvi8jnKZD0KOhY
+name: Extended Magazine (Weapon Module)
+type: loot
+img: icons/commodities/cloth/thread-spindle-white-needle.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 3500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>This weapon module doubles the ammo capacity of Ranged weapons with the Reload property that use Bullets or Shells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: extended-magazine
+effects: []
+folder: wwiINoc0nKMcIjvz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!qCYvi8jnKZD0KOhY'

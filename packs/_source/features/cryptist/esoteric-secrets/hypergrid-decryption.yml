@@ -1,0 +1,83 @@
+_id: z5GwxGGs4D28CF5u
+name: Hypergrid Decryption
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of the Hypergrid. You learn the <em>Debug</em>* cantrip if you don’t already know it. Once you have Occult Magic spell
+      slots capable of casting each of the following spells, you always have that spell prepared: <em>Identify</em>, <em>Power Sag</em>*, <em>Sending</em>, <em>Summon Gridwrought</em>*, <em>Scrying</em>.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: hypergrid-decryption
+  advancement:
+    mAUDlpNfCBoplaai:
+      _id: mAUDlpNfCBoplaai
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.CR9GSS9fvCouh6AX
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplIdentify00
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.yFPYVj4jCAQgtIo2
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSending000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.0gxXs4DLv47g8jiI
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Hypergrid Decryption
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!z5GwxGGs4D28CF5u'

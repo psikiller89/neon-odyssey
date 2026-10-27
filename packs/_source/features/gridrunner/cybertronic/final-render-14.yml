@@ -1,0 +1,104 @@
+_id: fTIdgQv6Ktmq28Pq
+name: Final Render
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You now can perfectly render a Hypergrid program into reality. When you cast an Illusion spell to create the image of a creature, or a Conjuration spell to summon a creature, you can modify
+      the spell so it can’t be dispelled, damage can’t break your Concentration on it, and if it deals damage, you can change the damage type to Force and add your Intelligence modifier to the total.</p><p>Once
+      you modify a spell with this feature, you can’t do so again until you finish a Long Rest or use your Cache Refresh feature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cybertronic Gridrunner
+  activities:
+    5IXBDcRQyVeEZ50z:
+      _id: 5IXBDcRQyVeEZ50z
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: final-render
+  advancement: {}
+effects: []
+folder: 5VLOMVrwRFpYo4cB
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fTIdgQv6Ktmq28Pq'

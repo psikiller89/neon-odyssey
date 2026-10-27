@@ -1,0 +1,119 @@
+_id: h9W3y8KraCaBgamU
+name: Awakened Mind
+type: feat
+img: icons/magic/life/cross-area-circle-green-white.webp
+system:
+  description:
+    value: <p>Your psychic clarity allows you to tap into even more of the unbound Psi within you. If you have no uses of Unbound Psyche left, you can use it if you spend 2 Psi Points when you take the
+      Bonus Action to activate it.</p><p>In addition, while your Unbound Psyche feature is active, you can use up to two of your Psi Shaping options on each spell you cast.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities:
+    qSLk2DaH21SNZxve:
+      type: utility
+      name: Restore Innate Sorcery
+      _id: qSLk2DaH21SNZxve
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '2'
+          target: feat:font-of-magic
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: feat:innate-sorcery
+          scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: awakened-mind
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: A48O1TAuWsYMNrHN
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!h9W3y8KraCaBgamU'

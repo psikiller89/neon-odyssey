@@ -1,0 +1,50 @@
+_id: bFow8KUd6rj2nfkb
+name: Dominating Voice
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your commanding whispers echo and cling. When you cast <em>Dominate Person</em>, you can modify the spell to have a duration of Concentration, up to 1 hour.</p><p>Additionally, if you cast
+      the spell using your Insidious Whispers feature, the spell doesn’t end early.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Shadowtongue Cryptist
+  activities: {}
+  enchant: {}
+  identifier: dominating-voice
+  advancement: {}
+effects: []
+folder: RFmJWYeRQQ3zwzgZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!bFow8KUd6rj2nfkb'

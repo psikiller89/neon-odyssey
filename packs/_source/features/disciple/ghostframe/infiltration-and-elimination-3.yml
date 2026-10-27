@@ -1,0 +1,99 @@
+_id: YyBEvJePGMBuzYuh
+name: Infiltration and Elimination
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your augments empower you to strike from the shadows. You gain the following benefits.</p><p><strong>Blade Master.</strong> Combat Swords are Disciple weapons for you.</p><p><strong>Infiltration
+      Mode.</strong> You can take the Hide action as a Bonus Action. When you expend an Essence Point to use Flowing Step, you can replace the Dash or Disengage action with the Hide action, and you can
+      hide even while in an enemy’s line of sight.</p><p><strong>Livewire Strike.</strong> Once per turn, when you hit with an Unarmed Strike or a Powered weapon and deal damage, you can expend 1 Essence
+      Point to deal extra Lightning damage equal to two rolls of your Combat Tradition die.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Ghostframe Disciple
+  activities:
+    fFhTEwWXI97UCkGK:
+      _id: fFhTEwWXI97UCkGK
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: infiltration-and-elimination
+  advancement: {}
+effects: []
+folder: bqQIVg0cPp9SIgRN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!YyBEvJePGMBuzYuh'

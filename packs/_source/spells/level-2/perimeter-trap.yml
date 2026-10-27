@@ -1,0 +1,162 @@
+_id: MLrc30Q0naJ38qbZ
+name: Perimeter Trap
+type: spell
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  description:
+    value: <p>You create a Tiny object that attaches to a surface that you touch and can’t be moved thereafter. When a creature enters a space within 30 feet of the object for the first time on a turn or
+      ends its turn there, it rolls a Dexterity saving throw. On a failed save, it takes 2d6 Radiant damage and can’t benefit from the Invisible condition until the end of its next turn. On a successful
+      save, the creature takes half as much damage only. The spell ends after the spell deals damage four times.</p><p>When you cast this spell, you can designate any creatures you choose, and the spell
+      ignores them.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The number of times this spell can deal damage increases by two for each spell slot level above 2.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: special
+    value: null
+    condition: 1 Action
+  duration:
+    value: ''
+    units: spec
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 2
+  school: div
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    oTB68AqBZS4UISJz:
+      _id: oTB68AqBZS4UISJz
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: f3nmdvGsXeBTwEvr
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: perimeter-trap
+effects:
+- _id: f3nmdvGsXeBTwEvr
+  name: Invisible
+  img: systems/dnd5e/icons/svg/statuses/invisible.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - invisible
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!MLrc30Q0naJ38qbZ.f3nmdvGsXeBTwEvr'
+folder: j9jMRFUkViNxi7SM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MLrc30Q0naJ38qbZ'

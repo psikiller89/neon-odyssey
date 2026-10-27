@@ -1,0 +1,169 @@
+_id: 4FamowKXCxq8a3Gm
+name: Riveter Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Machinist level specified in the Riveter Spells table, you thereafter always have the listed spells prepared. <em>Burning Hands</em>, <em>Withering Lightning</em>* <em>Swirling
+      Shards</em>*<em>, Web</em> <em>Elemental Wrath</em>*<em>, Fireball</em> <em>Tech Overload</em>*, <em>Vitriolic Sphere</em> <em>Concussive Wave</em>*, <em> Indirect Fire</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riveter Machinist
+  activities: {}
+  enchant: {}
+  identifier: riveter-spells
+  advancement:
+    APPGOxfqKiBpE50j:
+      _id: APPGOxfqKiBpE50j
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.3NqjXkINWCjCeBSt
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBurningHan
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Riveter Spells
+      hint: ''
+    4WAyy501M98mvkLd:
+      _id: 4WAyy501M98mvkLd
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.z4T4Xc6cubUQMO03
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Riveter Spells
+      hint: ''
+    lzIgCpMMJ2Fk0kV9:
+      _id: lzIgCpMMJ2Fk0kV9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.I55GXJPjj1aqzIIs
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Riveter Spells
+      hint: ''
+    iUGf5ZxhwZBoPPmz:
+      _id: iUGf5ZxhwZBoPPmz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Riveter Spells
+      hint: ''
+    AMZt90CfqS7OTzlk:
+      _id: AMZt90CfqS7OTzlk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.a2YDryfII5qpSLAU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.3Odo96agiczdAv1b
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Riveter Spells
+      hint: ''
+effects: []
+folder: 2QlK6RvbP5omfpcX
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4FamowKXCxq8a3Gm'

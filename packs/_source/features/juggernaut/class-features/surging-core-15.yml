@@ -1,0 +1,204 @@
+_id: eyoszpyWUkUCnf2w
+name: Surging Core
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  description:
+    value: <p>The reservoir of Surge at your core is nearly limitless. When you roll Initiative, you can regain all expended uses of Surge. After you regain uses of Surge in this way, you can’t do so again
+      until you finish a Long Rest.</p><p>In addition, your Surge is so potent that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Surge ends early
+      if you have the Unconscious condition (not just the Incapacitated condition) or don Heavy armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    recovery:
+    - period: lr
+      type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: encounter
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        - type: itemUses
+          value: -@scale.juggernaut.rage
+          target: feat:rage
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        concentration: false
+        expiry: null
+      effects:
+      - _id: lswSa3gGj0twkdSs
+        onSave: false
+      - _id: CEOp7xVtM4qLsmnx
+        onSave: false
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery:
+        - period: lr
+          type: recoverAll
+        max: ''
+      sort: 0
+      name: Regain Rage
+      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: surging-core
+  advancement: {}
+  crewed: false
+effects:
+- _id: lswSa3gGj0twkdSs
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!eyoszpyWUkUCnf2w.lswSa3gGj0twkdSs'
+- _id: CEOp7xVtM4qLsmnx
+  name: Unconscious
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - unconscious
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!eyoszpyWUkUCnf2w.CEOp7xVtM4qLsmnx'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!eyoszpyWUkUCnf2w'

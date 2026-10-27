@@ -1,0 +1,20 @@
+name: Hivemind Primalist
+sorting: a
+folder: 73u6dSypgcgv8vdP
+type: Item
+_id: 7uUFt7ms4ofJUUpP
+description: ''
+sort: 52
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!7uUFt7ms4ofJUUpP'

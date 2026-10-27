@@ -1,0 +1,97 @@
+_id: O33sMhdrC9OLIKwI
+name: Diminutive
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Ambush Form</em></p><p>Your size is Tiny, and your Primal Pounce deals 1 damage on a hit, plus the extra damage if you moved at least 20 feet. When a creature you can see
+      targets you with an attack, you can take a Reaction to impose Disadvantage on the attack roll.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalAspect
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities:
+    xDJeutjG23Q1JgMg:
+      _id: xDJeutjG23Q1JgMg
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: diminutive
+  advancement: {}
+effects: []
+folder: 6paiNqmrbvrvrO5j
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!O33sMhdrC9OLIKwI'

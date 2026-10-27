@@ -1,0 +1,48 @@
+_id: ecP4VupQpF7wJ811
+name: Temporal Control
+type: feat
+img: modules/neon-odyssey/icons/species/zamani.webp
+folder: RsLK3ZOXwf0Uguv3
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Advantage on Initiative rolls. When you roll Initiative, you can treat a d20 result of 9 or lower as a 10.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zamani
+  activities: {}
+  enchant: {}
+  identifier: temporal-control
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ecP4VupQpF7wJ811'

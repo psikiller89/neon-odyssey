@@ -1,0 +1,79 @@
+_id: YApPrs8f3YV5KBhc
+name: Shattered Limits
+type: feat
+img: icons/magic/control/sihouette-hold-beam-green.webp
+system:
+  description:
+    value: <p>You have fully broken the limits of your body, and your kinetic power is unleashed. You gain the following benefits.</p><p><strong>Body Unbound.</strong> Your Strength and Constitution scores
+      increase by 4, to a maximum of 25.</p><p><strong>Kinetic Detonation.</strong> The extra damage of your Kinetic Impact increases to 3d10.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: shattered-limits
+  advancement:
+    Yj4v0ul6dJiogWZy:
+      type: AbilityScoreImprovement
+      _id: Yj4v0ul6dJiogWZy
+      configuration:
+        cap: 4
+        fixed:
+          str: 4
+          dex: 0
+          con: 4
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+        - str
+        - dex
+        - con
+        - int
+        - wis
+        - cha
+        points: 0
+        recommendation: null
+        max: 25
+      value:
+        type: asi
+      level: 20
+      hint: <p>@Embed[Compendium.neon-odyssey.features.Item.YApPrs8f3YV5KBhc inline]</p>
+      name: ''
+      flags: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!YApPrs8f3YV5KBhc'

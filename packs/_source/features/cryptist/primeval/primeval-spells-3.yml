@@ -1,0 +1,156 @@
+_id: W0zNxF3cvQlBGuQg
+name: Primeval Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Cryptist level specified in the Primeval Spells table, you thereafter always have the listed spells prepared. <em>Chromatic Orb</em>, <em>Flame Blade</em>, <em>Scorching </em>
+      <em>Ray</em>, <em>Thunderwave</em> <em>Call Lightning</em>, <em>Elemental Wrath</em>*, <em>Fireball</em> <em>Ice Storm</em>, <em>Summon Primordial</em>* <em>Cone of Cold</em>, <em>Conjure Elemental</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: primeval-spells
+  advancement:
+    z3yMlgBiMxH5YjAN:
+      _id: z3yMlgBiMxH5YjAN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplThunderwav
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFlameBlade
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Primeval Spells
+      hint: ''
+    TDuvdDZfjH8srwOS:
+      _id: TDuvdDZfjH8srwOS
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.I55GXJPjj1aqzIIs
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCallLightn
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Primeval Spells
+      hint: ''
+    x6GTgTRygybEW6Ao:
+      _id: x6GTgTRygybEW6Ao
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.LIZ8NDlRApBuogZh
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplIceStorm00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Primeval Spells
+      hint: ''
+    dOcuOhLgErVKO6sR:
+      _id: dOcuOhLgErVKO6sR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConjureEle
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Primeval Spells
+      hint: ''
+effects: []
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!W0zNxF3cvQlBGuQg'

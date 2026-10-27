@@ -1,0 +1,52 @@
+_id: RMws7JYze2ZqJ596
+name: Sleeping Bag
+type: loot
+img: icons/sundries/survival/bedroll-grey.webp
+system:
+  quantity: 1
+  weight:
+    value: 7.0
+    units: lb
+  price:
+    value: 50
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: UkkQ5CtN1WjfrVYc
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Sleeping Bag sleeps one Small or Medium creature. While in a Sleeping Bag, you automatically succeed on saving throws against extreme cold (see the <em>D&amp;D Beyond Basic Rules</em>).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: sleeping-bag
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RMws7JYze2ZqJ596'

@@ -1,0 +1,99 @@
+_id: Jba9yVHnhh4UZltZ
+name: Unhindered Flow
+type: feat
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  description:
+    value: <p>The flow of Essence within you quickens your steps. Your Speed increases by 10 feet while you aren’t wearing armor or wielding a Shield. This bonus increases when you reach certain Disciple
+      levels, as shown on the Disciple Features table. +2 Balanced Guard, Combat Tradition 1d6 +2 Channeled Essence, Soul Rejuvenation, Unhindered Flow 1d6 2 +10 ft. +2 Centered Deflection, Disciple Subclass
+      1d6 3 +10 ft. +2 Ability Score Improvement, Weightless Soul 1d6 4 +10 ft. +3 Energy Disruption, Extra Attack 1d8 5 +10 ft. +3 Spirit Strikes, Subclass feature 1d8 6 +15 ft. +3 Agile Escape 1d8 7 +15
+      ft. +3 Ability Score Improvement 1d8 8 +15 ft. +4 Limitless Pathways 1d8 9 +15 ft. +4 Essence Amplification, Spiritual Cleansing 1d8 10 +20 ft. +4 Subclass feature 1d10 11 +20 ft. +4 Ability Score
+      Improvement 1d10 12 +20 ft. +5 Essential Deflection 1d10 13 +20 ft. +5 Enduring Soul 1d10 14 +25 ft. +5 Overflowing Essence 1d10 15 +25 ft. +5 Ability Score Improvement 1d10 16 +25 ft. +6 Subclass
+      feature 1d12 17 +25 ft. +6 Unyielding Transcendence 1d12 18 +30 ft. +6 Epic Boon 1d12 19 +30 ft. +6 Perfect Alignment 1d12 20 +30 ft.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties:
+  - trait
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: unhindered-flow
+  advancement: {}
+  crewed: false
+effects:
+- _id: OEYjH4cLYd0VPaKm
+  flags:
+    dnd5e:
+      riders: {}
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: Compendium.neon-odyssey.features.Item.Jba9yVHnhh4UZltZ
+  tint: '#ffffff'
+  transfer: true
+  name: Unarmored Movement
+  description: ''
+  statuses: []
+  img: icons/magic/nature/root-vine-entangle-foot-green.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.bonus
+      value: '@scale.disciple.unarmored-movement'
+      priority: null
+      type: add
+      phase: initial
+      _id: zkPlPSYpsw9kykly
+      conditions: '{}'
+      replacement: ''
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  sort: 0
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!Jba9yVHnhh4UZltZ.OEYjH4cLYd0VPaKm'
+flags: {}
+sort: 1800000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!Jba9yVHnhh4UZltZ'

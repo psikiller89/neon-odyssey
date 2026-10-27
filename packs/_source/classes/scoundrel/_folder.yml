@@ -1,0 +1,20 @@
+name: Scoundrel
+sorting: a
+folder: null
+type: Item
+_id: 3gZ4ytt18QnUbQoV
+description: ''
+sort: 1000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!3gZ4ytt18QnUbQoV'

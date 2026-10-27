@@ -1,0 +1,48 @@
+_id: X0VmNZMpIlw0gSai
+name: Traversal
+type: feat
+img: modules/neon-odyssey/icons/species/murexian.webp
+folder: npeQLHhkOLtCAR2F
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have proficiency in the Athletics or Stealth skill, and you gain your choice of a Burrow Speed or a Climb Speed equal to your Speed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Murexian
+  activities: {}
+  enchant: {}
+  identifier: traversal
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!X0VmNZMpIlw0gSai'

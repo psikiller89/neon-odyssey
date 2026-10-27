@@ -1,0 +1,102 @@
+_id: HDK6W0qjfsJeQ4mP
+name: Mutagenic Flesh
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your innate mutation bubbles to the surface. You gain the following benefits.</p><p><strong>Aberrant Senses.</strong> You gain Blindsight with a range of 10 feet and Darkvision with a range
+      of 30 feet. If you already have either of those senses, they instead increase by that amount.</p><p><strong>Abhorrent Mutations. </strong>While your Surge is active, your reach increases by 5 feet,
+      and when you activate your Surge, you manifest one of the following mutations of your choice. <strong>Caustic Secretions.</strong> You exude caustic slime, corrosive blood, or acidic spittle. When
+      a creature within 5 feet of you damages you, you can take a Reaction to deal Acid damage to the creature equal to your Strength modifier. <strong>Shrieking Mouths.</strong> Screaming or gibbering
+      mouths cover your body. When you hit a creature with an attack roll, until the start of your next turn, you have Advantage on Opportunity Attacks against it, and it has Disadvantage on attack rolls
+      against any target other than you. <strong>Sprouted Appendage.</strong> You grow an alien limb, tail, tentacle, or pseudopod. As a Bonus Action, you can use the limb to make an Unarmed Strike. If
+      you hit and deal damage with it, it deals 1d6 Acid, Bludgeoning, or Slashing damage (your choice) instead of the normal damage for the strike.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Mutant Juggernaut
+  activities:
+    KLSuzMaNgseM55Gk:
+      _id: KLSuzMaNgseM55Gk
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: mutagenic-flesh
+  advancement: {}
+effects: []
+folder: pHst4AIH8mv1gllA
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!HDK6W0qjfsJeQ4mP'

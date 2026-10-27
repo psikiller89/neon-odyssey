@@ -1,0 +1,106 @@
+_id: vEZRhEgGoTFvYqB0
+name: Waking Dream
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You now always walk among the Arcadian dream. You gain the following benefits.</p><p><strong>Lucid Dreamer.</strong> When you finish a Long Rest, you can conjure forth one object of your choice.
+      The object can be mundane or magical, as long as it is of Common, Uncommon, or Rare rarity, and it must fit within a 5-foot Cube. The item vanishes when you finish your next Long Rest.</p><p><strong>Spark
+      of Creativity.</strong> When you create a Dream Figment, you can choose a number of creatures up to your Wisdom modifier (minimum of 2) to gain a figment. You can take a Bonus Action to move any number
+      of figments to an equal number of creatures within 30 feet of yourself. At the start of an affected creature’s turn, it gains Heroic Inspiration if it doesn’t already have it. Once you use this benefit
+      to create additional figments, you can’t do so again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Dreamer Oracle
+  activities:
+    f8KE5P0MbVGBrzM4:
+      _id: f8KE5P0MbVGBrzM4
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: waking-dream
+  advancement: {}
+effects: []
+folder: 7RSAV4C2JMHE3ORI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!vEZRhEgGoTFvYqB0'

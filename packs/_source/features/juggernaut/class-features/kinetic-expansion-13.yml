@@ -1,0 +1,52 @@
+_id: flh1SEYEYcTMnadQ
+name: Kinetic Expansion
+type: feat
+img: icons/skills/melee/strike-axe-blood-red.webp
+system:
+  description:
+    value: <p>The kinetic power within you radiates like a field to be felt by those around you. The following effects are now among your Kinetic Impact options.</p><p><strong>Dazing Impact.</strong> The
+      target has Disadvantage on the next saving throw it makes, and it can’t make Opportunity Attacks until the start of your next turn.</p><p><strong>Fracture Defenses.</strong> Before the start of your
+      next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Fracture Defenses bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: kinetic-expansion
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!flh1SEYEYcTMnadQ'

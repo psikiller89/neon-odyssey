@@ -1,0 +1,52 @@
+_id: z0z3nC6ToXjLEsEo
+name: Empathic Presence
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You voyage through the thoughts, emotions, and memories of others. You gain the following benefits.</p><p><strong>Boundless Broadcast.</strong> The range of your telepathy is now 20 feet times
+      your level in this class.</p><p><strong>Fractal Telepathy.</strong> You can initiate telepathic contact with a number of creatures up to your spellcasting ability modifier (minimum of two creatures)
+      at one time. You must maintain Concentration to maintain these simultaneous links. While you concentrate, the range at which you can maintain the contact with them increases to 1 mile, and you and
+      those creatures have Advantage on Intelligence (Investigation) and Wisdom (Perception) checks.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Psychonaut Esper
+  activities: {}
+  enchant: {}
+  identifier: empathic-presence
+  advancement: {}
+effects: []
+folder: iIYvvG9Ga4e5RgAN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!z0z3nC6ToXjLEsEo'

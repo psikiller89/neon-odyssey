@@ -1,0 +1,50 @@
+_id: Ftqg346LFlmhoNn1
+name: Hunter’s Ferocity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>When you mark your prey, there is no escape. When you cast <em>Hunter’s Mark</em>, you can modify the spell so it doesn’t require Concentration. If you do so, the spell’s duration becomes
+      1 minute for that casting, and it ends early if you cast <em>Hunter’s </em> <em>Mark</em> again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: hunters-ferocity
+  advancement: {}
+effects: []
+folder: pmncZZNV51DkSe9o
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Ftqg346LFlmhoNn1'

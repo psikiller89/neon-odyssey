@@ -1,0 +1,48 @@
+_id: 0BzAd9bDeeY4v5ex
+name: Long Arms
+type: feat
+img: modules/neon-odyssey/icons/species/yaungu.webp
+folder: HRgqOCAskxYYRGOZ
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have a Climb Speed equal to your Speed, and your reach with your arms increases by 5 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Yaungu
+  activities: {}
+  enchant: {}
+  identifier: long-arms
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0BzAd9bDeeY4v5ex'

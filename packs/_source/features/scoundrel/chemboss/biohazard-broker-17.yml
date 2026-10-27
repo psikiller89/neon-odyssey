@@ -1,0 +1,51 @@
+_id: 2KDjDqyrK2X4JFHj
+name: Biohazard Broker
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have perfected your formula. You gain the following benefits.</p><p><strong>Concentrated Potency.</strong> A creature has Disadvantage on saving throws you force it to make against poisons
+      and toxins.</p><p><strong>Lethal Dose.</strong> When you give a creature the Poisoned condition, you can amplify its effect. While the creature remains Poisoned in this way, it takes 3d10 Acid, Necrotic,
+      Poison, or Psychic damage (your choice when you give the condition) at the start of each of its turns.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Chemboss Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: biohazard-broker
+  advancement: {}
+effects: []
+folder: FWGRR74KJLokKsjj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2KDjDqyrK2X4JFHj'

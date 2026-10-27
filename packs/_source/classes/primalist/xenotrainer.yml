@@ -1,0 +1,101 @@
+_id: 46cro1N9wvYi2mYo
+name: Xenotrainer
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/xenotrainer.webp
+system:
+  description:
+    value: <p><em>Teach Primal Monsters to Battle and Transform</em> Xenotrainers travel across the galaxy in search of xenomon, highly adaptable alien creatures that metamorphosize to take on the traits
+      of their environment. These Primalists form deep bonds of companionship with three xenomon and train them to become their best selves and ultimately achieve their final metamorphosis. Most Xenotrainers
+      view their xenomon as close friends or even family, and every challenge they face they do together, always striving to better themselves through training and teamwork.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: xenotrainer
+  classIdentifier: primalist
+  advancement:
+    wdblejhFAp3Fc5Z5:
+      _id: wdblejhFAp3Fc5Z5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.oftzTyUH2KsRy74j
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.zg3ki4fYttik87XA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    D5mgZb65QO32FIJe:
+      _id: D5mgZb65QO32FIJe
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.uL8K6cmyUBUW8os2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    f0X8cn9BqCBmCgU8:
+      _id: f0X8cn9BqCBmCgU8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.cap9KZRiYYTNnCwD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    xJIXOXB0xwXuBger:
+      _id: xJIXOXB0xwXuBger
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.QuT4kpt1weSSyvJ2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FXtdPbgogvsyHjaE
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!46cro1N9wvYi2mYo'

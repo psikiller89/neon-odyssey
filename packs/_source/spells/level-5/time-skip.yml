@@ -1,0 +1,109 @@
+_id: MDVXCWno2QdHxkG4
+name: Time Skip
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: <p>You create a sharp fold in time and lose yourself within its angles, vanishing from existence. While vanished, you can’t take actions or Reactions, and nothing can target or affect you or
+      your equipment. You reappear in an unoccupied space of your choice within 10 feet of the space you last occupied at the start of your next turn.</p><p>The temporal distortion when you return causes
+      each creature of your choice that you can see within 20 feet of you when you reappear to have Disadvantage on D20 Tests until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: bonus
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: trs
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    ok4XJ8fM27citJZL:
+      _id: ok4XJ8fM27citJZL
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: time-skip
+effects: []
+folder: KWpE1CiC6PgaF2z3
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MDVXCWno2QdHxkG4'

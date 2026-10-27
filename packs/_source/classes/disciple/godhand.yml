@@ -1,0 +1,101 @@
+_id: 64OvqNhIo357ojD4
+name: Godhand
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/godhand.webp
+system:
+  description:
+    value: <p><em>Wield Divine Might as a Hand of the Heavens</em> Godhands hold the power of the stars, gifted to them by the gods of Agathos or their divine vassals. Their souls are infused with divine
+      starlight that they unleash through their hands, often focused through a blessed gauntlet, glyph, or other holy adornment. Most of these Disciples serve the will of their patron deity, striving to
+      embody the god’s sacred tenets both on and off the battlefield.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: godhand
+  classIdentifier: disciple
+  advancement:
+    EB2Bnj9GM3znKU8N:
+      _id: EB2Bnj9GM3znKU8N
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Fa7bb9rtH2amTevS
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.dWGZu401l8zfphF8
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    0zsdOCQqxDhVXVea:
+      _id: 0zsdOCQqxDhVXVea
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.rf8QaSsAHSP7z3k9
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    kGcV6pwmc36kXS1O:
+      _id: kGcV6pwmc36kXS1O
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.od48Ts2H4Gybf1rG
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    nNZ5rgfMJarSPdH7:
+      _id: nNZ5rgfMJarSPdH7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.HGFq5M1sDcuM5NIy
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: MrkCyjRQd9KEa1GC
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!64OvqNhIo357ojD4'

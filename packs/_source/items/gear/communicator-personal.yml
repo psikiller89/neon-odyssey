@@ -1,0 +1,54 @@
+_id: b8mX7z3Jm77sNXZK
+name: Communicator, Personal
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 1500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Personal Communicator is a Tiny device easily held in the palm of one hand. It can connect to a communication network to allow long distance calling or directly connect to another comm device
+      over a short range—1 mile with direct line of sight, or 1,000 feet in a city or similar terrain. It has its own unique comm code and can store hundreds of codes for easy calling. The communicator
+      functions for 48 hours before needing to be recharged (1 hour connected to a power source).</p><p>If you aren’t maintaining a Lifestyle, the communicator can’t connect to a comm network.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: communicator-personal
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!b8mX7z3Jm77sNXZK'

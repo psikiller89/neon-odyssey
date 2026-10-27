@@ -1,0 +1,50 @@
+_id: inPn21ptXkUelP4k
+name: Primeval Instinct
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You are driven by a ferocious intuition. You can use Wisdom instead of Dexterity to determine your Armor Class and Wisdom instead of Strength or Dexterity for your attack rolls and damage
+      rolls with weapons and Unarmed Strikes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Protostalker Tracer
+  activities: {}
+  enchant: {}
+  identifier: primeval-instinct
+  advancement: {}
+effects: []
+folder: EIFt2WpGhAg7Oc3J
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!inPn21ptXkUelP4k'

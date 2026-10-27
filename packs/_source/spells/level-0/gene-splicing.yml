@@ -1,0 +1,128 @@
+_id: jmoK10tOb35X80uj
+name: Gene Splicing
+type: spell
+img: icons/svg/book.svg
+system:
+  description:
+    value: <p>You cause a physical adaptation in your body, gaining traits of alien creatures. Choose one of the following options. The chosen option lasts for the duration, unless you take a Magic action
+      to choose a new option to replace it. When the new option takes effect, you take 1d10 Necrotic damage from the transformative strain.</p><p><strong>Amphibious.</strong> You grow gills or gas exchange
+      membranes on your skin, and webs between your digits. You can breathe water, and you have a Swim Speed equal to your Speed.</p><p><strong>Cosmetic Replication.</strong> You change your appearance,
+      including your height, weight, facial features, voice, hair length, skin and hair color, and other distinguishing features. You can take on the appearance of a different species, though your game
+      statistics don’t change. You can’t change your size, and your body must keep the same arrangement of limbs. If you take the Magic action to change your chosen option, you can change your appearance
+      without taking Necrotic damage.</p><p><strong>Natural Weapons.</strong> You grow claws, a fanged snout or insectile mandibles, blunt horns, or some other natural weapon. You can use these weapons
+      to make Unarmed Strikes. The GM decides if the strike can use the Grapple option. On a hit, the strike deals damage equal to 1d6 plus your Strength modifier of a type appropriate to the weapon’s form
+      (Bludgeoning, Piercing, or Slashing) instead of the normal damage of an Unarmed Strike. You can use your spellcasting ability modifier for the attack and damage rolls instead of Strength.</p><p><strong>Traversal
+      Adaptation.</strong> You grow broad scooping paws or fine gripping cilia on your hands. You gain a Burrow Speed equal to half your Speed, or a Climb Speed equal to your Speed.</p><p><strong>Using
+      a Higher-Level Spell Slot.</strong> The duration increases to 8 hours with a level 3+ spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '4'
+    units: hour
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 0
+  school: ''
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    tjcmHZl1dCdyVRTL:
+      _id: tjcmHZl1dCdyVRTL
+      type: damage
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 10
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: null
+            formula: ''
+  identifier: gene-splicing
+effects: []
+folder: N14uQ9l4I9dridBe
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jmoK10tOb35X80uj'

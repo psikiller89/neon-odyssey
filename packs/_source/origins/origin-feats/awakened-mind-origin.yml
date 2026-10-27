@@ -1,0 +1,49 @@
+_id: umpWO733Mc8sQ59W
+name: Awakened Mind Origin
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+folder: zwHjzj1gRncwSsrp
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p><em>Origin Feat (Prerequisite: Eldritch or Psychic Homeworld)</em></p><p>You have absorbed the essence of your home’s psychically awakened nature or world soul, gaining the following benefits.</p><p><strong>Psychic
+      Resistance.</strong> You have Resistance to Psychic damage.</p><p><strong>Resilient Mind.</strong> You have Advantage on saving throws to avoid or end the Charmed or Frightened conditions.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: origin
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Eldritch or Psychic Homeworld
+  activities: {}
+  enchant: {}
+  identifier: awakened-mind-origin
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!umpWO733Mc8sQ59W'

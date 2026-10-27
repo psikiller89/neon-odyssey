@@ -1,0 +1,52 @@
+_id: rAO17vZDITuvHjC0
+name: Combat Recalibration
+type: feat
+img: icons/skills/melee/sword-engraved-glow-purple.webp
+system:
+  description:
+    value: <p>You analyze every engagement, empowering you to strike with enhanced precision. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against
+      that creature before the end of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities: {}
+  enchant: {}
+  identifier: combat-recalibration
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!rAO17vZDITuvHjC0'

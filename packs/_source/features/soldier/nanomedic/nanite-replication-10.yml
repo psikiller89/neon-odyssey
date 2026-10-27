@@ -1,0 +1,52 @@
+_id: YM8jABV3XiLNyjA6
+name: Nanite Replication
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>The nanites in your cluster can now replicate themselves to expand their effectiveness. You gain the following benefits.</p><p><strong>Ranging Cluster.</strong> The range of your Nanite Medicine
+      feature is now 60 feet.</p><p><strong>Sustaining Swarm.</strong> When you expend a use of your Adrenaline Rush, your nanite cluster regains 5 Hit Points. To use this feature, you must have a Pharma
+      Kit on your person.</p><p><strong>Trauma Triage.</strong> When you use your Nanite Medicine feature, you can expend 5 Hit Points from the cluster to remove one of the following conditions on the target:
+      Charmed, Paralyzed, Stunned; those points don’t also restore Hit Points to the creature.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities: {}
+  enchant: {}
+  identifier: nanite-replication
+  advancement: {}
+effects: []
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!YM8jABV3XiLNyjA6'

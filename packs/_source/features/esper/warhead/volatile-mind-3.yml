@@ -1,0 +1,111 @@
+_id: DXTcVMpRBDCeYV03
+name: Volatile Mind
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your psionics are explosive and unmaking. You gain the following benefits.</p><p><strong>Blast Radius.</strong> While your Unbound Psyche feature is active, your <em>Disruption</em> cantrip
+      has a range of 120 feet.</p><p><strong>Destructive Psi.</strong> When you deal Force damage with a spell, you deal extra Force damage equal to your spellcasting ability modifier to one of the spell’s
+      targets. Additionally, you can spend 1 Psi Point to choose another creature within 20 feet of a target that took Force damage. The chosen creature takes 1d10 Force damage.</p><p><strong>Violent Telekinesis.</strong>
+      You can cast and control <em>Mage Hand</em> as a Bonus Action, and the maximum weight it can carry is 10 pounds times your Proficiency Bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Warhead Esper
+  activities:
+    qLUmYKYaiDd57Zmq:
+      _id: qLUmYKYaiDd57Zmq
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: volatile-mind
+  advancement: {}
+effects: []
+folder: rox6ZyB1LxbRugjH
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!DXTcVMpRBDCeYV03'

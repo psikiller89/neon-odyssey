@@ -1,0 +1,115 @@
+_id: rOVaZQeGC04ZnQ6h
+name: Nanomedic
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/nanomedic.webp
+system:
+  description:
+    value: <p><em>Treat the Wounded with Nanite Field Medicine</em> Nanomedics are Soldiers who use highly advanced nanomachines to save the dying on battlefields across the galaxy. Equal parts warrior
+      and healer, these field medics perform critical triage and direct their countless microscopic bots to close wounds, neutralize infections, and even snatch mortally wounded comrades from the brink
+      of death. Their nanite clusters can take a variety of forms when deployed, appearing as billowing clouds, crawling swarms, or beams of gel-like material.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: nanomedic
+  classIdentifier: soldier
+  advancement:
+    F7N3cGLoc4EbkBDO:
+      _id: F7N3cGLoc4EbkBDO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ROoZ7MO1hNd2mVeE
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.QPkwuE3FS2uLEaBY
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    XUmCTo7GbmlTRYlK:
+      _id: XUmCTo7GbmlTRYlK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.XfQISy2GX5feyf4Q
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    PpQUbtYUXRvCCU9P:
+      _id: PpQUbtYUXRvCCU9P
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.YM8jABV3XiLNyjA6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    RY7JuenDYCSIkYlx:
+      _id: RY7JuenDYCSIkYlx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.uKTA3UysKDuPncvc
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    RagG5EY5P3c5mEO6:
+      _id: RagG5EY5P3c5mEO6
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.r7baVlqPCTkHkbd6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: TdKAX1k0iVoi5LgI
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!rOVaZQeGC04ZnQ6h'

@@ -1,0 +1,56 @@
+_id: sAMJGeeysgerNLqM
+name: Bag
+type: container
+img: icons/containers/bags/sack-cloth-orange.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 5
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Bag holds up to 30 pounds within 1 cubic foot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  capacity:
+    count: null
+    volume:
+      units: cubicFoot
+    weight:
+      units: lb
+  currency: {}
+  properties: []
+  identifier: bag
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!sAMJGeeysgerNLqM'

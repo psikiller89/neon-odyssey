@@ -1,0 +1,68 @@
+_id: p9910QYqoNI9zLsk
+name: Weapon Mastery
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+system:
+  description:
+    value: <p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Combat Swords and Heavy Laser Pistols.</p><p>Whenever
+      you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Power Glaives and Mag Flails.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: weapon-mastery
+  advancement:
+    H2wzREytOuzt7qqC:
+      _id: H2wzREytOuzt7qqC
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      name: Weapon Mastery
+      flags: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!p9910QYqoNI9zLsk'

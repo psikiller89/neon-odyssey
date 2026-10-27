@@ -1,0 +1,107 @@
+_id: lSJPaWVOaQdwixUj
+name: Cybertronic
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/cybertronic.webp
+system:
+  description:
+    value: <p><em>Render the Digital World into Reality</em> The Hypergrid is more than just code to manipulate for Cybertronics, who are deeply linked to the realm and everything in it. They can surf into
+      the digital world and render weapons, vehicles, and even living programs into reality with physical forms made of hardlight. Many Cybertronics spend as much time as possible exploring the Hypergrid,
+      whether in person or through a digital avatar, sometimes even living second lives beyond the bounds of the galaxy.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: cybertronic
+  classIdentifier: gridrunner
+  advancement:
+    eseRtUcKlIDXuh4a:
+      _id: eseRtUcKlIDXuh4a
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.mfmwcNAxu9O41yv8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.mGgl6gHPjzD1VfR8
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    cT99xyJyWhjGfWXu:
+      _id: cT99xyJyWhjGfWXu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.t03K0p2VWaqOB4Hg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.UbqvcHPuiJBx9uTm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    doALkCo92aFzBajB:
+      _id: doALkCo92aFzBajB
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.OxeCfrK1TwnFcgiq
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    4iCRnjSIZG3gLsyx:
+      _id: 4iCRnjSIZG3gLsyx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fTIdgQv6Ktmq28Pq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.2c7SqNIKlg8QZdmS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FRciaMbl0nqmWuaH
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!lSJPaWVOaQdwixUj'

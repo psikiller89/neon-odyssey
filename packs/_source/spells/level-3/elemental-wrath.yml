@@ -1,0 +1,226 @@
+_id: I55GXJPjj1aqzIIs
+name: Elemental Wrath
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+system:
+  description:
+    value: <p>You conjure elemental fury into a 20-foot-radius Sphere, centered on a point within range. The Sphere is Difficult Terrain. When you cast the spell, choose one of the damage types below. Any
+      creature that starts its turn in the Sphere or enters the Sphere for the first time during a turn must succeed on a Dexterity saving throw or take 2d8 damage of that type and be subject to the associated
+      effect. On a successful save, the target takes half as much damage only. <strong>Acid.</strong> The target takes an extra 2d8 Acid damage and its Speed is halved until the start of its next turn.
+      <strong>Cold.</strong> The target takes an extra 1d8 Cold damage and has Disadvantage on D20 Tests until the start of its next turn. <strong>Fire.</strong> The target starts burning. It takes 1d10
+      Fire damage from burning in this way. <strong>Lightning.</strong> The target has the Incapacitated condition until the start of its next turn. <strong>Thunder.</strong> The target takes an extra 1d8
+      Thunder damage and has the Prone condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: sphere
+      size: '20'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '90'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: evo
+  properties:
+  - vocal
+  - somatic
+  - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    2Jp92vyG556KHdzE:
+      _id: 2Jp92vyG556KHdzE
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: qAzBIAMDAUEkb6A9
+        onSave: false
+      - _id: CSVA2G050xHi6GBY
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - cold
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 10
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: elemental-wrath
+effects:
+- _id: qAzBIAMDAUEkb6A9
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!I55GXJPjj1aqzIIs.qAzBIAMDAUEkb6A9'
+- _id: CSVA2G050xHi6GBY
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!I55GXJPjj1aqzIIs.CSVA2G050xHi6GBY'
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!I55GXJPjj1aqzIIs'

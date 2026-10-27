@@ -1,0 +1,50 @@
+_id: Fi6kmtgBd7Rq8DEa
+name: Unstable Reactions
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your technomancy packs a potent blast. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the spell, the target takes
+      half damage (if any) but suffers no other effect from the cantrip.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities: {}
+  enchant: {}
+  identifier: unstable-reactions
+  advancement: {}
+effects: []
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Fi6kmtgBd7Rq8DEa'

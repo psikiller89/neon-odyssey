@@ -1,0 +1,175 @@
+_id: nkuNZ4PzT34Vp67z
+name: Metal Mayhem
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You unleash the defiant aggression of your screaming song. When you expend a use of Iconic Inspiration, you can enter a rocking fury (no action required) that lasts for 1 minute or until you
+      have the Incapacitated condition, during which you gain the following benefits.</p><p><strong>Hot-Blooded.</strong> You gain Temporary Hit Points equal to the highest number on your Iconic Inspiration
+      die.</p><p><strong>Stand and Shout.</strong> You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p><p><strong>Steel Slam.</strong> Once on each of your turns,
+      when you hit a creature with an attack roll, you can force the target to make a Strength saving throw against your spell save DC. On a failed save, the target has the Prone condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Headbanger Icon
+  activities:
+    lETbxa5BuLD95YNR:
+      _id: lETbxa5BuLD95YNR
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: ACMIX0KVGLEYX0ar
+        onSave: false
+      - _id: uNzvfB78ynrNsz8G
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: metal-mayhem
+  advancement: {}
+effects:
+- _id: ACMIX0KVGLEYX0ar
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!nkuNZ4PzT34Vp67z.ACMIX0KVGLEYX0ar'
+- _id: uNzvfB78ynrNsz8G
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!nkuNZ4PzT34Vp67z.uNzvfB78ynrNsz8G'
+folder: 4HG1MuYpX6idf014
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nkuNZ4PzT34Vp67z'

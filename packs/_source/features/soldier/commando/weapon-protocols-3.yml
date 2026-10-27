@@ -1,0 +1,132 @@
+_id: ImBJJGUDySn0OwsB
+name: Weapon Protocols
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your Hypergrid armory can modify your weapons in an instant for the situation at hand. While you’re holding a weapon registered to your Loadout, as a Bonus Action or in place of an attack
+      when you take the Attack action on your turn, you can use one of the options below. The Commando Weapon Protocols table shows the number of uses you have when you reach certain Soldier levels. 2 3
+      4 5 6 You regain all expended uses when you finish a Short or Long Rest.</p><p><strong>Plasma Charge.</strong> Move up to half your Speed. Once during this movement, if you move within 5 feet of a
+      creature you can deal Lightning damage equal to 1d8 plus your Strength or Dexterity modifier (your choice) to the target.</p><p><strong>Resolve Breaker.</strong> Make an attack with the weapon. On
+      a hit, the target takes the weapon’s normal damage and must subtract 1d6 from the next attack roll or saving throw it makes before the end of your next turn.</p><p><strong>Rocket Launch.</strong>
+      You launch an explosive at a point you can see within 120 feet of yourself. Each creature in a 5-footradius Sphere centered on that point makes a Dexterity saving throw (DC 8 plus your Strength or
+      Dexterity modifier [your choice] and Proficiency Bonus), taking 2d6 Fire damage on a failed save or half as much damage on a successful one.</p><p><strong>Suppressive Fire.</strong> You unleash a
+      rapid burst of plasma in a 10-foot Cube centered on a point you can see within 120 feet of yourself. The Cube lasts until the start of your next turn. Each creature in that area has Disadvantage on
+      attack rolls. When a creature enters the area, or moves within it, the creature takes 1d8 Lightning damage for every 5 feet it moves.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities:
+    rm6Z3BY7Uvj4qeXd:
+      _id: rm6Z3BY7Uvj4qeXd
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: weapon-protocols
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ImBJJGUDySn0OwsB'

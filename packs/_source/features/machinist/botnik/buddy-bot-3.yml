@@ -1,0 +1,138 @@
+_id: f28tKOWG9cjKq21h
+name: Buddy Bot
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have created a robotic companion, a <strong>Buddy Bot</strong> (see the stat block below). You determine the buddy bot’s appearance, though your choices don’t affect the buddy bot’s game
+      statistics. The buddy bot is Friendly to you and your allies.</p><p><strong>Buddy Bot Models.</strong> When you create your buddy bot, you decide its model type, choosing from Assault, Defender, or
+      Medic. Your choice alters the bot’s statistics, as listed in its stat block. You can change your bot’s model when you finish a Short or Long Rest.</p><p><strong>Buddy Bot in Combat.</strong> In combat,
+      your buddy bot acts on your turn. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action. If
+      you have the Incapacitated condition, the defender acts on its own and isn’t limited to the Dodge action.</p><p><strong>Repairing or Replacing Buddy Bot.</strong> If your Buddy Bot has died within
+      the last hour, you can take a Magic action to touch it and expend a spell slot. The buddy bot returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest,
+      you can create a new buddy bot if you have Electronics Tools in hand. If you already have a buddy bot from this feature, the first one vanishes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Botnik Machinist
+  activities:
+    lABncWa38nMtGh5a:
+      _id: lABncWa38nMtGh5a
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: oufOMqWZtXI30fFT
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: buddy-bot
+  advancement: {}
+effects:
+- _id: oufOMqWZtXI30fFT
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!f28tKOWG9cjKq21h.oufOMqWZtXI30fFT'
+folder: giWvboa9uiRIucmh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!f28tKOWG9cjKq21h'

@@ -1,0 +1,103 @@
+_id: 72tGqaM8r4P0Hvaj
+name: Psycho-Synchronicity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The power of your telepathy allows you to borrow the senses of other minds you contact and channel your magic through that connection. As a Bonus Action, choose one creature you are in telepathic
+      contact with; you can see and hear using their senses until the start of your next turn. During this time, when you cast a Divination, Enchantment, or Illusion spell, you can transfer the spell through
+      the telepathic link. The creature you are in telepathic contact with makes an Intelligence saving throw. On a failed save, you cast the spell from that creature’s space as if you were in it, and then
+      your telepathic contact with that creature ends. On a successful save, the spell fails (if it was cast with a spell slot, the slot isn’t expended).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Psychonaut Esper
+  activities:
+    lyVMvGnE0t0iLSya:
+      _id: lyVMvGnE0t0iLSya
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: psycho-synchronicity
+  advancement: {}
+effects: []
+folder: iIYvvG9Ga4e5RgAN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!72tGqaM8r4P0Hvaj'

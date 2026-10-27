@@ -1,0 +1,108 @@
+_id: 32kU5vMrnHw1k2BF
+name: Cacophonous
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/cacophonous.webp
+system:
+  description:
+    value: <p><em>Corrupt Body and Soul with Discordant Powers</em> The Cacophonous are especially cunning Cryptists who seek to outmaneuver the wicked malevolence of the Discordant to claim their fiendish
+      power for themselves. They rip open tears to Cacophony to corrupt the body, mind, and soul of their enemies, marking them to succumb to the influences of Entropy, Instinct, Progress, or Thrill. Although
+      they harness evil itself, many Cacophonous preserve their own souls through rigid discipline and calculated maneuvering, although some fully embrace the corruption and ascend to a new Discordant state
+      of being.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: cacophonous
+  classIdentifier: cryptist
+  advancement:
+    0g9ngUDO8JXpz3A5:
+      _id: 0g9ngUDO8JXpz3A5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.e1AVWQfxWVXxkSz1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.l7exvNzvRpywADGa
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.aHhdl9bcNBVoKr9L
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    UZ3GUACpqbWqpgw9:
+      _id: UZ3GUACpqbWqpgw9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.A9ZJXHKD9jN222Cq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.BKnNFr2uqyy4xmvf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    oTTSi2klP2pd4uCD:
+      _id: oTTSi2klP2pd4uCD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Gkb5rzs0ah4stvUH
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    wHqVMdQqXRXQxQu5:
+      _id: wHqVMdQqXRXQxQu5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.C5U0uvMHhzBEbNWs
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: V33SdDpvnwMZjPPw
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!32kU5vMrnHw1k2BF'

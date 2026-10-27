@@ -1,0 +1,175 @@
+_id: uqSD6Kti7yNjWZs6
+name: Gravgunner Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Machinist level specified in the Gravgunner Spells table, you thereafter always have the listed spells prepared. <em>Gravity Shackle</em>*, <em>Shield</em> <em>Levitate</em>,
+      <em>Shatter</em> <em>G-Force Crush</em>*, <em>Gravity Well</em>* <em>Tidal Compression</em>*, <em>Vortex</em>* <em>Graviton Wave</em>*, <em>Hair Trigger</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities: {}
+  enchant: {}
+  identifier: gravgunner-spells
+  advancement:
+    1l08jqhHTjZB2vFB:
+      _id: 1l08jqhHTjZB2vFB
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.eOpCtp43ySIqPJkE
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplShield0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Gravgunner Spells
+      hint: ''
+    UdQEm6aSztYodivG:
+      _id: UdQEm6aSztYodivG
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLevitate00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplShatter000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Gravgunner Spells
+      hint: ''
+    cyLlFdxNBVY64GO3:
+      _id: cyLlFdxNBVY64GO3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.ZTdl6NvxuNmqs3xU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.aVQdbrWhJSzhcK6v
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Gravgunner Spells
+      hint: ''
+    YYNUU2owB9GlCjkK:
+      _id: YYNUU2owB9GlCjkK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.g8JKe0eWTi4xbOH3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.fm6GlTfNGM1hsXDY
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Gravgunner Spells
+      hint: ''
+    6gjmX2n5u7Z1gqRP:
+      _id: 6gjmX2n5u7Z1gqRP
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.Py3ExQIlJaPf0glq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.fiCm1s3dnQUaTVch
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Gravgunner Spells
+      hint: ''
+effects: []
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uqSD6Kti7yNjWZs6'

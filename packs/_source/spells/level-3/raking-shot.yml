@@ -1,0 +1,126 @@
+_id: 855Enaz0viH6nnpc
+name: Raking Shot
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You brandish the weapon used to cast the spell and conjure a withering crossfire in a 60-foot Cone. Each creature in that area makes a Dexterity saving throw. On a failed save, a target takes
+      6d6 Force damage and has Disadvantage on attack rolls until the start of your next turn. On a successful save, a target takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+      The damage increases by 1d6 for each spell slot level above 3.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cone
+      size: '60'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: a Thrown or Ranged weapon worth $1+
+    consumed: false
+    cost: 1
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    WYV1LKw44dARj8YH:
+      _id: WYV1LKw44dARj8YH
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 6
+          denomination: 6
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: raking-shot
+effects: []
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!855Enaz0viH6nnpc'

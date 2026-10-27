@@ -1,0 +1,49 @@
+_id: FcDwq3RR4BYwNLUi
+name: Battle Ready
+type: feat
+img: modules/neon-odyssey/icons/species/clawderan.webp
+folder: hynhkLBSO7vUGtWY
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Once on your turn when you hit with an Unarmed Strike or an attack roll using a weapon with which you have proficiency, you can activate the Push, Slow, or Vex mastery property, in addition
+      to a different mastery property you’re using with that attack.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Clawderan
+  activities: {}
+  enchant: {}
+  identifier: battle-ready
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!FcDwq3RR4BYwNLUi'

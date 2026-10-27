@@ -1,0 +1,52 @@
+_id: 1njub3SfV43Qhocv
+name: Supreme Symbiosis
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The union is complete; you become one with your parasite and gain the following benefits.</p><p><strong>Apex Adaptation.</strong> Your Speed increases by 20 feet, and you gain a Climb Speed
+      and a Swim Speed equal to your Speed. You can spend 1 Psi Point to move across any liquid surface harmlessly as if it were solid ground until the start of your next turn.</p><p><strong>Feeding Frenzy.</strong>
+      Your Unarmed Strikes made with Symbiotic Shred deal an extra 1d8 damage (2d8 total). When you make an Unarmed Strike, you can increase your reach with your Symbiotic Shred to 30 feet.</p><p><strong>We
+      Are One.</strong> When you expend a spell slot to cast a spell prepared with your Symbiote Spells feature, you regain expended Psi Points equal to half the spell slot level, rounded up.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symbiote Esper
+  activities: {}
+  enchant: {}
+  identifier: supreme-symbiosis
+  advancement: {}
+effects: []
+folder: WiG1piX4f1E9zDYD
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1njub3SfV43Qhocv'

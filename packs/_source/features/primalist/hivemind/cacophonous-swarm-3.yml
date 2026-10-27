@@ -1,0 +1,320 @@
+_id: xDDIgCFP2c5oQit3
+name: Cacophonous Swarm
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The corruptive swarms of Cacophony respond to your every thought. As a Bonus Action, you can expend a use of your Primal Channel to manifest a 10-foot Emanation that takes <em>Bane</em>, <em>Ray
+      of </em> <em>Enfeeblement</em> <em>Faerie Fire</em>, <em>Web</em> <em>Hold Person</em>, <em>Shield</em> <em>Hideous Laughter</em>, <em>Mirror Image</em> <em>Vampiric Touch</em> <em>Fly</em> <em>Lightning
+      Bolt</em> <em>Hypnotic Pattern</em> <em>Blight</em> <em>Vitriolic Sphere</em> <em>Tech Overload</em>* <em>Confusion</em> <em>Cone of Cold</em> <em>Insect Plague</em> <em>Animate Objects</em> <em>Mislead</em>
+      the form of a swarm that aligns with your Discordant Tone. For example, a Hivemind of Instinct might have a swarm of shimmering beetles or biting flies; Entropy might manifest a host of tiny bat-like
+      creatures or a virulent fog; a Thrill swarm might appear as a cloud of aggressive confetti or animated demonic balloon animals; and a Hivemind of Progress might emit a swarm of tiny robotic entities
+      or even an aura of ionized discharges crackling in the air.</p><p>The swarm surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, have the Unconscious
+      condition, or die.</p><p>When you manifest the swarm and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution
+      saving throw against your spell save DC or take 1d6 Necrotic damage and suffer an additional effect based on your tone.</p><p><strong>Entropy.</strong> The target takes an extra 1d6 Necrotic damage
+      and gains 1 Exhaustion level (this can’t increase the target’s Exhaustion level higher than 1).</p><p><strong>Instinct.</strong> The target has the Restrained condition until the start of your next
+      turn.</p><p><strong>Progress.</strong> The target has the Blinded condition until the start of your next turn.</p><p><strong>Thrill.</strong> The target takes an extra 1d6 Necrotic damage and has
+      the Frightened condition until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities:
+    hmGJsaAfxjMKAfQV:
+      _id: hmGJsaAfxjMKAfQV
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: MaTQXch9HwqRrZaw
+        onSave: false
+      - _id: jEaZ3hrO4SvVsopa
+        onSave: false
+      - _id: WozgIp4mdRSmNgam
+        onSave: false
+      - _id: Tk3lf8xgotrXEqu7
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: cacophonous-swarm
+  advancement:
+    TXwDmnB5AGI1DZih:
+      _id: TXwDmnB5AGI1DZih
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Cacophonous Swarm
+      hint: ''
+effects:
+- _id: MaTQXch9HwqRrZaw
+  name: Blinded
+  img: systems/dnd5e/icons/svg/statuses/blinded.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - blinded
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!xDDIgCFP2c5oQit3.MaTQXch9HwqRrZaw'
+- _id: jEaZ3hrO4SvVsopa
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!xDDIgCFP2c5oQit3.jEaZ3hrO4SvVsopa'
+- _id: WozgIp4mdRSmNgam
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!xDDIgCFP2c5oQit3.WozgIp4mdRSmNgam'
+- _id: Tk3lf8xgotrXEqu7
+  name: Unconscious
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - unconscious
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!xDDIgCFP2c5oQit3.Tk3lf8xgotrXEqu7'
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!xDDIgCFP2c5oQit3'

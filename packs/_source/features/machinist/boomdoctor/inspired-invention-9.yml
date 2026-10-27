@@ -1,0 +1,126 @@
+_id: xrIK7WbRHC6hPwVf
+name: Inspired Invention
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your incessant and often unhinged tinkering has unlocked weird and experimental devices. You gain the following benefits.</p><p><strong>Boomsday Device.</strong> You invent a device with
+      wildly varied functions. As a Magic action while holding Chemist’s Supplies, you can cast one of the following spells without a spell slot: <em>Confusion</em>, <em>Dimension Door</em>, <em>Greater
+      Invisibility</em>, or <em>Polymorph</em>. Once you cast one of the spells using this benefit, you can’t cast any of them with this benefit again until you finish a Long Rest.</p><p><strong>More Boom.</strong>
+      Your Impromptu Bombs now create a 20-foot-radius Sphere, and their damage dice become d8s instead of d6s.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities:
+    jeVR9sosfQWz0Zkb:
+      _id: jeVR9sosfQWz0Zkb
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: inspired-invention
+  advancement:
+    KGnIuVYKh7suzF89:
+      _id: KGnIuVYKh7suzF89
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Inspired Invention
+      hint: ''
+effects: []
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!xrIK7WbRHC6hPwVf'

@@ -1,0 +1,617 @@
+_id: Ho0q77ipQt5zfjSD
+name: Mindclinger
+type: npc
+img: modules/neon-odyssey/icons/creatures/mindclinger.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 9
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 14
+      proficient: 1
+    wis:
+      value: 11
+      proficient: 0
+    cha:
+      value: 6
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 25
+      max: 25
+      formula: 10d4
+      temp: null
+      tempmax: null
+    movement:
+      walk: '20'
+      climb: '20'
+      swim: '20'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: aberration
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: "<p>MINDCLINGER</p><p>Scuttling Symbiote</p><p>Habitat: Planar (Abyssal Void); Treasure: None</p><p>Mindclingers are tiny symbiotes from the Abyssal Void, \noften drawn forth into the galaxy\
+        \ by curiosity and hunger \nfor mortal minds in equal parts. They seek out a host to \nbond with, granting them protection through its surprisingly \npotent psychic power. The appearance of these\
+        \ parasites is \nas inconsistent as it is alien, often incorporating elements \nof octopus, crab, and other aquatic creatures with an \notherworldly strangeness.</p><p>Mindclinger</p><p>Mindclinger</p><p>Tiny\
+        \ Aberration, Neutral</p><p>AC 12</p><p>Initiative +2 (12)</p><p>HP 25 (10d4)</p><p>Speed 20 ft., Climb 20 ft., Swim 20 ft.</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>STR\t\n9\t\n\
+        −1\t\n−1</p><p>DEX\t 14\t\n+2\t\n+2\t CON\t 10\t\n+0\t +0</p><p>INT\t\n14\t\n+2\t\n+4</p><p>WIS\t 11\t\n+0\t +0\t CHA\t\n6\t\n−2\t\n−2</p><p>Skills Stealth +4</p><p>Resistances Necrotic</p><p>Immunities\
+        \ Psychic</p><p>Senses Darkvision 60 ft.; Passive Perception 10</p><p>Languages Hadalic; telepathy 30 ft.</p><p>CR 1 (XP 200; PB +2)</p><p>Traits</p><p>Amphibious. The mindclinger can breathe air\
+        \ and water.</p><p>Mind Quiet. The mindclinger has Advantage on</p><p>Intelligence saving throws.</p><p>Spider Climb. The mindclinger can climb difficult surfaces, \nincluding along ceilings, without\
+        \ needing to make an \nability check.</p><p>Actions</p><p>Latch. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2)</p><p>Piercing damage plus 7 (2d6) Psychic damage, and the \nmindclinger attaches\
+        \ to the target. While attached, the \nmindclinger can’t make Latch attacks, and the target \ntakes 14 (4d6) Psychic damage at the start of each of the \nmindclinger’s turns.\n\t The mindclinger\
+        \ can detach itself by spending 5 feet of \nmovement. The target or a creature within 5 feet of it can \ndetach the mindclinger as an action.</p><p>Mind Shield. The mindclinger extends the benefits\
+        \ of its</p><p>Mind Quiet trait to each creature of its choice within a \n5-foot Emanation originating from it until the start of the \nmindclinger’s next turn.</p><p>Psychic Burst (1/Day). Intelligence\
+        \ Saving Throw:</p><p>DC 12, each target in a 5-foot Emanation centered on the \nmindclinger. Failure: 9 (2d6 + 2) Psychic damage, and the \ncreature has the Stunned condition until the end of the\
+        \ \nmindclinger’s next turn. Success: Half damage only.</p><p>Bonus Actions</p><p>Symbiosis. The mindclinger forms a magical bond with \na willing creature it touches. The bonded creature has</p><p>Advantage\
+        \ on Intelligence saving throws and Resistance \nto Psychic damage. The bond ends when the creature dies, \nthe mindclinger dies, the mindclinger ends the bond (no \naction required), or when the\
+        \ mindclinger uses this Bonus</p><p>Action again.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value:
+      - necrotic
+    di:
+      value:
+      - psychic
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Hadalic; telepathy 30 ft.
+  skills:
+    ste:
+      value: 1
+      ability: ''
+items:
+- _id: WZPTriebJJDeImmU
+  name: Amphibious
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The mindclinger can breathe air and water.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: amphibious
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.WZPTriebJJDeImmU'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: QMlLDItFnvgdJdQD
+  name: Mind Quiet
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The mindclinger has Advantage on Intelligence saving throws.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: mind-quiet
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.QMlLDItFnvgdJdQD'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: f5ChQuKN4TVNkayL
+  name: Spider Climb
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The mindclinger can climb difficult surfaces, including along ceilings, without needing to make an ability check.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: spider-climb
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.f5ChQuKN4TVNkayL'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: QS4TYZv5VnosbbEZ
+  name: Latch
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 7 (2d6) Psychic damage, and the mindclinger attaches to the target. While attached, the mindclinger can’t make Latch
+        attacks, and the target takes 14 (4d6) Psychic damage at the start of each of the mindclinger’s turns. The mindclinger can detach itself by spending 5 feet of movement. The target or a creature
+        within 5 feet of it can detach the mindclinger as an action.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      NSD3hz9rpYshoeiQ:
+        _id: NSD3hz9rpYshoeiQ
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 4
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          - number: 4
+            denomination: 6
+            bonus: ''
+            types:
+            - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: latch
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.QS4TYZv5VnosbbEZ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: XuFiS4lQJWy0cMdA
+  name: Mind Shield
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The mindclinger extends the benefits of its Mind Quiet trait to each creature of its choice within a 5-foot Emanation originating from it until the start of the mindclinger’s next turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      WnyA4G2gmyfNT8Ct:
+        _id: WnyA4G2gmyfNT8Ct
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: mind-shield
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.XuFiS4lQJWy0cMdA'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: f2cgOnezX4OWeT3q
+  name: Psychic Burst
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Intelligence Saving Throw: DC 12, each target in a 5-foot Emanation centered on the mindclinger. Failure: 9 (2d6 + 2) Psychic damage, and the creature has the Stunned condition until the
+        end of the mindclinger’s next turn. Success: Half damage only.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      aJyZ1LO0naeLrFnz:
+        _id: aJyZ1LO0naeLrFnz
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - int
+          dc:
+            calculation: ''
+            formula: '12'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: psychic-burst
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.f2cgOnezX4OWeT3q'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: R8b7nWnq2XPklbq3
+  name: Symbiosis
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The mindclinger forms a magical bond with a willing creature it touches. The bonded creature has Advantage on Intelligence saving throws and Resistance to Psychic damage. The bond ends when
+        the creature dies, the mindclinger dies, the mindclinger ends the bond (no action required), or when the mindclinger uses this Bonus Action again.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      2UcEoZWOgVNuQQJw:
+        _id: 2UcEoZWOgVNuQQJw
+        type: save
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - int
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: symbiosis
+  _key: '!actors.items!Ho0q77ipQt5zfjSD.R8b7nWnq2XPklbq3'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Mindclinger
+  texture:
+    src: modules/neon-odyssey/icons/creatures/mindclinger-token.webp
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!Ho0q77ipQt5zfjSD'

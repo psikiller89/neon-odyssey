@@ -1,0 +1,613 @@
+_id: eZAyIOLvjzcz0aM1
+name: Juggernaut
+type: class
+img: modules/neon-odyssey/icons/classes/juggernaut.png
+system:
+  description:
+    value: '<h3>Core Juggernaut Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Strength</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D12
+      per Juggernaut level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Strength and Constitution</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose
+      2: Athletics, History, Intimidation, Medicine, Perception, or Survival</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple and Martial weapons</p></td></tr><tr><th scope="row"><p>Armor
+      Training</p></th><td><p>Light and Medium armor and Shields</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Concussion Maul, Hand Cannon, 20 Shells, Power Cell,
+      Magazine, Outrunner’s Pack, and $460; or (B) $6,500</p></td></tr></tbody></table><p><strong>Primary Ability</strong> Strength <strong>Hit Point Die</strong> D12 per Juggernaut level <strong>Saving
+      Throw  Proficiencies</strong> Strength and Constitution <strong>Skill Proficiencies</strong> <em>Choose 2:</em> Athletics, History, Intimidation, Medicine, Perception, or Survival <strong>Weapon  Proficiencies</strong>
+      Simple and Martial weapons <strong>Armor Training</strong> Light and Medium armor and Shields <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Concussion Maul, Hand Cannon, 20 Shells,
+      Power Cell, Magazine, Outrunner’s Pack, and $460; or (B) $6,500 Juggernauts are shockingly resilient bruisers who charge headfirst into battle, ripping through walls and smashing their enemies. Their
+      supernatural strength and endurance are fueled by a reservoir of concentrated kinetic energy called Surge that continually builds up within their core. By utilizing this force throughout their bodies,
+      Juggernauts can push their physical forms beyond the limits of what should be possible.</p><p>A Juggernaut’s power manifests when the kinetic force that radiates throughout the galaxy inexplicably
+      coalesces into a single body. This usually occurs at birth, although their abilities typically remain dormant until childhood or adolescence. Some activate later in life, when a near-death experience
+      ignites their kinetic reservoir and forces their body to surge beyond its limits to survive.</p><p>Many Juggernauts are drawn to gritty and dangerous lines of work, proving extremely valuable in security
+      forces or criminal organizations. Occasionally, they can be found using their supernatural resilience and raw strength to help others in crisis response or search-and-rescue. A rare few become single-minded
+      in discovering just how far beyond their limits they can push their bodies.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: 0P5nMOGOABCc3MsJ
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: Zpcga3dWP30XfM4A
+    type: AND
+    group: 0P5nMOGOABCc3MsJ
+    requiresProficiency: false
+    sort: 200000
+  - _id: kxseYFMFAz8B8gVR
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.mP2P2YVvdU5wR4Kv
+    count: null
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 300000
+  - _id: vo3FyDx3fhFkLFJT
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.cBfDJQNbmxsLuMZn
+    count: null
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 400000
+  - _id: WNkrEmk0hqYpWRwL
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.RIcLjliNizqL39oE
+    count: 20
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 500000
+  - _id: KPPISeFx3rQN2Yk9
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: null
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 600000
+  - _id: xhkQOYzIi14leiZY
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.mLKj3oXtb6ljMqyz
+    count: null
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 700000
+  - _id: xRlUeuf8jFUKwu3g
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3XAIc6y4pYahQGLN
+    count: null
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 800000
+  - _id: V6PfcKWnBHH11lzq
+    type: currency
+    key: gn
+    count: 460
+    group: Zpcga3dWP30XfM4A
+    requiresProficiency: false
+    sort: 900000
+  - _id: m5npcDgCw0Icnna7
+    type: AND
+    group: 0P5nMOGOABCc3MsJ
+    requiresProficiency: false
+    sort: 1000000
+  - _id: e6BfR623PvfgOPG5
+    type: currency
+    key: gn
+    count: 6500
+    group: m5npcDgCw0Icnna7
+    requiresProficiency: false
+    sort: 1100000
+  identifier: juggernaut
+  levels: 1
+  advancement:
+    JsGU20wwFmwSQ5He:
+      _id: JsGU20wwFmwSQ5He
+      type: ScaleValue
+      configuration:
+        identifier: rage-damage
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '9':
+            value: 3
+          '16':
+            value: 4
+      value: {}
+      hint: ''
+      flags: {}
+      name: Rage Damage
+    Hc3cNal60BVZjgi5:
+      _id: Hc3cNal60BVZjgi5
+      type: ScaleValue
+      configuration:
+        identifier: mastery
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      hint: ''
+      flags: {}
+      name: Weapon Mastery
+      classRestriction: ''
+    YzgEeP9pAA0c3bbn:
+      _id: YzgEeP9pAA0c3bbn
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      hint: ''
+      flags: {}
+      name: ''
+    Xl4k2CTxTMhAZbGt:
+      _id: Xl4k2CTxTMhAZbGt
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      flags: {}
+      hint: ''
+      name: ''
+    5hgfh1Zcyct9PXLy:
+      _id: 5hgfh1Zcyct9PXLy
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      flags: {}
+      hint: ''
+      name: ''
+    SI7lbuRXd2YfXXEi:
+      _id: SI7lbuRXd2YfXXEi
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      flags: {}
+      hint: ''
+      name: ''
+    WB74p7CaIJKZVoNK:
+      _id: WB74p7CaIJKZVoNK
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+      name: ''
+    llft9LHzCcVGZr1R:
+      _id: llft9LHzCcVGZr1R
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: <p>You gain a Juggernaut subclass of your choice. The Path of the Berserker, Path of the Wild Heart, Path of the World Tree, and Path of the Zealot subclasses are detailed after this class’s
+        description. A subclass is a specialization that grants you features at certain Juggernaut levels. For the rest of your career, you gain each of your subclass’s features that are of your Juggernaut
+        level or lower.</p>
+      flags: {}
+      classRestriction: ''
+      name: ''
+    Q4crzEug7m7VK51P:
+      _id: Q4crzEug7m7VK51P
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      flags: {}
+      name: Weapon Proficiencies
+    HKfpwmpBxd4539HK:
+      _id: HKfpwmpBxd4539HK
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:med
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      flags: {}
+      name: Armor Training
+    yj2VgvjKystoRCK6:
+      _id: yj2VgvjKystoRCK6
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:mar
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: secondary
+      flags: {}
+      name: Weapon Proficiencies
+    oxhsE5PIGxe6mO4s:
+      _id: oxhsE5PIGxe6mO4s
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: secondary
+      flags: {}
+      name: Armor Training
+    6FTnn7DjW37STeW6:
+      _id: 6FTnn7DjW37STeW6
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '3':
+            value: 3
+          '6':
+            value: 4
+          '12':
+            value: 5
+          '17':
+            value: 6
+      value: {}
+      hint: ''
+      flags: {}
+      name: Rages
+    Ab9IuXTuVV9GY2s0:
+      type: AbilityScoreImprovement
+      _id: Ab9IuXTuVV9GY2s0
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd-players-handbook.feats.Item.phbBoonofIrresis
+        max: null
+      value:
+        type: asi
+      level: 19
+      hint: ''
+      flags: {}
+      name: ''
+    LgoFKpSrrKXZiR1M:
+      _id: LgoFKpSrrKXZiR1M
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:str
+        - saves:con
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    wcROX2XCbANmqcyM:
+      _id: wcROX2XCbANmqcyM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:ath
+          - skills:his
+          - skills:itm
+          - skills:med
+          - skills:prc
+          - skills:sur
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    v9inr5f1nSVMKeL5:
+      _id: v9inr5f1nSVMKeL5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.qGiY0eFrG2I4yH96
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.uKbFSOh6dq9GNvRb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.BsI3HVePP6Po89pC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    yWyH7Bwd4j6xJnzg:
+      _id: yWyH7Bwd4j6xJnzg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.OHgn8EpQ7ObuZejo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.wFIqJCGaBm9FDuI2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    AiCAMqyak6Bb8rUW:
+      _id: AiCAMqyak6Bb8rUW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.dN7EJ9GCI34uPIMi
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      hint: ''
+    0E8Ll1beeyeG3Mqp:
+      _id: 0E8Ll1beeyeG3Mqp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.HEMd6neKa9rPgUix
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.HnLHvt9ieA30Qqni
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    C08DZGYD2CHhn1zp:
+      _id: C08DZGYD2CHhn1zp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.R4vP5oiPco0A7gpe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.K2LKDigKhhAIsz8t
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    nrQx7tmuxcLGgdNN:
+      _id: nrQx7tmuxcLGgdNN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.SEZo8wfqKyM4Klnv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Class Features
+      hint: ''
+    ytGGXzft60zC9vm3:
+      _id: ytGGXzft60zC9vm3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LvrYaEU39h46hT3h
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Class Features
+      hint: ''
+    kzXB5ttiIPKEPBcy:
+      _id: kzXB5ttiIPKEPBcy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.flh1SEYEYcTMnadQ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Class Features
+      hint: ''
+    k0FFYob161I7CnMo:
+      _id: k0FFYob161I7CnMo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.eyoszpyWUkUCnf2w
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Class Features
+      hint: ''
+    eJHYW1TQjdBdzHf2:
+      _id: eJHYW1TQjdBdzHf2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.snQWXQ0TATi2AZM3
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Class Features
+      hint: ''
+    kXWYqqfIzzpFmaS2:
+      _id: kXWYqqfIzzpFmaS2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.OoQEIAydUzL5BSch
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    IiG43Ov4arxWm4qu:
+      _id: IiG43Ov4arxWm4qu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.YApPrs8f3YV5KBhc
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+  wealth: ''
+  primaryAbility:
+    value:
+    - str
+    all: false
+  hd:
+    denomination: d12
+    spent: 0
+    additional: ''
+  properties: []
+effects: []
+folder: 645rw480t9huQVb4
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!eZAyIOLvjzcz0aM1'

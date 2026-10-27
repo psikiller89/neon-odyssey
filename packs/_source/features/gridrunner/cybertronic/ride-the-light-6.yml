@@ -1,0 +1,177 @@
+_id: t03K0p2VWaqOB4Hg
+name: Ride the Light
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The vehicles that navigate the Hypergrid are yours to create. You can create a personal vehicle using hardlight projection. As a Magic action, you can create a <strong>Racing Bike*</strong>
+      that lasts for 8 hours. You can choose to create it so that you are already in the Controls station. The bike vanishes if you gain the Incapacitated condition or when the bike is reduced to 0 Hit
+      Points. If you are dismounted from the bike, you can reform it around yourself as a Bonus Action, ending the Prone condition on yourself and the vehicle.</p><p>Once you create a vehicle with this
+      feature, you can’t do so again until you finish a Long Rest or use your Cache Refresh feature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cybertronic Gridrunner
+  activities:
+    poEETybMnZMjTvTy:
+      _id: poEETybMnZMjTvTy
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: jK8k5qgC9qNdrvtM
+        onSave: false
+      - _id: ouuPBJGnNhAvESZP
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: ride-the-light
+  advancement: {}
+effects:
+- _id: jK8k5qgC9qNdrvtM
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!t03K0p2VWaqOB4Hg.jK8k5qgC9qNdrvtM'
+- _id: ouuPBJGnNhAvESZP
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!t03K0p2VWaqOB4Hg.ouuPBJGnNhAvESZP'
+folder: 5VLOMVrwRFpYo4cB
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!t03K0p2VWaqOB4Hg'

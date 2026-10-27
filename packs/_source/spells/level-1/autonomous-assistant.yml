@@ -1,0 +1,138 @@
+_id: PTGbnlcUXBRMfbeO
+name: Autonomous Assistant
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You gain the service of a special assistant, a digital spirit that appears in an unoccupied space within range and uses the <strong>Autonomous Assistant</strong> stat block. If you already
+      have an assistant from this spell, the assistant is replaced by the new one. You determine the assistant’s appearance, such as a hardlight digital mascot or a robot helper.</p><p><strong>Telepathic
+      Connection.</strong> While your assistant is within 100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see through the assistant’s eyes and hear
+      what it hears until the start of your next turn, gaining the benefits of any special senses it has.</p><p><strong>Combat.</strong> The assistant is an ally to you and your allies. It rolls its own
+      Initiative and acts on its own turn. An assistant can’t attack, but it can take other actions as normal.</p><p><strong>Disappearance of the Assistant.</strong> When the assistant drops to 0 Hit Points,
+      it disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the assistant to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic
+      action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the assistant drops to 0 Hit Points or disappears into the pocket dimension,
+      it leaves behind in its space anything it was wearing or carrying.</p><p><strong>One Assistant Only.</strong> You can’t have more than one assistant at a time.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: hour
+    value: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: ''
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '10'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  - ritual
+  materials:
+    value: computer chips worth $500+, which the spell consumes
+    consumed: true
+    cost: 500
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    q4Ez1Loe7F7ZcbSV:
+      _id: q4Ez1Loe7F7ZcbSV
+      type: summon
+      name: Summon
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: false
+      effects: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+      - _id: sINDvnHWFDH9UfRZ
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: ''
+        uuid: Compendium.neon-odyssey.bestiary.Actor.xXOntmAfRyXg0XPF
+      summon:
+        mode: ''
+        prompt: true
+      creatureSizes: []
+      creatureTypes: []
+  identifier: autonomous-assistant
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PTGbnlcUXBRMfbeO'

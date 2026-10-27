@@ -1,0 +1,98 @@
+_id: 1ErMnGdgpQKpm3tK
+name: Spinning Shell
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>A shielding power-up encircles you and your allies. You gain three tokens that take the form of baubles, markings, or Tiny sprites. When you or an ally in your Zone of Safety is hit by an
+      attack roll, that creature can take a Reaction to add a bonus up to the number of remaining tokens to its AC against that attack, possibly causing it to miss. A number of tokens equal to the bonus
+      added interpose themselves to stop the attack and then vanish. At the start each of your turns, vanished tokens reappear.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Supersprite Enforcer
+  activities:
+    vfNchcMuCCQ9WUC6:
+      _id: vfNchcMuCCQ9WUC6
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: spinning-shell
+  advancement: {}
+effects: []
+folder: DYc5L750iJ36XVct
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1ErMnGdgpQKpm3tK'

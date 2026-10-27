@@ -1,0 +1,50 @@
+_id: 1I3AUgynmvGA8Dvv
+name: Imaginary Friend
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You’re never alone when you can reach out to your dreams and bring a best friend into reality. You can cast <em>Summon </em> <em>Arcadian</em>* without a Material component, and when you start
+      casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spells duration becomes 1 minute for that casting.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Dreamer Oracle
+  activities: {}
+  enchant: {}
+  identifier: imaginary-friend
+  advancement: {}
+effects: []
+folder: 7RSAV4C2JMHE3ORI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1I3AUgynmvGA8Dvv'

@@ -1,0 +1,152 @@
+_id: c1n7h7D8uKxwM9K6
+name: Firewall
+type: spell
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+system:
+  description:
+    value: '<p>$15,000+, which the spell consumes) You touch a point and deploy a security field. The area can have a radius up to 20 feet, and the spell fails if the radius includes an area already under
+      the effect of <em>Firewall</em>. The affected area has the following effects.</p><p><strong>Access Control.</strong> Choose one creature type. Creatures of the chosen type can’t willingly enter the
+      area, and any creature that is possessed by or that has the Charmed or Poisoned condition from such creature isn’t possessed, Charmed, or Poisoned by them while in the area.</p><p><strong>Extra Effect.</strong>
+      You bind an extra effect to the area from the list below: <strong>Adaptive Encryption. </strong>Creatures of the chosen type have Disadvantage on ability checks using Intelligence, Wisdom, or Charisma
+      while in the area or against targets in the area. <strong>Antivirus.</strong> Creatures of the chosen type can’t gain the Poisoned condition while in the area. <strong>Device Lockout.</strong> Power
+      Cells and powered devices carried or used by creatures of the chosen type don’t function. <strong>Port Closure.</strong> Creatures of any types you choose can’t enter or exit the area using teleportation
+      or interplanar travel. <strong>Resistance.</strong> Creatures of the chosen type have Resistance to one of the following damage types: Fire, Lightning, Poison, Psychic. <strong>Signal Jammer.</strong>
+      Nonmagical sensors and communication devices don’t function within, or into the area. <strong>System Hardening. </strong>The DC of any Intelligence (Computers) check made in the area or against a
+      computer system in the area can’t be lower than your spell save DC.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: hour
+    value: 8
+    condition: ''
+  duration:
+    value: ''
+    units: spec
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: abj
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    WRdxwgd7MvnC7aEi:
+      _id: WRdxwgd7MvnC7aEi
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: MyfgH2zMW9EBtHoI
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: firewall
+effects:
+- _id: MyfgH2zMW9EBtHoI
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!c1n7h7D8uKxwM9K6.MyfgH2zMW9EBtHoI'
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!c1n7h7D8uKxwM9K6'

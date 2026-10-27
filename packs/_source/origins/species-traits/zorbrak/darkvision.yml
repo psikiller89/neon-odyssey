@@ -1,0 +1,48 @@
+_id: 2OQoijLP9lJPFjX6
+name: Darkvision
+type: feat
+img: modules/neon-odyssey/icons/species/zorbrak.webp
+folder: m6DTYwJwl6bBB8mG
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Darkvision with a range of 60 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zorbrak
+  activities: {}
+  enchant: {}
+  identifier: darkvision
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2OQoijLP9lJPFjX6'

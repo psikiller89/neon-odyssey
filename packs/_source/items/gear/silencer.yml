@@ -1,0 +1,109 @@
+_id: ZpUcD8yGQkZyyVds
+name: Silencer
+type: equipment
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 1500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Silencer is a device that dissipates escaping propellant gases when fitted to the muzzle of a Ranged weapon that fires Bullets and has a damage die of 1d8 or smaller. You can attach or remove
+      a Silencer with a Utilize action. A listener within 30 feet of a silenced gunshot hears the muffled shot with a successful DC 15 Wisdom (Perception) check.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: trinket
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    5iLBJKvgG4vgLIhs:
+      _id: 5iLBJKvgG4vgLIhs
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: silencer
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZpUcD8yGQkZyyVds'

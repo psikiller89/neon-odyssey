@@ -1,0 +1,52 @@
+_id: wwI2jWBpU9PfNnsh
+name: Vessel of Power
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have discovered a mythic relic of immense heroic power. You have a Tiny or Small item that fuels your Eternal subclass features. You can decide what the item is, or you can determine it
+      randomly by rolling on the Eternal Vessel table. If your Vessel of Power is lost, you can summon it back to yourself when you finish a Long Rest. Your Vessel is virtually indestructible.</p><p>If
+      your Vessel is a Melee weapon, you can transfer the essence that makes it your Vessel of Power to any other Melee weapon as part of a Short or Long Rest. Amulet Bracer Circlet or headband Jewel Melee
+      weapon Wristwatch</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Eternal Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: vessel-of-power
+  advancement: {}
+effects: []
+folder: m9J3z6dsJoJabIPZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!wwI2jWBpU9PfNnsh'

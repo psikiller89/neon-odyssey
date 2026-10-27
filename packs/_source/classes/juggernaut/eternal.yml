@@ -1,0 +1,104 @@
+_id: icRiUSxREOUECW5l
+name: Eternal
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/eternal.webp
+system:
+  description:
+    value: <p><em>Raise a Relic to Summon the Hero Within</em> Eternals are Juggernauts who have discovered an ancient relic of mythic power that allows them to transform into a heroic alter ego of magical
+      might. When this immortal power is called forth, they radiate with the energy of their ideals, which inspires friends and strikes down foes. This mythic transformation can render the Eternal virtually
+      unrecognizable, and sometimes their personality even changes as if channeling a long-dead hero of old.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: eternal
+  classIdentifier: juggernaut
+  advancement:
+    ZASpen44SS4sLIa8:
+      _id: ZASpen44SS4sLIa8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.wwI2jWBpU9PfNnsh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.pswAzUrhI0mwXJO7
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    d9L88S3Rx0zpEpCS:
+      _id: d9L88S3Rx0zpEpCS
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.68C6adt4AyfTOMiX
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    Zgl8hbnhDRXAIKyh:
+      _id: Zgl8hbnhDRXAIKyh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.SwXoBa4HMhmLnmXX
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.EZ2srBwlWp7d6hLu
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    lTpizpn9APsWKtqM:
+      _id: lTpizpn9APsWKtqM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.UqbejOwTcEx4OU61
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 645rw480t9huQVb4
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!icRiUSxREOUECW5l'

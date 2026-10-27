@@ -1,0 +1,81 @@
+_id: GHKXlP1by3g9eO9u
+name: Arcadian Cheat Code
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of Arcadia. You learn the <em>Minor </em> <em>Illusion</em> cantrip if you don’t already know it. Once you have Occult
+      Magic spell slots capable of casting each of the following spells, you always have that spell prepared: <em>Jump</em>, <em>Inventory</em>*, <em>Summon Arcadian</em>*, <em>Stoneskin</em>, <em>Animate
+      Objects</em>.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: arcadian-cheat-code
+  advancement:
+    LU2oqerniEPUB7KK:
+      _id: LU2oqerniEPUB7KK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplJump000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.u3wawXu2GD7UytW0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.0OvApnAane31lFqg
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStoneskin0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Arcadian Cheat Code
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GHKXlP1by3g9eO9u'

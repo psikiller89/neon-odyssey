@@ -1,0 +1,628 @@
+_id: mQ2P4ezDOlwzPuk0
+name: Primalist
+type: class
+img: modules/neon-odyssey/icons/classes/primalist.png
+system:
+  description:
+    value: '<h3>Core Primalist Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8
+      per Primalist level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose
+      2: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, or Survival</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th
+      scope="row"><p>Tool Proficiencies</p></th><td><p>Pharma Kit</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light armor and Shields</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose
+      A or B: (A) Light Armor, Shield, Hatchet, Laser Carbine, 2 Power Cells, Pharma Kit, Primal Focus (bone token), Outrunner’s Pack, and $70; or (B) $4,000</p></td></tr></tbody></table><p><strong>Primary
+      Ability</strong> Wisdom <strong>Hit Point Die</strong> D8 per Primalist level <strong>Saving Throw  Proficiencies</strong> Intelligence and Wisdom <strong>Skill Proficiencies</strong> <em>Choose 2:</em>
+      Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, or Survival <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Tool Proficiencies</strong> Pharma Kit <strong>Armor
+      Training</strong> Light armor and Shields <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Light Armor, Shield, Hatchet, Laser Carbine, 2 Power Cells, Pharma Kit, Primal Focus (bone
+      token), Outrunner’s Pack, and $70; or (B) $4,000 Primalists feel the living pulse of the untamed primordial energy that first exploded into being when the song of creation was first sung. No matter
+      how much technology and civilization spreads throughout the galaxy, this wild power still surges at the heart of every planet and throughout the unbound elemental chaos that thrives in the wild places
+      of existence. Primalists tap into this archaic essence to unleash primal magic of the raw elements, alien beasts, planetary world souls, and everything ancient and untamed.</p><p>How Primalists approach
+      their calling is as varied as the wild forces that suffuse them. They may channel the raw elements to unleash destruction or rejuvenation, focus on changing their shape to become what some would deem
+      alien, or seek a mystical bond with primal creatures and world souls. Regardless of the approach, the manifestation of their magic is as untamed as the volatile forces they revere.</p><p>Although
+      they harness the wild or even prehistoric energies that are often at odds with modernity, most Primalists accept that the galaxy is a technological one and do not eschew its advancements. They can
+      be found piloting starships, living in neon-soaked cities, or utilizing powered gear and weapons, but a rare few seek a solitary or communal life stripped of the trappings of the mechanical world.
+      No matter how they live, they always bring their unique, primal perspective to everything they do.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: 0Cb4PcTSv4Ud3r5X
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: 36rOZlbjeARPpfpM
+    type: AND
+    group: 0Cb4PcTSv4Ud3r5X
+    requiresProficiency: false
+    sort: 200000
+  - _id: hmdOlmiQvopGFHzO
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.lAMG4zR378snhyS6
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 300000
+  - _id: tjphBO3gkP6ES47F
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.QivqvWK41jGn7tMT
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 400000
+  - _id: SsEkbCNEUeuQSw2F
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.65mMydlIMkT5AeZr
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 500000
+  - _id: DKHKH9glvQSbxxt5
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.HdR5RWBYJDdhcF5Z
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 600000
+  - _id: U2PvubhUjuB1TyXV
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 2
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 700000
+  - _id: mv3wVSUNNZWJB04g
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3L3ZSmaDIPpkc9HJ
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 800000
+  - _id: TC0GIDeBGs1hsufc
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.bliItEjEFlV37f1O
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 900000
+  - _id: uCzgcGpTVrkZ5Qa2
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3XAIc6y4pYahQGLN
+    count: null
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 1000000
+  - _id: 5OkWr6eovdgdl8Gx
+    type: currency
+    key: gn
+    count: 70
+    group: 36rOZlbjeARPpfpM
+    requiresProficiency: false
+    sort: 1100000
+  - _id: 6oGSAKAYxMvLpCLe
+    type: AND
+    group: 0Cb4PcTSv4Ud3r5X
+    requiresProficiency: false
+    sort: 1200000
+  - _id: xNT4TR6fggrHnDIn
+    type: currency
+    key: gn
+    count: 4000
+    group: 6oGSAKAYxMvLpCLe
+    requiresProficiency: false
+    sort: 1300000
+  identifier: primalist
+  levels: 1
+  advancement:
+    wp38UtjwG71SVceB:
+      _id: wp38UtjwG71SVceB
+      type: HitPoints
+      configuration: {}
+      value: {}
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 4
+      title: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 8
+      title: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 12
+      title: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 16
+      title: ''
+    JoHnvnMWRhadHGwf:
+      _id: JoHnvnMWRhadHGwf
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    VmNGSY7Jbmy4AwBb:
+      _id: VmNGSY7Jbmy4AwBb
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '2':
+            value: 5
+          '3':
+            value: 6
+          '4':
+            value: 7
+          '5':
+            value: 9
+          '6':
+            value: 10
+          '7':
+            value: 11
+          '8':
+            value: 12
+          '9':
+            value: 14
+          '10':
+            value: 15
+          '11':
+            value: 16
+          '13':
+            value: 17
+          '15':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+          '19':
+            value: 21
+          '20':
+            value: 22
+      value: {}
+      title: Max Prepared Spells
+      hint: ''
+    pIfdGSkqdp00omkE:
+      _id: pIfdGSkqdp00omkE
+      type: ScaleValue
+      configuration:
+        identifier: wild-shape
+        type: cr
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 0.25
+          '4':
+            value: 0.5
+          '8':
+            value: 1
+      value: {}
+      title: Wild Shape CR
+      hint: ''
+    MIVwoANGkc6gmUWN:
+      _id: MIVwoANGkc6gmUWN
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 2
+          '6':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      title: Wild Shape Uses
+      hint: ''
+    EoM7g9kruaS8VvhA:
+      _id: EoM7g9kruaS8VvhA
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 4
+          '4':
+            value: 6
+          '8':
+            value: 8
+      value: {}
+      title: Known Forms
+      hint: ''
+    NpBpNlHOO43gMD0U:
+      _id: NpBpNlHOO43gMD0U
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
+        - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
+        spell: null
+        restriction:
+          type: class
+          subtype: ''
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Primal Order
+      hint: You have dedicated yourself to one of the following sacred roles of your choice.
+    HYDmnuNUbI5liP08:
+      _id: HYDmnuNUbI5liP08
+      type: ItemChoice
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.dnd5e.classes24.Item.phbFuryPotentSpe
+        - uuid: Compendium.dnd5e.classes24.Item.phbFuryPrimalStr
+        spell: null
+        restriction:
+          type: class
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Elemental Fury
+      hint: The might of the elements flows through you. You gain one of the following options of your choice.
+    W0d3c6X31SgnFFYM:
+      _id: W0d3c6X31SgnFFYM
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '7':
+            number: 1
+            faces: 8
+            modifiers: []
+          '15':
+            number: 2
+            faces: 8
+            modifiers: []
+      value: {}
+      title: Elemental Fury
+      hint: ''
+    jOMGuG8a0KfmaeJd:
+      _id: jOMGuG8a0KfmaeJd
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+    Eq4uHvKtlKorid7h:
+      _id: Eq4uHvKtlKorid7h
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: ''
+      classRestriction: primary
+    iqdFykNhppeEsmtM:
+      _id: iqdFykNhppeEsmtM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armor Training
+      hint: ''
+    fwwJ7sF6UAsgWaLf:
+      _id: fwwJ7sF6UAsgWaLf
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - languages:exotic:druidic
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Primalistic
+      hint: You know Primalistic, the secret language of Primalists.
+    gLRZK2OjtSnWNVJv:
+      type: AbilityScoreImprovement
+      _id: gLRZK2OjtSnWNVJv
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonofDimensi
+        max: null
+      value: {}
+      level: 19
+      title: ''
+      hint: ''
+    CL4P9EMkd4xkTOIy:
+      _id: CL4P9EMkd4xkTOIy
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:int
+        - saves:wis
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    nfjjPjauSoMIlM7O:
+      _id: nfjjPjauSoMIlM7O
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:ani
+          - skills:arc
+          - skills:ins
+          - skills:med
+          - skills:nat
+          - skills:prc
+          - skills:rel
+          - skills:sur
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    TQVUz9C852sAW6ea:
+      _id: TQVUz9C852sAW6ea
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.EljhtwrmSdLcVjqQ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.t2BQ0yCLskvIdFfd
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.McJ8NVLm7aYagxp0
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    dyH71k5C154pAjJs:
+      _id: dyH71k5C154pAjJs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4bUR4pv4yvroX0BD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    KtiwdFcqPRuH5A1u:
+      _id: KtiwdFcqPRuH5A1u
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.5RNGqgGDQcBnTMvN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    7ydYwZEKGTazBatX:
+      _id: 7ydYwZEKGTazBatX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.acyAxEqk9o2P7b6k
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    UQIjdq82bh4I44Hx:
+      _id: UQIjdq82bh4I44Hx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.9k7KwMfv41855DEU
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Class Features
+      hint: ''
+    nVELhBYKzQex5CuO:
+      _id: nVELhBYKzQex5CuO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Ip43EGu7QMR7E0oj
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    SlbQ2Jrvf6iU7V1q:
+      _id: SlbQ2Jrvf6iU7V1q
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.VUYaMXVF4Io7aCjB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: full
+    ability: wis
+    preparation:
+      formula: '@scale.primalist.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - wis
+    all: false
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+effects: []
+folder: FXtdPbgogvsyHjaE
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!mQ2P4ezDOlwzPuk0'

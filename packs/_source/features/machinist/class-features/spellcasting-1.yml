@@ -1,0 +1,97 @@
+_id: LLCt2rDwxFtZKqMG
+name: Spellcasting
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have learned to cast spells through technology and mechanical craftwork. See the <em>D&amp;D Beyond Basic Rules</em> for the rules on spellcasting. The information below details how you
+      use those rules with Machinist spells, which appear in the Machinist spell list later in the class’s description.</p><p><strong>Tools Required.</strong> You cast your Machinist spells through tools
+      and technology. Your Machinist spells don’t have a <em>V</em> component. Additionally, you can use Bypass Tools, Mechanic’s Tools, or another kind of Crafter’s Tools with which you have proficiency
+      as a Spellcasting Focus, and you must have a focus in hand when you cast a Machinist spell (meaning the spell has an <em>M</em> component when you cast it).</p><p><strong>Cantrips.</strong> You know
+      two Machinist cantrips of your choice. <em>Disruption</em>* and <em>Prestidigitation</em> are recommended.</p><p>Whenever you finish a Long Rest, you can replace one of your cantrips from this feature
+      with another Machinist cantrip of your choice.</p><p>When you reach Machinist levels 10 and 14, you learn another Machinist cantrip of your choice, as shown in the Cantrips column of the Machinist
+      features table.</p><p><strong>Spell Slots.</strong> The Machinist Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long
+      Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Machinist spells.
+      <em>Detect Magic</em> and <em>Grease </em>are recommended.</p><p>The number of spells on your list increases as you gain Machinist levels, as shown in the Prepared Spells column of the Machinist Features
+      table. Whenever that number increases, choose additional Machinist spells until the number of spells on your list matches the number in the Machinist Features table. The chosen spells must be of a
+      level for which you have spell slots. For example, if you’re a level 5 Machinist, your list of prepared spells can include six Machinist spells of level 1 or 2 in any combination.</p><p>If another
+      Machinist feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Machinist
+      spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Machinist
+      spells for which you have spell slots.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Machinist spells. <strong>Primary Ability</strong> Intelligence
+      <strong>Hit Point Die</strong> D8 per Machinist level <strong>Saving Throw  Proficiencies</strong> Constitution and Intelligence <strong>Skill Proficiencies</strong> <em>Choose 2:</em> Arcana, Computers,
+      History, Investigation, Medicine, Nature, Perception, Sleight of Hand, or Technology <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Tool Proficiencies</strong> Bypass Tools, Mechanic’s
+      Tools, and one type of Crafter’s Tools of your choice <strong>Armor Training</strong> Light and Medium armor and Shields <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Medium Armor
+      Suit, Combat Knife, Laser Carbine, 2 Power Cells, Bypass Tools, Mechanic’s Tools, Technician’s Pack, and $320; or (B) $8,500 Machinists are brilliant engineers and inventors who stand at the cutting
+      edge of technology in the Stardust Rhapsody. With crafty minds and expertise in a wide variety of tools, they create wonders of Hypertech, machinery so advanced that it can perform feats of magic.
+      They can effortlessly construct mundane technology to ensure they always have the right gadget for the job or specialize their trade from perfecting deadly weaponry to giving life to helpful robot
+      assistants.</p><p>As proficient practitioners in technomancy, they are in some ways counterparts to Gridrunners, with spells executed through complex systems of hardware as opposed to the ephemeral
+      nature of software that underlies the galaxy. Similarly dedicated to intellectual pursuits, most Machinists are persistent innovators and dedicate their lives to developing new schematics and pushing
+      the limits of Hypertech with bold ideas and novel modifications.</p><p>Machinists are a critical part of nearly every industry and technological discipline across the galaxy and can be found in a
+      wide variety of workshops, from the rusty garage of a solo street mechanic to the sleek laboratory of an interstellar corporation. Wherever there is necessity that technology can solve, Machinists
+      bring the invention to improve life throughout the Stardust Rhapsody.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: spellcasting
+  advancement:
+    RRmwOqprbnGwzstD:
+      _id: RRmwOqprbnGwzstD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.cAhBBvloJ13pb899
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 1
+      title: Spellcasting
+      hint: ''
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!LLCt2rDwxFtZKqMG'

@@ -1,0 +1,106 @@
+_id: ObzH1Rgx8ZrHiqRz
+name: Will of the Gods
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The stars look down with approval and communion, and you become the embodiment of the will of Agathos. When a creature you can see makes a D20 Test, after the roll succeeds or fails, you can
+      take a Reaction to replace the d20 roll with a 1 or a 20.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest. <em>Guiding Bolt</em>,<em> Starshine</em>*, <em>Starry
+      Wisp</em> <em>Faerie Fire</em>, <em>Scorching Ray</em> <em>Identify</em>,<em> Misty Step</em> <em>Cure Wounds</em>, <em>Summon Wildlife</em>* <em>Shield of Faith</em>, <em>Warding Bond</em> <em>Spirit
+      Guardians</em> <em>Fireball</em> <em>Haste</em> <em>Aura of Harmony</em>* <em>Protection from </em> <em>Energy</em> <em>Divination</em> <em>Limning </em> <em>Starlight</em>* <em>Dimension Door</em>
+      <em>Aura of Life</em> <em>Aura of Aether</em>* <em>Summon Emissary</em>* <em>Flame Strike</em> <em>Scrying</em> <em>Greater Restoration</em> <em>Hallow</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Stargazer Oracle
+  activities:
+    jyhNOojfwlOSYtAm:
+      _id: jyhNOojfwlOSYtAm
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: will-of-the-gods
+  advancement: {}
+effects: []
+folder: S0v5ja68ap8lA9lh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ObzH1Rgx8ZrHiqRz'

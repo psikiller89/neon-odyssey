@@ -1,0 +1,178 @@
+_id: Ysgk7iiF3O8bnupa
+name: Outrunner (Custom Background)
+type: background
+img: icons/sundries/documents/document-sealed-signatures-red.webp
+system:
+  description:
+    value: <p>Neon Odyssey recommends creating your own background with the following:</p><ul><li><p>2 Skill Proficiencies</p></li><li><p>1 Tool Proficiency</p></li><li><p>Proficiency in your choice of
+      the Computers or Technology skill</p></li><li><p>2 Vehicle Proficiencies (Light Planetary recommended)</p></li><li><p>Common and 2 other languages</p></li><li><p>$2,500 to spend on equipment</p></li><li><p>+2
+      to one ability score and +1 to another, or +1 to three ability scores</p></li><li><p>An Origin feat of your choice</p></li></ul><p>Alternatively, use any background from the basic rules.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment: []
+  identifier: outrunner
+  advancement:
+    aJXCnbMM9ZWaQraj:
+      _id: aJXCnbMM9ZWaQraj
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 3
+      value: {}
+      level: 0
+      title: Background Ability Score Improvement
+      hint: +2 to one ability score and +1 to another, or +1 to three ability scores.
+    Qd8JiPpybQDm9A39:
+      _id: Qd8JiPpybQDm9A39
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:acr
+          - skills:ani
+          - skills:arc
+          - skills:ath
+          - skills:dec
+          - skills:his
+          - skills:ins
+          - skills:itm
+          - skills:inv
+          - skills:med
+          - skills:nat
+          - skills:prc
+          - skills:prf
+          - skills:per
+          - skills:rel
+          - skills:slt
+          - skills:ste
+          - skills:sur
+          - skills:cmp
+          - skills:tec
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiencies
+      hint: ''
+    Td3ZLB4WkQNtfbJs:
+      _id: Td3ZLB4WkQNtfbJs
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:cmp
+          - skills:tec
+      value:
+        chosen: []
+      level: 0
+      title: Computers or Technology
+      hint: ''
+    fPoGndyESAlDWU9j:
+      _id: fPoGndyESAlDWU9j
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - tool:*
+      value:
+        chosen: []
+      level: 0
+      title: Tool Proficiency
+      hint: ''
+    rfYZ0AB7QsPUCuRy:
+      _id: rfYZ0AB7QsPUCuRy
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - languages:standard:common
+        choices:
+        - count: 2
+          pool:
+          - languages:*
+      value:
+        chosen: []
+      level: 0
+      title: Languages
+      hint: ''
+    NPonjsEOBapL3Ksq:
+      _id: NPonjsEOBapL3Ksq
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.origins.Item.jlPZo0uSOA6nOlh8
+        - uuid: Compendium.neon-odyssey.origins.Item.hxe7qNDsDyPOJ821
+        - uuid: Compendium.neon-odyssey.origins.Item.NXcPEpUGvF0pWtkQ
+        - uuid: Compendium.neon-odyssey.origins.Item.umpWO733Mc8sQ59W
+        - uuid: Compendium.neon-odyssey.origins.Item.BZaCWii16QukBEHY
+        - uuid: Compendium.neon-odyssey.origins.Item.oLf5g4ZgxckqkGTG
+        - uuid: Compendium.neon-odyssey.origins.Item.fHGQ2uOt3fLOeNDj
+        - uuid: Compendium.neon-odyssey.origins.Item.gGdED2yFwgehpsGU
+        - uuid: Compendium.neon-odyssey.origins.Item.kToXbcA1A8Nnrtjq
+        - uuid: Compendium.neon-odyssey.origins.Item.yjd7iiHRvJRiLmBT
+        - uuid: Compendium.neon-odyssey.origins.Item.FGhDZXGHRkustgtO
+        - uuid: Compendium.neon-odyssey.origins.Item.06QBZczgQYX77MzS
+        - uuid: Compendium.neon-odyssey.origins.Item.kcUA0eSDKjAVmodm
+        - uuid: Compendium.neon-odyssey.origins.Item.WZvWKLsbbVzdFCTk
+        - uuid: Compendium.dnd5e.feats24.Item.phbftAlert000000
+        - uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
+        - uuid: Compendium.dnd5e.feats24.Item.phbftMagicInitia
+        - uuid: Compendium.dnd5e.feats24.Item.phbftSavageAttac
+        restriction:
+          type: feat
+          subtype: origin
+          list: []
+      value: {}
+      level: 0
+      title: Origin Feat
+      hint: Choose an Origin feat (homeworld feats require a matching homeworld).
+  wealth: '50'
+effects: []
+folder: vkSQrFbmbz5dpB2I
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Ysgk7iiF3O8bnupa'

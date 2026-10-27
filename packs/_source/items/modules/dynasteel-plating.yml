@@ -1,0 +1,53 @@
+_id: VeazOlieR6gKPRkv
+name: Dynasteel Plating (Armor Module)
+type: loot
+img: icons/commodities/cloth/thread-spindle-white-needle.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 6250
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>You have a +2 bonus to AC while wearing a suit of Heavy Armor with this armor module, and the armor&#x27;s Strength requirement increases to 15. This armor module can&#x27;t be used on Light
+      or Medium armor or in conjunction with Composite Weave.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: dynasteel-plating
+effects: []
+folder: wwiINoc0nKMcIjvz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VeazOlieR6gKPRkv'

@@ -1,0 +1,108 @@
+_id: nHZjy3D6XUx30C3k
+name: Hypertech Schematics
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have developed and refined Hypertech Schematics, blueprints that allow you to fuse magic and technology to enhance devices and objects, adding hypertech magic to existing equipment or
+      magic items. You gain three schematics of your choice, such as Focus Amplifier, Hypertech Resonator, and Shield Upgrade. Schematics are described in the “Hypertech Schematics Options” section later
+      in this class’s description.</p><p>You can’t pick the same schematic more than once unless its description says otherwise.</p><p><strong>Prerequisites.</strong> If a schematic has a prerequisite,
+      you must meet it to learn that schematic. For example, if a schematic requires you to be a Level 5+ Machinist, you can select the schematic once you reach Machinist level 5.</p><p><strong>Gear.</strong>
+      Each schematic has a Gear entry showing what equipment the schematic can be used to enhance. The gear provides the schematic’s benefit. If it lists “Device,” you can use the schematic to create a
+      device that a creature must hold or wear (either, unless the schematic specifies one or the other) to gain the schematic’s benefits. A device is a Tiny object with AC 17, HP 5, and Immunity to Poison
+      and Psychic damage. A created device vanishes when the schematic ends.</p><p><strong>Using Schematics.</strong> When you finish a Short or Long Rest, you can use a number of schematics equal to your
+      Intelligence modifier (minimum of one) to create or upgrade a piece of gear, which becomes a magic item for the duration of the schematic if it wasn’t already. Each schematic can affect only one item
+      at a time, and you can end the effect of a schematic as a Magic action. If you die, any schematics end after 1d4 days. If a schematic requires Attunement, you or a creature of your choice can touch
+      the item and attune to it immediately when you apply the schematic. Other than the time required, the creature must meet all other requirements to attune the item.</p><p><strong>Replacing and Gaining
+      Schematics.</strong> Whenever you gain a Machinist level, you can replace one of your schematics with another one for which you qualify. You can’t replace a schematic if it’s a prerequisite for another
+      one that you have. When you replace a schematic, any ongoing effects of that schematic end immediately.</p><p>When you gain certain Machinist levels, you gain more schematics of your choice, as shown
+      in the Schematics Known column of the Machinist Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    ntOGZWKvJYds24br:
+      _id: ntOGZWKvJYds24br
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: hypertech-schematics
+  advancement: {}
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nHZjy3D6XUx30C3k'

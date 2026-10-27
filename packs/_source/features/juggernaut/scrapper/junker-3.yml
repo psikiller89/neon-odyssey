@@ -1,0 +1,53 @@
+_id: 809QE9gkhPkQFaZj
+name: Junker
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have a scrappy mind and know how to create makeshift equipment out of otherwise useless junk. You gain the following benefits.</p><p><strong>Scrappy Tinker.</strong> You gain a set of
+      Mechanic’s Tools, and you are proficient with them.</p><p><strong>Gritty Survivor.</strong> When a Scrapper feature requires a saving throw, the DC is 8 plus your Strength modifier and Proficiency
+      Bonus.</p><p><strong>Junk-Rigger.</strong> With 1 minute of work using Mechanic’s Tools, you can cobble together simple, working tech out of scrap or spare parts. You can fashion: a single piece of
+      nonmagical outrunning gear worth no more than $500, 40 Bullets or 20 Shells in a Magazine, a Simple weapon, a suit of Light or Medium armor, or a Shield. The item created is obviously constructed
+      from junk and has no monetary value. Additionally, the item’s construction is temporary, and it falls apart when you finish a Short or Long Rest or when you create another item with this feature.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Scrapper Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: junker
+  advancement: {}
+effects: []
+folder: Lzdgh5AIn4r1NEZp
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!809QE9gkhPkQFaZj'

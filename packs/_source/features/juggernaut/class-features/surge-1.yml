@@ -1,0 +1,270 @@
+_id: uKbFSOh6dq9GNvRb
+name: Surge
+type: feat
+img: icons/creatures/abilities/mouth-teeth-human.webp
+system:
+  description:
+    value: '<p>Your core contains an inner power called Surge. Unleashing it pushes you to exceed your normal limits, augmenting your body with kinetic force to grant you unbound strength and endurance.
+      You can activate it as a Bonus Action if you aren’t wearing Heavy armor.</p><p>You can activate your Surge the number of times shown for your Juggernaut level in the Surges column of the Juggernaut
+      Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p><p>While active, your Surge follows the rules below.</p><p><strong>Damage
+      Resistance.</strong> You have Resistance to three damage types of your choice from the following list (choose when you activate Surge): Bludgeoning, Fire, Lightning, Piercing, Radiant, Slashing.</p><p><strong>Surge
+      Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as
+      a Juggernaut, as shown in the Surge Damage column of the Juggernaut Features table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p><p><strong>No
+      Concentration or Spells.</strong> You can’t maintain Concentration, and you can’t cast spells.</p><p><strong>Duration.</strong> The Surge lasts until the end of your next turn, and it ends early if
+      you don Heavy armor or have the Incapacitated condition. If your Surge is still active on your next turn, you can extend the Surge for another round by doing one of the following:</p><ul><li><p>Make
+      an attack roll against an enemy.</p></li><li><p>Force an enemy to make a saving throw.</p></li><li><p>Take a Bonus Action to extend your Surge. Each time the Surge is extended, it lasts until the
+      end of your next turn. You can maintain a Surge for up to 10 minutes.</p></li></ul>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.juggernaut.rages'
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+        concentration: false
+        expiry: null
+      effects:
+      - _id: G5XZTi4zYTFiHVll
+        uuid: null
+        level:
+          min: null
+          max: null
+      - _id: JDZdnFzH7OPaBaSO
+        onSave: false
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      name: Activate
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: surge
+  advancement: {}
+  crewed: false
+effects:
+- _id: G5XZTi4zYTFiHVll
+  flags:
+    dnd5e:
+      riders: {}
+  disabled: true
+  duration:
+    value: 10
+    units: minutes
+    expiry: null
+    expired: false
+  origin: Compendium.neon-odyssey.features.Item.uKbFSOh6dq9GNvRb
+  tint: '#ffffff'
+  transfer: true
+  name: Rage
+  description: <p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either
+    a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features
+    table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>
+  statuses: []
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.rolls.damage.mwak.bonus
+      value: +@scale.juggernaut.rage-damage
+      priority: null
+      type: add
+      phase: initial
+      _id: 8pe5DmqLcdO11THO
+      conditions: '{}'
+      replacement: ''
+    - key: system.traits.dr.value
+      value: slashing
+      priority: null
+      type: add
+      phase: initial
+      _id: 2UPRBkSrbnjVP4y0
+      conditions: '{}'
+      replacement: ''
+    - key: system.traits.dr.value
+      value: piercing
+      priority: null
+      type: add
+      phase: initial
+      _id: veMjUbYnE0l8vTzG
+      conditions: '{}'
+      replacement: ''
+    - key: system.traits.dr.value
+      value: bludgeoning
+      priority: null
+      type: add
+      phase: initial
+      _id: zkc9c9TRInoXTKjX
+      conditions: '{}'
+      replacement: ''
+    - key: system.abilities.str.check.roll.mode
+      value: 1
+      priority: null
+      type: add
+      phase: initial
+      _id: IZMecaZta9tZNJTy
+      conditions: '{}'
+      replacement: ''
+    - key: system.abilities.str.save.roll.mode
+      value: 1
+      priority: null
+      type: add
+      phase: initial
+      _id: Ejxp4OZZqRten6NH
+      conditions: '{}'
+      replacement: ''
+    - key: system.attributes.concentration.limit
+      type: override
+      value: 0
+      phase: initial
+      _id: 2jpT90tWpFerkxud
+      conditions: '{}'
+      replacement: ''
+      priority: null
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  sort: 0
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.G5XZTi4zYTFiHVll'
+- _id: JDZdnFzH7OPaBaSO
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.JDZdnFzH7OPaBaSO'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!uKbFSOh6dq9GNvRb'

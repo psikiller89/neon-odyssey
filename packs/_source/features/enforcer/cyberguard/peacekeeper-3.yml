@@ -1,0 +1,139 @@
+_id: oyuoSZsp0J0NfH9f
+name: Peacekeeper
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have an integrated firearm targeting system equipped with augments to subdue your foes. When you take the Attack action, you can expend one use of your Cosmic Conduit to imbue one Ranged
+      weapon that you are holding with the conviction of your code. For 10 minutes or until you use this feature again, you ignore Half Cover, and you can cast <em>Cosmic </em> <em>Smite</em> as a Bonus
+      Action immediately after you hit a target with a Ranged weapon. When you do so, the target must succeed on a Constitution saving throw or have the Restrained condition for 1 minute. At the end of
+      each of its turns, it repeats the save, ending the condition on itself on a success.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities:
+    nAiQfRbpcMeGZO6R:
+      _id: nAiQfRbpcMeGZO6R
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: tN6dNqkj8m9JREPU
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: peacekeeper
+  advancement: {}
+effects:
+- _id: tN6dNqkj8m9JREPU
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oyuoSZsp0J0NfH9f.tN6dNqkj8m9JREPU'
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!oyuoSZsp0J0NfH9f'

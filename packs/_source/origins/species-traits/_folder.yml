@@ -1,0 +1,20 @@
+name: Species Traits
+sorting: a
+folder: null
+type: Item
+_id: OPBkj0lofqVL3Ikg
+description: ''
+sort: 4
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!OPBkj0lofqVL3Ikg'

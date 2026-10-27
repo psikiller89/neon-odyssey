@@ -1,0 +1,177 @@
+_id: LnxUJ8qFEFLl6kNE
+name: Lifeforce Confluence
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have the power to forestall death, delaying someone from rejoining the Harmony. When another creature you can see within 30 feet of you drops to 0 Hit Points, you can take a Reaction to
+      anchor its escaping lifeforce for 1 minute.</p><p>For the duration, the target doesn’t gain the Unconscious condition from having 0 Hit Points and can continue to act as normal. In addition, whenever
+      the target takes damage, you take the damage instead. This damage ignores Resistance and Immunity. The target must make Death Saving Throws at the start of its turn as normal. The effect ends early
+      if the target becomes stable or regains Hit Points, if you have the Incapacitated condition, or if you die.</p><p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Harmonious Oracle
+  activities:
+    6i33I4CVcLpIL8vM:
+      _id: 6i33I4CVcLpIL8vM
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: uErZrymMDkzT5M9V
+        onSave: false
+      - _id: U3lPAAYJmGlo96sr
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: lifeforce-confluence
+  advancement: {}
+effects:
+- _id: uErZrymMDkzT5M9V
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!LnxUJ8qFEFLl6kNE.uErZrymMDkzT5M9V'
+- _id: U3lPAAYJmGlo96sr
+  name: Unconscious
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - unconscious
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!LnxUJ8qFEFLl6kNE.U3lPAAYJmGlo96sr'
+folder: CFltsA9FK9M1Wdn2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!LnxUJ8qFEFLl6kNE'

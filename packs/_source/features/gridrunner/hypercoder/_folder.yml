@@ -1,0 +1,20 @@
+name: Hypercoder Gridrunner
+sorting: a
+folder: O18SvPH20BffHBwA
+type: Item
+_id: Jm9pck4aLvG2dZ1L
+description: ''
+sort: 50
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!Jm9pck4aLvG2dZ1L'

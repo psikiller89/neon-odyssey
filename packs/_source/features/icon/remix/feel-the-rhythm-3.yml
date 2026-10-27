@@ -1,0 +1,49 @@
+_id: OqHZ1kZNeFLoUT4x
+name: Feel the Rhythm
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your inspiration has a flowing rhythm. While a creature has one of your Iconic Inspiration dice, its Speed is increased by 10 feet, and Opportunity Attacks against that creature have Disadvantage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Remix Icon
+  activities: {}
+  enchant: {}
+  identifier: feel-the-rhythm
+  advancement: {}
+effects: []
+folder: uOX2aXIm3TCM5Aaf
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!OqHZ1kZNeFLoUT4x'

@@ -1,0 +1,105 @@
+_id: Oo6dQPnPOQIGoxzy
+name: Tactical Leader
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can lead your team through battle and other high-pressure situations. You teach them tactics that are fueled by special dice called Tactical Dice. You can choose yourself as a target of
+      tactics.</p><p>You have four Tactical Dice, which are d6s. You regain all expended Tactical Dice when you finish a Short or Long Rest.</p><p>You gain an additional Tactical Die when you reach Soldier
+      levels 7 (five dice total) and 15 (six dice total).</p><p><strong>Advance.</strong> As a Bonus Action, you can expend one Tactical Die to choose one ally within 30 feet of yourself that can see or
+      hear you. The chosen creature can take a Reaction to move up to its Speed, gaining your Tactical Die as a bonus to its AC against Opportunity Attacks until the end of the turn. If a creature makes
+      an Opportunity Attack against your target and misses, attack rolls against that creature have Advantage until the end of your next turn.</p><p><strong>Focus Fire.</strong> As a Bonus Action, you can
+      expend one Tactical Die to choose two allies within 30 feet of yourself that can see or hear you. One target can add your Tactical Die to one attack roll it makes before the end of its next turn.
+      The other target can add your Tactical Die to one damage roll it makes before the end of its next turn.</p><p><strong>Hold Position.</strong> As a Bonus Action, you can expend one Tactical Die to
+      choose two allies within 30 feet of yourself that are within 5 feet of each other. Each chosen creature that can see or hear you gains Temporary Hit Points equal to two rolls of your Tactical Die.</p><p><strong>Push
+      Through.</strong> When you or one of your allies within 30 feet of yourself that can see or hear you makes an ability check that uses a skill proficiency, you can take a Reaction to expend one Tactical
+      Die, which the target adds to its roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Trooper Soldier
+  activities:
+    ZHNkRvoZvxVlCYQQ:
+      _id: ZHNkRvoZvxVlCYQQ
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: tactical-leader
+  advancement: {}
+effects: []
+folder: W5aOFEPr4VrQ1en8
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Oo6dQPnPOQIGoxzy'

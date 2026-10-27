@@ -1,0 +1,153 @@
+_id: 77VZ88xQ2kF63b0B
+name: Splicer Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Primalist level specified in the Splicer Spells table, you thereafter always have the listed spells prepared. <em>Acid Splash</em>,<em> Dragon’s Breath</em>, <em>Grease</em>,
+      <em>Void </em> <em>Lash</em>*<em>,</em> <em>Web</em> <em>Blink</em>, <em>Vampiric Touch</em> <em>Black Tentacles</em>, <em>Polymorph</em> <em>Contagion</em>, <em>Hold Monster</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Splicer Primalist
+  activities: {}
+  enchant: {}
+  identifier: splicer-spells
+  advancement:
+    oSTwstN367bq2T2a:
+      _id: oSTwstN367bq2T2a
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDragonsBre
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAcidSplash
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGrease0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Splicer Spells
+      hint: ''
+    rxlXv3QfUSVsbxGk:
+      _id: rxlXv3QfUSVsbxGk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVampiricTo
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlink00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Splicer Spells
+      hint: ''
+    S7ONruUbHdHPKdqb:
+      _id: S7ONruUbHdHPKdqb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Splicer Spells
+      hint: ''
+    dRmegYp474nwfe2G:
+      _id: dRmegYp474nwfe2G
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplContagion0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Splicer Spells
+      hint: ''
+effects: []
+folder: osfCE3XmJgJuQ0v7
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!77VZ88xQ2kF63b0B'

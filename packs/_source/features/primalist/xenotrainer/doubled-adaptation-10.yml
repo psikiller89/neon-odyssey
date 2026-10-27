@@ -1,0 +1,52 @@
+_id: cap9KZRiYYTNnCwD
+name: Doubled Adaptation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your xenomon develop new adaptations. You gain the following benefits.</p><p><strong>Cosmic Infusion.</strong> When you summon a xenomon, you can blend cosmic energy with its primordial essence.
+      Choose one of the following damage types: Lightning, Necrotic, Psychic, Radiant, or Thunder. Until the xenomon vanishes, it gains Immunity to the chosen type, and when it deals damage, it can deal
+      the chosen type instead.</p><p><strong>New Move.</strong> Your xenomon gains a new action listed in its stat block. Once the xenomon uses this action, it can’t use it again until you expend a use
+      of Primal Channel to summon a new xenomon.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Xenotrainer Primalist
+  activities: {}
+  enchant: {}
+  identifier: doubled-adaptation
+  advancement: {}
+effects: []
+folder: KENRPQOqunM85j0c
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!cap9KZRiYYTNnCwD'

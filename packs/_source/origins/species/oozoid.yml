@@ -1,0 +1,98 @@
+_id: 898oz6kaGx1WzEhB
+name: Oozoid
+type: race
+img: modules/neon-odyssey/icons/species/oozoid.webp
+system:
+  description:
+    value: <p>Oozoids <em>(OO-zoid)</em> are a pliable species of living slime that congealed from the remnants of the first primordial ooze that lingered from the creation of the cosmos. Despite their
+      malleability, they have a brain, eyes, and nervous system that form them into a bipedal shape within a translucent membrane. While they hail from the deep seas of ooze on their homeworld, oozoids
+      have since spread across the galaxy, and some choose to don special pressurized suits to more easily hold their form in any environment. Many favor selfexpression across various media, including art
+      and the creation of oblong “blobjects.” Bright and highly saturated colors of slime typically comprise the wide variety of shapes and sizes of oozoids. Some favor a singular color, while others are
+      multi-toned with strong gradients. Many choose to morph their heads to evoke hair-like shapes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    lZs1OKqvWvUwx3dJ:
+      _id: lZs1OKqvWvUwx3dJ
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    huboiPcIlNbv1ezj:
+      _id: huboiPcIlNbv1ezj
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.bNdi7ROw3Xum3ZLM
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Trh6VcbYs3aAxnhh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hjqO2cQ8Y2J9thLU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.T1cbX0dCcKGmW1Mo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.SIb6lD2w707qZure
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.oMHvSb7roLJuVqQf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Oozoid Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      swim: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: ooze
+    custom: ''
+    subtype: ''
+  identifier: oozoid
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!898oz6kaGx1WzEhB'

@@ -1,0 +1,155 @@
+_id: W54SEhuUW2ajK0VA
+name: Debilitating Smite
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: <p>The target takes an extra 3d10 Thunder damage from the attack, and the target must succeed on a Constitution saving throw or be pushed up to 10 feet away and have the Incapacitated condition
+      until the end of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The extra damage increases by 1d10 for each spell slot level above 4.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: bonus
+    value: null
+    condition: immediately after hitting a creature with a Melee weapon or an Unarmed Strike
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: trs
+  properties:
+  - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    62H220ARsAE7huoj:
+      _id: 62H220ARsAE7huoj
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: 5dnD2MRxsSKVOxeq
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 3
+          denomination: 10
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: debilitating-smite
+effects:
+- _id: 5dnD2MRxsSKVOxeq
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!W54SEhuUW2ajK0VA.5dnD2MRxsSKVOxeq'
+folder: sEPVmwo0fZxpCj2K
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!W54SEhuUW2ajK0VA'

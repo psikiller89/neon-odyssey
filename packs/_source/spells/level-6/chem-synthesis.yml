@@ -1,0 +1,128 @@
+_id: E7NAr81aQ2g4w95V
+name: Chem Synthesis
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You create reagents in a chemical flask that you touch, which roil and smoke impressively. The liquid in the flask duplicates the properties of a Common or Uncommon potion of your choice (such
+      as a <em>Healing Stim</em>*), which you can decant into appropriate containers as a Bonus Action. You can decant a number of these potions equal to your spellcasting ability modifier (minimum of 1).
+      When the last of these potions is decanted, the spell ends.</p><p>Alternately, when you haven’t decanted any potions yet, you can create a beaker of potent acid. If hurled at a target as an action,
+      each creature within 10 feet of the target must make a Dexterity saving throw, taking, 11d6 Acid damage on a failed save, or half as much damage on a successful one.</p><p>Potions decanted from the
+      flask that aren’t consumed disappear when you cast this spell again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: special
+    value: null
+    condition: 1 Action
+  duration:
+    value: ''
+    units: spec
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 6
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: reinforced flask worth $30,000
+    consumed: false
+    cost: 30000
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    AoBwrp0RBaEeQfjt:
+      _id: AoBwrp0RBaEeQfjt
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 11
+          denomination: 6
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: chem-synthesis
+effects: []
+folder: J08I5rrJnHseHt7I
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!E7NAr81aQ2g4w95V'

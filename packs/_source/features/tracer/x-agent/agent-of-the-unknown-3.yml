@@ -1,0 +1,50 @@
+_id: i3ULUhlWRNQDDibn
+name: Agent of the Unknown
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You delve into the mysteries of the galaxy. You gain proficiency in the Arcana, History, or Religion skill.</p><p>When you make an Intelligence check using any of these skills, you can add
+      a bonus to the total. The bonus equals your Wisdom modifier (minimum of +1).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: X-Agent Tracer
+  activities: {}
+  enchant: {}
+  identifier: agent-of-the-unknown
+  advancement: {}
+effects: []
+folder: zHKdbS3wrngiYRsW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!i3ULUhlWRNQDDibn'

@@ -1,0 +1,112 @@
+_id: PgbMlU1cCvUJiI5J
+name: Rebirth
+type: spell
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  description:
+    value: <p>You touch a dead creature that is a playable species, or a piece of one. The spell fails if cast on the corpse of a cygnian, dathu, motlien, terminox, or varg. If the creature has been dead
+      for no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d100 and consult the table below to determine the body’s species, or the GM chooses another
+      playable species. Aetheron Oculok* Amanite Oozoid Anitron Pakku* Benthos* Poggle* Bitling* Raizo Clawderan Rangor Flambego* Saurian Glowblin Skettik* Gorgonite Solari Greeble* Stardust Human Isotron*
+      Tekal Jenovan* Volcar* Jozza Yaungu Laika Yoggoth* Marsoom* Zamani Murexian Zephursa* Navili* Zeticulan* Nematoan Zorbrak Nilari The reborn creature makes any choices that a species’ description offers,
+      and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: hour
+    value: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: nec
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: biochemicals worth $50,000+ which the spell consumes
+    consumed: true
+    cost: 50000
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    rReQo7OLFYJFwtcD:
+      _id: rReQo7OLFYJFwtcD
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: rebirth
+effects: []
+folder: KWpE1CiC6PgaF2z3
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PgbMlU1cCvUJiI5J'

@@ -1,0 +1,99 @@
+_id: VXVo1ujcQJHFw1Jz
+name: Weapon Peripheral
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 5+ Machinist</em></p><p><strong>Gear:</strong> Simple or Martial weapon Choose one of the following pieces of outrunning gear to build into the weapon: Ascension Gun,
+      Flamethrower, Grenade Launcher, Mesh Net, or Scanner. A creature holding the weapon can activate the gear as a Bonus Action or in place of an attack when it takes the Attack action on its turn. When
+      created, the Flamethrower is fully loaded with Fuel Oil, the Grenade Launcher has one Grenade (Frag or Smoke Grenade only), and a Mesh Net has one net, none of which can be removed. They can be reloaded
+      as normal (or as a Utilize action for a Mesh Net). The peripheral magically refills daily at dawn.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: hypertechSchematic
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    DUJTRow4UipHvHkR:
+      _id: DUJTRow4UipHvHkR
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: weapon-peripheral
+  advancement: {}
+effects: []
+folder: rDqiq6VUZzbEUanT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VXVo1ujcQJHFw1Jz'

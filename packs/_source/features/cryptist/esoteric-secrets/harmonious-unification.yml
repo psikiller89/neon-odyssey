@@ -1,0 +1,84 @@
+_id: PD5PSmMsOOhN1lj2
+name: Harmonious Unification
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of the Harmony. You learn the <em>Culling</em>* or <em>Guidance</em> cantrip (your choice) if you don’t already know
+      it. Once you have Occult Magic spell slots capable of casting each of the following spells, you always have that spell prepared: <em>Cure Wounds</em>, <em>Harmonic Bond</em>*, <em>Beacon of Hope</em>,
+      <em>Luminous Wind</em>*, <em>Mass Cure Wounds</em>.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: harmonious-unification
+  advancement:
+    DTzConEtXQspx62t:
+      _id: DTzConEtXQspx62t
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGuidance00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.4FFg2gtVtRPWV5RA
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBeaconofHo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.7QcpKezMlEmplKBD
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Harmonious Unification
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PD5PSmMsOOhN1lj2'

@@ -1,0 +1,110 @@
+_id: uQktriBU9brlhcFO
+name: Bloodhound
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/bloodhound.webp
+system:
+  description:
+    value: <p><em>Read the Scene to Relentlessly Track Your Quarry</em> Bloodhounds hone their senses and wits to perceive every minute detail from their surroundings and draw the connections needed to
+      track and outsmart their quarry. They are experts at reading people and situations alike, able to sniff out the most subtle clues and tactics that might lead to a successful hunt and closed case.
+      These Tracers are most comfortable tracking their target through neon jungles, seedy districts, and other urban environments, but their sharp minds follow wherever the trail leads.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: bloodhound
+  classIdentifier: tracer
+  advancement:
+    MYv1vJbIW2MxrFr2:
+      _id: MYv1vJbIW2MxrFr2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.DAYzhb4cbH8WC9rv
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.IrduJQhPxaibur9K
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.CnI6RPSDGJNzTLmJ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Wp4vZYrZrwZpcjze
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    QNRR7Gva8veQHQHs:
+      _id: QNRR7Gva8veQHQHs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LXWyzF64CslgZviz
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.1Z7XfRaCPm5P11bH
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    BUwm1cf8tzekCyhp:
+      _id: BUwm1cf8tzekCyhp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LyYxIzjkaG9hW96C
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    MaxfWeii8vhi3nlp:
+      _id: MaxfWeii8vhi3nlp
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.2yrJOzjekZTWltnd
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: oThN1a3KYkRfeQTe
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!uQktriBU9brlhcFO'

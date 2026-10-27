@@ -1,0 +1,104 @@
+_id: QmfRDIjtni9Sdw4g
+name: Symmetric
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/symmetric.webp
+system:
+  description:
+    value: <p><em>Channel Life and Death in Perfect Balance</em> While the Harmony flows through all living things, the souls of Symmetrics overflow with its vital and somber energies. They channel the
+      forces of life and death through body, mind, spirit, and blade. Most of these Disciples seek to bring balance to the galaxy, but some devote themselves to a single aspect of the Harmony, becoming
+      either a giver of life or a bringer of death.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: symmetric
+  classIdentifier: disciple
+  advancement:
+    jAfXOUL6Y1TJNqPy:
+      _id: jAfXOUL6Y1TJNqPy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.OjgLlzoGemOzrWfY
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ATvX6Mt8QAXnAytl
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.n16sY7FJj2Mx2dge
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    PS6odwDiURXoOH26:
+      _id: PS6odwDiURXoOH26
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.rmNeqP8R2hBIXyGI
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    13EmIlYlF4AoxYct:
+      _id: 13EmIlYlF4AoxYct
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.m0EIk7Vb3xbS49ix
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    ISgL8Szh6sisQNVK:
+      _id: ISgL8Szh6sisQNVK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.caNXYdBVoFq3TK5O
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: MrkCyjRQd9KEa1GC
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!QmfRDIjtni9Sdw4g'

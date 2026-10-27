@@ -1,0 +1,62 @@
+_id: Nbg9tHatbgMDq3YH
+name: Spellcasting
+type: feat
+img: icons/magic/life/ankh-gold-blue.webp
+system:
+  description:
+    value: <p>You have learned to cast spells through devotion to the cosmic force that you commune with. See the <em>D&amp;D Beyond Basic Rules</em> for the rules on spellcasting. The information below
+      details how you use those rules with Oracle spells, which appear on the Oracle spell list later in the class’s description.</p><p><strong>Cantrips.</strong> You know three Oracle cantrips of your
+      choice. <em>Guidance</em>, <em>Sacred Flame</em>, and <em>Thaumaturgy</em> are recommended.</p><p>Whenever you gain an Oracle level, you can replace one of your cantrips from this feature with another
+      Oracle cantrip of your choice.</p><p>When you reach Oracle levels 4 and 10, you learn another Oracle cantrip of your choice, as shown in the Cantrips column of the Oracle Features table.</p><p><strong>Spell
+      Slots.</strong> The Oracle Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells
+      of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 Oracle spells from the Oracle spell list. <em>Bless</em>,
+      <em>Cure Wounds</em>, <em>Guiding Bolt</em>, and <em>Shield of Faith</em> are recommended.</p><p>The number of spells on your list increases as you gain Oracle levels, as shown in the Prepared Spells
+      column of the Oracle Features table. Whenever that number increases, choose additional Oracle spells until the number of spells on your list matches the number on the table. The chosen spells must
+      be of a level for which you have spell slots. For example, if you’re a level 3 Oracle, your list of prepared spells can include six Oracle spells of levels 1 and 2 in any combination.</p><p>If another
+      Oracle feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Oracle spells
+      for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Oracle spells
+      for which you have spell slots.</p><p><strong>Spellcasting Ability.</strong> Wisdom is your spellcasting ability for your Oracle spells.</p><p><strong>Spellcasting Focus.</strong> You can use a Cosmic
+      Symbol as a Spellcasting Focus for your Oracle spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: spellcasting
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 1000000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!Nbg9tHatbgMDq3YH'

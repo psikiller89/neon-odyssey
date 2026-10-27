@@ -1,0 +1,52 @@
+_id: ueFSPdGVzmXpp88E
+name: Smuggler’s Slang
+type: feat
+img: icons/sundries/documents/document-symbol-eye.webp
+system:
+  description:
+    value: <p>Your time in the galaxy’s underworld has allowed you to pick up useful languages. You know Smuggler’s Slang and one other language of your choice, which you choose from the language tables
+      in the Setting Primer.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: smugglers-slang
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!ueFSPdGVzmXpp88E'

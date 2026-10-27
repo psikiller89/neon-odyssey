@@ -1,0 +1,105 @@
+_id: VVJD5aw0KlEgHcVG
+name: Specialist Culmination
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have discovered the final technique that upgrades your chosen invention specialty. Once you use this feature, you can’t use it again until you finish a Long Rest.</p><p><strong>Armory.</strong>
+      When you hit or miss with an attack roll using a weapon, you can cause the attack roll to become a Critical Hit instead.</p><p><strong>Hypertech.</strong> When you cast a spell using a spell slot
+      and damage a creature, you can ignore the creature’s Resistances and Immunities.</p><p><strong>Robotics.</strong> When you are reduced to 0 Hit Points while you have an assistant, you can permanently
+      dismiss your assistant to instead change your Hit Points to a number equal to twice your Machinist level.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities:
+    aKyahdy8GTT4QjxF:
+      _id: aKyahdy8GTT4QjxF
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: specialist-culmination
+  advancement: {}
+effects: []
+folder: 09IhBNky5V3kpZ8Z
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VVJD5aw0KlEgHcVG'

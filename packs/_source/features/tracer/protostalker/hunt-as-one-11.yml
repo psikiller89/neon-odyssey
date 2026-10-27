@@ -1,0 +1,51 @@
+_id: TtATr5u1TW6iR9rK
+name: Hunt as One
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You hunt with your packmate in perfect sync. When you hit a creature with an attack roll while your protosaur is within 5 feet of the target and the protosaur doesn’t have the Incapacitated
+      condition, the attack deals an extra 1d8 damage of the attack’s normal type.</p><p>In addition, the first time each turn your protosaur hits a creature under the effect of your <em>Hunter’s Mark</em>
+      spell, it deals extra Force damage equal to the bonus damage of that spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 11
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Protostalker Tracer
+  activities: {}
+  enchant: {}
+  identifier: hunt-as-one
+  advancement: {}
+effects: []
+folder: EIFt2WpGhAg7Oc3J
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!TtATr5u1TW6iR9rK'

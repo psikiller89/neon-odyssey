@@ -1,0 +1,140 @@
+_id: OMnorU8C9VhLWGiR
+name: Protosaur Packmate
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have a mystical bond with a primeval protosaur to aid you in your hunts. Choose its stat block from the following protosaur options: Bonestomper, Bloodripper, or Skyterror. Choose its
+      size from those noted in its stat block. You also determine the kind of dinosaur or prehistoric reptile it is, choosing a kind appropriate for the stat block. Whatever dinosaur you choose, it bears
+      luminous markings indicating its supernatural origin.</p><p>The protosaur is Friendly to you and your allies and obeys your commands. It vanishes if you die.</p><p><strong>The Protosaur in Combat.</strong>
+      In combat, the protosaur acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an
+      action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the protosaur to take the Proto Strike action. If you have the
+      Incapacitated condition, the protosaur acts on its own and isn’t limited to the Dodge action.</p><p><strong>Restoring or Replacing the Protosaur.</strong> If the protosaur has died within the last
+      hour, you can take a Magic action to touch it and expend a spell slot. The protosaur returns to life after 1 minute with all its Hit Points restored.</p><p>Whenever you finish a Long Rest, you can
+      summon a different protosaur, which appears in an unoccupied space within 5 feet of you. You choose its stat block and appearance. If you already have a protosaur from this feature, the old one vanishes
+      when the new one appears.</p><ul><li><p><strong>Traits Actions</strong></p></li><li><p><strong>Traits Actions</strong></p></li><li><p><strong>Traits Actions</strong></p></li></ul>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Protostalker Tracer
+  activities:
+    63sMUL1XmpBiBYFU:
+      _id: 63sMUL1XmpBiBYFU
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: XWNTqzrNTye5pjjp
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: protosaur-packmate
+  advancement: {}
+effects:
+- _id: XWNTqzrNTye5pjjp
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!OMnorU8C9VhLWGiR.XWNTqzrNTye5pjjp'
+folder: EIFt2WpGhAg7Oc3J
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!OMnorU8C9VhLWGiR'

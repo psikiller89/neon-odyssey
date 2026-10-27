@@ -1,0 +1,50 @@
+_id: fMcTQNojOqia9YO7
+name: Branching Currents
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You manipulate the connecting bonds of the Harmony that flow through all living things. When you use the Cosmic Pulse option of your Cosmic Conduit, you can now choose a number of targets
+      up to your Wisdom modifier (minimum of two), and you roll an extra 1d8. Choose for each target whether it takes damage or regains Hit Points.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Harmonious Oracle
+  activities: {}
+  enchant: {}
+  identifier: branching-currents
+  advancement: {}
+effects: []
+folder: CFltsA9FK9M1Wdn2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fMcTQNojOqia9YO7'

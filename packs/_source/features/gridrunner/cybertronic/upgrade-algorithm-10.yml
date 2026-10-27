@@ -1,0 +1,120 @@
+_id: OxeCfrK1TwnFcgiq
+name: Upgrade Algorithm
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have developed new and improved rendering techniques, granting the following benefits.</p><p><strong>Charge Sequence.</strong> You always have the <em>Magic Weapon</em> spell prepared.
+      You can cast it once without a spell slot, and you can’t cast it in this way again until you finish a Long Rest. You can cast <em>Magic Weapon</em> as part of the same Bonus Action you use to activate
+      Hardlight Armory, and you can target your armory as if it were a weapon.</p><p><strong>Digital Deflection.</strong> While your Hardlight Armory is active, you gain a +2 bonus to AC.</p><p><strong>Honed
+      Light.</strong> The damage of your Hardlight Armory options increases by 1d8 (2d8 total).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cybertronic Gridrunner
+  activities:
+    OSdi4Rz2JjwE8GGn:
+      _id: OSdi4Rz2JjwE8GGn
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: upgrade-algorithm
+  advancement:
+    XFV7zxnD52Izk8um:
+      _id: XFV7zxnD52Izk8um
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMagicWeapo
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 10
+      title: Upgrade Algorithm
+      hint: ''
+effects: []
+folder: 5VLOMVrwRFpYo4cB
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!OxeCfrK1TwnFcgiq'

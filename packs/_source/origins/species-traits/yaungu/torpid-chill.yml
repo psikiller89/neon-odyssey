@@ -1,0 +1,114 @@
+_id: 02lqzO2fquFdFv9J
+name: Torpid Chill
+type: feat
+img: modules/neon-odyssey/icons/species/yaungu.webp
+folder: HRgqOCAskxYYRGOZ
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you hit a target with an attack roll and deal damage, you can deal an extra 1d6 Cold damage. Unless the target has Resistance or Immunity to Cold damage, it also has Disadvantage on Dexterity
+      saving throws until the end of your next turn. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Yaungu
+  activities:
+    5sLNIYZbLEsZAx3l:
+      _id: 5sLNIYZbLEsZAx3l
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - cold
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: torpid-chill
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!02lqzO2fquFdFv9J'

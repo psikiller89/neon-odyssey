@@ -1,0 +1,150 @@
+_id: plv4kj6E7uL8OGkN
+name: Embodiment of the Cycle
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>The will of the Harmony surges within you, and you become a Somber reaper or Vital shepherd. As a Bonus Action, you become a vessel of your current Aspect of Balance, gaining the benefits
+      below associated with that aspect for 10 minutes. Once you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot
+      (no action required).</p><p><strong>Somber.</strong> While embodying the Somber Harmony, you gain the following: <strong>Choking Grasp.</strong> A creature that fails its saving throw against your
+      Harmony’s Grasp takes 3d10 Necrotic damage and has the Restrained condition until the start of your next turn. A creature that succeeds takes half as much damage only. <strong>Death Sentence.</strong>
+      When you hit a creature with an attack roll, the target takes an extra 2d10 Necrotic damage if it is missing any of its Hit Points.</p><p><strong>Vital.</strong> While embodying the Vital Harmony,
+      you gain the following: <strong>Harmony’s Reach.</strong> When you use Harmony’s Grasp, you can choose a number of targets up to your Charisma modifier. <strong>Life Spring.</strong> When you activate
+      this feature and at the start of each of your turns for the duration, a creature of your choice within your Zone of Safety (you can choose yourself) gains 10 Temporary Hit Points.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arbiter Enforcer
+  activities:
+    ot1kftuIZiebJIhT:
+      _id: ot1kftuIZiebJIhT
+      type: heal
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: '10'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+  enchant: {}
+  identifier: embodiment-of-the-cycle
+  advancement: {}
+effects:
+- _id: 7UoC2WyqXMeIoVvh
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!plv4kj6E7uL8OGkN.7UoC2WyqXMeIoVvh'
+folder: IMuGSJX19FaEdpSg
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!plv4kj6E7uL8OGkN'

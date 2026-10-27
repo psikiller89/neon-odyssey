@@ -1,0 +1,51 @@
+_id: s0GfHOGW6ZphNbPI
+name: Shredder
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You’re always ready to thrash and smash. You gain the following benefits.</p><p><strong>Axe-Slinger.</strong> With 1 hour of work, you can build a Martial weapon into a Musician’s Instrument.
+      You gain proficiency with that weapon, and when you attack with the weapon, you can use your Charisma modifier for the attack and damage rolls instead of using the normal ability.</p><p><strong>Studs
+      and Leather.</strong> You gain training with Medium armor and Shields, and you gain proficiency in the Athletics or Intimidation skill.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Headbanger Icon
+  activities: {}
+  enchant: {}
+  identifier: shredder
+  advancement: {}
+effects: []
+folder: 4HG1MuYpX6idf014
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!s0GfHOGW6ZphNbPI'

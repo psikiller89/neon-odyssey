@@ -1,0 +1,126 @@
+_id: AKbuY4XWLtsQb2AA
+name: Call the Cosmos
+type: feat
+img: icons/magic/light/beam-rays-yellow-blue-small.webp
+system:
+  description:
+    value: <p>When you call upon the forces of the cosmos, they respond. As a Magic action, choose any Oracle spell of level 5 or lower that doesn’t require a Reaction to cast. As part of the same action,
+      you cast that spell without expending a spell slot or needing Material components. You can’t use this feature again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    recovery:
+    - period: lr
+      type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties:
+  - mgc
+  requirements: Oracle
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        concentration: false
+        expiry: null
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      name: ''
+      img: systems/dnd5e/icons/svg/damage/force.svg
+      visibility:
+        requireMagic: true
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: call-the-cosmos
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 300000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!AKbuY4XWLtsQb2AA'

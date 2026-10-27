@@ -1,0 +1,61 @@
+_id: Xyrqero5JsPiVD12
+name: Disguise
+type: equipment
+img: icons/equipment/head/hood-purple-mask.webp
+system:
+  quantity: 1
+  weight:
+    value: 4.0
+    units: lb
+  price:
+    value: 250
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>While wearing a Disguise, you have Advantage on any ability check you make to impersonate the person or type of person it represents.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  identifier: disguise
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Xyrqero5JsPiVD12'

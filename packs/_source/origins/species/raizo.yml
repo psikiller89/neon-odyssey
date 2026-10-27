@@ -1,0 +1,110 @@
+_id: SY7pml1ixf7Ondbv
+name: Raizo
+type: race
+img: modules/neon-odyssey/icons/species/raizo.webp
+system:
+  description:
+    value: <p>Raizo <em>(RYE-zoh)</em> are a people born of the storm, and they all carry the power and ferocity of a raging tempest within them. Hailing from a world beset by never-ending, violent storms,
+      they possess the supernatural ability to unleash the power of thunder, lightning, and rain to overcome staggering odds. They typically have a fearlessness against danger and overwhelming obstacles,
+      often conquering any barrier in their way. This relentlessness has allowed many to master the elements and thrive in harsh, inhospitable environments. Raizo are typically tall, solidly built, and
+      often heavily muscled. A pair of horns grow from the top of their foreheads, and they sport tusks from their lower jaw. Their skin runs in shades of red, blue, green, gray, or yellow. Many raizo display
+      tattoos that reflect particularly important aspects of their nature or personality.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    IpHwb45hX4BrcLHq:
+      _id: IpHwb45hX4BrcLHq
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 6–7 feet tall)
+      value: {}
+      title: ''
+    9oIMtElVA4bcX4p2:
+      _id: 9oIMtElVA4bcX4p2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.049tj5wueMgLCPgs
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.CRxzjmXQrfuAcniW
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.YxzvZUUkMdSYfLFb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.5mbSvLshJKaYNPkk
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.oXb9UyCAOoT2IRmr
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Raizo Traits
+    wYEhtjOaY6eKrQet:
+      _id: wYEhtjOaY6eKrQet
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ath
+          - skills:itm
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: raizo
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!SY7pml1ixf7Ondbv'

@@ -1,0 +1,269 @@
+_id: MjmVT6i7IzuTEbtq
+name: Combat Tradition
+type: feat
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  description:
+    value: <p>Your dedication to martial tradition makes you a skilled combatant with your Unarmed Strike and Disciple weapons, which are the following:</p><ul><li><p>Simple Melee weapons</p></li><li><p>Martial
+      Melee weapons that have the Light property You gain the following benefits while you are unarmed or wielding only Disciple weapons and you aren’t wearing armor or wielding a Shield.</p></li></ul><p><strong>Bonus
+      Unarmed Strike.</strong> You can make an Unarmed Strike as a Bonus Action.</p><p><strong>Combat Tradition Die.</strong> You can roll 1d6 in place of the normal damage of your Unarmed Strike or Disciple
+      weapons. This die changes as you gain Disciple levels, as shown in the Combat Tradition column of the Disciple Features table.</p><p><strong>Dexterous Attacks.</strong> You can use your Dexterity
+      modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Disciple weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike,
+      you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities:
+    x7fKZy0kgRTMACTa:
+      type: enchant
+      name: Master Simple Weapon
+      _id: x7fKZy0kgRTMACTa
+      sort: 100000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+      - _id: VnV6opO1b3apq6wt
+        level:
+          min: null
+          max: null
+        riders:
+          activity:
+          - w1iULzeSjTNs16nf
+          effect: []
+          item: []
+        uuid: null
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: object
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories:
+        - simpleM
+        properties: []
+        type: weapon
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    uCIVkZurvxHYJ0h0:
+      type: enchant
+      name: Master Light Martial Weapon
+      sort: 200000
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+      - _id: VnV6opO1b3apq6wt
+        level:
+          min: null
+          max: null
+        riders:
+          activity:
+          - w1iULzeSjTNs16nf
+          effect: []
+          item: []
+        uuid: null
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories:
+        - martialM
+        properties:
+        - lgt
+        type: weapon
+      _id: uCIVkZurvxHYJ0h0
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  enchant: {}
+  identifier: combat-tradition
+  advancement: {}
+  crewed: false
+effects:
+- type: enchantment
+  name: Dexterous Attacks & Martial Arts Damage
+  img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+  disabled: true
+  _id: VnV6opO1b3apq6wt
+  system:
+    changes:
+    - key: system.properties
+      value: fin
+      priority: null
+      type: add
+      phase: initial
+      _id: JJvFvRl931ylZWTJ
+      conditions: '{}'
+      replacement: ''
+    - key: system.damage.base.custom.enabled
+      value: true
+      priority: null
+      type: override
+      phase: initial
+      _id: V51RLnzEALerJ3nZ
+      conditions: '{}'
+      replacement: ''
+    - key: system.damage.base.custom.formula
+      value: '@scale.disciple.die + @mod'
+      priority: null
+      type: override
+      phase: initial
+      _id: Gu0DLTIftVSXTX2L
+      conditions: '{}'
+      replacement: ''
+    - key: name
+      value: '{} (Martial Arts)'
+      priority: null
+      type: override
+      phase: initial
+      _id: 5hkLD74aTqfrAIuk
+      conditions: '{}'
+      replacement: ''
+    magical: false
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p><em><strong>Martial Arts Die.</strong></em> You can roll [[lookup @scale.disciple.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain
+    Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><em><strong>Dexterous Attacks.</strong></em> You can use your Dexterity modifier instead of your Strength modifier
+    for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of
+    your Strength modifier to determine the save DC.</p><p></p>
+  origin: null
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!MjmVT6i7IzuTEbtq.VnV6opO1b3apq6wt'
+flags:
+  dnd5e:
+    riders:
+      activity:
+      - w1iULzeSjTNs16nf
+sort: 1100000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!MjmVT6i7IzuTEbtq'

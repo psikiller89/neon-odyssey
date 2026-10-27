@@ -1,0 +1,53 @@
+_id: B3IHmgvrcV0P6OU5
+name: Mystery of the Cipher
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Weaving potential secrets into physical truth, you conjure forth a book or Datapad in your hand at the end of a Short or Long Rest. This Codex of Ciphers (you determine its appearance) contains
+      eldritch magic that only you can access, granting you the benefits below. The codex disappears if you conjure another item with this feature or if you die.</p><p><strong>Cantrips and Rituals.</strong>
+      When the codex appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class’s spell list, and they must be spells you don’t already have
+      prepared. While the codex is on your person, you have the chosen spells prepared, and they function as Cryptist spells for you.</p><p><strong>Spellcasting Focus.</strong> You can use the codex as
+      a Spellcasting Focus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: mystery-of-the-cipher
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!B3IHmgvrcV0P6OU5'

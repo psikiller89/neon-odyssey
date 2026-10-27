@@ -1,0 +1,159 @@
+_id: DyjWcsYU1IL70s5m
+name: Shadowtongue Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Cryptist level specified in the Shadowtongue Spells table, you thereafter always have the listed spells prepared. <em>Befriend</em>*, <em>Charm Person</em>, <em>Command</em>,
+      <em>Minion Binding</em>*, <em>Suggestion</em> <em>Somber Extraction</em>*, <em>Summon Silent</em>* <em>Compulsion</em>, <em>Death Ward</em> <em>Dominate Person</em>, <em>Modify Memory</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Shadowtongue Cryptist
+  activities: {}
+  enchant: {}
+  identifier: shadowtongue-spells
+  advancement:
+    u5MZx7HRMOjPc9DH:
+      _id: u5MZx7HRMOjPc9DH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.GEiLy0Fx6IWqJrLZ
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.ZOSwz4XxQcoxLvyv
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Shadowtongue Spells
+      hint: ''
+    MEjI0Ud3pptDF7vd:
+      _id: MEjI0Ud3pptDF7vd
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.PW3cPsltN2947cCR
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.8o4oYaFouhUAfANQ
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Shadowtongue Spells
+      hint: ''
+    4jpBsemLoMuhbQMU:
+      _id: 4jpBsemLoMuhbQMU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCompulsion
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDeathWard0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Shadowtongue Spells
+      hint: ''
+    9mROmYP6zT0CCsNP:
+      _id: 9mROmYP6zT0CCsNP
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplModifyMemo
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Shadowtongue Spells
+      hint: ''
+effects: []
+folder: RFmJWYeRQQ3zwzgZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!DyjWcsYU1IL70s5m'

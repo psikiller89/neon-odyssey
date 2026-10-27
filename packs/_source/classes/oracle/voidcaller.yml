@@ -1,0 +1,90 @@
+_id: hmSJqRtGCVaaKgyW
+name: Voidcaller
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/voidcaller.webp
+system:
+  description:
+    value: <p><em>Herald the Eldritch Horrors Beyond the Galaxy</em> Voidcallers are Oracles who call into the unknowable emptiness of the Abyssal Void and listen for when it whispers back. They open the
+      way for eldritch entities from outside space and time to enter the galaxy and warp reality by offering their foes’ bodies and minds as a sacrificial meal. Most Voidcallers reach out to the infinite
+      hunger of the behemoths of the Deep, but some find an indifferent or even strangely benevolent patron to serve.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: voidcaller
+  classIdentifier: oracle
+  advancement:
+    28DYVXNzkH7oKHqs:
+      _id: 28DYVXNzkH7oKHqs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.k1MKCZMiDDDEbsLm
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.x7gp11a7o26sb19Z
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.MAFD6XeQpyTB6lsB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    sZTLtRJ8sVOgaNwX:
+      _id: sZTLtRJ8sVOgaNwX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nEpsJtpc0pvkWMSi
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    jd9lkBkY7MwCFJo4:
+      _id: jd9lkBkY7MwCFJo4
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.WdPvsGay2nTC9vwL
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: dYNWA7lTuGoJ83X0
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!hmSJqRtGCVaaKgyW'

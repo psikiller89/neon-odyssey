@@ -1,0 +1,108 @@
+_id: EMqPYORXr0exIFhB
+name: Heads Down
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You are prepared for gunfights and shootouts to keep your enemies pinned down. When you hit a creature with an attack roll, you can force the target to make a Wisdom saving throw against your
+      Dirty Trick save DC. On a failed save, the target has Disadvantage on attack rolls and ability checks until the start of your next turn.</p><p>You can use this feature a number of times equal to your
+      Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.dex.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Quickdraw Scoundrel
+  activities:
+    XLpPLnDEipxaw6dV:
+      _id: XLpPLnDEipxaw6dV
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: dex
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: heads-down
+  advancement: {}
+effects: []
+folder: c6BNif2mWF4lJyqj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!EMqPYORXr0exIFhB'

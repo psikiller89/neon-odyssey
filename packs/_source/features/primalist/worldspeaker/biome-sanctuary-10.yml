@@ -1,0 +1,98 @@
+_id: BvliqVVc1qqulWuW
+name: Biome Sanctuary
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The elements defend you and your allies. While your Planetary Embodiment is active, you project a 10-foot Emanation. Your allies within that area gain Resistance to the same damage type as
+      your Worldly Resistance benefit. When you or an ally takes damage of that type, the target can take a Reaction to expend and roll one Hit Point Die to regain a number of Hit Points equal to the number
+      rolled.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities:
+    5XYh2IbWBcRkEiKR:
+      _id: 5XYh2IbWBcRkEiKR
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: biome-sanctuary
+  advancement: {}
+effects: []
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BvliqVVc1qqulWuW'

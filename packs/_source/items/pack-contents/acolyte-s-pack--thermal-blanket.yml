@@ -1,0 +1,53 @@
+_id: 589NNfM4gGgBlrN0
+name: Thermal Blanket
+type: loot
+img: icons/sundries/survival/bedroll-pink.webp
+system:
+  quantity: 1
+  weight:
+    value: 1.0
+    units: lb
+  price:
+    value: 5
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: wyk5UV4O3Oyn8Cew
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A waterproof, reflective blanket also useful as a drop cloth or tarp. While wrapped in a Thermal Blanket, you have Advantage on saving throws against extreme cold (see the <em>D&amp;D Beyond
+      Basic Rules)</em>.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: thermal-blanket
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!589NNfM4gGgBlrN0'

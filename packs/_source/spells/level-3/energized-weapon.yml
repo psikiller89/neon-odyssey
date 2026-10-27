@@ -1,0 +1,109 @@
+_id: OAIT2MMEqhBAd5T6
+name: Energized Weapon
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: '<p>A weapon you touch becomes energized. Choose one of the following damage types: Acid, Cold, Fire, Lightning, Radiant, or Thunder. For the duration, the weapon deals an extra 1d6 damage of
+      the chosen type when it hits.</p><p>Once before the spell ends, when a creature makes an attack with the weapon during its turn, it can give itself Advantage on the attack roll. That attack deals
+      an extra 2d6 damage of the chosen type on a hit.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: bonus
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: trs
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    SVYyWao2PkPLJ0vP:
+      _id: SVYyWao2PkPLJ0vP
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: energized-weapon
+effects: []
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!OAIT2MMEqhBAd5T6'

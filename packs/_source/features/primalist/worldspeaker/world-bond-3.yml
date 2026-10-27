@@ -1,0 +1,51 @@
+_id: s0Y6FYhKiqYr1RQ8
+name: World Bond
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have a strong bond with the world soul of a planet important to you. You know the <em>Elementalism</em> cantrip or another Primalist cantrip of your choice. When you finish a Long Rest,
+      choose a bond: Abundant, Defiled, Turbulent, or Unforgiving. You form a bond with a matching world soul (you needn’t be on such a world at the time) until you finish your next Long Rest. When you
+      deal damage with a spell, you can change the spell’s damage type to one associated with your bond.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities: {}
+  enchant: {}
+  identifier: world-bond
+  advancement: {}
+effects: []
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!s0Y6FYhKiqYr1RQ8'

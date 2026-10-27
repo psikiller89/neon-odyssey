@@ -1,0 +1,50 @@
+_id: sDUsSRuyRVkuaT5g
+name: Adapted Psi
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Cost: 1 Psi Point</em></p><p>When you cast a spell that deals a type of damage from the following list, you can spend 1 Psi Point to change that damage type to one of the other listed
+      types: Acid, Cold, Fire, Lightning, Poison, Thunder.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psiShaping
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: adapted-psi
+  advancement: {}
+effects: []
+folder: fUiMTwUZ6bgebpNK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!sDUsSRuyRVkuaT5g'

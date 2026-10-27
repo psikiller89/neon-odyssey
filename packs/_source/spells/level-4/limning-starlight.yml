@@ -1,0 +1,163 @@
+_id: 0v2e6WBYr6qvJdsA
+name: Limning Starlight
+type: spell
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  description:
+    value: <p>Your skin reflects the constellations above, even if they aren’t visible. Until the spell ends, you have Resistance to Radiant damage, you have Advantage on saving throws against Radiant damage
+      or the Blinded condition, and your melee attacks deal an extra 2d6 Radiant damage.</p><p>Immediately after you take damage from a creature you can see within 60 feet of you, you can take a Reaction
+      to force the creature to make a Constitution saving throw. If the damage dealt was Radiant, the creature has Disadvantage on the save. On a failed save, the creature has the Blinded condition until
+      the end of your next turn.</p><p>You can’t lose Concentration on this spell from taking Radiant damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 4
+  school: trs
+  properties:
+  - vocal
+  - somatic
+  - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    n0oienLqYs6aGK2I:
+      _id: n0oienLqYs6aGK2I
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: 9ARsq1vmx1tyNDIR
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: limning-starlight
+effects:
+- _id: 9ARsq1vmx1tyNDIR
+  name: Blinded
+  img: systems/dnd5e/icons/svg/statuses/blinded.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - blinded
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!0v2e6WBYr6qvJdsA.9ARsq1vmx1tyNDIR'
+folder: sEPVmwo0fZxpCj2K
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!0v2e6WBYr6qvJdsA'

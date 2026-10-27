@@ -1,0 +1,80 @@
+_id: 4bZABRAeOguqEemP
+name: Magic Command
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You enhance your magic with a menu of Arcadian commands. You always have the <em>Chromatic Orb</em> and <em>Cure Wounds</em> spells prepared. Additionally, you gain a pool of Mage Points
+      (MP) equal to your Gridrunner level. While holding your Arcadian Implement, you can use these points to fuel the following options, and each option can only be used once on a given spell. You regain
+      a number of expended MP equal to your Intelligence modifier (minimum of 1 point) when you use your Cache Refresh feature, and you regain all expended points when you finish a Long Rest.</p><p><strong>Curative
+      Remedy.</strong> When you restore Hit Points to a creature with a spell, you expend 1 MP to end one of the following conditions affecting it: Blinded, Deafened, Paralyzed, or Poisoned.</p><p><strong>Element
+      Shift.</strong> When you cast a spell that deals Cold, Fire, or Lightning damage, you can expend 1 MP to change the damage type to a different one from that list.</p><p><strong>Magic Boost.</strong>
+      When you deal Cold, Fire, or Lightning damage with a spell, you can expend 1 MP to add an extra effect depending on the type dealt (choose one in the case of multiple types): <strong>Freeze.</strong>
+      When you deal Cold damage to a creature, its Speed is halved until the start of your next turn. <strong>Ignite.</strong> When you deal Fire damage to a creature, the target starts burning. <strong>Shock.</strong>
+      When you deal Lightning damage to a creature, it can’t take Reactions until the start of your next turn.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arc-Mage Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: magic-command
+  advancement:
+    FoP6lMVWDABqlvd8:
+      _id: FoP6lMVWDABqlvd8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Magic Command
+      hint: ''
+effects: []
+folder: PYCwpEUVFCmKqZBN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4bZABRAeOguqEemP'

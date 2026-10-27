@@ -1,0 +1,162 @@
+_id: 61AoISzlY3nv1Nar
+name: Starfall
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+system:
+  description:
+    value: <p>You create a rain of stars that falls in an 80-foot-radius, 120-foot-high Cylinder centered on a point within range. Each creature of your choice in that area makes a Dexterity saving throw.
+      On a failed save, a target takes 10d6 Radiant damage and has the Prone condition. On a successful save, it takes half damage only. Aberrations and Fiends take an extra 5d6 damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cylinder
+      size: '80'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '300'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 7
+  school: evo
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: a bit of meteorite
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    7tOa0euxIOEumM6S:
+      _id: 7tOa0euxIOEumM6S
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: mBHeN2AlRnuOnouc
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 10
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  identifier: starfall
+effects:
+- _id: mBHeN2AlRnuOnouc
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!61AoISzlY3nv1Nar.mBHeN2AlRnuOnouc'
+folder: BpWdy9M2WRY2eaIg
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!61AoISzlY3nv1Nar'

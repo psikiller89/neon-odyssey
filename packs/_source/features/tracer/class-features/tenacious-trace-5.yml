@@ -1,0 +1,50 @@
+_id: vTd91dxFOaKHBizT
+name: Tenacious Trace
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: <p>Your focus is adamant when locked on your quarry. Taking damage can’t break your Concentration on <em>Hunter’s Mark</em>.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: tenacious-trace
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!vTd91dxFOaKHBizT'

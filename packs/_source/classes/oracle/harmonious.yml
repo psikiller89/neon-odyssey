@@ -1,0 +1,90 @@
+_id: ZsskhNwL0E2GKAax
+name: Harmonious
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/harmonious.webp
+system:
+  description:
+    value: <p><em>Weave the Currents of Life and Death as One</em> The Harmonious are Oracles who deeply feel and commune with the Harmony flowing through all things, from the first spark of life to the
+      final, dying breath. They push and pull the flow of its Vital and Somber aspects at once, weaving them together as a single, unified force to restore allies and wither foes. Some Oracles with this
+      heightened sense of the essence of life and death become empathic and nurturing, while others grow distant to mortal concerns, seeing each life as just a single note in the grand scale of the Harmony.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: harmonious
+  classIdentifier: oracle
+  advancement:
+    zIhMVAolvGjtdMXS:
+      _id: zIhMVAolvGjtdMXS
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fMcTQNojOqia9YO7
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.K7dFTXs7Tc3eRs0B
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.VUoc86YkCXeifCtN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    ziTbKcWJvNwaFDmV:
+      _id: ziTbKcWJvNwaFDmV
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Enzldc1U4V1NOGWY
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    QtC6qkTpN8mfzqZO:
+      _id: QtC6qkTpN8mfzqZO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LnxUJ8qFEFLl6kNE
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: dYNWA7lTuGoJ83X0
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!ZsskhNwL0E2GKAax'

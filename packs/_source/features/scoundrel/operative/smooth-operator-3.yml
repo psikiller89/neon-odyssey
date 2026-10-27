@@ -1,0 +1,107 @@
+_id: 1Mgn6RyqqUyTeikw
+name: Smooth Operator
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your skills can see you through any covert assignment, granting you the following benefits.</p><p><strong>Grace Under Pressure.</strong> When a creature you can see succeeds on a Wisdom (Perception)
+      check to find you, or when you fail a Charisma (Deception or Persuasion) check, you can roll a d20 and force the ability check to use the new number instead of the original d20 roll. Once you use
+      this benefit, you can’t use it again until you finish a Short or Long Rest.</p><p><strong>One Shot, One Kill.</strong> You can apply a specialized technique when you hit or miss a creature with an
+      attack roll using a weapon or an Unarmed Strike. On a hit, you can activate the Sap mastery property in addition to a different mastery property you’re using with that weapon. On a miss, you can activate
+      the Graze mastery property. You can use this benefit a number of times equal to your Dexterity modifier (minimum of once). You regain one expended use when you finish a Short Rest, and you regain
+      all expended uses when you finish a Long Rest.</p><p><strong>Overwatch.</strong> You add your Proficiency Bonus to Initiative rolls.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.dex.mod)
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Operative Scoundrel
+  activities:
+    sqDXaa94491JMfXH:
+      _id: sqDXaa94491JMfXH
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: smooth-operator
+  advancement: {}
+effects: []
+folder: 5aLGQfj1PneVxUbs
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1Mgn6RyqqUyTeikw'

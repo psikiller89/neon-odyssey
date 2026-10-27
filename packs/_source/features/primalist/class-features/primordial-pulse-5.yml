@@ -1,0 +1,188 @@
+_id: 5RNGqgGDQcBnTMvN
+name: Primordial Pulse
+type: feat
+img: icons/magic/life/cross-worn-green.webp
+system:
+  description:
+    value: <p>You can now transfer your raw, primordial power into your wild spellcasting. Once on each of your turns, if you have no uses of Primal Channel left, you can give yourself one use by expending
+      a spell slot (no action required).</p><p>In addition, you can expend one use of Primal Channel (no action required) to give yourself a level 1 spell slot, but you can’t do so again until you finish
+      a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    recovery:
+    - period: lr
+      type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: null
+        condition: Once on each of your turns
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        - type: itemUses
+          value: '1'
+          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          scaling: {}
+        - type: spellSlots
+          value: '-1'
+          target: '1'
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        concentration: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      name: Regain Spell Slot
+      img: systems/dnd5e/icons/svg/trait.svg
+    7nAgPNN2dth7SR0D:
+      type: utility
+      activation:
+        type: ''
+        value: null
+        condition: Once on each of your turns
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-1'
+          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          scaling:
+            mode: ''
+        - type: spellSlots
+          value: '1'
+          target: '1'
+          scaling:
+            mode: level
+            formula: ''
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        concentration: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: false
+        override: false
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: -100000
+      name: Regain Wild Shape
+      _id: 7nAgPNN2dth7SR0D
+      img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+  enchant: {}
+  identifier: primordial-pulse
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 1000000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!5RNGqgGDQcBnTMvN'

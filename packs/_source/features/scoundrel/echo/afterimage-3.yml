@@ -1,0 +1,105 @@
+_id: arYEmw90JNDM6dBw
+name: Afterimage
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can see and step through the flows of time, gaining the following benefits.</p><p><strong>Dilated Steps.</strong> Your Speed increases by 5 feet.</p><p><strong>Prescient Glimpse.</strong>
+      You add your Proficiency Bonus to Initiative rolls.</p><p><strong>Try Again.</strong> When you fail a D20 Test, you can reroll the d20 and use the higher roll. When you do so, until the end of your
+      next turn, your Cheap Shot is reduced by 1d6. You can use this benefit a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long
+      Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.dex.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Echo Scoundrel
+  activities:
+    U4fH67G2xjPlQwoJ:
+      _id: U4fH67G2xjPlQwoJ
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: afterimage
+  advancement: {}
+effects: []
+folder: FdzKYNMlQWd7KSiC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!arYEmw90JNDM6dBw'

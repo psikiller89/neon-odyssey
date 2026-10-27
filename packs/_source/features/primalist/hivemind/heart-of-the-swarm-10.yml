@@ -1,0 +1,101 @@
+_id: nxw46nqCu7O0sEY2
+name: Heart of the Swarm
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your swarm grows and reaches beyond for new targets to devour, no longer bound to remain in your space. As part of the Bonus Action when you activate your Cacophonous Swarm or as a Bonus Action
+      on subsequent turns, you can cause your swarm to form a 10-foot-radius Sphere centered on a point within 120 feet of you that you can see. The swarm can occupy a creature’s space and vice-versa, and
+      it can move through an opening as small as 1-inch. While the Sphere persists, you have the following benefits.</p><p><strong>Cast Spells.</strong> You can cast spells as if you were in your swarm’s
+      space.</p><p><strong>Move. </strong>As a Bonus Action, you can move your swarm up to 30 feet, but no farther than 120 feet away from yourself. When you do so, you can choose a creature in the Sphere
+      as if it were an Emanation per your Cacophonous Swarm feature.</p><p><strong>Swarm Perception.</strong> As a Bonus Action, you can see through the swarm’s eyes and hear what it hears until the start
+      of your next turn. The swarm has Darkvision and hearing to a range of 60 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities:
+    5raGpdvijZbGrRCH:
+      _id: 5raGpdvijZbGrRCH
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: heart-of-the-swarm
+  advancement: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nxw46nqCu7O0sEY2'

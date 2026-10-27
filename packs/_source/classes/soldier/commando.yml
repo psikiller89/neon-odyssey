@@ -1,0 +1,118 @@
+_id: 3MS1QJFH1PAPpvTt
+name: Commando
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/commando.webp
+system:
+  description:
+    value: <p><em>Gear Up to Become an Army of One</em> When it comes to accomplishing a mission, Commandos are the best of the best, capable of diving headfirst into battle and fighting against overwhelming
+      odds. They can access an entire armory stored in the Hypergrid at the press of a button, allowing them to instantly equip the optimal gear for the fight at hand. Commandos are often deployed behind
+      enemy lines or into the galaxy’s most dangerous environments, though some join with a squad to turn the tide of battle.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: commando
+  classIdentifier: soldier
+  advancement:
+    mI2aR29cZdSeK9iD:
+      _id: mI2aR29cZdSeK9iD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.hXG4JQ6ja4gczyhv
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ImBJJGUDySn0OwsB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    M2ElIXzgkglLRs1R:
+      _id: M2ElIXzgkglLRs1R
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.7pMfwTe3prZfzNYh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.rPgB3lYdM2qTK8hQ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    R4DYIgt36kiPLOH1:
+      _id: R4DYIgt36kiPLOH1
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.iL7zO5Vo73IZ2yyx
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    YqExdIMQrRw69fvH:
+      _id: YqExdIMQrRw69fvH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.6T8Atv1YPMQanu8W
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    7QP2N4ozcBoGi7jq:
+      _id: 7QP2N4ozcBoGi7jq
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.SUf3RTExmfkEtusg
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: TdKAX1k0iVoi5LgI
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!3MS1QJFH1PAPpvTt'

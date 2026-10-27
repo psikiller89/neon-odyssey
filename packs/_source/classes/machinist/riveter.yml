@@ -1,0 +1,104 @@
+_id: zbZ4agy39s5vB0Ip
+name: Riveter
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/riveter.webp
+system:
+  description:
+    value: <p><em>Cover the Battlefield with Automated Turrets</em> Riveters are scrappy engineers who approach their craft with an improvisational knack to quickly build and deploy rivetfiring turrets.
+      They can control the flow of every engagement with a flexible perimeter of supporting fire that pins down foes and provides allies with superior positioning. Some Riveters utilize their turrets only
+      as sentries to defend their homes and workshops, while others aggressively seek out conflicts to unleash a molten rain of iron rivets against anyone in their sights.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: riveter
+  classIdentifier: machinist
+  advancement:
+    1JQlUDhpYik5oFUG:
+      _id: 1JQlUDhpYik5oFUG
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.rS2Nq4fJPp1OTFvy
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.4FamowKXCxq8a3Gm
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.lk8mn0iw6Wq2TVJq
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    8byJ6FFKYGeloiZd:
+      _id: 8byJ6FFKYGeloiZd
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8otkdZGUAsU2MvMb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Subclass Features
+      hint: ''
+    116RRn1oEpykNqYN:
+      _id: 116RRn1oEpykNqYN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ZhupDdl2yM9c6m7I
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    tTWzEwkfAR8sKkzU:
+      _id: tTWzEwkfAR8sKkzU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8h9WAgoNZuggr7AT
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: AJj8g0fypwhXwvoN
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!zbZ4agy39s5vB0Ip'

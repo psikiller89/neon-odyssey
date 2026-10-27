@@ -1,0 +1,127 @@
+_id: z3JhGTbRXjbt40yA
+name: Spell Chip
+type: consumable
+img: icons/sundries/scrolls/scroll-bound-black-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 1500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A <em>Spell Chip</em> is a hypertech version of a <em>Spell Scroll</em>. A <em>Spell </em> <em>Chip</em> (Cantrip) or <em>Spell Chip</em> (Level 1) is a magic item that bears the words of
+      a cantrip or level 1 spell, respectively, determined by the chip’s creator. If the spell is on your class’s spell list, you can read the spell stored on the chip (a simple reader is included, or the
+      chip can be inserted in a computer or Datapad) and cast the spell using its normal casting time and without providing any Material components.</p><p>If the spell requires a saving throw or an attack
+      roll, the spell save DC is 13, and the attack bonus is +5. The chip (and its included reader if any) disintegrates when the casting is completed.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: scroll
+    subtype: ''
+  uses:
+    max: '1'
+    spent: 0
+    recovery: []
+    autoDestroy: true
+  properties: []
+  damage:
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    replace: false
+  magicalBonus: null
+  activities:
+    0qmLAm9hrlXsKwtk:
+      _id: 0qmLAm9hrlXsKwtk
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: spell-chip
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!z3JhGTbRXjbt40yA'

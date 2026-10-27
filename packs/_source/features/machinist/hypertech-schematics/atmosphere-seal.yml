@@ -1,0 +1,50 @@
+_id: f7Oyd66I5gsu2eAT
+name: Atmosphere Seal
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 5+ Machinist</em></p><p><strong>Gear:</strong> Light, Medium, or Heavy armor; hat; helmet; device A creature wearing the item can breathe regardless of the surrounding
+      environment and has Advantage on saving throws against gases and inhaled poisons.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: hypertechSchematic
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: atmosphere-seal
+  advancement: {}
+effects: []
+folder: rDqiq6VUZzbEUanT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!f7Oyd66I5gsu2eAT'

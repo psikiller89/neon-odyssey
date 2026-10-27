@@ -1,0 +1,49 @@
+_id: aiS9YAIa4HYkC9dK
+name: Defensive Delusion
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can shape your own mental realities so others may not. You have Resistance to Psychic damage, and you have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Psychonaut Esper
+  activities: {}
+  enchant: {}
+  identifier: defensive-delusion
+  advancement: {}
+effects: []
+folder: iIYvvG9Ga4e5RgAN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aiS9YAIa4HYkC9dK'

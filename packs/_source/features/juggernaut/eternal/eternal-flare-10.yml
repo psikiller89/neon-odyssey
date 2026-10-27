@@ -1,0 +1,50 @@
+_id: SwXoBa4HMhmLnmXX
+name: Eternal Flare
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your weapons pulse with mythic power that erupts past the limits of your strike. While your Surge is active and your Vessel of Power is in your possession, your reach increases by 5 feet.</p><p>Additionally,
+      your Energy Beam feature increases to a 60-foot-long, 10-foot-wide Line. The damage increases by 2d6 (dice total of 3d6), and targets now take half damage on a successful saving throw.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Eternal Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: eternal-flare
+  advancement: {}
+effects: []
+folder: m9J3z6dsJoJabIPZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!SwXoBa4HMhmLnmXX'

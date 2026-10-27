@@ -1,0 +1,142 @@
+_id: 844rJfgoPfQzigH7
+name: Ancient Apex
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You and your protosaur have become apex predators feared by prey across the galaxy. As a Bonus Action, you can command your protosaur to give a fearsome roar using its Bonus Action. For 1
+      minute, you gain the benefits below. Once you use this Bonus Action, you can’t use it again until you finish a Long Rest unless you expend a level 4+ spell slot to restore your use of it (no action
+      required).</p><p><strong>Apex Onslaught.</strong> When the protosaur takes the Attack action, it can make two Proto Strike attacks.</p><p><strong>Preternatural Packmates.</strong> You have Advantage
+      on an attack roll against a target while your protosaur is within 5 feet of it and the protosaur doesn’t have the Incapacitated condition.</p><p><strong>Survival Sense.</strong> You and the protosaur
+      add a bonus to saving throws equal to your Wisdom modifier (minimum of +1).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Protostalker Tracer
+  activities:
+    195gepwdkvIaw2JH:
+      _id: 195gepwdkvIaw2JH
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: 3J1s68WJXBgK4IJy
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: ancient-apex
+  advancement: {}
+effects:
+- _id: 3J1s68WJXBgK4IJy
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!844rJfgoPfQzigH7.3J1s68WJXBgK4IJy'
+folder: EIFt2WpGhAg7Oc3J
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!844rJfgoPfQzigH7'

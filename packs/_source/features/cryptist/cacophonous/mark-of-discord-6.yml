@@ -1,0 +1,103 @@
+_id: A9ZJXHKD9jN222Cq
+name: Mark of Discord
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You gain the power to mark someone’s soul for Discordant corruption. As a Magic action, you can curse a creature you can see within 60 feet of yourself with a mark of your discordant tone.
+      The target must succeed on a Wisdom saving throw against your spell save DC or be cursed for 1 minute. For the duration, the target must subtract 1d4 from D20 Tests, and it takes 2d8 damage at the
+      start of each of its turns. The damage type is determined by your discordant tone.</p><p>Once a creature fails its saving throw against this curse, you can’t use this feature again until you finish
+      a Short or Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cacophonous Cryptist
+  activities:
+    oUoWXCjd7GORByOV:
+      _id: oUoWXCjd7GORByOV
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: mark-of-discord
+  advancement: {}
+effects: []
+folder: T4nBRlumg2E718hz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!A9ZJXHKD9jN222Cq'

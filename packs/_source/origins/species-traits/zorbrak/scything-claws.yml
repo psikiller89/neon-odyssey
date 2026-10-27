@@ -1,0 +1,109 @@
+_id: VkOjVMvyM7jiHYlH
+name: Scything Claws
+type: feat
+img: modules/neon-odyssey/icons/species/zorbrak.webp
+folder: m6DTYwJwl6bBB8mG
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have a second pair of arms that end in sharp, blade-like claws that you can use to make Unarmed Strikes (Damage option only) with the Finesse property. On a hit, your claws deal 1d8 Slashing
+      damage plus your ability modifier instead of the normal damage of an Unarmed Strike. Additionally, if you have Advantage on an attack roll using your claws, it scores a Critical Hit on a roll of 19
+      or 20 on the d20.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zorbrak
+  activities:
+    9YaVyw3dEO4SkonF:
+      _id: 9YaVyw3dEO4SkonF
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: scything-claws
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VkOjVMvyM7jiHYlH'

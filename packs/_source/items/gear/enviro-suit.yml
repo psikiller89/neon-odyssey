@@ -1,0 +1,64 @@
+_id: AJg4Vrk9YlYwotl9
+name: Enviro Suit
+type: equipment
+img: icons/equipment/back/cloak-hooded-blue.webp
+system:
+  quantity: 1
+  weight:
+    value: 50.0
+    units: lb
+  price:
+    value: 2000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>An Enviro Suit is a bulky garment that includes a helmet, gloves that seal each seam, and removable mag boots that allow you to walk on metal surfaces in zero gravity. The suit takes 10 minutes
+      to don and 5 minutes to doff. While wearing the suit, you have Disadvantage on Dexterity (Stealth) checks. While sealed inside the suit, you have Advantage on saving throws against dangerous environments,
+      and you automatically succeed on saving throws against extreme cold or extreme heat. The suit holds 24 hours of breathable atmosphere.</p><p>You can refill the suit’s atmosphere using Gas Canisters
+      or by connecting it to a functioning life support system (such as those in starships).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: clothing
+    baseItem: ''
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  properties: []
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities: {}
+  identifier: enviro-suit
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!AJg4Vrk9YlYwotl9'

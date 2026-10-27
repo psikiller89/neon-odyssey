@@ -1,0 +1,105 @@
+_id: 8nDjzLgpYu5AaFtk
+name: Tactical Commander
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your tactical mind becomes sharper. Your Tactical Die increases to a d8, and you gain the following tactics.</p><p><strong>Bombard.</strong> As a Bonus Action, you can expend one Tactical
+      Die to choose two allies within 60 feet of yourself that can see or hear you. One target can add a roll of your Tactical Die to one attack roll it makes before the start of your next turn. When another
+      target forces creatures to make a Dexterity saving throw before the start of your next turn, one of the creatures subtracts a roll of your Tactical Die from the total.</p><p><strong>Secure the Area.</strong>
+      As a Bonus Action or when you roll Initiative, you can expend one Tactical Die to choose two allies within 30 feet of yourself and enhance their tactics for 1 minute. For the duration, one target
+      adds a roll of your Tactical Die to ability checks it makes for the Search action and gains Blindsight with a range of 10 feet, and another target can choose to add a roll of your Tactical Die to
+      Initiative rolls and Dexterity saving throws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Trooper Soldier
+  activities:
+    N3VnsQi90W48tMnU:
+      _id: N3VnsQi90W48tMnU
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: tactical-commander
+  advancement: {}
+effects: []
+folder: W5aOFEPr4VrQ1en8
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!8nDjzLgpYu5AaFtk'

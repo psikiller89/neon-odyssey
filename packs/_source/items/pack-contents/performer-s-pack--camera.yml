@@ -1,0 +1,52 @@
+_id: IP0KDTQiUhjoKQ8r
+name: Camera
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: UkkQ5CtN1WjfrVYc
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Camera can take still pictures or record video and audio. It stores recorded media on a removable Data Chip.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: camera
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IP0KDTQiUhjoKQ8r'

@@ -1,0 +1,97 @@
+_id: 5iG06oC8UVbP4k4J
+name: Rangor
+type: race
+img: modules/neon-odyssey/icons/species/rangor.webp
+system:
+  description:
+    value: <p>Rangor <em>(RAING-gor)</em> are a hulking, subterranean species with an inherent supernatural force of momentum brought on by the aether that suffuses their core. They can propel themselves
+      forward at surprising speeds given their bulk and have the innate ability to become an unstoppable force that can smash through anything in their way. Having first burrowed out of an asteroid of crystalized
+      aether, rangor typically have a wanderlust that keeps them in outer space. Many of them stay on the move and stop for limited periods of time at space stations, moons, asteroids, and other off-world
+      locations. Rangor generally have broad, bulky builds with proportionally long arms that end in digging claws and short legs. Their thick hides are mottled with patches of tough scales, and they grow
+      flaps of skin that resemble shaggy hair. A rangor’s nostrils sit in the middle of their forehead, and their short tusks continue to grow as they age.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    J9UJfxcUdfxrS2HF:
+      _id: J9UJfxcUdfxrS2HF
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 6–8 feet tall)
+      value: {}
+      title: ''
+    4Ev9vrd7lvxme6am:
+      _id: 4Ev9vrd7lvxme6am
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.lqNRvZhoBEKOMV34
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.rilb9lIX62LW6Bgr
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.2FZePW12B2XV5zvG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.GMK9QdVABWfd0Ias
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.5CrYR1ZJnuptCaM8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.pRlbrxYjxE6M29Tn
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Rangor Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      burrow: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 120
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: rangor
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!5iG06oC8UVbP4k4J'

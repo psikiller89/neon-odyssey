@@ -1,0 +1,52 @@
+_id: 6Tb7kA2iSE8FCBi9
+name: Engineered Evolution
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have invented upgrades to your buddy bot. Your bot gains one of the options below (your choice). You can change the selection with 10 minutes of work using Electronics Tools.</p><p><strong>Calibrated
+      Sensors.</strong> The bot can see Invisible creatures and objects within 60 feet of itself, and it adds twice your Proficiency Bonus to Intelligence (Investigation) and Wisdom (Perception) checks.</p><p><strong>Grabber
+      Claw.</strong> A Large or smaller creature hit by the Bot Bash attack has the Grappled condition from one of two arms (escape DC equals your spell save DC). Until the grapple ends, the target has
+      the Restrained condition.</p><p><strong>Powered Drive.</strong> The bot’s Speed increases by 20 feet.</p><ul><li><p><strong>Traits Actions Reactions</strong></p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Botnik Machinist
+  activities: {}
+  enchant: {}
+  identifier: engineered-evolution
+  advancement: {}
+effects: []
+folder: giWvboa9uiRIucmh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!6Tb7kA2iSE8FCBi9'

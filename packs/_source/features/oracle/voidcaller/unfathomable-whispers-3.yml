@@ -1,0 +1,50 @@
+_id: x7gp11a7o26sb19Z
+name: Unfathomable Whispers
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The forbidden whispers of the void grant you additional knowledge in certain domains. You gain proficiency in the Arcana and Religion skills. If you already have proficiency, you gain Expertise
+      instead.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Voidcaller Oracle
+  activities: {}
+  enchant: {}
+  identifier: unfathomable-whispers
+  advancement: {}
+effects: []
+folder: L8lMOeWgMj3Vj0Fc
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!x7gp11a7o26sb19Z'

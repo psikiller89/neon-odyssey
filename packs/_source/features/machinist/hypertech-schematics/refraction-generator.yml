@@ -1,0 +1,50 @@
+_id: bsNZXQd5qblVj9W1
+name: Refraction Generator
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 9+ Machinist</em></p><p><strong>Gear:</strong> Device; Light, Medium, or Heavy armor When you apply this schematic, choose one of the following damage types: Acid,
+      Cold, Fire, Force, Lightning, Radiant, Necrotic, or Thunder. A creature wearing the item has Resistance to the chosen damage type.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: hypertechSchematic
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: refraction-generator
+  advancement: {}
+effects: []
+folder: rDqiq6VUZzbEUanT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!bsNZXQd5qblVj9W1'

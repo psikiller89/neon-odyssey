@@ -1,0 +1,112 @@
+_id: xid0Jw3bijq0K8DA
+name: Harmony’s Grasp
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can reach through the Harmony’s ever-present flow. As an Attack action, or in place of an attack when you take that action on your turn, you can telekinetically move an object or another
+      creature that you can see within 30 feet of you. An object must be Medium or smaller. A creature must succeed on a Strength saving throw against your spell save DC or be affected. You move an affected
+      target up to 30 feet to an unoccupied space you can see.</p><p>You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain one expended use when you finish
+      a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.cha.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arbiter Enforcer
+  activities:
+    SltxPIudjhl8QJ3U:
+      _id: SltxPIudjhl8QJ3U
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: harmonys-grasp
+  advancement: {}
+effects: []
+folder: IMuGSJX19FaEdpSg
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!xid0Jw3bijq0K8DA'

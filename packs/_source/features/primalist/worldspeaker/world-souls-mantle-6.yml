@@ -1,0 +1,100 @@
+_id: UnsOQUYKfTsqM2h1
+name: World Soul’s Mantle
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The energy of your world erupts around you, no matter where you are. You gain the following benefits.</p><p><strong>Planetary Travel.</strong> While your Planetary Embodiment is active, you
+      ignore Difficult Terrain, and you can take the Dash action as a Bonus Action (which can be done as part of the Bonus Action to activate or use the feature).</p><p><strong>Worldly Resistance.</strong>
+      When you select your World Bond, choose one of the damage types associated with it. You gain Resistance to that damage type until you select a World Bond again. Abundant Acidic, Idyllic, Verdant Acid,
+      Piercing, Poison Defiled Deathly, Eldritch, Entropy, Instinct, Progress, Radioactive, Space, Technological, Thrill, Toxic Necrotic, Psychic, Slashing Turbulent Airy, Aquatic, Frigid, Storming Cold,
+      Lightning, Thunder Unforgiving Luminous, Rocky, Scorching Bludgeoning, Fire, Radiant</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities:
+    1UeOQF3E4wtF6wgU:
+      _id: 1UeOQF3E4wtF6wgU
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: world-souls-mantle
+  advancement: {}
+effects: []
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UnsOQUYKfTsqM2h1'

@@ -1,0 +1,124 @@
+_id: IMqVx9OOI2DS9i0I
+name: Psychic Needle
+type: spell
+img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+system:
+  description:
+    value: <p>You drive a point of psychic pain into the mind of a creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and the next saving
+      throw it makes before the end of your next turn has its DC increased by 1d4.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: round
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '60'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 0
+  school: enc
+  properties:
+  - vocal
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    5g2GIkpyPnLEhC24:
+      _id: 5g2GIkpyPnLEhC24
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: null
+            formula: ''
+  identifier: psychic-needle
+effects: []
+folder: N14uQ9l4I9dridBe
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IMqVx9OOI2DS9i0I'

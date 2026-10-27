@@ -1,0 +1,91 @@
+_id: tOMmcfrkhnzH0VX2
+name: Instinctive Scan
+type: feat
+img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+system:
+  description:
+    value: <p>You constantly scan your surroundings and process the tiniest details. This grants you Blindsight with a range of 30 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: instinctive-scan
+  advancement: {}
+  crewed: false
+effects:
+- name: Feral Senses
+  img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
+  _id: ji48r1IGeRKQhpi9
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.blindsight
+      value: 30
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: 3hJKiIoBuOirgPK0
+      conditions: '{}'
+      replacement: ''
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!tOMmcfrkhnzH0VX2.ji48r1IGeRKQhpi9'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!tOMmcfrkhnzH0VX2'

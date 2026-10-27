@@ -1,0 +1,251 @@
+_id: mZTzz93mKhrqfffA
+name: Energy Disruption
+type: feat
+img: icons/skills/melee/unarmed-punch-fist-blue.webp
+system:
+  description:
+    value: <p>Your strikes can block and disrupt the flow of energy within your foes. Once per turn when you hit a creature with a Disciple weapon or an Unarmed Strike, you can expend 1 Essence Point to
+      disrupt the target’s essential energies. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful
+      save, the target’s Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ki
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities:
+    Xto99a8Zt46VLwaR:
+      type: save
+      _id: Xto99a8Zt46VLwaR
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:monks-focus
+          scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '1'
+        expiry: null
+      effects:
+      - _id: vofnieSTB0l8rpRg
+        onSave: false
+        level:
+          min: null
+          max: null
+        uuid: null
+      - _id: cj9HhBNKtF6iOsH4
+        onSave: false
+        level:
+          min: null
+          max: null
+        uuid: null
+      - _id: KNyMBoCNJv7TIgZd
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+        - con
+        dc:
+          calculation: wis
+          formula: ''
+        bonus: ''
+        visible: true
+      name: ''
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: energy-disruption
+  advancement: {}
+  crewed: false
+effects:
+- name: Stunned
+  img: icons/skills/melee/unarmed-punch-fist-blue.webp
+  origin: Compendium.neon-odyssey.features.Item.mZTzz93mKhrqfffA
+  transfer: false
+  _id: vofnieSTB0l8rpRg
+  type: base
+  system:
+    changes: []
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  disabled: false
+  duration:
+    value: null
+    units: rounds
+    expiry: sourceStart
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses:
+  - stunned
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  showIcon: 2
+  start: null
+  folder: null
+  _key: '!items.effects!mZTzz93mKhrqfffA.vofnieSTB0l8rpRg'
+- name: Slowed
+  img: icons/magic/control/debuff-energy-snare-purple-pink.webp
+  origin: Compendium.neon-odyssey.features.Item.mZTzz93mKhrqfffA
+  transfer: false
+  _id: cj9HhBNKtF6iOsH4
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.multiplier
+      value: 0.5
+      priority: null
+      type: multiply
+      phase: initial
+      _id: DvtgKfRbYGoqUZPq
+      conditions: '{}'
+      replacement: ''
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  disabled: false
+  duration:
+    value: null
+    units: rounds
+    expiry: sourceStart
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags:
+    dnd5e:
+      riders: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!mZTzz93mKhrqfffA.cj9HhBNKtF6iOsH4'
+- _id: KNyMBoCNJv7TIgZd
+  name: Stunned
+  img: systems/dnd5e/icons/svg/statuses/stunned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - stunned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!mZTzz93mKhrqfffA.KNyMBoCNJv7TIgZd'
+flags: {}
+sort: 1600000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!mZTzz93mKhrqfffA'

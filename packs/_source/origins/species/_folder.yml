@@ -1,0 +1,20 @@
+name: Species
+sorting: a
+folder: null
+type: Item
+_id: AQN9LqaIPWCyrPuK
+description: ''
+sort: 1
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!AQN9LqaIPWCyrPuK'

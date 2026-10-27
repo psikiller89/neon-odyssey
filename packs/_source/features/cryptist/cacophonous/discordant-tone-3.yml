@@ -1,0 +1,50 @@
+_id: e1AVWQfxWVXxkSz1
+name: Discordant Tone
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The four Discordant tones of Cacophony vie for your soul. Choose your discordant tone when you select this subclass or roll it randomly, using the Discordant Tones table. Your tone is associated
+      with a damage type and affects later features. Entropy Cold Instinct Acid Progress Lightning Thrill Psychic</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cacophonous Cryptist
+  activities: {}
+  enchant: {}
+  identifier: discordant-tone
+  advancement: {}
+effects: []
+folder: T4nBRlumg2E718hz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!e1AVWQfxWVXxkSz1'

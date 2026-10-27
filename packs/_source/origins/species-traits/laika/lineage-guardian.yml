@@ -1,0 +1,49 @@
+_id: RZE8c9t3jTaNz1IJ
+name: 'Laika Lineage: Guardian'
+type: feat
+img: modules/neon-odyssey/icons/species/laika.webp
+folder: HxdiA1xDFFhCaHQ4
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When a creature damages you or your allies, you have Advantage on the next attack roll you make against that creature before the end of your next turn.</p><p><strong>Pack Minded (character
+      level 3).</strong> The next time you or the ally you help take damage within 1 minute, the target gains Resistance against that damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Laika
+  activities: {}
+  enchant: {}
+  identifier: laika-lineage-guardian
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!RZE8c9t3jTaNz1IJ'

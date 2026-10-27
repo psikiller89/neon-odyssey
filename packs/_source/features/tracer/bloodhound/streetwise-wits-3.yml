@@ -1,0 +1,98 @@
+_id: Wp4vZYrZrwZpcjze
+name: Streetwise Wits
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your eyes, mind, and tongue are quick, even in the heat of battle. As a Bonus Action, you can take the Influence, Search, or Study actions.</p><p>You can take the Search action to scrutinize
+      a creature you can see within 60 feet of yourself. Make a DC 15 Wisdom (Insight) check. On a success, in addition to anything you learn about the creature, for 1 minute, the first attack roll you
+      make against the target on your turn has Advantage. This sense ends early if you scrutinize another creature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Bloodhound Tracer
+  activities:
+    8lgcbZixM0bSf4Qr:
+      _id: 8lgcbZixM0bSf4Qr
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: streetwise-wits
+  advancement: {}
+effects: []
+folder: 8ed9dx0J5FCd9Fw5
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Wp4vZYrZrwZpcjze'

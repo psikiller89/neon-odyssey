@@ -1,0 +1,121 @@
+_id: nzMzssJa3HdMcWfg
+name: Hunter’s Arsenal
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your Power Armor is outfitted with built-in weapon systems, granting the following benefits.</p><p><strong>Arsenal System.</strong> While wearing your Power Armor, you can activate or deactivate
+      your armor’s arsenal system whenever you can draw or stow a weapon. While active, you can use your armor’s arsenal system as a Martial Melee or Ranged weapon with the Finesse property, a reach of
+      5 feet, and a range of 100/300 feet. On a hit, the weapon deals 1d8 Force damage plus your ability modifier.</p><p><strong>Charge Burst. </strong>As a Bonus Action while your arsenal system is activated,
+      you can make one attack with it, and on a hit, you can activate the Push or Sap mastery property. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of twice),
+      and you regain all expended uses when you finish a Short or Long Rest.</p><p><strong>Integrated Weapon.</strong> Using Mechanic’s Tools, when you finish a Short or Long Rest, you can integrate (or
+      remove) a Melee or Ranged weapon into your Power Armor, causing the weapon to vanish. The weapon reappears in the armor’s space when the weapon is removed or when the armor is no longer your Power
+      Armor. You can have one weapon integrated into the armor at a time, and you can’t drop the integrated weapon.</p><p>While your arsenal system is active, the gauntlet and forearm of one of the armor’s
+      arms transform into your integrated weapon, and you can attack with your integrated weapon normally. Your hand inside the weapon can’t hold or manipulate other objects.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.wis.mod)
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Powertech Tracer
+  activities:
+    5QKbbSVIreOQqg9I:
+      _id: 5QKbbSVIreOQqg9I
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: hunters-arsenal
+  advancement: {}
+effects: []
+folder: X4HPIohiyzVSXvRW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nzMzssJa3HdMcWfg'

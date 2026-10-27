@@ -1,0 +1,538 @@
+_id: Rvw8MGjVm3XnuomJ
+name: Icon
+type: class
+img: modules/neon-odyssey/icons/classes/icon.png
+system:
+  description:
+    value: '<h3>Core Icon Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8 per Icon level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Dexterity
+      and Charisma</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose any 3 skills</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th
+      scope="row"><p>Tool Proficiencies</p></th><td><p>Choose Artist’s Supplies or 3 Musician’s Instruments (see the Equipment section)</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light
+      armor</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Light Armor, Combat Knife, Light Laser Pistol, 2 Power Cells, choose Artist’s Supplies or Musician’s
+      Instrument or Hypertech Component Pack, Performer’s Pack, and $760; or (B) $5,500</p></td></tr></tbody></table><p><strong>Hit Point Die</strong> D8 per Icon level <strong>Saving Throw  Proficiencies</strong>
+      Dexterity and Charisma <strong>Skill Proficiencies</strong> <em>Choose any 3 skills</em> <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Tool Proficiencies</strong> <em>Choose Artist’s
+      Supplies or 3 Musician’s </em> <em>Instruments</em> (see the Equipment section) <strong>Armor Training</strong> Light armor <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Light Armor,
+      Combat Knife, Light Laser Pistol, 2 Power Cells, choose Artist’s Supplies or Musician’s Instrument or Hypertech Component Pack, Performer’s Pack, and $760; or (B) $5,500 Icons are living voices of
+      the Stardust Rhapsody, the grand cosmic melody that created and still echoes through the galaxy. Icons feel this song of creation—sometimes called the song of existence—deep within themselves, resonating
+      with the galactic symphony to perform melodic magic. Their unique talent to perceive and weave the Rhapsody also allows them to directly touch the cosmic note within those around them, instilling
+      them with uplifting hope and inspiration.</p><p>Every life lived, every story told, and every tune sung is a new note in the song of existence. As a result, most Icons spend much of their lives traveling
+      across the Stardust Rhapsody to experience as much of its inspiring beauty as possible. They seek out strong connections with friends, loved ones, and allies that string together into a melody unique
+      to them.</p><p>While many Icons are musicians, the song of creation answers to all forms of artistic expression including visual arts, dance, and spoken word. There are even those who harness its
+      power as an activist, reporter, streamer, and other forms of influence and entertainment. No matter the form of expression, they seek to inspire others to add their voices to the great cosmic chorus.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: aKweOQtY27MNHwbs
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: X6jq92batim1tM4c
+    type: AND
+    group: aKweOQtY27MNHwbs
+    requiresProficiency: false
+    sort: 200000
+  - _id: xkPiiZA2uq8sLevZ
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.lAMG4zR378snhyS6
+    count: null
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 300000
+  - _id: LQisutbcFt8iXMi9
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: null
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 400000
+  - _id: pk7GGchX0truVOo8
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.xFvEJzE9dVlaWAX4
+    count: null
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 500000
+  - _id: 5BjAl1H5DNiZSmwp
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 2
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 600000
+  - _id: Q5wRlS0mRSijssIL
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.UkkQ5CtN1WjfrVYc
+    count: null
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 700000
+  - _id: HT5EHfIFRZ0dr9Rf
+    type: currency
+    key: gn
+    count: 760
+    group: X6jq92batim1tM4c
+    requiresProficiency: false
+    sort: 800000
+  - _id: KH8dLAhpOdFsJeyO
+    type: AND
+    group: aKweOQtY27MNHwbs
+    requiresProficiency: false
+    sort: 900000
+  - _id: zAKCASaM7ZFP4CRh
+    type: currency
+    key: gn
+    count: 5500
+    group: KH8dLAhpOdFsJeyO
+    requiresProficiency: false
+    sort: 1000000
+  identifier: icon
+  levels: 1
+  advancement:
+    ZxvWh6VVEyxNXBkx:
+      _id: ZxvWh6VVEyxNXBkx
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 4
+      title: ''
+    B8ZYPClljGmIdxjl:
+      _id: B8ZYPClljGmIdxjl
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 8
+      title: ''
+    7R1ktICniomiGkiZ:
+      _id: 7R1ktICniomiGkiZ
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 12
+      title: ''
+    qs1yWeyecJMaX17E:
+      _id: qs1yWeyecJMaX17E
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 16
+      title: ''
+    A5T1rsj28aK7qQdm:
+      _id: A5T1rsj28aK7qQdm
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '2':
+            value: 5
+          '3':
+            value: 6
+          '4':
+            value: 7
+          '5':
+            value: 9
+          '6':
+            value: 10
+          '7':
+            value: 11
+          '8':
+            value: 12
+          '9':
+            value: 14
+          '10':
+            value: 15
+          '11':
+            value: 16
+          '13':
+            value: 17
+          '15':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+          '19':
+            value: 21
+          '20':
+            value: 22
+      value: {}
+      title: Max Prepared Spells
+      hint: ''
+    jhPf4YuOvE1POUaX:
+      _id: jhPf4YuOvE1POUaX
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    afzqphkin9YZOIBf:
+      _id: afzqphkin9YZOIBf
+      type: ScaleValue
+      configuration:
+        identifier: inspiration
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: null
+            faces: 6
+            modifiers: []
+          '5':
+            number: null
+            faces: 8
+            modifiers: []
+          '10':
+            number: null
+            faces: 10
+            modifiers: []
+          '15':
+            number: null
+            faces: 12
+            modifiers: []
+      value: {}
+      title: Inspiration Die
+      hint: ''
+    zHtnbRgLICltyy8V:
+      _id: zHtnbRgLICltyy8V
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 2
+      title: Expertise
+    e8hDmktYGVFiT6M0:
+      _id: e8hDmktYGVFiT6M0
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 9
+      title: ''
+    U0u27jvpuWGcbhV5:
+      _id: U0u27jvpuWGcbhV5
+      type: HitPoints
+      configuration: {}
+      value: {}
+    pqZADBERYfrNsOMx:
+      _id: pqZADBERYfrNsOMx
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+    iFuxb8gJBCVtfegb:
+      _id: iFuxb8gJBCVtfegb
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: ''
+    5Dar82bZhYxSpxG7:
+      _id: 5Dar82bZhYxSpxG7
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armor Training
+      hint: ''
+    kPeKGxUo8GJygCJG:
+      _id: kPeKGxUo8GJygCJG
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: secondary
+    TW8tZRiPnGbJ0hCU:
+      type: AbilityScoreImprovement
+      _id: TW8tZRiPnGbJ0hCU
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
+        max: null
+      value: {}
+      level: 19
+      title: ''
+      hint: ''
+    LhUZVl0LZznaCF80:
+      _id: LhUZVl0LZznaCF80
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:dex
+        - saves:cha
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    APgyb7fm1w81IC7O:
+      _id: APgyb7fm1w81IC7O
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 3
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    ZKht6HRzvmFIdfLb:
+      _id: ZKht6HRzvmFIdfLb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.U0TVmJLdHOoEAikk
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.YVLJ9nkv1iZcEqGl
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    zODI96VVBWVm1fNs:
+      _id: zODI96VVBWVm1fNs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.mIxDXKhvggutPcMy
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.uACyjsDoWuQkF2fa
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    eU2vD3YuJ9vH0I2E:
+      _id: eU2vD3YuJ9vH0I2E
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3b5iVfWEKesXF26V
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    XSBrbB750yfTfish:
+      _id: XSBrbB750yfTfish
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3zFV7JeLBmQdrr4P
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    RXiaIMQve2Cykn4v:
+      _id: RXiaIMQve2Cykn4v
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.TsAOV30qUdIFrttv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      hint: ''
+    RxRSPJmdiwW8d6h9:
+      _id: RxRSPJmdiwW8d6h9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.0LzZA07OCCghU21r
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    2ZwBCvvuIqrCG1y6:
+      _id: 2ZwBCvvuIqrCG1y6
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.N7BlDlCd84qWMTsV
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: full
+    ability: cha
+    preparation:
+      formula: '@scale.icon.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - cha
+    all: true
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+effects: []
+folder: iTtWgDdgkKnLdWfc
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!Rvw8MGjVm3XnuomJ'

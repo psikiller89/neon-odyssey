@@ -1,0 +1,50 @@
+_id: igyhH19ytcmcvtPz
+name: Ballistic Shielding
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You emit a technological field that deflects incoming gunfire. When you or your allies within your Zone of Safety take damage from a ranged attack, reduce the damage taken by 3. The reduction
+      increases by 1 when you reach Enforcer levels 9 (reduce by 4), 13 (reduce by 5), and 17 (reduce by 6).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities: {}
+  enchant: {}
+  identifier: ballistic-shielding
+  advancement: {}
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!igyhH19ytcmcvtPz'

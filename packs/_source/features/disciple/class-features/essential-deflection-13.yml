@@ -1,0 +1,51 @@
+_id: wHHKM5XWujwYB6v2
+name: Essential Deflection
+type: feat
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  description:
+    value: <p>Your control over your spirit is controlled enough to shield you from all harmful energies. You can now use your Centered Deflection feature against attacks that deal any damage type, not
+      just Bludgeoning, Piercing, Radiant, or Slashing.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: essential-deflection
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 400000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!wHHKM5XWujwYB6v2'

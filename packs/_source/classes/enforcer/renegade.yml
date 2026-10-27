@@ -1,0 +1,104 @@
+_id: fBGLGcmzSdpivgE0
+name: Renegade
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/renegade.webp
+system:
+  description:
+    value: <p><em>Break the Rules to Smash the Corrupt</em> Renegades are Enforcers who take justice into their own hands when the system fails, enforcing their code with fists, fury, and whatever is in
+      reach. Having little patience for honor, procedure, or authority, they fight dirty to smash corrupt individuals and power structures that would abuse the defenseless. Some Renegades protect the streets
+      they call home, while others wander from city to city, brutally beating down those who would try to subjugate or terrorize the powerless.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: renegade
+  classIdentifier: enforcer
+  advancement:
+    7RFHtP9v6ZiJ4MZe:
+      _id: 7RFHtP9v6ZiJ4MZe
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Bl3MkYgLTu8HdC7A
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.KEtPisxf3c3Ne1uU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.GBvQ9YeZXHG7wGvE
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    eAWqNpAZhcwQjS7y:
+      _id: eAWqNpAZhcwQjS7y
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.5lyBTZWLfQ9s2Wpi
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    99FBWkkCqAIo37t1:
+      _id: 99FBWkkCqAIo37t1
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.J94tSu9UXQzxNWx0
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    Se6vaEuFsaxSp7lb:
+      _id: Se6vaEuFsaxSp7lb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.zo0TZ87bTuC0SUaC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: spYUbXQtBgB2o1ja
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!fBGLGcmzSdpivgE0'

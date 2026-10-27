@@ -1,0 +1,20 @@
+name: Level 7
+sorting: a
+folder: null
+type: Item
+_id: BpWdy9M2WRY2eaIg
+description: ''
+sort: 7000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!BpWdy9M2WRY2eaIg'

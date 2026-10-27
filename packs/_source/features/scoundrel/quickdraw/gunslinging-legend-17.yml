@@ -1,0 +1,52 @@
+_id: Im1wP2tiHUS25tMS
+name: Gunslinging Legend
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Tall tales of your shooting skills are told in saloons across the galaxy. You gain the following benefits.</p><p><strong>Deadshot.</strong> Once on each of your turns when you reduce a creature
+      to 0 Hit Points with an attack made with a Ranged weapon, you can immediately make another attack with the same weapon against a different creature. If this attack hits, you also deal half your Cheap
+      Shot damage to the target.</p><p><strong>Run for Cover.</strong> When you use your Lucky Break feature, you can move up to half your Speed without provoking Opportunity Attacks as part of the same
+      Reaction.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Quickdraw Scoundrel
+  activities: {}
+  enchant: {}
+  identifier: gunslinging-legend
+  advancement: {}
+effects: []
+folder: c6BNif2mWF4lJyqj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Im1wP2tiHUS25tMS'

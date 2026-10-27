@@ -1,0 +1,72 @@
+_id: 1WkfdQsWuMpndXNN
+name: Heavy Armor
+type: equipment
+img: icons/equipment/chest/breastplate-collared-steel.webp
+system:
+  quantity: 1
+  weight:
+    value: 55.0
+    units: lb
+  price:
+    value: 3750
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><em>AC 16</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: heavy
+    baseItem: ''
+  armor:
+    value: 16
+    magicalBonus: null
+    dex: 0
+  strength: 13
+  properties:
+  - stealthDisadvantage
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  speed:
+    value: null
+    conditions: ''
+  proficient: null
+  activities: {}
+  identifier: heavy-armor
+effects: []
+folder: 49juRR3r5WiVOAz9
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1WkfdQsWuMpndXNN'

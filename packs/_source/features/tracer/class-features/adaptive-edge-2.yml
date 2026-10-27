@@ -1,0 +1,85 @@
+_id: zijNqfv1kByUQktF
+name: Adaptive Edge
+type: feat
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  description:
+    value: <p>You have adapted to the primal wilds of the galaxy. You gain the following benefits.</p><p><strong>Expertise.</strong> Choose one of your skill proficiencies with which you lack Expertise.
+      You gain Expertise in that skill.</p><p><strong>Languages.</strong> You know two languages of your choice from the language tables in the Setting Primer.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: adaptive-edge
+  advancement:
+    wzh6lW4bOlQy4geS:
+      _id: wzh6lW4bOlQy4geS
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - languages:*
+      value:
+        chosen: []
+      level: 2
+      hint: <p>You know two languages of your choice from the language tables in chapter 2.</p>
+      flags: {}
+      name: ''
+    PLqssMc398jEsEW4:
+      _id: PLqssMc398jEsEW4
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 2
+      hint: <p>Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.</p>
+      flags: {}
+      name: Expertise
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!zijNqfv1kByUQktF'

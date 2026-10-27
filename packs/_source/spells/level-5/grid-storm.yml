@@ -1,0 +1,142 @@
+_id: 6pOg3gbpUqTr4M2Y
+name: Grid Storm
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+system:
+  description:
+    value: <p>You cause an electrical storm that disrupts access to the Hypergrid in a 20-foot Cube centered on a point you can see within range. While in this area, creatures have the Blinded and Deafened
+      conditions and have Disadvantage on Constitution saving throws made to maintain Concentration. Additionally, Power Cells and powered equipment don’t function in this area.</p><p>When the storm appears,
+      each creature in it makes a Dexterity saving throw, taking 2d8 Force damage and 2d8 Lightning damage on a failed save or half as much damage on a successful one. A creature also makes this save when
+      it enters the spell’s area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Force and
+      Lightning damage increase by 1d8 for each spell slot level above 5.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: special
+    value: null
+    condition: 1 Action
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: cube
+      size: '20'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '90'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 5
+  school: evo
+  properties:
+  - vocal
+  - somatic
+  - material
+  - concentration
+  materials:
+    value: a small magnet
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    qwWw1n1NYnlwUcWu:
+      _id: qwWw1n1NYnlwUcWu
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: grid-storm
+effects: []
+folder: KWpE1CiC6PgaF2z3
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!6pOg3gbpUqTr4M2Y'

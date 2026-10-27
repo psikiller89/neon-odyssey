@@ -1,0 +1,151 @@
+_id: PY3YFlz46IhW7kSA
+name: Field of Stars
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You call down the stars to guide you and your allies. As a Magic action, you present your Cosmic Symbol and expend a use of your Cosmic Conduit to create a field of stars in a 20foot Emanation
+      originating from you that lasts for 1 minute. The area is filled with Dim Light, and if you or your allies in it have the Frightened condition, the condition is suppressed while the field persists.
+      Additionally, you and your allies in the field gain a benefit determined by your Guiding Starlight triad.</p><p><strong>Beacon.</strong> Once per turn, when an affected creature hits with an attack
+      roll and deals damage, the target takes an extra 1d4 Radiant damage. The damage increases to 1d6 at Oracle level 6.</p><p><strong>Chronicle.</strong> Your Speed increases by 5 feet, and when an ally
+      moves into the field or starts its turn there, its Speed increases by 5 feet until the end of its next turn. While a creature’s Speed is increased in this way, it doesn’t provoke Opportunity Attacks.
+      The Speed bonus increases to 10 feet at Oracle level 6.</p><p><strong>Fountain.</strong> When an affected creature fails a Saving Throw, you can take a Reaction to add 1d4 to the total, possibly turning
+      the failure into a success. The die increases to 1d6 at Oracle level 6.</p><p><strong>Tower.</strong> When an affected creature takes damage, it can take a Reaction to reduce the damage by 1d4 plus
+      your Wisdom modifier (minimum of +1). The die increases to 1d8 at Oracle level 6.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Stargazer Oracle
+  activities:
+    XDx6skbws4w1SdV1:
+      _id: XDx6skbws4w1SdV1
+      type: damage
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: fRtX6fqHy8wWSgyM
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 4
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: field-of-stars
+  advancement: {}
+effects:
+- _id: fRtX6fqHy8wWSgyM
+  name: Frightened
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - frightened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!PY3YFlz46IhW7kSA.fRtX6fqHy8wWSgyM'
+folder: S0v5ja68ap8lA9lh
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PY3YFlz46IhW7kSA'

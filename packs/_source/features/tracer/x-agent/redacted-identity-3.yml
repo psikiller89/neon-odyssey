@@ -1,0 +1,50 @@
+_id: mObBe0GvpvShV5ci
+name: Redacted Identity
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You know how to ward off the inexplicable and nefarious perils of the galaxy. While you are under the effect of the <em>Protection from Evil and Good</em> spell, creatures other than your
+      allies must succeed on a DC 20 Wisdom (Perception) check to remember any identifying details about you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: X-Agent Tracer
+  activities: {}
+  enchant: {}
+  identifier: redacted-identity
+  advancement: {}
+effects: []
+folder: zHKdbS3wrngiYRsW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mObBe0GvpvShV5ci'

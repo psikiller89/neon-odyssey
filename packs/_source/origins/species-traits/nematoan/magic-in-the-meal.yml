@@ -1,0 +1,54 @@
+_id: ZWCzWuvOIQJgDQ7L
+name: Magic in the Meal
+type: feat
+img: modules/neon-odyssey/icons/species/nematoan.webp
+folder: LbjiilnYXxRioyYF
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Your stomach draws power from what you’ve eaten. When you use your Gourmand of Variety trait, provided the creature died no more than 1 hour before, you can also gain an additional benefit
+      depending on the creature’s highest ability score (choose in case of a tie). The benefit lasts for 1 hour, and for the duration, you have Advantage on ability checks and saving throws using that ability.
+      Once you gain a benefit, you can’t gain that benefit again until you finish a Long Rest.</p><p><strong>Strength.</strong> When you make a damage roll, you can reroll one of the dice and use the new
+      roll.</p><p><strong>Dexterity.</strong> Your Speed increases by 10 feet.</p><p><strong>Constitution.</strong> If you have no Temporary Hit Points at the start of your turn, you gain a number of them
+      equal to your Constitution modifier plus your Proficiency Bonus.</p><p><strong>Intelligence.</strong> You have telepathy with a range of 30 feet times your Proficiency Bonus, and you can cast <em>Mage
+      Hand</em> (the hand is Invisible). Intelligence is your spellcasting ability for it.</p><p><strong>Wisdom.</strong> You gain Blindsight with a range of 10 feet.</p><p><strong>Charisma.</strong> The
+      attitude of Hostile creatures improves to Indifferent toward you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Nematoan
+  activities: {}
+  enchant: {}
+  identifier: magic-in-the-meal
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZWCzWuvOIQJgDQ7L'

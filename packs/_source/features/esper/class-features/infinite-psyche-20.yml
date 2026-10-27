@@ -1,0 +1,52 @@
+_id: cuGpO7vrGNRbbL0R
+name: Infinite Psyche
+type: feat
+img: icons/magic/symbols/circled-gem-pink.webp
+system:
+  description:
+    value: <p>There are no longer limits to your mindscape or the Psi within. While your Unbound Psyche feature is active, you gain the following benefits.</p><p><strong>Boundless Mind.</strong> You can
+      use one Psi Shaping option on each of your turns without spending Psi Points on it.</p><p><strong>Psionic Omnipresence.</strong> You gain Truesight out to 30 feet, and your damage rolls ignore a target’s
+      Resistances.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: infinite-psyche
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: A48O1TAuWsYMNrHN
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!cuGpO7vrGNRbbL0R'

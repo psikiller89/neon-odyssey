@@ -1,0 +1,77 @@
+_id: R7dtYG9YWcGW8Xam
+name: Root Access
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your clever programming allows you to spike into the code within objects, constructs, and living things. You always have the <em>Animate Objects</em> and <em>Dominate Person</em> spells prepared.
+      You can cast one of these spells once without expending a spell slot, and when you do so, you can modify it in a way based on the spell you cast.</p><p>Once you cast either spell without a spell slot,
+      you must finish a Long Rest before you use this feature again.</p><p><strong>Animate Objects.</strong> The spell doesn’t require Concentration, and its duration becomes 1 minute for that casting.
+      The spell ends early if you cast it again.</p><p><strong>Dominate Person.</strong> You can target Constructs with the spell. When you cast the spell without a spell slot using this feature, it ignores
+      a Construct’s Immunity to the Charmed condition, if any.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hypercoder Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: root-access
+  advancement:
+    DfJpvroZpYEF1UAg:
+      _id: DfJpvroZpYEF1UAg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateObj
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDominatePe
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 14
+      title: Root Access
+      hint: ''
+effects: []
+folder: Jm9pck4aLvG2dZ1L
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!R7dtYG9YWcGW8Xam'

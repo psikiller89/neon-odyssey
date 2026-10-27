@@ -1,0 +1,97 @@
+_id: ftFvNhSdhir0BVGm
+name: Rusty Spikes
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You graft jagged scrap bits to your clothing or armor. When a creature hits you with an attack roll, you can take a Reaction to reduce the damage you take by 2d6. If the triggering attack
+      was a melee attack, the attacker takes an equal amount of Piercing damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Scrapper Juggernaut
+  activities:
+    LmzB4qMdYECG2vX9:
+      _id: LmzB4qMdYECG2vX9
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: rusty-spikes
+  advancement: {}
+effects: []
+folder: Lzdgh5AIn4r1NEZp
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ftFvNhSdhir0BVGm'

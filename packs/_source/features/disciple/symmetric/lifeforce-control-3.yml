@@ -1,0 +1,51 @@
+_id: n16sY7FJj2Mx2dge
+name: Lifeforce Control
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Once per turn when you activate one of your Channeled Essence options using an Essence Point, you can activate one of the following effects of your choice: <strong>Redirect Vitality.</strong>
+      One creature you can see within 30 feet of yourself (you can target yourself) regains a number of Hit Points equal to one roll of your Combat Tradition die. <strong>Somber Cull.</strong> The next
+      creature you hit with an attack roll before the end of your next turn takes extra Necrotic damage equal to one roll of your Combat Tradition die.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symmetric Disciple
+  activities: {}
+  enchant: {}
+  identifier: lifeforce-control
+  advancement: {}
+effects: []
+folder: REWshjqiTR81HmVP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!n16sY7FJj2Mx2dge'

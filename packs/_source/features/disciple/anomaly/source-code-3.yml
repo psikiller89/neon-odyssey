@@ -1,0 +1,50 @@
+_id: nBBX9g1eVywBKYCC
+name: Source Code
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>A digital database is always at your fingertips. Whenever you finish a Short or Long Rest, you can choose one skill or tool proficiency that you lack and gain it by downloading the knowledge
+      from the Hypergrid. You lose this proficiency when you use this feature to choose a different proficiency that you lack.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Anomaly Disciple
+  activities: {}
+  enchant: {}
+  identifier: source-code
+  advancement: {}
+effects: []
+folder: R1sTyl01UoM2xoW9
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nBBX9g1eVywBKYCC'

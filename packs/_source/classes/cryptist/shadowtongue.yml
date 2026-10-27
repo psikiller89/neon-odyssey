@@ -1,0 +1,105 @@
+_id: PpbKjgFqwB0ydfuW
+name: Shadowtongue
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/shadowtongue.webp
+system:
+  description:
+    value: <p><em>Control the Living and the Dead with a Whisper</em> Shadowtongues have uncovered the truths of mortal life essence and the ways in which the Harmony flows through living things, and they
+      have learned how to manipulate and dominate it with their voice alone. They whisper secret frequencies to twist emotion and desire toward their aims, eventually discovering how to sever one’s connection
+      to the Harmony to bind mind, body, and soul to their will. Many Shadowtongues find themselves in positions of power, guiding the galaxy from the shadows, while others forgo the concerns of the living
+      and fully embrace the curse of undeath.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: shadowtongue
+  classIdentifier: cryptist
+  advancement:
+    fXJ43SyP5WZjpZuB:
+      _id: fXJ43SyP5WZjpZuB
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.DyjWcsYU1IL70s5m
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.J8KR57rjZ3Dm6V3y
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    dj3ApnNtKFnX0wl7:
+      _id: dj3ApnNtKFnX0wl7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.U6uSvn8KDxcOdBxk
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.HOe5nclViVZ4jYIZ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    zKeYUNl9VDQhJwTL:
+      _id: zKeYUNl9VDQhJwTL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.bFow8KUd6rj2nfkb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    cwZtFCzhnZqyPBwA:
+      _id: cwZtFCzhnZqyPBwA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.BbOdracKIPf83tnG
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: V33SdDpvnwMZjPPw
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!PpbKjgFqwB0ydfuW'

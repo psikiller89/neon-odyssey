@@ -1,0 +1,53 @@
+_id: 9k7KwMfv41855DEU
+name: Force of the Ancients
+type: feat
+img: icons/magic/nature/leaf-arrowheads-glow-green.webp
+system:
+  description:
+    value: <p>You unleash the wrath of the primordial forces of the galaxy. The option you chose for Primordial Fury boils over with power, as detailed below.</p><p><strong>Elemental Chaos.</strong> The
+      extra damage of your Elemental Chaos increases to 2d8.</p><p><strong>Ferocious Mysticism.</strong> When you cast a Primalist cantrip with a range of 10 feet or greater, the spell’s range increases
+      by 300 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: force-of-the-ancients
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 600000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!9k7KwMfv41855DEU'

@@ -1,0 +1,49 @@
+_id: nQGUWNkDc0vztf7F
+name: Echolocation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have Blindsight with a range of 30 feet.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalAspect
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: echolocation
+  advancement: {}
+effects: []
+folder: 6paiNqmrbvrvrO5j
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nQGUWNkDc0vztf7F'

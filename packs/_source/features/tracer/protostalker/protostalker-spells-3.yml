@@ -1,0 +1,160 @@
+_id: 7iJ5sCrrEAz7lcvF
+name: Protostalker Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Tracer level specified in the Protostalker Spells table, you thereafter always have the listed spells prepared. <em>Longstrider</em> <em>Pass Without Trace</em> <em>Haste</em>
+      <em>Black Tentacles</em> <em>Hold Monster</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Protostalker Tracer
+  activities: {}
+  enchant: {}
+  identifier: protostalker-spells
+  advancement:
+    BafViGE80XAiAijT:
+      _id: BafViGE80XAiAijT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLongstride
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Protostalker Spells
+      hint: ''
+    0dyDzZgQmnVnWfdo:
+      _id: 0dyDzZgQmnVnWfdo
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPasswithou
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Protostalker Spells
+      hint: ''
+    vIEaWj3IIuxEmVud:
+      _id: vIEaWj3IIuxEmVud
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Protostalker Spells
+      hint: ''
+    4vFMnofuoqxFBX1h:
+      _id: 4vFMnofuoqxFBX1h
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Protostalker Spells
+      hint: ''
+    g73SFsPXD2arqNBZ:
+      _id: g73SFsPXD2arqNBZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Protostalker Spells
+      hint: ''
+effects: []
+folder: EIFt2WpGhAg7Oc3J
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7iJ5sCrrEAz7lcvF'

@@ -1,0 +1,136 @@
+_id: QPkwuE3FS2uLEaBY
+name: Nanite Medicine
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have a cluster of nanites you can direct to stimulate healing in minor wounds. Your nanites are stored in a container of your choice, which you can replenish using a Pharma Kit when you
+      finish a Long Rest. You can use the nanites to restore a total number of Hit Points equal to five times your Soldier level.</p><p>As an action, or in place of an attack when you take the Attack action
+      on your turn, you can direct some of your nanites at a creature you can see within 30 feet of yourself and restore a number of Hit Points to that creature, up to the maximum amount remaining in the
+      cluster.</p><p>You can also expend 5 Hit Points from the cluster to remove the Poisoned condition from the creature; those points don’t also restore Hit Points to the creature.</p><p>To use this feature,
+      you must have a Pharma Kit on your person.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities:
+    DUAcktbq2kv0BS7L:
+      _id: DUAcktbq2kv0BS7L
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: H6AdW1UlXkKGqNwa
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: nanite-medicine
+  advancement: {}
+effects:
+- _id: H6AdW1UlXkKGqNwa
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!QPkwuE3FS2uLEaBY.H6AdW1UlXkKGqNwa'
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!QPkwuE3FS2uLEaBY'

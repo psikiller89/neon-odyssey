@@ -1,0 +1,50 @@
+_id: M3rIcUxq52fLFL4r
+name: Reaching Psi
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Cost: 1 Psi Point</em></p><p>When you cast a spell that has a range of at least 5 feet, you can spend 1 Psi Point to double the spell’s range. Or when you cast a spell that has a range
+      of Touch, you can spend 1 Psi Point to make the spell’s range 30 feet.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psiShaping
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: reaching-psi
+  advancement: {}
+effects: []
+folder: fUiMTwUZ6bgebpNK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!M3rIcUxq52fLFL4r'

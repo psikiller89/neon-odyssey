@@ -1,0 +1,107 @@
+_id: RfdlSyPNLlXyC4XV
+name: Boomdoctor
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/boomdoctor.webp
+system:
+  description:
+    value: <p><em>Engineer Chaos with Unstable Concoctions and Gizmos</em> Boomdoctors are Machinists who delve into the strange and unreliable sciences to create madcap inventions with wild and unpredictable
+      effects. They typically have a love of explosions, whether from the volatile chemical bombs they concoct or through deadly experiments they conduct on their foes with their prototype gadgets. Some
+      Boomdoctors discover ways to master and control their strange inventions, but occasionally, one pushes the boundaries of reasonable science so far that they inevitably get caught in their own blast.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: boomdoctor
+  classIdentifier: machinist
+  advancement:
+    voXJWsypUkAP48ci:
+      _id: voXJWsypUkAP48ci
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.VzhbHRtLd5fvAvKG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Mgi5PD4iryjuVmth
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.d2eGVePVkkJArdpN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    ThL6aizzinKIg2OX:
+      _id: ThL6aizzinKIg2OX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3wezpt1IMtBDH9IW
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.Fi6kmtgBd7Rq8DEa
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Subclass Features
+      hint: ''
+    0WQgFSlLoCJ7ivey:
+      _id: 0WQgFSlLoCJ7ivey
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.xrIK7WbRHC6hPwVf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    XqwftEsbJbm5VehT:
+      _id: XqwftEsbJbm5VehT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ZwtSSZ0vrXlTbDZK
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: AJj8g0fypwhXwvoN
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!RfdlSyPNLlXyC4XV'

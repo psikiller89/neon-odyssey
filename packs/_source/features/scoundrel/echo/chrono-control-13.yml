@@ -1,0 +1,138 @@
+_id: z1nEeasMepnA47KN
+name: Chrono Control
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have unlocked the ability to stop a foe in time. When you deal Cheap Shot damage, you can force the target to make a Constitution saving throw (DC 8 plus your Dexterity modifier and Proficiency
+      Bonus). On a failed save, the target has the Paralyzed condition until the end of your next turn or until it takes any damage. Once a creature becomes Paralyzed in this way, you can’t use this feature
+      again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 13
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Echo Scoundrel
+  activities:
+    nMmrwy9FBNidcdvE:
+      _id: nMmrwy9FBNidcdvE
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: f7N2LhBV7MDsX7SE
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: dex
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: chrono-control
+  advancement: {}
+effects:
+- _id: f7N2LhBV7MDsX7SE
+  name: Paralyzed
+  img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - paralyzed
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!z1nEeasMepnA47KN.f7N2LhBV7MDsX7SE'
+folder: FdzKYNMlQWd7KSiC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!z1nEeasMepnA47KN'

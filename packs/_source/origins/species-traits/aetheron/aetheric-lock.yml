@@ -1,0 +1,48 @@
+_id: Nd9g5vZChuqpbGGk
+name: Aetheric Lock
+type: feat
+img: modules/neon-odyssey/icons/species/aetheron.webp
+folder: Lu5LFs12tKGUj6lH
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Advantage on D20 Tests to avoid or end the Prone condition, or to avoid being moved from your space.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Aetheron
+  activities: {}
+  enchant: {}
+  identifier: aetheric-lock
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Nd9g5vZChuqpbGGk'

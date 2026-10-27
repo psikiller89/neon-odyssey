@@ -1,0 +1,148 @@
+_id: 57DVSNEEAzuy0P30
+name: Brewing Supplies
+type: tool
+img: icons/consumables/plants/herb-marjoram-basil-oregano-leaf-bunch-green.webp
+system:
+  quantity: 1
+  weight:
+    value: 9.0
+    units: lb
+  price:
+    value: 1000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Intelligence</p><p><strong>Weight:</strong> 9 lb.</p><p><strong>Utilize:</strong> Detect poisoned drink (DC 15), or identify alcohol (DC 10)</p><p><strong>Craft:</strong>
+      Antidote, Beer, Wine, Spirits</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: art
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    5knOmhSINU2Thk2O:
+      _id: 5knOmhSINU2Thk2O
+      type: check
+      name: Detect poisoned drink
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '15'
+    gdVxoorQXhLC6UZo:
+      _id: gdVxoorQXhLC6UZo
+      type: check
+      name: Identify alcohol
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+  identifier: brewing-supplies
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!57DVSNEEAzuy0P30'

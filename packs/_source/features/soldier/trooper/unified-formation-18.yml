@@ -1,0 +1,50 @@
+_id: PH8KX0YkmPcr5dpO
+name: Unified Formation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have become a master tactician. Your Tactical Die becomes a d10. Additionally, when you use a tactics option, you can choose an additional creature and give it one of the benefits of the
+      tactic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Trooper Soldier
+  activities: {}
+  enchant: {}
+  identifier: unified-formation
+  advancement: {}
+effects: []
+folder: W5aOFEPr4VrQ1en8
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!PH8KX0YkmPcr5dpO'

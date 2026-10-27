@@ -1,0 +1,54 @@
+_id: 2GX6XeHOJjzftAHT
+name: Scanner
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 2.0
+    units: lb
+  price:
+    value: 1500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: rqAteONd99zN3DDR
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Scanner is a handheld device that detects signals, energy, and materials within 200 feet. Using the Scanner as part of the Search or Study action grants Advantage on the roll to detect signals
+      or hazardous conditions, discern the presence or nature of creatures, or the composition of materials.</p><p>If you use the Scanner on a creature you can see within 5 feet of you, you have Advantage
+      on ability checks made to detect hidden objects on the creature’s person, or to determine the creature&#x27;s state of health.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: scanner
+effects: []
+folder: a5dR2vrle919n9nv
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2GX6XeHOJjzftAHT'

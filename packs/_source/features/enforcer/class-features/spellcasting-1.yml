@@ -1,0 +1,59 @@
+_id: DPBhpnlnObj5VVaY
+name: Spellcasting
+type: feat
+img: icons/magic/symbols/chevron-elipse-circle-blue.webp
+system:
+  description:
+    value: <p>You have learned to cast spells through your cosmic code or by using hypertech. See the <em>D&amp;D Beyond Basic Rules</em> for the rules on spellcasting. The information below details how
+      you use those rules with Enforcer spells, which appear in the Enforcer spell list later in the class’s description.</p><p><strong>Spell Slots.</strong> The Enforcer Features table shows how many spell
+      slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells
+      that are available for you to cast with this feature. To start, choose two level 1 Enforcer spells. <em>Heroism</em> and <em>Searing </em> <em>Smite</em> are recommended.</p><p>The number of spells
+      on your list increases as you gain Enforcer levels, as shown in the Prepared Spells column of the Enforcer Features table. Whenever that number increases, choose additional Enforcer spells until the
+      number of spells on your list matches the number in the Enforcer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 5 Enforcer, your
+      list of prepared spells can include six Enforcer spells of level 1 or 2 in any combination.</p><p>If another Enforcer feature gives you spells that you always have prepared, those spells don’t count
+      against the number of spells you can prepare with this feature, but those spells otherwise count as Enforcer spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish
+      a Long Rest, you can replace one spell on your list with another Enforcer spell for which you have spell slots.</p><p><strong>Spellcasting Ability.</strong> Charisma is your spellcasting ability for
+      your Enforcer spells.</p><p><strong>Spellcasting Focus.</strong> You can use a Cosmic Symbol or a Hypertech Component Pack as a Spellcasting Focus for your Enforcer spells.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: spellcasting
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!DPBhpnlnObj5VVaY'

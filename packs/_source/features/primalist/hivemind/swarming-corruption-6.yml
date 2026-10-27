@@ -1,0 +1,51 @@
+_id: ootHe872fA20XueD
+name: Swarming Corruption
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your infinite swarm becomes even more endless and corruptive.</p><p><strong>Devouring Swarm.</strong> A creature that fails its saving throw against your Cacophonous Swarm has its AC reduced
+      by 1 until the start of your next turn.</p><p><strong>Discordant Resistance.</strong> You gain Resistance to the damage type determined by your Discordant Tone.</p><p><strong>Tide of Discord.</strong>
+      The size of the Emanation created by your Cacophonous Swarm increases to 15 feet. In addition, the base damage dealt by your swarm increases to 2d6.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities: {}
+  enchant: {}
+  identifier: swarming-corruption
+  advancement: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ootHe872fA20XueD'

@@ -1,0 +1,50 @@
+_id: J3JDEYYMImaOI96b
+name: Gourmand of Variety
+type: feat
+img: modules/neon-odyssey/icons/species/nematoan.webp
+folder: LbjiilnYXxRioyYF
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You can eat part of any dead creature made of organic material. After 1 minute of eating, you gain a number of Temporary Hit Points equal to 1d6 plus your Proficiency Bonus, and you can expend
+      a Hit Point Die to regain Hit Points equal to the number rolled on the die plus your Constitution modifier. You can’t benefit from eating matter taken from the same creature until you finish a Long
+      Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Nematoan
+  activities: {}
+  enchant: {}
+  identifier: gourmand-of-variety
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!J3JDEYYMImaOI96b'

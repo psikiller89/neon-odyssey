@@ -1,0 +1,511 @@
+_id: uF4PcSpNsW91r8B2
+name: Esper
+type: class
+img: modules/neon-odyssey/icons/classes/esper.png
+system:
+  description:
+    value: '<h3>Core Esper Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Choose 1: Intelligence or Charisma</p></td></tr><tr><th scope="row"><p>Hit
+      Point Die</p></th><td><p>D6 per Esper level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Constitution and your Primary Ability</p></td></tr><tr><th scope="row"><p>Skill
+      Proficiencies</p></th><td><p>Choose 2: Arcana, Deception, History, Insight, Intimidation, Investigation, or Persuasion</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple
+      weapons</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>None</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Combat Knife, Light Laser Pistol,
+      2 Power Cells, Occult Focus (crystal), Outrunner’s Pack, and $720; or (B) $3,000</p></td></tr></tbody></table><p><strong>Primary Ability</strong> <em>Choose 1:</em> Intelligence or Charisma <strong>Hit
+      Point Die</strong> D6 per Esper level <strong>Saving Throw  Proficiencies</strong> Constitution and your Primary Ability <strong>Skill Proficiencies</strong> <em>Choose 2:</em> Arcana, Deception,
+      History, Insight, Intimidation, Investigation, or Persuasion <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Armor Training</strong> None <strong>Starting  Equipment</strong> <em>Choose
+      A or B:</em> (A) Combat Knife, Light Laser Pistol, 2 Power Cells, Occult Focus (crystal), Outrunner’s Pack, and $720; or (B) $3,000 Espers possess awakened minds that push beyond the limits of the
+      possible to harness the waves of psychic force that flow through the Stardust Rhapsody. This innate potential allows them to perform psionic magic that they mentally shape to their will. Once their
+      power unlocks, Espers can manipulate the material world with a mere thought, infiltrate the minds of those around them, and achieve the seemingly impossible with their Psi.</p><p>They are typically
+      born with a gift for psionics, which may manifest slowly over time or erupt in a single mind-altering moment. Whether their Psi is honed through rigorous training or they have an innate knack with
+      psychic powers, their minds are destined to blossom into something more powerful than the limitations imposed by reality itself.</p><p>An Esper can arise anywhere in the galaxy, with little rhyme
+      or reason to their homeworld, social standing, or species. The mysterious nature of their awakening, combined with the immense power of psionics, leads some Espers to isolate themselves for fear of
+      losing control and accidentally harming others. Most, however, embrace their psychic potential in service to the communities they call home.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: UjyzYwlKysKFiCEb
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: o27xIzWL9aNHM9X2
+    type: AND
+    group: UjyzYwlKysKFiCEb
+    requiresProficiency: false
+    sort: 200000
+  - _id: SyoFCd7MI4YDr30Y
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: null
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 300000
+  - _id: flVPD50lbkdcRUlb
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.xFvEJzE9dVlaWAX4
+    count: null
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 400000
+  - _id: x5lKDDifcMSNPZNH
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 2
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 500000
+  - _id: RIu5wPKk2Qs5PsNO
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.nj0p0feGlQqwhlxx
+    count: null
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 600000
+  - _id: PSN1F6ri4sV5trGA
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3XAIc6y4pYahQGLN
+    count: null
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 700000
+  - _id: NsGQFw57OBv2qgsg
+    type: currency
+    key: gn
+    count: 720
+    group: o27xIzWL9aNHM9X2
+    requiresProficiency: false
+    sort: 800000
+  - _id: FxmfCcHmsj9uMCeL
+    type: AND
+    group: UjyzYwlKysKFiCEb
+    requiresProficiency: false
+    sort: 900000
+  - _id: yL0cQ3x4VffWeYKz
+    type: currency
+    key: gn
+    count: 3000
+    group: FxmfCcHmsj9uMCeL
+    requiresProficiency: false
+    sort: 1000000
+  identifier: esper
+  levels: 1
+  advancement:
+    wu4INYdfnMUSeDqH:
+      _id: wu4INYdfnMUSeDqH
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      name: ''
+      flags: {}
+      hint: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      name: ''
+      flags: {}
+      hint: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      name: ''
+      flags: {}
+      hint: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      name: ''
+      flags: {}
+      hint: ''
+    DUHZI0oND7OQ6lox:
+      _id: DUHZI0oND7OQ6lox
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '2':
+            value: 4
+          '3':
+            value: 6
+          '4':
+            value: 7
+          '5':
+            value: 9
+          '6':
+            value: 10
+          '7':
+            value: 11
+          '8':
+            value: 12
+          '9':
+            value: 14
+          '10':
+            value: 15
+          '11':
+            value: 16
+          '13':
+            value: 17
+          '15':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+          '19':
+            value: 21
+          '20':
+            value: 22
+      value: {}
+      hint: ''
+      name: Prepared Spells
+      flags: {}
+      classRestriction: ''
+    zMjMi0B3XrcQMqAS:
+      _id: zMjMi0B3XrcQMqAS
+      type: ScaleValue
+      configuration:
+        identifier: cantrips-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '4':
+            value: 5
+          '10':
+            value: 6
+      value: {}
+      hint: ''
+      name: Cantrips
+      flags: {}
+      classRestriction: ''
+    q7N6Am8hFSq15JTl:
+      _id: q7N6Am8hFSq15JTl
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: <p>You gain a Esper subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class’s description. A subclass
+        is a specialization that grants you features at certain Esper levels. For the rest of your career, you gain each of your subclass’s features that are of your Esper level or lower.</p>
+      name: ''
+      flags: {}
+      classRestriction: ''
+    nFvwOhQGBMwm07Fa:
+      _id: nFvwOhQGBMwm07Fa
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      name: Weapon Proficiencies
+      flags: {}
+    mQyTV3LMkMQT1zfO:
+      _id: mQyTV3LMkMQT1zfO
+      type: ScaleValue
+      configuration:
+        identifier: points
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 2
+          '3':
+            value: 3
+          '4':
+            value: 4
+          '5':
+            value: 5
+          '6':
+            value: 6
+          '7':
+            value: 7
+          '8':
+            value: 8
+          '9':
+            value: 9
+          '10':
+            value: 10
+          '11':
+            value: 11
+          '12':
+            value: 12
+          '13':
+            value: 13
+          '14':
+            value: 14
+          '15':
+            value: 15
+          '16':
+            value: 16
+          '17':
+            value: 17
+          '18':
+            value: 18
+          '19':
+            value: 19
+          '20':
+            value: 20
+      value: {}
+      hint: ''
+      name: Sorcery Points
+      flags: {}
+    29Ufd0MpG7PBckVs:
+      type: AbilityScoreImprovement
+      _id: 29Ufd0MpG7PBckVs
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd-players-handbook.feats.Item.phbBoonofDimensi
+        max: null
+      value:
+        type: asi
+      level: 19
+      hint: ''
+      name: Epic Boon
+      flags: {}
+    scyjDVUjbHBS5Ika:
+      _id: scyjDVUjbHBS5Ika
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:con
+        choices:
+        - count: 1
+          pool:
+          - saves:int
+          - saves:cha
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    ngwB6BBRpfCV9Dtm:
+      _id: ngwB6BBRpfCV9Dtm
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:arc
+          - skills:dec
+          - skills:his
+          - skills:ins
+          - skills:itm
+          - skills:inv
+          - skills:per
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    CpKLybSxFFRbn6oM:
+      _id: CpKLybSxFFRbn6oM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.PP53MMsJCAplWjvw
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.TTx9mtCjOqeImqUb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.wifkqt1ggPIjpsK4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    XBL87wKbMWCUM5Ow:
+      _id: XBL87wKbMWCUM5Ow
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fotZwwfzGPbFxiIc
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.xvpqASEZvI5LJNFC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    GjXsPOUlJDyZO81z:
+      _id: GjXsPOUlJDyZO81z
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.NINSFWSD7nM9XeA4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    ORpnNnFeIlfQc8lz:
+      _id: ORpnNnFeIlfQc8lz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.h9W3y8KraCaBgamU
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    UTuEtRjBEpObKGaf:
+      _id: UTuEtRjBEpObKGaf
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.cuGpO7vrGNRbbL0R
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: full
+    ability: cha
+    preparation:
+      formula: '@scale.esper.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - int
+    - cha
+    all: false
+  hd:
+    denomination: d6
+    spent: 0
+    additional: ''
+  properties: []
+effects: []
+folder: ddSGGMi8xJuRURTI
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!uF4PcSpNsW91r8B2'

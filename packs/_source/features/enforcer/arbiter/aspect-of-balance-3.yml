@@ -1,0 +1,102 @@
+_id: MPKOqWIGL6UKY08W
+name: Aspect of Balance
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You are the firm hand of the Harmony. When you finish a Long Rest, choose which aspect of the Harmony your balance shifts toward: Somber or Vital. When you take the Attack action, you can
+      expend one use of your Cosmic Conduit to imbue one or two Melee weapons you are holding with Harmonic energy. For 10 minutes or until you use this feature again, imbued weapons gain one of the following
+      benefits. If your current balance doesn’t match the benefit, your balance shifts to match it.</p><p>You can end this effect early (no action required). This effect also ends if you aren’t carrying
+      all imbued weapons.</p><p><strong>Somber.</strong> When you hit with the weapon, you can cause it to deal Necrotic damage instead of its normal damage type. Once on each of your turns when you do
+      so, you can deal extra damage equal to twice your Charisma modifier (minimum of 2 extra damage).</p><p><strong>Vital.</strong> When you hit with the weapon, you can cause it to deal Radiant damage
+      instead of its normal damage type. Once on each of your turns when you do so, you regain a number of Hit Points equal to your Charisma modifier (minimum of 1), gaining any excess beyond your maximum
+      as Temporary Hit Points.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arbiter Enforcer
+  activities:
+    xlu0R29NCLAS5gFB:
+      _id: xlu0R29NCLAS5gFB
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: aspect-of-balance
+  advancement: {}
+effects: []
+folder: IMuGSJX19FaEdpSg
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!MPKOqWIGL6UKY08W'

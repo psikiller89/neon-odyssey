@@ -1,0 +1,50 @@
+_id: rPgB3lYdM2qTK8hQ
+name: Augmented for War
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your loadout becomes even more customizable. When you register armor or a weapon to your Loadout, you can add one mod slot to it. If the item becomes unregistered, the mod slot disappears
+      and any module in that slot is removed and appears in the same space as the item.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities: {}
+  enchant: {}
+  identifier: augmented-for-war
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rPgB3lYdM2qTK8hQ'

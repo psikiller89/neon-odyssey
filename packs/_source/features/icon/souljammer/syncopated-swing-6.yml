@@ -1,0 +1,130 @@
+_id: pHJO4R6fedmYD0EM
+name: Syncopated Swing
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your song becomes even more flexible, helping and harming in equal measure. You always have the <em>Bane</em> and <em>Bless</em> spells prepared.</p><p>You can cast one of these spells without
+      expending a spell slot. When you cast the spell in this way, you can choose to either modify the spell so that it doesn’t require Concentration (the spell’s duration becomes 1 minute for that casting)
+      or empower it in one of the following ways based on the spell you cast: <strong>Bane.</strong> Creatures have Disadvantage on the saving throw against the spell. <strong>Bless.</strong> Affected creatures
+      add 1d6 to their attack rolls and saving throws instead of 1d4. Once you cast a spell using this feature, you can’t do so again until you finish a Long Rest. You can also restore your use of it by
+      expending a level 3+ spell slot (no action required).</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Souljammer Icon
+  activities:
+    ZjgJTQjOs3DTbzet:
+      _id: ZjgJTQjOs3DTbzet
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: syncopated-swing
+  advancement:
+    cBQU19ccKHYu2w77:
+      _id: cBQU19ccKHYu2w77
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBless00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 6
+      title: Syncopated Swing
+      hint: ''
+effects: []
+folder: qaA0bMPEx2BVOKkM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!pHJO4R6fedmYD0EM'

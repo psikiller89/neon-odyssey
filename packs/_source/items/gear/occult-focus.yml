@@ -1,0 +1,54 @@
+_id: nj0p0feGlQqwhlxx
+name: Occult Focus
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>An Occult Focus takes one of the forms in the Occult Focuses table and is bejeweled or worked to channel arcane magic. A Cryptist or Esper can use such an item as a Spellcasting Focus. Circlet
+      1 lb. $500 Crystal 1 lb. $500 Diagram 1 lb. $250 Orb 3 lb. $1,000</p><table><tbody><tr><td>Circlet</td><td>1 lb.</td></tr><tr><td>Crystal</td><td>1 lb.</td></tr><tr><td>Diagram</td><td>1 lb.</td></tr><tr><td>Orb</td><td>3
+      lb.</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: occult-focus
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!nj0p0feGlQqwhlxx'

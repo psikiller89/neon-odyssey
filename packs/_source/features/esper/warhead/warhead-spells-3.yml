@@ -1,0 +1,159 @@
+_id: Z2nP378djhFfKQwg
+name: Warhead Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach an Esper level specified in the Warhead Spells table, you thereafter always have the listed spells prepared. <em>Disruption</em>*, <em>Levitate</em>, <em>Magic Missile</em>,
+      <em>Shatter</em>, <em>Thunderwave</em> <em>G-Force Crush</em>*, <em>Fireball</em> <em>Tidal Compression</em>*, <em>Vortex</em>* <em>Concussive Wave</em>*, <em>Telekinesis</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Warhead Esper
+  activities: {}
+  enchant: {}
+  identifier: warhead-spells
+  advancement:
+    0VTA25WLcUFiLnx5:
+      _id: 0VTA25WLcUFiLnx5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplThunderwav
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.cAhBBvloJ13pb899
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLevitate00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplShatter000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Warhead Spells
+      hint: ''
+    pWxnY77b5Rtu5orE:
+      _id: pWxnY77b5Rtu5orE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.ZTdl6NvxuNmqs3xU
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Warhead Spells
+      hint: ''
+    uLKRQmY8PW3GVvOb:
+      _id: uLKRQmY8PW3GVvOb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.g8JKe0eWTi4xbOH3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.fm6GlTfNGM1hsXDY
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Warhead Spells
+      hint: ''
+    u5IPVIZJKqc5Fe1j:
+      _id: u5IPVIZJKqc5Fe1j
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.a2YDryfII5qpSLAU
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTelekinesi
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Warhead Spells
+      hint: ''
+effects: []
+folder: rox6ZyB1LxbRugjH
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Z2nP378djhFfKQwg'

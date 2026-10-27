@@ -1,0 +1,101 @@
+_id: sWA5OTLP2WiTJyzR
+name: Virus
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/virus.webp
+system:
+  description:
+    value: <p><em>Infect Enemies with a Corrupted Malware</em> Viruses are Gridrunners who have become the host of a digital contagion from the Hypergrid that they have learned to control. They infect their
+      enemies with malicious code that corrupts body and mind, breaking them down before spreading to new victims. Because they are immune to these devastating effects, many Viruses propagate the replication
+      of the digital contagion within themselves until they become living manifestations of malware.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: virus
+  classIdentifier: gridrunner
+  advancement:
+    BLm8Vpo9xotjCOWZ:
+      _id: BLm8Vpo9xotjCOWZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.y3YcfjinKVyfPe3k
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.wvfi4qRtsVbvlKtM
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    diRmirQ9dJOfS6HF:
+      _id: diRmirQ9dJOfS6HF
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8yvCtbtDDuEctH1o
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    OY6zQzhzhsMPlNpv:
+      _id: OY6zQzhzhsMPlNpv
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.55GoRGBHGghaxmxc
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    PdQZHf12uUOaovMs:
+      _id: PdQZHf12uUOaovMs
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gZtYGnkbtBiKrrST
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FRciaMbl0nqmWuaH
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!sWA5OTLP2WiTJyzR'

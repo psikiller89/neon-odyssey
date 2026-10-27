@@ -1,0 +1,139 @@
+_id: txwRx5y0Pwvdk5cS
+name: Unstable Compounds
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can concoct stims and toxins to advance your goals. You create four unstable compounds. While you have a Toxin Kit on your person, you regain a number of expended uses equal to half your
+      maximum when you finish a Short Rest, and all expended uses when you finish a Long Rest. Your maximum number of unstable compounds increases by two at Scoundrel levels 5 (six compounds), 9 (eight
+      compounds), 13 (ten compounds), and 17 (twelve compounds).</p><p>You can expend an unstable compound to use one of the following benefits, provided you have a Toxin Kit on your person.</p><p><strong>Chem
+      Strike. </strong>When you deal Cheap Shot damage to a creature within 30 feet of yourself, you can change the attack’s damage type to Poison, and the target has the Poisoned condition until the start
+      of your next turn.</p><p><strong>Stim Injection.</strong> As a Bonus Action, you stim a creature within 30 feet of yourself (you can choose yourself). The target has Advantage on the next ability
+      check or attack roll it makes before the end of your next turn.</p><p><strong>Toxic Delegation.</strong> When you take the Attack action, you can forgo one attack to choose an ally within 60 feet
+      of yourself. The ally can take a Reaction to make one attack with a weapon or an Unarmed Strike. If the attack hits, the target takes Poison damage equal to your Cheap Shot damage, and it must subtract
+      1d4 from D20 Tests until the start of your next turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Chemboss Scoundrel
+  activities:
+    HGDUTsrfOmIluBBQ:
+      _id: HGDUTsrfOmIluBBQ
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: pslnoIdUqPPknDw3
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: unstable-compounds
+  advancement: {}
+effects:
+- _id: pslnoIdUqPPknDw3
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!txwRx5y0Pwvdk5cS.pslnoIdUqPPknDw3'
+folder: FWGRR74KJLokKsjj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!txwRx5y0Pwvdk5cS'

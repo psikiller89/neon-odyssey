@@ -1,0 +1,536 @@
+_id: fRQ2P6HoU7piihHq
+name: Speeder
+type: vehicle
+img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+system:
+  identifier: speeder
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 0
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: ft
+      hover: false
+      ignoredDifficultTerrain: []
+      walk: 100
+    ac:
+      flat: 21
+      calc: flat
+      motionless: 19 while stationary
+    hp:
+      value: 60
+      max: 60
+      temp: 0
+      tempmax: 0
+      dt: 10
+      mt: 20
+    actions:
+      stations: true
+      thresholds:
+        '0': null
+        '1': null
+        '2': null
+      max: 0
+      spent: 0
+    capacity:
+      creature: '4'
+      cargo:
+        value: 0.25
+        units: tn
+    travel:
+      units: mph
+      paces: {}
+      speeds:
+        land: 110
+      time: 24
+    price:
+      value: null
+      denomination: gp
+    quality:
+      value: 4
+  details:
+    biography:
+      value: '<p>Speeders are general, affordable civilian passenger conveyance vehicles. Most carry four people comfortably, but some models accommodate as few as two or as many as six. Armored Enforcement
+        Walker Armored Enforcement Walker Huge Vehicle (Light Mech; 7,500 lb.) AC 21 (19 while stationary) Initiative +2 plus PB HP 100 (Damage Threshold 15, Mishap Threshold 25) Speed 60 ft. (Cruise 50
+        mph) MOD SAVE MOD SAVE MOD SAVE STR 20 +5 +5 DEX 14 +2 +2 CON 18 +4 +4 INT 0 — — WIS 0 — — CHA 14 +2 +2 Add Pilot''s PB to saves if proficient with the vehicle Immunities Poison, Psychic Cargo Capacity
+        200 lb. Passengers 0 Crew 1 Traits Servo-Assist Targeting. The walker uses its Strength modifier for attack rolls and damage rolls with Ranged weapons. Crew Stations Controls (Requires 1 Crew).
+        Pilot and steer the walker and use the following actions: Crushing Strike (Simple Weapon, All). Melee Attack Roll: +5 plus crew’s PB, reach 5 ft. Hit: 9 (1d8 + 5) Bludgeoning damage. If the target
+        is Large or smaller, it has the Prone condition. Repeating Lasers (Martial Weapon, All). Ranged Attack Roll: +5 plus crew’s PB, range 200/800 ft. Hit: 16 (2d10 + 5) Radiant damage. Grenade Launcher
+        (Martial Weapon, All). The walker fires a grenade at a point within 150 feet using one of the following options: • Frag Grenade (4 Grenades). Dexterity Saving Throw: DC 15, each creature in a 20-foot-radius
+        Sphere. Failure: 14 (4d6) Piercing damage. Success: Half damage. • Smoke Grenade (4 Grenades). A 20-foot-radius Sphere of smoke appears centered on the point. The Sphere is Heavily Obscured for
+        1 minute or until strong wind disperses it. Reactions Assault Suppression (Requires Pilot). Trigger. The walker is hit by a melee attack roll. Response—Dexterity Saving Throw: DC 14, the triggering
+        attacker. Failure: 9 (2d8) Lightning damage and the target can’t take Reactions until the end of the walker’s next turn. Success: Half damage only.</p><p><strong>Class</strong> Light Planetary.
+        <strong>Cargo</strong> 500 lb.. <strong>Passengers</strong> 3. <strong>Crew</strong> 1. <strong>Initiative</strong> +2 plus PB.</p>'
+      public: ''
+    type: land
+  source:
+    revision: 1
+    rules: '2024'
+    license: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: '197'
+    custom: ''
+  traits:
+    size: huge
+    di:
+      bypasses: []
+      value:
+      - poison
+      - psychic
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+      - blinded
+      - charmed
+      - deafened
+      - frightened
+      - paralyzed
+      - petrified
+      - poisoned
+      - stunned
+      - unconscious
+      custom: ''
+    dimensions: ''
+    weight:
+      value: 2500
+      units: lb
+    keel:
+      units: ft
+    beam:
+      units: ft
+  cargo:
+    crew: []
+    passengers: []
+  crew:
+    value: []
+  draft:
+    value: []
+  passengers:
+    value: []
+prototypeToken:
+  name: Speeder
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 2
+  height: 2
+  texture:
+    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 2
+items:
+- _id: gU3T3mHZtwaPgDHR
+  name: Prone Deficiency
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the speeder rolls over and has the Prone condition, it can’t right itself and its Speed is 0 until flipped upright.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: prone-deficiency
+  _key: '!actors.items!fRQ2P6HoU7piihHq.gU3T3mHZtwaPgDHR'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: eH8JWhySAOjwBXLS
+  name: Controls
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Drive and steer the speeder. Reactions</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      Eybsfa0NH9NPCtPt:
+        _id: Eybsfa0NH9NPCtPt
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: controls
+  _key: '!actors.items!fRQ2P6HoU7piihHq.eH8JWhySAOjwBXLS'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: xXWg01Ye8sOJAZpo
+  name: Juke
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger. The driver makes a vehicle Dexterity saving throw while the speeder can move. Response: The driver has Advantage on the triggering save</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      I3f4s0JULHdmHZii:
+        _id: I3f4s0JULHdmHZii
+        type: save
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: juke
+  _key: '!actors.items!fRQ2P6HoU7piihHq.xXWg01Ye8sOJAZpo'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+folder: B7KoyN2Wquc83gzV
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+sort: 200000
+ownership:
+  default: 0
+_key: '!actors!fRQ2P6HoU7piihHq'

@@ -1,0 +1,135 @@
+_id: UrJNwA4DKpIto7ph
+name: Synthetic Supremacy
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You embrace the machine and unlock the soul in the steel. You gain the following benefits.</p><p><strong>Cyber Assassin.</strong> At the start of your turn, you can expend 1 Essence Point
+      to enter a charged state for 10 minutes or until you have the Incapacitated condition. For the duration, your weapons that use Power Cells don’t drain charges from their cells or can operate without
+      a cell, and you score a Critical Hit with them on a roll of 19 or 20 on the d20.</p><p><strong>Power Drain.</strong> As a Bonus Action, you can drain and destroy a fully charged Power Cell you’re
+      carrying to regain 1d8 expended Essence Points. You can’t use this benefit again until you finish a Short or Long Rest.</p><p><strong>Shielded Core.</strong> You gain Resistance to Lightning damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Ghostframe Disciple
+  activities:
+    2IFnWNf4yL1flPSV:
+      _id: 2IFnWNf4yL1flPSV
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: YyYZIaIhvhHMjQkE
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: synthetic-supremacy
+  advancement: {}
+effects:
+- _id: YyYZIaIhvhHMjQkE
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!UrJNwA4DKpIto7ph.YyYZIaIhvhHMjQkE'
+folder: bqQIVg0cPp9SIgRN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UrJNwA4DKpIto7ph'

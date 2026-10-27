@@ -1,0 +1,147 @@
+_id: sO9zKxRjXtLQ6Ury
+name: Fury of the Road
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your Surge now infuses nearby junk to bear you into battle. When you activate your Surge, or as a Bonus Action while your Surge is active, you can magically create a <strong>Cruising  Bike</strong>*
+      in an unoccupied space within 10 feet of you. The bike remains until it is reduced to 0 Hit points, you create another bike with this feature, your Surge ends, or you die. You gain proficiency with
+      the bike for the duration of your Surge if you don’t already have it.</p><p>When you move within 5 feet of a creature while riding the bike, you can deal 3d6 Slashing damage to it. A creature takes
+      this damage only once per turn.</p><p>As a Magic action while the bike exists, you can cause it to detonate. When you do, it explodes in a 30-foot Sphere. Each creature in that area makes a Dexterity
+      saving throw, taking 5d6 Fire damage and 5d6 Piercing damage on a failed save or half as much damage on a successful one.</p><p>Once you create a bike with this feature, you can’t do so again until
+      you finish a Long Rest unless you expend a use of your Surge (no action required) to restore your use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Scrapper Juggernaut
+  activities:
+    wBUt03FUByZE4eXT:
+      _id: wBUt03FUByZE4eXT
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 3
+          denomination: 6
+          bonus: ''
+          types:
+          - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 5
+          denomination: 6
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 5
+          denomination: 6
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: fury-of-the-road
+  advancement: {}
+effects: []
+folder: Lzdgh5AIn4r1NEZp
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!sO9zKxRjXtLQ6Ury'

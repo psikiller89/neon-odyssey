@@ -1,0 +1,50 @@
+_id: R8ZltttC3iRxt1SB
+name: Chronokeeper
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your mind perceives a glimpse of the immediate future. You can use your spellcasting ability in place of Dexterity for Initiative rolls. Additionally, after you’ve rolled Initiative but before
+      any turns are taken, you can spend 1 Psi Point to reroll your Initiative, and you must use the new roll.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riftwalker Esper
+  activities: {}
+  enchant: {}
+  identifier: chronokeeper
+  advancement: {}
+effects: []
+folder: DitCL3G22RycGBNb
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!R8ZltttC3iRxt1SB'

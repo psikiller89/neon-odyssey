@@ -1,0 +1,50 @@
+_id: ULqs4WfWDqdhFeqH
+name: Expanded Dominion
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-blue-purple.webp
+system:
+  description:
+    value: <p>The reach of your code increases. Your Zone of Safety is now a 30-foot Emanation.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: expanded-dominion
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!ULqs4WfWDqdhFeqH'

@@ -1,0 +1,114 @@
+_id: BfAg2R6Q2M9fwLj5
+name: Exalted Aspect
+type: feat
+img: icons/magic/light/beam-rays-yellow-blue.webp
+system:
+  description:
+    value: <p>You have become an ascended herald and a speaker of cosmic power. You gain the following benefits.</p><p><strong>Cosmic Will.</strong> You can now exert the will of your cosmic power source
+      to alter the course of destiny. When you use your Call the Cosmos feature, you can choose <em>Wish</em> when you select a spell. If you do so, you can’t use Cosmic Intervention again until you finish
+      2d4 Long Rests.</p><p><strong>Infinite Messenger.</strong> You always have the <em>Sending</em> spell prepared, and you can cast it without expending a spell slot.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    items: []
+    repeatable: false
+  properties:
+  - mgc
+  requirements: Oracle
+  activities:
+    s3KKPtM06fbBNMqp:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplWish000000
+        challenge:
+          override: false
+        properties:
+        - material
+        spellbook: false
+        ability: ''
+        level: 9
+      _id: s3KKPtM06fbBNMqp
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      behaviors: []
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:divine-intervention
+          scaling: {}
+      description:
+        value: ''
+        chatFlavor: ''
+      duration:
+        units: inst
+        expiry: null
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+  enchant: {}
+  identifier: exalted-aspect
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 600000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!BfAg2R6Q2M9fwLj5'

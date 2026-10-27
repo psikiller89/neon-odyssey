@@ -1,0 +1,135 @@
+_id: 8o4oYaFouhUAfANQ
+name: Summon Silent
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: '<p>You call forth an Undead spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>Silent Spirit</strong> stat block. When you cast the spell, choose
+      the creature’s form: Faceless, Gaunt, or Ossite. The spirit resembles an Undead creature with the chosen form, which determines certain details of its stat block. The creature disappears when it drops
+      to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It
+      obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+      Use the spell slot’s level for the spell’s level in the stat block.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '90'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  - concentration
+  materials:
+    value: a jeweled or circuit-inlaid skull worth $15,000+
+    consumed: false
+    cost: 15000
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    po1GFuwx2963J0KK:
+      _id: po1GFuwx2963J0KK
+      type: summon
+      name: Summon
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: false
+      effects: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+      - _id: ScPY4qT9BaeSmdq2
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: ''
+        uuid: Compendium.neon-odyssey.bestiary.Actor.9kev5ITtezzIFCnz
+      summon:
+        mode: ''
+        prompt: true
+      creatureSizes: []
+      creatureTypes: []
+  identifier: summon-silent
+effects: []
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!8o4oYaFouhUAfANQ'

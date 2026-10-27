@@ -1,0 +1,111 @@
+_id: COSEN04HalHt8xRl
+name: Esoteric Revelation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You unlock deeper secrets of your occultech, granting you the following benefits.</p><p><strong>Aberrant Countermeasures.</strong> When you cast a spell that allows you to choose one or more
+      creature types to affect with the spell, you add Aberrations to the options you can choose.</p><p><strong>Occult Scouring.</strong> Once per turn when you hit with an attack roll using your occultech
+      weapon, you can deal an extra 1d8 Psychic damage.</p><p><strong>Unsealed Secrets.</strong> Choose a level 2 spell from the Cryptist spell list such as <em>Misty Step</em>; you always have that spell
+      prepared. While you are holding your occultech weapon, you can cast that spell once without a spell slot, and you regain the ability to do so when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 7
+    items: []
+    repeatable: false
+  properties: []
+  requirements: X-Agent Tracer
+  activities:
+    HM3jenu1EWfaTv3E:
+      _id: HM3jenu1EWfaTv3E
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: esoteric-revelation
+  advancement: {}
+effects: []
+folder: zHKdbS3wrngiYRsW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!COSEN04HalHt8xRl'

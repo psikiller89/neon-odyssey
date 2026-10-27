@@ -1,0 +1,54 @@
+_id: mCKfsRLHa6at6uBG
+name: False ID
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A False ID provides fake identity information that can pass cursory inspection. A creature that examines the False ID realizes it’s a fake with an Intelligence (Investigation) check as a Study
+      action, against the DC determined by the ID’s quality.</p><p>A Supreme quality False ID is backed up by implanted fake, or repurposed true, information in local databases. Standard 15 $500 Superior
+      20 $10,000 Supreme 25 $50,000</p><table><tbody><tr><td>Standard</td><td>15</td></tr><tr><td>Superior</td><td>20</td></tr><tr><td>Supreme</td><td>25</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: false-id
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mCKfsRLHa6at6uBG'

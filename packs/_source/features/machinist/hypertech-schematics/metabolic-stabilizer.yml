@@ -1,0 +1,50 @@
+_id: Tvcd6o6T2gNwn8FK
+name: Metabolic Stabilizer
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p><strong>Gear:</strong> Light, Medium, or Heavy armor; Shield; device Only you can use this schematic’s benefit. When you cast a spell using a spell slot that restores Hit Points to a creature,
+      you can use the item to expend a number of your Rapid Repair dice up to your Intelligence modifier (minimum of 1) and add them to the total restored.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: hypertechSchematic
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: metabolic-stabilizer
+  advancement: {}
+effects: []
+folder: rDqiq6VUZzbEUanT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Tvcd6o6T2gNwn8FK'

@@ -1,0 +1,115 @@
+_id: rP1NuypiyXDnTzDS
+name: Trooper
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/trooper.webp
+system:
+  description:
+    value: <p><em>Lead Your Squad with Superior Tactics</em> Troopers are masters of battlefield coordination who use tactical expertise to lead their units to victory. In the heat of battle, they constantly
+      assess the situation, shouting out orders and stratagems that allow their allies to fight as a unified force. Many Troopers spend their lives on war-torn galactic battlefronts as members of faction
+      or planetary militaries, while others leave that life behind to lead smaller squads as mercenaries, security personnel, or private military contractors.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: trooper
+  classIdentifier: soldier
+  advancement:
+    di2PxHK0R3nc0ucG:
+      _id: di2PxHK0R3nc0ucG
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Oo6dQPnPOQIGoxzy
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.2jvFq0YKcbC1UTNV
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    9ImKqH292tH4nmuu:
+      _id: 9ImKqH292tH4nmuu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.lmfxegpNQuR0W1je
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    3MQrWoKZnsi1f4CF:
+      _id: 3MQrWoKZnsi1f4CF
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.8nDjzLgpYu5AaFtk
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    Qhjx7iYB0inKB4q2:
+      _id: Qhjx7iYB0inKB4q2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.eTAr70dYeUBRXCg0
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    BIcyxv5n00oUZ7BA:
+      _id: BIcyxv5n00oUZ7BA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.PH8KX0YkmPcr5dpO
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: TdKAX1k0iVoi5LgI
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!rP1NuypiyXDnTzDS'

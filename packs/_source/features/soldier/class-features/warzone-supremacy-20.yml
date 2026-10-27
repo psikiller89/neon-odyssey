@@ -1,0 +1,53 @@
+_id: BPa18tU6CkedMhzR
+name: Warzone Supremacy
+type: feat
+img: icons/skills/melee/strikes-sword-scimitar.webp
+system:
+  description:
+    value: <p>Your mastery of the battlefield is unmatched, granting you the following benefits.</p><p><strong>Dreadnought.</strong> When you’re hit by an attack roll and take damage, you can take a Reaction
+      and expend a use of your Frontline Rally to reduce the damage by 1d10 + your Soldier level. If you reduce the damage to 0, the attack misses you instead.</p><p><strong>Three Extra Attacks.</strong>
+      You can attack four times instead of once whenever you take the Attack action on your turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 20
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities: {}
+  enchant: {}
+  identifier: warzone-supremacy
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!BPa18tU6CkedMhzR'

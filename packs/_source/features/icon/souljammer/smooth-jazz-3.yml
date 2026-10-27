@@ -1,0 +1,129 @@
+_id: zeJ5OoAXyH0y1aOW
+name: Smooth Jazz
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your soulful songs can soothe the hearts, minds, and spirits of your allies. You always have the <em>Calm Emotions</em> and <em>Protection from Evil and Good</em> spells prepared.</p><p>Additionally,
+      immediately after you cast an Abjuration or Enchantment spell of level 1+, you can expend a use of Iconic Inspiration to choose a number of other creatures within 60 feet of yourself, up to your Charisma
+      modifier (minimum of one creature). The Charmed and Frightened conditions end on each target, and each target gains a number of Temporary Hit Points equal to two rolls of your Iconic Inspiration die.</p><p>Once
+      you use this benefit, you can’t use it again until you finish a Long Rest. You can also expend one use of your Iconic Inspiration (no action required) to restore your use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Souljammer Icon
+  activities:
+    98IC1ew0ncfSkiGk:
+      _id: 98IC1ew0ncfSkiGk
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: smooth-jazz
+  advancement:
+    E5hasbXtk1BddekM:
+      _id: E5hasbXtk1BddekM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Smooth Jazz
+      hint: ''
+effects: []
+folder: qaA0bMPEx2BVOKkM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!zeJ5OoAXyH0y1aOW'

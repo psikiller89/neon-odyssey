@@ -1,0 +1,109 @@
+_id: GUjh57r6YH7c1wOr
+name: Bonded Exosuit
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Through neural integration, you bond to an advanced piece of machinery known as an exosuit. The exosuit is fitted to you alone, and it responds only to your commands.</p><p>You can create
+      a new exosuit using Mechanics Tools and a suit of Heavy Armor when you finish a Long Rest. If you already have one, the existing exosuit vanishes and any weapons, modules, or magic armor installed
+      in it appear in its former space. Your exosuit has the following properties.</p><p><strong>Steel Skin.</strong> Your exosuit is Heavy Armor with an Environment Seals module and a Dynasteel Plating
+      module, both of which can’t be removed, and it has two additional open mod slots. While piloting your exosuit, you are wearing the armor and use its Armor Class, and ignore its Strength requirement.</p><p>Using
+      Mechanic’s Tools, with 1 hour of work that can be done during a Short or Long Rest, you can build a suit of magic armor into your exosuit or remove it. The exosuit gains the magical properties of
+      the built-in armor.</p><p><strong>Hulking Form.</strong> While piloting your exosuit, your size is Large. You have Advantage on Strength checks and Strength saving throws, and your Unarmed Strikes
+      deal 1d8 Bludgeoning instead of the normal damage for the strike.</p><p><strong>Piloting.</strong> You can enter your exosuit while you are within 5 feet of it, or exit it, by spending an amount of
+      movement equal to half your Speed. Your hands operate the controls of the exosuit to control its hands as if they were your own.</p><p><strong>Weapon Installation.</strong> Using Mechanic’s Tools,
+      with 1 hour of work you can build up to three items into your exosuit or remove them. Each item can be a Simple or Martial weapon or a Shield. While piloting your exosuit, you can use the gear normally,
+      and you can draw or stow any number of the weapons at the same time (you don or doff a Shield as normal).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Exomech Soldier
+  activities:
+    ISW0luTJqqm3d6lH:
+      _id: ISW0luTJqqm3d6lH
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: bonded-exosuit
+  advancement: {}
+effects: []
+folder: X91gcBRCD5t5HCHj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GUjh57r6YH7c1wOr'

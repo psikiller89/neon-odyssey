@@ -1,0 +1,105 @@
+_id: znvghkskhrqYeiUe
+name: Jewelry Tools
+type: tool
+img: icons/commodities/gems/gem-rough-rose-teal.webp
+system:
+  quantity: 1
+  weight:
+    value: 2.0
+    units: lb
+  price:
+    value: 1250
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Intelligence</p><p><strong>Weight:</strong> 2 lb.</p><p><strong>Utilize:</strong> Discern a gem’s value (DC 15)</p><p><strong>Craft:</strong> Cosmic Symbol, Occult
+      Focus</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: art
+    baseItem: ''
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    YSFyHOdTmSEnUlXw:
+      _id: YSFyHOdTmSEnUlXw
+      type: check
+      name: Discern a gem’s value
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: int
+        associated: []
+        dc:
+          calculation: ''
+          formula: '15'
+  identifier: jewelry-tools
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!znvghkskhrqYeiUe'

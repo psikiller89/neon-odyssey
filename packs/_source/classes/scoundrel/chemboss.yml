@@ -1,0 +1,100 @@
+_id: raxKm9kcWtspEysz
+name: Chemboss
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/chemboss.webp
+system:
+  description:
+    value: <p><em>Command the Underworld with Chemical Assistance</em> The seedy and ruthless underbelly of the galaxy is where Chembosses thrive. They produce and administer a variety of chemical compounds
+      that enhance the abilities of their associates and compromise the faculties of their opponents. Chembosses work best with a crew that they can command with authority or support with chemical enhancements.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: chemboss
+  classIdentifier: scoundrel
+  advancement:
+    htwA5NBlBJUMuTNY:
+      _id: htwA5NBlBJUMuTNY
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.eHXmZP7Vzc5FXmAP
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.txwRx5y0Pwvdk5cS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    yT1dIsPFyqCg2MOX:
+      _id: yT1dIsPFyqCg2MOX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.DqrWrhn8volBl9cr
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    HdmZXN7ZLWBCsBzc:
+      _id: HdmZXN7ZLWBCsBzc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.bUpKaYw8bqqteLZJ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Subclass Features
+      hint: ''
+    r0S431vu98UdXHeg:
+      _id: r0S431vu98UdXHeg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.2KDjDqyrK2X4JFHj
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 3gZ4ytt18QnUbQoV
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!raxKm9kcWtspEysz'

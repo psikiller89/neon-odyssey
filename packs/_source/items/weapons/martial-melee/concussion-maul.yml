@@ -1,0 +1,264 @@
+_id: mP2P2YVvdU5wR4Kv
+name: Concussion Maul
+type: weapon
+img: icons/weapons/hammers/hammer-double-stone-worn.webp
+system:
+  quantity: 1
+  weight:
+    value: 10.0
+    units: lb
+  price:
+    value: 2500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p><em>2d6 Bludgeoning; Heavy, Powered (2d8 Thunder), Two-Handed; Mastery: Topple</em></p><p><strong>Powered.</strong> You can activate a Powered weapon that has a charged Power Cell when you
+      make an attack with it. On a hit while activated, the weapon’s damage die changes to the value noted with the property. If a damage type is also noted, the weapon deals damage of that type when activated.
+      If the weapon also has the Versatile property, the Powered property has a second notation for the activated damage when wielded with two hands. A full Power Cell powers the weapon for 25 attacks.
+      You can exchange the cell as an action or a Bonus Action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: martialM
+    baseItem: ''
+  damage:
+    base:
+      number: 2
+      denomination: 6
+      bonus: ''
+      types:
+      - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  range:
+    value: null
+    long: null
+    units: ft
+    reach: null
+  properties:
+  - hvy
+  - powered
+  - two
+  mastery: topple
+  uses:
+    max: '25'
+    spent: 0
+    recovery: []
+  magicalBonus: null
+  proficient: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  ammunition: {}
+  activities:
+    m6aiAnsTYcu1KHvx:
+      _id: m6aiAnsTYcu1KHvx
+      type: attack
+      name: Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+    yod7bfU6eQci6Vb9:
+      _id: yod7bfU6eQci6Vb9
+      type: attack
+      name: Powered Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: '@mod'
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    ws3xUK2obHHiKJ0s:
+      _id: ws3xUK2obHHiKJ0s
+      type: utility
+      name: Replace Power Cell
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-25'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+  identifier: concussion-maul
+effects: []
+folder: UaiS9pIhtLnC1uBY
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mP2P2YVvdU5wR4Kv'

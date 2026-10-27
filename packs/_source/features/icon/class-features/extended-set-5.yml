@@ -1,0 +1,103 @@
+_id: 3b5iVfWEKesXF26V
+name: Extended Set
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+system:
+  description:
+    value: <p>Sometimes, the show must go on. You now regain all your expended uses of Iconic Inspiration when you finish a Short or Long Rest.</p><p>In addition, you can expend a spell slot (no action
+      required) to regain one expended use of Iconic Inspiration.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    repeatable: false
+  properties: []
+  requirements: Icon
+  activities:
+    MTIru0Pv58RveWan:
+      type: utility
+      name: Recharge with Spell Slot
+      _id: MTIru0Pv58RveWan
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-1'
+          target: feat:bardic-inspiration
+        - type: spellSlots
+          value: '1'
+          target: '1'
+        scaling:
+          allowed: false
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  enchant: {}
+  identifier: extended-set
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: ZxVxQl648X8VTI7d
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!3b5iVfWEKesXF26V'

@@ -1,0 +1,133 @@
+_id: GPA6AhDyYbDY4aCe
+name: Glitz and Glamour
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can command the stage and captivate your audience with your glam. You know the <em>Minor Illusion</em> cantrip. If you already know it, you learn a different Icon cantrip of your choice.
+      The cantrip doesn’t count against your number of cantrips known. Additionally, you always have the <em>Enthrall</em> and <em>Silent Image</em> spells prepared, and you gain the following benefits.</p><p><strong>Lightshow.</strong>
+      When you cast <em>Silent Image</em>, you can modify the spell so it doesn’t require Concentration. If you do so, the spell’s duration becomes 10 minutes for that casting. Once you use this benefit,
+      you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending one use of your Iconic Inspiration (no action required).</p><p><strong>Starstruck.</strong> When
+      you cast <em>Enthrall</em>, creatures you or your companions are fighting don’t automatically succeed on the saving throw against the spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Holostar Icon
+  activities:
+    z7KdTVKmYWytgIzJ:
+      _id: z7KdTVKmYWytgIzJ
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: glitz-and-glamour
+  advancement:
+    QtSjWQz8Yqh1Vaeh:
+      _id: QtSjWQz8Yqh1Vaeh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEnthrall00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilentImag
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Glitz and Glamour
+      hint: ''
+effects: []
+folder: gHY5pYrSBJNC2d2E
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GPA6AhDyYbDY4aCe'

@@ -1,0 +1,158 @@
+_id: Pw3rv9vhdc1ppezf
+name: Go Nuclear
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You become a living bomb of psionic annihilation. As a Magic action, you create a 30-foot Emanation originating from yourself that lasts for 1 minute. Each creature that enters the Emanation
+      for the first time on a turn (including when the Emanation appears) or that starts its turn there makes a Constitution saving throw against your spell save DC. On a failed save, the target takes 1d10
+      Force damage and is pushed up to 10 feet in a horizontal direction of your choice. On a successful save, the target takes half as much damage only. The Emanation ends early if you dismiss it (no action
+      required) or have the Incapacitated condition.</p><p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 5 Psi Points (no action required) to restore your
+      use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Warhead Esper
+  activities:
+    ZY6zoTePaHAEivby:
+      _id: ZY6zoTePaHAEivby
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: LYVvCH56DryDvH4c
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 1
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: go-nuclear
+  advancement: {}
+effects:
+- _id: LYVvCH56DryDvH4c
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Pw3rv9vhdc1ppezf.LYVvCH56DryDvH4c'
+folder: rox6ZyB1LxbRugjH
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Pw3rv9vhdc1ppezf'

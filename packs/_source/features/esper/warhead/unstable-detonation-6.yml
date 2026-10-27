@@ -1,0 +1,120 @@
+_id: az3yP5K0qBR3XlU4
+name: Unstable Detonation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your volatile psionics become even more destructive. As a Bonus Action, or as part of the Bonus Action you use to activate Unbound Psyche, you can unleash a telekinetic burst. Each creature
+      in a 20-foot Emanation originating from you must succeed on a Strength saving throw against your spell save DC or take 2d6 Force damage and be pushed up to 10 feet away from you.</p><p>You can use
+      this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @attributes.spell.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Warhead Esper
+  activities:
+    eJ9KwSoxMpDYQT3Z:
+      _id: eJ9KwSoxMpDYQT3Z
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: unstable-detonation
+  advancement: {}
+effects: []
+folder: rox6ZyB1LxbRugjH
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!az3yP5K0qBR3XlU4'

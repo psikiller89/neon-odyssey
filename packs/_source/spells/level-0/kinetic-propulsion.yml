@@ -1,0 +1,133 @@
+_id: xiBfq4gdVxNRi4jR
+name: Kinetic Propulsion
+type: spell
+img: icons/magic/lightning/bolt-strike-blue.webp
+system:
+  description:
+    value: <p>You lash out with kinetic force at a creature or object within range, using one of the following options.</p><p><strong>Kinetic Lash.</strong> Make a ranged spell attack against the target.
+      On a hit, the target takes 1d8 Force damage.</p><p><strong>Propel.</strong> You propel one object within range weighing up to 5 pounds that isn’t being worn or carried, or you throw the object with
+      great force. Make a ranged spell attack against a creature or object within 90 feet of the object. On a hit, the target takes 1d10 Bludgeoning, Piercing, or Slashing damage, as appropriate to the
+      object thrown. If you’re just throwing the object to move it, you propel it up to 90 feet in a direction of your choice. Fragile objects are destroyed on landing.</p><p><strong>Cantrip Upgrade.</strong>
+      The damage increases by 1d8 Force (Kinetic Lash), or 1d10 damage (Propel), when you reach levels 5 (2d8 or 2d10), 11 (3d8 or 3d10), and 17 (4d8 or 4d10).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '30'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 0
+  school: evo
+  properties:
+  - vocal
+  - somatic
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    2DcGKXZLTS0MjYGX:
+      _id: 2DcGKXZLTS0MjYGX
+      type: attack
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: null
+            formula: ''
+  identifier: kinetic-propulsion
+effects: []
+folder: N14uQ9l4I9dridBe
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!xiBfq4gdVxNRi4jR'

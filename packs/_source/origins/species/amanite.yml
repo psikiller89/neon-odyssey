@@ -1,0 +1,110 @@
+_id: qK5kBE8Mhf1kjrd9
+name: Amanite
+type: race
+img: modules/neon-odyssey/icons/species/amanite.webp
+system:
+  description:
+    value: <p>Amanites <em>(A-muh-nite) </em>are fungal folk who originated in marshes and bogs overgrown with tree-sized mushrooms and teeming with huge, voracious creatures. They have adapted to thrive
+      in this treacherous environment, developing magical spores they harness to evade the predators that seek to devour them. Despite the threats that surround them, many amanites laugh in the face of
+      danger and possess a love of adventure and discovery, seeking out mysteries to solve and relics to unearth. Amanites are a diminutive people who resemble bipedal humanoid mushrooms that can vary in
+      a wide spectrum of colors, textures, and patterns reminiscent of a huge diversity of fungus. Most typically have rounded noses, feature caps on their heads, and can grow fungal tendrils that evoke
+      hair.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    8nmsRYfjBL6haUOu:
+      _id: 8nmsRYfjBL6haUOu
+      type: Size
+      configuration:
+        sizes:
+        - sm
+      level: 0
+      hint: Small (about 3–4 feet tall)
+      value: {}
+      title: ''
+    vxtw0u52nHdx4yic:
+      _id: vxtw0u52nHdx4yic
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.qIU6LAzQ41CdER0X
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.jZJ50bW1ciEncztq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.u7Q7VQTVsd5Sq3bH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.pIblTVzLjqIbUeP1
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.hBzmxKRhkBuZI3I5
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Amanite Traits
+    6t15fnXJh94QyZnV:
+      _id: 6t15fnXJh94QyZnV
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:prc
+          - skills:ste
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: amanite
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!qK5kBE8Mhf1kjrd9'

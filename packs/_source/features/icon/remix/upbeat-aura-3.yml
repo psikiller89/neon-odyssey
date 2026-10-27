@@ -1,0 +1,141 @@
+_id: DiqpCbK8XRA4LsQJ
+name: Upbeat Aura
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You keep your allies pumped up with your energetic rhythms. As a Magic action, or as part of the Magic action you use to cast a spell, you can expend a use of Iconic Inspiration to emit a
+      thumping aura in a 30-foot Emanation originating from you. The aura can be heard up to 300 feet away and lasts for 1 minute, until you have the Incapacitated condition, or until you dismiss it (no
+      action required). While the aura is active, you have the following benefits.</p><p><strong>Flow State.</strong> Your movement doesn’t provoke Opportunity Attacks.</p><p><strong>Glide Roll.</strong>
+      You and your allies in the aura have Advantage on Dexterity saving throws.</p><p><strong>Tempo Tag.</strong> Once per turn, when you move to a space within 5 feet of an enemy, you can tag it until
+      the end of your next turn. While tagged, the target’s Speed is reduced by 20 feet. If the target takes damage, the tag ends early, and the target takes Psychic damage equal to one roll of your Iconic
+      Inspiration die.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Remix Icon
+  activities:
+    3ogLTZtp4dlYuA4Y:
+      _id: 3ogLTZtp4dlYuA4Y
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: 58a5uykRxLrGALz3
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: upbeat-aura
+  advancement: {}
+effects:
+- _id: 58a5uykRxLrGALz3
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!DiqpCbK8XRA4LsQJ.58a5uykRxLrGALz3'
+folder: uOX2aXIm3TCM5Aaf
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!DiqpCbK8XRA4LsQJ'

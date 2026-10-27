@@ -1,0 +1,52 @@
+_id: ekAaKnPtjO1DPcYR
+name: Hypertech Resonator
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p><strong>Gear:</strong> Datapad; Spellcasting Focus; tools; device A spellcaster who can use the item as a Spellcasting Focus must attune to the item to use this schematic’s benefits. While
+      attuned to the item and holding or wearing it, the creature has a +1 bonus to spell attack rolls and its spell save DC. The bonus doesn’t stack with another magical bonus provided by the item, and
+      it increases by 1 when you reach Machinist level 10 (+2 bonus).</p><p><strong>Repeatable.</strong> You can gain this schematic more than once. Each time you do, the number of items you can affect
+      at one time with it increases by 1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: hypertechSchematic
+  prerequisites:
+    level: null
+    items: []
+    repeatable: true
+  properties: []
+  requirements: Machinist
+  activities: {}
+  enchant: {}
+  identifier: hypertech-resonator
+  advancement: {}
+effects: []
+folder: rDqiq6VUZzbEUanT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ekAaKnPtjO1DPcYR'

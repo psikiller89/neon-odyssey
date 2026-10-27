@@ -1,0 +1,73 @@
+_id: 68yflnGLyKPMn5sx
+name: Primordial Fury
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your power over the destructive forces of nature grows, granting you the following benefits.</p><p><strong>Archaic Duality.</strong> Choose a second damage type from your Archaic Element feature
+      to master.</p><p><strong>Primeval Wrath.</strong> When you cast <em>Elemental Wrath</em>* and choose one of your mastered damage types, targets have Disadvantage on saving throws against the spell.</p><p>Additionally,
+      you can cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest. When you cast it in this way, you can modify it so that it doesn’t require
+      Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: primordial-fury
+  advancement:
+    ai4z1XX5NhQBipKu:
+      _id: ai4z1XX5NhQBipKu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.I55GXJPjj1aqzIIs
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 6
+      title: Primordial Fury
+      hint: ''
+effects: []
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!68yflnGLyKPMn5sx'

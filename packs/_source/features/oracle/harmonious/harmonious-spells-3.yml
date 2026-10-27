@@ -1,0 +1,157 @@
+_id: K7dFTXs7Tc3eRs0B
+name: Harmonious Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>Vital and Somber aspects of the Harmony respond to your call. When you reach an Oracle level specified in the Harmonious Spells table, you thereafter always have the listed spells prepared.
+      <em>Harmonic Bond</em>*, <em>Inflict Wounds</em>, <em>Life </em> <em>Cycle</em>*, <em>Withering Lightning</em>* <em>Revivify</em>, <em>Somber Extraction</em>* <em>Aura of Life</em>, <em>Luminous Wind</em>*
+      <em>Mass Cure Wounds</em>, <em>Raise Dead</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Harmonious Oracle
+  activities: {}
+  enchant: {}
+  identifier: harmonious-spells
+  advancement:
+    gOWSjda4WGqGomAc:
+      _id: gOWSjda4WGqGomAc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.3NqjXkINWCjCeBSt
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.4FFg2gtVtRPWV5RA
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.YxNHOl26EJMFmv4N
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Harmonious Spells
+      hint: ''
+    IiE6Mtg3IT9JycDZ:
+      _id: IiE6Mtg3IT9JycDZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.PW3cPsltN2947cCR
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRevivify00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Harmonious Spells
+      hint: ''
+    ptApIuN2380cIXYR:
+      _id: ptApIuN2380cIXYR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.7QcpKezMlEmplKBD
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Harmonious Spells
+      hint: ''
+    pNGo01LD5wAqo5to:
+      _id: pNGo01LD5wAqo5to
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRaiseDead0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Harmonious Spells
+      hint: ''
+effects: []
+folder: CFltsA9FK9M1Wdn2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!K7dFTXs7Tc3eRs0B'

@@ -1,0 +1,86 @@
+_id: 3TuplfUZcW4r3Iq7
+name: 'Saurian Lineage: Skywing'
+type: feat
+img: modules/neon-odyssey/icons/species/saurian.webp
+folder: EYJDACraFtUaKRXo
+sort: 0
+effects:
+- _id: OdRoKS6kSaDb6IYB
+  name: 'Saurian Lineage: Skywing'
+  img: null
+  type: base
+  system:
+    changes: []
+  changes:
+  - key: system.attributes.movement.fly
+    mode: 4
+    value: '@attributes.movement.walk'
+    priority: null
+  statuses: []
+  transfer: true
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3TuplfUZcW4r3Iq7.OdRoKS6kSaDb6IYB'
+system:
+  description:
+    value: '<p>Natural Weapon: Claw. You have a Fly Speed equal to your Speed while you aren’t wearing Medium or Heavy armor.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Saurian
+  activities: {}
+  enchant: {}
+  identifier: saurian-lineage-skywing
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3TuplfUZcW4r3Iq7'

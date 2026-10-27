@@ -1,0 +1,20 @@
+name: Voidcaller Oracle
+sorting: a
+folder: 5EJCWgdeDDLTGZrq
+type: Item
+_id: L8lMOeWgMj3Vj0Fc
+description: ''
+sort: 53
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!L8lMOeWgMj3Vj0Fc'

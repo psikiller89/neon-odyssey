@@ -1,0 +1,147 @@
+_id: oXb9UyCAOoT2IRmr
+name: Unleash the Storm
+type: feat
+img: modules/neon-odyssey/icons/species/raizo.webp
+folder: TtWeEeuehIhn2HoK
+sort: 0
+effects:
+- _id: UtzjBtC4wkzoypjZ
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oXb9UyCAOoT2IRmr.UtzjBtC4wkzoypjZ'
+system:
+  description:
+    value: '<p>When you reach character level 3, you can release your inner storm as a Bonus Action, using one of the options below (choose each time you use this trait). The storm lasts for 1 minute or
+      until you end it (no action required). Once you take this Bonus Action, you can’t do so again until you finish a Long Rest. For the duration, you create a storm in a 10-foot Emanation originating
+      from you, and once on each of your turns, when you deal damage with an attack or a spell, you can deal extra damage to one target of a type determined by the storm options. The extra damage equals
+      your Proficiency Bonus. Here are the storm options: <strong>Lightning Spirit (Lightning Damage).</strong> At the end of each of your turns, each creature of your choice in the Emanation takes Lightning
+      damage equal to your Proficiency Bonus. <strong>Tempest Born (Cold Damage). </strong>You and your allies in the Emanation have Half Cover from ranged attacks. <strong>Thunder Soul (Thunder Damage).</strong>
+      At the start of each of your turns, each creature of your choice in the Emanation must succeed on a Strength saving throw (DC 8 plus your Proficiency Bonus and the ability modifier you chose for Storm
+      Magic) or be pushed up to 10 feet away from you. A creature that fails the save by 5 or more has the Prone condition.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Raizo
+  activities:
+    DHIZXeR4xmLFu0EH:
+      _id: DHIZXeR4xmLFu0EH
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: UtzjBtC4wkzoypjZ
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - str
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: unleash-the-storm
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!oXb9UyCAOoT2IRmr'

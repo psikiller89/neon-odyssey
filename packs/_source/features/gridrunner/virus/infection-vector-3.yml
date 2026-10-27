@@ -1,0 +1,109 @@
+_id: wvfi4qRtsVbvlKtM
+name: Infection Vector
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can incubate your malware within a host to infect those it comes into contact with. You can touch a creature (you can target yourself) to infuse it with dormant, malicious code that protects
+      it for 1 hour or until you use this feature again. When a creature hits the protected target with an attack roll, the target can take a Reaction to force the attacker to make an Intelligence saving
+      throw against your spell save DC. On a failed save, the triggering attack misses instead, and the attacker has Disadvantage on ability checks and attack rolls until the start of its next turn.</p><p>Once
+      you use this feature, you can’t use it again until you finish a Long Rest. You can also restore your use of it by expending a level 2+ spell slot (no action required).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Virus Gridrunner
+  activities:
+    ngCrgLHEtRSOl8gQ:
+      _id: ngCrgLHEtRSOl8gQ
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - int
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: infection-vector
+  advancement: {}
+effects: []
+folder: E3A2L5KCiZGYBdK6
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!wvfi4qRtsVbvlKtM'

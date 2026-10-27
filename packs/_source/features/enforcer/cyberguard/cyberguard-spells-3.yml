@@ -1,0 +1,175 @@
+_id: XrIOKIRSwB0Uy3Ck
+name: Cyberguard Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>You are upgraded with magical cybernetics. When you reach an Enforcer level specified in the Cyberguard Spells table, you thereafter always have the listed spells prepared. <em>Command</em>,
+      <em>Shield</em> <em>Hold Person</em>, <em>Knock</em> <em>Counterspell, Firewall</em>* <em>Arcane Eye</em>, <em>Locate Creature</em> <em>Hold Monster</em>, <em>Stasis Smite</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities: {}
+  enchant: {}
+  identifier: cyberguard-spells
+  advancement:
+    cZ96VCrIrfeRIybf:
+      _id: cZ96VCrIrfeRIybf
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplShield0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Cyberguard Spells
+      hint: ''
+    VSCfcNeoJukAOwjZ:
+      _id: VSCfcNeoJukAOwjZ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplKnock00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Cyberguard Spells
+      hint: ''
+    5mWLilHgGygR0drX:
+      _id: 5mWLilHgGygR0drX
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCounterspe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.c1n7h7D8uKxwM9K6
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Cyberguard Spells
+      hint: ''
+    kyoeySQSNTQVZav4:
+      _id: kyoeySQSNTQVZav4
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLocateCrea
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneEye0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Cyberguard Spells
+      hint: ''
+    o4TfZ2OHFl3KwDVN:
+      _id: o4TfZ2OHFl3KwDVN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.sX3gEXj8U5sShowb
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Cyberguard Spells
+      hint: ''
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!XrIOKIRSwB0Uy3Ck'

@@ -1,0 +1,57 @@
+_id: UkkQ5CtN1WjfrVYc
+name: Performer’s Pack
+type: container
+img: icons/containers/bags/pack-engraved-leather-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 52.5
+    units: lb
+  price:
+    value: 2440
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p>A Performer’s Pack contains the following items: Rucksack, Amplifier, Camera, Canteen, Data Chip, 3 Disguises, Flashlight, Lighter, Motion Sensor, Power Cell, 10 Ration Pouches, Sleeping
+      Bag.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  capacity:
+    count: null
+    volume:
+      units: cubicFoot
+    weight:
+      units: lb
+  currency: {}
+  properties: []
+  identifier: performers-pack
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!UkkQ5CtN1WjfrVYc'

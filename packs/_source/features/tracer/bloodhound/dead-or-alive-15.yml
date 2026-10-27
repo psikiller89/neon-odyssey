@@ -1,0 +1,145 @@
+_id: 2yrJOzjekZTWltnd
+name: Dead or Alive
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>When your quarry is in your sights, you strike to end the hunt. You gain the following benefits.</p><p><strong>Bring ‘Em In.</strong> When you hit a creature with an attack roll, you can force
+      it to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Incapacitated condition until the start of your next turn. Once you use this benefit, you can’t use
+      it again until you finish a Short or Long Rest unless you expend a level 4+ spell slot (no action required) to restore your use of it.</p><p><strong>Dogged Pursuit.</strong> Once on your turn, when
+      you move your <em>Hunter’s Mark</em> to a new creature, you can do so without using a Bonus Action.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Bloodhound Tracer
+  activities:
+    xLSPDt1ENfCqiAAO:
+      _id: xLSPDt1ENfCqiAAO
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: r7AT94wG7WEKaBgD
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: dead-or-alive
+  advancement: {}
+effects:
+- _id: r7AT94wG7WEKaBgD
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!2yrJOzjekZTWltnd.r7AT94wG7WEKaBgD'
+folder: 8ed9dx0J5FCd9Fw5
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2yrJOzjekZTWltnd'

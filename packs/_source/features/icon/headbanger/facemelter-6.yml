@@ -1,0 +1,98 @@
+_id: G38JarkRB7euBoko
+name: Facemelter
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your shredding and moshing becomes even more furious. You gain the following benefits.</p><p><strong>Extra Attack.</strong> You can attack twice instead of once whenever you take the Attack
+      action on your turn.</p><p>In addition, you can cast one of your cantrips that has a casting time of an action in place of one of those attacks.</p><p><strong>Mosh Pit.</strong> While your Metal Mayhem
+      feature is active, the area in a 15-foot Emanation originating from you is Difficult Terrain for your enemies.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Headbanger Icon
+  activities:
+    y7HTisMcnCrt8s52:
+      _id: y7HTisMcnCrt8s52
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: facemelter
+  advancement: {}
+effects: []
+folder: 4HG1MuYpX6idf014
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!G38JarkRB7euBoko'

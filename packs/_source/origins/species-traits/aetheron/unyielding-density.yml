@@ -1,0 +1,102 @@
+_id: NTt5mH9ZTsL4Ptle
+name: Unyielding Density
+type: feat
+img: modules/neon-odyssey/icons/species/aetheron.webp
+folder: Lu5LFs12tKGUj6lH
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you take damage, you can take a Reaction to reduce the damage by 1d12 plus your Proficiency Bonus. The first time you deal damage before the end of your next turn, one target takes extra
+      Force damage equal to your Proficiency Bonus. You can take this Reaction a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@prof'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Aetheron
+  activities:
+    AqLmCzMQkrtwmN5P:
+      _id: AqLmCzMQkrtwmN5P
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: unyielding-density
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!NTt5mH9ZTsL4Ptle'

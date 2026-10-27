@@ -1,0 +1,50 @@
+_id: SUf3RTExmfkEtusg
+name: Endless War
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Only death brings you true defeat, and you won’t die so easily. You gain the following benefits.</p><p><strong>Death Denied.</strong> You have Advantage on Death Saving Throws.</p><p><strong>Immortal
+      Will.</strong> You can use your Frontline Rally even while you have the Incapacitated or Unconscious conditions.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities: {}
+  enchant: {}
+  identifier: endless-war
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!SUf3RTExmfkEtusg'

@@ -1,0 +1,123 @@
+_id: Qth4fqagbtXD6Db6
+name: Ultimate Flare
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have discovered the ultimate expression of Arcadian arcana. As a Magic action while holding your Arcadian Implement, you can create one of the following effects that fills a 30-foot Cube
+      centered on a point you can see within 150 feet of yourself. You can use your Magic Command, Bonus Upgrade, and Advanced Menu features on this effect as if it were a spell, and they affect each creature
+      affected by the flare. Choose one of the options below when you use this action.</p><p>Once you use this action, you can’t use it again until you finish a Long Rest unless you expend 10 MP (no action
+      required) to restore your use of it.</p><p><strong>Cataclysm.</strong> Each creature of your choice in the Cube makes a Dexterity saving throw against your spell save DC, taking 8d8 Force damage on
+      a failed save or half as much damage on a successful one. You can use MP options on this effect as if it were Cold, Fire, or Lighting damage (choose one).</p><p><strong>Miracle.</strong> The flare
+      restores up to 60 Hit Points divided as you choose among any number of creatures in the Cube.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Arc-Mage Gridrunner
+  activities:
+    WomzDH3b4HbgWKA5:
+      _id: WomzDH3b4HbgWKA5
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 8
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: ultimate-flare
+  advancement: {}
+effects: []
+folder: PYCwpEUVFCmKqZBN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Qth4fqagbtXD6Db6'

@@ -1,0 +1,52 @@
+_id: VUoc86YkCXeifCtN
+name: Weave Duality
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>When you call on the Harmony to shape your magic, both aspects of the balance answer. You gain the following benefits when you cast a spell with a spell slot that deals damage or restores
+      Hit Points.</p><p><strong>Somber Grasp.</strong> If the spell restores Hit Points to one or more creatures, an equal number of creatures within 30 feet of you take Radiant or Necrotic damage (your
+      choice) equal to 2 plus the spell slot’s level.</p><p><strong>Vital Surge.</strong> If the spell damages one or more creatures, an equal number of creatures of your choice within 30 feet of you regain
+      Hit Points equal to 2 plus the spell slot’s level.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Harmonious Oracle
+  activities: {}
+  enchant: {}
+  identifier: weave-duality
+  advancement: {}
+effects: []
+folder: CFltsA9FK9M1Wdn2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!VUoc86YkCXeifCtN'

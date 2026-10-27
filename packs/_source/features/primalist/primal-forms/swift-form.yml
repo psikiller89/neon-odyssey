@@ -1,0 +1,49 @@
+_id: F5Zj4IEO2LLE0318
+name: Swift Form
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>This form excels at speed and agility. Galloping herbivores, sprinting predators, slippery sea creatures, and nimble solitary hunters are common swift forms.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: primalForm
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: swift-form
+  advancement: {}
+effects: []
+folder: w5b30DlWj1Z3CRk1
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!F5Zj4IEO2LLE0318'

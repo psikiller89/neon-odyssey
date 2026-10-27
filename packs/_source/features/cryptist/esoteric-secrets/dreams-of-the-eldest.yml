@@ -1,0 +1,50 @@
+_id: 3pzS5yqAtgoK6sxJ
+name: Dreams of the Eldest
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have plucked knowledge from the lingering dreams of galactic precursors, allowing you to gain one Origin feat of your choice (see “Feats”).</p><p><strong>Repeatable.</strong>
+      You can gain this secret more than once. Each time you do so, choose a different Origin feat.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: true
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: dreams-of-the-eldest
+  advancement: {}
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3pzS5yqAtgoK6sxJ'

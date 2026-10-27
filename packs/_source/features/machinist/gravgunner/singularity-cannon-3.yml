@@ -1,0 +1,176 @@
+_id: Aw5ox6yUOOauNQY6
+name: Singularity Cannon
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your Grav Gun is powered by a singularity that can be harnessed to devastating effect, which you can activate as a Bonus Action. If this feature forces a creature to make a saving throw, the
+      DC equals your spell save DC.</p><p>You can use this Bonus Action a number of times equal to your Intelligence modifier (minimum of once). You regain one expended use when you finish a Short Rest,
+      and you regain all expended uses when you finish a Long Rest. You can also use it again by expending a spell slot.</p><p><strong>Disruptor Beam.</strong> A focused emitter fires a beam of disintegrating
+      energy in a 30-foot Line that is 5 feet wide. Each creature within the Line must make a Dexterity saving throw, taking 2d8 Force damage on a failed save or half as much damage on a successful one.
+      A nonmagical object that isn’t being worn or carried takes the damage if it’s in the Line. If the beam destroys an object that blocks it, the Line then continues past it to its full length.</p><p><strong>Suppression
+      Barrage.</strong> Rotary barrels fire a burst of gravity bolts in a 30-foot Cone. Each creature in that area makes a Dexterity saving throw. On a failed save, a target takes 1d8 Force damage and has
+      the Prone condition. On a successful save, it takes half as much damage only.</p><p><strong>Vector Manipulator.</strong> Gathering rings that surround the singularity chamber unleash a wave of gravity
+      in a 30foot Cone. Each Large or smaller creature in that area must succeed on a Strength saving throw or be pushed up to 30 feet straight toward or away from you (choose one).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.int.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities:
+    7MTI9cg2uaYbwV03:
+      _id: 7MTI9cg2uaYbwV03
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: HZsjlBrRe8S5gWYC
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: singularity-cannon
+  advancement: {}
+effects:
+- _id: HZsjlBrRe8S5gWYC
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Aw5ox6yUOOauNQY6.HZsjlBrRe8S5gWYC'
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Aw5ox6yUOOauNQY6'

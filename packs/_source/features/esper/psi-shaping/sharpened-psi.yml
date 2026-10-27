@@ -1,0 +1,50 @@
+_id: 5PdbNUjVWsGf1NjO
+name: Sharpened Psi
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Cost: 2 Psi Points</em></p><p>When you cast a spell that forces a creature to make a saving throw, you can spend 2 Psi Points to give one target of the spell Disadvantage on saves against
+      the spell.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psiShaping
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: sharpened-psi
+  advancement: {}
+effects: []
+folder: fUiMTwUZ6bgebpNK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!5PdbNUjVWsGf1NjO'

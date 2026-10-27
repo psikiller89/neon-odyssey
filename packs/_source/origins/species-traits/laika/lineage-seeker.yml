@@ -1,0 +1,87 @@
+_id: fKbOLxFgwoxZ6fTr
+name: 'Laika Lineage: Seeker'
+type: feat
+img: modules/neon-odyssey/icons/species/laika.webp
+folder: HxdiA1xDFFhCaHQ4
+sort: 0
+effects:
+- _id: vhjwPbsPidZhg6QR
+  name: 'Laika Lineage: Seeker'
+  img: null
+  type: base
+  system:
+    changes: []
+  changes:
+  - key: system.attributes.movement.walk
+    mode: 4
+    value: '35'
+    priority: null
+  statuses: []
+  transfer: true
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!fKbOLxFgwoxZ6fTr.vhjwPbsPidZhg6QR'
+system:
+  description:
+    value: <p>Your Speed increases to 35 feet.</p><p><strong>Pack Minded (character level 3).</strong> You and the ally you help each have Advantage on the next ability check or attack roll either of you
+      make within the next minute.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Laika
+  activities: {}
+  enchant: {}
+  identifier: laika-lineage-seeker
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fKbOLxFgwoxZ6fTr'

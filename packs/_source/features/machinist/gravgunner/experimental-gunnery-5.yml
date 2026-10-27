@@ -1,0 +1,50 @@
+_id: rLIPD3yzDT93GXs1
+name: Experimental Gunnery
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You have upgraded your Grav Gun with powerful modifications. Once per turn when you make an attack roll with your Grav Gun, you can activate one of the following mastery properties in addition
+      to a different mastery property you’re using with it: Graze, Push, or Vex.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities: {}
+  enchant: {}
+  identifier: experimental-gunnery
+  advancement: {}
+effects: []
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rLIPD3yzDT93GXs1'

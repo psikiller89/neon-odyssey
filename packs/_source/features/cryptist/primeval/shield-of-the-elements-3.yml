@@ -1,0 +1,49 @@
+_id: w18qRBbihf96lQ46
+name: Shield of the Elements
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Unbound primordial forces surround you like a shield. While you aren’t wearing any armor, your base Armor Class equals 10 plus your Constitution and Occult Magic spellcasting ability modifiers.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: shield-of-the-elements
+  advancement: {}
+effects: []
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!w18qRBbihf96lQ46'

@@ -1,0 +1,107 @@
+_id: dzTCl7u8kmxtedAR
+name: Powertech
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/powertech.webp
+system:
+  description:
+    value: <p><em>Upgrade Armor and Arsenal for the Ultimate Hunt</em> Powertechs fuse the natural and mechanical to forge enhanced suits of armor outfitted with integrated weaponry and adaptive systems,
+      granting them technological superiority in any hunt. They constantly upgrade and modify this armor with specialized attachments that equip them with the right tool for the job. Many Powertechs cherish
+      their armor, bearing a deep respect and reverence for the improbable union of technology and primordial magic.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: powertech
+  classIdentifier: tracer
+  advancement:
+    JRXkh0fMrM05MiO2:
+      _id: JRXkh0fMrM05MiO2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.kehgr4PVrYh1tP1z
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.nzMzssJa3HdMcWfg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.KLIUjpVlymCJb9fe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.EpSiyweSnIULFyXX
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    P0ttMmwZwHYW7kQa:
+      _id: P0ttMmwZwHYW7kQa
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nmJvTZ52dKX051GD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    5eotWvhxhFGCF4yI:
+      _id: 5eotWvhxhFGCF4yI
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.uxnmEyiM2wBaBjrR
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    F9vELSfdvHsyAN0O:
+      _id: F9vELSfdvHsyAN0O
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.VPTqa2jAHSvyZdfu
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: oThN1a3KYkRfeQTe
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!dzTCl7u8kmxtedAR'

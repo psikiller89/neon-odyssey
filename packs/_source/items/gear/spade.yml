@@ -1,0 +1,52 @@
+_id: SvQky0yKAKMGP1RU
+name: Spade
+type: loot
+img: icons/tools/hand/shovel-spade-steel-grey.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 10
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Working for 1 hour, you can use a Spade to dig a hole that is 5 feet on each side in soil or similar material. $<strong>300</strong></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: spade
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!SvQky0yKAKMGP1RU'

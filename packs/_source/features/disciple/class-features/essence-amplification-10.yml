@@ -1,0 +1,53 @@
+_id: 4tznBACwFlJU5GFQ
+name: Essence Amplification
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  description:
+    value: <p>Your control over the flow of Essence increases. Your Ensouled Strikes, Flowing Step, and Measured Guard gain the following benefits.</p><p><strong>Ensouled Strikes.</strong> You can expend
+      1 Essence Point to use Ensouled Strikes and make three Unarmed Strikes with it instead of two.</p><p><strong>Flowing Step.</strong> When you expend an Essence Point to use Flowing Step, you can choose
+      a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature’s movement doesn’t provoke Opportunity Attacks.</p><p><strong>Measured
+      Guard.</strong> When you expend an Essence Point to use Measured Guard, you gain a number of Temporary Hit Points equal to two rolls of your die.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: essence-amplification
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 1000000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!4tznBACwFlJU5GFQ'

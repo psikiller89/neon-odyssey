@@ -1,0 +1,50 @@
+_id: j71rHoIzkLFtM48G
+name: Grid Spiker
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your technomancy allows you to interface with hardware more easily. You gain proficiency with Bypass Tools, Electronics Tools, or Forger’s Kits. Additionally, your hyperpad now functions as
+      a Spiking Deck and the tool you chose for this feature.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: grid-spiker
+  advancement: {}
+effects: []
+folder: vpRfQY6bZevS9uKl
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!j71rHoIzkLFtM48G'

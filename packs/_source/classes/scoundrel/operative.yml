@@ -1,0 +1,101 @@
+_id: 4CEw7TgJeaDe9vWo
+name: Operative
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/operative.webp
+system:
+  description:
+    value: <p><em>Become the Ultimate Agent of Espionage</em> Operatives specialize in top-secret assignments and impossible missions, mastering the arts of infiltration and espionage. Their expert training
+      and advanced gadgetry allow them to complete their objectives, oftentimes without ever being detected. Some of these Scoundrels conduct high-risk operations for governments or other galactic organizations,
+      while others use their specialized skills to advance their own covert aims.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: operative
+  classIdentifier: scoundrel
+  advancement:
+    3gTgUyccEZd715DE:
+      _id: 3gTgUyccEZd715DE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.WWzvhIKM6kygxcq0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.1Mgn6RyqqUyTeikw
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    xXjCJMLSmVDetsW0:
+      _id: xXjCJMLSmVDetsW0
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1O8HvQg005eTxwnQ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    UcRFCGKSKkVBZ1qU:
+      _id: UcRFCGKSKkVBZ1qU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3rFogCxxPz5Arrd4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Subclass Features
+      hint: ''
+    kgF5DL1AIuOTEO33:
+      _id: kgF5DL1AIuOTEO33
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.7dySPfrTjkqbqLM7
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 3gZ4ytt18QnUbQoV
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!4CEw7TgJeaDe9vWo'

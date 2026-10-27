@@ -1,0 +1,104 @@
+_id: BGO1oTc3FTkk4WPe
+name: Worldspeaker
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/worldspeaker.webp
+system:
+  description:
+    value: <p><em>Connect with Living Worlds to Harness Planetary Power</em> Worldspeakers are conduits of the living world souls at the core of planets across the Stardust Rhapsody, feeling their intense
+      emotions and sharing in their power. By forming spiritual tethers with these elemental entities, they can usher forth the untamed environments and biomes of their bonded worlds wherever they find
+      themselves. Most Worldspeakers become influenced by the planet they’re most connected to, even taking on personality traits or physical characteristics that resemble its unique elemental attributes.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: worldspeaker
+  classIdentifier: primalist
+  advancement:
+    mTYP5NLoXaJjFumK:
+      _id: mTYP5NLoXaJjFumK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.s0Y6FYhKiqYr1RQ8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.kSRDQ8VFQ2rCemKe
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.kde3Xfl41qwUqgi8
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    yczzeG0709GdjLwy:
+      _id: yczzeG0709GdjLwy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.UnsOQUYKfTsqM2h1
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    MVERANz6hwp3kuGR:
+      _id: MVERANz6hwp3kuGR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.BvliqVVc1qqulWuW
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    6WIAmUcjXxnVsD01:
+      _id: 6WIAmUcjXxnVsD01
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.HyocMkLrlaDDCIho
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: FXtdPbgogvsyHjaE
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!BGO1oTc3FTkk4WPe'

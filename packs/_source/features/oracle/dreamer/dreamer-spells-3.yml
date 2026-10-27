@@ -1,0 +1,157 @@
+_id: ny2LKRoXcOyQqDKD
+name: Dreamer Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>Your Arcadian dreams gift you with certain spells. When you reach an Oracle level specified in the Dreamer Spells table, you thereafter always have the listed spells prepared. <em>Calm Emotions</em>,
+      <em>Disguise Self</em>, <em>Minor Illusion</em>, <em>Phantasmal Force</em>,<em> Sleep</em> <em>Fly</em>, <em>Summon Arcadian</em>* <em>Phantasmal Killer</em>, <em>Polymorph</em> <em>Creation</em>,
+      <em>Dream</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Dreamer Oracle
+  activities: {}
+  enchant: {}
+  identifier: dreamer-spells
+  advancement:
+    I6AuHwq9SM8H0JTx:
+      _id: I6AuHwq9SM8H0JTx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbPhantasmalFor
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCalmEmotio
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSleep00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Dreamer Spells
+      hint: ''
+    dYW6WjzIMNZxD0X2:
+      _id: dYW6WjzIMNZxD0X2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.0OvApnAane31lFqg
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Dreamer Spells
+      hint: ''
+    CKDtbRtK3EETbsjO:
+      _id: CKDtbRtK3EETbsjO
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Dreamer Spells
+      hint: ''
+    KyyPahANEJLP824v:
+      _id: KyyPahANEJLP824v
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCreation00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDream00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Dreamer Spells
+      hint: ''
+effects: []
+folder: 7RSAV4C2JMHE3ORI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ny2LKRoXcOyQqDKD'

@@ -1,0 +1,499 @@
+_id: 0YgjACWZXIgRBsEQ
+name: Starry Guide
+type: npc
+img: modules/neon-odyssey/icons/creatures/starry-guide.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 5
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 1
+    con:
+      value: 16
+      proficient: 1
+    int:
+      value: 6
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 12
+      proficient: 0
+  attributes:
+    ac:
+      flat: 12
+      calc: natural
+    hp:
+      value: 22
+      max: 22
+      formula: 4d4 + 12
+      temp: null
+      tempmax: null
+    movement:
+      walk: '20'
+      fly: '40'
+      units: ft
+      hover: true
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 120
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: celestial
+      subtype: ''
+      custom: ''
+    alignment: Neutral Good
+    biography:
+      value: "<p>STARRY GUIDE</p><p>Wishing Star Turned Ally</p><p>Habitat: Any, Planar (Agathos); Treasure: None</p><p>Starry guides are clusters of star stuff that coalesce along the \nedges of Agathos\
+        \ and are given life by the realm’s divine power.</p><p>They then descend to the mortal worlds, serving as a guiding \npresence to those who wish upon these falling stars. The shape \nthat these\
+        \ little Celestials take can vary, including motes of light, \nanimal-shaped constellations, and stars with faces.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: tiny
+    dr:
+      value:
+      - bludgeoning
+      - cold
+      - piercing
+      - slashing
+    di:
+      value:
+      - fire
+      - radiant
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: Understands all languages but can’t speak
+  skills:
+    acr:
+      value: 1
+      ability: ''
+items:
+- _id: IJnc5DShujPSuV8B
+  name: Celestial Restoration
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the guide dies outside Agathos, its body vanishes into starlight, and it gains a new body instantly, reviving with all its Hit Points somewhere in Agathos.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: celestial-restoration
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.IJnc5DShujPSuV8B'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: nfs7NcTboQtQMUvW
+  name: Magic Resistance
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The guide has Advantage on saving throws against spells and other magical effects.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: magic-resistance
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.nfs7NcTboQtQMUvW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: HGyagHJYXZhCWsvg
+  name: Starry Glow
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The guide sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet. The guide can hide or resume its glow during its turn (no action required).</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: starry-glow
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.HGyagHJYXZhCWsvg'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: w8g0OxOoZ4PlhB93
+  name: Starlight Strike
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft. Hit: 6 (1d8 + 2) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      LsqzefImtUlRI24A:
+        _id: LsqzefImtUlRI24A
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '4'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@mod'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        range:
+          override: true
+          value: '120'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: starlight-strike
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.w8g0OxOoZ4PlhB93'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: t0jf1v9MIo7StJLz
+  name: Blessed Illumination
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>For one minute, each ally that starts its turn in in the guide's Bright Light regains 1 Hit Point and has a +1 bonus to D20 Tests until the start of its next turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '1'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      TGaNou86QtUII0Kg:
+        _id: TGaNou86QtUII0Kg
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: blessed-illumination
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.t0jf1v9MIo7StJLz'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: EulM5vIZe9X6UqL2
+  name: Radiant Burst
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: The guide takes damage. Response—Dexterity Saving Throw: DC 13, each creature of the guide’s choice in a 5-foot Emanation originating from the guide. Failure: 3 (1d6) Radiant damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: '3'
+      spent: 0
+      recovery:
+      - period: day
+        type: recoverAll
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      nXowzVsjHpr7Muup:
+        _id: nXowzVsjHpr7Muup
+        type: save
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '13'
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: radiant-burst
+  _key: '!actors.items!0YgjACWZXIgRBsEQ.EulM5vIZe9X6UqL2'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Starry Guide
+  texture:
+    src: modules/neon-odyssey/icons/creatures/starry-guide-token.webp
+  width: 0.5
+  height: 0.5
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!0YgjACWZXIgRBsEQ'

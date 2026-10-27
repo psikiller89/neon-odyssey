@@ -1,0 +1,93 @@
+_id: HEMd6neKa9rPgUix
+name: Driving Momentum
+type: feat
+img: icons/skills/movement/feet-winged-boots-brown.webp
+system:
+  description:
+    value: <p>The kinetic energy that fills your body drives you forward even faster. Your Speed increases by 10 feet while you aren’t wearing Heavy armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: driving-momentum
+  advancement: {}
+  crewed: false
+effects:
+- _id: Ln2upWfCALSwthX1
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: Compendium.neon-odyssey.features.Item.HEMd6neKa9rPgUix
+  transfer: true
+  flags:
+    dnd5e:
+      riders: {}
+  tint: '#ffffff'
+  name: Fast Movement
+  description: ''
+  statuses: []
+  img: icons/skills/movement/feet-winged-boots-brown.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.bonus
+      value: 10
+      priority: null
+      type: add
+      phase: initial
+      _id: zeh9ix2piaPtRv8X
+      conditions: '{}'
+      replacement: ''
+    rider:
+      statuses: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+  sort: 0
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!HEMd6neKa9rPgUix.Ln2upWfCALSwthX1'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!HEMd6neKa9rPgUix'

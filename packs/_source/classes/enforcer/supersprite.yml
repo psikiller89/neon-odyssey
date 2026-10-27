@@ -1,0 +1,104 @@
+_id: VKBprBD1IawjzKib
+name: Supersprite
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/supersprite.webp
+system:
+  description:
+    value: <p><em>Power Up with the Heart of a Hero</em> Supersprites are Enforcers who uphold the code of the arcade hero, drawing upon the power of Arcadia to seek grand adventures, courageously face
+      evil, and rescue those in danger. They collect Arcadian power-ups that transform them for the challenge ahead, granting them the speed, strength, or resilience needed to defeat any enemy and clear
+      any stage. Supersprites are typically bright optimists who believe there’s always another chance, but some are brooding loners who prove their heroism with deeds rather than cheer.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: supersprite
+  classIdentifier: enforcer
+  advancement:
+    h8PKODvG7xBoTH7A:
+      _id: h8PKODvG7xBoTH7A
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.kVyL8Pb4sGtBc3D6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.egr6gmrBvBJ4JlRT
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.z7tILZNpnDNCja9P
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    4eEvvY3ZHgxgAhDu:
+      _id: 4eEvvY3ZHgxgAhDu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1ErMnGdgpQKpm3tK
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    pkOWmdhoNOpooK1X:
+      _id: pkOWmdhoNOpooK1X
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.WG1zuOqV5EjXpcpX
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    32WbP5y7oQkb3I0V:
+      _id: 32WbP5y7oQkb3I0V
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.YTt4DQ3lApyWVs0j
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: spYUbXQtBgB2o1ja
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!VKBprBD1IawjzKib'

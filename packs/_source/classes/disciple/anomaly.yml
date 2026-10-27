@@ -1,0 +1,101 @@
+_id: 3NM3wJonBJxJpYi1
+name: Anomaly
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/anomaly.webp
+system:
+  description:
+    value: <p><em>Become a Glitch in the Code of Reality</em> Anomalies walk between two worlds, their souls existing simultaneously in reality and the Hypergrid. This connection allows them to perceive
+      the code underlying existence and bend it to their will, escaping the shackles of reality to perform feats most would deem impossible. Some of these living glitches eventually become digital wanderers
+      within the Hypergrid, while others devote themselves to discovering just how many rules of existence they can break.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: anomaly
+  classIdentifier: disciple
+  advancement:
+    A0l5UO9gw2lEli8H:
+      _id: A0l5UO9gw2lEli8H
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nBBX9g1eVywBKYCC
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ERIsX3Epkq36VEgh
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    Rff4rumibmQoDMeA:
+      _id: Rff4rumibmQoDMeA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.cBydCdJzPtCqvAIm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    DBNMgISDR75W8S9y:
+      _id: DBNMgISDR75W8S9y
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LpeVsmbeKqj1hCuK
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    xJZuzeukTOIeuUY7:
+      _id: xJZuzeukTOIeuUY7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.FUE6tI9pHEUfxHyC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: MrkCyjRQd9KEa1GC
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!3NM3wJonBJxJpYi1'

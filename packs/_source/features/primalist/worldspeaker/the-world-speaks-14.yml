@@ -1,0 +1,181 @@
+_id: HyocMkLrlaDDCIho
+name: The World Speaks
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have become the herald of your world. You can cast <em>Commune with Nature</em> without a spell slot once, and you regain the ability to do so when you finish a Long Rest.</p><p>In addition,
+      when you activate your Planetary Embodiment feature, you can empower it. When you do, the Emanation of your Biome Sanctuary feature increases to 30 feet for 1 minute. During that minute, the Emanation
+      is Difficult Terrain for your enemies and an enemy that enters the Emanation for the first time on a turn or starts its turn there must make a saving throw against your spell save DC. The type of
+      saving throw and the effect on a failed save are determined by the embodiment chosen. Once you empower your Emanation this way, you can’t do so again until you finish a Long Rest.</p><p><strong>Abundant
+      (Strength Saving Throw).</strong> On a failed save, the target has the Restrained condition until the start of its next turn.</p><p><strong>Defiled (Wisdom Saving Throw).</strong> On a failed save,
+      immediately after the target takes an action or a Bonus Action before the start of its next turn, it takes 3d8 damage of a type determined by your World Bond (your choice).</p><p><strong>Turbulent
+      (Strength Saving Throw).</strong> On a failed save, the target has the Prone condition, and its Speed is 0 until the start of its next turn.</p><p><strong>Unforgiving (Constitution Saving Throw).</strong>
+      On a failed save, the target gains 1 Exhaustion level. This can’t raise a creature’s Exhaustion level above 3.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities:
+    HE9MocGMRDRk5x4u:
+      _id: HE9MocGMRDRk5x4u
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: jZqbinaD14EV3ImA
+        onSave: false
+      - _id: n4rht5obb9yKR9Q9
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: the-world-speaks
+  advancement: {}
+effects:
+- _id: jZqbinaD14EV3ImA
+  name: Prone
+  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - prone
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!HyocMkLrlaDDCIho.jZqbinaD14EV3ImA'
+- _id: n4rht5obb9yKR9Q9
+  name: Restrained
+  img: systems/dnd5e/icons/svg/statuses/restrained.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - restrained
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!HyocMkLrlaDDCIho.n4rht5obb9yKR9Q9'
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!HyocMkLrlaDDCIho'

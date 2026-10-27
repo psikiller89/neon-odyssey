@@ -1,0 +1,53 @@
+_id: AMd04b5pn3fFHVkU
+name: Occultech Weapon
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have access to esoteric, alien, or occult technology. When you finish a Long Rest, you can integrate this strange technology into a weapon to create an occultech weapon. If you make an
+      occultech weapon while you already have one, the first weapon is no longer an occultech weapon. Your occultech weapon gains the following benefits.</p><p><strong>Occult Round.</strong> Choose a level
+      1 spell from the Cryptist spell list such as <em>Withering Lightning</em>*; you always have that spell prepared. While you are holding the weapon, you can cast that spell once without a spell slot,
+      and you regain the ability to do so when you finish a Long Rest.</p><p><strong>Uncanny Intrusion.</strong> When you hit with an attack roll using the occultech weapon, you can cause it to deal Psychic
+      damage instead of the normal damage type.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: X-Agent Tracer
+  activities: {}
+  enchant: {}
+  identifier: occultech-weapon
+  advancement: {}
+effects: []
+folder: zHKdbS3wrngiYRsW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!AMd04b5pn3fFHVkU'

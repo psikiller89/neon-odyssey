@@ -1,0 +1,103 @@
+_id: l6IPEjm5kAN1NDy7
+name: Mutant
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/mutant.webp
+system:
+  description:
+    value: <p><em>Warp Your Flesh with Mutagenic Horror</em> The bodies of Mutants course with volatile mutagens that change them and grant them the ability to twist their flesh into grotesque new forms.
+      From fleshy tendrils to extra shrieking mouths, these mutations rip apart enemies in both body and mind. Some mutants are transformed in an instant after being doused by radioactive ooze, while others
+      are slowly changed from the eldritch corruption of otherworldly influence.</p><p>You can choose the origin of your mutation or determine it by rolling on the Mutation Origin table. You drank something
+      ancient, and it was a bit slimy. You were exposed to the Void for an unknown amount of time. You were subjected to an experimental treatment that had some unexpected side effects. You fell into a
+      vat of mysterious slime.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: mutant
+  classIdentifier: juggernaut
+  advancement:
+    5x0wwizYWlk9lTk5:
+      _id: 5x0wwizYWlk9lTk5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.HDK6W0qjfsJeQ4mP
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    FvJOHthtxAUEwIsf:
+      _id: FvJOHthtxAUEwIsf
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.STiHc3R1JALZssY7
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.YlBcXbXqgry25RAf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    lBXxaO9UYcegyIT3:
+      _id: lBXxaO9UYcegyIT3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.SxmVfK4BDKeDaa6F
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Subclass Features
+      hint: ''
+    ObbKULlCdfgEdoj2:
+      _id: ObbKULlCdfgEdoj2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.xCsCURScdNDZarb1
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 645rw480t9huQVb4
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!l6IPEjm5kAN1NDy7'

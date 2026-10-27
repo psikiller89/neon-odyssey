@@ -1,0 +1,97 @@
+_id: yM3rsMvZFkKulwNM
+name: Yaungu
+type: race
+img: modules/neon-odyssey/icons/species/yaungu.webp
+system:
+  description:
+    value: <p>Yaungu <em>(YAWN-goo)</em> are a hearty people born of the cold, bearing a deep, supernatural connection to ice and snow. Having descended from the giants of the frozen mountains and tundras
+      of their frigid homeworld, they have adapted to thrive and build remarkable civilizations in the most inhospitable of environments. Many yaungu have a deep appreciation for the sharing of and passing
+      down of knowledge, whether it be through story, song, or written text. Some even seek out well-hidden truths or heavily guarded secrets so that the learnings can be shared by the many to lead to a
+      brighter future. Yaungu tend to be tall and powerfully built, with long arms and prominent claws for climbing. Horns grow from the sides of their head, which many of them decorate with carvings or
+      other adornments. Their shaggy, insulating fur is typically white or some shade of blue, but some yaungu sport pelts of brown, gray, or black.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    r2R8BaOEh0exey0U:
+      _id: r2R8BaOEh0exey0U
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 6–8 feet tall)
+      value: {}
+      title: ''
+    eofJWGiG5ZzIGYSz:
+      _id: eofJWGiG5ZzIGYSz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.Z8jftHOVkX96ynij
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.VSf4mWq9CgTUlvEI
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Z5L1w4opahD0ZFjD
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.0BzAd9bDeeY4v5ex
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.UzdgDGSEicjwkAgC
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.02lqzO2fquFdFv9J
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Yaungu Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      climb: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: yaungu
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!yM3rsMvZFkKulwNM'

@@ -1,0 +1,103 @@
+_id: caNXYdBVoFq3TK5O
+name: One with the Harmony
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have achieved unification with the Harmony, granting you the following benefits.</p><p><strong>Prescient Balance.</strong> When you roll Initiative, before the roll, you can choose your
+      balance aspect.</p><p><strong>Harmonic Realignment.</strong> When you take Necrotic damage, Radiant damage, or make a Constitution saving throw, you can take a Reaction to choose your balance aspect.</p><p><strong>Leveled
+      Scales.</strong> On your turn, you can expend 1 Essence Point to enter a state of pure balance for 1 minute (no action required). For the duration, when you use Lifeforce Control or Path of Balance,
+      you activate both Vital and Somber options of those features instead of choosing one, and your Lifeforce Control options make two rolls of your Combat Tradition die instead of one.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symmetric Disciple
+  activities:
+    HKw8Ii6Z5RkHCMdc:
+      _id: HKw8Ii6Z5RkHCMdc
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: wis
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: one-with-the-harmony
+  advancement: {}
+effects: []
+folder: REWshjqiTR81HmVP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!caNXYdBVoFq3TK5O'

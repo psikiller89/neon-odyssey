@@ -1,0 +1,107 @@
+_id: ZEkcbDM4ZgYJdzFc
+name: X-Agent
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/x-agent.webp
+system:
+  description:
+    value: <p><em>Pursue the Truth to Uncover the Unexplained</em> X-Agents are Tracers who meddle with the strangest and most mysterious forces of the Stardust Rhapsody and investigate the uncanny and
+      the unseen. They delve into esoteric technology and occult magic to secure and contain the abnormal and sinister threats to the galaxy that many don’t believe exist. Some X-Agents get involved in
+      secretive organizations and conspiracies to control these discoveries for their own ends, while others seek only to protect the galactic citizenry from the unexplainable.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: x-agent
+  classIdentifier: tracer
+  advancement:
+    8Hnl78hv207YsnHD:
+      _id: 8Hnl78hv207YsnHD
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.i3ULUhlWRNQDDibn
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.AMd04b5pn3fFHVkU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.mObBe0GvpvShV5ci
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.TisbHUkqPzfQax2t
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    D80UoKY7pfsiAVW5:
+      _id: D80UoKY7pfsiAVW5
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.COSEN04HalHt8xRl
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    44OQpWWEkJ8oYMQL:
+      _id: 44OQpWWEkJ8oYMQL
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.j7nDnujZM8eX3RPS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Subclass Features
+      hint: ''
+    gR0f2tKjai7IlfKz:
+      _id: gR0f2tKjai7IlfKz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4v37clO57qEGWwyx
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: oThN1a3KYkRfeQTe
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!ZEkcbDM4ZgYJdzFc'

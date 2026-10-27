@@ -1,0 +1,103 @@
+_id: BsI3HVePP6Po89pC
+name: Weapon Mastery
+type: feat
+img: icons/skills/melee/weapons-crossed-swords-yellow-teal.webp
+system:
+  description:
+    value: <p>Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons or Ranged weapons with the Braced property of your choice, such as Breaker
+      Axes and Hand Cannons. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p><p>When you reach certain Juggernaut levels, you gain the ability
+      to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Juggernaut Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: weapon-mastery
+  advancement:
+    UJdrH9cjLqpQrLCz:
+      _id: UJdrH9cjLqpQrLCz
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 1
+      hint: <p>Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice.</p>
+      flags: {}
+      name: Weapon Mastery
+    WYkWGiSyjLN4WC4x:
+      _id: WYkWGiSyjLN4WC4x
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 4
+      hint: Your training with weapons allows you to use the mastery properties of additional weapons.
+      flags: {}
+      name: Weapon Mastery
+    EUfvF7zVF9ooQGUg:
+      _id: EUfvF7zVF9ooQGUg
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 10
+      hint: Your training with weapons allows you to use the mastery properties of additional weapons.
+      flags: {}
+      name: Weapon Mastery
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!BsI3HVePP6Po89pC'

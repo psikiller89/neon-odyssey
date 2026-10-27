@@ -1,0 +1,71 @@
+_id: fRhd7Pcx91dCiLOm
+name: Hidden Truth
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Secrets and lies are second nature to you, and you can discern when others knowingly speak falsehoods. You always have the <em>Zone of Truth</em> spell prepared, and you can cast it without
+      expending a spell slot and requiring no spell components. Once you cast the spell with this feature, you can’t do so in this way again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: hidden-truth
+  advancement:
+    vxTr7jX960H1IG5g:
+      _id: vxTr7jX960H1IG5g
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplZoneofTrut
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Hidden Truth
+      hint: ''
+effects: []
+folder: TJJaZ451oPDfNSkq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!fRhd7Pcx91dCiLOm'

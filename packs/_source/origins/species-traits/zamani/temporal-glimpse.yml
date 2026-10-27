@@ -1,0 +1,49 @@
+_id: rmfdfZh4V6Bw4AIF
+name: Temporal Glimpse
+type: feat
+img: modules/neon-odyssey/icons/species/zamani.webp
+folder: RsLK3ZOXwf0Uguv3
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you finish a Long Rest, you look at fragments of possible futures. Roll a d20 and record the number. When you or a creature you can see within 30 feet of yourself makes a D20 Test, you
+      can replace the test with the recorded number. You must choose to do so before the roll. The glimpse can only be used once, and you lose an unused glimpse when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zamani
+  activities: {}
+  enchant: {}
+  identifier: temporal-glimpse
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rmfdfZh4V6Bw4AIF'

@@ -1,0 +1,148 @@
+_id: OuSBOtZopTjQZpLI
+name: Game Set
+type: tool
+img: icons/tools/hand/pickaxe-steel-white.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p><strong>Ability:</strong> Dexterity or Wisdom</p><p><strong>Weight:</strong> Varies</p><p><strong>Utilize:</strong> Discern whether someone is cheating (Wisdom DC 10), or win the game (DC
+      20)</p><p><strong>Variants:</strong> Board game ($20, 2 lb.), casino set ($20, 2 lb.), collectible card game ($250, 1/2 lb.), game console ($500, 5 lb.)</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: game
+    baseItem: ''
+  ability: dex
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  activities:
+    IYpKeCUgCCZsTgMp:
+      _id: IYpKeCUgCCZsTgMp
+      type: check
+      name: Discern whether someone is cheating
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: dex
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+    sVqqCehYWF3rukAf:
+      _id: sVqqCehYWF3rukAf
+      type: check
+      name: Win the game
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      check:
+        ability: dex
+        associated: []
+        dc:
+          calculation: ''
+          formula: '20'
+  identifier: game-set
+effects: []
+folder: 6W1gxS8tI2etLdmC
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!OuSBOtZopTjQZpLI'

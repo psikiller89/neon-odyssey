@@ -1,0 +1,104 @@
+_id: egr6gmrBvBJ4JlRT
+name: Hero’s Power-Up
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You collect power-ups from Arcadia to empower you for the challenge at hand. When you take the Attack action, you can expend one use of your Cosmic Conduit to activate a cosmic power-up from
+      the options below for 1 minute. For the duration, at the start of each of your turns, you can change the chosen power-up (no action required).</p><p><strong>Dragon Pepper.</strong> Your reach increases
+      by 10 feet, and your ranged weapon attacks don’t suffer Disadvantage for attacking at long range. Once on each of your turns when you hit with a weapon, you can cause the target to start burning.</p><p><strong>Hearty
+      Honeycomb.</strong> You gain a number of Temporary Hit Points equal to twice your Charisma modifier (minimum of 2), and you have Advantage on Strength and Constitution saving throws.</p><p><strong>Spring
+      Sneakers.</strong> Your Speed increases by 10 feet, Opportunity Attacks have Disadvantage against you, and once per turn, you can jump up to 30 feet by spending 10 feet of movement.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Supersprite Enforcer
+  activities:
+    xr6JSsLGyeRVdafu:
+      _id: xr6JSsLGyeRVdafu
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: heros-power-up
+  advancement: {}
+effects: []
+folder: DYc5L750iJ36XVct
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!egr6gmrBvBJ4JlRT'

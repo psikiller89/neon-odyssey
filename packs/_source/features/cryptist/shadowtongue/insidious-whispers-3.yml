@@ -1,0 +1,51 @@
+_id: J8KR57rjZ3Dm6V3y
+name: Insidious Whispers
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your whispers twist the Harmony to wrap your enchanting magic around the mind of normally resilient beings. When you cast a spell that imposes the Charmed condition, you can modify it to affect
+      creatures of any type.</p><p>When you do so, one target of the spell normally unaffected because of its creature type is affected. The target has Advantage on any saving throws against the spell,
+      and the spell ends after 1 minute, unless its normal duration is shorter.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Shadowtongue Cryptist
+  activities: {}
+  enchant: {}
+  identifier: insidious-whispers
+  advancement: {}
+effects: []
+folder: RFmJWYeRQQ3zwzgZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!J8KR57rjZ3Dm6V3y'

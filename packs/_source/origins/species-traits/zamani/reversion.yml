@@ -1,0 +1,96 @@
+_id: uUYOnpNz1jehlfft
+name: Reversion
+type: feat
+img: modules/neon-odyssey/icons/species/zamani.webp
+folder: RsLK3ZOXwf0Uguv3
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>When you take damage, you can take a Reaction to gain Resistance to that damage and teleport to an unoccupied space you can see that you occupied since the start of your previous turn. You
+      can use this trait once, and you regain the ability to do so when you finish a Short or Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Zamani
+  activities:
+    Z9Ci5ruhmGLGOPqv:
+      _id: Z9Ci5ruhmGLGOPqv
+      type: utility
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: reversion
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uUYOnpNz1jehlfft'

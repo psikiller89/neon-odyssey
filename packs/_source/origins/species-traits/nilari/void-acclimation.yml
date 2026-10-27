@@ -1,0 +1,48 @@
+_id: 177baluo8QqgTVVb
+name: Void Acclimation
+type: feat
+img: modules/neon-odyssey/icons/species/nilari.webp
+folder: ISAyCGPeuUb5dYNH
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Resistance to Necrotic damage and Psychic damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Nilari
+  activities: {}
+  enchant: {}
+  identifier: void-acclimation
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!177baluo8QqgTVVb'

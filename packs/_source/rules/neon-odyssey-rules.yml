@@ -1,0 +1,474 @@
+_id: EAjk051lqUlh64S1
+name: Neon Odyssey Rules
+pages:
+- _id: oHsURIAZILwlTFCZ
+  name: Computers & Technology Skills, Backgrounds, Languages
+  type: text
+  sort: 100000
+  title:
+    show: true
+    level: 1
+  text:
+    format: 1
+    content: '<p><strong>P</strong> <strong>l</strong> <strong>a</strong> <strong>y</strong> <strong>i</strong> <strong>n</strong> <strong>g</strong></p><h2>Neon Odyssey</h2><p>You can playtest Neon Odyssey
+      in whatever format works best for your table. If you want to play a series of one-shots or even begin a campaign, you are welcome to do so. Alternatively, you can simply run combat encounters following
+      CR guidance included in the D&amp;D Beyond Basic Rules and collect feedback on how the characters and monsters feel to play and run respectively.</p><h2>Creating Your Character</h2><p>To create your
+      Neon Odyssey character, form-fillable character sheets have been provided, also available in the Digital Downloads section of your Backerkit Survey. You can create your character following the same
+      process as outlined in the D&amp;D Beyond Basic Rules, but you should use the materials in the playtest wherever possible.</p><h3>New Skill: Computers (Intelligence)</h3><p>The Computers skill governs
+      knowledge, use, and creation of software to run on computers or other electronic devices. Use Computers for tasks relating to manipulating software or operating systems. Some tasks involving the Computers
+      skill require a Utilize action, but many are more involved and take more time to perform.</p><h4>Research</h4><p>Using computer databases or Hypergrid browsers for a simple, public information search
+      doesn’t require an ability check. Such searches usually only require a Utilize action, but more protected information takes longer to locate, as shown in the Computer Research table. At the end of
+      that time, the character locates the desired Information with a successful Intelligence (Computers or Investigation) check using access to an appropriate database. The obscurity of the information
+      sets the DC, as shown on the Computer Research table.</p><p>Information ranges from general to protected. General information is readily available and usually doesn’t require an ability check. Specific
+      information could be personal details such as a date of birth. Restricted information is more sensitive such as a home address or personal comm frequency. Protected information is the most difficult
+      to locate, such as financial data or non-public legal records. <strong>Computer Research</strong> <strong>Type of Information</strong> <strong>Time</strong> <strong>DC</strong> General 1 minute —
+      Specific 1 hour 15 Restricted 1 hour 20 Protected 1 day 25</p><h4>Ship Systems</h4><p>Some starship or other vehicle systems operate using the crew’s proficiency in the Computers skill. For example,
+      scanning with a starship’s sensors might require a Wisdom check using the ship’s Wisdom score and the operator’s Computers skill proficiency.</p><h3>New Skill: Technology (Intelligence)</h3><p>The
+      Technology skill governs knowledge, use, and creation or repair of technological hardware and machines. This skill can also be used to identify and operate hypertech.</p><h4>Repairs</h4><p>Repairing
+      damage to vehicles or ending mishaps on them or a Spiking Deck uses a character’s proficiency in the Technology skill.</p><h4>Technical Knowledge</h4><p>A character’s proficiency in the Technology
+      skill can be used to understand the purpose and functions of a machine or component of a larger physical system.</p><h3>Backgrounds</h3><p>For Character Background, we recommend you create your own
+      using the following guidance.</p><p>•2 Skill Proficiencies</p><p>•1 Tool Proficiency</p><p>•Proficiency in your choice of the Computers or Technology Skill</p><p>•2 Vehicle Proficiencies (Light Planetary
+      Recommended)</p><p>•Common and 2 other languages</p><p>•$2,500 to spend on equipment</p><p>•+2 in One Ability Score and +1 in Another Ability Score of Your Choice -OR- +1 in Three Ability Scores of
+      Your Choice</p><p>•Origin Feat of Your Choice</p><p>•Alternatively, use any background in the D&amp;D Beyond Basic Rules.</p><h3>Languages</h3><p>When selecting your additional language, choose from
+      the tables below. <strong>Galactic &amp; Realm Languages</strong> <strong>Location / Realm</strong> <strong>Languages</strong> Galaxy Common, Common Sign Language Criminal Underworld Smuggler’s Slang
+      Abyssal Void Hadalic Agathos Sideric Arcadia Pixlish Cacophony/Fiends Dissonant Eldest Ryliath Harmony/Giants Lyric Hypergrid/Programs/Bots SIGNAL World Souls/Elementals Clysmic <strong>World Languages</strong>
+      <strong>World</strong> <strong>Homeworld Species</strong> <strong>Languages</strong> Adonia Solari Promean Astrovega Laika Astronian Bortuun Yaungu Boru, Lyric Cabaret — Dissonant Caldoa Volcar Clysmic,
+      Magmari Cicero Prime — Dissonant Ferrox — — Goro Clawderan, Raizo Typhan Kharabis Jozza, Murexian Hadalic, Selash Krayta Saurian, Tekal Zoic K’Thar Yoggoth Ryliath Lythora — Lyric, Zoic Mavros Marsoom,
+      Zeticulan Rosidian Megadyne Anitron, Isotron SIGNAL Morzebe Oculok Morlith Neo-Edifex — — Noxilus — Dissonant Polygonia Bitling, Navili Pixlish Prismara Flambego, Glowblin, Poggle Chroma Sethreen
+      Amanite, Gorgonite, Pakku Phytoss Shensaati Zamani Shensi Sleema Greeble, Nematoan Sleemese <strong>World</strong> <strong>Homeworld Species</strong> <strong>Languages</strong> Tibbulus Oozoid, Zephursa
+      Nimboo Titan IX Aetheron, Rangor Khora Uthen — Sideric Uulzoth — Ryliath Val’Shai Benthos, Nilari Hadalic, Promean Viridar — Zoic Vulx Skettik, Zorbrak Ossik Zartoga — Selash</p><h3>Homeworld Origin
+      Feats</h3><p>This section presents new homeworld themed Origin feats. Characters who hail from a world—or its equivalent such as a space station—that matches a given feat’s prerequisite can choose
+      that for their Origin feat.</p><h4>Adamant Origin</h4><p>Origin Feat (Prerequisite: Rocky Homeworld) You have absorbed the essence of your home’s stoney nature or world soul, gaining the following
+      benefits.</p><p><strong>Solid Foundation.</strong> You have Advantage on saving throws against being moved against your will and against the Prone condition.</p><p><strong>Stone’s Toughness.</strong>
+      You know the Deflection* cantrip and you don’t require spell components for it. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (chosen when you select this feat).</p><h4>Airy
+      Origin</h4><p>Origin Feat (Prerequisite: Airy or Storming Homeworld) You have absorbed the essence of your home’s airy nature or world soul, gaining the following benefits.</p><p><strong>Damage Resistance.</strong>
+      You have Resistance to falling damage, Lightning damage, or Thunder damage (chosen when you select this feat).</p><p><strong>Lasting Breath.</strong> You can hold your breath for a number of hours
+      equal to 3 plus your Constitution modifier (minimum of +1).</p><h4>Aquatic Origin</h4><p>Origin Feat (Prerequisite: Oceanic Homeworld) You have absorbed the essence of your home’s aquatic nature or
+      world soul, gaining the following benefits.</p><p><strong>Amphibious.</strong> You can breathe air and water.</p><p><strong>Swim Speed.</strong> You have a Swim Speed equal to your Speed. If you already
+      have a Swim Speed, it increases by 10 feet.</p><h4>Awakened Mind Origin</h4><p>Origin Feat (Prerequisite: Eldritch or Psychic Homeworld) You have absorbed the essence of your home’s psychically awakened
+      nature or world soul, gaining the following benefits.</p><p><strong>Psychic Resistance.</strong> You have Resistance to Psychic damage.</p><p><strong>Resilient Mind.</strong> You have Advantage on
+      saving throws to avoid or end the Charmed or Frightened conditions.</p>'
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  ownership:
+    default: -1
+  flags: {}
+  category: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!journal.pages!EAjk051lqUlh64S1.oHsURIAZILwlTFCZ'
+- _id: 72AhVwdNeTKhMVbI
+  name: Aether Exposure & Grid Spiking
+  type: text
+  sort: 200000
+  title:
+    show: true
+    level: 1
+  text:
+    format: 1
+    content: '<h2>New Rule: Aether Exposure</h2><p>Outer Space in the Stardust Rhapsody is far from empty. It is filled with colorful clouds, nebulae, and currents of aether—a breathable gas that conducts
+      heat much like a world’s atmosphere. While a creature can survive in it, aether is far from safe. Prolonged exposure saturates a creature with the strange energies aether carries, breaking down biological
+      and living mechanical systems.</p><p>A creature breathing aether has the Poisoned condition. It must also make a DC 10 Constitution saving throw after each hour of exposure. On a failed save, the
+      creature gains 1 Exhaustion level and can’t remove Exhaustion until it spends 1 hour in an aether-free environment.</p><p>A creature with an air supply (or that doesn’t breathe) but that is otherwise
+      exposed to the aether, such as one using a Breath Mask but without an Enviro Suit, isn’t Poisoned by the aether and makes the save every 8 hours instead.</p><h2>New System: Grid Spiking</h2><p>Computers
+      are a staple of life and technology in the Stardust Rhapsody, and so too are those who use, maintain, or abuse them. Computer hacking is colloquially known as “grid spiking” or simply “spiking” throughout
+      the galaxy, and spikers are sought after both for security expertise, and for gaining unauthorized access to systems whether for criminal gain, or get advantage over an enemy.</p><h3>Access Secure
+      System</h3><p>Users with proficiency in the Computers skill or with Spiking Decks can access secure systems—such as computers, security systems, or bots—without authorization. A user can’t perform
+      any restricted operations on a secure system without first having an access code or spiking the security.</p><p>The Security Complexity table shows how long it takes to spike a security system based
+      on its complexity. At the end of that time, the user breaks the security and can access the system with a successful Intelligence (Computers) check using a Spiking Deck. The DC is determined by the
+      system’s quality, as shown on the Security Quality table.</p><p>Security systems of Daunting quality require multiple successful checks (minimum of 3) to spike. Failing any of these checks by 5 or
+      more alerts system administrators to the intrusion attempt and could trigger a mishap (see “Spiking Mishaps”). <strong>Security Complexity</strong> <strong>Complexity</strong> <strong>Time</strong>
+      Simple Utilize action Complex 1 minute Daunting 1 day, 3 successful checks needed <strong>Security Quality</strong> <strong>Quality</strong> <strong>DC</strong> Inferior 15 Good 20 Superior 25 Maximum
+      30</p><h4>Operate Component</h4><p>With access to a computer system, a user can operate any devices or sub-systems governed by the main system. Unless the user has full authorization to use the system
+      (such as by using stolen access codes), it must succeed on an Intelligence (Computers) check using a Spiking Deck to operate the system’s components. The time required for an operation and the DC
+      are shown on the System Components table. Failing any of these checks by 5 or more alerts the system administrators to the intrusion. <strong>System Components</strong> <strong>Task</strong> <strong>Time</strong>
+      <strong>DC</strong> Operate Passive Component Utilize action 15 Operate Active Component Utilize action 20 Reset Parameters Utilize action 25</p><p><strong>Operate Passive Component.</strong> The
+      user can activate or deactivate one passive system such as door locks, cameras, or other sensors controlled by the system.</p><p><strong>Operate Active Component.</strong> The user can activate or
+      deactivate one active system such as alarms, sentry guns, or security bots controlled by the system.</p><p><strong>Reset Parameters.</strong> The user can add, delete, or change one operational parameter
+      of automated components such as targeting information on sentry guns, area authorization credentials, alarm delays, etc.</p><h4>Programming</h4><p>A user can alter an existing program or write a new
+      one. After working for the required time, the user accomplishes the task with a successful Intelligence (Computers) check using a Spiking Deck against a DC determined by the task. Both the time required
+      and the DC are shown on the Programming table. <strong>  Programming</strong> <strong>Task</strong> <strong>Time</strong> <strong>DC</strong> •<strong>Alter Program</strong> Change Access Codes 1
+      minute 20 Hide Evidence 1 minute 15 Reprogram Bot 10 minutes 10 + bot’s Intelligence score Sabotage Program 1 minute 20 Wipe Bot Memory 10 minutes 20 •<strong>Write Program</strong> Simple Program
+      1 day 15 Complex Program 7 days 25</p><p><strong>Change Access Codes.</strong> The user alters the access code of the program or system to one of its choice.</p><p><strong>Hide Evidence.</strong>
+      The user hides the traces of its previous tampering with the system. On a successful check, record the total. That becomes the DC of Intelligence (Computers or Investigation) checks made to discover
+      the tampering. If the system is altered again, the tampering is no longer hidden.</p><p><strong>Reprogram Bot.</strong> The user can add, change, or delete behavior directives or commands of a wiling
+      robot or one with the Incapacitated condition. This reprogramming can compel the bot to take or refrain from taking actions as specified by the programmer. The user can reprogram a number of parameters
+      equal to its Intelligence modifier (minimum of 1) with a single use of this task.</p><p><strong>Sabotage Program. </strong>The user tampers with the functioning of a program or repairs such tampering.
+      Creatures have Disadvantage on any D20 Tests made to use a sabotaged program, or to use a system or equipment the program governs.</p><p><strong>Wipe Bot Memory.</strong> The user erases the memory
+      storage of a willing robot or one with the Incapacitated condition, returning it to its baseline settings with no additional directives or knowledge.</p><p><strong>Write Simple Program.</strong> The
+      user creates a simple program such as a database or account management application.</p><p><strong>Write Complex Program.</strong> The user creates a complex program such as a sophisticated analysis
+      engine, a virus, or a security program.</p><h4>Spiking Mishaps</h4><p>When a spiker intrudes on a restricted system there’s always a risk of running afoul of intrusion countermeasures or alerting
+      system admins to the unauthorized access. When a user attempting to access, manipulate, or operate a secure system without full authorization fails an Intelligence (Computers) check by 5 or more,
+      roll on the Spiking Mishaps table.</p><p>If a mishap has a repair DC and the affected Spiking Deck is within reach, a user can take the Utilize action to end the mishap with a successful Intelligence
+      (Technology) check using an Electronics Kit. <strong>Spiking Mishaps</strong></p><h4>1d20</h4><p><strong>Mishap</strong> <strong>DC</strong> <strong>1</strong> <strong>Destructive Feedback.</strong>
+      The user takes 11 (2d10) Lightning damage from a Hypergrid surge. — <strong>2–4</strong> <strong>Memory Corruption.</strong> The Spiking Deck is corrupted with junk code and imposes a −2 penalty on
+      ability checks using it until it’s repaired. If this mishap reoccurs, the penalty worsens by 2. If the penalty exceeds −10, the deck is destroyed. 15 <strong>5–7</strong> <strong>Firewall.</strong>
+      The next ability check made against the system has Disadvantage. — <strong>8–10</strong> <strong>Transmitter Burnout.</strong> The Spiking Deck can’t form a stable connection to the Hypergrid until
+      repaired. Unless the deck is connected to a system directly, the user must subtract 1d10 from ability checks using the deck. 20 <strong>11–13</strong> <strong>Hypercounter Protocol.</strong> The user
+      must succeed on a DC 14 Wisdom saving throw or have the Stunned condition until the end of its next turn. <strong>14–16</strong> <strong>Lag Spike</strong>. The Spiking Deck suffers slowdown. Until
+      it’s repaired, a user must take a Bonus Action to stabilize the deck’s software to take the Utilize action with it that turn. 20 <strong>17–19</strong> <strong>Location Fix.</strong> The system or
+      its administrator learns the location of the spiker’s access point. — <strong>20</strong> <strong>Lockout.</strong> The spiker’s connection to the system is terminated and the spiker must find a different
+      access point to spike that system again. —</p>'
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  ownership:
+    default: -1
+  flags: {}
+  category: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!journal.pages!EAjk051lqUlh64S1.72AhVwdNeTKhMVbI'
+- _id: CMkza336kFDONCjW
+  name: Equipment Rules (Currency, Weapon Properties, Modules)
+  type: text
+  sort: 300000
+  title:
+    show: true
+    level: 1
+  text:
+    format: 1
+    content: '<h2>Equipment</h2><p>An outrunner’s survival can depend on having the right gear for the mission. This section provides rules and prices for weapons, armor, and other kinds of equipment that
+      characters might purchase or find. The GM lets you know if a shop has an item for sale and whether it’s available at the listed price.</p><h4>SELLING EQUIPMENT</h4><p>Equipment fetches half its cost
+      when sold. In contrast, trade goods and valuables—like precious stones, commodities, and art objects—retain their full value in the marketplace.</p><h2>Currency</h2><p>The core currency used throughout
+      the galaxy is the Galactic Note, denoted by this symbol: $. Notes are a physical or digital manifestation of the concept of value as embodied and empowered in the Hypergrid. Nexus Financial, the galaxy’s
+      largest and most powerful banking and financial institution, controls the minting and distribution of notes.</p><p>Galactic Notes come in several forms, including metal or plastic coins, paper or
+      polymer bills, and digital “credit” chips or simply account balances.</p><p>Notes are notoriously difficult to counterfeit due to their magical origin and nature (though they aren’t magic items themselves),
+      and successful counterfeiters are or work closely with data mavens versed in technomagic such as Gridrunners.</p><h4>CURRENCY CONVERSION</h4><p>If you need to compare values with items from outside
+      the Neon Odyssey setting, 1 GP equals $50. Some prices of equivalent gear might not match this ratio, as several prices have been intentionally adjusted to account for a variety of factors.</p><p>As
+      a consideration, the buying power of $1 is roughly equivalent to that of 1 US dollar circa 1997.</p><h2>Hypertech</h2><p>Magic items created with technological magic resemble technology despite functioning
+      as magic items. Technomagic items are known throughout the Stardust Rhapsody as “hypertech.” Hypertech items follow all the same rules as standard magic items.</p><h2>Weapons</h2><p>Weapons in Neon
+      Odyssey are drawn from space opera and fantasy, but all with an air of technological magic.</p><p>Melee weapons function just as one would expect a sword, axe, or spear to work, but the high-tech
+      nature of these weapons means they’re enhanced and empowered if they have the Powered property. These weapons might have energized striking surfaces, hypersonic vibrations, or selfhoning, monomolecular
+      cutting edges that keep them on par with space-age ranged weapons.</p><p>The Weapons tables in this section show the game’s main weapons. These tables lists the game statistics, cost, and weight of
+      each weapon.</p><h3>New Weapon Properties</h3><p>New weapon properties are presented here in alphabetical order.</p><h4>Braced</h4><p>When making an attack with a Braced weapon, use your Strength
+      modifier for the attack and damage rolls. If the weapon has the Heavy property, use your Strength score to determine if you can use it without Disadvantage.</p><h4>Burst</h4><p>As an action, or in
+      place of one attack when you take the Attack action, you can expend 3 shots of a Burst weapon’s ammunition and make an attack with the weapon. On a hit or a miss, a second target within 5 feet of
+      the first must make a DC 15 Dexterity saving throw or take the weapon’s damage, but you don’t add your ability modifier to that damage unless it is negative.</p><h4>Close Quarters</h4><p>Being within
+      5 feet of an enemy doesn’t impose Disadvantage on your ranged attack rolls with a Close Quarters weapon.</p><h4>Powered</h4><p>You can activate a Powered weapon that has a charged Power Cell when
+      you make an attack with it. On a hit while activated, the weapon’s damage die changes to the value noted with the property. If a damage type is also noted, the weapon deals damage of that type when
+      activated. If the weapon also has the Versatile property, the Powered property has a second notation for the activated damage when wielded with two hands. A full Power Cell powers the weapon for 25
+      attacks. You can exchange the cell as an action or a Bonus Action.</p><h4>Pummel</h4><p>Attacks with a Pummel weapon count as making Unarmed Strikes in addition to using a weapon. <strong>Martial
+      Melee Weapons</strong> <strong>Name</strong> <strong>Damage</strong> <strong>Properties</strong> <strong>Mastery</strong> <strong>Weight</strong> <strong>Cost</strong> Breaker Axe 1d12 Slashing Heavy,
+      Powered (2d8), Two-Handed Cleave 7 lb. $1,500 Breaker Sword 2d6 Slashing Heavy, Powered (2d8), Two-Handed Graze 6 lb. $2,500 Combat Axe 1d8 Slashing Powered (1d10; 1d12), Versatile (1d10) Topple 4
+      lb. $750 Combat Sword 1d8 Slashing Powered (1d10; 1d12), Versatile (1d10) Sap 3 lb. $750 Combat Hammer 1d8 Bludgeoning Powered (1d10; 1d12), Versatile (1d10) Push 5 lb. $750 Concussion Maul 2d6 Bludgeoning
+      Heavy, Powered (2d8 Thunder), Two-Handed Topple 10 lb. $2,500 Dueling Blade 1d8 Piercing Finesse, Powered (1d10) Vex 2 lb. $1,250 Filament Whip 1d4 Slashing Finesse, Powered (1d6 Fire), Reach Slow
+      2 lb. $500 Mag Flail 1d8 Bludgeoning Powered (1d10) Sap 2 lb. $500 Nano-Edge Spear 1d8 Piercing Powered (1d10; 1d12), Thrown (Range 20/60), Versatile (1d10) Sap 4 lb. $250 Pole Axe 1d10 Slashing Heavy,
+      Powered (1d12), Reach, Two-Handed Cleave 6 lb. $1,000 Power Fist 1d8 Bludgeoning Heavy, Powered (1d10), Pummel Topple 4 lb. $1,250 Power Glaive 1d10 Slashing Heavy, Powered (1d12), Reach, Two-Handed
+      Graze 6 lb. $1,000 Quickblade 1d6 Piercing Finesse, Light, Powered (1d8) Vex 2 lb. $500 Saber 1d6 Slashing Finesse, Light, Powered (1d8) Nick 3 lb. $1,250 Vibro Pike 1d10 Piercing Heavy, Powered (1d12),
+      Reach, Two-Handed Push 18 lb. $1,000 Shock Lance 1d10 Piercing Heavy, Powered (1d12 Lightning), Reach, Two-Handed (unless mounted) Topple 6 lb. $1,000 <strong>Martial Ranged Weapons</strong> <strong>Name</strong>
+      <strong>Damage</strong> <strong>Properties</strong> <strong>Mastery</strong> <strong>Weight</strong> <strong>Cost</strong> Assault Rifle 1d8 Piercing Ammunition (Range 200/800; Bullets), Burst, Heavy,
+      Reload (40 shots), Two-Handed Push 8 lb. $2,500 Breach Rifle 2d6 Piercing Ammunition (Range 80/320; Shells), Braced, Burst, Heavy, Reload (20 shots), Two Handed Cleave 10 lb. $4,000 Pulse Cannon 1d12
+      Thunder Ammunition (Range 20/80; Power Cell), Braced, Heavy, Reload (5 shots) Push 4 lb. $2,500 Hand Cannon 1d12 Piercing Ammunition (Range 20/80; Shells), Braced, Heavy, Reload (5 shots) Topple 5
+      lb. $2,500 Heavy Laser Rifle 2d6 Radiant Ammunition (Range 300/1,200; Power Cell), Heavy, Loading, Reload (5 Shots), Two-Handed Sap 25 lb. $7,500 Laser Rifle 1d8 Radiant Ammunition (Range 200/800;
+      Power Cell), Burst, Heavy, Reload (25 Shots), Two-Handed Slow 7 lb. $2,500 Light Machine Gun 1d10 Piercing Ammunition (Range 200/800, Bullets), Burst, Finesse, Heavy, Reload (20 Shots), Two-Handed
+      Cleave 15 lb. $3,750 Plasma Pistol 1d8 Lightning Ammunition (Range 80/320; Power Cell), Close Quarters, Reload (25 shots) Sap 4 lb. $2,000 Plasma Rifle 1d10 Lightning Ammunition (Range 200/800; Power
+      Cell), Heavy, Reload (15 Shots), Two-Handed Vex 8 lb. $3,750 Repeating Laser 1d10 Radiant Ammunition (Range 200/800; Power Cell), Burst, Finesse, Heavy, Reload (20 Shots), Two-Handed Graze 12 lb.
+      $3,750 Scatterblast 1d10 Fire Ammunition (Range 60/240; Power Cell), Close Quarters, Finesse, Reload (10 Shots), Scatter (15 ft.) Push 4 lb. $2,500 Shotgun 1d10 Piercing Ammunition (Range 60/240;
+      Shells), Close Quarters, Finesse, Reload (10 Shots), Scatter (15 ft.) Vex 5 lb. $2,500 Sniper Rifle 2d6 Piercing Ammunition (Range 300/1,200; Bullets), Heavy, Loading, Two-Handed Graze 30 lb. $7,500
+      <strong>Simple Weapons</strong> <strong>Name</strong> <strong>Damage</strong> <strong>Properties</strong> <strong>Mastery</strong> <strong>Weight</strong> <strong>Cost</strong> •<strong>Simple Melee
+      Weapons</strong> Combat Baton 1d4 Bludgeoning Light, Powered (1d6) Slow 2 lb. $100 Combat Knife 1d4 Piercing Finesse, Light, Powered (1d6), Thrown (Range 20/60) Nick 1 lb. $100 Combat Staff 1d6 Bludgeoning
+      Powered (1d8; 1d10), Versatile (1d8) Topple 4 lb. $250 Hatchet 1d6 Slashing Light, Powered (1d8), Thrown (Range 20/60) Vex 2 lb. $250 Hook Blade 1d4 Slashing Light, Powered (1d6) Nick 2 lb. $50 Power
+      Cudgel 1d8 Bludgeoning Powered (1d10), Two-Handed Push 10 lb. $500 Shock Sap 1d6 Bludgeoning Powered (1d8 Lightning) Sap 3 lb. $250 Shock Knuckles 1d6 Bludgeoning Light, Powered (1d8 Lightning), Pummel
+      Nick 1 lb. $100 Throwing Hammer 1d4 Bludgeoning Light, Powered (1d6), Thrown (Range 20/60) Nick 2 lb. $100 Throwing Spear 1d6 Piercing Powered (1d8), Thrown (Range 30/120) Slow 2 lb. $250 Vibro Claw
+      1d4 Slashing Finesse, Light, Powered (1d6), Pummel Nick 1 lb. $250 Vibro Spear 1d6 Piercing Powered (1d8; 1d10), Thrown (Range 20/60), Versatile (1d8) Sap 3 lb. $50 •<strong>Simple Ranged Weapons</strong>
+      Throwing Blade 1d4 Piercing Finesse, Thrown, Range (20/60) Vex 1/4 lb. $10 Laser Carbine 1d6 Radiant Ammunition (Range 150/600; Power Cell), Burst, Reload (25 Shots), Versatile (1d8) Slow 5 lb. $1,250
+      Light Laser Pistol 1d6 Radiant Ammunition (Range 80/320; Power Cell), Close Quarters, Light, Reload (50 Shots) Nick 1 lb. $750 Light Pistol 1d6 Piercing Ammunition (Range 80/320; Bullets), Close Quarters,
+      Light, Reload (15 Shots) Vex 1 lb. $750 Heavy Laser Pistol 1d8 Radiant Ammunition (Range 50/200; Power Cell), Close Quarters, Reload (25 Shots) Push 3 lb. $1,250 Heavy Pistol 1d8 Piercing Ammunition
+      (Range 50/200; Bullets), Close Quarters, Reload (10 Shots) Sap 4 lb. $1,250 Submachine Gun 1d6 Piercing Ammunition (Range 150/600; Bullets), Burst, Reload (25 Shots), Versatile (1d8) Push 5 lb. $1,250</p><h4>Reload</h4><p>A
+      Reload weapon’s ammunition is held in a magazine or a Power Cell. After the number of shots noted in the property, you must reload the weapon as an action or a Bonus Action.</p><h4>Scatter</h4><p>As
+      an action, you can expend 2 shots from the weapon to fire it in a Cone with the specified area. Each creature in that area must succeed on a DC 15 Dexterity saving throw or take damage. Roll the weapon’s
+      damage once and apply it to each creature that failed the save.</p><h3>Non-Lethal Ranged Attacks</h3><p>When you reduce a creature that isn’t a player character to 0 Hit Points using a ranged attack
+      roll, you can choose not to kill the creature outright. The creature is dying and makes Death Saving Throws, even if it would normally die immediately upon reaching 0 Hit Points.</p><h3>Weapon Modules</h3><p>The
+      arms industry has found many creative ways to improve weapons using cutting-edge technology.</p><p><strong>Mod Slots.</strong> This technology is widespread enough in the galaxy that Simple and Martial
+      weapons are constructed with two mod slots, and more expensive and advanced weapons have as many as six. Additional mod slots increase the cost of the weapon as shown in the Weapon Mod Slot Costs
+      table.</p><p><strong>Installing Modules in Mod Slots.</strong> You can set or remove a weapon module in a weapon mod slot with 1 minute of work.</p><p><strong>One of a Kind.</strong> The effects of
+      multiple weapon modules of the same type don’t stack unless otherwise noted in the module. <strong>Weapon Mod Slot Costs</strong> <strong>Additional Mod Slots</strong> <strong>Cost</strong> 1 +$2,500
+      2 +$20,000 3 +$180,000 4 +$1,500,000</p><h4>WEAPON AND ARMOR MODULES PREVIEW</h4><p>This document contains a sample of the weapon and armor mods that will be available in the full books. This limited
+      selection is merely to whet your appetite.</p><h4>Deflection Circuitry ($2,000)</h4><p>This weapon module enhances melee weapons with forceprojection circuitry and can only be applied to weapons with
+      the Powered property. When you are hit by a ranged attack roll that deals Force, Lightning, or Radiant damage, you can take a Reaction to expend a charge from its Power Cell and add 1d4 to your AC
+      against that attack, possibly causing it to miss.</p><h4>Extended Magazine ($3,500)</h4><p>This weapon module doubles the ammo capacity of Ranged weapons with the Reload property that use Bullets
+      or Shells.</p><h4>Extra Battery ($3,500)</h4><p>This weapon module allows Melee weapons with the Powered property and Ranged weapons with Power Cell ammunition to hold two Power Cells.</p><h4>Filament-Tether
+      Grapnel ($2,500)</h4><p>This weapon module adds the function of an Ascension Gun to the weapon.</p><p>This module can only be applied to Ranged weapons.</p><h4>Grenade Chamber ($5,000)</h4><p>This
+      weapon module increases the range of grenades. You can load a Grenade into this weapon module as a Bonus Action, and fire it in place of an attack when you take the Attack action. The grenade’s range
+      increases to half the weapon’s normal range.</p><p>This module can only be applied to Ranged weapons with the Two-Handed property.</p><h2>Armor</h2><p>Armor in Neon Odyssey is created in a near-endless
+      variety of materials, styles, and intentions. It would be impossible to do justice to a galaxy of variations in such limited space, so the rules present armor as basic shells which can then be upgraded
+      and customized with armor modules. The Armor table presents the base varieties of Light, Medium, and Heavy armor, and Shields.</p><p>Consider your character’s origin world and culture when deciding
+      what their armor looks like and what purpose it was designed for.</p><p>The Armor table lists the game statistics, cost, and weight of each type of armor.</p><h3>Armor Modules</h3><p>Armor can be
+      improved in a wide variety of ways, including affixing modules to mod slots in the armor.</p><p><strong>Mod Slots.</strong> This technology is widespread enough in the galaxy that the ordinary suit
+      of Light, Medium, or Heavy armor has two mod slots, and more expensive and advanced suits have as many as six.</p><p><strong>Installing Modules in Mod Slots.</strong> You can install or remove an
+      armor module in an armor mod slot with 1 minute of work.</p><p><strong>One of a Kind.</strong> The effects of multiple armor modules of the same type don’t stack unless otherwise noted in the module.
+      <strong>Armor Mod Slot Costs</strong> <strong>Additional Mod slots</strong> <strong>Cost</strong> 1 +$2,500 2 +$20,000 3 +$180,000 4 +$1,500,000</p><h4>Composite Weave ($1,750)</h4><p>You have a +1
+      bonus to AC while wearing a suit of armor with this armor module. This armor module can&#x27;t be used in conjunction with Dynasteel Plating. While attached to Heavy Armor, the armor&#x27;s Strength
+      requirement increases to 14.</p><h4>Concealed Compartment ($3,000)</h4><p>This armor module is typically placed on the forearm or thigh. It can hold one Tiny object, and you can take an object out
+      of the compartment, or put an object in, as a Bonus Action. A creature can locate the compartment as a Search action with a successful DC 15 Wisdom (Perception) check.</p><h4>Dynasteel Plating ($6,250)</h4><p>You
+      have a +2 bonus to AC while wearing a suit of Heavy Armor with this armor module, and the armor&#x27;s Strength requirement increases to 15. This armor module can&#x27;t be used on Light or Medium
+      armor or in conjunction with Composite Weave.</p><h4>Environment Seals ($4,500)</h4><p>This armor module gives a suit of armor the air, pressure, radiation, and temperature protection needed to survive
+      for up to 24 hours in space, underwater, or in other hostile environments. The armor module replenishes its protective capability with 1 hour of access to pressurized, breathable air.</p><h4>Integrated
+      Tool ($2,500 Plus Tool Cost)</h4><p>This armor module integrates a tool and necessary controls for it into your armor. Bypass tools, Electronics Tools, Engineer’s Tools, Spiking Deck, and Mechanic’s
+      Tools are by far the most common tools to integrate this way. The tool extends from the armor’s forearm, glove, or gauntlet.</p><p>You can install multiple Integrated Tool modules in a suit of armor,
+      but you must choose different tools for each module.</p>'
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  ownership:
+    default: -1
+  flags: {}
+  category: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!journal.pages!EAjk051lqUlh64S1.CMkza336kFDONCjW'
+- _id: 2w0QM7L6LktTcBep
+  name: Hypertech Spellcasting
+  type: text
+  sort: 400000
+  title:
+    show: true
+    level: 1
+  text:
+    format: 1
+    content: <h2>Spells</h2><p>This section presents new spells for Neon Odyssey. Some of these spells are replacements for standard spells that are otherwise not thematically appropriate for the space
+      opera setting.</p><h2>Hypertech Spellcasting</h2><p>Many spellcasters in Neon Odyssey work their magic through hypertech rather than traditional magical or spellcraft trappings, using advanced but
+      magical-at-its-core science and technology, tools, and gadgets. Any spellcaster can be a hypertech caster— make that decision for your character when you create it or when it gains a level in a class
+      that grants it the ability to cast spells.</p><p>Hypertech spellcasters use Hypertech Component Packs (see the Equipment section) for their Material components, and all of their spells have an M component
+      and lack a V component. They must have a Hypertech Component Pack or the specific Material component for a spell to cast it. Describe and rename your spells to showcase their scientific or technological
+      origin. For example, Fireball might instead be Thermal Detonator for a hypertech spellcaster. The spell&#x27;s function is otherwise unchanged.</p><h4>ETHEREAL VERSUS OVERTONE</h4><p>When using standard
+      D&amp;D game features, anything that references or interfaces with the Ethereal Plane or Border Ethereal instead interfaces with the Overtone in Neon Odyssey. Mechanically speaking, the two work identically.</p><p>For
+      example, a Gridrunner casting Blink vanishes into the Overtone, where they can see 60 feet into the Material Plane, but can’t affect, be affected by, or be seen by anything on the Material Plane unless
+      some game feature says otherwise, such as the See Invisibility spell or a Wall of Force.</p><h2>Spell Descriptions</h2><p>New spells are presented in alphabetical order.</p><h4>Accelerate Fall</h4><p>Level
+      1 Transmutation (Esper, Gridrunner, Machinist) <strong>Casting Time:</strong> Reaction, which you take when you or a creature you can see within 60 feet of you falls <strong>Range:</strong> 60 feet
+      <strong>Components:</strong> V, S <strong>Duration:</strong> 1 minute Choose up to five falling creatures within range. A target’s rate of descent doubles until the spell ends. If a target lands before
+      the spell ends, it takes double damage from the fall, and the spell ends for it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you cast this spell using a level 5+ spell slot, its range
+      increases to 20 miles, it can target vehicles in addition to creatures, and the duration increases to 10 minutes.</p><h4>Anchoring Smite</h4><p>Level 3 Evocation (Enforcer) <strong>Casting Time:</strong>
+      Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike <strong>Range:</strong> Self <strong>Components:</strong> V <strong>Duration:</strong> Concentration,
+      up to 1 minute Target hit by the strike takes 3d8 Force damage and is wrapped in magical tethers that bind its limbs and gag its mouth. For the duration, the target has the Restrained condition. While
+      Restrained in this way, it can’t speak. At the end of each of its turns, the target can make a Strength saving throw, breaking free and ending the spell on a success.</p><p><strong>Using a Higher-Level
+      Spell Slot.</strong> The extra damage increases by 1d8 for each spell slot level above 3.</p><h4>Armor of Secrets</h4><p>Level 1 Abjuration (Cryptist) <strong>Casting Time:</strong> Bonus Action <strong>Range:</strong>
+      Self <strong>Components:</strong> V, S, M (a shard of black glass) <strong>Duration:</strong> 1 hour A shroud of shadowy whispers settles over you. You gain 5 Temporary Hit Points. If a creature hits
+      you with a melee attack roll before the spell ends, the creature takes 5 Psychic damage. The spell ends early if you have no Temporary Hit Points.</p><p><strong>Using a Higher-Level Spell Slot.</strong>
+      The Temporary Hit points and the Psychic damage both increase by 5 for each spell slot level above 1.</p><h4>Aura of Aether</h4><p>Level 4 Abjuration (Enforcer, Oracle) <strong>Casting Time:</strong>
+      Action <strong>Range:</strong> Self <strong>Components:</strong> V <strong>Duration:</strong> Concentration, up to 10 minutes An aura radiates from you in a 30-foot Emanation for the duration. While
+      in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws against the Blinded, Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, or Stunned conditions.</p><p>If
+      a creature within the aura forces a creature affected by the aura to make a saving throw against any of the above conditions, you can take a Reaction to end the spell early. If you do, the triggering
+      creature must make a Strength saving throw. On a failure, it takes 5d10 Radiant damage and is pushed straight away from you to the nearest space outside the Emanation. On a success, it takes half
+      as much damage only.</p>
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  ownership:
+    default: -1
+  flags: {}
+  category: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!journal.pages!EAjk051lqUlh64S1.2w0QM7L6LktTcBep'
+- _id: YfIXn15pT1Zv4oXQ
+  name: Vehicle Rules
+  type: text
+  sort: 500000
+  title:
+    show: true
+    level: 1
+  text:
+    format: 1
+    content: '<h2>Vehicles</h2><p>Vehicles are woven into every layer of life in the Stardust Rhapsody—from the most commonplace personal commuter car, to rapid air transit across continents, to the wondrous
+      and awe-inspiring starships that carry souls to the farthest reaches of the galaxy. Vehicles of all kinds in Neon Odyssey follow the rules presented in this chapter. Starships will have their own
+      rules which can replace these.</p><h2>Stat Blocks</h2><p>A vehicle’s game statistics function like those for creatures with the following additional considerations.</p><h3>Structures</h3><p>Vehicles
+      are treated as mobile structures. They aren’t subject to effects that target creatures, but some effects can apply conditions to vehicles. Vehicles and Starships are noted as such where a standard
+      creature stat block lists its creature type.</p><h3>Starship Scale</h3><p>Starship sizes operate on a different scale than standard creatures and objects, and use a special notation of size categories
+      relative to other starships. Using standard size categories, starships are Gargantuan. A starship’s stat block lists its starship size category.</p><h3>Vehicle Class</h3><p>Vehicles are divided into
+      nine different classes as shown on the Vehicle Classes table. A vehicle’s class, which is also the proficiency used to operate it, is listed as a tag after its size category entry.</p><p>A creature
+      that has proficiency with a vehicle it is operating can add its Proficiency Bonus to any D20 Tests it makes using the vehicle or its systems. If that creature also has proficiency in a skill the task
+      requires, it makes the check with Advantage.</p><h3>Crew</h3><p>Vehicles generally require one or more creatures to operate them. The Crew entry lists the minimum and maximum number of creatures that
+      can crew the vehicle.</p><h3>Armor Class</h3><p>Planetary vehicles are typically made of steel or similar material and have an AC of 19 plus its Dexterity modifier while moving, or 19 while stationary.
+      Worn or damaged vehicles might have a lower AC. Starship AC is determined differently, and will be included in a later playtest. <strong>Vehicle Classes</strong> <strong>Vehicle Class</strong> <strong>Example</strong>
+      Light Planetary Racing Bike, Cargo Hauler, Defense Airspeeder, Speeder Heavy Planetary Freight Hauler, Bulk Passenger Transport, Tank Light Mech Armored Enforcement Walker, Battle Frame Standard Mech
+      Assault Mech, Construction Walker Heavy Mech Cavalon Questing Knight, Morzebian Hulk Light Starfighter Interceptor, Patrol Craft Standard Starfighter Superiority Fighter, Saurok Sentinel Heavy Starfighter
+      Bomber, Cavalon Lance Light Transport Light Freighter, Passenger Liner Heavy Transport Heavy Freighter, Strike Carrier Capital Ship Cavalon Crownship, GrimCo Destroyer</p><h3>Hit Points</h3><p>The
+      vehicle’s maximum Hit Points. Lost Hit Points can be restored by making repairs to the vehicle (see “Repairs”). When a vehicle drops to 0 Hit Points, it ceases to function and is damaged beyond simple
+      repair. The wreck can be rebuilt or salvaged for scrap at the GM’s discretion.</p><h4>Shield Points</h4><p>Some vehicles and most starships have shield generators that provide Shield Points (SP in
+      the stat block if it has shields) while the vehicle is powered up. Shield Points work like an outer layer of Hit Points, taking any damage dealt to the vehicle first. Once the Shield Points are reduced
+      to 0, any further damage (including excess damage when the Shield Points drop to 0) applies to the vehicle’s Hit Points. After 1 minute without taking damage, the Shield Points are restored to their
+      maximum.</p><h4>Damage Threshold</h4><p>Vehicles have bulk or armor that lets them shrug off minor damage. The vehicle has Immunity to all damage unless it takes an amount of damage equal to or greater
+      than its Damage Threshold value, in which case it takes the damage as normal. Damage that fails to overcome the Damage Threshold is superficial and doesn’t reduce the vehicle’s Hit Points or Shield
+      Points.</p><p>For example, a vehicle has a Damage Threshold of 15. A laser blast hits it and deals 20 Radiant damage. The total exceeds the Damage Threshold, so the vehicle takes the full damage.
+      If instead the blast dealt 14 damage, the vehicle would take no damage.</p><h4>Mishap Threshold</h4><p>If a vehicle’s Hit Points take damage from a single source equal to or greater than its Mishap
+      Threshold, it must roll on the appropriate mishaps table for its type (see “Mishaps”).</p><h3>Speed</h3><p>Planetary vehicles have Speed that works like that of other creatures. Starships are incredibly
+      fast and have special rules for their Speed. If a vehicle’s Speed lists a Cruise Speed, this Speed governs travel outside of combat.</p><h4>Atmospheric Speed</h4><p>Certain flying vehicles are far
+      faster than most ground-based vehicles or even flying creatures can match, so its Fly Speed is given in hexes (which for flying vehicles in atmosphere are 500 ft.). These vehicles are classed as Starfighters
+      despite not being able to travel into space and use those rules (which will appear in a future playtest).</p><h3>Ability Scores</h3><p>A vehicle has ability scores and corresponding modifiers. A creature
+      driving the vehicle typically makes ability checks and maneuvering-related saving throws for the vehicle using the vehicle’s ability scores. When game text calls for a vehicle D20 Test of any variety,
+      a “vehicle Dexterity check” for example, it refers to making that test using the vehicle’s abilities. If a vehicle ability check notes a skill, it uses the creature&#x27;s proficiencies as normal.</p><p>The
+      vehicle’s size and weight determine its Strength. Dexterity represents its handling and maneuverability. Constitution reflects its durability and quality of construction. Vehicles with computers,
+      sensors, or communication systems have Intelligence, Wisdom, and Charisma scores representing those systems, respectively. Vehicles that lack those systems have a score of 0 in the corresponding ability.</p><p>If
+      the vehicle has a 0 in a score, it automatically fails any vehicle D20 Test that uses that score, though it might also be immune to effects that target it. For example, a vehicle with an Intelligence
+      score of 0 lacks a computer system and automatically fails vehicle D20 Tests that use Intelligence, but it also can’t be spiked as it has no computer to hack.</p><h3>Cargo Capacity</h3><p>Cargo Capacity
+      specifies how much cargo the vehicle can carry or tow beyond personal gear carried by passengers.</p><h3>Passengers</h3><p>The Passengers entry lists how many creatures (usually Medium, but this can
+      vary by the vehicle’s construction) can ride in the vehicle comfortably—along with any equipment such creatures can carry. More creatures can potentially fit by squeezing inside or hanging on to the
+      outside of the vehicle.</p><h3>Sensors</h3><p>Most starships and some planetary vehicles, particularly military models, have sensor systems installed. See the “Sensors” crew station for rules on using
+      sensors. The Sensors entry specifies the range of the vehicle’s sensors and its Passive Perception score using sensors.</p><h3>Crew And Stations</h3><p>A vehicle doesn’t take actions on its own and
+      relies on crew to occupy stations and use their turns to operate the vehicle’s functions. Except for Controls, any option that appears in the Crew Stations section of a vehicle stat block requires
+      an action to perform. Some vehicles have Bonus Actions or Reactions, which also require crew to perform as specified, such as the Racing Bike’s Agile Dodge.</p><h4>Cover</h4><p>Crew inside enclosed
+      vehicles usually have at least ThreeQuarters Cover, such as in a Speeder or any typical vehicle with normal windows. Reinforced vehicles, such as military vehicles and starships provide Total Cover
+      to their crew.</p><h2>General Vehicle Rules</h2><p>Rules for vehicles are summarized below.</p><h3>Fire Arcs</h3><p>Vehicle weapons have fire arcs which might restrict the directions from the vehicle
+      in which they can attack. A weapon station’s fire arcs are noted in the station’s name. Typical arcs are Front, Left, Right, and Rear. In the case of weapons that can swivel such as a turret, it might
+      have multiple fire arcs it can cover, or All if it can rotate 360 degrees.</p><h3>Opportunity Attacks</h3><p>Vehicles provoke Opportunity Attacks. When a vehicle provokes an Opportunity Attack, the
+      attacker can target the vehicle or a creature riding on or in the vehicle that doesn’t have Total Cover and is within reach.</p><h3>Vehicle Systems And Crew Stations</h3><p>A creature can use an action
+      of the station it’s occupying. Once a creature uses a station’s functions, that station can’t be used by any other creatures until the start of the first creature’s next turn. Only one creature can
+      control a station at a time.</p><p>A creature not occupying a station is either in an interior space or clinging to the outside of the vehicle.</p><p>Small or larger starships typically have stations
+      for all their systems.</p><h4>Controls</h4><p>A vehicle’s Controls station is typically a chair with a steering wheel or control stick, switches, pedals, and other controls. A vehicle with no driver
+      or pilot automatically fails Dexterity saving throws.</p><p><strong>Control.</strong> A driver or pilot can take a Bonus Action to start or shut down the vehicle’s engine. Some massive vehicles take
+      longer to power up, as noted in their Controls station with a Power Cycle entry. While the engine is on, the driver can use its movement during its turn to control the vehicle instead of moving normally.
+      The driver of a ground vehicle can propel it up to its Speed or bring the vehicle to a dead stop. While the vehicle is moving, the driver can also steer it along any course. The vehicle can reverse
+      by spending 2 feet of movement for every foot moved. Starships have their own rules for movement, presented in a future playtest.</p><p><strong>Actions.</strong> The driver or pilot can use its action
+      as normal while controlling a vehicle, and it can use its action to make the vehicle take the Dash, Disengage, Dodge, or Hide action, or take the Attack action to fire weapons operated by the vehicle’s
+      Controls. If the station controls multiple weapons, the creature can choose which weapon to fire with each attack it makes.</p><p><strong>Systems.</strong> The driver or pilot can operate the communication,
+      engineering, sensor, and shield systems of the vehicle, if any.</p><p>If the driver or pilot has the Incapacitated condition, leaves the Controls, or does nothing to alter the vehicle’s course and
+      speed, the vehicle moves in the same direction and at the same speed as it did during the driver’s last turn until it hits an obstacle big enough to stop it.</p><h4>Communication</h4><p>If a vehicle
+      has a Communication system, a creature crewing it (called a comms operator) can take the Utilize action to use the following features. If the vehicle has an Intelligence score, the comm station functions
+      as a Spiking Deck.</p><p><strong>Jam Comms.</strong> Make a vehicle Charisma (Computers) check and record the total. When an enemy vehicle within 1 mile (or within sensor range for starships) tries
+      to use a Communication station or other transmission system, it must succeed on a vehicle Charisma saving throw with a DC equal to the recorded total or the communication attempt fails, and can’t
+      be tried again until the start of its next turn. Personal Communicators are also affected and don’t function.</p><p><strong>Malware Strike (Requires Intelligence).</strong> Target a powered-up vehicle
+      you can see within 500 feet or on the vehicle’s sensors (if any) and make a vehicle Intelligence (Computers) check. If the target has an Intelligence score, it must succeed on a vehicle Intelligence
+      saving throw with a DC equal to your check total or have Disadvantage on vehicle ability checks, attack rolls, or saving throws (your choice) for 1 minute. The target repeats the save at the end of
+      each of its turns, ending the effect on a success.</p><h4>Engineering</h4><p>If a vehicle has an Engineering system, a creature crewing it (called an engineer) can make Intelligence checks to repair
+      Mishaps and Ion Exhaustion (see “Vehicle Exhaustion” below) without being at the location of the damaged system.</p><h4>Sensors</h4><p>If a vehicle has a Sensors system, a creature crewing it (called
+      a sensor operator) can operate the sensors. Sensors operate in two modes: Passive (the default) and Sweep. An operator can change sensor modes once on its turn (no action required) if it doesn’t have
+      the Incapacitated condition.</p><p>The ability check to operate sensors is a vehicle Wisdom (Computers) check.</p><p><strong>Passive Mode.</strong> Passive sensors produce no signals of their own
+      and read information from the environment including surrounding terrain or conditions in space, positions of Huge or larger objects and vehicles and Gargantuan creatures, and any active transmissions.
+      An operator can take the Search action using the sensors to detect hidden targets or the presence of targets with the Invisible condition. If this detection doesn’t cause the target to lose the Invisible
+      condition, the target doesn’t fully appear on the sensors, but its position is revealed. A vehicle with its sensors in Passive mode imposes Disadvantage on use of sensors to detect it.</p><p><strong>Sweep
+      Mode.</strong> Sweep mode focuses the sensors on one fire arc. The sensors return no information on the other three arcs but have Advantage on Search actions made with the sensors in the targeted
+      arc, and other vehicles have Advantage on use of sensors to detect the sweeping vehicle. The operator can Scan a target (see below) or take the Help action targeting a vehicle on sensors, granting
+      the operator’s vehicle Advantage on the next attack roll it makes against the target before the end of the vehicle&#x27;s next turn. <strong>Scan.</strong> Scan a single object, structure, or a 1-hex
+      area (1,500 ft. in space, 500 ft. in atmosphere) in range. As a Search action, make a DC 10 vehicle Wisdom (Computers) check with Advantage. On a success, and for every 5 by which the total exceeds
+      the DC, you learn one of the following pieces of information of your choice about the target:</p><p>•One ship’s identifying information</p><p>•Amount of cargo in a container or vehicle</p><p>•Type
+      of cargo in a container or vehicle</p><p>•A vehicle’s weapon systems</p><p>•A ship’s FTL systems</p><p>•Presence and number of life forms</p><p>•A vehicle’s current and maximum Hit Points and Shield
+      Points</p><p>•Any active Mishaps or Exhaustion levels</p><p>•Presence of power sources</p><p>•Presence and general shape of structures</p><p>•Environmental hazards (e.g. aether leak in a ship, toxicity
+      in a planet’s atmosphere).</p><h4>Shields</h4><p>If a vehicle has a Shields system, as a Utilize action, the operator can Focus or Reset the vehicle’s shields.</p><p><strong>Focus Shields.</strong>
+      Double the current and maximum Shield Points and apply them to the chosen arc, and the other three arcs aren’t protected by the shields—any incoming damage to those arcs applies directly to the vehicle’s
+      Hit Points.</p><p><strong>Reset Shields.</strong> Halve the current focused Shield Points and apply that protection to all fire arcs, and the maximum Shield Points return to normal.</p><h4>Weapon
+      Stations</h4><p>A creature crewing the station (called a gunner) can fire the station’s weapons using the vehicle’s relevant ability score (the ability modifier is included in the weapon’s attack
+      bonus). If the gunner has proficiency with the weapon as indicated in the station’s name or has proficiency with the vehicle class noted in the vehicle’s stat block, the gunner can add its Proficiency
+      Bonus to attack rolls with the weapon.</p><p><strong>Character-Scale Weapons.</strong> If the station’s weapon is one that appears in the equipment section’s weapon list, a gunner that can make multiple
+      attacks as part of the Attack action, such as with the Extra Attack feature, can fire the weapon as many times as its features allow. If the station controls multiple weapon systems, the gunner chooses
+      which to fire with each attack it can make.</p><h3>Mishaps</h3><p>Roll on the Planetary Vehicle Mishaps table when one of the following occurs to a vehicle (Starships have their own table):</p><p>•The
+      vehicle’s Hit Points (not Shield Points, if any) takes damage from a single source equal to or greater than its Mishap Threshold.</p><p>•The vehicle becomes Bloodied.</p><h3>Vehicle Exhaustion</h3><p>Wear
+      and tear, and some weapons, can cause a vehicle to stop functioning properly. This degradation can be represented by Exhaustion levels as described in the core rules with the following modifications:</p><p>•The
+      Exhaustion penalty applies to any D20 Test made using the vehicle’s stations or ability scores.</p><p>•When the vehicle reaches Exhaustion level 6, its Hit Points drop to 0 and the vehicle breaks
+      down.</p><p>•Exhaustion levels can only be removed from the vehicle by repairing it. <strong>Planetary Vehicle Mishaps</strong></p><h4>1d20</h4><p><strong>Mishap</strong> <strong>Repair DC</strong>
+      <strong>1</strong> <strong>Fire.</strong> A fire breaks out in the vehicle’s engine. A creature that starts its turn in or on the vehicle takes 11 (2d10) Fire damage. 15 (Dex) <strong>2–4</strong>
+      <strong>Frozen Steering.</strong> The vehicle can’t turn. It automatically fails vehicle ability checks and saving throws using Dexterity until repaired. 15 (Str) <strong>5–7</strong> <strong>Power
+      Drain.</strong> The vehicle gains 1 Exhaustion level. See “Repairs” <strong>8–10</strong> <strong>Weapon Malfunction.</strong> One of the vehicle’s weapons (determined randomly) is disabled until
+      repaired. If the vehicle has no functioning weapons, this mishap has no effect. 20 (Str) <strong>11–13</strong> <strong>Sharp Veer.</strong> The driver must take an action at the start of each of
+      its turns to hold the vehicle’s course steady, or the vehicle swerves 45 degrees to one side and moves one-quarter of the Speed it moved during its last turn in that direction. 15 (Dex) <strong>14–16</strong>
+      <strong>Buckled Frame.</strong> The vehicle’s Damage Threshold is reduced by 10 until repaired. 15 (Str) <strong>17–19</strong> <strong>Damaged Drive.</strong> The vehicle shudders uncontrollably
+      until repaired. It has Disadvantage on vehicle Dexterity checks, and creatures riding the vehicle have Disadvantage on ability checks and attack rolls. 20 (Dex) <strong>20</strong> <strong>Roll Over.</strong>
+      The vehicle rolls, has the Prone condition, and comes to a dead stop in an unoccupied space. Creatures holding on to the outside of the vehicle must succeed on a DC 20 Strength saving throw or be
+      thrown off, landing with the Prone condition in a random unoccupied space within 30 feet of the overturned vehicle. Creatures inside the vehicle have the Prone condition and take 11 (2d10) Bludgeoning
+      damage. —</p><h4>Ion Exhaustion</h4><p>Ion weapons, electrical hazards, and other effects can inflict Ion Exhaustion on vehicles. Ion Exhaustion levels are treated the same as standard vehicle Exhaustion
+      but can be repaired more easily (see “Remove Exhaustion” below). If a vehicle reaches 6 Exhaustion levels with any number of Ion Exhaustion levels among them, it shuts down, but can be restarted once
+      at least one level is removed.</p><h3>Repairs</h3><p>When a vehicle is damaged, suffers a mishap, or gains any Exhaustion levels, a creature can attempt to repair the vehicle. The creature making
+      repairs must meet the following criteria:</p><p>•The creature can’t operate any of the vehicle’s stations while making repairs.</p><p>•The creature must be within reach of the damaged area.</p><p>•The
+      creature must have the right tools for the job (usually Mechanic’s Tools or Engineer’s Tools).</p><p>When it begins making repairs, the creature must decide which repair option (presented below) it
+      will use.</p><h4>End a Mishap</h4><p>A creature can take the Utilize action to make an ability check using appropriate tools, determined by the mishap (see the Mishaps table), with Disadvantage if
+      the vehicle is moving. A mishap with no repair DC can’t be repaired.</p><h4>Remove Exhaustion</h4><p>The creature can spend 1 hour or more trying to reduce the vehicle’s Exhaustion level. The vehicle
+      must be stationary, and the creature must have Repair Parts (see the Equipment section). After 1 hour of work, the creature makes a DC 15 Intelligence (Technology) check using Engineer’s Tools or
+      Mechanic’s Tools. On a success, expend 1 Repair Parts and the vehicle’s Exhaustion level decreases by 1. On a failure, the repair fails, but the parts aren’t wasted.</p><p><strong>Removing Ion Exhaustion.</strong>
+      A creature can remove Ion Exhaustion levels from the vehicle as a Utilize action using Engineer’s Tools or an Engineering station. The creature makes a DC 15 Intelligence (Technology) check, removing
+      1 Ion Exhaustion level on a success. For every 5 by which the total exceeds the DC, remove one additional level.</p><h4>Restore Hit Points</h4><p>If the vehicle has at least 1 Hit Point, a creature
+      can spend 1 hour or more trying to patch damaged panels and replaced damaged parts. The vehicle must be stationary, and the creature must have Repair Parts (see &quot;Equipment&quot;). After 1 hour
+      of work, the creature makes a DC 10 Dexterity (Technology) check using Mechanic’s Tools. On a success, the vehicle regains Hit Points appropriate to the Repair Parts used. For every 5 points by which
+      the total exceeds the DC, the Hit Points regained increases by 5. On a failure, the repair fails, but the parts aren’t expended.</p><p>Spells such as the Mending cantrip generally aren’t powerful
+      enough to repair the kind of damage that significantly impairs vehicles unless that damage is especially pinpointed, such as torn cables, cut circuit boards, cracked engine blocks, snapped axles,
+      etc.</p><h3>Planetary Vehicle Crashes</h3><p>When a vehicle crashes into something that could damage it, such as another vehicle, a concrete wall, or a creature one size smaller than the vehicle or
+      larger, the vehicle comes to a sudden stop and takes 1d6 Bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6). Whatever the vehicle struck takes the same amount of damage.
+      If two vehicles collide head on, add their crash damage together.</p><p>Creatures riding vehicles involved in a crash must make a DC 15 Strength saving throw, taking the same amount of damage the
+      crash dealt on a failed save, or half as much damage on a successful one.</p><h4>Crashing into Creatures</h4><p>A vehicle can crash into a creature by entering its space. The target can take a Reaction
+      to try to evade the vehicle and make a DC 10 Dexterity saving throw. On a failure, the vehicle hits the target, and the target takes damage as a crash and has the Prone condition. On a success, the
+      target moves to the closest unoccupied space out of the vehicle’s path and takes no damage. A creature makes this save only once per turn.</p><p>If the vehicle is at least two size categories bigger
+      than the target, the vehicle can continue moving through the target’s space if it has any movement left. Otherwise, the vehicle comes to a dead stop and crashes.</p><h3>Falling</h3><p>When a vehicle
+      goes over a cliff or otherwise falls, the vehicle and all creatures on or in it take damage from the fall as normal and land with the Prone condition.</p>'
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  ownership:
+    default: -1
+  flags: {}
+  category: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!journal.pages!EAjk051lqUlh64S1.YfIXn15pT1Zv4oXQ'
+folder: null
+flags: {}
+sort: 0
+ownership:
+  default: 0
+categories: []
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!journal!EAjk051lqUlh64S1'

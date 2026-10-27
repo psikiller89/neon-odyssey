@@ -1,0 +1,48 @@
+_id: gVvg2ra6r1e0I5Z3
+name: Robotic Resilience
+type: feat
+img: modules/neon-odyssey/icons/species/anitron.webp
+folder: 5ZWpjV4OAPSf3Yyy
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Resistance to Poison damage, and you have Advantage on saving throws to avoid or end the Petrified condition or the Poisoned condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Anitron
+  activities: {}
+  enchant: {}
+  identifier: robotic-resilience
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!gVvg2ra6r1e0I5Z3'

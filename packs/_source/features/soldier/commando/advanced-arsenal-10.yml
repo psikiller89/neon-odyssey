@@ -1,0 +1,111 @@
+_id: iL7zO5Vo73IZ2yyx
+name: Advanced Arsenal
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have the biggest and the best weapons. The options of your Weapon Protocols feature improve, as detailed below. <strong>Plasma Charge.</strong> The movement from this option no longer
+      provokes Opportunity Attacks, and the damage increases to 2d8.</p><p><strong>Resolve Breaker.</strong> On a hit, the target takes an extra 1d8 Force damage, and the die it must subtract from a roll
+      increases to 1d8.</p><p><strong>Rocket Launch.</strong> The rocket now creates a 15-foot-radius Sphere, and the damage increases to 3d6.</p><p><strong>Suppressive Fire.</strong> The size of the Cube
+      increases to 20 feet, and the damage increases to 1d10.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 10
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Commando Soldier
+  activities:
+    2VdK72hnqEddLMJT:
+      _id: 2VdK72hnqEddLMJT
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: advanced-arsenal
+  advancement: {}
+effects: []
+folder: PXmW0cBvIjaX4KtP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!iL7zO5Vo73IZ2yyx'

@@ -1,0 +1,72 @@
+_id: b1cqayy5gtcDPWAe
+name: Cosmic Visions
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>The tapestry of destiny is visible to you through the lens of the cosmic power that enlightens you. You always have the <em>Commune</em> spell prepared. With this feature, you can cast the
+      spell without expending a spell slot to contact the cosmic power that empowers your magic.</p><p>Once you cast the spell with this feature, you can’t do so in this way again until you finish a Long
+      Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: cosmic-visions
+  advancement:
+    8omKN9xM12I0BM4h:
+      _id: 8omKN9xM12I0BM4h
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommune000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Cosmic Visions
+      hint: ''
+effects: []
+folder: UozpvDEh5FPxwX8f
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!b1cqayy5gtcDPWAe'

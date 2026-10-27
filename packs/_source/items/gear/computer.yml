@@ -1,0 +1,56 @@
+_id: dGcvE6xkBnlR1zmA
+name: Computer
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Computers serve a variety of functions including displaying entertainment, data storage, playing video games, running and creating programs, and allowing Hypergrid connection. Computers function
+      as Gaming Consoles and execute Simple and Complex Programs. A computer can function as a Spiking Deck, which increases the computer’s price.</p><p><strong>Desktop.</strong> Desktop computers are larger,
+      more powerful devices that hold large amounts of storage, equivalent to 100 Data Chips. When used to create Complex Programs, a Desktop Computer adds a +5 bonus to the ability check.</p><p><strong>Laptop.</strong>
+      Laptop Computers are smaller, portable computers. They can store the equivalent of 25 Data Chips. Desktop 30 lb. $2,000 Laptop 3 lb. $1,500 Spiking Deck Upgrade +$625</p><table><tbody><tr><td>Desktop</td><td>30
+      lb.</td></tr><tr><td>Laptop</td><td>3 lb.</td></tr><tr><td>Spiking Deck Upgrade</td><td>—</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: computer
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!dGcvE6xkBnlR1zmA'

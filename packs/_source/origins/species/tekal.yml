@@ -1,0 +1,93 @@
+_id: aNMY9hBgpD6hBEUU
+name: Tekal
+type: race
+img: modules/neon-odyssey/icons/species/tekal.webp
+system:
+  description:
+    value: <p>Tekal <em>(teh-KAHL)</em> are a people constructed from stone, crystal, and plant matter, powered by Harmonyte gemstone technology. Their souls are manifested from the vital and somber energies
+      of the Harmony itself, granting them the ability to harness the cycle of life and death. Many tekal have an unbound curiosity in the natural world and a sense of wonder in discovering all aspects
+      of the Stardust Rhapsody and galactic living. Their affinity to the unique intersection of harmonic and primordial powers typically grants them a unique appreciation for all living things. Tekal have
+      solidly built bodies embedded with gemstones and glowing patterns of inlaid crystal that evoke the circuitry of their natural technology. They have typically humanoid faces and plants that grow from
+      their heads to resemble hair.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    LqntFTjVSwkAA3oL:
+      _id: LqntFTjVSwkAA3oL
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 4–7 feet tall)
+      value: {}
+      title: ''
+    5eSdoMs6kCoZRyIv:
+      _id: 5eSdoMs6kCoZRyIv
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.hYaIk5KST4Gjo1Pz
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.WwsQDDioFGCvJ8jF
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.fCJvgPnoF0zbuufg
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.wUnVDYzKJ3hmj1Bo
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.BqIJzw90lJDXVypH
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Tekal Traits
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: construct
+    custom: ''
+    subtype: ''
+  identifier: tekal
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aNMY9hBgpD6hBEUU'

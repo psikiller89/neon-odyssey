@@ -1,0 +1,189 @@
+_id: aHhdl9bcNBVoKr9L
+name: Invoke Cacophony
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You call forth Discordant powers to corrupt your foes. When you damage an enemy, you can take a Reaction to tear a hole in the cosmos and invite in Cacophony, gaining a benefit based on your
+      Discordant tone. You can also take this Reaction if another creature reduces an enemy within 10 feet of you or a creature summoned by you to 0 Hit Points. If a benefit requires a saving throw, the
+      DC equals your spell save DC.</p><p>You can take this Reaction a number of times equal to your Occult Magic spellcasting ability modifier (minimum of once), and you regain all expended uses when you
+      finish a Long Rest.</p><p><strong>Entropy.</strong> Each creature of your choice within 10 feet of the triggering creature takes 1d6 Cold damage, and its Speed is reduced by 10 feet until the end
+      of its next turn.</p><p><strong>Instinct.</strong> Each creature of your choice within 10 feet of the triggering creature must make a Constitution saving throw. On a failed save, a target takes Acid
+      damage equal to your Occult Magic spellcasting ability modifier (minimum of 1) and has the Poisoned condition until the start of your next turn.</p><p><strong>Progress.</strong> Each creature of your
+      choice within 10 feet of the triggering creature takes 1d8 Lightning damage and can’t take Reactions until the start of your next turn. <em>Bane</em>,<em> Malignant </em> <em>Spray</em>* <em>Dissonant
+      Whispers</em>, <em>Silence</em> <em>Acid Arrow</em>,<em> Ray of </em> <em>Sickness</em> <em>Command</em>, <em>Power Sag</em>* <em>Hideous Laughter</em>, <em>Mirror Image</em> <em>Summon Lesser </em>
+      <em>Discordant</em>* <em>Slow</em> <em>Haste</em> <em>Raking Shot</em>* <em>Hypnotic Pattern</em> <em>Dimension Door</em> <em>Phantasmal Killer</em> <em>Vitriolic Sphere</em> <em>Resilient Sphere</em>
+      <em>Confusion</em> <em>Forceful Majesty</em>* <em>Antilife Shell</em> <em>Insect Plague</em> <em>Wall of Force </em> <em>Mislead</em></p><p><strong>Thrill.</strong> Each creature of your choice within
+      10 feet of the triggering creature must make a Wisdom saving throw. On a failed save, a target takes 1d6 Psychic damage and must take a Reaction to move up to half its Speed in a direction of your
+      choice. Your allies who fail this save take no damage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @attributes.spell.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cacophonous Cryptist
+  activities:
+    xLU11WyW5VBJXFDK:
+      _id: xLU11WyW5VBJXFDK
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: hJsXh867eodR6cKm
+        onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - cold
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 6
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: invoke-cacophony
+  advancement: {}
+effects:
+- _id: hJsXh867eodR6cKm
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!aHhdl9bcNBVoKr9L.hJsXh867eodR6cKm'
+folder: T4nBRlumg2E718hz
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aHhdl9bcNBVoKr9L'

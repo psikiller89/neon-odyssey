@@ -1,0 +1,48 @@
+_id: hYaIk5KST4Gjo1Pz
+name: Crystalline Resilience
+type: feat
+img: modules/neon-odyssey/icons/species/tekal.webp
+folder: l0JLecTkokebn849
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Resistance to Poison damage and Radiant damage. You also have Advantage on saving throws you make to avoid or end the Petrified condition or the Poisoned condition.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Tekal
+  activities: {}
+  enchant: {}
+  identifier: crystalline-resilience
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hYaIk5KST4Gjo1Pz'

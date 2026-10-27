@@ -1,0 +1,114 @@
+_id: s3mIoQpjg65n7FZ4
+name: Fold Space
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You fold space, connecting two points via portals. Choose two Large, unoccupied spaces, one you can see within range and other one within 10 feet of you. You can target a space you can see
+      through a camera, picture, or magical scrying, that is immediately above a surface or liquid that can support creatures. A circular portal opens in each of those spaces and remains for the duration.
+      The portals are vertical, twodimensional glowing rings filled with distortion or static that blocks sight. They hover in the space.</p><p>A portal is open on only one side (you choose which). Anything
+      entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.</p><p><strong>Using
+      a Higher-Level Spell Slot.</strong> If you use a level 7 spell slot, its range increases to 500 miles. If you use a level 8 spell slot, the range includes anywhere on the planet. If you use a level
+      9 spell slot, the size of the portal becomes Huge, and the range becomes anywhere on the plane of existence.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '10'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '500'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 6
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    3dqcRSXD9pGC3qqp:
+      _id: 3dqcRSXD9pGC3qqp
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: fold-space
+effects: []
+folder: J08I5rrJnHseHt7I
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!s3mIoQpjg65n7FZ4'

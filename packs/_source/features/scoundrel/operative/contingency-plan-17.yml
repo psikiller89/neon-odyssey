@@ -1,0 +1,142 @@
+_id: 7dySPfrTjkqbqLM7
+name: Contingency Plan
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You never go into a high-risk situation without a contingency plan and always have the right gadget to finish the job. During your turn, you can enact one of the contingencies described below.
+      Although the options duplicate spells, the effects aren’t magical but are a product of your equipment or training. <strong>Anticipated Tactics.</strong> At the start of your turn, you can enact drills
+      and plans that perfectly fit the current situation (no action required). You gain the effect of the <em>Foresight</em> spell until the end of your next turn. <strong>Exit Strategy.</strong> You never
+      know when you need to be elsewhere in a hurry. As a Bonus Action, you gain the effect of the <em>Mislead</em> spell for 1 hour, requiring no spell components or Concentration (you can end the spell
+      at any time, no action required). You must have a Holoprojector on your person to use this contingency. <strong>The Best Defense.</strong> You enact an emergency offensive. As a Bonus Action, you
+      set off a device that creates one of the following spell effects of your choice: <em>Chain Lightning</em>, <em>Cloudkill </em>(1 minute with no Concentration; the cloud is stationary), <em>Cone of
+      Cold</em>, <em>Fireball</em>, or <em>Psychic Storm</em>* (save DC equals 8 plus your Dexterity modifier and Proficiency Bonus). You must have a Ranged weapon or a Grenade on your person to use this
+      contingency. Once you use this feature, you can’t do so again until you finish a Long Rest.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Operative Scoundrel
+  activities:
+    vmUax2TIRPXT75nR:
+      _id: vmUax2TIRPXT75nR
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: contingency-plan
+  advancement:
+    DRO4ZsQ9oZ4M17qJ:
+      _id: DRO4ZsQ9oZ4M17qJ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplForesight0
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChainLight
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 17
+      title: Contingency Plan
+      hint: ''
+effects: []
+folder: 5aLGQfj1PneVxUbs
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7dySPfrTjkqbqLM7'

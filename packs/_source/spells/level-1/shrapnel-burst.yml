@@ -1,0 +1,137 @@
+_id: dPs41TlnS8f6q0HL
+name: Shrapnel Burst
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>As you hit the target, an electric shock bursts out of your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw. On a
+      failed save a target takes 2d4 Piercing damage, and if it moves from its space before the start of your next turn, it takes an extra 2d4 Piercing damage. On a successful save it takes half as much
+      damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The initial and extra damage each increase by 2d4 for each spell slot level above 1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: bonus
+    value: null
+    condition: immediately after hitting a target with a Ranged weapon
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: con
+  properties:
+  - vocal
+  - material
+  materials:
+    value: a bundle of conductive wiring
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    X2vfRcim9CGN3kQT:
+      _id: X2vfRcim9CGN3kQT
+      type: save
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: 2
+          denomination: 4
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 2
+            formula: ''
+        - number: 2
+          denomination: 4
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 2
+            formula: ''
+  identifier: shrapnel-burst
+effects: []
+folder: rKHNi9eeXBjKsHaq
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!dPs41TlnS8f6q0HL'

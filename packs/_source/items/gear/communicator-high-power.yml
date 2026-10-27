@@ -1,0 +1,55 @@
+_id: 2YQ2kRLgNmE8teg9
+name: Communicator, High Power
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 8.0
+    units: lb
+  price:
+    value: 15000
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A High Power Communicator includes a backpack central unit with a compact antenna, and a headset or hand transceiver. It can also be easily mounted in a vehicle. A High Power Communicator
+      can connect to a communication network, or it can directly connect to another comm device in a range up to 25 miles with direct line of sight. It can store comm codes or select frequencies. If you
+      use the comm in an area of jamming, if you succeed on a DC 15 Intelligence (Computers) check, the comm functions until the start of your next turn. A Power Cell powers the unit for 24 hours of use.</p><p>If
+      you aren’t maintaining a Lifestyle, the communicator can’t connect to a comm network.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: communicator-high-power
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2YQ2kRLgNmE8teg9'

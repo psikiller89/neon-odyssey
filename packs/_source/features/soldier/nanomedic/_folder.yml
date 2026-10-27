@@ -1,0 +1,20 @@
+name: Nanomedic Soldier
+sorting: a
+folder: IRrKoImhMAUG66ov
+type: Item
+_id: Zo9hh6MVnLQdRBie
+description: ''
+sort: 53
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!Zo9hh6MVnLQdRBie'

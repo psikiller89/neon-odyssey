@@ -1,0 +1,197 @@
+_id: LvrYaEU39h46hT3h
+name: Unstoppable Force
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: <p>Your unbound body refuses to die. If you drop to 0 Hit Points while your Surge is active and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points
+      instead change to a number equal to twice your Juggernaut level.</p><p>Each time you use this feature after the first, the DC increases by 5. When you finish a Short or Long Rest, the DC resets to
+      10.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '20'
+    recovery:
+    - period: sr
+      type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 11
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Juggernaut
+  activities:
+    dnd5eactivity100:
+      _id: dnd5eactivity100
+      type: save
+      activation:
+        type: special
+        value: null
+        condition: When you drop to 0 Hit Points while your Rage is active and don't die outright
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        value: ''
+        units: inst
+        special: ''
+        override: false
+        expiry: null
+        concentration: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+          stationary: false
+        affects:
+          count: ''
+          type: self
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability:
+        - con
+        dc:
+          calculation: ''
+          formula: 10 + (@item.uses.spent * 5)
+        bonus: ''
+        visible: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      name: ''
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+    Y2xWUsWmpklWLtVT:
+      type: heal
+      name: ''
+      _id: Y2xWUsWmpklWLtVT
+      sort: 0
+      activation:
+        type: ''
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: null
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '@classes.barbarian.levels * 2'
+        scaling:
+          number: 1
+        bonus: ''
+        modifiers: []
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  enchant: {}
+  identifier: unstoppable-force
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: 92T6RXSx8Ve4fd5e
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!LvrYaEU39h46hT3h'

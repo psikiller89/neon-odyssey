@@ -1,0 +1,53 @@
+_id: f0pqZPoLilWb8MkG
+name: Survival At All Costs
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your parasite hungers and will not stop feeding, even when your mind and body fail. While you have the Stunned or Unconscious condition but have Psi Points remaining, you gain the following
+      effects:</p><ul><li><p>You ignore the effects of the Stunned and Unconscious conditions.</p></li><li><p>You can’t cast spells.</p></li><li><p>On your turn, you must use your action to make Unarmed
+      Strikes against Hostile creatures you can see. If no enemy is within reach, you must move as close as possible to an enemy before taking your action. If no enemy is in reach after you move, you can
+      use your action as normal.</p></li><li><p>If you fail a Death Saving Throw, you expend 5 Psi Points to succeed instead.</p></li><li><p>At the end of your turn, you expend 5 Psi Points. If you don’t
+      have sufficient Psi Points when this feature would force you to expend them, any Psi Points you have are instead expended, and these effects end.</p></li></ul>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symbiote Esper
+  activities: {}
+  enchant: {}
+  identifier: survival-at-all-costs
+  advancement: {}
+effects: []
+folder: WiG1piX4f1E9zDYD
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!f0pqZPoLilWb8MkG'

@@ -1,0 +1,55 @@
+_id: qheWrLoC6DsRMjHm
+name: Media Device
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>Media devices play audio or visual media files or broadcasts.</p><p><strong>Entertainment Center.</strong> Entertainment Centers are home entertainment setups with varying sized televisions,
+      along with media players and speakers.</p><p><strong>Portable Audio Player.</strong> Portable Audio Players are pocket-sized devices meant to play audio files into connected headphones, or on an internal
+      speaker. It has a port to accept a Data Chip and has an equal amount of internal storage. Entertainment Center 30 lb. $750 Portable Audio Player 1/2 lb. $150</p><table><tbody><tr><td>Entertainment
+      Center</td><td>30 lb.</td></tr><tr><td>Portable Audio Player</td><td>1/2 lb.</td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: media-device
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!qheWrLoC6DsRMjHm'

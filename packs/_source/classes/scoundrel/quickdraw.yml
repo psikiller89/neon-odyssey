@@ -1,0 +1,100 @@
+_id: gpQ0x9UdY09ppYqP
+name: Quickdraw
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/quickdraw.webp
+system:
+  description:
+    value: <p><em>Outgun Opponents with Deadly Aim</em> Quickdraws are known for the blazing speed and accuracy of their every shot. These gun-slinging Scoundrels have a knack for marksmanship and misdirection
+      with sharp eyes that can find opportunities and openings in gunfights. Some Quickdraws become feared desperados, while others try their hand at bringing order to the lawless corners of the galaxy.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: quickdraw
+  classIdentifier: scoundrel
+  advancement:
+    2yPxSJTi49fGDaxR:
+      _id: 2yPxSJTi49fGDaxR
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.3m2c4IlzaZ1GnOcq
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.xzTSUeA6RKeXOTkV
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    47ftYUHuIeTJpvT9:
+      _id: 47ftYUHuIeTJpvT9
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.N6PrV1KTdKYXoiMX
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Subclass Features
+      hint: ''
+    S7IZTG68KNEZAwMx:
+      _id: S7IZTG68KNEZAwMx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.EMqPYORXr0exIFhB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Subclass Features
+      hint: ''
+    TKtDNC9bdocjuM6H:
+      _id: TKtDNC9bdocjuM6H
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Im1wP2tiHUS25tMS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: 3gZ4ytt18QnUbQoV
+sort: 2
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!gpQ0x9UdY09ppYqP'

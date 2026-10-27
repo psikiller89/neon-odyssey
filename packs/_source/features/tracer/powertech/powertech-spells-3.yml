@@ -1,0 +1,160 @@
+_id: KLIUjpVlymCJb9fe
+name: Powertech Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Tracer level specified in the Powertech Spells table, you thereafter always have the listed spells prepared. <em>Magic Missile</em> <em>See Invisibility</em> <em>Fireball</em>
+      <em>Stoneskin</em> <em>Wall of Force</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Powertech Tracer
+  activities: {}
+  enchant: {}
+  identifier: powertech-spells
+  advancement:
+    G2wcQK6HrqpeYPdK:
+      _id: G2wcQK6HrqpeYPdK
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMagicMissi
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Powertech Spells
+      hint: ''
+    5NiR6kZcxoU5OfFe:
+      _id: 5NiR6kZcxoU5OfFe
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Powertech Spells
+      hint: ''
+    cBUDkeMH17y5jJTl:
+      _id: cBUDkeMH17y5jJTl
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Powertech Spells
+      hint: ''
+    8B7af0tOelJTLz0d:
+      _id: 8B7af0tOelJTLz0d
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStoneskin0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 13
+      title: Powertech Spells
+      hint: ''
+    2KqnGrOkV2rycZpU:
+      _id: 2KqnGrOkV2rycZpU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWallofForc
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 17
+      title: Powertech Spells
+      hint: ''
+effects: []
+folder: X4HPIohiyzVSXvRW
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!KLIUjpVlymCJb9fe'

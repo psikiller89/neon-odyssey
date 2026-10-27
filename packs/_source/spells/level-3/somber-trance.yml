@@ -1,0 +1,147 @@
+_id: KVHYJOUvSxmrSkYd
+name: Somber Trance
+type: spell
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+system:
+  description:
+    value: <p>You touch a willing creature, and it lapses into a trance-like state deep enough to seem like death. All forms of outward inspection, including spells, indicate that the target is dead. The
+      target has the Blinded and Incapacitated conditions, Resistance to all damage except Psychic damage, Immunity to Poison damage and the Poisoned condition, and its Speed is 0.</p><p>The target remains
+      conscious during the spell’s duration, and it can choose to end the spell’s duration at any time. If the spell lasts for its full duration, the target can choose to receive the benefit of a Short
+      Rest and remove one Exhaustion level when the spell ends.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: touch
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: nec
+  properties:
+  - vocal
+  - somatic
+  - material
+  materials:
+    value: a vial of formaldehyde
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    gkrkX6hcLxXfXVtJ:
+      _id: gkrkX6hcLxXfXVtJ
+      type: utility
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: 5y5Xq1UZxMTBb45R
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  identifier: somber-trance
+effects:
+- _id: 5y5Xq1UZxMTBb45R
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!KVHYJOUvSxmrSkYd.5y5Xq1UZxMTBb45R'
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!KVHYJOUvSxmrSkYd'

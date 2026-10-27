@@ -1,0 +1,664 @@
+_id: QZOf7FB0vhtSPDtt
+name: Scoundrel
+type: class
+img: modules/neon-odyssey/icons/classes/scoundrel.png
+system:
+  description:
+    value: '<h3>Core Scoundrel Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8 per Scoundrel level</p></td></tr><tr><th scope="row"><p>Saving Throw
+      Proficiencies</p></th><td><p>Dexterity and Intelligence</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose 4: Acrobatics, Athletics, Computers, Deception, Insight, Intimidation,
+      Investigation, Perception, Persuasion, Sleight of Hand, Stealth, or Technology</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons, and Martial weapons that have
+      the Finesse or Light property</p></td></tr><tr><th scope="row"><p>Tool Proficiencies</p></th><td><p>Choose Bypass Tools or Spiking Deck</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light
+      armor</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Light Armor, 2 Combat Knives, Quickblade, Light Laser Pistol, Light Pistol, 20 Bullets, 4 Power Cells,
+      Magazine, Bypass Tools or Spiking Deck chosen for the proficiency above, Intruder’s Pack, and $755; or (B) $6,000</p></td></tr></tbody></table><p><strong>Hit Point Die</strong> D8 per Scoundrel level
+      <strong>Saving Throw  Proficiencies</strong> Dexterity and Intelligence <strong>Skill Proficiencies</strong> <em>Choose 4:</em> Acrobatics, Athletics, Computers, Deception, Insight, Intimidation,
+      Investigation, Perception, Persuasion, Sleight of Hand, Stealth, or Technology <strong>Weapon  Proficiencies</strong> Simple weapons, and Martial weapons that have the Finesse or Light property <strong>Tool
+      Proficiencies</strong> <em>Choose Bypass Tools or Spiking Deck</em> <strong>Armor Training</strong> Light armor <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Light Armor, 2 Combat
+      Knives, Quickblade, Light Laser Pistol, Light Pistol, 20 Bullets, 4 Power Cells, Magazine, Bypass Tools or Spiking Deck chosen for the proficiency above, Intruder’s Pack, and $755; or (B) $6,000 Scoundrels
+      use their sharp wits, daring physical feats, and subterfuge to strike foes where and when they are weakest, whether in a fight or across the negotiation table. Though they are known for incredible
+      bouts of luck, the truth is, Scoundrels make their own fortune. Even so, many carry a lucky set of dice or other talisman.</p><p>They hone their guile and practical skills while keeping an eye out
+      for every opportunity, never willing to let one pass without taking a cut for themselves. Many Scoundrels are highly persuasive fast talkers with a magnetic swagger, while others focus on subtler
+      skills useful in sabotage or infiltration.</p><p>Scoundrels do whatever it takes to get the edge on their opponents in combat, not shying away from cheap tricks and underhanded tactics. They often
+      rely on precision and subtlety, choosing to take the perfect shot or chance a lucky break to turn the tide in battle.</p><p>Most Scoundrels are individualists doing what they must to make their way
+      in a dangerous galaxy. Some are drawn to the perks of a criminal life in the galactic underworld, while others attempt to make an honest living —as long as it suits them.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: hu627AcQGmMWKpYh
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: 6GXgiSLQwhovYPdj
+    type: AND
+    group: hu627AcQGmMWKpYh
+    requiresProficiency: false
+    sort: 200000
+  - _id: OR2GFZSwOfHjoJwk
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.lAMG4zR378snhyS6
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 300000
+  - _id: M76psL8a0vebaWUa
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: 2
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 400000
+  - _id: IvdoD9WBi3B3cWOP
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.A8daMaB6ejVVgyIZ
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 500000
+  - _id: NX9LCJxJENlmmWQh
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.xFvEJzE9dVlaWAX4
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 600000
+  - _id: BeSjkmzr1uv7eDtb
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3ywBa1QwDkNzC4xS
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 700000
+  - _id: Qza71U4fxbU9YLhe
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.PT2cicmwDV82e1PY
+    count: 20
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 800000
+  - _id: CimrnKLkuWi4Bz1h
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 4
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 900000
+  - _id: mlanUMEIgggwsmQ7
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.mLKj3oXtb6ljMqyz
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 1000000
+  - _id: j5WpdbpVbx3o66p6
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.7uvYP4Hpk5NqzkQB
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 1100000
+  - _id: F2bLUmHHAaK3sqlC
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.hqbR1P4EpjiaCdiB
+    count: null
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 1200000
+  - _id: 4sFClhjeZYcgQlp9
+    type: currency
+    key: gn
+    count: 755
+    group: 6GXgiSLQwhovYPdj
+    requiresProficiency: false
+    sort: 1300000
+  - _id: tDwbn1KhwFvjbps4
+    type: AND
+    group: hu627AcQGmMWKpYh
+    requiresProficiency: false
+    sort: 1400000
+  - _id: EGgYxhwFcRScO9JQ
+    type: currency
+    key: gn
+    count: 6000
+    group: tDwbn1KhwFvjbps4
+    requiresProficiency: false
+    sort: 1500000
+  identifier: scoundrel
+  levels: 1
+  advancement:
+    6zkx7K1uPW2IQ5JA:
+      _id: 6zkx7K1uPW2IQ5JA
+      type: HitPoints
+      configuration: {}
+      value: {}
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 4
+      title: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 8
+      title: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 12
+      title: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 16
+      title: ''
+    PbZFa8JfPdQcvr1Q:
+      _id: PbZFa8JfPdQcvr1Q
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 10
+      title: ''
+    sqWH6tnUg7jiGaEj:
+      _id: sqWH6tnUg7jiGaEj
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:*
+      value:
+        chosen: []
+      level: 6
+      title: Expertise
+      hint: ''
+    4uOxepnMxb2TYDY4:
+      _id: 4uOxepnMxb2TYDY4
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 1
+            faces: 6
+            modifiers: []
+          '3':
+            number: 2
+            faces: 6
+            modifiers: []
+          '5':
+            number: 3
+            faces: 6
+            modifiers: []
+          '7':
+            number: 4
+            faces: 6
+            modifiers: []
+          '9':
+            number: 5
+            faces: 6
+            modifiers: []
+          '11':
+            number: 6
+            faces: 6
+            modifiers: []
+          '13':
+            number: 7
+            faces: 6
+            modifiers: []
+          '15':
+            number: 8
+            faces: 6
+            modifiers: []
+          '17':
+            number: 9
+            faces: 6
+            modifiers: []
+          '19':
+            number: 10
+            faces: 6
+            modifiers: []
+      value: {}
+      title: Sneak Attack
+      hint: ''
+    IHbn6EXoBfxHdj7c:
+      _id: IHbn6EXoBfxHdj7c
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - languages:exotic:cant
+        choices:
+        - count: 1
+          pool:
+          - languages:*
+      value:
+        chosen: []
+      level: 1
+      title: Thieves' Cant
+      hint: You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages
+        below.
+    FiaNLovfP6tnY4tD:
+      _id: FiaNLovfP6tnY4tD
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:wis
+        - saves:cha
+        choices: []
+      value:
+        chosen: []
+      level: 15
+      title: ''
+      hint: Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.
+    YW6yxOO45ACMgnJT:
+      _id: YW6yxOO45ACMgnJT
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+    yp6ZCsT10nGs4J4q:
+      _id: yp6ZCsT10nGs4J4q
+      type: Trait
+      configuration:
+        mode: mastery
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - weapon:*
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Mastery
+      hint: ''
+    q22sm4VsezAltuqE:
+      _id: q22sm4VsezAltuqE
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        - weapon:mar:handcrossbow
+        - weapon:mar:rapier
+        - weapon:mar:scimitar
+        - weapon:mar:shortsword
+        - weapon:mar:whip
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: ''
+      classRestriction: primary
+    UH1CrcBv6JRJJxsQ:
+      _id: UH1CrcBv6JRJJxsQ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armor Training
+      hint: ''
+    tSxdQdTxlNVE1kdD:
+      _id: tSxdQdTxlNVE1kdD
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:acr
+          - skills:ath
+          - skills:dec
+          - skills:ins
+          - skills:itm
+          - skills:prc
+          - skills:per
+          - skills:slt
+          - skills:ste
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: secondary
+    8tx2HViuTjfSr4D9:
+      type: AbilityScoreImprovement
+      _id: 8tx2HViuTjfSr4D9
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonoftheNigh
+        max: null
+      value: {}
+      level: 19
+      title: ''
+      hint: ''
+    HjdRbUpm16CBMKtC:
+      _id: HjdRbUpm16CBMKtC
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:dex
+        - saves:int
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    nfOZUyAevBXfUltI:
+      _id: nfOZUyAevBXfUltI
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 4
+          pool:
+          - skills:acr
+          - skills:ath
+          - skills:dec
+          - skills:ins
+          - skills:itm
+          - skills:inv
+          - skills:prc
+          - skills:per
+          - skills:slt
+          - skills:ste
+          - skills:cmp
+          - skills:tec
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    wBWLdNB4KhX3Qrku:
+      _id: wBWLdNB4KhX3Qrku
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.dNLdo1ja6dwyPNSb
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.GDro1HaiSfEyafAJ
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.ueFSPdGVzmXpp88E
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.UwATH2BYxO4nqcqO
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    mutepFhb9yiOUoEN:
+      _id: mutepFhb9yiOUoEN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.IuJOqV6xcy6lpJtf
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    5cgD71a6fEW4hXCg:
+      _id: 5cgD71a6fEW4hXCg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.FzSHssi8D5YSwDgC
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      hint: ''
+    bSvGowfwkrlXeUMh:
+      _id: bSvGowfwkrlXeUMh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.65DypJkONcSWgAPt
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.D0ifG45kkUvClMb3
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    ATQoYLaNtUJXfobI:
+      _id: ATQoYLaNtUJXfobI
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gJqFOh8yFn2HcfoL
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.4METXdL1navGTVlI
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    L815D6ALnStXQgPJ:
+      _id: L815D6ALnStXQgPJ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.bKigPNIFwLTgKfR7
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Class Features
+      hint: ''
+    nEDQfWDeY8pIvV3t:
+      _id: nEDQfWDeY8pIvV3t
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.SlQokuD0VjEV76sQ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      hint: ''
+    DmvThzuJrPGKCrdl:
+      _id: DmvThzuJrPGKCrdl
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.zntHscgtJRJJbtCK
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Class Features
+      hint: ''
+    TZSmZxXiMS5Bq0ef:
+      _id: TZSmZxXiMS5Bq0ef
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.gM7vmrLFhEFftEvh
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    UTJDafepEH07qAFc:
+      _id: UTJDafepEH07qAFc
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.IRjvGobtXSV9uNHS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+  wealth: ''
+  primaryAbility:
+    value:
+    - dex
+    all: true
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+effects: []
+folder: 3gZ4ytt18QnUbQoV
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!QZOf7FB0vhtSPDtt'

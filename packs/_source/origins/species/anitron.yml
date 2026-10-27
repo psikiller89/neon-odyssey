@@ -1,0 +1,153 @@
+_id: 7OUH4dSfdPNyVEMH
+name: Anitron
+type: race
+img: modules/neon-odyssey/icons/species/anitron.webp
+system:
+  description:
+    value: <p>Anitrons <em>(AN-ih-tron)</em> are living robots with a hyperspark—a technological soul originating from the Hypergrid and infused with the Harmony’s life energy. Scholars debate whether the
+      first hypersparks manifested spontaneously, or if some inventor gave the first anitron their synthetic spirit. Their mechanical bodies are each designed for a singular specialty in which they excel
+      and often fixate on executing through free will instead of programmatic dictate. Constructed from various materials and fashioned into a wide variety of body shapes and sizes, anitrons are one of
+      the most physically diverse species in the galaxy.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    rqezv5bmrdh3aKy1:
+      _id: rqezv5bmrdh3aKy1
+      type: Size
+      configuration:
+        sizes:
+        - med
+        - sm
+      level: 0
+      hint: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+      value: {}
+      title: ''
+    3fuxwrqeKn6n4tpi:
+      _id: 3fuxwrqeKn6n4tpi
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.2opmL1akUK3CVmi3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.n1sR2IGiKd2l2jmH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.Jzub2NeUzbvaT3Nw
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.BjnBAJbDffgytZK8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.ZCQWGbacI5QT7479
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.QATrDwWo8Yz0dLI8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.gVvg2ra6r1e0I5Z3
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.h3pC0zY7YODlHqTL
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Anitron Traits
+    wST7FveJo6kKOP1Z:
+      _id: wST7FveJo6kKOP1Z
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ath
+          - skills:itm
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    RqprJll5JTFbtzqc:
+      _id: RqprJll5JTFbtzqc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:dec
+          - skills:ins
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    KK7Qbl1iNQ90Rsy2:
+      _id: KK7Qbl1iNQ90Rsy2
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:cmp
+          - skills:med
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: construct
+    custom: ''
+    subtype: ''
+  identifier: anitron
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7OUH4dSfdPNyVEMH'

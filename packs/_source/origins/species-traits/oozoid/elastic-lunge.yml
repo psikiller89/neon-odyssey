@@ -1,0 +1,48 @@
+_id: hjqO2cQ8Y2J9thLU
+name: Elastic Lunge
+type: feat
+img: modules/neon-odyssey/icons/species/oozoid.webp
+folder: G1PDkDhNlTe2b9ll
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You add 10 feet to your maximum Long Jump distance and 5 feet to your maximum High Jump distance. You have Resistance to damage you take from falling.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Oozoid
+  activities: {}
+  enchant: {}
+  identifier: elastic-lunge
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!hjqO2cQ8Y2J9thLU'

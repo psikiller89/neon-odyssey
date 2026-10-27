@@ -1,0 +1,111 @@
+_id: CnI6RPSDGJNzTLmJ
+name: Split-Second Read
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your keen senses push you to your limits when your life is on the line. When you miss with an attack roll or fail a Dexterity saving throw, you can take a Reaction to add a bonus to the roll
+      equal to your Wisdom modifier (minimum of +1), potentially turning the miss into a hit or the failure into a success.</p><p>You can use this feature a number of times equal to your Wisdom modifier
+      (minimum of once). You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.wis.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Bloodhound Tracer
+  activities:
+    rY9lIra1JT0LeWPc:
+      _id: rY9lIra1JT0LeWPc
+      type: save
+      name: ''
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: split-second-read
+  advancement: {}
+effects: []
+folder: 8ed9dx0J5FCd9Fw5
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!CnI6RPSDGJNzTLmJ'

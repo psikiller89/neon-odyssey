@@ -1,0 +1,631 @@
+_id: zJW6ROWeOeR9OHiz
+name: Cryptist
+type: class
+img: modules/neon-odyssey/icons/classes/cryptist.png
+system:
+  description:
+    value: '<h3>Core Cryptist Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Choose 1: Intelligence or Charisma</p></td></tr><tr><th scope="row"><p>Hit
+      Point Die</p></th><td><p>D8 per Cryptist level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and your Primary Ability</p></td></tr><tr><th scope="row"><p>Skill
+      Proficiencies</p></th><td><p>Choose 2: Arcana, Deception, History, Intimidation, Investigation, Nature, Perception, or Religion</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple
+      weapons</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light armor</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Light Armor, Combat Knife,
+      Light Pistol, 20 Bullets, Power Cell, Datapad (occult lore), Magazine, Occult Focus (crystal), Academic’s Pack, and $600; or (B) $4,000</p></td></tr></tbody></table><p><strong>Primary Ability</strong>
+      <em>Choose 1:</em> Intelligence or Charisma <strong>Hit Point Die</strong> D8 per Cryptist level <strong>Saving Throw  Proficiencies</strong> Wisdom and your Primary Ability <strong>Skill Proficiencies</strong>
+      <em>Choose 2:</em> Arcana, Deception, History, Intimidation, Investigation, Nature, Perception, or Religion <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Armor Training</strong> Light
+      armor <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Light Armor, Combat Knife, Light Pistol, 20 Bullets, Power Cell, Datapad (occult lore), Magazine, Occult Focus (crystal), Academic’s
+      Pack, and $600; or (B) $4,000 Cryptists understand that certain truths hidden throughout the Stardust Rhapsody and the realms beyond are keys to unimaginable power. They devote themselves to the search,
+      study, and discovery of these secrets, for uncovering and manipulating them can unleash the fundamental forces of the galaxy. They relentlessly delve into the mysteries of creation to unlock increasing
+      power and the ability to weave their own potent magic.</p><p>The secrets in which the Cryptists deal are typically well guarded and require great commitment and sacrifice to unearth. Their occult
+      practices are considered forbidden by the general galactic sensibility, and most common people would rather these hidden truths stay buried. These concerns do not stop Cryptists, for they know that
+      the unenlightened will always fear what they don’t understand.</p><p>Many Cryptists are the ultimate researchers, spending their time in grand archives, buried in codices and data slates. Others seek
+      the truth in the field, exploring longforgotten ruins, buried temples, and profane sites tethered to otherworldly realms. No matter the method, Cryptists and their strange spells are immensely valuable
+      to the galaxy’s factions, governments, and organizations, and many find a fast track to positions of power across the Stardust Rhapsody.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: TWwVlNnfhbZTjwDl
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: ecevx70Zx0gUM26B
+    type: AND
+    group: TWwVlNnfhbZTjwDl
+    requiresProficiency: false
+    sort: 200000
+  - _id: 41qz9FsY8RFxzf5x
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.lAMG4zR378snhyS6
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 300000
+  - _id: HHA5sYBcQht7cThS
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 400000
+  - _id: bbPfNib2CN57bU5h
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.3ywBa1QwDkNzC4xS
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 500000
+  - _id: nuYwoaaWT1X6NYde
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.PT2cicmwDV82e1PY
+    count: 20
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 600000
+  - _id: Izd8snbNid9q7Oya
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 700000
+  - _id: xlIRyXeTL78K3xyF
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.VIlAxstCFC33QTB6
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 800000
+  - _id: Q6UbZnAoZU5IqUYX
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.mLKj3oXtb6ljMqyz
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 900000
+  - _id: UjTsYxYKp4C5yYeq
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.nj0p0feGlQqwhlxx
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 1000000
+  - _id: 4N1bs3ESPStr3a0o
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.4ye9d8gUKhuHktf1
+    count: null
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 1100000
+  - _id: xnwxDaHDVWSZlYCu
+    type: currency
+    key: gn
+    count: 600
+    group: ecevx70Zx0gUM26B
+    requiresProficiency: false
+    sort: 1200000
+  - _id: sP9jZ9fdTcczLieB
+    type: AND
+    group: TWwVlNnfhbZTjwDl
+    requiresProficiency: false
+    sort: 1300000
+  - _id: tYTvRlD9qCs3Wfsz
+    type: currency
+    key: gn
+    count: 4000
+    group: sP9jZ9fdTcczLieB
+    requiresProficiency: false
+    sort: 1400000
+  identifier: cryptist
+  levels: 1
+  advancement:
+    viu0ntZhrve35HNy:
+      _id: viu0ntZhrve35HNy
+      type: HitPoints
+      configuration: {}
+      value: {}
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 4
+      title: ''
+      hint: You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Cryptist levels 8, 12, and 16.
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 8
+      title: ''
+      hint: You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Cryptist levels 8, 12, and 16.
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 12
+      title: ''
+      hint: You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Cryptist levels 8, 12, and 16.
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 16
+      title: ''
+      hint: You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Cryptist levels 8, 12, and 16.
+    HucmTSEzIq7OeJr7:
+      _id: HucmTSEzIq7OeJr7
+      type: ScaleValue
+      configuration:
+        identifier: secrets-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 1
+          '2':
+            value: 3
+          '5':
+            value: 5
+          '7':
+            value: 6
+          '9':
+            value: 7
+          '12':
+            value: 8
+          '15':
+            value: 9
+          '18':
+            value: 10
+      value: {}
+      title: Esoteric Secrets Known
+      hint: ''
+    dZ29O2QGbIsj25Vg:
+      _id: dZ29O2QGbIsj25Vg
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '4':
+            value: 3
+          '10':
+            value: 4
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    KTLPtUpPuGbXWiap:
+      _id: KTLPtUpPuGbXWiap
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: You gain a Cryptist subclass of your choice. A subclass is a specialization that grants you features at certain Cryptist levels. For the rest of your career, you gain each of your subclass’s
+        features that are of your Cryptist level or lower.
+    v3lym1uxhRr5SHcH:
+      _id: v3lym1uxhRr5SHcH
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '2':
+            value: 3
+          '3':
+            value: 4
+          '4':
+            value: 5
+          '5':
+            value: 6
+          '6':
+            value: 7
+          '7':
+            value: 8
+          '8':
+            value: 9
+          '9':
+            value: 10
+          '11':
+            value: 11
+          '13':
+            value: 12
+          '15':
+            value: 13
+          '17':
+            value: 14
+          '19':
+            value: 15
+      value: {}
+      title: Max Pact Magic Spells
+      hint: ''
+    xMtpuEuf5g6C8cqA:
+      _id: xMtpuEuf5g6C8cqA
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: 1
+            replacement: true
+          '2':
+            count: 2
+            replacement: true
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: null
+            replacement: true
+          '5':
+            count: 2
+            replacement: true
+          '6':
+            count: null
+            replacement: true
+          '7':
+            count: 1
+            replacement: true
+          '8':
+            count: null
+            replacement: true
+          '9':
+            count: 1
+            replacement: true
+          '10':
+            count: null
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: 1
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: null
+            replacement: true
+          '15':
+            count: 1
+            replacement: true
+          '16':
+            count: null
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: 1
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: null
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.JNeRxPQjWFxIBKRM
+        - uuid: Compendium.neon-odyssey.features.Item.GHKXlP1by3g9eO9u
+        - uuid: Compendium.neon-odyssey.features.Item.ELSLI7IO5iJU2xJz
+        - uuid: Compendium.neon-odyssey.features.Item.0jbwjtx4etbp6shK
+        - uuid: Compendium.neon-odyssey.features.Item.w6mqWdF1GElZOn4r
+        - uuid: Compendium.neon-odyssey.features.Item.ANMNRkCsewgnj5bP
+        - uuid: Compendium.neon-odyssey.features.Item.2YOM3budKfCTttAY
+        - uuid: Compendium.neon-odyssey.features.Item.tAuywXBAjzCj4FTK
+        - uuid: Compendium.neon-odyssey.features.Item.sVx98N3iuJ9Eh2J0
+        - uuid: Compendium.neon-odyssey.features.Item.oXsYsIbfP05njio3
+        - uuid: Compendium.neon-odyssey.features.Item.3pzS5yqAtgoK6sxJ
+        - uuid: Compendium.neon-odyssey.features.Item.F5GzAIN1vPkZGkdy
+        - uuid: Compendium.neon-odyssey.features.Item.lrZvMfRN2cVntdFK
+        - uuid: Compendium.neon-odyssey.features.Item.CC1zo6JMJgpK58WZ
+        - uuid: Compendium.neon-odyssey.features.Item.pOZC9WTSkdvLtfFV
+        - uuid: Compendium.neon-odyssey.features.Item.MOwNWk1wCJk7g4i0
+        - uuid: Compendium.neon-odyssey.features.Item.XhYvQbJIm2wlEra3
+        - uuid: Compendium.neon-odyssey.features.Item.uF8XZo9N9O8XwyhS
+        - uuid: Compendium.neon-odyssey.features.Item.rkTCqu3ezK8NXFN7
+        - uuid: Compendium.neon-odyssey.features.Item.PD5PSmMsOOhN1lj2
+        - uuid: Compendium.neon-odyssey.features.Item.z5GwxGGs4D28CF5u
+        - uuid: Compendium.neon-odyssey.features.Item.GtqqzgLBpWrNsw1X
+        - uuid: Compendium.neon-odyssey.features.Item.uJXVVAgl4vSrWZRj
+        - uuid: Compendium.neon-odyssey.features.Item.mPcaJf0USa6rNUmH
+        - uuid: Compendium.neon-odyssey.features.Item.Ns8fDVycL5L4GTgF
+        - uuid: Compendium.neon-odyssey.features.Item.B3IHmgvrcV0P6OU5
+        - uuid: Compendium.neon-odyssey.features.Item.gLgV6k0BeBcjHRIW
+        - uuid: Compendium.neon-odyssey.features.Item.yJGYYQvayCM5Ky3i
+        - uuid: Compendium.neon-odyssey.features.Item.mLwlPY9phbKq2YyZ
+        - uuid: Compendium.neon-odyssey.features.Item.VsbhG42jOef3Q7Fa
+        - uuid: Compendium.neon-odyssey.features.Item.E74vM3B5BB6goJnv
+        - uuid: Compendium.neon-odyssey.features.Item.5aWy9oSKDOf5KX1n
+        - uuid: Compendium.neon-odyssey.features.Item.MPcHl0Ra0VqGM3NH
+        - uuid: Compendium.neon-odyssey.features.Item.nEffYkmnomnUuMSY
+        - uuid: Compendium.neon-odyssey.features.Item.XMAqv4sL7PraCt97
+        - uuid: Compendium.neon-odyssey.features.Item.vf6e24i4pU48F6ml
+        - uuid: Compendium.neon-odyssey.features.Item.Ge5Fm4N3W7fkqgsQ
+        - uuid: Compendium.neon-odyssey.features.Item.sXfxNtDthGknSdaX
+        - uuid: Compendium.neon-odyssey.features.Item.shVFqebGoRCMreLQ
+        spell: null
+        restriction:
+          type: class
+          subtype: esotericSecret
+          list: []
+      value:
+        added: {}
+        replaced: {}
+      title: Esoteric Secrets
+      hint: You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons.
+    4XUbrDNUSRAH6TqT:
+      _id: 4XUbrDNUSRAH6TqT
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: ''
+      classRestriction: primary
+    yB5RTWToMnl2sB6c:
+      _id: yB5RTWToMnl2sB6c
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armor Training
+      hint: ''
+    8I38hJ6buQAYd1QL:
+      type: AbilityScoreImprovement
+      _id: 8I38hJ6buQAYd1QL
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonofFate000
+        max: null
+      value: {}
+      level: 19
+      title: ''
+      hint: ''
+    Y9uViZVgsK1kqymg:
+      _id: Y9uViZVgsK1kqymg
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:wis
+        choices:
+        - count: 1
+          pool:
+          - saves:int
+          - saves:cha
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    aZ8mdrlvmdP0S86i:
+      _id: aZ8mdrlvmdP0S86i
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:arc
+          - skills:dec
+          - skills:his
+          - skills:itm
+          - skills:inv
+          - skills:nat
+          - skills:prc
+          - skills:rel
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    BlE1cHjCzWfJnCKH:
+      _id: BlE1cHjCzWfJnCKH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.WGIdph7KnMDVqkLG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.kN3ULn4nMBU4jipM
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    AFTY5iF1y9gOEka6:
+      _id: AFTY5iF1y9gOEka6
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.s4tBfPVK3cQLnbrN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    P1iM4ZmTHIRZSBwT:
+      _id: P1iM4ZmTHIRZSBwT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fRhd7Pcx91dCiLOm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    0naDCmybWI06dmhd:
+      _id: 0naDCmybWI06dmhd
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.aJtBo5cnekXPSpX2
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Class Features
+      hint: ''
+    6FOXJTAXumP1wuzy:
+      _id: 6FOXJTAXumP1wuzy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.GsTh3eYF7uW6cje6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Class Features
+      hint: ''
+    ZxYElryARkc6MURC:
+      _id: ZxYElryARkc6MURC
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.A8TtIg2ig0dVISBd
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: pact
+    ability: cha
+    preparation:
+      formula: '@scale.cryptist.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - int
+    - cha
+    all: false
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+effects: []
+folder: V33SdDpvnwMZjPPw
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!zJW6ROWeOeR9OHiz'

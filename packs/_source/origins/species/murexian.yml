@@ -1,0 +1,171 @@
+_id: uzjs5iHgDNlaCOoM
+name: Murexian
+type: race
+img: modules/neon-odyssey/icons/species/murexian.webp
+system:
+  description:
+    value: <p>Murexians <em>(mer-EX-ee-in) </em>are an aquatic species of mollusklike humanoids that emerged from the dark depths of an ocean world. Legend holds that they were created by Karkosa, the enigmatic
+      proto-god of change, who imbued them with the ability to rapidly evolve to best survive the treacherous deep. Evolution is core to all murexians, and they develop additional adaptations throughout
+      their life to best suit them for their home environment and the galaxy beyond. This allows them to be equally comfortable on land as they are in the water. Many murexians have no fear of the future,
+      trusting that they will adapt to whatever comes. Murexians have mollusk-shell heads with tentacled faces that resemble cephalopods such as cuttlefish, and their rubbery skin can rapidly change in
+      color and pattern to aid in communication. As they evolve and gain new adaptations, they can take on the physical characteristics of crustaceans and other invertebrates of the sea.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  advancement:
+    hFwGMi7yuhoUUWmW:
+      _id: hFwGMi7yuhoUUWmW
+      type: Size
+      configuration:
+        sizes:
+        - med
+      level: 0
+      hint: Medium (about 5–6 feet tall)
+      value: {}
+      title: ''
+    mvrvKxvE1OaFVXto:
+      _id: mvrvKxvE1OaFVXto
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.origins.Item.8EcABpHRlVERYn2X
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.64ORmngGMQVbcF0F
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.nSzclUdqm7gOlB7E
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.L6Y0YpZAs8im2cbI
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.origins.Item.EhchQXXosHmRBLrv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+        sorting: m
+      value: {}
+      level: 0
+      hint: ''
+      title: Murexian Traits
+    JnPJZsBtDa2BYJoB:
+      _id: JnPJZsBtDa2BYJoB
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.origins.Item.aDgeRvYF6BCTYcaB
+        - uuid: Compendium.neon-odyssey.origins.Item.KnzHLm5JUtTeLKyp
+        - uuid: Compendium.neon-odyssey.origins.Item.X0VmNZMpIlw0gSai
+        - uuid: Compendium.neon-odyssey.origins.Item.dOCh3KSZw93mn8oM
+        - uuid: Compendium.neon-odyssey.origins.Item.FD6URInq02OsV4im
+        - uuid: Compendium.neon-odyssey.origins.Item.eAIxXVYGPs9nAoL4
+        restriction:
+          type: race
+          subtype: ''
+          list: []
+      value: {}
+      level: 0
+      title: Evolutionary Adaptation
+      hint: Choose one option.
+    cd6ewCsVGtOJ28Tc:
+      _id: cd6ewCsVGtOJ28Tc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:dec
+          - skills:per
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    3HSEQtp1OmWf9ihe:
+      _id: 3HSEQtp1OmWf9ihe
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ins
+          - skills:prc
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+    3JRkYfDkSzcXDTPa:
+      _id: 3JRkYfDkSzcXDTPa
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ath
+          - skills:ste
+      value:
+        chosen: []
+      level: 0
+      title: Skill Proficiency
+      hint: ''
+  movement:
+    units: null
+    hover: false
+    speeds:
+      walk: '30'
+      swim: '30'
+      climb: '30'
+    ignoredDifficultTerrain: []
+  senses:
+    units: null
+    special: ''
+    ranges:
+      darkvision: 120
+      blindsight: null
+      tremorsense: null
+      truesight: null
+  type:
+    value: humanoid
+    custom: ''
+    subtype: ''
+  identifier: murexian
+effects: []
+folder: AQN9LqaIPWCyrPuK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uzjs5iHgDNlaCOoM'

@@ -1,0 +1,201 @@
+_id: cBfDJQNbmxsLuMZn
+name: Hand Cannon
+type: weapon
+img: icons/weapons/guns/gun-blunderbuss-gold.webp
+system:
+  quantity: 1
+  weight:
+    value: 5.0
+    units: lb
+  price:
+    value: 2500
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: '<p><em>1d12 Piercing; Ammunition (Range 20/80; Shells), Braced, Heavy, Reload (5 shots); Mastery: Topple</em></p><p><strong>Braced.</strong> When making an attack with a Braced weapon, use your
+      Strength modifier for the attack and damage rolls. If the weapon has the Heavy property, use your Strength score to determine if you can use it without Disadvantage.</p><p><strong>Reload.</strong>
+      A Reload weapon’s ammunition is held in a magazine or a Power Cell. After the number of shots noted in the property, you must reload the weapon as an action or a Bonus Action.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: martialR
+    baseItem: ''
+  damage:
+    base:
+      number: 1
+      denomination: 12
+      bonus: ''
+      types:
+      - piercing
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+  range:
+    value: 20
+    long: 80
+    units: ft
+    reach: null
+  properties:
+  - amm
+  - braced
+  - hvy
+  - reload
+  mastery: topple
+  uses:
+    max: '5'
+    spent: 0
+    recovery: []
+  magicalBonus: null
+  proficient: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  ammunition: {}
+  activities:
+    uIzvvEsHRPJxqJwQ:
+      _id: uIzvvEsHRPJxqJwQ
+      type: attack
+      name: Attack
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+    8zNfi0u5xdZ4xevk:
+      _id: 8zNfi0u5xdZ4xevk
+      type: utility
+      name: Reload
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '-5'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+  identifier: hand-cannon
+effects: []
+folder: GzA6lKBKXs3lxJUF
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!cBfDJQNbmxsLuMZn'

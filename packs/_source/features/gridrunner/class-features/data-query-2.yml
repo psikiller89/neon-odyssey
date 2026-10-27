@@ -1,0 +1,52 @@
+_id: RxqKfHJUrkjWDizF
+name: Data Query
+type: feat
+img: icons/sundries/books/book-purple-cross.webp
+system:
+  description:
+    value: '<p>You can search the Hypergrid to learn new pursuits. You gain proficiency in the Computers skill, or one other Gridrunner skill if you already have it. In addition, choose one of the following
+      skills in which you have proficiency: Arcana, Computers, History, Investigation, Medicine, Nature, Religion, or Technology. You have Expertise in the chosen skill.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    repeatable: false
+  properties: []
+  requirements: Gridrunner
+  activities: {}
+  enchant: {}
+  identifier: data-query
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: vpRfQY6bZevS9uKl
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!RxqKfHJUrkjWDizF'

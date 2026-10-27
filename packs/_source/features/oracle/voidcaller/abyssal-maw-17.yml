@@ -1,0 +1,118 @@
+_id: WdPvsGay2nTC9vwL
+name: Abyssal Maw
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You become a herald of the Void and feed its hunger. You gain the following benefits.</p><p><strong>Devouring Collapse.</strong> You can take a Magic action to end your Abyssal Breach. When
+      you do, each affected creature in the Sphere takes 5d8 Force damage and must succeed on a Charisma saving throw or be affected by the <em>Banishment</em> spell. You must maintain Concentration as
+      normal. Once you use this action, you can’t use it again until you finish a Long Rest.</p><p><strong>Oblivion’s Touch.</strong> Any Necrotic or Psychic damage dealt by you or creatures you summon
+      ignores Resistance. When you or creatures you summon deal either of those damage types to a target with Immunity to them, the target instead takes Force damage equal to half the Necrotic or Psychic
+      damage dealt.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 17
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Voidcaller Oracle
+  activities:
+    gVdsIoqxR7EzdTxw:
+      _id: gVdsIoqxR7EzdTxw
+      type: damage
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 5
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: abyssal-maw
+  advancement: {}
+effects: []
+folder: L8lMOeWgMj3Vj0Fc
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!WdPvsGay2nTC9vwL'

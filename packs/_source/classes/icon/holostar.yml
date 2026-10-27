@@ -1,0 +1,87 @@
+_id: vKfaAUfdEkdqJG94
+name: Holostar
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/holostar.webp
+system:
+  description:
+    value: <p><em>Dazzle the Audience with a Glamorous Hologram</em> Glitz and glamour are everything to Holostars, who command the stage and captivate audiences with the help of colorful holograms that
+      perform alongside them. These Icons channel their star power through their holographic projections to dazzle friends and foes alike. Many Holostars are pop or glam musicians, while others use their
+      holograms to elevate their craft as reporters, fashion icons, visual artists, and other larger-than-life entertainers.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: holostar
+  classIdentifier: icon
+  advancement:
+    Te0ZmnJdjWBlH7Ji:
+      _id: Te0ZmnJdjWBlH7Ji
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.loGtFlc232dZvvxi
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.GPA6AhDyYbDY4aCe
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    0zAyrB5mP5TCsyYb:
+      _id: 0zAyrB5mP5TCsyYb
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.fXsGiz0KIukIKcWk
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    SChli0jrYXtqcM2m:
+      _id: SChli0jrYXtqcM2m
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1Lzrxa6fSc2rqC7c
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: iTtWgDdgkKnLdWfc
+sort: 1
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!vKfaAUfdEkdqJG94'

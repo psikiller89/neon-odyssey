@@ -1,0 +1,101 @@
+_id: jHm1P3tbJIQ1Qp9g
+name: All Minds in One
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have achieved the perfect mental link with your swarm. You gain the following benefits.</p><p><strong>Voracious Corruption.</strong> The base damage dealt by your Cacophonous Swarm increases
+      to 4d6, and a creature that fails its save has its AC reduced by 2 until the start of your next turn instead of by 1. Additionally, if a creature succeeds on its saving throw against your Cacophonous
+      Swarm, it takes half as much damage only.</p><p><strong>Perfect Hivemind.</strong> When you activate your Cacophonous Swarm, you can instead choose to manifest it as two to four 5-foot-radius Spheres.
+      When manifest as multiple Spheres the swarm’s damage is reduced to 2d6.</p><p>Each Sphere appears in a space you can see within 120 feet of yourself. As a Bonus Action, you can move each Sphere up
+      to 30 feet, but no farther than 120 feet away from yourself.</p><p>You must choose which Sphere to use when using your Swarm Perception or Cast Spells benefits. While using your swarm’s senses, you
+      can speak through it, with your voice emitting from the swarm.</p><p>Instead of targeting one creature with your Cacophonous Swarm effect, you can choose one creature you can see in each of the Spheres.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities:
+    izndJ9bcuxnTSkkz:
+      _id: izndJ9bcuxnTSkkz
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: all-minds-in-one
+  advancement: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!jHm1P3tbJIQ1Qp9g'

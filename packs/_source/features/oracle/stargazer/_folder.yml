@@ -1,0 +1,20 @@
+name: Stargazer Oracle
+sorting: a
+folder: 5EJCWgdeDDLTGZrq
+type: Item
+_id: S0v5ja68ap8lA9lh
+description: ''
+sort: 51
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!S0v5ja68ap8lA9lh'

@@ -1,0 +1,163 @@
+_id: rFOqMpX3JRXjiGhd
+name: Starshine
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You are wreathed in the glittering light of the stars for the duration, emitting Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>Until the spell ends, a creature
+      that enters the area for the first time on its turn or starts its turn there must make a Charisma saving throw. On a failed save, the creature takes 2d6 Radiant damage and is limned in sparkling light
+      until the start of its next turn. An affected creature sheds Dim Light in a 10-foot radius and can’t benefit from the Invisible condition.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+      damage increases by 1d6 for each spell slot level above 2.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: self
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: ''
+      size: ''
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    units: self
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 2
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - concentration
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    ZWVsVeL5Y11Hei4C:
+      _id: ZWVsVeL5Y11Hei4C
+      type: save
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: Zmw6xhi00ns6xXCg
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: starshine
+effects:
+- _id: Zmw6xhi00ns6xXCg
+  name: Invisible
+  img: systems/dnd5e/icons/svg/statuses/invisible.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - invisible
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!rFOqMpX3JRXjiGhd.Zmw6xhi00ns6xXCg'
+folder: j9jMRFUkViNxi7SM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rFOqMpX3JRXjiGhd'

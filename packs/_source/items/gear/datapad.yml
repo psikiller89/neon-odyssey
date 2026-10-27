@@ -1,0 +1,54 @@
+_id: ZZr8UOXjGVMpzeW1
+name: Datapad
+type: loot
+img: icons/tools/navigation/map-chart-tan.webp
+system:
+  quantity: 1
+  weight:
+    value: 0.5
+    units: lb
+  price:
+    value: 250
+    denomination: gn
+  rarity: ''
+  attunement: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  equipped: false
+  attuned: false
+  description:
+    value: <p>A Datapad is a device that stores data in the form of text, audio, or video files, has simple audio-video recording capability, and can execute Simple Programs. If you consult an accurate
+      nonfiction Datapad file about its topic, you gain a +5 bonus to Intelligence (Arcana, Computers, History, Nature, Religion, or Technology) checks you make about that topic. The pad has a slot to accept
+      an external Data Chip and has an equal amount of internal storage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  type:
+    value: gear
+    subtype: ''
+  properties: []
+  identifier: datapad
+effects: []
+folder: dlbjf0QdqIT50lW2
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ZZr8UOXjGVMpzeW1'

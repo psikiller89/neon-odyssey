@@ -1,0 +1,156 @@
+_id: pNrwt4WPgWC2hhsU
+name: Symbiote Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach an Esper level specified in the Symbiote Spells table, you thereafter always have the listed spells prepared. <em>Gene Splicing</em>*<em>, Mage Armor, Mirror </em> <em>Image</em>,
+      <em>Void Lash</em>* <em>Hungering Void</em>*, <em>Void Warp</em>* <em>Black Tentacles</em>, <em>Freedom of Movement</em> <em>Contagion</em>, <em>Mislead</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Symbiote Esper
+  activities: {}
+  enchant: {}
+  identifier: symbiote-spells
+  advancement:
+    2M4Pr5V63Sb4JlZE:
+      _id: 2M4Pr5V63Sb4JlZE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.jmoK10tOb35X80uj
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMageArmor0
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.RixDonTjNecGTNDP
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Symbiote Spells
+      hint: ''
+    XINr4YLqOENoBfsT:
+      _id: XINr4YLqOENoBfsT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.Gm5OXs0BUV02je4J
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.5PwDjHz2GhK4bvBl
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Symbiote Spells
+      hint: ''
+    OgAUTn4aL6gMbss1:
+      _id: OgAUTn4aL6gMbss1
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEvardsBlac
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Symbiote Spells
+      hint: ''
+    QsCjexJfsYkKCFJy:
+      _id: QsCjexJfsYkKCFJy
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplContagion0
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Symbiote Spells
+      hint: ''
+effects: []
+folder: WiG1piX4f1E9zDYD
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!pNrwt4WPgWC2hhsU'

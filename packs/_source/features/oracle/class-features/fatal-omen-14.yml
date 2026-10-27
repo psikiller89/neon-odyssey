@@ -1,0 +1,52 @@
+_id: FCq6x4nWdeyssIDS
+name: Fatal Omen
+type: feat
+img: icons/magic/holy/prayer-hands-glowing-yellow-white.webp
+system:
+  description:
+    value: <p>Your presence alone is an omen of your foes’ doom. You gain the following benefits.</p><p><strong>Ascendant Edge.</strong> The extra damage of your Ascendant Edge increases to 2d8.</p><p><strong>Mystic
+      Flare.</strong> When you cast an Oracle cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary
+      Hit Points equal to twice your Wisdom modifier.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 14
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle
+  activities: {}
+  enchant: {}
+  identifier: fatal-omen
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 700000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!FCq6x4nWdeyssIDS'

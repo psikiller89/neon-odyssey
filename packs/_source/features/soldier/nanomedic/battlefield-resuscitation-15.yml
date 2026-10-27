@@ -1,0 +1,104 @@
+_id: uKTA3UysKDuPncvc
+name: Battlefield Resuscitation
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your nanites can deliver a targeted cocktail of trauma intervention stims and rapidly repair critical damage to resuscitate the recently deceased. You can cast <em>Revivify</em> requiring
+      no spell components, using Wisdom as the spellcasting ability. When you cast the spell in this way, you can expend a use of your Adrenaline Rush to modify the spell; its range becomes 60 feet. Once
+      you cast the spell using this feature, you can’t do so again until you finish a Long Rest.</p><p>To use this feature, you must have a Pharma Kit on your person.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 15
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities:
+    5TlmJSeLiouKtwr8:
+      _id: 5TlmJSeLiouKtwr8
+      type: utility
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: battlefield-resuscitation
+  advancement: {}
+effects: []
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uKTA3UysKDuPncvc'

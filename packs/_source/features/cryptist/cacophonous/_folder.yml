@@ -1,0 +1,20 @@
+name: Cacophonous Cryptist
+sorting: a
+folder: O4KfZ3o1RUqzA2oZ
+type: Item
+_id: T4nBRlumg2E718hz
+description: ''
+sort: 50
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!T4nBRlumg2E718hz'

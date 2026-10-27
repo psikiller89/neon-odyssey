@@ -1,0 +1,136 @@
+_id: vC9DrV56YKmuq6ia
+name: Specialized Chassis
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your exosuit is a weapon of war built to excel at battle up close or at a distance. Select one of the three chassis options below to determine what kind of exosuit you have. You can change
+      your selection when you finish a Long Rest.</p><p><strong>Bastion.</strong> Your exosuit is a stalwart defender built to hold the line. You have the following benefits while piloting it. <strong>Evasion
+      Circuits.</strong> You can take the Dodge action as a Bonus Action. You can use this benefit a number of times equal to your Strength or Dexterity modifier (choose the ability when you select this
+      chassis), and you regain all expended uses when you finish a Long Rest. <strong>Threat Attractor.</strong> When you hit a creature with an attack roll, you can mark it until the start of your next
+      turn, or until you mark another creature. The marked target has Disadvantage on attack rolls against a target other than you.</p><p><strong>Comet.</strong> Your exosuit is optimized for speed and
+      defeating the enemy in close combat. You have the following benefits while piloting it. <strong>Meteor Matrix.</strong> Your attack rolls with installed Melee weapons score a Critical Hit on a roll
+      of 19 or 20 on the d20. <strong>Momentum Amplifier.</strong> Once on each of your turns when you hit with an installed melee weapon or an Unarmed Strike, you can deal an extra 1d8 Force damage. The
+      extra damage increases to 2d8 when you reach Soldier level 10. <strong>Rocket Booster.</strong> Your Speed increases by 10 feet.</p><p><strong>Mortar.</strong> Your exosuit is outfitted with a robust
+      arsenal to launch artillery fire from range. You have the following benefits while piloting it. <strong>Plasma Battery.</strong> Once on each of your turns when you hit with an installed ranged weapon,
+      you can deal 1d8 Lightning damage to another target within 15 feet of the first and that isn’t behind Total Cover. When you reach Soldier level 10, the extra damage increases to 2d8. <strong>Targeting
+      Array.</strong> Attacking at long range doesn’t impose Disadvantage on your attack rolls with installed Ranged weapons.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: max(1, @abilities.dex.mod)
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Exomech Soldier
+  activities:
+    9v68RFxRrtsq4crK:
+      _id: 9v68RFxRrtsq4crK
+      type: damage
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: specialized-chassis
+  advancement: {}
+effects: []
+folder: X91gcBRCD5t5HCHj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!vC9DrV56YKmuq6ia'

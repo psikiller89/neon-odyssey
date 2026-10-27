@@ -1,0 +1,51 @@
+_id: 1A7sNFONG6Px8zZZ
+name: Laika Lineage
+type: feat
+img: modules/neon-odyssey/icons/species/laika.webp
+folder: HxdiA1xDFFhCaHQ4
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You are part of a lineage that determines some of your traits. Choose a lineage from the Laika Lineages table. You gain the Trait benefit of that lineage immediately, and at character level
+      3, you gain the Pack Minded benefit.</p><h4>Laika Lineages</h4><p>Lineage<br>Trait<br>Confidant<br>You have Advantage on Intelligence, Wisdom, and <br>Charisma saving throws.<br>Guardian<br>When a
+      creature damages you or your allies, you have<br>Advantage on the next attack roll you make against <br>that creature before the end of your next turn.<br>Seeker<br>Your Speed increases to 35 feet.<br>NEON
+      ODYSSEY PLAYTEST<br>v0.1.1</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Laika
+  activities: {}
+  enchant: {}
+  identifier: laika-lineage
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!1A7sNFONG6Px8zZZ'

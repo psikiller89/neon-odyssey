@@ -1,0 +1,128 @@
+_id: 4VgoUY9VBeWt0kW6
+name: Borrowed Time
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can steal fragments of time and use them to forestall your fate. You can cast <em>Haste</em> or <em>Slow</em> without expending a spell slot, and you must finish a Long Rest before you
+      can use this feature again unless you spend 5 Psi Points to restore your use of it. When you use this feature, you gain an additional benefit depending on the spell you cast.</p><p><strong>Haste.</strong>
+      While you maintain Concentration on <em>Haste</em>, you gain a +1 bonus to AC. When the spell ends, the target doesn’t suffer lethargy.</p><p><strong>Slow.</strong> You gain 5 Temporary Hit Points
+      for each target that fails its initial saving throw against the spell.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riftwalker Esper
+  activities:
+    sfWmaojxsn8LmXmH:
+      _id: sfWmaojxsn8LmXmH
+      type: heal
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: '5'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+  enchant: {}
+  identifier: borrowed-time
+  advancement:
+    ved0RAxeUlHZ7k4Y:
+      _id: ved0RAxeUlHZ7k4Y
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 6
+      title: Borrowed Time
+      hint: ''
+effects: []
+folder: DitCL3G22RycGBNb
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4VgoUY9VBeWt0kW6'

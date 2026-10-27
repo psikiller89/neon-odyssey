@@ -1,0 +1,20 @@
+name: Primal Forms Options
+sorting: a
+folder: 73u6dSypgcgv8vdP
+type: Item
+_id: w5b30DlWj1Z3CRk1
+description: ''
+sort: 10
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!w5b30DlWj1Z3CRk1'

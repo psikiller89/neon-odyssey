@@ -1,0 +1,52 @@
+_id: Fa7bb9rtH2amTevS
+name: Star Gauntlet
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You receive the light of a god of Agathos that you can channel through a Star Gauntlet. You decide if your Star Gauntlet is a physical object such as a glove, gauntlet, or jewelry, or if it’s
+      a radiant infusion visible on your hand. Whenever you make an Unarmed Strike, you can instead unleash a radiant blast of light as a ranged attack with a range of 60 feet. On a hit, the target takes
+      Radiant damage equal to one roll of your Combat Tradition die plus your Dexterity modifier.</p><p>If your Star Gauntlet is a physical object, you can create a new one by meditating for 1 hour, which
+      can be done during a rest. You can also create a new gauntlet instantly when you use your Soul Rejuvenation feature. When you create a new gauntlet, the old one vanishes in a flash of light.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Godhand Disciple
+  activities: {}
+  enchant: {}
+  identifier: star-gauntlet
+  advancement: {}
+effects: []
+folder: Nhk9pe5HQ8Aa5HxI
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Fa7bb9rtH2amTevS'

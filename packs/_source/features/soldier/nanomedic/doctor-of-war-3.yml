@@ -1,0 +1,98 @@
+_id: ROoZ7MO1hNd2mVeE
+name: Doctor of War
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You’re trained to treat all varieties of wounds even amid the chaos of an active battlefield. You gain the following benefits.</p><p><strong>Field Dressing.</strong> You gain a Med Pack, and
+      you can use Med Packs as a Bonus Action.</p><p><strong>Medical Training.</strong> You gain a Pharma Kit, and you have proficiency with it. You also gain proficiency in the Medicine skill. If you already
+      have it, you gain proficiency in one skill of your choice from the skills available to Soldiers at level 1.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Nanomedic Soldier
+  activities:
+    v2HdZO4Msv1mq1c4:
+      _id: v2HdZO4Msv1mq1c4
+      type: utility
+      name: ''
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+  enchant: {}
+  identifier: doctor-of-war
+  advancement: {}
+effects: []
+folder: Zo9hh6MVnLQdRBie
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!ROoZ7MO1hNd2mVeE'

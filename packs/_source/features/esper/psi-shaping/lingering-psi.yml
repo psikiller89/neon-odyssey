@@ -1,0 +1,50 @@
+_id: 4Gan2KXViVrJK841
+name: Lingering Psi
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Cost: 1 Psi Point</em></p><p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Psi Point to double its duration to a maximum duration of 24 hours.</p><p>If
+      the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: psiShaping
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Esper
+  activities: {}
+  enchant: {}
+  identifier: lingering-psi
+  advancement: {}
+effects: []
+folder: fUiMTwUZ6bgebpNK
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4Gan2KXViVrJK841'

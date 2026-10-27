@@ -1,0 +1,98 @@
+_id: FzSHssi8D5YSwDgC
+name: Zero In
+type: feat
+img: icons/skills/ranged/arrow-flying-spiral-blue.webp
+system:
+  description:
+    value: <p>You know how to focus your aim to hone in on any target. As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven’t
+      moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    repeatable: false
+  properties: []
+  requirements: Scoundrel
+  activities:
+    VGVYnecMRcu0f5Sq:
+      type: utility
+      name: Steady Aim
+      _id: VGVYnecMRcu0f5Sq
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+  enchant: {}
+  identifier: zero-in
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: j6YF29pRbUYjmFid
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!FzSHssi8D5YSwDgC'

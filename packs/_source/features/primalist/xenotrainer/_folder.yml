@@ -1,0 +1,20 @@
+name: Xenotrainer Primalist
+sorting: a
+folder: 73u6dSypgcgv8vdP
+type: Item
+_id: KENRPQOqunM85j0c
+description: ''
+sort: 53
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!KENRPQOqunM85j0c'

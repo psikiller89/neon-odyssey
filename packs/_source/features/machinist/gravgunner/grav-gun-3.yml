@@ -1,0 +1,112 @@
+_id: BmgOKQqbJ1lPiDqs
+name: Grav Gun
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You craft a Grav Gun, a heavy weapon powered by a condensed point of pure gravity. You have proficiency with the Grav Gun, and only you can operate it. When you finish a Long Rest, or if you
+      take a Magic action and expend a spell slot, you can create a new Grav Gun using Engineer’s Tools or Mechanic’s Tools. If you create a new Grav Gun, the old one collapses into its singularity and
+      vanishes.</p><p>Your Grav Gun is a Martial Ranged weapon that deals 1d12 Force damage on a hit. It has a normal Range of 100 feet and a long range of 400 feet, it has the Burst*, Heavy, and TwoHanded
+      properties, and it has the Sap mastery property. It has 2 mod slots (see “Weapon Modules” in the Equipment section). You can use your Grav Gun as a Spellcasting Focus for your Machinist spells.</p><p>You
+      can use your Intelligence instead of Dexterity for attack and damage rolls with it and for the Heavy property.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities:
+    7204GnwlwVQVIZlk:
+      _id: 7204GnwlwVQVIZlk
+      type: damage
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 12
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: grav-gun
+  advancement: {}
+effects: []
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!BmgOKQqbJ1lPiDqs'

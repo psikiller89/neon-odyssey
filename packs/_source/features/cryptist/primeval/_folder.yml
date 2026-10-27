@@ -1,0 +1,20 @@
+name: Primeval Cryptist
+sorting: a
+folder: O4KfZ3o1RUqzA2oZ
+type: Item
+_id: GbtuPVeZCva4hK75
+description: ''
+sort: 53
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!folders!GbtuPVeZCva4hK75'

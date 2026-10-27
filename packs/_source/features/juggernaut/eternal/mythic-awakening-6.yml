@@ -1,0 +1,52 @@
+_id: 68C6adt4AyfTOMiX
+name: Mythic Awakening
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your Surge heightens your senses and grants you mythic protection. When you use your Surge and have your Vessel of Power in your possession, you gain the following benefits for the duration
+      of the Surge.</p><p><strong>Heroic Resolve.</strong> Choose one ability from the following: Intelligence, Wisdom, or Charisma. When you make a saving throw using that ability, add your Strength bonus
+      to the total. You can change your choice when you activate your Surge again.</p><p><strong>Sight Beyond Sight.</strong> You have Blindsight with a range of 10 If you have Blindsight from another source,
+      increase its range by 10 feet.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Eternal Juggernaut
+  activities: {}
+  enchant: {}
+  identifier: mythic-awakening
+  advancement: {}
+effects: []
+folder: m9J3z6dsJoJabIPZ
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!68C6adt4AyfTOMiX'

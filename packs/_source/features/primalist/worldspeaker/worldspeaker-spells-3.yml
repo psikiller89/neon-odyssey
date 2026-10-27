@@ -1,0 +1,160 @@
+_id: kde3Xfl41qwUqgi8
+name: Worldspeaker Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Primalist level specified in the Worldspeaker Spells table, you thereafter always have the listed spells prepared. <em>Barbed Lure</em>*, <em>Chromatic Orb</em>, <em>Entangle</em>,
+      <em>Life Cycle</em>*, <em>Spike Growth</em> <em>Elemental Wrath</em>*, <em>Tiny Hut</em> <em>Summon Primordial</em>*, <em>Wall of Fire</em> <em>Commune with Nature</em>, <em>Concussive </em> <em>Wave</em>*,
+      <em>Mirage Arcane</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Worldspeaker Primalist
+  activities: {}
+  enchant: {}
+  identifier: worldspeaker-spells
+  advancement:
+    cWDC5BhJqaGZABwm:
+      _id: cWDC5BhJqaGZABwm
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSpikeGrowt
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.YxNHOl26EJMFmv4N
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEntangle00
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Worldspeaker Spells
+      hint: ''
+    jNpl3xTZv4G1oVEE:
+      _id: jNpl3xTZv4G1oVEE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.I55GXJPjj1aqzIIs
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLeomundsTi
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Worldspeaker Spells
+      hint: ''
+    WukdFDj1gyLkY5XN:
+      _id: WukdFDj1gyLkY5XN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.LIZ8NDlRApBuogZh
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWallofFire
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Worldspeaker Spells
+      hint: ''
+    NdanG2pF8A8OKsML:
+      _id: NdanG2pF8A8OKsML
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommunewit
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.a2YDryfII5qpSLAU
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMirageArca
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Worldspeaker Spells
+      hint: ''
+effects: []
+folder: jVxTF8ax7KraYs7u
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!kde3Xfl41qwUqgi8'

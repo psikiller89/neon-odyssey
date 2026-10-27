@@ -1,0 +1,93 @@
+_id: 5gYal2zyzIqRWdMg
+name: Zone of Safety
+type: feat
+img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+system:
+  description:
+    value: <p>The cosmos protects you and your allies. You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.</p><p>You
+      and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).</p><p>If another Enforcer is present, a creature can benefit from only one Zone of
+      Safety at a time; the creature chooses which aura while in them.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 6
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: zone-of-safety
+  advancement: {}
+  crewed: false
+effects:
+- name: Protected
+  img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
+  _id: WOJ5r71FCDRmElea
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.abilities.save
+      value: max(1, @abilities.cha.mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: ugT3rimFHZXKMOOn
+      conditions: '{}'
+      replacement: origin
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: true
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!5gYal2zyzIqRWdMg.WOJ5r71FCDRmElea'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!5gYal2zyzIqRWdMg'

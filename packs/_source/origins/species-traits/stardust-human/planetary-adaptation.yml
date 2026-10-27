@@ -1,0 +1,48 @@
+_id: 7JmGrpZmeOpXSIBn
+name: Planetary Adaptation
+type: feat
+img: modules/neon-odyssey/icons/species/stardust-human.webp
+folder: Fr9zYWSCdtOUTVYo
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You gain an Origin feat of your choice that has a homeworld prerequisite.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Stardust Human
+  activities: {}
+  enchant: {}
+  identifier: planetary-adaptation
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7JmGrpZmeOpXSIBn'

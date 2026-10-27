@@ -1,0 +1,108 @@
+_id: NVdz8mIqCI0Afsbl
+name: Symbiote
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/symbiote.webp
+system:
+  description:
+    value: <p><em>Dominate a Ravenous Parasite to Devour All</em> Symbiotes are Espers who have turned the tables by mentally dominating a mind-bending parasite from the Abyssal Void, forming a symbiotic
+      union in which the Esper maintains control. They unleash this ravenous aberration to shred and devour their enemies, feeding it their own psionic power and life essence to satisfy its hunger and keep
+      it obedient. Some Symbiotes maintain an adversarial relationship of jailer and prisoner with their abyssal passenger, while others embrace the Void until the line between host and parasite is eliminated
+      entirely.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: symbiote
+  classIdentifier: esper
+  advancement:
+    OZjkzHu9NVqVhf70:
+      _id: OZjkzHu9NVqVhf70
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.pNrwt4WPgWC2hhsU
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.QUGkPa7dpnaJOYmu
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.k3EMvXGIamJT8JjB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    FlT92wP2cmSKY19q:
+      _id: FlT92wP2cmSKY19q
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.okqFuMbAtppIy9P6
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.s6aH6Z1DPQS5RVjI
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    f0sZscH9gNACchpU:
+      _id: f0sZscH9gNACchpU
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.f0pqZPoLilWb8MkG
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    nLgDNorVPuaCFXyY:
+      _id: nLgDNorVPuaCFXyY
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.1njub3SfV43Qhocv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: ddSGGMi8xJuRURTI
+sort: 4
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!NVdz8mIqCI0Afsbl'

@@ -1,0 +1,596 @@
+_id: 8l5Uh79zNA9YyMYF
+name: Omnibot
+type: npc
+img: modules/neon-odyssey/icons/creatures/omnibot.webp
+folder: CQUu17swVoeIgl53
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 1
+    dex:
+      value: 14
+      proficient: 1
+    con:
+      value: 14
+      proficient: 1
+    int:
+      value: 16
+      proficient: 1
+    wis:
+      value: 12
+      proficient: 1
+    cha:
+      value: 14
+      proficient: 1
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 33
+      max: 33
+      formula: 6d6 + 12
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 1
+    type:
+      value: construct
+      subtype: ''
+      custom: ''
+    alignment: Neutral
+    biography:
+      value: "<p>OMNIBOT</p><p>Buddy Built for Utility</p><p>Habitat: Urban; Treasure: None</p><p>Omnibots are small, clever robots built to serve as the ideal \ncompanion to the average galactic citizen\
+        \ and help them for \nany need they may have. Manufactured for utility, they can \nhandle a wide variety of tasks in the operation of technology \nand computers, as well as serve as constant recording\
+        \ \ndevices. These friendly bots can follow their owner wherever \nthey go with a full suite of mobility modes and even defend \nthem with a painful taser.</p><p>Omnibot</p><p>Omnibot</p><p>Small\
+        \ Construct (Robot), Neutral</p><p>AC 13</p><p>Initiative +2 (12)</p><p>HP 33 (6d6 + 12)</p><p>Speed 30 ft.</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>MOD\t SAVE</p><p>STR\t 10\t\n+0\t\n+2</p><p>DEX\t\
+        \ 14\t\n+2\t\n+4\t CON\t 14\t\n+2\t\n+4</p><p>INT\t\n16\t\n+3\t\n+5</p><p>WIS\t 12\t\n+1\t\n+3\t CHA\t 14\t\n+2\t\n+4</p><p>Skills Computers +7, Technology +5</p><p>Resistances Psychic</p><p>Immunities\
+        \ Poison; Blinded, Deafened, Poisoned</p><p>Gear Data Chip</p><p>Senses Darkvision 60 ft.; Passive Perception 11</p><p>Languages SIGNAL; understands Common but can’t speak</p><p>CR 1 (XP 200; PB\
+        \ +2)</p><p>Traits</p><p>Durable. If the omnibot is reduced to 0 Hit Points but not killed \noutright, it has the Unconscious condition but doesn’t die, and \nit can be repaired with 8 hours of\
+        \ work and $500 of materials.</p><p>Holo-Recorder. The omnibot has a built-in Camera and</p><p>Holoprojector, including sound recording and playback. The \nrecording is stored on a Data Chip installed\
+        \ in the bot.</p><p>Omni-tool. The omnibot has Bypass Tools and tools \nappropriate to any ability check using the Computers or</p><p>Technology skills. It can make an Intelligence (Technology)\
+        \ \ncheck instead of the normal check to use Bypass Tools.</p><p>Actions</p><p>Taser. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3)</p><p>Lightning damage. The target gains the Incapacitated\
+        \ \ncondition until the start of the omnibot’s next turn, and \nthe target can’t gain the Incapacitated condition from this \nomnibot again for 24 hours.</p><p>Bonus Actions</p><p>Reconfigure Locomotion\
+        \ (Recharge after a Short Rest). The \nomnibot chooses one of the following movement types:</p><p>Burrow, Climb, Fly, or Swim. It gains the chosen Speed equal \nto its normal Speed for 1 minute.</p><p>Reactions</p><p>Defiant\
+        \ Zap (Recharge after a Short Rest). Trigger: An ally \nwithin 5 feet is hit by an attack roll from a creature within 5 \nfeet of the omnibot. Response: The omnibot makes a Taser \nattack against\
+        \ the attacker.</p>"
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value:
+      - psychic
+    di:
+      value:
+      - poison
+    ci:
+      value:
+      - blinded
+      - deafened
+      - poisoned
+    languages:
+      value: []
+      custom: SIGNAL; understands Common but can’t speak
+  skills: {}
+items:
+- _id: P2QLQFtQ0VA3ugjL
+  name: Durable
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the omnibot is reduced to 0 Hit Points but not killed outright, it has the Unconscious condition but doesn’t die, and it can be repaired with 8 hours of work and $500 of materials.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: durable
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.P2QLQFtQ0VA3ugjL'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: cdKxIR6cT7tEVVop
+  name: Holo-Recorder
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The omnibot has a built-in Camera and Holoprojector, including sound recording and playback. The recording is stored on a Data Chip installed in the bot.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: holo-recorder
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.cdKxIR6cT7tEVVop'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: NeTc8DdOMqEPt4FN
+  name: Omni-tool
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The omnibot has Bypass Tools and tools appropriate to any ability check using the Computers or</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: omni-tool
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.NeTc8DdOMqEPt4FN'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: SAlxlpr5lmJJJCEf
+  name: Technology skills
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>It can make an Intelligence (Technology) check instead of the normal check to use Bypass Tools.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: technology-skills
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.SAlxlpr5lmJJJCEf'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: k3VCxQCBCO1AtNep
+  name: Taser
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3)</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      Ed1ZZ0C4cXyBykjz:
+        _id: Ed1ZZ0C4cXyBykjz
+        type: attack
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        attack:
+          ability: ''
+          bonus: '5'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: melee
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts: []
+        range:
+          override: true
+          value: '5'
+          long: null
+          units: ft
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        effects: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          override: false
+        target:
+          override: false
+          prompt: true
+    properties: []
+    requirements: ''
+    identifier: taser
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.k3VCxQCBCO1AtNep'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: bzAp0Mcvpu2HQalP
+  name: Lightning damage
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The target gains the Incapacitated condition until the start of the omnibot’s next turn, and the target can’t gain the Incapacitated condition from this omnibot again for 24 hours.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      5JRutSWPEwYdjfSu:
+        _id: 5JRutSWPEwYdjfSu
+        type: utility
+        name: ''
+        activation:
+          type: action
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: lightning-damage
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.bzAp0Mcvpu2HQalP'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: d2MA6v6RIEzCD1vb
+  name: Reconfigure Locomotion
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>The omnibot chooses one of the following movement types: Burrow, Climb, Fly, or Swim. It gains the chosen Speed equal to its normal Speed for 1 minute.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities:
+      6517ErUSvod4qv85:
+        _id: 6517ErUSvod4qv85
+        type: utility
+        name: ''
+        activation:
+          type: bonus
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: reconfigure-locomotion
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.d2MA6v6RIEzCD1vb'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: CEr6EAk7zxkY5XyA
+  name: Defiant Zap
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Trigger: An ally within 5 feet is hit by an attack roll from a creature within 5 feet of the omnibot. Response: The omnibot makes a Taser attack against the attacker. </p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: reaction
+      value: null
+      condition: ''
+    activities:
+      Ok5YqD9aVu87VD4f:
+        _id: Ok5YqD9aVu87VD4f
+        type: utility
+        name: ''
+        activation:
+          type: reaction
+          value: null
+          condition: ''
+          override: false
+        consumption:
+          targets: []
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: true
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+        effects: []
+        range:
+          override: false
+          units: self
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: ''
+          prompt: true
+          override: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        sort: 0
+        roll:
+          formula: ''
+          name: ''
+          prompt: false
+          visible: false
+    properties: []
+    requirements: ''
+    identifier: defiant-zap
+  _key: '!actors.items!8l5Uh79zNA9YyMYF.CEr6EAk7zxkY5XyA'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Omnibot
+  texture:
+    src: modules/neon-odyssey/icons/creatures/omnibot-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!8l5Uh79zNA9YyMYF'

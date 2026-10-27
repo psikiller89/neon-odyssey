@@ -1,0 +1,139 @@
+_id: VNnm2dXw1Iwt0r7N
+name: Hunter’s Eye
+type: feat
+img: icons/creatures/abilities/dragon-breath-purple.webp
+system:
+  description:
+    value: <p>You have honed your eye to hunt down prey no matter the distance. You always have the <em>Hunter’s Mark</em> spell prepared. You can cast it twice without expending a spell slot, and you regain
+      all expended uses of this ability when you finish a Long Rest.</p><p>The number of times you can cast the spell without a spell slot increases when you reach certain Tracer levels, as shown in the
+      Hunter’s Eye column of the Tracer Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.tracer.favored-enemy'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    items: []
+    repeatable: false
+  properties:
+  - mgc
+  requirements: Tracer
+  activities:
+    18OW4UKZ5cSPPLhC:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHuntersMar
+        challenge:
+          override: false
+        properties: []
+        spellbook: true
+        ability: ''
+        level: 1
+      _id: 18OW4UKZ5cSPPLhC
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      name: ''
+      behaviors: []
+  enchant: {}
+  identifier: hunters-eye
+  advancement:
+    DOENALOWWjAUHzb7:
+      _id: DOENALOWWjAUHzb7
+      type: ItemGrant
+      configuration:
+        items:
+        - optional: false
+          uuid: Compendium.dnd5e.spells24.Item.phbsplHuntersMar
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 1
+      hint: ''
+      flags: {}
+      name: Favored Enemy
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!VNnm2dXw1Iwt0r7N'

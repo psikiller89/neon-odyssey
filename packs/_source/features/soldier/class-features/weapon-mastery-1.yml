@@ -1,0 +1,53 @@
+_id: zBPnLqfen3DxUY78
+name: Weapon Mastery
+type: feat
+img: icons/skills/ranged/arrow-flying-spiral-blue.webp
+system:
+  description:
+    value: <p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills
+      and change one of those weapon choices.</p><p>When you reach certain Soldier levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column
+      of the Soldier Features table.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Soldier
+  activities: {}
+  enchant: {}
+  identifier: weapon-mastery
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+sort: 0
+ownership:
+  default: 0
+folder: 08Vg8J8fl8zQQ8rc
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!zBPnLqfen3DxUY78'

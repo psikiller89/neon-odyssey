@@ -1,0 +1,90 @@
+_id: M83oVNUqCsBYdEJ1
+name: Headbanger
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/headbanger.webp
+system:
+  description:
+    value: <p><em>Thrash and Smash with Rocking Rebellion</em> Headbangers are Icons who scream the song of existence with rebellious defiance to tear down anything or anyone that stands in their way. They
+      unleash their unrest and aggression with thunderous bursts and brutal blows, transforming every fight into a frenzied mosh pit. Rock and roll rages in the heart of most Headbangers, particularly metal
+      and punk, but some forgo music for activism, protest, and other acts of impassioned dissension.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: headbanger
+  classIdentifier: icon
+  advancement:
+    5gYEkaAf4ybhieIV:
+      _id: 5gYEkaAf4ybhieIV
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nkuNZ4PzT34Vp67z
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.s0GfHOGW6ZphNbPI
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.6mTZHdzUodp06vnB
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    2uXEFtHDG8BOnaoj:
+      _id: 2uXEFtHDG8BOnaoj
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.G38JarkRB7euBoko
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    4GcvJiiGQY7gSj0U:
+      _id: 4GcvJiiGQY7gSj0U
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.mltaFZyz0175Ro8O
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: iTtWgDdgkKnLdWfc
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!M83oVNUqCsBYdEJ1'

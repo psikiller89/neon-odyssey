@@ -1,0 +1,48 @@
+_id: vpa0CkfR7KLA35Dz
+name: Pink or Purple
+type: feat
+img: modules/neon-odyssey/icons/species/glowblin.webp
+folder: Xu1Hy0zFJ2JAyshu
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>Ability checks made to use the Influence action on an Indifferent creature in the light have Advantage.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Glowblin
+  activities: {}
+  enchant: {}
+  identifier: pink-or-purple
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!vpa0CkfR7KLA35Dz'

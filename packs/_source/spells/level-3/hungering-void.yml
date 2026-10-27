@@ -1,0 +1,174 @@
+_id: Gm5OXs0BUV02je4J
+name: Hungering Void
+type: spell
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
+system:
+  description:
+    value: <p>You tear open a rift to the Abyssal Void, a place of hunger, darkness, and shattered minds. A 20-foot-radius Sphere of Darkness appears, centered on a point within range and lasting for the
+      duration. The Sphere is Difficult Terrain, and is filled with muffled sounds of deep thrumming and strange cajoling, which are audible up to 30 feet away. No light, magical or otherwise, can illuminate
+      the area, and creatures fully within it have the Blinded condition.</p><p>Any creature that starts its turn in the area takes 2d6 Cold damage. Any creature that ends its turn in there must succeed
+      on a Intelligence saving throw or take 2d6 Psychic damage from otherworldly sibilance.</p><p><strong>Using a Highter-Level Spell Slot.</strong> The Cold or Psychic damage (your choice) increases by
+      1d6 for each spell slot level above 3.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  activation:
+    type: action
+    value: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  target:
+    affects:
+      type: creature
+      count: ''
+      choice: false
+      special: ''
+    template:
+      type: sphere
+      size: '20'
+      units: ft
+      contiguous: false
+      count: ''
+  range:
+    value: '150'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 3
+  school: con
+  properties:
+  - vocal
+  - somatic
+  - material
+  - concentration
+  materials:
+    value: powdered fish scale
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 0
+  activities:
+    CBMBg6wMT2StVz4E:
+      _id: CBMBg6wMT2StVz4E
+      type: damage
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: Gs0hpBNuJt19nmoh
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - cold
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: whole
+            number: 1
+            formula: ''
+  identifier: hungering-void
+effects:
+- _id: Gs0hpBNuJt19nmoh
+  name: Blinded
+  img: systems/dnd5e/icons/svg/statuses/blinded.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - blinded
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Gm5OXs0BUV02je4J.Gs0hpBNuJt19nmoh'
+folder: 4YOkb2x3bEWecGUT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Gm5OXs0BUV02je4J'

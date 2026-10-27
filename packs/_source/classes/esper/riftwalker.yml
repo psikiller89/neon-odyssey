@@ -1,0 +1,104 @@
+_id: 5EcDOFjrg2BKWKzp
+name: Riftwalker
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/riftwalker.webp
+system:
+  description:
+    value: <p><em>Tear Through Time and Space with Your Mind</em> The laws that govern the cosmos are no match for the realitybending psionics of the Riftwalkers. These Espers rip open tears in time and
+      space with their minds, stepping through dimensions in the blink of an eye and warping the fabric of existence with each jump. Unlocking such immense cosmic power can unravel one’s connection to ordinary
+      life, so many Riftwalkers keep a talisman to ground them in the present lest they become lost in infinite futures or the space between worlds.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: riftwalker
+  classIdentifier: esper
+  advancement:
+    CQGomIGpZxs8mGyk:
+      _id: CQGomIGpZxs8mGyk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.iiN95aXpE0SoZ45E
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.R8ZltttC3iRxt1SB
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.HdrdGM0qkTJ5FHoR
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    nX0XETYHDkFztJk8:
+      _id: nX0XETYHDkFztJk8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.4VgoUY9VBeWt0kW6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Subclass Features
+      hint: ''
+    otiluXqRRnMCkDuN:
+      _id: otiluXqRRnMCkDuN
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.jGWr42CkXs3DAUsZ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Subclass Features
+      hint: ''
+    5ziQNJ4Haf0yadHT:
+      _id: 5ziQNJ4Haf0yadHT
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.NvVOQ1RnC3m70khm
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: ddSGGMi8xJuRURTI
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!5EcDOFjrg2BKWKzp'

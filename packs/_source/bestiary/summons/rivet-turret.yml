@@ -1,0 +1,104 @@
+_id: bnY5vMbCYJ6j4A8r
+name: Rivet Turret
+type: npc
+img: modules/neon-odyssey/icons/creatures/rivet-turret.webp
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 10
+      proficient: 0
+    int:
+      value: 10
+      proficient: 0
+    wis:
+      value: 10
+      proficient: 0
+    cha:
+      value: 10
+      proficient: 0
+  attributes:
+    ac:
+      flat: 10
+      calc: natural
+    hp:
+      value: 10
+      max: 10
+      formula: ''
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: object
+      subtype: ''
+      custom: ''
+    alignment: ''
+    biography:
+      value: <p>Summoned creature from Neon Odyssey (page 86).</p>
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value:
+      - necrotic
+    di:
+      value:
+      - poison
+      - psychic
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: ''
+  skills: {}
+items: []
+effects: []
+sort: 0
+prototypeToken:
+  name: Rivet Turret
+  texture:
+    src: modules/neon-odyssey/icons/creatures/rivet-turret-token.webp
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!bnY5vMbCYJ6j4A8r'

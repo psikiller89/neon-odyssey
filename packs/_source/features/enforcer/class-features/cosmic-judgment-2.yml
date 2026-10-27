@@ -1,0 +1,74 @@
+_id: 8khkAmTExl4qr4iO
+name: Cosmic Judgment
+type: feat
+img: icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  description:
+    value: <p>You are empowered to strike down those who threaten your code. You always have the <em>Cosmic Smite</em> (<em>Divine Smite</em>) spell prepared. In addition, you can cast it without expending
+      a spell slot, but you must finish a Long Rest before you can cast it in this way again.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: cosmic-judgment
+  advancement:
+    NDU3bJGHJJnOS506:
+      name: ''
+      type: ItemGrant
+      _id: NDU3bJGHJJnOS506
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDivineSmit
+          optional: false
+          sort: 0
+        optional: false
+        sorting: m
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 2
+      hint: ''
+  crewed: false
+effects: []
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!8khkAmTExl4qr4iO'

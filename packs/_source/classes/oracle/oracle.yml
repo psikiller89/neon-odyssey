@@ -1,0 +1,541 @@
+_id: lCblYhvDaRsYTPEB
+name: Oracle
+type: class
+img: modules/neon-odyssey/icons/classes/oracle.png
+system:
+  description:
+    value: '<h3>Core Oracle Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Wisdom</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8
+      per Oracle level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Wisdom and Charisma</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose 2:
+      History, Insight, Medicine, Persuasion, or Religion</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light
+      and Medium armor and Shields</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Medium Armor Vest, Shield, Heavy Laser Pistol, Shock Sap, 2 Power Cells, Cosmic
+      Symbol (relic), Acolyte’s Pack, and $320; or (B) $7,000</p></td></tr></tbody></table><p><strong>Primary Ability</strong> Wisdom <strong>Hit Point Die</strong> D8 per Oracle level <strong>Saving Throw  Proficiencies</strong>
+      Wisdom and Charisma <strong>Skill Proficiencies</strong> <em>Choose 2:</em> History, Insight, Medicine, Persuasion, or Religion <strong>Weapon  Proficiencies</strong> Simple weapons <strong>Armor
+      Training</strong> Light and Medium armor and Shields <strong>Starting  Equipment</strong> <em>Choose A or B:</em> (A) Medium Armor Vest, Shield, Heavy Laser Pistol, Shock Sap, 2 Power Cells, Cosmic
+      Symbol (relic), Acolyte’s Pack, and $320; or (B) $7,000 Oracles see beyond the mundane to commune with the grand cosmic forces that influence the Stardust Rhapsody. Chosen by these higher powers,
+      they call upon the magic of the realms of existence to perform what many would call miracles. They serve as conduits of this otherworldly power to shape the paths of destiny.</p><p>The exact nature
+      of their power depends on which realm, entity, or force they commune with, often enigmatic and not straightforward in its manifestation. They often serve the will of their benefactor, but some simply
+      draw upon this power to advance their own personal aims. The miraculous feats of Oracles increase in scale as their cosmic bond strengthens.</p><p>Sometimes, Oracles gather in churches, orders, sects,
+      or other organizations to amplify their collective power. Others go on personal vision quests to better connect with the cosmos, interpreting the signs as best they can. No matter the approach, all
+      should heed the tidings or warnings of an Oracle.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: D47b1G8TBWmTk4Nv
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: fZAKljbbsuDEHsZf
+    type: AND
+    group: D47b1G8TBWmTk4Nv
+    requiresProficiency: false
+    sort: 200000
+  - _id: br6B57bb1oMqEavO
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.CKXz5DGf7qOyKRv4
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 300000
+  - _id: eZFUM1bxmFt8MJty
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.QivqvWK41jGn7tMT
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 400000
+  - _id: 30Q0FpTYZYlLwzPj
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.37FcIBrVmMZ7kKJZ
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 500000
+  - _id: ghrMmd9LjX4iYF84
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.XRmWN87LAj7ecc9J
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 600000
+  - _id: z7m7AuIhwLUJlmTC
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 2
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 700000
+  - _id: P4ZoJycveL8XSbb6
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.W6LiL6PRkq1TzchD
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 800000
+  - _id: U2Eq5VlSzWx4Ps3u
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.wyk5UV4O3Oyn8Cew
+    count: null
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 900000
+  - _id: lYl5VhBumRkABccD
+    type: currency
+    key: gn
+    count: 320
+    group: fZAKljbbsuDEHsZf
+    requiresProficiency: false
+    sort: 1000000
+  - _id: 9eaeGEnI1RQJmwui
+    type: AND
+    group: D47b1G8TBWmTk4Nv
+    requiresProficiency: false
+    sort: 1100000
+  - _id: p9qvrnOX7uZdMYf4
+    type: currency
+    key: gn
+    count: 7000
+    group: 9eaeGEnI1RQJmwui
+    requiresProficiency: false
+    sort: 1200000
+  identifier: oracle
+  levels: 1
+  advancement:
+    NCN5ZAV8TtveRR4d:
+      _id: NCN5ZAV8TtveRR4d
+      type: HitPoints
+      configuration: {}
+      value: {}
+      flags: {}
+      hint: ''
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 4
+      name: ''
+      flags: {}
+      hint: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 8
+      name: ''
+      flags: {}
+      hint: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 12
+      name: ''
+      flags: {}
+      hint: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value:
+        type: asi
+      level: 16
+      name: ''
+      flags: {}
+      hint: ''
+    ivrX9MYiE52lFZLI:
+      _id: ivrX9MYiE52lFZLI
+      type: ScaleValue
+      configuration:
+        identifier: channel-divinity
+        type: usage
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 2
+          '6':
+            value: 3
+          '18':
+            value: 4
+      value: {}
+      hint: ''
+      name: Channel Divinity
+      flags: {}
+      classRestriction: ''
+    jMZmkkMc9XLsde4W:
+      _id: jMZmkkMc9XLsde4W
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 4
+          '2':
+            value: 5
+          '3':
+            value: 6
+          '4':
+            value: 7
+          '5':
+            value: 9
+          '6':
+            value: 10
+          '7':
+            value: 11
+          '8':
+            value: 12
+          '9':
+            value: 14
+          '10':
+            value: 15
+          '11':
+            value: 16
+          '13':
+            value: 17
+          '15':
+            value: 18
+          '17':
+            value: 19
+          '18':
+            value: 20
+          '19':
+            value: 21
+          '20':
+            value: 22
+      value: {}
+      hint: ''
+      name: Prepared Spells
+      flags: {}
+      classRestriction: ''
+    FjHGiO7BkbHTcQ2J:
+      _id: FjHGiO7BkbHTcQ2J
+      type: ScaleValue
+      configuration:
+        identifier: cantrips-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 3
+          '4':
+            value: 4
+          '10':
+            value: 5
+      value: {}
+      hint: ''
+      name: Cantrips
+      flags: {}
+      classRestriction: ''
+    xtHP27K3z3naIFTi:
+      _id: xtHP27K3z3naIFTi
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      hint: <p>You gain a Oracle subclass of your choice. The Life Domain, Light Domain, Trickery Domain, and War Domain subclasses are detailed after this class’s description. A subclass is a specialization
+        that grants you features at certain Oracle levels. For the rest of your career, you gain each of your subclass’s fea- tures that are of your Oracle level or lower.</p>
+      name: ''
+      flags: {}
+      classRestriction: ''
+    U6GGwY4ZKiXqXBQN:
+      _id: U6GGwY4ZKiXqXBQN
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      classRestriction: primary
+      name: Weapon Proficiencies
+      flags: {}
+    KfX42cnLxFc9gUxU:
+      _id: KfX42cnLxFc9gUxU
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:med
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      hint: ''
+      name: Armor Training
+      flags: {}
+    GsYtOM3ismwNGVBK:
+      type: AbilityScoreImprovement
+      _id: GsYtOM3ismwNGVBK
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd-players-handbook.feats.Item.phbBoonofFate000
+        max: null
+      value:
+        type: asi
+      level: 19
+      hint: ''
+      name: ''
+      flags: {}
+      classRestriction: ''
+    K8EsNzTMTl48UgjY:
+      _id: K8EsNzTMTl48UgjY
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:wis
+        - saves:cha
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    PcIGMbabh6s2fzuk:
+      _id: PcIGMbabh6s2fzuk
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:his
+          - skills:ins
+          - skills:med
+          - skills:per
+          - skills:rel
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    dtQZdqVF8QFz6CAW:
+      _id: dtQZdqVF8QFz6CAW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Nbg9tHatbgMDq3YH
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.upSAbGPswXS7DCwb
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    yvnNOur4VwiotbyM:
+      _id: yvnNOur4VwiotbyM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.S8mIumrSi2avdkst
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    SqpspS8oYASkyt69:
+      _id: SqpspS8oYASkyt69
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.cR96QM9kbDlDdtc6
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Class Features
+      hint: ''
+    tTK0aUgWezRaQlIg:
+      _id: tTK0aUgWezRaQlIg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.ezHUQalDH5UiSKcv
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    yDE2hyHJLmrpfU90:
+      _id: yDE2hyHJLmrpfU90
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.b1cqayy5gtcDPWAe
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Class Features
+      hint: ''
+    5Y5Uf1ROXolZ1h24:
+      _id: 5Y5Uf1ROXolZ1h24
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.AKbuY4XWLtsQb2AA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      hint: ''
+    iepRFeVHSnqyMR39:
+      _id: iepRFeVHSnqyMR39
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.FCq6x4nWdeyssIDS
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      hint: ''
+    ylGH5M25XKGMavmH:
+      _id: ylGH5M25XKGMavmH
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.BfAg2R6Q2M9fwLj5
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: full
+    ability: wis
+    preparation:
+      formula: '@scale.oracle.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - wis
+    all: false
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+  properties: []
+effects: []
+folder: dYNWA7lTuGoJ83X0
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!lCblYhvDaRsYTPEB'

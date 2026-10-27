@@ -1,0 +1,53 @@
+_id: Bl3MkYgLTu8HdC7A
+name: Dirty Fighting
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You don’t care about honorable fighting, doing what you need to gain the edge on your enemies. You gain the following benefits.</p><p><strong>Low Blow. </strong>When you hit with an Unarmed
+      Strike or an improvised weapon, you can activate the Push or Sap mastery property with it, in addition to a different mastery property you’re using with it.</p><p><strong>Rowdy Defense.</strong> While
+      you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.</p><p><strong>Street Brawler.</strong> You
+      have proficiency with improvised weapons, and you can roll 1d6 instead of the normal damage of your Unarmed Strike or improvised weapons. This die increases when you reach Enforcer levels 5 (1d8),
+      11 (1d10), and 17 (1d12).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Renegade Enforcer
+  activities: {}
+  enchant: {}
+  identifier: dirty-fighting
+  advancement: {}
+effects: []
+folder: VePsIxjaLdRqQXJR
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Bl3MkYgLTu8HdC7A'

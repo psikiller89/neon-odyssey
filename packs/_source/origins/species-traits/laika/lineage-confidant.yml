@@ -1,0 +1,49 @@
+_id: IKcroMgkTx8jPN02
+name: 'Laika Lineage: Confidant'
+type: feat
+img: modules/neon-odyssey/icons/species/laika.webp
+folder: HxdiA1xDFFhCaHQ4
+sort: 0
+effects: []
+system:
+  description:
+    value: <p>You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</p><p><strong>Pack Minded (character level 3).</strong> You and the ally you help each gain a number of Temporary Hit
+      Points equal to three times your Proficiency Bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Laika
+  activities: {}
+  enchant: {}
+  identifier: laika-lineage-confidant
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!IKcroMgkTx8jPN02'

@@ -1,0 +1,50 @@
+_id: 2KoBwUdBODA4GZgg
+name: Arsenal Upgrade
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You discover how to surround your allies with gravitons. You build a new Singularity Cannon option into your Grav Gun.</p><p><strong>Graviton Forcefield.</strong> Your singularity projects
+      a gravity shield around a creature you can see within 30 feet of yourself. The target gains Temporary Hit Points equal to 2d8 plus your Intelligence modifier.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Gravgunner Machinist
+  activities: {}
+  enchant: {}
+  identifier: arsenal-upgrade
+  advancement: {}
+effects: []
+folder: l2lToED57fhXONDy
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!2KoBwUdBODA4GZgg'

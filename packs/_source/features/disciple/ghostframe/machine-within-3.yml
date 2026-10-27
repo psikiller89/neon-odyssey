@@ -1,0 +1,52 @@
+_id: uZwu01C8nOWuhn4P
+name: Machine Within
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your body is upgraded with soul-powered cybernetics. You gain the following benefits.</p><p><strong>Sensory Upgrade.</strong> You gain Darkvision with a range of 60 feet. If you already have
+      Darkvision, its range increases by 60 feet.</p><p><strong>Synthetic Speech.</strong> You know SIGNAL, the language of programs and bots.</p><p><strong>Tech Interface.</strong> You gain proficiency
+      in your choice of the Computers or Technology skill if you don’t already have it, and you gain a bonus to Intelligence checks using either of those skills. The bonus equals your Wisdom modifier (minimum
+      bonus of +1).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Ghostframe Disciple
+  activities: {}
+  enchant: {}
+  identifier: machine-within
+  advancement: {}
+effects: []
+folder: bqQIVg0cPp9SIgRN
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!uZwu01C8nOWuhn4P'

@@ -1,0 +1,103 @@
+_id: N6PrV1KTdKYXoiMX
+name: Trick Shot
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>You’ve learned how to wield a firearm with startling finesse. The following are now Dirty Trick options for you:</p><p><strong>Drop It (Cost: 2d6).</strong> When you deal Cheap Shot damage
+      with a Ranged weapon, the target must succeed on a Constitution saving throw or drop one item of your choice it is holding. The object lands at the creature’s feet in its space.</p><p><strong>Fan
+      the Hammer (Cost: 1d6).</strong> When you deal Cheap Shot damage with a Ranged weapon, you can target a second creature you can see within 30 feet of the first creature. Roll half the number of Cheap
+      Shot damage dice for your level (round up), and the second creature takes damage of the weapon’s type equal to the roll’s total.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Quickdraw Scoundrel
+  activities:
+    58FXYpSTU5vKr2B4:
+      _id: 58FXYpSTU5vKr2B4
+      type: save
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc:
+          calculation: dex
+          formula: ''
+      damage:
+        onSave: none
+        parts: []
+  enchant: {}
+  identifier: trick-shot
+  advancement: {}
+effects: []
+folder: c6BNif2mWF4lJyqj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!N6PrV1KTdKYXoiMX'

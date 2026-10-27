@@ -1,0 +1,112 @@
+_id: 6uZ2EpmOdr6pNVw5
+name: Rampaging Destruction
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You are a monster of devastation. You gain the following benefits.</p><p><strong>Smash Apart.</strong> While your Surge is active, you deal double damage to objects or structures. Additionally,
+      when you use Unstable Assault, the first time you hit with an attack roll using Strength during that turn you can deal extra Force damage to the target. The extra damage is a number of d4s equal to
+      your Surge Damage bonus.</p><p><strong>Titanic Surge.</strong> When you activate your Surge, you can change your size to Large if you’re in a big enough space. This transformation lasts for the duration
+      of the Surge.</p><p>While your Surge is active, you can use an object you’re holding or creature you’re grappling as a Martial melee weapon with the Heavy and Two-Handed properties, provided it is
+      Medium, Large, or Huge. On a hit, the weapon deals 2d6 Bludgeoning damage, and if the weapon is a creature, it takes Bludgeoning damage equal to your Strength modifier plus your Surge Damage bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Rampager Juggernaut
+  activities:
+    4LIEQgBsuuQDGxnY:
+      _id: 4LIEQgBsuuQDGxnY
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: rampaging-destruction
+  advancement: {}
+effects: []
+folder: hLU5UDAQzd80GlTj
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!6uZ2EpmOdr6pNVw5'

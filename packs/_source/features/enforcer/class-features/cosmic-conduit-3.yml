@@ -1,0 +1,201 @@
+_id: GHyeTZ1OdBS3PiaN
+name: Cosmic Conduit
+type: feat
+img: icons/magic/fire/projectile-wave-arrow.webp
+system:
+  description:
+    value: '<p>Your conviction to your code has drawn the notice of the cosmos, allowing you to channel it to enact magical effects. You start with one such effect: Vigilance, which is described below.
+      Other Enforcer features give additional Cosmic Conduit effect options. Each time you use this class’s Cosmic Conduit, you choose which effect from this class to create.</p><p>You can use this class’s
+      Cosmic Conduit twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Enforcer
+      level 11.</p><p>If a Cosmic Conduit effect requires a saving throw, the DC equals the spell save DC from this class’s Spellcasting feature.</p><p><strong>Vigilance.</strong> Your connection to the
+      cosmos makes you sensitive to intrusions from beyond the material galaxy. As a Bonus Action, you can open your awareness to detect Aberrations, Celestials, Constructs, Fey, Fiends, and Undead. For
+      the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same
+      radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the <em>Hallow</em> spell.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '@scale.enforcer.channel-divinity'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: '1'
+  type:
+    value: class
+    subtype: channelDivinity
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities:
+    kjHydAAcspH9wVPI:
+      type: utility
+      name: Divine Sense
+      _id: kjHydAAcspH9wVPI
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects:
+      - _id: hr8wnlgs3uXphCnI
+        uuid: null
+        level:
+          min: null
+          max: null
+      - _id: Cl3LG9IlVSi5Fz9U
+        onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      flags: {}
+  enchant: {}
+  identifier: cosmic-conduit
+  advancement: {}
+  crewed: false
+effects:
+- name: Divine Sense
+  img: icons/magic/holy/saint-glass-portrait-halo.webp
+  _id: hr8wnlgs3uXphCnI
+  type: base
+  system:
+    changes: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: false
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!GHyeTZ1OdBS3PiaN.hr8wnlgs3uXphCnI'
+- _id: Cl3LG9IlVSi5Fz9U
+  name: Incapacitated
+  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - incapacitated
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!GHyeTZ1OdBS3PiaN.Cl3LG9IlVSi5Fz9U'
+flags: {}
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!GHyeTZ1OdBS3PiaN'

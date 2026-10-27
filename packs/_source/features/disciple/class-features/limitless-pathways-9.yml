@@ -1,0 +1,51 @@
+_id: 7F6NiaDsQQlYyWj5
+name: Limitless Pathways
+type: feat
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  description:
+    value: <p>Your inspirited body becomes less beholden to the force of gravity. While you aren’t wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids
+      on your turn without falling during the movement.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 9
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Disciple
+  activities: {}
+  enchant: {}
+  identifier: limitless-pathways
+  advancement: {}
+  crewed: false
+effects: []
+flags: {}
+sort: 100000
+ownership:
+  default: 0
+folder: crRjhx43F4K6uj1Y
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!7F6NiaDsQQlYyWj5'

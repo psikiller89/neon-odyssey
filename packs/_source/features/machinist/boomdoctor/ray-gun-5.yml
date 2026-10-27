@@ -1,0 +1,108 @@
+_id: 3wezpt1IMtBDH9IW
+name: Ray Gun
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You have created an experimental ray that causes unpredictable effects. As a Magic action, you can expend one Composition to prime and fire the ray. Make a ranged spell attack against one
+      creature within 90 feet of you. On a hit, roll 1d6 and consult the table below to determine which spell the gun replicates. Alternatively, you can expend one additional Composition to select the effect
+      rather than rolling.</p><p>The target is affected as if it had failed a saving throw against the replicated spell. The spell doesn’t require Concentration and instead has a duration of 1 minute. At
+      the start of each of your turns, roll 1d6. On a 1, the spell ends early. <em>Sleep</em> <em>Hold Person</em> <em>Ray of Enfeeblement</em> <em>Slow</em> <em>Bestow Curse</em> <em>Fear</em></p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 5
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Boomdoctor Machinist
+  activities:
+    04z83oXFOoVEDgaI:
+      _id: 04z83oXFOoVEDgaI
+      type: attack
+      name: ''
+      activation:
+        type: action
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts: []
+  enchant: {}
+  identifier: ray-gun
+  advancement: {}
+effects: []
+folder: F8X7I1SODp46VLHw
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!3wezpt1IMtBDH9IW'

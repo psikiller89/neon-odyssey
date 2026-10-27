@@ -1,0 +1,635 @@
+_id: ILbjDB2NBpZ10vNV
+name: Machinist
+type: class
+img: modules/neon-odyssey/icons/classes/machinist.png
+system:
+  description:
+    value: '<h3>Core Machinist Traits</h3><table class="core-class-traits"><tbody><tr><th scope="row"><p>Primary Ability</p></th><td><p>Intelligence</p></td></tr><tr><th scope="row"><p>Hit Point Die</p></th><td><p>D8
+      per Machinist level</p></td></tr><tr><th scope="row"><p>Saving Throw Proficiencies</p></th><td><p>Constitution and Intelligence</p></td></tr><tr><th scope="row"><p>Skill Proficiencies</p></th><td><p>Choose
+      2: Arcana, Computers, History, Investigation, Medicine, Nature, Perception, Sleight of Hand, or Technology</p></td></tr><tr><th scope="row"><p>Weapon Proficiencies</p></th><td><p>Simple weapons</p></td></tr><tr><th
+      scope="row"><p>Tool Proficiencies</p></th><td><p>Bypass Tools, Mechanic’s Tools, and one type of Crafter’s Tools of your choice</p></td></tr><tr><th scope="row"><p>Armor Training</p></th><td><p>Light
+      and Medium armor and Shields</p></td></tr><tr><th scope="row"><p>Starting Equipment</p></th><td><p>Choose A or B: (A) Medium Armor Suit, Combat Knife, Laser Carbine, 2 Power Cells, Bypass Tools, Mechanic’s
+      Tools, Technician’s Pack, and $320; or (B) $8,500</p></td></tr></tbody></table><ul><li><p>Gain the Machinist’s level 1 features, which are listed in the Machinist Features table. See the multiclassing
+      rules in the<em> D&amp;D Beyond Basic Rules</em> to determine your available spell slots, adding half your Machinist levels (round up).</p></li></ul>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  startingEquipment:
+  - _id: vhFAfuKfUzzm2M1L
+    type: OR
+    group: ''
+    requiresProficiency: false
+    sort: 100000
+  - _id: eU74uO6gNn1G84YQ
+    type: AND
+    group: vhFAfuKfUzzm2M1L
+    requiresProficiency: false
+    sort: 200000
+  - _id: 0kbMXBVa5dukACF3
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.V2h4sh4QmRQ9Lcdv
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 300000
+  - _id: 0aX2t9Pu335rlVBg
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.X5ZXb9kXpoXrQoSL
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 400000
+  - _id: JuhS0ZNnNouY0cyZ
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.HdR5RWBYJDdhcF5Z
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 500000
+  - _id: bAxpG8jmxzSUXivH
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.IJ8CIaubiNze928U
+    count: 2
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 600000
+  - _id: Efor4NN3FSz8l4jK
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.7uvYP4Hpk5NqzkQB
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 700000
+  - _id: tC1A9ZpEIegcCHvL
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.ls9En7asIx46b5et
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 800000
+  - _id: ptHdMKAsNeiTak2J
+    type: linked
+    key: Compendium.neon-odyssey.items.Item.cUcJJjUdS1ApzGK4
+    count: null
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 900000
+  - _id: omcW5RU9sQVyfPbE
+    type: currency
+    key: gn
+    count: 320
+    group: eU74uO6gNn1G84YQ
+    requiresProficiency: false
+    sort: 1000000
+  - _id: H9cVP3BIMa6sREj0
+    type: AND
+    group: vhFAfuKfUzzm2M1L
+    requiresProficiency: false
+    sort: 1100000
+  - _id: bOoMbQ5KZTnzOv8u
+    type: currency
+    key: gn
+    count: 8500
+    group: H9cVP3BIMa6sREj0
+    requiresProficiency: false
+    sort: 1200000
+  identifier: machinist
+  levels: 1
+  advancement:
+    a16u6wgnJQq8HMoq:
+      _id: a16u6wgnJQq8HMoq
+      type: HitPoints
+      configuration: {}
+      value: {}
+    bwCLOdauuzoHofil:
+      _id: bwCLOdauuzoHofil
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 4
+      title: ''
+    mRSh9oUVjLU33e7p:
+      _id: mRSh9oUVjLU33e7p
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 8
+      title: ''
+    mhZh3LfLMa15tXee:
+      _id: mhZh3LfLMa15tXee
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 12
+      title: ''
+    FOf5CkGnSs0OlppY:
+      _id: FOf5CkGnSs0OlppY
+      type: AbilityScoreImprovement
+      configuration:
+        points: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+        locked: []
+        recommendation: null
+      value: {}
+      level: 16
+      title: ''
+    KTYjh1MKLvOtrZ3u:
+      _id: KTYjh1MKLvOtrZ3u
+      type: Subclass
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 3
+      title: ''
+      hint: ''
+    ZIWoRmmzRs9v7AWv:
+      type: AbilityScoreImprovement
+      _id: ZIWoRmmzRs9v7AWv
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: Compendium.dnd5e.feats24.Item.phbBoonofSpellRe
+        max: null
+      value: {}
+      level: 19
+      title: ''
+      hint: ''
+    NceVjMGy8SnhhtbF:
+      _id: NceVjMGy8SnhhtbF
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - saves:con
+        - saves:int
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Saving Throw Proficiencies
+      hint: ''
+      classRestriction: primary
+    KeIbYPkaeQZEcdm0:
+      _id: KeIbYPkaeQZEcdm0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:arc
+          - skills:his
+          - skills:inv
+          - skills:med
+          - skills:nat
+          - skills:prc
+          - skills:slt
+          - skills:cmp
+          - skills:tec
+      value:
+        chosen: []
+      level: 1
+      title: Skill Proficiencies
+      hint: ''
+      classRestriction: primary
+    a9m7IbOzF0gO89il:
+      _id: a9m7IbOzF0gO89il
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:sim
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Weapon Proficiencies
+      hint: ''
+      classRestriction: primary
+    5pqDJUaDKKVBc7U0:
+      _id: 5pqDJUaDKKVBc7U0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:lgt
+        - armor:med
+        - armor:shl
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Armor Training
+      hint: ''
+      classRestriction: primary
+    bkjHCmRyB25oJJ3T:
+      _id: bkjHCmRyB25oJJ3T
+      type: ScaleValue
+      configuration:
+        identifier: schematics
+        type: number
+        distance:
+          units: ''
+        scale:
+          '2':
+            value: 3
+          '4':
+            value: 4
+          '6':
+            value: 5
+          '8':
+            value: 6
+          '10':
+            value: 7
+          '12':
+            value: 8
+          '14':
+            value: 9
+          '16':
+            value: 10
+          '18':
+            value: 11
+          '20':
+            value: 12
+      value: {}
+      title: Hypertech Schematics
+      hint: ''
+    RFpcspMDxzEXjwRy:
+      _id: RFpcspMDxzEXjwRy
+      type: ScaleValue
+      configuration:
+        identifier: cantrips-known
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '10':
+            value: 3
+          '14':
+            value: 4
+      value: {}
+      title: Cantrips Known
+      hint: ''
+    61D9OhXZrZ1XOASM:
+      _id: 61D9OhXZrZ1XOASM
+      type: ScaleValue
+      configuration:
+        identifier: max-prepared
+        type: number
+        distance:
+          units: ''
+        scale:
+          '1':
+            value: 2
+          '2':
+            value: 3
+          '3':
+            value: 4
+          '4':
+            value: 5
+          '5':
+            value: 6
+          '7':
+            value: 7
+          '9':
+            value: 9
+          '11':
+            value: 10
+          '13':
+            value: 11
+          '15':
+            value: 12
+          '17':
+            value: 14
+          '19':
+            value: 15
+      value: {}
+      title: Prepared Spells
+      hint: ''
+    uq6L7IcexLClXWWa:
+      _id: uq6L7IcexLClXWWa
+      type: ItemChoice
+      configuration:
+        choices:
+          '1':
+            count: null
+            replacement: false
+          '2':
+            count: 3
+            replacement: true
+          '3':
+            count: null
+            replacement: true
+          '4':
+            count: 1
+            replacement: true
+          '5':
+            count: null
+            replacement: true
+          '6':
+            count: 1
+            replacement: true
+          '7':
+            count: null
+            replacement: true
+          '8':
+            count: 1
+            replacement: true
+          '9':
+            count: null
+            replacement: true
+          '10':
+            count: 1
+            replacement: true
+          '11':
+            count: null
+            replacement: true
+          '12':
+            count: 1
+            replacement: true
+          '13':
+            count: null
+            replacement: true
+          '14':
+            count: 1
+            replacement: true
+          '15':
+            count: null
+            replacement: true
+          '16':
+            count: 1
+            replacement: true
+          '17':
+            count: null
+            replacement: true
+          '18':
+            count: 1
+            replacement: true
+          '19':
+            count: null
+            replacement: true
+          '20':
+            count: 1
+            replacement: true
+        allowDrops: true
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.QdwgnNwhDvd14bxk
+        - uuid: Compendium.neon-odyssey.features.Item.e9J6TUOKmAGCkiku
+        - uuid: Compendium.neon-odyssey.features.Item.rBpSp71b5VL22GeK
+        - uuid: Compendium.neon-odyssey.features.Item.f7Oyd66I5gsu2eAT
+        - uuid: Compendium.neon-odyssey.features.Item.dwOLHbIQyiRLCIUL
+        - uuid: Compendium.neon-odyssey.features.Item.Ll2jgIEK6XDvWcsF
+        - uuid: Compendium.neon-odyssey.features.Item.w483j0kt8N2x5fzu
+        - uuid: Compendium.neon-odyssey.features.Item.SZjxaZ2PaKfDrhJ1
+        - uuid: Compendium.neon-odyssey.features.Item.12I5PSg29A19uGRy
+        - uuid: Compendium.neon-odyssey.features.Item.jJe9kMJvQ6gbyFO1
+        - uuid: Compendium.neon-odyssey.features.Item.JQb4RBDa0SFyAgZq
+        - uuid: Compendium.neon-odyssey.features.Item.edzLuzR6Wdf3AX07
+        - uuid: Compendium.neon-odyssey.features.Item.ekAaKnPtjO1DPcYR
+        - uuid: Compendium.neon-odyssey.features.Item.z4O68UkTfmhPOcSK
+        - uuid: Compendium.neon-odyssey.features.Item.Tvcd6o6T2gNwn8FK
+        - uuid: Compendium.neon-odyssey.features.Item.q3Cx3BBbBHRnoodP
+        - uuid: Compendium.neon-odyssey.features.Item.2AeB181PiBtb9cTq
+        - uuid: Compendium.neon-odyssey.features.Item.bsNZXQd5qblVj9W1
+        - uuid: Compendium.neon-odyssey.features.Item.9KX4YGsf5FzsS3ho
+        - uuid: Compendium.neon-odyssey.features.Item.sHZPU90xLmVwfowb
+        - uuid: Compendium.neon-odyssey.features.Item.OBXZhwM5Le9UOCMg
+        - uuid: Compendium.neon-odyssey.features.Item.BTI2vyUaVHbRmKGv
+        - uuid: Compendium.neon-odyssey.features.Item.kCZndITG6h9zCX7M
+        - uuid: Compendium.neon-odyssey.features.Item.VXVo1ujcQJHFw1Jz
+        - uuid: Compendium.neon-odyssey.features.Item.yFgfDOFEnpFKCp9M
+        restriction:
+          type: class
+          subtype: hypertechSchematic
+          list: []
+      value: {}
+      title: Hypertech Schematics
+      hint: ''
+    c8sZY55NVosKgbaM:
+      _id: c8sZY55NVosKgbaM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.LLCt2rDwxFtZKqMG
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.WEhIgtIHtORQDJUl
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.XLDCKaUODFu0W4AN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Class Features
+      hint: ''
+    FKxDEn499SXeEDph:
+      _id: FKxDEn499SXeEDph
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.nHZjy3D6XUx30C3k
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.C0kjFHewy30w8fpR
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Class Features
+      hint: ''
+    DAjZj3VXNqKz8Ehh:
+      _id: DAjZj3VXNqKz8Ehh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.bfsz404S7e4ikYe4
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Class Features
+      hint: ''
+    LxaRmYaskIlEMUUt:
+      _id: LxaRmYaskIlEMUUt
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.r9QIKkX4wHPrMIiT
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Class Features
+      hint: ''
+    afekFhScVRqyFfJh:
+      _id: afekFhScVRqyFfJh
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.Qza82gSLqrU0AK6x
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Class Features
+      hint: ''
+    gSBc7hD0XIE8eeEF:
+      _id: gSBc7hD0XIE8eeEF
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.0r1rbA7AtjFoYRWX
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Class Features
+      hint: ''
+    YLVD1EWWXiaVmthj:
+      _id: YLVD1EWWXiaVmthj
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.guwhbmjUiTXU4e9S
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Class Features
+      hint: ''
+    33O3kzqlT5WVaOu7:
+      _id: 33O3kzqlT5WVaOu7
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.VVJD5aw0KlEgHcVG
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Class Features
+      hint: ''
+    rZ45UkTWPRuxtja1:
+      _id: rZ45UkTWPRuxtja1
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.v4SWv92u2jJsxATq
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Class Features
+      hint: ''
+  spellcasting:
+    progression: artificer
+    ability: int
+    preparation:
+      formula: '@scale.machinist.max-prepared'
+  wealth: ''
+  primaryAbility:
+    value:
+    - int
+    all: false
+  hd:
+    denomination: d8
+    spent: 0
+    additional: ''
+effects: []
+folder: AJj8g0fypwhXwvoN
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!ILbjDB2NBpZ10vNV'

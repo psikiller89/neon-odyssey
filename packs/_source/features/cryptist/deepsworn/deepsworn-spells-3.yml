@@ -1,0 +1,153 @@
+_id: aV6IX4jupZSjGjQY
+name: Deepsworn Spells
+type: feat
+img: icons/sundries/books/book-embossed-bound-purple.webp
+system:
+  description:
+    value: <p>When you reach a Cryptist level specified in the Deepsworn Spells table, you thereafter always have the listed spells prepared. <em>Bane, Hex, Ray of Enfeeblement, Silence</em> <em>Counterspell,
+      Dispel Magic</em> <em>Banishment, Summon Void-Dweller</em>* <em>Antilife Shell, Psychic Storm</em>*</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Deepsworn Cryptist
+  activities: {}
+  enchant: {}
+  identifier: deepsworn-spells
+  advancement:
+    4uUGqgW73XwZ3qvt:
+      _id: 4uUGqgW73XwZ3qvt
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilence000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 3
+      title: Deepsworn Spells
+      hint: ''
+    C7MBdjQOO8crKDrJ:
+      _id: C7MBdjQOO8crKDrJ
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCounterspe
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDispelMagi
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 5
+      title: Deepsworn Spells
+      hint: ''
+    Ja5XjiixT8uqfrSz:
+      _id: Ja5XjiixT8uqfrSz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.spells.Item.HemZOAKCKCoTgeFN
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBanishment
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 7
+      title: Deepsworn Spells
+      hint: ''
+    vsWljIZWMh8fuki8:
+      _id: vsWljIZWMh8fuki8
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.KVted2ztd8uPdBmG
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        sorting: m
+      value: {}
+      level: 9
+      title: Deepsworn Spells
+      hint: ''
+effects: []
+folder: eLWbUPabyo7jvGuT
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!aV6IX4jupZSjGjQY'

@@ -1,0 +1,104 @@
+_id: bh4Vgu5xFV8jFz1Q
+name: Arbiter
+type: subclass
+img: modules/neon-odyssey/icons/subclasses/arbiter.webp
+system:
+  description:
+    value: <p><em>Become the Judgment of Life and Death</em> Arbiters are Enforcers who stand at the precipice of life and death, serving as the firm hand of the Harmony to preserve its natural cycle and
+      destroy threats to the balance. They wield the Vital aspect to protect lives whose purpose remains unfilled and unleash the Somber aspect to cull those who have lingered beyond their allotted time.
+      Many Arbiters strive for balance by holding themselves to the same cycle, but some pledge themselves to a singular aspect, becoming Vital shepherds or Somber reapers.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  identifier: arbiter
+  classIdentifier: enforcer
+  advancement:
+    9XtYSjpLdx5ofMXM:
+      _id: 9XtYSjpLdx5ofMXM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.MPKOqWIGL6UKY08W
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.LMQDIhVxkXP0DLUz
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.xid0Jw3bijq0K8DA
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Subclass Features
+      hint: ''
+    IuxiqLaREZDQIkgl:
+      _id: IuxiqLaREZDQIkgl
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.RcOE2EI7XgQ3AXHU
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Subclass Features
+      hint: ''
+    cYLmQguyaYQD3J0W:
+      _id: cYLmQguyaYQD3J0W
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.TEY0rTfYY3qWqHwp
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Subclass Features
+      hint: ''
+    vC9QF2icVi5RE2pl:
+      _id: vC9QF2icVi5RE2pl
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.features.Item.plv4kj6E7uL8OGkN
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Subclass Features
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+effects: []
+folder: spYUbXQtBgB2o1ja
+sort: 3
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+ownership:
+  default: 0
+_key: '!items!bh4Vgu5xFV8jFz1Q'

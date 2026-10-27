@@ -1,0 +1,80 @@
+_id: Ge5Fm4N3W7fkqgsQ
+name: Temporal Understanding
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p><em>Prerequisite: Level 2+ Cryptist</em></p><p>You have unlocked secrets of time. You learn the <em>Guidance</em> cantrip if you don’t already know it. Once you have Occult Magic spell slots
+      capable of casting each of the following spells, you always have that spell prepared: <em>Longstrider</em>, <em>Hold </em> <em>Person</em>, <em>Slow</em>, <em>Temporal Lifeline</em>*, <em>Time Skip</em>*.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: esotericSecret
+  prerequisites:
+    level: 2
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cryptist
+  activities: {}
+  enchant: {}
+  identifier: temporal-understanding
+  advancement:
+    aOG4vQTcsLBMUO68:
+      _id: aOG4vQTcsLBMUO68
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGuidance00
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplLongstride
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.pOQPNetkP9uakzDL
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: true
+          method: spell
+          prepared: 2
+      value: {}
+      level: 2
+      title: Temporal Understanding
+      hint: ''
+effects: []
+folder: k1V6joZdVOI9jccL
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Ge5Fm4N3W7fkqgsQ'

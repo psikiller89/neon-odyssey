@@ -1,0 +1,130 @@
+_id: NvVOQ1RnC3m70khm
+name: Unwound Future
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You can trap your foes somewhere in time and space. When you hit a creature with an attack roll or deal damage to it, you can open a consuming rift in either space or time (your choice). The
+      target must succeed on a Charisma saving throw against your spell save DC or suffer the associated effect.</p><p>You can use this feature only once per turn. Once you use it, you can’t do so again
+      until you finish a Long Rest unless you spend 9 Psi Points (no action required) to restore your use of it.</p><p><strong>Space.</strong> The target takes 4d10 Force damage and teleports to an unoccupied
+      space you can see within 100 feet of it. Its Speed is reduced to 0 until the start of your next turn.</p><p><strong>Time.</strong> The target takes 10d10 Force damage and vanishes into a temporal
+      anomaly. At the start of your next turn, it reappears in the space it left or, if that space is occupied, in the nearest unoccupied space. No time passes for the target until it reappears.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: lr
+      type: recoverAll
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 18
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Riftwalker Esper
+  activities:
+    RaX894QJaf4R0Mvg:
+      _id: RaX894QJaf4R0Mvg
+      type: damage
+      name: ''
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 10
+          denomination: 10
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+  enchant: {}
+  identifier: unwound-future
+  advancement: {}
+effects: []
+folder: DitCL3G22RycGBNb
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!NvVOQ1RnC3m70khm'

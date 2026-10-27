@@ -1,0 +1,51 @@
+_id: Gxot7WOgEj748vcZ
+name: 'Saurian Lineage: Sharptooth'
+type: feat
+img: modules/neon-odyssey/icons/species/saurian.webp
+folder: EYJDACraFtUaKRXo
+sort: 0
+effects: []
+system:
+  description:
+    value: '<p>Natural Weapon: Bite. You can make a bite attack as a Bonus Action. When you hit a creature with your bite, you can deal extra damage equal to your Proficiency Bonus and regain a number of
+      Hit Points equal to your Constitution modifier plus your Proficiency Bonus. Once you deal this extra damage, you can’t do so again until you finish a Short or Long Rest.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: '1'
+    spent: 0
+    recovery:
+    - period: sr
+      type: recoverAll
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+    repeatable: false
+  properties: []
+  requirements: Saurian
+  activities: {}
+  enchant: {}
+  identifier: saurian-lineage-sharptooth
+  advancement: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!Gxot7WOgEj748vcZ'
