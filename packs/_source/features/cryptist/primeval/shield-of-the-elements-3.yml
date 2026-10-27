@@ -30,7 +30,46 @@ system:
   enchant: {}
   identifier: shield-of-the-elements
   advancement: {}
-effects: []
+effects:
+- _id: ONNBDDIiZgAhga9h
+  name: Shield of the Elements
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.ac.calcs
+      value: neonShieldOfElements
+      priority: null
+      type: add
+      phase: initial
+      _id: Nm0gzIR2qaMmHnhS
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!w18qRBbihf96lQ46.ONNBDDIiZgAhga9h'
 folder: GbtuPVeZCva4hK75
 sort: 0
 _stats:

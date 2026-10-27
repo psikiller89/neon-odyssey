@@ -70,3 +70,10 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Renamed features:** resource links copied from the 2024 rules (e.g. Threat Suppression spending Cosmic Conduit, Disciple features spending Focus, Persistent Surge restoring Surge uses, Kinetic Impact damage) now point at the Neon Odyssey feature names.
 - **Monsters:** attack damage whose type wrapped onto the next line in the books (Omnibot, Calamity Spawn, Murder Clown, Ice Stalker and others) is now included, and NPC attack damage uses the flat bonus from the stat block.
 - Hitscan Enhancement no longer shows a stray attack button.
+
+## v0.5.2 fixes
+
+- **Shield of the Elements (Cryptist, Primeval):** adds a "Shield of the Elements" AC calculation (10 + Con + your spellcasting ability modifier while unarmored). Foundry uses whichever AC calculation is highest.
+- **Dirty Fighting (Enforcer, Renegade):** unarmored AC 10 + Dex + Cha.
+- **Thick Hide (Primal Aspect):** +1 AC.
+- **Conditional AC bonuses** as toggleable effects (turn on in the Effects tab): Upgrade Algorithm (+2 while Hardlight Armory is active), Borrowed Time (+1 while concentrating on Haste), Abyssal Parasite (+2 while under Mage Armor).

@@ -76,3 +76,12 @@ Hooks.on("createItem", async (item, options, userId) => {
   }) ?? "cha";
   await item.update({ "system.spellcasting.ability": ability, "flags.neon-odyssey.abilityChosen": true });
 });
+
+/* Primeval Cryptist: Shield of the Elements (10 + Con + spellcasting ability, no armor). */
+Hooks.once("init", () => {
+  CONFIG.DND5E.armorClasses.neonShieldOfElements ??= {
+    label: "Shield of the Elements",
+    formula: "10 + @abilities.con.mod + @attributes.spell.mod",
+    armored: false
+  };
+});
