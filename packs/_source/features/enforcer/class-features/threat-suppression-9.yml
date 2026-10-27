@@ -46,7 +46,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:channel-divinity-paladin
+          target: feat:cosmic-conduit
           scaling: {}
       description:
         chatFlavor: ''
@@ -186,7 +186,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!GNT2BlLYrSIZfHw4.es8x7NuJgjyYH9vG'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: abjure-foes
 sort: 0
 ownership:
   default: 0

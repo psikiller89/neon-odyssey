@@ -78,8 +78,11 @@ def item_for(entry,sec,seed,img):
     m=re.search(r'(Melee|Ranged) Attack Roll: \+(\d+)',text)
     if m and sec!='Traits':
         parts=[]
-        for n,dd,ty in re.findall(r'\((\d+)d(\d+)(?: [+−-] \d+)?\) (\w+) damage',text):
-            if ty.lower() in DT: parts.append({'number':int(n),'denomination':int(dd),'bonus':'@mod' if not parts else '','types':[ty.lower()],'custom':{'enabled':False,'formula':''},'scaling':{'mode':'','number':None,'formula':''}})
+        for n,dd,sg,bn,ty in re.findall(r'\((\d+)d(\d+)(?:\s*([+−-])\s*(\d+))?\)\s+(\w+)(?:\s+or\s+\w+)?\s+damage',text):
+            if ty.lower() in DT: parts.append({'number':int(n),'denomination':int(dd),'bonus':(('-' if sg in '−-' else '')+bn) if bn else '','types':[ty.lower()],'custom':{'enabled':False,'formula':''},'scaling':{'mode':'','number':None,'formula':''}})
+        if not parts:
+            h=re.search(r'Hit:\s*\d+\s*\((\d+)d(\d+)(?:\s*([+−-])\s*(\d+))?\)',text)
+            if h: parts.append({'number':int(h.group(1)),'denomination':int(h.group(2)),'bonus':(('-' if h.group(3) in '−-' else '')+h.group(4)) if h.group(4) else '','types':[],'custom':{'enabled':False,'formula':''},'scaling':{'mode':'','number':None,'formula':''}})
         rng=re.search(r'range (\d+)(?:/(\d+))? ft',text); reach=re.search(r'reach (\d+) ft',text)
         a={'_id':mkid(seed+':a'),'type':'attack','name':'','activation':{'type':ACT[sec] or 'action','value':None,'condition':'','override':False},'consumption':{'targets':[],'scaling':{'allowed':False,'max':''},'spellSlot':True},
            'attack':{'ability':'','bonus':'','critical':{'threshold':None},'flat':True,'type':{'value':m.group(1).lower(),'classification':'weapon'}},'damage':{'critical':{'bonus':''},'includeBase':False,'parts':parts},

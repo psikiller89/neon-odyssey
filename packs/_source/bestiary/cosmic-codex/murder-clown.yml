@@ -79,13 +79,13 @@ system:
       value: []
       custom: Common, Dissonant
   skills:
-    acr:
-      value: 1
-      ability: ''
     prf:
       value: 1
       ability: ''
     dec:
+      value: 1
+      ability: ''
+    acr:
       value: 1
       ability: ''
 items:
@@ -295,7 +295,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: '3'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '5'
@@ -466,7 +477,7 @@ items:
           parts:
           - number: 4
             denomination: 6
-            bonus: '@mod'
+            bonus: '3'
             types:
             - acid
             custom:

@@ -73,7 +73,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!2rsBT5PeNKLEXFC9.m2RCcVkc0YkCXNEb'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: unarmored-defense
 sort: 1900000
 ownership:
   default: 0

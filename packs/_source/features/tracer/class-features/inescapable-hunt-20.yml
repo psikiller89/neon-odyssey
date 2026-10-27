@@ -104,7 +104,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: foe-slayer
 sort: 0
 ownership:
   default: 0

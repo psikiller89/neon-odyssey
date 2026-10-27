@@ -180,7 +180,7 @@ items:
           parts:
           - number: 2
             denomination: 8
-            bonus: '@mod'
+            bonus: ''
             types:
             - lightning
             custom:
@@ -277,7 +277,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '2'
             types:
             - piercing
             custom:

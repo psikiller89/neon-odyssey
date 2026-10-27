@@ -84,13 +84,13 @@ system:
       value: []
       custom: Common; telepathy 30 ft.
   skills:
+    arc:
+      value: 1
+      ability: ''
     ath:
       value: 1
       ability: ''
     acr:
-      value: 1
-      ability: ''
-    arc:
       value: 1
       ability: ''
 items:
@@ -303,7 +303,7 @@ items:
           parts:
           - number: 3
             denomination: 10
-            bonus: '@mod'
+            bonus: '4'
             types:
             - force
             custom:

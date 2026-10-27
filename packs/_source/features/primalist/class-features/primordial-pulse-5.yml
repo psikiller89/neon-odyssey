@@ -171,6 +171,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: wild-resurgence
 sort: 1000000
 ownership:
   default: 0

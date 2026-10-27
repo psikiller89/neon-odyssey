@@ -77,13 +77,13 @@ system:
       value: []
       custom: Common, Smuggler’s Slang, plus one other language
   skills:
-    acr:
+    prc:
       value: 1
       ability: ''
     sur:
       value: 1
       ability: ''
-    prc:
+    acr:
       value: 1
       ability: ''
 items:
@@ -343,7 +343,7 @@ items:
           parts:
           - number: 1
             denomination: 12
-            bonus: '@mod'
+            bonus: '4'
             types:
             - slashing
             custom:
@@ -523,7 +523,7 @@ items:
           parts:
           - number: 2
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - piercing
             custom:

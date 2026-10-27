@@ -172,7 +172,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: tireless
 sort: 0
 ownership:
   default: 0

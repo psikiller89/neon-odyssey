@@ -63,7 +63,9 @@ system:
       flags: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: blessed-strikes
 sort: 100000
 ownership:
   default: 0

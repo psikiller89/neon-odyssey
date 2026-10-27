@@ -33,7 +33,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: indomitable-might
 sort: 0
 ownership:
   default: 0

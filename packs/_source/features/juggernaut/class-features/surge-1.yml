@@ -252,7 +252,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!uKbFSOh6dq9GNvRb.JDZdnFzH7OPaBaSO'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: rage
 sort: 0
 ownership:
   default: 0

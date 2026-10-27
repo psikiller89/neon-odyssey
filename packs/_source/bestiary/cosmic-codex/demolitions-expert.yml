@@ -173,7 +173,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '4'
             types:
             - bludgeoning
             custom:
@@ -269,7 +269,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '4'
             types:
             - bludgeoning
             custom:

@@ -86,6 +86,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: stroke-of-luck
 sort: 0
 ownership:
   default: 0

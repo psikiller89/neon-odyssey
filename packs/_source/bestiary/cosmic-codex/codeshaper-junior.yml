@@ -173,7 +173,7 @@ items:
           parts:
           - number: 2
             denomination: 6
-            bonus: '@mod'
+            bonus: '2'
             types:
             - force
             custom:

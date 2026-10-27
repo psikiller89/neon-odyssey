@@ -80,10 +80,10 @@ system:
       value: []
       custom: Common plus two other languages
   skills:
-    med:
+    arc:
       value: 1
       ability: ''
-    arc:
+    med:
       value: 1
       ability: ''
 items:
@@ -306,7 +306,7 @@ items:
           parts:
           - number: 3
             denomination: 6
-            bonus: '@mod'
+            bonus: '5'
             types:
             - lightning
             custom:
@@ -404,7 +404,7 @@ items:
           parts:
           - number: 3
             denomination: 10
-            bonus: '@mod'
+            bonus: '5'
             types:
             - acid
             custom:

@@ -186,7 +186,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: font-of-magic
 sort: 0
 ownership:
   default: 0

@@ -65,6 +65,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: jack-of-all-trades
 sort: 0
 ownership:
   default: 0

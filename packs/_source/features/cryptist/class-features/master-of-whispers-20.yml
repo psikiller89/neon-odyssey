@@ -90,6 +90,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: eldritch-master
 sort: 0
 ownership:
   default: 0

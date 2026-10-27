@@ -87,10 +87,10 @@ system:
       value: []
       custom: Hadalic, Ryliath; telepathy 60 ft.
   skills:
-    itm:
+    prc:
       value: 1
       ability: ''
-    prc:
+    itm:
       value: 1
       ability: ''
 items:
@@ -460,7 +460,7 @@ items:
           parts:
           - number: 3
             denomination: 8
-            bonus: '@mod'
+            bonus: '8'
             types:
             - piercing
             custom:
@@ -553,7 +553,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 3
+            denomination: 6
+            bonus: '8'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '20'

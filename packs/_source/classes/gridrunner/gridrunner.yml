@@ -226,7 +226,7 @@ system:
       _id: ZTnATJgznTj4W6ZG
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: cantrips-known
         type: number
         distance:
           units: ''

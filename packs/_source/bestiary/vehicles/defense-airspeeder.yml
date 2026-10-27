@@ -439,7 +439,7 @@ items:
           parts:
           - number: 2
             denomination: 10
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:

@@ -286,7 +286,7 @@ items:
           parts:
           - number: 4
             denomination: 10
-            bonus: '@mod'
+            bonus: '5'
             types:
             - force
             custom:

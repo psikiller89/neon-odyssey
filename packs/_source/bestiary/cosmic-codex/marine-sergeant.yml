@@ -74,10 +74,10 @@ system:
       value: []
       custom: Common plus one other language
   skills:
-    itm:
+    prc:
       value: 1
       ability: ''
-    prc:
+    itm:
       value: 1
       ability: ''
 items:
@@ -217,7 +217,7 @@ items:
           parts:
           - number: 1
             denomination: 10
-            bonus: '@mod'
+            bonus: '3'
             types:
             - lightning
             custom:
@@ -314,7 +314,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '3'
             types:
             - fire
             custom:

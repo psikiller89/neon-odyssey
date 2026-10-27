@@ -104,10 +104,10 @@ system:
       value: []
       custom: 'SIGNAL; understands Common and one other '
   skills:
-    ste:
+    sur:
       value: 1
       ability: ''
-    sur:
+    ste:
       value: 1
       ability: ''
     prc:
@@ -201,7 +201,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '1'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '5'

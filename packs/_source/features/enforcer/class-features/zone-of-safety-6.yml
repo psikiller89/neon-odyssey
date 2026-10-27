@@ -75,7 +75,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!5gYal2zyzIqRWdMg.WOJ5r71FCDRmElea'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: aura-of-protection
 sort: 0
 ownership:
   default: 0

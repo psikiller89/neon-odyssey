@@ -86,10 +86,10 @@ system:
     arc:
       value: 1
       ability: ''
-    ins:
+    per:
       value: 1
       ability: ''
-    per:
+    ins:
       value: 1
       ability: ''
 items:
@@ -265,7 +265,7 @@ items:
           parts:
           - number: 3
             denomination: 10
-            bonus: '@mod'
+            bonus: '4'
             types:
             - psychic
             custom:

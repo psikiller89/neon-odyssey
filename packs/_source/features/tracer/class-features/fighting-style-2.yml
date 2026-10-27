@@ -61,7 +61,9 @@ system:
       name: Fighting Style
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: fighting-style
 sort: 800000
 ownership:
   default: 0

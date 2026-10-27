@@ -50,7 +50,7 @@ system:
           scaling: {}
         - type: itemUses
           value: -(floor(@classes.sorcerer.levels / 2))
-          target: feat:font-of-magic
+          target: feat:psionic-wellspring
           scaling: {}
       description:
         chatFlavor: ''
@@ -104,7 +104,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: sorcerous-restoration
 sort: 0
 ownership:
   default: 0

@@ -173,7 +173,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!JjaK5oVEWm0nBBbP.CU1tXpefgBotkuDC'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: aura-of-courage
 sort: 0
 ownership:
   default: 0

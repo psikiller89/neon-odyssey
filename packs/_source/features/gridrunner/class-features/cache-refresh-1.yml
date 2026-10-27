@@ -91,7 +91,9 @@ system:
   enchant: {}
   identifier: cache-refresh
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: arcane-recovery
 sort: 0
 ownership:
   default: 0

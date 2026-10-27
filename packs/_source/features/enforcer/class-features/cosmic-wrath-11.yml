@@ -73,7 +73,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!gpUXPznCf3b9lgUe.peNRQizvyp2vL84H'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: radiant-strikes
 sort: 0
 ownership:
   default: 0

@@ -74,13 +74,13 @@ system:
       value: []
       custom: Common, Smuggler’s Slang, plus one other language
   skills:
-    itm:
-      value: 1
-      ability: ''
     sur:
       value: 1
       ability: ''
     ath:
+      value: 1
+      ability: ''
+    itm:
       value: 1
       ability: ''
 items:
@@ -173,7 +173,7 @@ items:
           parts:
           - number: 1
             denomination: 10
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:
@@ -269,7 +269,7 @@ items:
           parts:
           - number: 1
             denomination: 10
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:

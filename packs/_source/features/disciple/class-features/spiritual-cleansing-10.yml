@@ -82,7 +82,9 @@ effects:
   sort: 0
   flags: {}
   _key: '!items.effects!4F9xIoEdqstM6ym6.oB4U8ru4ATK4dniq'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: self-restoration
 sort: 1400000
 ownership:
   default: 0

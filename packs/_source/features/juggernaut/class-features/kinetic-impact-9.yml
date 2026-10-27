@@ -83,7 +83,7 @@ system:
         parts:
         - custom:
             enabled: true
-            formula: '@scale.brutal-strike.damage'
+            formula: '@scale.kinetic-impact.damage'
           number: null
           denomination: 0
           bonus: ''
@@ -510,7 +510,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!SEZo8wfqKyM4Klnv.Q0ou16II1WEcCdyW'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: brutal-strike
 sort: 0
 ownership:
   default: 0

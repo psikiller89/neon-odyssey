@@ -246,7 +246,7 @@ system:
       _id: 4uOxepnMxb2TYDY4
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: sneak-attack
         type: dice
         distance:
           units: ''

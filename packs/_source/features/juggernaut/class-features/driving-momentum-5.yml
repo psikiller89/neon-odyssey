@@ -75,7 +75,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!HEMd6neKa9rPgUix.Ln2upWfCALSwthX1'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: fast-movement
 sort: 0
 ownership:
   default: 0

@@ -62,7 +62,9 @@ system:
       flags: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: divine-order
 sort: 400000
 ownership:
   default: 0

@@ -44,11 +44,11 @@ system:
         targets:
         - type: itemUses
           value: '2'
-          target: feat:font-of-magic
+          target: feat:psionic-wellspring
           scaling: {}
         - type: itemUses
           value: '-1'
-          target: feat:innate-sorcery
+          target: feat:unbound-psyche
           scaling: {}
       description:
         chatFlavor: ''
@@ -101,7 +101,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: sorcery-incarnate
 sort: 0
 ownership:
   default: 0

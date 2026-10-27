@@ -62,7 +62,9 @@ system:
       flags: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: body-and-mind
 sort: 200000
 ownership:
   default: 0

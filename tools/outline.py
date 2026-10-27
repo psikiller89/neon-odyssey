@@ -129,7 +129,7 @@ def parse_spells():
         if k=='H_FEATURE':
             sp={'name':t,'meta':'','props':{},'body':Item(t)}; spells.append(sp); tab=False; continue
         if sp is None: continue
-        if k=='META' and not sp['meta']: sp['meta']=t; continue
+        if k=='META' and not sp['props']: sp['meta']=(sp['meta']+' '+t).strip(); continue
         if k=='SPELLMETA':
             m=re.match(r'^(Casting Time|Range|Components|Duration):\s*(.*)$',t)
             if m: sp['props'][m.group(1)]=m.group(2); sp['_last']=m.group(1)

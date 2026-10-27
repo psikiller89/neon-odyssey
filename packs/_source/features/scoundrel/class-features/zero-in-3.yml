@@ -81,6 +81,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: steady-aim
 sort: 0
 ownership:
   default: 0

@@ -33,7 +33,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: evasion
 sort: 800000
 ownership:
   default: 0

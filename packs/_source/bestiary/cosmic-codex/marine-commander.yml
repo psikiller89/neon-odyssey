@@ -80,10 +80,10 @@ system:
     per:
       value: 1
       ability: ''
-    ins:
+    prc:
       value: 1
       ability: ''
-    prc:
+    ins:
       value: 1
       ability: ''
 items:
@@ -259,7 +259,7 @@ items:
           parts:
           - number: 2
             denomination: 8
-            bonus: '@mod'
+            bonus: '5'
             types:
             - slashing
             custom:
@@ -368,7 +368,7 @@ items:
           parts:
           - number: 2
             denomination: 8
-            bonus: '@mod'
+            bonus: '5'
             types:
             - lightning
             custom:

@@ -44,7 +44,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:monks-focus
+          target: feat:channeled-essence
           scaling: {}
       description:
         chatFlavor: ''
@@ -140,7 +140,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!bKF34BzvngFc2LSz.tKd3mh0VaGrzK0TS'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: disciplined-survivor
 sort: 500000
 ownership:
   default: 0

@@ -204,7 +204,7 @@ system:
       _id: FksFWNV4X4lTFlvO
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: favored-enemy
         type: number
         distance:
           units: ''

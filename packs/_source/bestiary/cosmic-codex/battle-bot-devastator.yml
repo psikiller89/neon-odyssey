@@ -288,7 +288,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 1
+            denomination: 12
+            bonus: '4'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '5'
@@ -458,7 +469,7 @@ items:
           parts:
           - number: 2
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - radiant
             custom:
@@ -732,7 +743,7 @@ items:
           parts:
           - number: 3
             denomination: 12
-            bonus: '@mod'
+            bonus: '4'
             types:
             - lightning
             custom:

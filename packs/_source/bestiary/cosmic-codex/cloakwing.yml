@@ -257,7 +257,7 @@ items:
           parts:
           - number: 2
             denomination: 6
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:
@@ -350,7 +350,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '3'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '5'

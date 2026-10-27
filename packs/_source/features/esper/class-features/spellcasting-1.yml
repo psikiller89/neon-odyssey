@@ -51,7 +51,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: spellcasting
 sort: 0
 ownership:
   default: 0

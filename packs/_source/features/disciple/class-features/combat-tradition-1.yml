@@ -252,6 +252,8 @@ flags:
     riders:
       activity:
       - w1iULzeSjTNs16nf
+  neon-odyssey:
+    srcIdentifier: martial-arts
 sort: 1100000
 ownership:
   default: 0

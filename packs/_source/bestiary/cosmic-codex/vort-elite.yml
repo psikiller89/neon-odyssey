@@ -82,7 +82,7 @@ system:
       value: []
       custom: 'Understands Hadalic but can’t speak; telepathy 60 ft. '
   skills:
-    acr:
+    prc:
       value: 1
       ability: ''
     sur:
@@ -91,7 +91,7 @@ system:
     ath:
       value: 1
       ability: ''
-    prc:
+    acr:
       value: 1
       ability: ''
 items:
@@ -413,7 +413,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '4'
             types:
             - slashing
             custom:
@@ -521,7 +521,7 @@ items:
           parts:
           - number: 1
             denomination: 10
-            bonus: '@mod'
+            bonus: '4'
             types:
             - piercing
             custom:

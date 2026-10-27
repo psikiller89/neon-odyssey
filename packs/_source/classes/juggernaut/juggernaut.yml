@@ -317,7 +317,7 @@ system:
       _id: 6FTnn7DjW37STeW6
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: rages
         type: number
         distance:
           units: ''

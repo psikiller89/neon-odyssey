@@ -69,7 +69,7 @@ def copy_srd(path,name,html,*,base,cid,cls,seed,req,src,option_pool=None):
     s=json.dumps(d).replace(f'@scale.{base}.',f'@scale.{cid}.').replace(f'Compendium.dnd5e.classes24.Item.{old}',f'Compendium.{MOD}.features.Item.{_id}')
     s=re.sub(r'Compendium\.dnd-players-handbook\.spells\.Item\.(\w{16})',lambda m: f'Compendium.dnd5e.spells24.Item.{m.group(1)}' if m.group(1) in SRD_IDS else m.group(0),s)
     d=json.loads(s); d['_id']=_id; d['name']=name; d.pop('_key',None); d.pop('_stats',None); d.pop('folder',None)
-    sy=d['system']; sy['description']={'value':html,'chat':''}; sy['identifier']=ident(name); sy['requirements']=req; sy['source']=dict(src)
+    sy=d['system']; d.setdefault('flags',{}).setdefault('neon-odyssey',{})['srcIdentifier']=sy.get('identifier') or ''; sy['description']={'value':html,'chat':''}; sy['identifier']=ident(name); sy['requirements']=req; sy['source']=dict(src)
     for e in d.get('effects',[]) or []: e.pop('_stats',None)
     if option_pool is not None:
         for a in advl(sy.get('advancement')):

@@ -176,7 +176,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!dbogDl7IMlCM9F6H.NQXGLLvHlv10N09t'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: natures-veil
 sort: 0
 ownership:
   default: 0

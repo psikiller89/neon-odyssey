@@ -56,7 +56,7 @@ system:
   activities:
     iZ0vOhj2zAhfTqt1:
       _id: iZ0vOhj2zAhfTqt1
-      type: attack
+      type: utility
       name: ''
       activation:
         type: bonus
@@ -84,20 +84,11 @@ system:
         recovery: []
         max: ''
       sort: 0
-      attack:
-        ability: ''
-        bonus: ''
-        critical:
-          threshold: null
-        flat: false
-        type:
-          value: ranged
-          classification: weapon
-      damage:
-        critical:
-          bonus: ''
-        includeBase: false
-        parts: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
   identifier: hitscan-enhancement
 effects: []
 folder: 4YOkb2x3bEWecGUT

@@ -108,7 +108,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: divine-intervention
 sort: 300000
 ownership:
   default: 0

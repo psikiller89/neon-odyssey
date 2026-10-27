@@ -46,6 +46,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: spellcasting
 sort: 800000
 ownership:
   default: 0

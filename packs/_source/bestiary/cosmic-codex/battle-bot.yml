@@ -295,7 +295,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '2'
             types:
             - slashing
             custom:
@@ -403,7 +403,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '2'
             types:
             - radiant
             custom:

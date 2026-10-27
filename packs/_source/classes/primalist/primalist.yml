@@ -198,7 +198,7 @@ system:
       _id: JoHnvnMWRhadHGwf
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: cantrips-known
         type: number
         distance:
           units: ''
@@ -280,7 +280,7 @@ system:
       _id: MIVwoANGkc6gmUWN
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: wild-shape-uses
         type: number
         distance:
           units: ''
@@ -298,7 +298,7 @@ system:
       _id: EoM7g9kruaS8VvhA
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: known-forms
         type: number
         distance:
           units: ''
@@ -361,7 +361,7 @@ system:
       _id: W0d3c6X31SgnFFYM
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: elemental-fury
         type: dice
         distance:
           units: ''

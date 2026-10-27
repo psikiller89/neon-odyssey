@@ -183,7 +183,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!GHyeTZ1OdBS3PiaN.Cl3LG9IlVSi5Fz9U'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: channel-divinity-paladin
 sort: 0
 ownership:
   default: 0

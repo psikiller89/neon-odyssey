@@ -75,7 +75,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!OHgn8EpQ7ObuZejo.lTOwmIJoE8GLm1oy'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: danger-sense
 sort: 0
 ownership:
   default: 0

@@ -139,7 +139,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!dN7EJ9GCI34uPIMi.ufbJRsGGW3REMmJm'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: primal-knowledge
 sort: 0
 ownership:
   default: 0

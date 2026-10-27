@@ -81,13 +81,13 @@ system:
       value: []
       custom: None
   skills:
-    acr:
+    prc:
       value: 1
       ability: ''
     ste:
       value: 1
       ability: ''
-    prc:
+    acr:
       value: 1
       ability: ''
 items:
@@ -335,7 +335,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '3'
             types:
             - slashing
             custom:
@@ -432,7 +432,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:

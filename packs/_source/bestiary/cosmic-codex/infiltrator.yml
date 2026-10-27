@@ -79,13 +79,13 @@ system:
       value: []
       custom: Common plus one other language
   skills:
-    acr:
+    prc:
       value: 1
       ability: ''
     ste:
       value: 1
       ability: ''
-    prc:
+    acr:
       value: 1
       ability: ''
 items:
@@ -228,7 +228,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - piercing
             custom:
@@ -337,7 +337,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - force
             custom:

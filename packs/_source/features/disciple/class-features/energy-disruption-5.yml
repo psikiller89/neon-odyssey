@@ -44,7 +44,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:monks-focus
+          target: feat:channeled-essence
           scaling: {}
       description:
         chatFlavor: ''
@@ -233,7 +233,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!mZTzz93mKhrqfffA.KNyMBoCNJv7TIgZd'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: stunning-strike
 sort: 1600000
 ownership:
   default: 0

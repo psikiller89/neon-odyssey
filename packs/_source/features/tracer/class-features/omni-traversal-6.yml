@@ -92,7 +92,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!wkznBVlRuyrWnt4P.J9RWCSmYGnP0fkn1'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: roving
 sort: 0
 ownership:
   default: 0

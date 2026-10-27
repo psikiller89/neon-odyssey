@@ -97,7 +97,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: slow-fall
 sort: 1500000
 ownership:
   default: 0

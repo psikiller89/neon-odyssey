@@ -166,7 +166,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: ''
             types:
             - piercing
             custom:

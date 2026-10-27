@@ -73,7 +73,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!K2LKDigKhhAIsz8t.CaV1VYMaVjjPceJs'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: feral-instinct
 sort: 0
 ownership:
   default: 0

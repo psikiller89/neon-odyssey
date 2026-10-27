@@ -159,7 +159,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!wifkqt1ggPIjpsK4.WtiHwWONdmCOeSDR'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: innate-sorcery
 sort: 0
 ownership:
   default: 0

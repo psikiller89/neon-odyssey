@@ -36,6 +36,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: primal-order
 sort: 700000
 ownership:
   default: 0

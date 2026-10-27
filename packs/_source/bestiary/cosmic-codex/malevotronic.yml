@@ -411,7 +411,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 3
+            denomination: 8
+            bonus: '4'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '30'
@@ -581,7 +592,7 @@ items:
           parts:
           - number: 5
             denomination: 10
-            bonus: '@mod'
+            bonus: '4'
             types:
             - bludgeoning
             custom:

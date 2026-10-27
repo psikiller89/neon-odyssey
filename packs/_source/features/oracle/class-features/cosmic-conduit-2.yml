@@ -103,7 +103,7 @@ system:
         - healing
         custom:
           enabled: true
-          formula: (@scale.channel-divinity-cleric.spark)d8 + @abilities.wis.mod
+          formula: (@scale.cosmic-conduit.spark)d8 + @abilities.wis.mod
         scaling:
           number: 1
         bonus: '@abilities.wis.mod'
@@ -176,7 +176,7 @@ system:
         parts:
         - custom:
             enabled: true
-            formula: (@scale.channel-divinity-cleric.spark)d8 + @abilities.wis.mod
+            formula: (@scale.cosmic-conduit.spark)d8 + @abilities.wis.mod
           number: 1
           denomination: 8
           bonus: '@abilities.wis.mod'
@@ -475,7 +475,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!S8mIumrSi2avdkst.Qky1o9eiI7AfKPkJ'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: channel-divinity-cleric
 sort: 200000
 ownership:
   default: 0

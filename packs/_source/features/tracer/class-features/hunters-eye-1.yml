@@ -121,7 +121,9 @@ system:
       name: Favored Enemy
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: favored-enemy
 sort: 0
 ownership:
   default: 0

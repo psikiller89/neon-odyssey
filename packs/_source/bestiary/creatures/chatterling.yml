@@ -91,10 +91,10 @@ system:
       value: []
       custom: Common, Dissonant
   skills:
-    ste:
+    prc:
       value: 1
       ability: ''
-    prc:
+    ste:
       value: 1
       ability: ''
 items:
@@ -259,7 +259,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '3'
             types:
             - piercing
             custom:

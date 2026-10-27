@@ -33,7 +33,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: improved-brutal-strike-2
 sort: 0
 ownership:
   default: 0

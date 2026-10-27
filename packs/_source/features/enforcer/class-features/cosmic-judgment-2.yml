@@ -56,7 +56,9 @@ system:
       hint: ''
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: paladins-smite
 sort: 0
 ownership:
   default: 0

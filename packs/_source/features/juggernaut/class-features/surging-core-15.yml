@@ -46,8 +46,8 @@ system:
           target: ''
           scaling: {}
         - type: itemUses
-          value: -@scale.juggernaut.rage
-          target: feat:rage
+          value: -@scale.juggernaut.rages
+          target: feat:surge
           scaling: {}
         scaling:
           allowed: false
@@ -186,7 +186,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!eyoszpyWUkUCnf2w.CEOp7xVtM4qLsmnx'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: persistent-rage
 sort: 0
 ownership:
   default: 0

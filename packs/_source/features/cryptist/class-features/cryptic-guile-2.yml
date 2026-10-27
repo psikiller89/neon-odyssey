@@ -93,6 +93,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: magical-cunning
 sort: 0
 ownership:
   default: 0

@@ -1,7 +1,7 @@
 _id: pOQPNetkP9uakzDL
 name: Temporal Lifeline
 type: spell
-img: icons/svg/book.svg
+img: icons/magic/symbols/runes-star-pentagon-blue.webp
 system:
   description:
     value: <p>You summon a perfect copy of a creature from a fraction of a second before it suffers lethal damage. The triggering damage is reduced to 0, and the copy vanishes.</p>
@@ -40,8 +40,8 @@ system:
     max: ''
     recovery: []
     spent: 0
-  level: 0
-  school: ''
+  level: 4
+  school: con
   properties:
   - vocal
   materials:
@@ -89,7 +89,7 @@ system:
         visible: false
   identifier: temporal-lifeline
 effects: []
-folder: N14uQ9l4I9dridBe
+folder: sEPVmwo0fZxpCj2K
 sort: 0
 _stats:
   coreVersion: '14.360'

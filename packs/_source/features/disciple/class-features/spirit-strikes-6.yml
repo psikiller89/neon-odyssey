@@ -86,7 +86,9 @@ effects:
   sort: 0
   flags: {}
   _key: '!items.effects!iiLpsdscnnDVW6th.uWjhNHYBWtrl7Fz4'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: empowered-strikes
 sort: 600000
 ownership:
   default: 0

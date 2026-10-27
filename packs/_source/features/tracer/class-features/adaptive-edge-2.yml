@@ -67,7 +67,9 @@ system:
       name: Expertise
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: deft-explorer
 sort: 0
 ownership:
   default: 0

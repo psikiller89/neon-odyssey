@@ -248,7 +248,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!4bUR4pv4yvroX0BD.XJKXAvpXcrbYumuJ'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: wild-shape
 sort: 1200000
 ownership:
   default: 0

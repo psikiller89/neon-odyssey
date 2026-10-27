@@ -85,10 +85,10 @@ system:
       value: []
       custom: None
   skills:
-    ste:
+    acr:
       value: 1
       ability: ''
-    acr:
+    ste:
       value: 1
       ability: ''
     prc:
@@ -303,7 +303,7 @@ items:
           parts:
           - number: 2
             denomination: 4
-            bonus: '@mod'
+            bonus: '2'
             types:
             - slashing
             custom:

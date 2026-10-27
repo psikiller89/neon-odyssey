@@ -115,7 +115,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:monks-focus
+          target: feat:channeled-essence
           scaling: {}
       description:
         chatFlavor: ''
@@ -198,7 +198,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:monks-focus
+          target: feat:channeled-essence
           scaling: {}
       description:
         chatFlavor: ''
@@ -282,7 +282,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: deflect-attacks
 sort: 300000
 ownership:
   default: 0

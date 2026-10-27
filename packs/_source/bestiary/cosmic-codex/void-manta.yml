@@ -80,13 +80,13 @@ system:
       value: []
       custom: Understands Hadalic but can’t speak
   skills:
-    acr:
+    prc:
       value: 1
       ability: ''
     ste:
       value: 1
       ability: ''
-    prc:
+    acr:
       value: 1
       ability: ''
 items:
@@ -259,7 +259,18 @@ items:
           critical:
             bonus: ''
           includeBase: false
-          parts: []
+          parts:
+          - number: 4
+            denomination: 8
+            bonus: '4'
+            types: []
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
         range:
           override: true
           value: '10'

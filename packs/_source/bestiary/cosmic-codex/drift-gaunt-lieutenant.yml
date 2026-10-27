@@ -403,7 +403,7 @@ items:
           parts:
           - number: 2
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - bludgeoning
             custom:
@@ -512,7 +512,7 @@ items:
           parts:
           - number: 2
             denomination: 8
-            bonus: '@mod'
+            bonus: '4'
             types:
             - lightning
             custom:

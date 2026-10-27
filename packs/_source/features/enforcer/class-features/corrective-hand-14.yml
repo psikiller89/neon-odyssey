@@ -45,7 +45,7 @@ system:
         targets:
         - type: itemUses
           value: '5'
-          target: feat:lay-on-hands
+          target: feat:invigorate
           scaling:
             mode: amount
             formula: '5'
@@ -102,7 +102,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: restoring-touch
 sort: 0
 ownership:
   default: 0

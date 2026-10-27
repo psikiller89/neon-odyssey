@@ -97,6 +97,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: second-wind
 sort: 0
 ownership:
   default: 0

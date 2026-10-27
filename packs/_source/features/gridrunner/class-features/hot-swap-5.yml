@@ -35,6 +35,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: memorize-spell
 sort: 0
 ownership:
   default: 0

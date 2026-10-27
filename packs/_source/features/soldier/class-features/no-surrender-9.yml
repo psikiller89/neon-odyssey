@@ -84,6 +84,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: indomitable
 sort: 0
 ownership:
   default: 0

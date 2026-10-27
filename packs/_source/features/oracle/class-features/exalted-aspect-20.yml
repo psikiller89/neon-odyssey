@@ -55,7 +55,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: feat:divine-intervention
+          target: feat:call-the-cosmos
           scaling: {}
       description:
         value: ''
@@ -96,7 +96,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: greater-divine-intervention
 sort: 600000
 ownership:
   default: 0

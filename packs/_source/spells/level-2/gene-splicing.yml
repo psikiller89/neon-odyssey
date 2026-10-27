@@ -1,7 +1,7 @@
 _id: jmoK10tOb35X80uj
 name: Gene Splicing
 type: spell
-img: icons/svg/book.svg
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
 system:
   description:
     value: <p>You cause a physical adaptation in your body, gaining traits of alien creatures. Choose one of the following options. The chosen option lasts for the duration, unless you take a Magic action
@@ -48,8 +48,8 @@ system:
     max: ''
     recovery: []
     spent: 0
-  level: 0
-  school: ''
+  level: 2
+  school: trs
   properties:
   - vocal
   - somatic
@@ -105,12 +105,12 @@ system:
             enabled: false
             formula: ''
           scaling:
-            mode: whole
+            mode: ''
             number: null
             formula: ''
   identifier: gene-splicing
 effects: []
-folder: N14uQ9l4I9dridBe
+folder: j9jMRFUkViNxi7SM
 sort: 0
 _stats:
   coreVersion: '14.360'

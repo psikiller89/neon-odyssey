@@ -349,6 +349,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: devious-strikes
 sort: 0
 ownership:
   default: 0

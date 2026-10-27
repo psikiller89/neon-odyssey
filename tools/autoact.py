@@ -57,7 +57,7 @@ def attack_of(t):
     m=re.search(r'(melee|ranged) spell attack',t,re.I)
     if m: return {'value':m.group(1).lower(),'classification':'spell'}
     m=re.search(r'make an? (melee|ranged) (weapon )?attack',t,re.I)
-    if m and not re.search(r'when you make',t[:m.start()][-40:],re.I): return {'value':m.group(1).lower(),'classification':'weapon'}
+    if m and not re.search(r'(when you make|used to make|time you make)',t[:m.end()][-60:],re.I): return {'value':m.group(1).lower(),'classification':'weapon'}
     return None
 def base_activity(typ,seed,act,name=''):
     return {'_id':mkid(seed),'type':typ,'name':name,'activation':{'type':act or '','value':None,'condition':'','override':False},

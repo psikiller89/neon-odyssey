@@ -206,7 +206,7 @@ system:
       _id: wMwMS7RC49lh1hp2
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: unarmored-movement
         type: distance
         distance:
           units: ft

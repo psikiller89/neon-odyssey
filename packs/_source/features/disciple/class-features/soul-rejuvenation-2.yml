@@ -46,7 +46,7 @@ system:
         targets:
         - type: itemUses
           value: -@scale.disciple.focus
-          target: feat:monks-focus
+          target: feat:channeled-essence
           scaling: {}
         - type: itemUses
           value: '1'
@@ -111,7 +111,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: uncanny-metabolism
 sort: 2000000
 ownership:
   default: 0

@@ -474,7 +474,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '@mod'
+            bonus: '5'
             types:
             - bludgeoning
             custom:
@@ -570,7 +570,7 @@ items:
           parts:
           - number: 2
             denomination: 10
-            bonus: '@mod'
+            bonus: '5'
             types:
             - radiant
             custom:

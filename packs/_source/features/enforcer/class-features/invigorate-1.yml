@@ -208,7 +208,9 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!d0UZXchcfg69xWZh.I32KHo8GtD8EnulL'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: lay-on-hands
 sort: 0
 ownership:
   default: 0

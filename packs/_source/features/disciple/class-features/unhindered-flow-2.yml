@@ -81,7 +81,9 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!Jba9yVHnhh4UZltZ.OEYjH4cLYd0VPaKm'
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: unarmored-movement
 sort: 1800000
 ownership:
   default: 0

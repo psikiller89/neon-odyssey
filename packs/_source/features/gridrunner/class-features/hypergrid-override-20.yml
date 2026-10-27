@@ -232,6 +232,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: signature-spells
 sort: 0
 ownership:
   default: 0

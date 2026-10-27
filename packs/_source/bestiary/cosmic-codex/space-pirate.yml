@@ -176,7 +176,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '2'
             types:
             - piercing
             custom:
@@ -273,7 +273,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '2'
             types:
             - radiant
             custom:

@@ -62,3 +62,11 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Machinist – Hypertech Schematics:** chosen on level-up (3 at level 2, more per the table, one swap per later level), with level prerequisites enforced. Each schematic has an **Apply Schematic** enchant activity: drag your weapon/armor/gear onto the chat card to turn it into a hypertech item (Weapon/Shield/Armor Upgrade add their magic bonus; Armor Upgrade becomes +2 at Machinist 14).
 - **Machinist – Spark of Innovation:** spells are now granted per Machinist level (5, 7, 9, 11, 13, 15) instead of all at once, each castable once per Long Rest without a slot.
 - Fixed Active Effect format for Laika/Saurian lineage effects (Foundry v14).
+
+## v0.5.1 fixes
+
+- **Spells:** Gene Splicing (level 2 Transmutation) and Temporal Lifeline (level 4 Conjuration) were imported as cantrips with no school and missing from every class list; both now have the correct level, school and class lists.
+- **Class scale values:** blank scale identifiers (Sneak Attack dice, Second Wind, Action Surge, Indomitable, Surge uses, Favored Enemy, Unarmored Movement, Wild Shape uses, Known Forms, Elemental Fury, cantrips known) are now explicit, so formulas such as `@scale.scoundrel.sneak-attack` resolve.
+- **Renamed features:** resource links copied from the 2024 rules (e.g. Threat Suppression spending Cosmic Conduit, Disciple features spending Focus, Persistent Surge restoring Surge uses, Kinetic Impact damage) now point at the Neon Odyssey feature names.
+- **Monsters:** attack damage whose type wrapped onto the next line in the books (Omnibot, Calamity Spawn, Murder Clown, Ice Stalker and others) is now included, and NPC attack damage uses the flat bonus from the stat block.
+- Hitscan Enhancement no longer shows a stray attack button.

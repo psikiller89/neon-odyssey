@@ -61,7 +61,9 @@ system:
       flags: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: primal-champion
 sort: 0
 ownership:
   default: 0

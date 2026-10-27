@@ -40,7 +40,7 @@ system:
         targets:
         - type: itemUses
           value: '-1'
-          target: feat:bardic-inspiration
+          target: feat:iconic-inspiration
         - type: spellSlots
           value: '1'
           target: '1'
@@ -85,7 +85,9 @@ system:
   enchant: {}
   identifier: extended-set
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: font-of-inspiration
 sort: 0
 ownership:
   default: 0

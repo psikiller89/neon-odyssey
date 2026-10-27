@@ -36,6 +36,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: elemental-fury
 sort: 400000
 ownership:
   default: 0

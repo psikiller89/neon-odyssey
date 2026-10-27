@@ -38,6 +38,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: two-extra-attacks
 sort: 0
 ownership:
   default: 0

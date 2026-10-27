@@ -256,7 +256,7 @@ items:
           parts:
           - number: 2
             denomination: 10
-            bonus: '@mod'
+            bonus: '3'
             types:
             - slashing
             custom:
@@ -352,7 +352,7 @@ items:
           parts:
           - number: 1
             denomination: 6
-            bonus: '@mod'
+            bonus: '4'
             types:
             - piercing
             custom:

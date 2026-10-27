@@ -197,6 +197,8 @@ flags:
     riders:
       activity: []
       effect: []
+  neon-odyssey:
+    srcIdentifier: cunning-action
 sort: 0
 ownership:
   default: 0

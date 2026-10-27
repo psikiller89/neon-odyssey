@@ -35,7 +35,9 @@ system:
   advancement: {}
   crewed: false
 effects: []
-flags: {}
+flags:
+  neon-odyssey:
+    srcIdentifier: heightened-focus
 sort: 1000000
 ownership:
   default: 0

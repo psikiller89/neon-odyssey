@@ -209,7 +209,7 @@ items:
           parts:
           - number: 1
             denomination: 12
-            bonus: '@mod'
+            bonus: '2'
             types:
             - necrotic
             custom:

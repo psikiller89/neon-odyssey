@@ -295,7 +295,7 @@ system:
       _id: x1gr4ONIHZo6bjX8
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: action-surge
         type: number
         distance:
           units: ''
@@ -311,7 +311,7 @@ system:
       _id: iJ9JidHgTldknGgK
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: indomitable
         type: number
         distance:
           units: ''
@@ -329,7 +329,7 @@ system:
       _id: yEH3vVRip4nzxnN9
       type: ScaleValue
       configuration:
-        identifier: ''
+        identifier: second-wind
         type: number
         distance:
           units: ''
