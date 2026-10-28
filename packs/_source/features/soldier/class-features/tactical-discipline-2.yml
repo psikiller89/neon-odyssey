@@ -39,7 +39,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: Compendium.dnd5e.classes24.Item.phbftrSecondWind
+          target: feat:frontline-rally
           scaling: {}
         scaling:
           allowed: false

@@ -80,6 +80,43 @@ system:
       level: 14
       title: Subclass Features
       hint: ''
+    XlCQMdldFsoT2Dn4:
+      _id: XlCQMdldFsoT2Dn4
+      type: ItemChoice
+      level: 3
+      title: Archaic Element
+      hint: Choose a damage type to master (a second at level 6, a third at level 10).
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+          '6':
+            count: 1
+            replacement: false
+          '10':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.rR3nnkCp3Sh2avW2
+        - uuid: Compendium.neon-odyssey.features.Item.dcu7IzS3N2vBwVNb
+        - uuid: Compendium.neon-odyssey.features.Item.617XfpqFccVeSS0K
+        - uuid: Compendium.neon-odyssey.features.Item.e7DTzpXNcYMoMLaO
+        - uuid: Compendium.neon-odyssey.features.Item.Q5HSA1bENuNhHrYz
+        spell: null
+        restriction:
+          type: ''
+          subtype: ''
+          list: []
+          level: ''
+          school: []
+        sorting: a
+      value: {}
   spellcasting:
     progression: none
     ability: ''

@@ -33,35 +33,39 @@ system:
   properties: []
   requirements: Primeval Cryptist
   activities:
-    lQDzKshW7WJbxNh6:
-      _id: lQDzKshW7WJbxNh6
-      type: utility
-      name: ''
+    RbtYWvEMdIX2JYZO:
+      _id: RbtYWvEMdIX2JYZO
+      type: heal
+      name: Consuming Calamity
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature you can see within 30 feet takes damage of your Archaic Element type
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: The creature has Resistance to that damage; you gain Temporary Hit Points equal to the damage it takes (enter the amount).
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,20 +74,42 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: ''
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
       roll:
-        formula: ''
-        name: ''
         prompt: false
         visible: false
+        name: ''
+        formula: ''
   enchant: {}
   identifier: calamity-touched
   advancement: {}

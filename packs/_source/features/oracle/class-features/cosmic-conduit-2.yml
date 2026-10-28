@@ -108,7 +108,7 @@ system:
           number: 1
         bonus: '@abilities.wis.mod'
         modifiers: []
-      name: 'Divine Spark: Heal'
+      name: 'Cosmic Pulse: Heal'
       img: ''
       visibility:
         level:
@@ -122,7 +122,7 @@ system:
       flags: {}
     OY9UrTXvlRL0JUoI:
       type: save
-      name: 'Divine Spark: Save'
+      name: 'Cosmic Pulse: Save'
       _id: OY9UrTXvlRL0JUoI
       activation:
         type: action
@@ -277,7 +277,7 @@ system:
         level:
           min: null
           max: null
-        identifier: cleric
+        identifier: oracle
         requireMagic: true
         requireAttunement: false
         requireIdentification: false
@@ -355,7 +355,7 @@ system:
       behaviors: []
       flags: {}
       visibility:
-        identifier: cleric
+        identifier: oracle
         level:
           min: 5
           max: null

@@ -1,7 +1,7 @@
 _id: uqSD6Kti7yNjWZs6
 name: Gravgunner Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Machinist level specified in the Gravgunner Spells table, you thereafter always have the listed spells prepared. <em>Gravity Shackle</em>*, <em>Shield</em> <em>Levitate</em>,

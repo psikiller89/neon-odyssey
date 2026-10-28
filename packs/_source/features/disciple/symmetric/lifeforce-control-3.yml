@@ -28,7 +28,148 @@ system:
     repeatable: false
   properties: []
   requirements: Symmetric Disciple
-  activities: {}
+  activities:
+    fDcF5gQgQ8OoXcJD:
+      _id: fDcF5gQgQ8OoXcJD
+      type: heal
+      name: Redirect Vitality
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you spend an Essence Point on a Channeled Essence option (once per turn)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '@scale.disciple.die'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+    tnEuBn5Gd7ZITdCc:
+      _id: tnEuBn5Gd7ZITdCc
+      type: damage
+      name: Somber Cull
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Next creature you hit before the end of your next turn
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: true
+            formula: '@scale.disciple.die'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: lifeforce-control
   advancement: {}

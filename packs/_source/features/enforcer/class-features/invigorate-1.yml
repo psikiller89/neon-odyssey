@@ -17,7 +17,7 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: 5 * @classes.paladin.levels
+    max: 5 * @classes.enforcer.levels
     spent: 0
     recovery:
     - period: lr
@@ -43,7 +43,7 @@ system:
       consumption:
         scaling:
           allowed: true
-          max: 5 * @classes.paladin.levels - @item.uses.spent
+          max: 5 * @classes.enforcer.levels - @item.uses.spent
         spellSlot: true
         targets:
         - type: itemUses

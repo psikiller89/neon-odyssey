@@ -37,7 +37,7 @@ system:
   activities:
     2ghJTBhilLrFn9xT:
       type: utility
-      name: Flurry of Blows
+      name: Ensouled Strikes
       _id: 2ghJTBhilLrFn9xT
       activation:
         type: bonus
@@ -84,7 +84,7 @@ system:
         recovery: []
         max: ''
       sort: -100000
-      img: systems/dnd5e/icons/svg/action/attack.svg
+      img: systems/dnd5e/icons/svg/activity/attack.svg
       roll:
         name: ''
         formula: ''
@@ -94,7 +94,7 @@ system:
         level:
           min: null
           max: 9
-        identifier: monk
+        identifier: disciple
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -102,7 +102,7 @@ system:
       flags: {}
     7xj7b6e8tDznDSrE:
       type: utility
-      name: Patient Defense (Focus Point)
+      name: Measured Guard (Essence Point)
       _id: 7xj7b6e8tDznDSrE
       activation:
         type: bonus
@@ -128,13 +128,11 @@ system:
         value: '1'
         expiry: null
       effects:
-      - _id: s4ICA7r2jpREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.DovP6Uo8YmIohHeK
+      - _id: I4useNhBpKiOZxh1
         level:
           min: null
           max: null
-      - _id: YIFZ91amdhREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.yX7sz2cDadXezSp9
+      - _id: 31cDjUkNiarUKMJa
         level:
           min: null
           max: null
@@ -165,12 +163,12 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/action/dodge.svg
+      img: systems/dnd5e/icons/svg/activity/utility.svg
       visibility:
         level:
           min: null
           max: 9
-        identifier: monk
+        identifier: disciple
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -178,7 +176,7 @@ system:
       flags: {}
     EFzidO6yAapw8d60:
       type: utility
-      name: Patient Defense
+      name: Measured Guard
       activation:
         type: bonus
         value: null
@@ -199,8 +197,7 @@ system:
         expiry: null
         value: '1'
       effects:
-      - _id: g6EsrygI3mREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.DovP6Uo8YmIohHeK
+      - _id: I4useNhBpKiOZxh1
         level:
           min: null
           max: null
@@ -232,12 +229,12 @@ system:
         formula: ''
         name: ''
       _id: EFzidO6yAapw8d60
-      img: systems/dnd5e/icons/svg/action/disengage.svg
+      img: systems/dnd5e/icons/svg/activity/forward.svg
       visibility:
         level:
           min: null
           max: null
-        identifier: monk
+        identifier: disciple
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -245,7 +242,7 @@ system:
       flags: {}
     0MuRZ0Ur95xQTKFq:
       type: utility
-      name: Step of the Wind
+      name: Flowing Step
       _id: 0MuRZ0Ur95xQTKFq
       activation:
         type: bonus
@@ -266,8 +263,7 @@ system:
         override: false
         expiry: null
       effects:
-      - _id: pGmNwB1r9AREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.XoEv3BmHKAGLFX3m
+      - _id: 9tgOxoEp3pMpmhGY
         level:
           min: null
           max: null
@@ -311,7 +307,7 @@ system:
       flags: {}
     Iv2YrISquTZWEjjN:
       type: utility
-      name: Step of the Wind (Focus Point)
+      name: Flowing Step (Essence Point)
       activation:
         type: bonus
         value: null
@@ -335,13 +331,11 @@ system:
         override: false
         expiry: null
       effects:
-      - _id: dpu7JGuLcHREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.DovP6Uo8YmIohHeK
+      - _id: 90IYQ0SCcWJQK7tx
         level:
           min: null
           max: null
-      - _id: 0KmRUEKMbyREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.XoEv3BmHKAGLFX3m
+      - _id: 9tgOxoEp3pMpmhGY
         level:
           min: null
           max: null
@@ -372,11 +366,11 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/action/move.svg
+      img: systems/dnd5e/icons/svg/action/dash.svg
       behaviors: []
       flags: {}
       visibility:
-        identifier: monk
+        identifier: disciple
         level:
           min: null
           max: 9
@@ -386,7 +380,7 @@ system:
       _id: Iv2YrISquTZWEjjN
     r0ou3Al6Dn3tgUC6:
       type: utility
-      name: Flurry of Blows (Heightened)
+      name: Ensouled Strikes (Amplified)
       activation:
         type: bonus
         value: null
@@ -432,7 +426,7 @@ system:
         recovery: []
         max: ''
       sort: 50000
-      img: systems/dnd5e/icons/svg/action/attack.svg
+      img: systems/dnd5e/icons/svg/activity/attack.svg
       roll:
         name: ''
         formula: ''
@@ -441,7 +435,7 @@ system:
       behaviors: []
       flags: {}
       visibility:
-        identifier: monk
+        identifier: disciple
         level:
           min: 10
           max: null
@@ -451,9 +445,9 @@ system:
       _id: r0ou3Al6Dn3tgUC6
     KpoKztsxm5yuJWk6:
       type: heal
-      name: Patient Defense (Focus Point, Heightened)
+      name: Measured Guard (Essence Point, Amplified)
       _id: KpoKztsxm5yuJWk6
-      img: systems/dnd5e/icons/svg/action/dodge.svg
+      img: systems/dnd5e/icons/svg/activity/utility.svg
       sort: 350000
       activation:
         type: bonus
@@ -479,13 +473,11 @@ system:
         override: false
         value: '1'
       effects:
-      - _id: 6391LFme34REMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.DovP6Uo8YmIohHeK
+      - _id: I4useNhBpKiOZxh1
         level:
           min: null
           max: null
-      - _id: qt1lHOyWJJREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.yX7sz2cDadXezSp9
+      - _id: 31cDjUkNiarUKMJa
         level:
           min: null
           max: null
@@ -517,7 +509,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: monk
+        identifier: disciple
       healing:
         types:
         - temphp
@@ -532,7 +524,7 @@ system:
         bonus: ''
     R3sqnBDwAjve0FvW:
       type: utility
-      name: Step of the Wind (Focus Point, Heightened)
+      name: Flowing Step (Essence Point, Amplified)
       activation:
         type: bonus
         value: null
@@ -556,13 +548,11 @@ system:
         override: false
         expiry: null
       effects:
-      - _id: 0rFfxtDAWtREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.DovP6Uo8YmIohHeK
+      - _id: 90IYQ0SCcWJQK7tx
         level:
           min: null
           max: null
-      - _id: c4WKXznfQhREMOTE
-        uuid: Compendium.dnd5e.effects.ActiveEffect.XoEv3BmHKAGLFX3m
+      - _id: 9tgOxoEp3pMpmhGY
         level: {}
       range:
         override: false
@@ -591,11 +581,11 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/action/move.svg
+      img: systems/dnd5e/icons/svg/action/dash.svg
       behaviors: []
       flags: {}
       visibility:
-        identifier: monk
+        identifier: disciple
         level:
           min: 10
           max: null
@@ -607,7 +597,144 @@ system:
   identifier: channeled-essence
   advancement: {}
   crewed: false
-effects: []
+effects:
+- name: 'Measured Guard: Disengaged'
+  type: base
+  _id: I4useNhBpKiOZxh1
+  img: systems/dnd5e/icons/svg/activity/forward.svg
+  system:
+    changes: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  start: null
+  duration:
+    value: 1
+    units: rounds
+    expiry: turnStart
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: false
+  statuses: []
+  showIcon: 1
+  flags:
+    neon-odyssey:
+      ceLocal: true
+      ceKey: Measured Guard:Disengaged
+  _key: '!items.effects!QHdr4349kBpi9t6H.I4useNhBpKiOZxh1'
+- name: 'Measured Guard: Dodging'
+  type: base
+  _id: 31cDjUkNiarUKMJa
+  img: systems/dnd5e/icons/svg/activity/utility.svg
+  system:
+    changes: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  start: null
+  duration:
+    value: 1
+    units: rounds
+    expiry: turnStart
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: false
+  statuses:
+  - dodging
+  showIcon: 1
+  flags:
+    neon-odyssey:
+      ceLocal: true
+      ceKey: Measured Guard:Dodging
+  _key: '!items.effects!QHdr4349kBpi9t6H.31cDjUkNiarUKMJa'
+- name: 'Flowing Step: Dashing'
+  type: base
+  _id: 9tgOxoEp3pMpmhGY
+  img: systems/dnd5e/icons/svg/action/dash.svg
+  system:
+    changes: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  start: null
+  duration:
+    value: null
+    units: turn
+    expiry: turnEnd
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: false
+  statuses: []
+  showIcon: 1
+  flags:
+    neon-odyssey:
+      ceLocal: true
+      ceKey: Flowing Step:Dashing
+  _key: '!items.effects!QHdr4349kBpi9t6H.9tgOxoEp3pMpmhGY'
+- name: 'Flowing Step: Disengaged'
+  type: base
+  _id: 90IYQ0SCcWJQK7tx
+  img: systems/dnd5e/icons/svg/activity/forward.svg
+  system:
+    changes: []
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: false
+  start: null
+  duration:
+    value: 1
+    units: rounds
+    expiry: turnStart
+    expired: false
+  description: ''
+  origin: null
+  tint: '#ffffff'
+  transfer: false
+  statuses: []
+  showIcon: 1
+  flags:
+    neon-odyssey:
+      ceLocal: true
+      ceKey: Flowing Step:Disengaged
+  _key: '!items.effects!QHdr4349kBpi9t6H.90IYQ0SCcWJQK7tx'
 flags:
   neon-odyssey:
     srcIdentifier: monks-focus

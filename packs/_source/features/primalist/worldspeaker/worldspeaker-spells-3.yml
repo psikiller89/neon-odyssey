@@ -1,7 +1,7 @@
 _id: kde3Xfl41qwUqgi8
 name: Worldspeaker Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Primalist level specified in the Worldspeaker Spells table, you thereafter always have the listed spells prepared. <em>Barbed Lure</em>*, <em>Chromatic Orb</em>, <em>Entangle</em>,

@@ -33,29 +33,34 @@ system:
     04z83oXFOoVEDgaI:
       _id: 04z83oXFOoVEDgaI
       type: attack
-      name: ''
+      name: Fire Ray Gun
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: Magic action
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:experimental-composition
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: On a hit, use Roll Ray Effect (1d6) or spend a Composition to choose.
       duration:
         units: inst
         concentration: false
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '90'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -63,10 +68,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -86,10 +91,1171 @@ system:
           bonus: ''
         includeBase: false
         parts: []
+    d9KaADyaPlMd5y5r:
+      _id: d9KaADyaPlMd5y5r
+      type: utility
+      name: Roll Ray Effect (1d6)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: On a hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: 1 Sleep, 2 Hold Person, 3 Ray of Enfeeblement, 4 Slow, 5 Bestow Curse, 6 Fear.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d6
+        name: Ray Gun Effect
+        prompt: false
+        visible: true
+    xgWQS9JVZxB4NAfk:
+      _id: xgWQS9JVZxB4NAfk
+      type: utility
+      name: Choose Effect (+1 Composition)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: On a hit, instead of rolling
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:experimental-composition
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    cqDfTRAcndP2GM2y:
+      _id: cqDfTRAcndP2GM2y
+      type: utility
+      name: '1: Sleep'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: 9gSjgF4d8aB8OfLW
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    evq50c7yEQDobQmU:
+      _id: evq50c7yEQDobQmU
+      type: utility
+      name: '2: Hold Person'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: ay4vAnOGf9V5rwUc
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    8sjGzHLGR7KgLQD9:
+      _id: 8sjGzHLGR7KgLQD9
+      type: utility
+      name: '3: Ray of Enfeeblement'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: gE5RV4Eaa1kQiVn7
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    y86LSNpzQbKqy6zu:
+      _id: y86LSNpzQbKqy6zu
+      type: utility
+      name: '4: Slow'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: txjfYGHmQh87EsSA
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    J50rhe3YnwwztBbX:
+      _id: J50rhe3YnwwztBbX
+      type: utility
+      name: '5: Bestow Curse'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: FUVKS45bFwtbDuwd
+        onSave: false
+      - _id: uKArhJZ7aNEfQWG4
+        onSave: false
+      - _id: 8pvO2nI39CTCYmgh
+        onSave: false
+      - _id: JMofWBd0RUhS89sU
+        onSave: false
+      - _id: Ov89PAsZ1zDy0MfI
+        onSave: false
+      - _id: KvkbTLBd4da7M94G
+        onSave: false
+      - _id: NOBx0tU72zhmLoMG
+        onSave: false
+      - _id: d44GtV44a6T6EYJ8
+        onSave: false
+      - _id: Z7YL2gFGOrKakUrP
+        onSave: false
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    RfxGgvWM7tgPN8n1:
+      _id: RfxGgvWM7tgPN8n1
+      type: utility
+      name: '6: Fear'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Ray Gun hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: 7473zrgxbPUqVFrG
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '90'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    iD6HA507DEBEbpNk:
+      _id: iD6HA507DEBEbpNk
+      type: utility
+      name: End Check (1d6, ends on 1)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Start of each of your turns
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d6
+        name: 'Ray Gun: does the effect end? (1 = ends)'
+        prompt: false
+        visible: true
   enchant: {}
   identifier: ray-gun
   advancement: {}
-effects: []
+effects:
+- _id: 9gSjgF4d8aB8OfLW
+  name: 'Ray Gun: Sleep'
+  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: '<p>Unconscious (Sleep). Ends if it takes damage or someone uses an action to wake it. No Concentration; lasts 1 minute. At the start of each of your turns roll 1d6: on a 1 the effect ends.</p>'
+  tint: '#ffffff'
+  statuses:
+  - incapacitated
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.9gSjgF4d8aB8OfLW'
+- _id: ay4vAnOGf9V5rwUc
+  name: 'Ray Gun: Hold Person'
+  img: systems/dnd5e/icons/svg/statuses/paralyzed.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: '<p>Paralyzed (Hold Person). Repeats the save at the end of each of its turns. No Concentration; lasts 1 minute. At the start of each of your turns roll 1d6: on a 1 the effect ends.</p>'
+  tint: '#ffffff'
+  statuses:
+  - paralyzed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.ay4vAnOGf9V5rwUc'
+- _id: gE5RV4Eaa1kQiVn7
+  name: 'Ray Gun: Ray of Enfeeblement'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.mwak.damage
+      priority: null
+      type: add
+      phase: initial
+      value: '- 1d8'
+      _id: 9LCLVDcjRkjzIJsY
+    - key: system.bonuses.rwak.damage
+      priority: null
+      type: add
+      phase: initial
+      value: '- 1d8'
+      _id: AXx8fnptF8ibCGGQ
+    - key: system.bonuses.msak.damage
+      priority: null
+      type: add
+      phase: initial
+      value: '- 1d8'
+      _id: O0eTMoJ1b0UZohA2
+    - key: system.bonuses.rsak.damage
+      priority: null
+      type: add
+      phase: initial
+      value: '- 1d8'
+      _id: 1vsqWmwdp6bwf9BR
+    - key: system.abilities.str.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: aZFOixqJgfwzSspy
+    - key: system.abilities.str.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: 6Qkcncr6Xrbq0Kcm
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: '<p>Disadvantage on Strength-based D20 Tests; its Strength-based attacks deal 1d8 less damage. No Concentration; lasts 1 minute. At the start of each of your turns roll 1d6: on a 1 the effect
+    ends.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.gE5RV4Eaa1kQiVn7'
+- _id: txjfYGHmQh87EsSA
+  name: 'Ray Gun: Slow'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.ac.bonus
+      priority: null
+      type: add
+      phase: initial
+      value: '-2'
+      _id: nYSVJGXHJppbRjiA
+    - key: system.attributes.movement.multiplier
+      priority: null
+      type: multiply
+      phase: initial
+      value: '0.5'
+      _id: lV29SDtxgdTcwqzU
+    - key: system.abilities.dex.bonuses.save
+      priority: null
+      type: add
+      phase: initial
+      value: '-2'
+      _id: dqtqlGvFfMi1g5CI
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: '<p>Speed halved, -2 AC and Dexterity saves, no Reactions, only an action or a Bonus Action on its turn, max one attack. No Concentration; lasts 1 minute. At the start of each of your turns
+    roll 1d6: on a 1 the effect ends.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.txjfYGHmQh87EsSA'
+- _id: 7473zrgxbPUqVFrG
+  name: 'Ray Gun: Fear'
+  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: '<p>Frightened (Fear): drops what it holds and must Dash away from you. No Concentration; lasts 1 minute. At the start of each of your turns roll 1d6: on a 1 the effect ends.</p>'
+  tint: '#ffffff'
+  statuses:
+  - frightened
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.7473zrgxbPUqVFrG'
+- _id: FUVKS45bFwtbDuwd
+  name: 'Ray Gun: Bestow Curse (Charisma)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.cha.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: PUPDxa185Y8TIWR2
+    - key: system.abilities.cha.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: wwoCCvg3AaKSp5td
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.FUVKS45bFwtbDuwd'
+- _id: uKArhJZ7aNEfQWG4
+  name: 'Ray Gun: Bestow Curse (Constitution)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.con.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: oPfOnumdUME0EYm3
+    - key: system.abilities.con.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: V0wV1NaHnXhZ47W2
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.uKArhJZ7aNEfQWG4'
+- _id: 8pvO2nI39CTCYmgh
+  name: 'Ray Gun: Bestow Curse (Dexterity)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.dex.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: dBPBc1yYNXpH4GZz
+    - key: system.abilities.dex.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: dJoVMl1b1mQP4keD
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.8pvO2nI39CTCYmgh'
+- _id: JMofWBd0RUhS89sU
+  name: 'Ray Gun: Bestow Curse (Intelligence)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.int.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: gWyoaUws48ZfoRUM
+    - key: system.abilities.int.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: r4YC1DFcT00i6ait
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.JMofWBd0RUhS89sU'
+- _id: Ov89PAsZ1zDy0MfI
+  name: 'Ray Gun: Bestow Curse (Strength)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.str.check.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: rD1dJv6GA3JaTN2U
+    - key: system.abilities.str.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: en9VXSYuhVJNx1Hr
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.Ov89PAsZ1zDy0MfI'
+- _id: KvkbTLBd4da7M94G
+  name: 'Ray Gun: Bestow Curse (Wisdom)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.wis.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: 8xgQjvJ3w8Jo008p
+    - key: system.abilities.wis.save.roll.mode
+      priority: null
+      type: add
+      phase: initial
+      value: '-1'
+      _id: 8xgQjvJ3w8Jo008p
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.KvkbTLBd4da7M94G'
+- _id: NOBx0tU72zhmLoMG
+  name: 'Ray Gun: Bestow Curse (Attacks)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>The target has Disadvantage on attack rolls against you.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.NOBx0tU72zhmLoMG'
+- _id: d44GtV44a6T6EYJ8
+  name: 'Ray Gun: Bestow Curse (Actions)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>In combat, the target must succeed on a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of each of its turns or be forced to take the &amp;Reference[Dodge] action
+    on that turn.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.d44GtV44a6T6EYJ8'
+- _id: Z7YL2gFGOrKakUrP
+  name: 'Ray Gun: Bestow Curse (Resilience)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: turnStart
+    expired: false
+  description: <p>If you deal damage to the target with an attack roll or a spell, the target takes an extra [[/damage 1d8 type=necrotic]] damage.</p>
+  tint: '#ffffff'
+  statuses:
+  - cursed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3wezpt1IMtBDH9IW.Z7YL2gFGOrKakUrP'
 folder: F8X7I1SODp46VLHw
 sort: 0
 _stats:

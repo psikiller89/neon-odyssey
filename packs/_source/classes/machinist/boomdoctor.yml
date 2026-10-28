@@ -105,6 +105,26 @@ system:
             number: 2
             faces: 8
       value: {}
+    wS5pE8svokY0oTBH:
+      _id: wS5pE8svokY0oTBH
+      type: ScaleValue
+      level: 0
+      title: Impromptu Bomb Radius
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        identifier: radius
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '3':
+            value: 10
+          '9':
+            value: 20
+      value: {}
   spellcasting:
     progression: none
     ability: ''

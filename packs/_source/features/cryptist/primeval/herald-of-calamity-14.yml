@@ -19,9 +19,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -31,11 +33,229 @@ system:
     repeatable: false
   properties: []
   requirements: Primeval Cryptist
-  activities: {}
+  activities:
+    m8sEktHtY4YCNDF7:
+      _id: m8sEktHtY4YCNDF7
+      type: cast
+      name: Earthquake (free)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplEarthquake
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 8
+    isMmyOeBpdGjguFE:
+      _id: isMmyOeBpdGjguFE
+      type: save
+      name: Elemental Fissure (3d10)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature in a fissure fails its save against Earthquake
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: 'Acid: Poisoned; Cold: Speed -10 ft; Fire: starts burning; Lightning: no Reactions; Thunder: Deafened (until the start of your next turn).'
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '500'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        onSave: half
+        parts:
+        - number: 3
+          denomination: 10
+          bonus: ''
+          types:
+          - acid
+          - cold
+          - fire
+          - lightning
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
   enchant: {}
   identifier: herald-of-calamity
   advancement: {}
-effects: []
+effects:
+- _id: jPgfYvTi2q9iFx92
+  name: Deafened
+  img: systems/dnd5e/icons/svg/statuses/deafened.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - deafened
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!eutxTvRoUMHgExno.jPgfYvTi2q9iFx92'
+- _id: xXQT9bAlivsu7thk
+  name: Poisoned
+  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+  type: base
+  system:
+    changes: []
+  statuses:
+  - poisoned
+  transfer: false
+  disabled: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  origin: null
+  tint: '#ffffff'
+  sort: 0
+  flags: {}
+  description: ''
+  showIcon: 1
+  start: null
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!eutxTvRoUMHgExno.xXQT9bAlivsu7thk'
 folder: GbtuPVeZCva4hK75
 sort: 0
 _stats:

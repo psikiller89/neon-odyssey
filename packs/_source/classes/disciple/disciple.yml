@@ -200,7 +200,7 @@ system:
       value: {}
       hint: ''
       flags: {}
-      name: Martial Arts
+      name: Combat Tradition
       classRestriction: ''
     wMwMS7RC49lh1hp2:
       _id: wMwMS7RC49lh1hp2
@@ -326,7 +326,7 @@ system:
       hint: ''
       flags: {}
       classRestriction: ''
-      name: Focus Points
+      name: Essence Points
     29Ufd0MpG7PBckVs:
       type: AbilityScoreImprovement
       _id: 29Ufd0MpG7PBckVs

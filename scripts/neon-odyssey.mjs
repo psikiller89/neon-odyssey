@@ -85,3 +85,13 @@ Hooks.once("init", () => {
     armored: false
   };
 });
+
+/* Mutually exclusive effects (e.g. Symmetric Vital/Somber balance): applying one removes the others in its group. */
+Hooks.on("createActiveEffect", async (effect, options, userId) => {
+  if ( userId !== game.user.id ) return;
+  const group = effect.getFlag("neon-odyssey", "exclusive");
+  const actor = effect.target ?? (effect.parent instanceof Actor ? effect.parent : null);
+  if ( !group || !(actor instanceof Actor) ) return;
+  const others = actor.appliedEffects.filter(e => (e.id !== effect.id) && (e.getFlag("neon-odyssey", "exclusive") === group));
+  for ( const e of others ) await e.delete();
+});

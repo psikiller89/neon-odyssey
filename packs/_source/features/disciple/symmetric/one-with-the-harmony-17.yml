@@ -30,31 +30,39 @@ system:
   properties: []
   requirements: Symmetric Disciple
   activities:
-    HKw8Ii6Z5RkHCMdc:
-      _id: HKw8Ii6Z5RkHCMdc
-      type: save
-      name: ''
+    GijyQjk7hUaZTIFc:
+      _id: GijyQjk7hUaZTIFc
+      type: utility
+      name: Leveled Scales (1 Essence)
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: On your turn, no action required
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:channeled-essence
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -64,23 +72,78 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    tC1y9oZFRVRbSAKR:
+      _id: tC1y9oZFRVRbSAKR
+      type: utility
+      name: Harmonic Realignment
+      img: ''
       sort: 0
-      save:
-        ability:
-        - con
-        dc:
-          calculation: wis
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You take Necrotic or Radiant damage, or make a Constitution saving throw
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: one-with-the-harmony
   advancement: {}

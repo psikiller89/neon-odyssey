@@ -1,7 +1,7 @@
 _id: SktjjLeaI6MB52jF
 name: Hivemind Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Primalist level specified in the Hivemind Spells table, you thereafter always have the listed spells determined by your Discordant Tone prepared.</p>

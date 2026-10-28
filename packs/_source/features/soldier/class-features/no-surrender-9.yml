@@ -74,7 +74,7 @@ system:
         prompt: false
         visible: false
         name: Bonus
-        formula: '@classes.fighter.levels'
+        formula: '@classes.soldier.levels'
       name: ''
   enchant: {}
   identifier: no-surrender

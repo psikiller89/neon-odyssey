@@ -34,57 +34,147 @@ system:
   properties: []
   requirements: Primeval Cryptist
   activities:
-    HiAO1Ul79qmaErLf:
-      _id: HiAO1Ul79qmaErLf
+    D2S1DafDE7QOEH6h:
+      _id: D2S1DafDE7QOEH6h
       type: utility
-      name: ''
+      name: Primordial Barrier
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: You or an ally within 10 feet is targeted by an attack roll
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
+      description:
+        chatFlavor: You and allies in the barrier have Half Cover.
+      duration:
+        units: turn
+        value: '1'
+        concentration: false
+        override: false
+        special: Until the end of your next turn
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '10'
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    V0SNgX1tYGpoCzx6:
+      _id: V0SNgX1tYGpoCzx6
+      type: damage
+      name: Primordial Barrier Ends (2d8)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When the barrier ends
+      consumption:
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '10'
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - acid
+          - cold
+          - fire
+          - lightning
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: one-with-the-cataclysm
   advancement: {}

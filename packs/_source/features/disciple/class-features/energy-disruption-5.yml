@@ -36,7 +36,7 @@ system:
         type: special
         value: null
         override: false
-        condition: Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike
+        condition: Once per turn when you hit a creature with a Disciple weapon or an Unarmed Strike
       consumption:
         scaling:
           allowed: false

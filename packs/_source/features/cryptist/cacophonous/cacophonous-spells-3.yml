@@ -1,7 +1,7 @@
 _id: l7exvNzvRpywADGa
 name: Cacophonous Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Cryptist level specified in the Cacophonous Spells table, you thereafter always have the listed Cacophony spells and the spells for your tone of discord prepared.</p>

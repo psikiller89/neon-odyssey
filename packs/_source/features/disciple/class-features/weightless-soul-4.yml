@@ -78,7 +78,7 @@ system:
         - healing
         custom:
           enabled: true
-          formula: 5 * @classes.monk.levels
+          formula: 5 * @classes.disciple.levels
         scaling:
           number: 1
         bonus: ''

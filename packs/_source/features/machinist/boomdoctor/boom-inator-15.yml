@@ -34,61 +34,250 @@ system:
   properties: []
   requirements: Boomdoctor Machinist
   activities:
-    1TiGkKTF4gKOPxFS:
-      _id: 1TiGkKTF4gKOPxFS
+    8IiMUoQjSfJXImfH:
+      _id: 8IiMUoQjSfJXImfH
       type: save
-      name: ''
+      name: Big Boom
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: Magic action, or Reaction when you would drop to 0 HP
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '30'
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        onSave: half
+        parts:
+        - number: 5
+          denomination: 8
+          bonus: ''
+          types:
+          - acid
+          - cold
+          - fire
+          - lightning
+          - piercing
+          - poison
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        - number: 5
+          denomination: 8
+          bonus: ''
+          types:
+          - acid
+          - cold
+          - fire
+          - lightning
+          - piercing
+          - poison
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       save:
         ability:
         - dex
         dc:
           calculation: spellcasting
           formula: ''
-      damage:
-        onSave: half
-        parts: []
+    V7zxMUyfOt4lHslh:
+      _id: V7zxMUyfOt4lHslh
+      type: utility
+      name: Chaos Boom
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: Magic action, or Reaction when you would drop to 0 HP
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Pick a Ray Gun spell (Sleep, Hold Person, Ray of Enfeeblement, Slow, Bestow Curse, Fear); each creature in the Emanation is targeted (your spell save DC), no Concentration, 1 minute.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    qDTIuDBGaT4ojaeI:
+      _id: qDTIuDBGaT4ojaeI
+      type: heal
+      name: Cure-All Boom
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: Magic action, or Reaction when you would drop to 0 HP
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: 5
+        denomination: 8
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: boom-inator
   advancement: {}

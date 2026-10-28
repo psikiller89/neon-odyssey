@@ -17,9 +17,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -30,31 +32,39 @@ system:
   properties: []
   requirements: Boomdoctor Machinist
   activities:
-    jeVR9sosfQWz0Zkb:
-      _id: jeVR9sosfQWz0Zkb
-      type: utility
-      name: ''
+    ZnpEQRzzU1NOgrb1:
+      _id: ZnpEQRzzU1NOgrb1
+      type: cast
+      name: 'Boomsday Device: Confusion'
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: While holding Chemist’s Supplies
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -64,19 +74,240 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 4
+    JTj0Q9Acb893HxFO:
+      _id: JTj0Q9Acb893HxFO
+      type: cast
+      name: 'Boomsday Device: Dimension Door'
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: While holding Chemist’s Supplies
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 4
+    JWNsGO83lWmxwb1A:
+      _id: JWNsGO83lWmxwb1A
+      type: cast
+      name: 'Boomsday Device: Greater Invisibility'
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: While holding Chemist’s Supplies
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 4
+    tH5BAmzyZjeYwCzo:
+      _id: tH5BAmzyZjeYwCzo
+      type: cast
+      name: 'Boomsday Device: Polymorph'
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: While holding Chemist’s Supplies
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplPolymorph0
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 4
   enchant: {}
   identifier: inspired-invention
   advancement:

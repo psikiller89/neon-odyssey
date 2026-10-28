@@ -94,7 +94,7 @@ system:
         name: ''
         formula: ''
       name: Unleash Magic
-      img: systems/dnd5e/icons/svg/action/magic.svg
+      img: systems/dnd5e/icons/svg/activity/cast.svg
       visibility:
         level:
           min: null

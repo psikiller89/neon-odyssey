@@ -71,7 +71,7 @@ system:
   - lgt
   mastery: nick
   uses:
-    max: '25'
+    max: ''
     spent: 0
     recovery: []
   magicalBonus: null
@@ -123,7 +123,7 @@ system:
         max: ''
       sort: 0
       attack:
-        ability: ''
+        ability: dex
         bonus: ''
         critical:
           threshold: null
@@ -134,8 +134,22 @@ system:
       damage:
         critical:
           bonus: ''
-        includeBase: true
-        parts: []
+        includeBase: false
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types: &id001
+          - slashing
+          - necrotic
+          - radiant
+          custom:
+            enabled: true
+            formula: '@scale.disciple.die + @mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
     KLVuEJ1HMKTolbQE:
       _id: KLVuEJ1HMKTolbQE
       type: attack
@@ -174,7 +188,7 @@ system:
         max: ''
       sort: 0
       attack:
-        ability: ''
+        ability: dex
         bonus: ''
         critical:
           threshold: null
@@ -185,8 +199,19 @@ system:
       damage:
         critical:
           bonus: ''
-        includeBase: true
-        parts: []
+        includeBase: false
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types: *id001
+          custom:
+            enabled: true
+            formula: '@scale.disciple.die + @mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   identifier: harmonic-saber
 effects: []
 folder: REWshjqiTR81HmVP

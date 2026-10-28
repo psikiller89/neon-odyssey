@@ -85,7 +85,7 @@ system:
           formula: ''
         scaling:
           number: 1
-        bonus: '@abilities.dex.mod + @classes.monk.levels'
+        bonus: '@abilities.dex.mod + @classes.disciple.levels'
         modifiers: []
       name: Reduce
       img: ''
@@ -177,7 +177,7 @@ system:
         level:
           min: null
           max: 12
-        identifier: monk
+        identifier: disciple
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
@@ -275,7 +275,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: monk
+        identifier: disciple
       _id: Idc1BbOMH5CiZis0
   enchant: {}
   identifier: centered-deflection

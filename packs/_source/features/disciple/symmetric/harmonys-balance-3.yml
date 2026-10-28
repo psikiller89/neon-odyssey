@@ -278,7 +278,9 @@ effects:
   tint: '#ffffff'
   statuses: []
   sort: 0
-  flags: {}
+  flags:
+    neon-odyssey:
+      exclusive: harmony-balance
   origin: null
   start: null
   showIcon: 1
@@ -323,7 +325,9 @@ effects:
   tint: '#ffffff'
   statuses: []
   sort: 0
-  flags: {}
+  flags:
+    neon-odyssey:
+      exclusive: harmony-balance
   origin: null
   start: null
   showIcon: 1

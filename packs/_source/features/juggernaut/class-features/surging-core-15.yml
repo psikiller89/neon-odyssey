@@ -101,8 +101,8 @@ system:
           type: recoverAll
         max: ''
       sort: 0
-      name: Regain Rage
-      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      name: Regain Surge
+      img: systems/dnd5e/icons/svg/activity/heal.svg
       visibility:
         level:
           min: null

@@ -85,7 +85,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      img: systems/dnd5e/icons/svg/activity/heal.svg
       visibility:
         level:
           min: null

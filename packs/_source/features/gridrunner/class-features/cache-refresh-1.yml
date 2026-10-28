@@ -87,7 +87,7 @@ system:
         prompt: false
         visible: false
         name: Combined Spell Levels
-        formula: ceil(@classes.wizard.levels / 2)
+        formula: ceil(@classes.gridrunner.levels / 2)
   enchant: {}
   identifier: cache-refresh
 effects: []

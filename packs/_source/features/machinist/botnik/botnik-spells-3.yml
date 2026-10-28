@@ -1,7 +1,7 @@
 _id: qHS8UPFp9tOy8wv1
 name: Botnik Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Machinist level specified in the Botnik Spells table, you thereafter always have the listed spells prepared. <em>Burning Hands, Grease</em> <em>Heat Metal, Scorching Ray</em>

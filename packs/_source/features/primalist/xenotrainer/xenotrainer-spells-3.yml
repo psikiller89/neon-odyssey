@@ -1,7 +1,7 @@
 _id: zg3ki4fYttik87XA
 name: Xenotrainer Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Primalist level specified in the Xenotrainer Spells table, you thereafter always have the listed spells prepared. <em>Aid</em>, <em>Barkskin</em>, <em>Healing Word</em>, <em>Shield

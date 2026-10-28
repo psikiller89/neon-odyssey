@@ -1,7 +1,7 @@
 _id: DyjWcsYU1IL70s5m
 name: Shadowtongue Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Cryptist level specified in the Shadowtongue Spells table, you thereafter always have the listed spells prepared. <em>Befriend</em>*, <em>Charm Person</em>, <em>Command</em>,

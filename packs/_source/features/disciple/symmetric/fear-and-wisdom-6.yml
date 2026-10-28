@@ -32,31 +32,39 @@ system:
   properties: []
   requirements: Symmetric Disciple
   activities:
-    vCeRa651fU0J9OcS:
-      _id: vCeRa651fU0J9OcS
-      type: utility
-      name: ''
+    bq9h1aP1uaJ3uKXD:
+      _id: bq9h1aP1uaJ3uKXD
+      type: cast
+      name: 'Mind Touch: Suggestion (3 Essence)'
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '3'
+          target: feat:channeled-essence
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,19 +74,102 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 2
+    0aT1uR92UTS6Wd7s:
+      _id: 0aT1uR92UTS6Wd7s
+      type: cast
+      name: 'Inevitable End: Fear (3 Essence)'
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '3'
+          target: feat:channeled-essence
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 3
   enchant: {}
   identifier: fear-and-wisdom
   advancement: {}

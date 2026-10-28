@@ -1,0 +1,129 @@
+_id: 617XfpqFccVeSS0K
+name: 'Archaic Element: Fire'
+type: feat
+img: icons/magic/fire/projectile-fireball-orange.webp
+system:
+  description:
+    value: <p><strong>Archaic Element (Fire).</strong> You have mastered Fire damage. You have Resistance to Fire damage. When you deal damage with a spell or a weapon, you can change the damage type to
+      Fire, and you ignore Resistance to Fire damage.</p><p><em>One with the Cataclysm:</em> if this is the element you chose for Immunity, enable the <strong>Fire Immunity</strong> effect (you can change
+      it when you finish a Long Rest).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: archaic-element-fire
+  advancement: {}
+effects:
+- _id: Jf0tpb6j3MiHesjK
+  name: 'Archaic Element: Fire Resistance'
+  img: icons/magic/fire/projectile-fireball-orange.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: CcPnBBq5flp8BkML
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!617XfpqFccVeSS0K.Jf0tpb6j3MiHesjK'
+- _id: KDV2LzrRYmSaLvcl
+  name: Fire Immunity (One with the Cataclysm)
+  img: icons/magic/fire/projectile-fireball-orange.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.di.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: LJCmCNxX7EjaIZqf
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!617XfpqFccVeSS0K.KDV2LzrRYmSaLvcl'
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!617XfpqFccVeSS0K'

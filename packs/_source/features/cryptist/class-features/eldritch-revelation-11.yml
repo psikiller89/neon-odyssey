@@ -69,10 +69,18 @@ system:
           '20':
             count: null
             replacement: true
-        pool: []
+        pool:
+        - uuid: Compendium.neon-odyssey.spells.Item.E7NAr81aQ2g4w95V
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCircleofDe
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCreateUnde
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEyebite000
+        - uuid: Compendium.neon-odyssey.spells.Item.s3mIoQpjg65n7FZ4
+        - uuid: Compendium.neon-odyssey.spells.Item.qwtGgMODGPGSpBCI
+        - uuid: Compendium.neon-odyssey.spells.Item.Pyw3Re6DMQ9GdzsU
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTrueSeeing
         restriction:
           list:
-          - class:warlock
+          - class:cryptist
           level: '6'
         spell:
           ability: []
@@ -117,10 +125,15 @@ system:
           '20':
             count: null
             replacement: true
-        pool: []
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFingerofDe
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplForcecage0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPlaneShift
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplEtherealne
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSequester0
         restriction:
           list:
-          - class:warlock
+          - class:cryptist
           level: '7'
         spell:
           ability: []
@@ -160,10 +173,17 @@ system:
           '20':
             count: null
             replacement: true
-        pool: []
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBefuddleme
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplClone00000
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDemiplane0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDominateMo
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGlibness00
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMindBlank0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordS
         restriction:
           list:
-          - class:warlock
+          - class:cryptist
           level: '8'
         spell:
           ability: []
@@ -197,10 +217,15 @@ system:
           '20':
             count: null
             replacement: true
-        pool: []
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplForesight0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGate000000
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplImprisonme
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordK
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTruePolymo
         restriction:
           list:
-          - class:warlock
+          - class:cryptist
           level: '9'
         spell:
           ability: []

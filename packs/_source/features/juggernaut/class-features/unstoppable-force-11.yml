@@ -161,7 +161,7 @@ system:
         - healing
         custom:
           enabled: true
-          formula: '@classes.barbarian.levels * 2'
+          formula: '@classes.juggernaut.levels * 2'
         scaling:
           number: 1
         bonus: ''

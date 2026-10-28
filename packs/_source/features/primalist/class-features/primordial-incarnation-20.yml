@@ -49,7 +49,7 @@ system:
             mode: ''
         - type: itemUses
           value: '1'
-          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          target: feat:primal-channel
           scaling:
             mode: amount
         - type: spellSlots
@@ -115,7 +115,7 @@ system:
         targets:
         - type: itemUses
           value: '-1'
-          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          target: feat:primal-channel
           scaling: {}
         scaling:
           allowed: false

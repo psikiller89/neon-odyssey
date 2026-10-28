@@ -87,7 +87,7 @@ system:
           enabled: false
         scaling:
           number: 1
-        bonus: '@classes.fighter.levels'
+        bonus: '@classes.soldier.levels'
       name: ''
   enchant: {}
   identifier: frontline-rally

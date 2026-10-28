@@ -44,7 +44,7 @@ system:
         targets:
         - type: itemUses
           value: '1'
-          target: Compendium.dnd5e.classes24.Item.phbwlkMagicalCun
+          target: feat:cryptic-guile
           scaling: {}
         - type: attribute
           value: -(@spells.pact.max)

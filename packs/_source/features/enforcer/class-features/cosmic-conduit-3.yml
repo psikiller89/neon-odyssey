@@ -40,7 +40,7 @@ system:
   activities:
     kjHydAAcspH9wVPI:
       type: utility
-      name: Divine Sense
+      name: Vigilance
       _id: kjHydAAcspH9wVPI
       activation:
         type: bonus
@@ -116,7 +116,7 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Divine Sense
+- name: Vigilance
   img: icons/magic/holy/saint-glass-portrait-halo.webp
   _id: hr8wnlgs3uXphCnI
   type: base

@@ -119,7 +119,7 @@ system:
       type: utility
       name: Forceful Blow
       _id: WKgVJp5AQRLqOlDh
-      img: systems/dnd5e/icons/svg/action/push.svg
+      img: systems/dnd5e/icons/svg/activity/utility.svg
       sort: 100000
       activation:
         type: ''
@@ -179,7 +179,7 @@ system:
       type: utility
       name: Hamstring Blow
       _id: l33Ty0yfpOXRiLve
-      img: systems/dnd5e/icons/svg/action/attack.svg
+      img: systems/dnd5e/icons/svg/activity/attack.svg
       sort: 200000
       activation:
         type: ''
@@ -305,7 +305,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: barbarian
+        identifier: juggernaut
       _id: vcAdrcmUKQWA68QT
     MP1qQsApCj19F2M5:
       type: utility
@@ -372,7 +372,7 @@ system:
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: barbarian
+        identifier: juggernaut
       _id: MP1qQsApCj19F2M5
   enchant: {}
   identifier: kinetic-impact

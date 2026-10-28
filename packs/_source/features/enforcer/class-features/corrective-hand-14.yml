@@ -40,7 +40,7 @@ system:
       consumption:
         scaling:
           allowed: true
-          max: '@classes.paladin.levels'
+          max: '@classes.enforcer.levels'
         spellSlot: true
         targets:
         - type: itemUses

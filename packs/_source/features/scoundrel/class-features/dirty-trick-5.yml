@@ -152,7 +152,7 @@ system:
           formula: ''
     jR7KqMuPOZYUCDyO:
       type: damage
-      name: Cunning Sneak Attack
+      name: Dirty Trick
       _id: jR7KqMuPOZYUCDyO
       activation:
         type: ''

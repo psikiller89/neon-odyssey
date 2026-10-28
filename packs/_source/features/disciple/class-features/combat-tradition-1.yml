@@ -181,7 +181,7 @@ system:
   crewed: false
 effects:
 - type: enchantment
-  name: Dexterous Attacks & Martial Arts Damage
+  name: Dexterous Attacks & Combat Tradition Die
   img: icons/skills/melee/maneuver-sword-katana-yellow.webp
   disabled: true
   _id: VnV6opO1b3apq6wt
@@ -212,7 +212,7 @@ effects:
       conditions: '{}'
       replacement: ''
     - key: name
-      value: '{} (Martial Arts)'
+      value: '{} (Combat Tradition)'
       priority: null
       type: override
       phase: initial
@@ -231,10 +231,10 @@ effects:
     units: seconds
     expiry: null
     expired: false
-  description: <p><em><strong>Martial Arts Die.</strong></em> You can roll [[lookup @scale.disciple.die]] in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain
-    Monk levels, as shown in the Martial Arts column of the Monk Features table.</p><p><em><strong>Dexterous Attacks.</strong></em> You can use your Dexterity modifier instead of your Strength modifier
-    for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of
-    your Strength modifier to determine the save DC.</p><p></p>
+  description: <p><em><strong>Combat Tradition Die.</strong></em> You can roll [[lookup @scale.disciple.die]] in place of the normal damage of your Unarmed Strike or Disciple weapons. This die changes as
+    you gain Disciple levels, as shown in the Combat Tradition column of the Disciple Features table.</p><p><em><strong>Dexterous Attacks.</strong></em> You can use your Dexterity modifier instead of your
+    Strength modifier for the attack and damage rolls of your Unarmed Strikes and Disciple weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity
+    modifier instead of your Strength modifier to determine the save DC.</p><p></p>
   origin: null
   tint: '#ffffff'
   transfer: true

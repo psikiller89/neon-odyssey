@@ -90,7 +90,7 @@ system:
         - healing
         custom:
           enabled: true
-          formula: '@scale.disciple.die + @classes.monk.levels'
+          formula: '@scale.disciple.die + @classes.disciple.levels'
         scaling:
           number: 1
         bonus: ''

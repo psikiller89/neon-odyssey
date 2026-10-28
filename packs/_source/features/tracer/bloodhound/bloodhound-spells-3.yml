@@ -1,7 +1,7 @@
 _id: DAYzhb4cbH8WC9rv
 name: Bloodhound Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Tracer level specified in the Bloodhound Spells table, you thereafter always have the listed spells prepared. <em>Identify</em> <em>Detect Thoughts</em> <em>Speak with Dead</em>

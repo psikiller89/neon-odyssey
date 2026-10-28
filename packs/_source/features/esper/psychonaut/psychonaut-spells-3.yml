@@ -1,7 +1,7 @@
 _id: kiBdcJwSvvwcjycG
 name: Psychonaut Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach an Esper level specified in the Psychonaut Spells table, you thereafter always have the listed spells prepared. <em>Calm Emotions, Command</em>, <em>Detect Thoughts</em>, <em>Dissonant

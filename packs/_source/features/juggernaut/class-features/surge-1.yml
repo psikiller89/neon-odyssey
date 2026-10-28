@@ -138,7 +138,7 @@ effects:
   origin: Compendium.neon-odyssey.features.Item.uKbFSOh6dq9GNvRb
   tint: '#ffffff'
   transfer: true
-  name: Rage
+  name: Surge
   description: <p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either
     a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features
     table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>

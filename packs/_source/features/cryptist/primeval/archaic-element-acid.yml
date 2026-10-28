@@ -1,0 +1,129 @@
+_id: rR3nnkCp3Sh2avW2
+name: 'Archaic Element: Acid'
+type: feat
+img: icons/magic/acid/projectile-faceted-glob.webp
+system:
+  description:
+    value: <p><strong>Archaic Element (Acid).</strong> You have mastered Acid damage. You have Resistance to Acid damage. When you deal damage with a spell or a weapon, you can change the damage type to
+      Acid, and you ignore Resistance to Acid damage.</p><p><em>One with the Cataclysm:</em> if this is the element you chose for Immunity, enable the <strong>Acid Immunity</strong> effect (you can change
+      it when you finish a Long Rest).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: archaic-element-acid
+  advancement: {}
+effects:
+- _id: bS7htHr52sBbHh3I
+  name: 'Archaic Element: Acid Resistance'
+  img: icons/magic/acid/projectile-faceted-glob.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: pOHU4C9w3RbA2zce
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!rR3nnkCp3Sh2avW2.bS7htHr52sBbHh3I'
+- _id: xFKtA8RZe3mjFzHz
+  name: Acid Immunity (One with the Cataclysm)
+  img: icons/magic/acid/projectile-faceted-glob.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.di.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: eSkrDQ7HXiSfuR7E
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!rR3nnkCp3Sh2avW2.xFKtA8RZe3mjFzHz'
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!rR3nnkCp3Sh2avW2'

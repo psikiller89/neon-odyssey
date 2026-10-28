@@ -81,7 +81,7 @@ system:
           contiguous: false
           units: ft
           type: sphere
-          size: '10'
+          size: '@scale.boomdoctor.radius'
           count: ''
         affects:
           choice: false

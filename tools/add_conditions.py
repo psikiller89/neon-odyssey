@@ -6,7 +6,7 @@ n=0
 for f in glob.glob(os.path.join(OUT,'**','*.yml'),recursive=True):
     if f.endswith('_folder.yml') or '/bestiary/' in f or '/rules/' in f or '/spell-lists/' in f: continue
     d=yaml.safe_load(open(f)); s=d.get('system',{}); acts=s.get('activities') or {}
-    if not acts: continue
+    if not acts or d.get('flags',{}).get('neon-odyssey',{}).get('noAutoCond'): continue
     txt=re.sub('<[^>]+>',' ',s.get('description',{}).get('value',''))
     found=[c for c in CONDS if re.search(rf'(the|have the|has the|gains? the|give \w+ the) {c} condition',txt)]
     if not found: continue

@@ -62,7 +62,7 @@ system:
     2Jp92vyG556KHdzE:
       _id: 2Jp92vyG556KHdzE
       type: save
-      name: ''
+      name: Save (2d8 chosen element)
       activation:
         type: action
         value: null
@@ -78,11 +78,7 @@ system:
         chatFlavor: ''
       duration:
         override: false
-      effects:
-      - _id: qAzBIAMDAUEkb6A9
-        onSave: false
-      - _id: CSVA2G050xHi6GBY
-        onSave: false
+      effects: []
       range:
         override: false
       target:
@@ -107,6 +103,10 @@ system:
           bonus: ''
           types:
           - acid
+          - cold
+          - fire
+          - lightning
+          - thunder
           custom:
             enabled: false
             formula: ''
@@ -114,6 +114,91 @@ system:
             mode: ''
             number: null
             formula: ''
+    lqBWVqTz2f1ENpSm:
+      _id: lqBWVqTz2f1ENpSm
+      type: damage
+      name: 'Acid: extra 2d8 Acid (Speed halved)'
+      activation:
+        type: special
+        value: null
+        condition: Target fails the save
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      flags:
+        neon-odyssey:
+          ewRider: true
+    vorKk3JvPkXIx4rr:
+      _id: vorKk3JvPkXIx4rr
+      type: damage
+      name: 'Cold: extra 1d8 Cold (Disadvantage on D20 Tests)'
+      activation:
+        type: special
+        value: null
+        condition: Target fails the save
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 1
           denomination: 8
           bonus: ''
@@ -126,6 +211,44 @@ system:
             mode: ''
             number: null
             formula: ''
+      flags:
+        neon-odyssey:
+          ewRider: true
+    AU0aGN5pdDCcc2dA:
+      _id: AU0aGN5pdDCcc2dA
+      type: damage
+      name: 'Fire: burning 1d10 Fire'
+      activation:
+        type: special
+        value: null
+        condition: Target fails the save
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 1
           denomination: 10
           bonus: ''
@@ -138,76 +261,148 @@ system:
             mode: ''
             number: null
             formula: ''
+      flags:
+        neon-odyssey:
+          ewRider: true
+    XGkVGYh2vEv3GUl2:
+      _id: XGkVGYh2vEv3GUl2
+      type: damage
+      name: 'Thunder: extra 1d8 Thunder (Prone)'
+      activation:
+        type: special
+        value: null
+        condition: Target fails the save
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: VPJm3D1J4PBvaBCU
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      flags:
+        neon-odyssey:
+          ewRider: true
+    WHNol9jxHmaj8xOy:
+      _id: WHNol9jxHmaj8xOy
+      type: utility
+      name: 'Lightning: Incapacitated until start of its next turn'
+      activation:
+        type: special
+        value: null
+        condition: Target fails the save
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        override: false
+      effects:
+      - _id: 6t63iYrgR3ToX3wv
+        onSave: false
+      range:
+        override: false
+      target:
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: -1
+      flags:
+        neon-odyssey:
+          ewRider: true
+          ewLightning: true
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
   identifier: elemental-wrath
 effects:
-- _id: qAzBIAMDAUEkb6A9
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: 6t63iYrgR3ToX3wv
+  _key: '!items.effects!I55GXJPjj1aqzIIs.6t63iYrgR3ToX3wv'
+  name: 'Elemental Wrath: Lightning'
+  img: icons/magic/lightning/bolt-blue.webp
   type: base
   system:
     changes: []
   statuses:
   - incapacitated
-  transfer: false
   disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
+  transfer: false
   tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
+  origin: null
   showIcon: 1
   start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!I55GXJPjj1aqzIIs.qAzBIAMDAUEkb6A9'
-- _id: CSVA2G050xHi6GBY
-  name: Prone
+  duration:
+    value: 1
+    units: rounds
+    expiry: turnStart
+    expired: false
+  description: <p>Incapacitated until the start of its next turn.</p>
+  flags: {}
+- _id: VPJm3D1J4PBvaBCU
+  _key: '!items.effects!I55GXJPjj1aqzIIs.VPJm3D1J4PBvaBCU'
+  name: 'Elemental Wrath: Thunder'
   img: systems/dnd5e/icons/svg/statuses/prone.svg
   type: base
   system:
     changes: []
   statuses:
   - prone
-  transfer: false
   disabled: false
+  transfer: false
+  tint: '#ffffff'
+  origin: null
+  showIcon: 1
+  start: null
   duration:
     value: null
     units: seconds
     expiry: null
     expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
+  description: <p>Prone.</p>
   flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!I55GXJPjj1aqzIIs.CSVA2G050xHi6GBY'
 folder: 4YOkb2x3bEWecGUT
 sort: 0
 _stats:
@@ -220,7 +415,9 @@ _stats:
   duplicateSource: null
   exportSource: null
   compendiumSource: null
-flags: {}
+flags:
+  neon-odyssey:
+    noAutoCond: true
 ownership:
   default: 0
 _key: '!items!I55GXJPjj1aqzIIs'

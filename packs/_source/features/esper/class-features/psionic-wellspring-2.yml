@@ -110,7 +110,7 @@ system:
       flags: {}
     qAphJay1yKd7VWxH:
       type: utility
-      name: Regain Sorcery Points
+      name: Regain Psi Points
       _id: qAphJay1yKd7VWxH
       activation:
         type: ''
@@ -170,7 +170,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      img: systems/dnd5e/icons/svg/activity/heal.svg
       visibility:
         level:
           min: null

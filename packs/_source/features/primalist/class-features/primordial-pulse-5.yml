@@ -46,7 +46,7 @@ system:
           scaling: {}
         - type: itemUses
           value: '1'
-          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          target: feat:primal-channel
           scaling: {}
         - type: spellSlots
           value: '-1'
@@ -108,7 +108,7 @@ system:
         targets:
         - type: itemUses
           value: '-1'
-          target: Compendium.dnd5e.classes24.Item.phbdrdWildShape0
+          target: feat:primal-channel
           scaling:
             mode: ''
         - type: spellSlots
@@ -160,7 +160,7 @@ system:
         recovery: []
         max: ''
       sort: -100000
-      name: Regain Wild Shape
+      name: Regain Primal Channel
       _id: 7nAgPNN2dth7SR0D
       img: systems/dnd5e/icons/svg/abilities/intelligence.svg
   enchant: {}

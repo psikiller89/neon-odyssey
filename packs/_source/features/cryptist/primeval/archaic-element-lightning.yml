@@ -1,0 +1,129 @@
+_id: e7DTzpXNcYMoMLaO
+name: 'Archaic Element: Lightning'
+type: feat
+img: icons/magic/lightning/bolt-blue.webp
+system:
+  description:
+    value: <p><strong>Archaic Element (Lightning).</strong> You have mastered Lightning damage. You have Resistance to Lightning damage. When you deal damage with a spell or a weapon, you can change the
+      damage type to Lightning, and you ignore Resistance to Lightning damage.</p><p><em>One with the Cataclysm:</em> if this is the element you chose for Immunity, enable the <strong>Lightning Immunity</strong>
+      effect (you can change it when you finish a Long Rest).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Primeval Cryptist
+  activities: {}
+  enchant: {}
+  identifier: archaic-element-lightning
+  advancement: {}
+effects:
+- _id: PRs6uDXjFMtXh0rU
+  name: 'Archaic Element: Lightning Resistance'
+  img: icons/magic/lightning/bolt-blue.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: QCxfux5UcORrId7N
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!e7DTzpXNcYMoMLaO.PRs6uDXjFMtXh0rU'
+- _id: 1oAqbdxM4vTozndf
+  name: Lightning Immunity (One with the Cataclysm)
+  img: icons/magic/lightning/bolt-blue.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.di.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: binGaVPgm1GlPkoo
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!e7DTzpXNcYMoMLaO.1oAqbdxM4vTozndf'
+folder: GbtuPVeZCva4hK75
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!e7DTzpXNcYMoMLaO'

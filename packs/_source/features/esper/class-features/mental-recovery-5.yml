@@ -49,7 +49,7 @@ system:
           target: ''
           scaling: {}
         - type: itemUses
-          value: -(floor(@classes.sorcerer.levels / 2))
+          value: -(floor(@classes.esper.levels / 2))
           target: feat:psionic-wellspring
           scaling: {}
       description:
@@ -87,8 +87,8 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: Restore Sorcery Points
-      img: systems/dnd5e/icons/svg/action/restore-use.svg
+      name: Restore Psi Points
+      img: systems/dnd5e/icons/svg/activity/heal.svg
       visibility:
         level:
           min: null

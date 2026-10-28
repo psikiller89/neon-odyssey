@@ -1,7 +1,7 @@
 _id: 77VZ88xQ2kF63b0B
 name: Splicer Spells
 type: feat
-img: icons/sundries/books/book-embossed-bound-purple.webp
+img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
     value: <p>When you reach a Primalist level specified in the Splicer Spells table, you thereafter always have the listed spells prepared. <em>Acid Splash</em>,<em> Dragon’s Breath</em>, <em>Grease</em>,
