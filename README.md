@@ -105,6 +105,10 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Neon Odyssey character sheet:** pick "Neon Odyssey Sheet" in a character's Sheet configuration (or enable *Neon Odyssey Sheet by Default* in module settings). Neon/synthwave theme in a Tidy-style card layout, renamed tabs (Outrunner, Gear, Abilities, Spells, Status, Dossier), a Galactic Notes ($) panel, Computers/Technology quick-roll buttons, highlighted Computers and Technology skills, and Galactic Notes as the only currency shown. The standard dnd5e sheet is unchanged.
 - **Sci-fi icons:** every item and spell in the Equipment and Spells compendiums has a neon icon (items in rounded squares, spells in circles), chosen by item type/name and spell theme/school. Regenerate with `tools/neon_icons.py`.
 
+## v0.6.1
+
+- **Tidy 5e Sheets support:** with [Tidy 5e Sheets](https://github.com/kgar/foundry-vtt-tidy-5e-sheets) (14.x) active, its character sheet gets the Neon Odyssey look: neon pink/orange/yellow headers, cyan accents, synthwave background, highlighted Computers and Technology, a Galactic Notes ($) badge in the header, and Galactic Notes as the only currency in Inventory. Turn it off with *Neon Odyssey Theme for Tidy 5e* in module settings. Without Tidy, the Neon Odyssey Sheet from v0.6.0 is still available.
+
 ## Credits
 
 Item and spell icon glyphs are from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the neon styling was added for this module.

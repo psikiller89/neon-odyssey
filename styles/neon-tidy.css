@@ -1,0 +1,67 @@
+/* Neon Odyssey theme for Tidy 5e Sheets (applied when the module's Tidy theme setting is on). */
+.tidy5e-sheet.neon-tidy {
+  --neon-bg: #120826; --neon-panel: #1e1040; --neon-panel2: #2a1656; --neon-line: #5b34a6;
+  --neon-pink: #ff2e97; --neon-cyan: #2de2ff; --neon-yellow: #ffd31a; --neon-orange: #ff7a2f;
+  --neon-grad: linear-gradient(90deg, #ff2e97 0%, #ff7a2f 55%, #ffd31a 100%);
+  --t5e-theme-color-default: #ff2e97;
+  --t5e-color-red: #ff2e97;
+  --t5e-color-gold: var(--neon-cyan);
+  --t5e-color-text-gold: var(--neon-cyan);
+  --t5e-color-text-gold-emphasis: var(--neon-yellow);
+  --t5e-color-palette-gold-45: #2de2ff; --t5e-color-palette-gold-56: #4fe8ff; --t5e-color-palette-gold-62: #6aecff;
+  --t5e-color-palette-gold-75: #ffd31a; --t5e-color-palette-gold-89: #fff1a8;
+  --t5e-component-card-default: #22123f; --t5e-component-card-darker: #170b30; --t5e-component-card-lighter: #2d1855;
+  --t5e-component-card-dark-default: #22123f; --t5e-component-card-dark-darker: #140828; --t5e-component-card-dark-lighter: #2d1855;
+  --t5e-component-field-border: #5b34a6; --t5e-component-field-border-hover: var(--neon-cyan);
+  --t5e-component-field-background: #0d0620; --t5e-component-field-background-hover: #1b0d38;
+  --t5e-table-header-background-left: #ff2e97; --t5e-table-header-background-right: #ff7a2f;
+  --t5e-table-row-divider: #ffffff14;
+  --t5e-hp-bar-color: #ff2e97;
+  --t5e-button-border: #5b34a6;
+  --t5e-font-family-title: "Roboto Condensed", Roboto, Arial, sans-serif;
+  border: 1px solid var(--neon-pink);
+  box-shadow: 0 0 18px #ff2e9766, 0 0 2px var(--neon-cyan);
+}
+.tidy5e-sheet.neon-tidy .window-content, .tidy5e-sheet.neon-tidy .sheet-body {
+  background:
+    linear-gradient(transparent 96%, #2de2ff12 96%) 0 0 / 100% 28px,
+    linear-gradient(90deg, transparent 96%, #ff2e970e 96%) 0 0 / 28px 100%,
+    radial-gradient(ellipse at top, #2a0f55 0%, var(--neon-bg) 65%) !important;
+}
+.tidy5e-sheet.neon-tidy .sheet-header {
+  background: linear-gradient(135deg, #3a0c5c 0%, #5d1170 45%, #1a0a38 100%) !important;
+  border-bottom: 3px solid transparent; border-image: var(--neon-grad) 1;
+}
+.tidy5e-sheet.neon-tidy .sheet-header .actor-name {
+  font-style: italic; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 10px var(--neon-pink), 0 0 22px var(--neon-pink);
+}
+.tidy5e-sheet.neon-tidy .sheet-header img, .tidy5e-sheet.neon-tidy .sheet-header .ability-score, .tidy5e-sheet.neon-tidy .sheet-header .level-badge {
+  filter: drop-shadow(0 0 4px #2de2ff88);
+}
+.tidy5e-sheet.neon-tidy .sheet-header [class*="badge"], .tidy5e-sheet.neon-tidy .sheet-header .ability {
+  --t5e-ability-image: none; --t5e-initiative-image: none;
+}
+.tidy5e-sheet.neon-tidy .tidy-table-header-row {
+  background: var(--neon-grad) !important; --row-foreground-color: #1a0730; --row-foreground-color-lighter: #1a0730; color: #1a0730;
+  font-style: italic; border-radius: 4px;
+}
+.tidy5e-sheet.neon-tidy .tidy-table-row-container:hover, .tidy5e-sheet.neon-tidy .tidy-table-row:hover { box-shadow: inset 3px 0 0 var(--neon-cyan); background: #2de2ff10; }
+.tidy5e-sheet.neon-tidy .tab-option.active { color: var(--neon-pink); text-shadow: 0 0 8px var(--neon-pink); }
+.tidy5e-sheet.neon-tidy nav .tab-option:hover { color: var(--neon-cyan); }
+.tidy5e-sheet.neon-tidy [data-key="cmp"], .tidy5e-sheet.neon-tidy [data-key="tec"] { background: linear-gradient(90deg, #2de2ff1c, transparent); }
+.tidy5e-sheet.neon-tidy [data-key="cmp"] .name, .tidy5e-sheet.neon-tidy [data-key="tec"] .name,
+.tidy5e-sheet.neon-tidy [data-key="cmp"] a, .tidy5e-sheet.neon-tidy [data-key="tec"] a { color: var(--neon-cyan); text-shadow: 0 0 6px #2de2ff88; }
+/* Galactic Notes only */
+.tidy5e-sheet.neon-tidy .currency-container label.input-group:not(:has(.currency-gn)) { display: none; }
+.tidy5e-sheet.neon-tidy .currency-container label.input-group:has(.currency-gn) {
+  border: 1px solid var(--neon-yellow); border-radius: 6px; background: #0b0518; box-shadow: 0 0 8px #ffd31a44; padding-inline: 6px;
+}
+.tidy5e-sheet.neon-tidy i.currency.gn { background: none !important; display: inline-flex; align-items: center; justify-content: center; }
+.tidy5e-sheet.neon-tidy i.currency.gn::before { content: "$"; font-style: normal; font-weight: 900; color: var(--neon-yellow); text-shadow: 0 0 6px #ff7a2f; }
+.tidy5e-sheet.neon-tidy .currency-container .denomination.gn { color: var(--neon-yellow); }
+.tidy5e-sheet.neon-tidy .neon-tidy-credits {
+  display: inline-flex; align-items: center; gap: 4px; padding: 0 8px; border: 1px solid var(--neon-yellow); border-radius: 12px;
+  background: #0b0518cc; color: var(--neon-yellow); font-weight: 700; box-shadow: 0 0 6px #ffd31a55; white-space: nowrap;
+}
+.tidy5e-sheet.neon-tidy .neon-tidy-credits b { font-weight: 900; text-shadow: 0 0 6px #ff7a2f; }

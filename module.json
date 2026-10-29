@@ -1,8 +1,8 @@
 {
   "id": "neon-odyssey",
-  "title": "Neon Odyssey: Outrunner’s Handbook & Overdrive",
+  "title": "Neon Odyssey: Outrunner\u2019s Handbook & Overdrive",
   "description": "Neon Odyssey (Playtest v0.1.1) classes, subclasses, features, species, backgrounds, origin feats, spells and equipment for dnd5e 6.x with level-up Advancements and Activities.",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "authors": [
     {
       "name": "laurent"
@@ -22,11 +22,19 @@
           "verified": "6.0.6"
         }
       }
+    ],
+    "recommends": [
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "reason": "Neon Odyssey theme for Tidy 5e character sheets"
+      }
     ]
   },
   "esmodules": [
     "scripts/neon-odyssey.mjs",
-    "scripts/neon-sheet.mjs"
+    "scripts/neon-sheet.mjs",
+    "scripts/neon-tidy.mjs"
   ],
   "packs": [
     {
@@ -160,9 +168,10 @@
   },
   "url": "https://github.com/psikiller89/neon-odyssey",
   "manifest": "https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json",
-  "download": "https://github.com/psikiller89/neon-odyssey/releases/download/v0.6.0/neon-odyssey.zip",
+  "download": "https://github.com/psikiller89/neon-odyssey/releases/download/v0.6.1/neon-odyssey.zip",
   "bugs": "https://github.com/psikiller89/neon-odyssey/issues",
   "styles": [
-    "styles/neon-sheet.css"
+    "styles/neon-sheet.css",
+    "styles/neon-tidy.css"
   ]
 }
