@@ -1,7 +1,7 @@
 _id: mP2P2YVvdU5wR4Kv
 name: Concussion Maul
 type: weapon
-img: icons/weapons/hammers/hammer-double-stone-worn.webp
+img: modules/neon-odyssey/icons/neon/i-hammer-pink.webp
 system:
   quantity: 1
   weight:

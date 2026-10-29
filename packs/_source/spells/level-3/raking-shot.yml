@@ -1,7 +1,7 @@
 _id: 855Enaz0viH6nnpc
 name: Raking Shot
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You brandish the weapon used to cast the spell and conjure a withering crossfire in a 60-foot Cone. Each creature in that area makes a Dexterity saving throw. On a failed save, a target takes

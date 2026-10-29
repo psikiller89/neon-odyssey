@@ -1,7 +1,7 @@
 _id: 5UmoXEl4NssLfziq
 name: Hauling Pulley
 type: loot
-img: icons/tools/fishing/reel-brown-white.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: I05B20O9da7TngLR
 name: Handcuffs
 type: equipment
-img: icons/sundries/survival/cuffs-shackles-steel.webp
+img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
 system:
   quantity: 1
   weight:

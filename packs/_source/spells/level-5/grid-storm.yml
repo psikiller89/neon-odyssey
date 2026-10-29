@@ -1,7 +1,7 @@
 _id: 6pOg3gbpUqTr4M2Y
 name: Grid Storm
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-bolt-lightning-cyan.webp
 system:
   description:
     value: <p>You cause an electrical storm that disrupts access to the Hypergrid in a 20-foot Cube centered on a point you can see within range. While in this area, creatures have the Blinded and Deafened

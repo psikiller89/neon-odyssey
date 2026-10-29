@@ -1,7 +1,7 @@
 _id: Rt7adqDDyIE4taqD
 name: Spiking Deck
 type: tool
-img: icons/tools/hand/pickaxe-steel-white.webp
+img: modules/neon-odyssey/icons/neon/i-laptop-code-cyan.webp
 system:
   quantity: 1
   weight:

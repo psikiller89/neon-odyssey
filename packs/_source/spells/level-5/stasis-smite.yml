@@ -1,7 +1,7 @@
 _id: sX3gEXj8U5sShowb
 name: Stasis Smite
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>The target hit by the attack roll takes an extra 6d8 Radiant damage and must make a Charisma saving throw. On a failed save, the target is shunted halfway into the Overtone and frozen in stasis.

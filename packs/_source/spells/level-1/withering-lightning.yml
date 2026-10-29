@@ -1,7 +1,7 @@
 _id: 3NqjXkINWCjCeBSt
 name: Withering Lightning
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-bolt-lightning-cyan.webp
 system:
   description:
     value: <p>You unleash a torrent of lightning at a creature within range, which flows continuously from you to the target. The target’s Speed is halved, and it makes a Dexterity saving throw. On a failed

@@ -1,7 +1,7 @@
 _id: 8s9K5kTbz65RJb8D
 name: Meta Vitality
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-heart-pulse-green.webp
 system:
   description:
     value: '<p>You draw on your inner well of power to purge your body of detrimental effects. You can expend and roll up to two of your Hit Point Dice, and regain a number of Hit Points equal to the roll’s

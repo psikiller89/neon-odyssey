@@ -1,7 +1,7 @@
 _id: rASJHD2XMwwEUUJa
 name: Aura of Aether
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws against the Blinded,

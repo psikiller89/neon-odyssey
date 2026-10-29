@@ -1,7 +1,7 @@
 _id: ls9En7asIx46b5et
 name: Mechanic’s Tools
 type: tool
-img: icons/skills/trades/smithing-tongs-metal-red.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

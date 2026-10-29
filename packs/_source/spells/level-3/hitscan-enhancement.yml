@@ -1,7 +1,7 @@
 _id: r2faGt55NgFNGZjn
 name: Hitscan Enhancement
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-dna-green.webp
 system:
   description:
     value: <p>You touch a weapon and accelerate its next projectile. Until the spell ends, the next time that weapon is used to make a ranged attack roll, add +10 to the attack and damage rolls for that

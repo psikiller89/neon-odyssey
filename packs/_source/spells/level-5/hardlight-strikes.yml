@@ -1,7 +1,7 @@
 _id: mcZewDsqTqiFOTyA
 name: Hardlight Strikes
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-sun-yellow.webp
 system:
   description:
     value: <p>Chose up to five creatures you can see within range. A holographic copy of yourself appears within 5 feet of each of them, attacks, then vanishes. Make a melee spell attack against each target.

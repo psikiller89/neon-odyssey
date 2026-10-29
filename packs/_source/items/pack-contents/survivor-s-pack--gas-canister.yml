@@ -1,7 +1,7 @@
 _id: nY6rSBVRamUF1of0
 name: Gas Canister
 type: consumable
-img: icons/consumables/drinks/tea-jug-gourd-brown.webp
+img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
 system:
   quantity: 3
   weight:

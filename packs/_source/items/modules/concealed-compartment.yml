@@ -1,7 +1,7 @@
 _id: wer9adHAPzs515tU
 name: Concealed Compartment (Armor Module)
 type: loot
-img: icons/commodities/cloth/thread-spindle-white-needle.webp
+img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: E4yvQ5qKEY0jYfKB
 name: Breath Mask
 type: equipment
-img: icons/equipment/back/cloak-hooded-blue.webp
+img: modules/neon-odyssey/icons/neon/i-mask-face-teal.webp
 system:
   quantity: 1
   weight:

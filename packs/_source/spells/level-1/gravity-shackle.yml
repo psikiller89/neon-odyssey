@@ -1,7 +1,7 @@
 _id: eOpCtp43ySIqPJkE
 name: Gravity Shackle
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-meteor-orange.webp
 system:
   description:
     value: <p>You bind a creature you can see within range in crushing bands of gravity. The target makes a Strength saving throw. On a failed save, the target takes 1d10 Force damage, and its speed is

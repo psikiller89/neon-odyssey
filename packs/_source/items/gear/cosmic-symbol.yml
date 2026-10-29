@@ -1,7 +1,7 @@
 _id: W6LiL6PRkq1TzchD
 name: Cosmic Symbol
 type: loot
-img: icons/tools/navigation/map-chart-tan.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

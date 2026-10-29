@@ -1,7 +1,7 @@
 _id: kwGjft4LWMM7clzi
 name: Flashlight
 type: equipment
-img: icons/sundries/lights/lantern-steel.webp
+img: modules/neon-odyssey/icons/neon/i-lightbulb-yellow.webp
 system:
   quantity: 1
   weight:

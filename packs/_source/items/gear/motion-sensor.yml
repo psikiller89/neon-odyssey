@@ -1,7 +1,7 @@
 _id: SLVGpZt8q9sRVnz2
 name: Motion Sensor
 type: equipment
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-satellite-dish-teal.webp
 system:
   quantity: 1
   weight:

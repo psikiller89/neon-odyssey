@@ -1,7 +1,7 @@
 _id: O08lJ0gjo19eeFEJ
 name: Vibro Pike
 type: weapon
-img: icons/weapons/polearms/spear-hooked-spike.webp
+img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
 system:
   quantity: 1
   weight:

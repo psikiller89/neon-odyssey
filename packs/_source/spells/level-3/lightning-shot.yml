@@ -1,7 +1,7 @@
 _id: HbUcb0wLybmRxaR9
 name: Lightning Shot
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-bolt-lightning-cyan.webp
 system:
   description:
     value: <p>After your attack hits or misses the target, the weapon or ammunition you’re using transforms into an arcing spark of lightning. On a hit, the target takes an extra 2d6 Lightning damage, and

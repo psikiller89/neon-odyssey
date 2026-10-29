@@ -1,7 +1,7 @@
 _id: 469Ci9cfRjPurGvA
 name: Artist’s Supplies
 type: tool
-img: icons/tools/hand/brush-paint-brown-white.webp
+img: modules/neon-odyssey/icons/neon/i-palette-violet.webp
 system:
   quantity: 1
   weight:

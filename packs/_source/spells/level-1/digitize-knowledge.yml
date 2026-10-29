@@ -1,7 +1,7 @@
 _id: ttK7u5LSH0dOe6lw
 name: Digitize Knowledge
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>Choose one skill in which you have proficiency. You create a Data Chip in your hand containing a copy of your knowledge in that skill. A creature with an Intelligence score of 4 or higher

@@ -1,7 +1,7 @@
 _id: gxtkLovydMcGVSuS
 name: Shield of Stars
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>You summon 2 starry motes that swirl around you for the duration. You gain a +1 bonus to your AC for each mote that is currently active.</p><p>When a creature within 5 feet of you hits you

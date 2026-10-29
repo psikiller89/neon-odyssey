@@ -1,7 +1,7 @@
 _id: qPc6YK2H7M9X7IDX
 name: Horrific Demise
 type: spell
-img: icons/magic/perception/silhouette-stealth-shadow.webp
+img: modules/neon-odyssey/icons/neon/s-masks-theater-violet.webp
 system:
   description:
     value: <p>One creature that you can see within range is momentarily horrified by the takedown. It must succeed on a Wisdom saving throw or have the Frightened condition for the duration. It repeats

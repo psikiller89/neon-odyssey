@@ -1,7 +1,7 @@
 _id: 7QcpKezMlEmplKBD
 name: Luminous Wind
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wind-teal.webp
 system:
   description:
     value: <p>A flowing path of vibrant harmonic energy erupts from you in a 30-foot-long, 5-foot-wide Line. Each creature of your choice in that area regains 5d6 Hit Points. All other creatures in the

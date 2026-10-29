@@ -1,7 +1,7 @@
 _id: e7V3fFEZ7taBy857
 name: Cage Match
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You create an ephemeral fighting cage that only constrains you and one other creature. One creature you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage

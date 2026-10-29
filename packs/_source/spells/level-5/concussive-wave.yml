@@ -1,7 +1,7 @@
 _id: a2YDryfII5qpSLAU
 name: Concussive Wave
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-water-blue.webp
 system:
   description:
     value: <p>You emit a burst of bright and loud energy in a 30-foot Emanation. Each creature you choose in the Emanation makes a Constitution saving throw. On a failed save, a target takes 2d6 Thunder

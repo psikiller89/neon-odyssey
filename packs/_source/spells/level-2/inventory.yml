@@ -1,7 +1,7 @@
 _id: u3wawXu2GD7UytW0
 name: Inventory
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You open a digital interface that only you can see, showing a personal inventory of items stored in an extradimensional space. For the duration of the spell, you can store and retrieve objects

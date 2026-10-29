@@ -1,7 +1,7 @@
 _id: S2woClmSl0ddigAd
 name: Assault Rifle
 type: weapon
-img: icons/weapons/guns/gun-blunderbuss-gold.webp
+img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
 system:
   quantity: 1
   weight:

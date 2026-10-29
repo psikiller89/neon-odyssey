@@ -1,7 +1,7 @@
 _id: ZTdl6NvxuNmqs3xU
 name: G-Force Crush
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-meteor-orange.webp
 system:
   description:
     value: <p>Gravity increases dramatically for a moment in a 30-foot Cube within range. Each creature in the area makes a Strength saving throw. On a failed save, the creature takes 6d8 Force damage and

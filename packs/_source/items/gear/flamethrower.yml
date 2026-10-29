@@ -1,7 +1,7 @@
 _id: fpN0YbZ4DVuNWsMJ
 name: Flamethrower
 type: equipment
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-fire-flame-curved-red.webp
 system:
   quantity: 1
   weight:

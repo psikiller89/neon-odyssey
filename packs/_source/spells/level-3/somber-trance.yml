@@ -1,7 +1,7 @@
 _id: KVHYJOUvSxmrSkYd
 name: Somber Trance
 type: spell
-img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+img: modules/neon-odyssey/icons/neon/s-skull-lime.webp
 system:
   description:
     value: <p>You touch a willing creature, and it lapses into a trance-like state deep enough to seem like death. All forms of outward inspection, including spells, indicate that the target is dead. The

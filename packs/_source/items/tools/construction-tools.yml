@@ -1,7 +1,7 @@
 _id: ir4TscEIA7h7YHBG
 name: Construction Tools
 type: tool
-img: icons/tools/hand/hammer-and-nail.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

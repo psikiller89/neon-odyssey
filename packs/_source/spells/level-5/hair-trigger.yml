@@ -1,7 +1,7 @@
 _id: fiCm1s3dnQUaTVch
 name: Hair Trigger
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>When you cast this spell and as a Bonus Action during its duration, you can make one attack with a weapon that uses ammunition. If this attack hits, it deals an additional 2d10 Force damage.

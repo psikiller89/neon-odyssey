@@ -1,7 +1,7 @@
 _id: 2riVwbc9fxAxu5uC
 name: Telekinetic Combat
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-meteor-orange.webp
 system:
   description:
     value: <p>Reaching out with telekinetic power, you manipulate a weapon that is in range and with which you have proficiency. The spell fails if the weapon is being carried by another creature. For the

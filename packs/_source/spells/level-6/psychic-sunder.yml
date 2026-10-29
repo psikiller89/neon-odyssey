@@ -1,7 +1,7 @@
 _id: qwtGgMODGPGSpBCI
 name: Psychic Sunder
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>You tear at the mental defenses of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, it takes 5d8 Psychic damage and gains Vulnerability

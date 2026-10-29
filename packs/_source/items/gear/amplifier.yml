@@ -1,7 +1,7 @@
 _id: t66Yc1PR9v8lSHzi
 name: Amplifier
 type: loot
-img: icons/tools/navigation/map-chart-tan.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

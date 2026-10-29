@@ -1,7 +1,7 @@
 _id: lAMG4zR378snhyS6
 name: Light Armor
 type: equipment
-img: icons/equipment/chest/breastplate-scale-leather.webp
+img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
 system:
   quantity: 1
   weight:

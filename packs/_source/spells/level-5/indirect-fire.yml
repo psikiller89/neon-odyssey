@@ -1,7 +1,7 @@
 _id: 3Odo96agiczdAv1b
 name: Indirect Fire
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-fire-flame-curved-red.webp
 system:
   description:
     value: <p>A red targeting circle briefly appears on the ground beneath a point you choose within range. A cascade of digitized arrows, bullets, or artillery shells rains down, then disappears. Each

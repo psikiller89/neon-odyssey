@@ -1,7 +1,7 @@
 _id: XGkbUA9wS2o4lCLY
 name: Culling
 type: spell
-img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+img: modules/neon-odyssey/icons/neon/s-skull-lime.webp
 system:
   description:
     value: <p>Swirling negative energy surrounds one creature you can see within range and weakens its life force. The target must succeed on a Wisdom saving throw or take 1d10 Necrotic damage. If the target

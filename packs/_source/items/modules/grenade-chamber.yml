@@ -1,7 +1,7 @@
 _id: LuPu4LFaCd10y347
 name: Grenade Chamber (Weapon Module)
 type: loot
-img: icons/commodities/cloth/thread-spindle-white-needle.webp
+img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
 system:
   quantity: 1
   weight:

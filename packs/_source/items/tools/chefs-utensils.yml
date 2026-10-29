@@ -1,7 +1,7 @@
 _id: ec86miJotQkOIlaj
 name: Chef’s Utensils
 type: tool
-img: icons/tools/laboratory/bowl-mixing.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

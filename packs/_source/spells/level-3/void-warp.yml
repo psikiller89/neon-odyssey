@@ -1,7 +1,7 @@
 _id: 5PwDjHz2GhK4bvBl
 name: Void Warp
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-circle-nodes-violet.webp
 system:
   description:
     value: <p>You teleport to an unoccupied space you can see within range.</p><p>You can also target one creature within 5 feet of you when you teleport. The target must make a Constitution saving throw.

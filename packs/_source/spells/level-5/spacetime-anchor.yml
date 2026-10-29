@@ -1,7 +1,7 @@
 _id: aJcryXgw7oZKrRia
 name: Spacetime Anchor
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-hourglass-half-yellow.webp
 system:
   description:
     value: <p>One Large or smaller object that you touch can’t be altered in form or position for the duration of the spell, supporting up to 16,000 pounds of weight, even if it defies gravity. If the target

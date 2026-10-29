@@ -1,7 +1,7 @@
 _id: iOfnFrOwpKHYKuOc
 name: Forceful Majesty
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-meteor-orange.webp
 system:
   description:
     value: <p>An aura of overwhelming presence surrounds you in a 10-foot Emanation. Whenever a creature enters the area or starts its turn there, it must make a Wisdom saving throw. On a failed save, the

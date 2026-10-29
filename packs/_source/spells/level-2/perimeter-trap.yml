@@ -1,7 +1,7 @@
 _id: MLrc30Q0naJ38qbZ
 name: Perimeter Trap
 type: spell
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: modules/neon-odyssey/icons/neon/s-eye-teal.webp
 system:
   description:
     value: <p>You create a Tiny object that attaches to a surface that you touch and can’t be moved thereafter. When a creature enters a space within 30 feet of the object for the first time on a turn or

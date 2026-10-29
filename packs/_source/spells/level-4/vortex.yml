@@ -1,7 +1,7 @@
 _id: fm6GlTfNGM1hsXDY
 name: Vortex
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-explosion-red.webp
 system:
   description:
     value: <p>You create a point of dark energy within range that generates a gravity vortex in a 30-foot Emanation originating from the point. The vortex is Difficult Terrain. A creature within the Emanation

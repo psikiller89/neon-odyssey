@@ -1,7 +1,7 @@
 _id: pMUW91MVaFti0hpy
 name: Relentless Ride
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You summon a cosmic ride that appears in an unoccupied space you can see within range. It takes the form of a <strong>Cruising Bike</strong>* or a <strong>Racing Bike</strong>* (choose when

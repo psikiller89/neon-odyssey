@@ -1,7 +1,7 @@
 _id: 33sXsmnMQakxMFCD
 name: Engineer’s Tools
 type: tool
-img: icons/commodities/cloth/thread-spindle-white-needle.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: z4T4Xc6cubUQMO03
 name: Swirling Shards
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You create a swirling storm of razor-sharp shards in a 5-foot Cube centered on a point within range. Each creature in that area takes 4d4 Slashing damage. A creature also takes this damage

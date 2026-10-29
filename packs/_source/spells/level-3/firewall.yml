@@ -1,7 +1,7 @@
 _id: c1n7h7D8uKxwM9K6
 name: Firewall
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-fire-flame-curved-red.webp
 system:
   description:
     value: '<p>$15,000+, which the spell consumes) You touch a point and deploy a security field. The area can have a radius up to 20 feet, and the spell fails if the radius includes an area already under

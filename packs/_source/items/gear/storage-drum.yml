@@ -1,7 +1,7 @@
 _id: VSqcqlr73UXdtiVm
 name: Storage Drum
 type: container
-img: icons/containers/barrels/barrel-oak-banded-tan.webp
+img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
 system:
   quantity: 1
   weight:

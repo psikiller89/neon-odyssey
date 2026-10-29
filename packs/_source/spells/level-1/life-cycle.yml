@@ -1,7 +1,7 @@
 _id: YxNHOl26EJMFmv4N
 name: Life Cycle
 type: spell
-img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+img: modules/neon-odyssey/icons/neon/s-heart-pulse-green.webp
 system:
   description:
     value: <p>One creature of your choice within 10 feet of the triggering creature makes a Constitution saving throw, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful

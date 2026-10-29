@@ -1,7 +1,7 @@
 _id: 0hHBiLDFklRXi5MT
 name: Night Vision Goggles
 type: equipment
-img: icons/equipment/back/cloak-hooded-blue.webp
+img: modules/neon-odyssey/icons/neon/i-glasses-teal.webp
 system:
   quantity: 1
   weight:

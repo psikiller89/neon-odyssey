@@ -1,7 +1,7 @@
 _id: UWONJg956aZvnDCI
 name: Toxin, Simple
 type: consumable
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-skull-crossbones-lime.webp
 system:
   quantity: 1
   weight:

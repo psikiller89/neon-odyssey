@@ -1,7 +1,7 @@
 _id: zHtvflQyIC4J9Fdh
 name: Filament-Tether Grapnel (Weapon Module)
 type: loot
-img: icons/commodities/cloth/thread-spindle-white-needle.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

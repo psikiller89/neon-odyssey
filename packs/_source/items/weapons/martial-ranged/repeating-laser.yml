@@ -1,7 +1,7 @@
 _id: RL33Ft5YTWBhOOlX
 name: Repeating Laser
 type: weapon
-img: icons/weapons/guns/gun-blunderbuss-gold.webp
+img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: LQXkN1wEoiyJVXKH
 name: Footlocker
 type: container
-img: icons/containers/chest/chest-reinforced-steel-walnut-brown.webp
+img: modules/neon-odyssey/icons/neon/i-unlock-violet.webp
 system:
   quantity: 1
   weight:

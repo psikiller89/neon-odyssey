@@ -1,7 +1,7 @@
 _id: s3mIoQpjg65n7FZ4
 name: Fold Space
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You fold space, connecting two points via portals. Choose two Large, unoccupied spaces, one you can see within range and other one within 10 feet of you. You can target a space you can see

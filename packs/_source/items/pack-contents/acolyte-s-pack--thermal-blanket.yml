@@ -1,7 +1,7 @@
 _id: 589NNfM4gGgBlrN0
 name: Thermal Blanket
 type: loot
-img: icons/sundries/survival/bedroll-pink.webp
+img: modules/neon-odyssey/icons/neon/i-campground-yellow.webp
 system:
   quantity: 1
   weight:

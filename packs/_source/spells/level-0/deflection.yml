@@ -1,7 +1,7 @@
 _id: CxEK6Cd0DobGBqsQ
 name: Deflection
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>Whenever a creature makes an attack roll against you before the spell ends, roll 1d4 and add it to your AC against that attack.</p>

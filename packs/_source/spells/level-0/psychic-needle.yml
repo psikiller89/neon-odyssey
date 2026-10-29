@@ -1,7 +1,7 @@
 _id: IMqVx9OOI2DS9i0I
 name: Psychic Needle
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>You drive a point of psychic pain into the mind of a creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and the next saving

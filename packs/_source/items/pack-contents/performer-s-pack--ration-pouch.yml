@@ -1,7 +1,7 @@
 _id: WgMz4PIdMD2Vonwk
 name: Ration Pouch
 type: consumable
-img: icons/consumables/food/berries-ration-round-red.webp
+img: modules/neon-odyssey/icons/neon/i-bowl-food-yellow.webp
 system:
   quantity: 10
   weight:

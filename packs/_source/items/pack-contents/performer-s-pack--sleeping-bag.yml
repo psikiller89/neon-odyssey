@@ -1,7 +1,7 @@
 _id: RMws7JYze2ZqJ596
 name: Sleeping Bag
 type: loot
-img: icons/sundries/survival/bedroll-grey.webp
+img: modules/neon-odyssey/icons/neon/i-campground-yellow.webp
 system:
   quantity: 1
   weight:

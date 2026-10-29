@@ -1,7 +1,7 @@
 _id: AnxVA0sOdSwM7Qi2
 name: Magnifying Lens
 type: loot
-img: icons/tools/scribal/magnifying-glass.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: KVted2ztd8uPdBmG
 name: Psychic Storm
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-bolt-lightning-cyan.webp
 system:
   description:
     value: <p>A whirling cloud of luminous psychic energy rips out from a point within range. Each creature in a 20-foot-radius Sphere centered on that point makes an Intelligence saving throw, taking 8d6

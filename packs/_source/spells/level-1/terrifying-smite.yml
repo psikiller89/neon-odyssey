@@ -1,7 +1,7 @@
 _id: oKWpGmOZRotcR3uj
 name: Terrifying Smite
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>The target takes an extra 1d8 Psychic damage from the attack, and it has the Frightened condition until the start of your next turn.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The

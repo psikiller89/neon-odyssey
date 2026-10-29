@@ -1,7 +1,7 @@
 _id: QivqvWK41jGn7tMT
 name: Shield
 type: equipment
-img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
+img: modules/neon-odyssey/icons/neon/i-shield-halved-cyan.webp
 system:
   quantity: 1
   weight:

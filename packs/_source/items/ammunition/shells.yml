@@ -1,7 +1,7 @@
 _id: RIcLjliNizqL39oE
 name: Shells
 type: consumable
-img: icons/weapons/ammunition/shot-round-lead.webp
+img: modules/neon-odyssey/icons/neon/i-burst-orange.webp
 system:
   quantity: 10
   weight:

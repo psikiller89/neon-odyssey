@@ -1,7 +1,7 @@
 _id: XRmWN87LAj7ecc9J
 name: Shock Sap
 type: weapon
-img: icons/weapons/maces/mace-flanged-steel.webp
+img: modules/neon-odyssey/icons/neon/i-bolt-lightning-cyan.webp
 system:
   quantity: 1
   weight:

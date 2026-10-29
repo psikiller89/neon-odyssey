@@ -1,7 +1,7 @@
 _id: dVWdqLYUKNirt88p
 name: Primal Bond
 type: spell
-img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+img: modules/neon-odyssey/icons/neon/s-eye-teal.webp
 system:
   description:
     value: <p>You touch a willing Beast or Monstrosity. For the duration, as a Bonus Action, you can see through the target’s eyes and hear what it hears until the start of your next turn, gaining the benefits

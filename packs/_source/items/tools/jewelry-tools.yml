@@ -1,7 +1,7 @@
 _id: znvghkskhrqYeiUe
 name: Jewelry Tools
 type: tool
-img: icons/commodities/gems/gem-rough-rose-teal.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

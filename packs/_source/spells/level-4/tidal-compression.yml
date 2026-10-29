@@ -1,7 +1,7 @@
 _id: g8JKe0eWTi4xbOH3
 name: Tidal Compression
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-dna-green.webp
 system:
   description:
     value: <p>Gravity churns around a creature or an object that isn’t being worn or carried (or a 10-foot Cube portion of a larger object) within range, compressing it from multiple angles. The target

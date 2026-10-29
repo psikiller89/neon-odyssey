@@ -1,7 +1,7 @@
 _id: MDVXCWno2QdHxkG4
 name: Time Skip
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-hourglass-half-yellow.webp
 system:
   description:
     value: <p>You create a sharp fold in time and lose yourself within its angles, vanishing from existence. While vanished, you can’t take actions or Reactions, and nothing can target or affect you or

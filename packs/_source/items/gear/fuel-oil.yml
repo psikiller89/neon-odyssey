@@ -1,7 +1,7 @@
 _id: VK58YIjhWkw3HQNV
 name: Fuel Oil
 type: consumable
-img: icons/consumables/potions/bottle-bulb-empty-glass.webp
+img: modules/neon-odyssey/icons/neon/i-vial-green.webp
 system:
   quantity: 1
   weight:

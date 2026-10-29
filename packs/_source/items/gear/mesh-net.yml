@@ -1,7 +1,7 @@
 _id: nSX3JX9hpSQUT4Os
 name: Mesh Net
 type: equipment
-img: icons/tools/fishing/net-simple-brown.webp
+img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
 system:
   quantity: 1
   weight:

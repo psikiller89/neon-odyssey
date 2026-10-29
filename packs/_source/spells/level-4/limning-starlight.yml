@@ -1,7 +1,7 @@
 _id: 0v2e6WBYr6qvJdsA
 name: Limning Starlight
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-sun-yellow.webp
 system:
   description:
     value: <p>Your skin reflects the constellations above, even if they aren’t visible. Until the spell ends, you have Resistance to Radiant damage, you have Advantage on saving throws against Radiant damage

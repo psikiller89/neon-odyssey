@@ -1,7 +1,7 @@
 _id: cAhBBvloJ13pb899
 name: Disruption
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-dna-green.webp
 system:
   description:
     value: <p>You target a creature or nonmagical object and rip it apart on the molecular level. Make a ranged spell attack. On a hit, the target takes 1d8 Force damage, and its AC is reduced by 1 against

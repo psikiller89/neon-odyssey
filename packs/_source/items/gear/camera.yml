@@ -1,7 +1,7 @@
 _id: CgF72ur9XV8Oa8K3
 name: Camera
 type: loot
-img: icons/tools/navigation/map-chart-tan.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: 9j1zwLFm4wGwP9q1
 name: Barbed Lure
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You create a cord of energy ending in a barbed hook that shoots toward a creature of your choice in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing

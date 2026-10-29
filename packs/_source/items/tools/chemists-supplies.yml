@@ -1,7 +1,7 @@
 _id: yTNGm8Mlp1gckpKP
 name: Chemist’s Supplies
 type: tool
-img: icons/tools/cooking/mortar-herbs-yellow.webp
+img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: HO4tpUZuzqzu29fY
 name: Anchoring Smite
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-explosion-red.webp
 system:
   description:
     value: <p>Target hit by the strike takes 3d8 Force damage and is wrapped in magical tethers that bind its limbs and gag its mouth. For the duration, the target has the Restrained condition. While Restrained

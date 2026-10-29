@@ -1,7 +1,7 @@
 _id: u7Uat9ag6K5eSgpR
 name: Lighter
 type: equipment
-img: icons/sundries/lights/torch-black.webp
+img: modules/neon-odyssey/icons/neon/i-lightbulb-yellow.webp
 system:
   quantity: 1
   weight:

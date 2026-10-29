@@ -1,7 +1,7 @@
 _id: yJpSMUfzZktIDom5
 name: Power Cell, Rechargeable
 type: consumable
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
 system:
   quantity: 1
   weight:

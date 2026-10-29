@@ -1,7 +1,7 @@
 _id: qn5NQ6HUqXqVBITC
 name: Nano-Edge Spear
 type: weapon
-img: icons/weapons/polearms/spear-flared-green.webp
+img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
 system:
   quantity: 1
   weight:

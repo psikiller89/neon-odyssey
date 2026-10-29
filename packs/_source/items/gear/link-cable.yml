@@ -1,7 +1,7 @@
 _id: yDL3i8obpCPRFflH
 name: Link Cable
 type: loot
-img: icons/tools/navigation/map-chart-tan.webp
+img: modules/neon-odyssey/icons/neon/i-link-violet.webp
 system:
   quantity: 1
   weight:

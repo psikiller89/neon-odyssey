@@ -1,7 +1,7 @@
 _id: 61LHNZtzRRtxBsaa
 name: Aura of Harmony
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>An aura radiates from you in a 10-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 1d6 Hit Points to up to

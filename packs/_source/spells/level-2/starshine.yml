@@ -1,7 +1,7 @@
 _id: rFOqMpX3JRXjiGhd
 name: Starshine
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You are wreathed in the glittering light of the stars for the duration, emitting Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>Until the spell ends, a creature

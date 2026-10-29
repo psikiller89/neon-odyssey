@@ -1,7 +1,7 @@
 _id: CKXz5DGf7qOyKRv4
 name: Medium Armor Vest
 type: equipment
-img: icons/equipment/chest/breastplate-collared-steel-grey.webp
+img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
 system:
   quantity: 1
   weight:

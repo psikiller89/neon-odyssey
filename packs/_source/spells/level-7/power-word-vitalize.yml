@@ -1,7 +1,7 @@
 _id: YKDzJEjkIPUqwRCn
 name: Power Word Vitalize
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-heart-pulse-green.webp
 system:
   description:
     value: <p>You vitalize up to six creatures you can see within range. The spell restores 120 Hit Points, which you divide among the spell’s recipients. Any excess above a target’s maximum Hit Points

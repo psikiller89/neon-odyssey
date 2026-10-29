@@ -1,7 +1,7 @@
 _id: aVQdbrWhJSzhcK6v
 name: Gravity Well
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-meteor-orange.webp
 system:
   description:
     value: <p>An aura of overwhelming gravity radiates from you in a 30foot Emanation. While in the aura, you and your allies deal an extra 1d4 Force damage when hitting with a weapon or an Unarmed Strike.

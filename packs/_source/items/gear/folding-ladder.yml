@@ -1,7 +1,7 @@
 _id: seMxbfr7yArbP9NR
 name: Folding Ladder
 type: loot
-img: icons/sundries/misc/ladder-improvised.webp
+img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
 system:
   quantity: 1
   weight:

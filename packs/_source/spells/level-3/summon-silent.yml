@@ -1,7 +1,7 @@
 _id: 8o4oYaFouhUAfANQ
 name: Summon Silent
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-ghost-teal.webp
 system:
   description:
     value: '<p>You call forth an Undead spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>Silent Spirit</strong> stat block. When you cast the spell, choose

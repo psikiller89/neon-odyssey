@@ -1,7 +1,7 @@
 _id: hV3MMYLDjVQR2Tsb
 name: Combat Hammer
 type: weapon
-img: icons/weapons/hammers/hammer-drilling-spiked.webp
+img: modules/neon-odyssey/icons/neon/i-hammer-pink.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: MVCU9EXvMwl0EID6
 name: Climbing Gear
 type: equipment
-img: icons/sundries/survival/climbing-anchor-steel-grey.webp
+img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
 system:
   quantity: 1
   weight:

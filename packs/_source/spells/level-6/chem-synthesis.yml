@@ -1,7 +1,7 @@
 _id: E7NAr81aQ2g4w95V
 name: Chem Synthesis
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You create reagents in a chemical flask that you touch, which roil and smoke impressively. The liquid in the flask duplicates the properties of a Common or Uncommon potion of your choice (such

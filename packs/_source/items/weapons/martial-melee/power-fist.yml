@@ -1,7 +1,7 @@
 _id: paxFOI16H1TOrkeU
 name: Power Fist
 type: weapon
-img: icons/skills/melee/unarmed-punch-fist-white.webp
+img: modules/neon-odyssey/icons/neon/i-hand-fist-pink.webp
 system:
   quantity: 1
   weight:

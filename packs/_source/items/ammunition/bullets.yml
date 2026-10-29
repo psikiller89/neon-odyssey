@@ -1,7 +1,7 @@
 _id: PT2cicmwDV82e1PY
 name: Bullets
 type: consumable
-img: icons/weapons/ammunition/bullets-cartridge-shell-gray.webp
+img: modules/neon-odyssey/icons/neon/i-burst-orange.webp
 system:
   quantity: 20
   weight:

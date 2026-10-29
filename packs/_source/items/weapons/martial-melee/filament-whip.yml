@@ -1,7 +1,7 @@
 _id: 5xJ2aEj2zdNLU91i
 name: Filament Whip
 type: weapon
-img: icons/sundries/survival/leather-strap-brown.webp
+img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
 system:
   quantity: 1
   weight:

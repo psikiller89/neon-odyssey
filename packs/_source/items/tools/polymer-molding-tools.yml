@@ -1,7 +1,7 @@
 _id: AaNTKKWGQo5EPgXF
 name: Polymer-Molding Tools
 type: tool
-img: icons/commodities/tech/metal-insert.webp
+img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
 system:
   quantity: 1
   weight:

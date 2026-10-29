@@ -1,7 +1,7 @@
 _id: Gm5OXs0BUV02je4J
 name: Hungering Void
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You tear open a rift to the Abyssal Void, a place of hunger, darkness, and shattered minds. A 20-foot-radius Sphere of Darkness appears, centered on a point within range and lasting for the

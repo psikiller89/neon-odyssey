@@ -1,7 +1,7 @@
 _id: GEiLy0Fx6IWqJrLZ
 name: Minion Binding
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-link-pink.webp
 system:
   description:
     value: '<p>One creature that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration.</p><p>Shadow obscures the Charmed target’s features. Immediately,

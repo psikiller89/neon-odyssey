@@ -1,7 +1,7 @@
 _id: XpU39QFKYC3hBRcl
 name: Accelerate Fall
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-dna-green.webp
 system:
   description:
     value: <p>Choose up to five falling creatures within range. A target’s rate of descent doubles until the spell ends. If a target lands before the spell ends, it takes double damage from the fall, and

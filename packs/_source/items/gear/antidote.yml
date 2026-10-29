@@ -1,7 +1,7 @@
 _id: 0WXb1xQk8gKVt3TY
 name: Antidote
 type: consumable
-img: icons/consumables/potions/bottle-round-corked-pink.webp
+img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
 system:
   quantity: 1
   weight:

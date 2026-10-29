@@ -1,7 +1,7 @@
 _id: Yzo34m60BvwsXeSY
 name: Vial, Glass
 type: container
-img: icons/consumables/potions/vial-cork-empty.webp
+img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
 system:
   quantity: 1
   weight:

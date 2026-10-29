@@ -1,7 +1,7 @@
 _id: rGmh4Rex63ayPexq
 name: Memory Leak
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>Junk information clouds the mind of a creature you can see within range. The target makes a Wisdom saving throw. On a failed save, it suffers a memory leak for the duration.</p><p>While suffering

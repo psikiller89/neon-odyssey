@@ -1,7 +1,7 @@
 _id: sAMJGeeysgerNLqM
 name: Bag
 type: container
-img: icons/containers/bags/sack-cloth-orange.webp
+img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
 system:
   quantity: 1
   weight:

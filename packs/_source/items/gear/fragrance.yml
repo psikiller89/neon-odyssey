@@ -1,7 +1,7 @@
 _id: v78tgzAPcqSquUrI
 name: Fragrance
 type: consumable
-img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+img: modules/neon-odyssey/icons/neon/i-vial-green.webp
 system:
   quantity: 1
   weight:

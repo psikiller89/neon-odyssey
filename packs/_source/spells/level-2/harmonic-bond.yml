@@ -1,7 +1,7 @@
 _id: 4FFg2gtVtRPWV5RA
 name: Harmonic Bond
 type: spell
-img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+img: modules/neon-odyssey/icons/neon/s-shield-halved-cyan.webp
 system:
   description:
     value: <p>You touch another creature that is willing, creating a harmonic connection between you and the target. When the target is hit by an attack roll while within 60 feet of you, you can take a

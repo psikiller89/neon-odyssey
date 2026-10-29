@@ -1,7 +1,7 @@
 _id: dPs41TlnS8f6q0HL
 name: Shrapnel Burst
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>As you hit the target, an electric shock bursts out of your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw. On a

@@ -1,7 +1,7 @@
 _id: V2h4sh4QmRQ9Lcdv
 name: Medium Armor Suit
 type: equipment
-img: icons/equipment/chest/breastplate-collared-steel-grey.webp
+img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
 system:
   quantity: 1
   weight:

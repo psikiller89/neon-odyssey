@@ -1,7 +1,7 @@
 _id: tW1TB5h1B9EC37wK
 name: Briefcase
 type: container
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
 system:
   quantity: 1
   weight:

@@ -1,7 +1,7 @@
 _id: zJbQvRAf2Eqo9HT8
 name: Thermasene
 type: consumable
-img: icons/consumables/potions/bottle-round-label-cork-yellow.webp
+img: modules/neon-odyssey/icons/neon/i-vial-green.webp
 system:
   quantity: 1
   weight:

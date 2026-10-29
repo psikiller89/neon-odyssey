@@ -1,7 +1,7 @@
 _id: wUoh9qUDDP9ssnMf
 name: Saber
 type: weapon
-img: icons/weapons/swords/scimitar-worn-blue.webp
+img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
 system:
   quantity: 1
   weight:

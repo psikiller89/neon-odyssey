@@ -1,7 +1,7 @@
 _id: 0HGwciz55uJruZ8H
 name: Collapsible Pole
 type: equipment
-img: icons/commodities/wood/wood-pole.webp
+img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
 system:
   quantity: 1
   weight:

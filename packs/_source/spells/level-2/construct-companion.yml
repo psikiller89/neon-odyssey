@@ -1,7 +1,7 @@
 _id: hBt8Jb4EU5hfqzBb
 name: Construct Companion
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>You create a special Construct in an unoccupied space within range. This creature uses the <strong>Construct Companion</strong> stat block. If you already have a companion from this spell,

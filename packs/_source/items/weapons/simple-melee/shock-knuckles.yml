@@ -1,7 +1,7 @@
 _id: UoSL6ueSI3Z3n58d
 name: Shock Knuckles
 type: weapon
-img: icons/skills/melee/unarmed-punch-fist-white.webp
+img: modules/neon-odyssey/icons/neon/i-bolt-lightning-cyan.webp
 system:
   quantity: 1
   weight:

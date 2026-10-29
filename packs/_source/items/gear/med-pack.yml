@@ -1,7 +1,7 @@
 _id: TD2QUoexYggnacpp
 name: Med Pack
 type: consumable
-img: icons/containers/bags/sack-leather-brown-green.webp
+img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
 system:
   quantity: 1
   weight:

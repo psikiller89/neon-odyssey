@@ -1,7 +1,7 @@
 _id: Fmk67BfyqUMEzojA
 name: Eyes of the Void
 type: spell
-img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+img: modules/neon-odyssey/icons/neon/s-eye-teal.webp
 system:
   description:
     value: <p>For the duration, a willing creature you touch can see normally in Dim Light and Darkness, both magical and nonmagical, within 90 feet of itself.</p>

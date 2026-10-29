@@ -1,7 +1,7 @@
 _id: Py3ExQIlJaPf0glq
 name: Graviton Wave
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-water-blue.webp
 system:
   description:
     value: <p>You create a powerful gravity wave in a 60-foot Cone. Each creature in that area makes a Constitution saving throw. On a failed save, a target takes 10d6 Force damage and is pushed or pulled

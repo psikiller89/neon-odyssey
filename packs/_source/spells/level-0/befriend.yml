@@ -1,7 +1,7 @@
 _id: ZOSwz4XxQcoxLvyv
 name: Befriend
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>You create a feeling of trust toward you in one creature you can see within range. The target must succeed on a Wisdom saving throw or you have Advantage on Charisma checks made for the Influence

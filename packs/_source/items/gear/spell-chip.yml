@@ -1,7 +1,7 @@
 _id: z3JhGTbRXjbt40yA
 name: Spell Chip
 type: consumable
-img: icons/sundries/scrolls/scroll-bound-black-tan.webp
+img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
 system:
   quantity: 1
   weight:

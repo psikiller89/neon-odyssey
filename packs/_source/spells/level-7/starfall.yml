@@ -1,7 +1,7 @@
 _id: 61AoISzlY3nv1Nar
 name: Starfall
 type: spell
-img: icons/magic/lightning/bolt-strike-blue.webp
+img: modules/neon-odyssey/icons/neon/s-explosion-red.webp
 system:
   description:
     value: <p>You create a rain of stars that falls in an 80-foot-radius, 120-foot-high Cylinder centered on a point within range. Each creature of your choice in that area makes a Dexterity saving throw.

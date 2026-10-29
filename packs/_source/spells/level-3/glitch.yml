@@ -1,7 +1,7 @@
 _id: OsWNPtTBBDocujqz
 name: Glitch
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-wand-magic-sparkles-yellow.webp
 system:
   description:
     value: <p>Reality glitches around you, causing you to teleport up to 30 feet to an unoccupied space you can see. If the triggering attack roll hits you, you take half damage from that attack and have

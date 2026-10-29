@@ -1,7 +1,7 @@
 _id: uWUuSztRizBzcfZi
 name: Acid Vial
 type: consumable
-img: icons/consumables/potions/bottle-round-corked-green.webp
+img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
 system:
   quantity: 1
   weight:

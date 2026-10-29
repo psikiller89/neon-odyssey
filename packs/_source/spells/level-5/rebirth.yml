@@ -1,7 +1,7 @@
 _id: PgbMlU1cCvUJiI5J
 name: Rebirth
 type: spell
-img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+img: modules/neon-odyssey/icons/neon/s-skull-lime.webp
 system:
   description:
     value: <p>You touch a dead creature that is a playable species, or a piece of one. The spell fails if cast on the corpse of a cygnian, dathu, motlien, terminox, or varg. If the creature has been dead

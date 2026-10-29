@@ -99,3 +99,12 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 
 - **Cryptist – Mystery of the Duel:** new **Bind Weapon** button (Bonus Action). Drop any weapon on the chat card: it becomes your bound weapon (proficient, Spellcasting Focus, attacks/damage use your spellcasting ability, Necrotic/Psychic/Radiant damage option). Remove the enchantment from the weapon's Effects tab to end the bond.
 - **Duelist's Due:** damage button for the extra 1d6 Necrotic/Psychic/Radiant.
+
+## v0.6.0
+
+- **Neon Odyssey character sheet:** pick "Neon Odyssey Sheet" in a character's Sheet configuration (or enable *Neon Odyssey Sheet by Default* in module settings). Neon/synthwave theme in a Tidy-style card layout, renamed tabs (Outrunner, Gear, Abilities, Spells, Status, Dossier), a Galactic Notes ($) panel, Computers/Technology quick-roll buttons, highlighted Computers and Technology skills, and Galactic Notes as the only currency shown. The standard dnd5e sheet is unchanged.
+- **Sci-fi icons:** every item and spell in the Equipment and Spells compendiums has a neon icon (items in rounded squares, spells in circles), chosen by item type/name and spell theme/school. Regenerate with `tools/neon_icons.py`.
+
+## Credits
+
+Item and spell icon glyphs are from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the neon styling was added for this module.

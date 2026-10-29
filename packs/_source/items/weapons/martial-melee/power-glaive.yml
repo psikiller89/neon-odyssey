@@ -1,7 +1,7 @@
 _id: os7eo8yBQhoXH1nl
 name: Power Glaive
 type: weapon
-img: icons/weapons/polearms/glaive-simple.webp
+img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
 system:
   quantity: 1
   weight:

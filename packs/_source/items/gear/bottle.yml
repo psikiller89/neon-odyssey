@@ -1,7 +1,7 @@
 _id: AuqDWGKzHZCwurC7
 name: Bottle
 type: container
-img: icons/consumables/potions/bottle-bulb-empty-glass.webp
+img: modules/neon-odyssey/icons/neon/i-robot-cyan.webp
 system:
   quantity: 1
   weight:

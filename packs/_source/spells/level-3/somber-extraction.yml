@@ -1,7 +1,7 @@
 _id: PW3cPsltN2947cCR
 name: Somber Extraction
 type: spell
-img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+img: modules/neon-odyssey/icons/neon/s-skull-lime.webp
 system:
   description:
     value: <p>This spell steals a fragment of life force from its target’s soul. A creature you can see within range makes a Wisdom saving throw. On a failure, the target takes 4d8 Necrotic damage. On a

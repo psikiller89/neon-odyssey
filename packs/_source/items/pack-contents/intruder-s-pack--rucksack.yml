@@ -1,7 +1,7 @@
 _id: IeDaIff6Icr6lMvP
 name: Rucksack
 type: container
-img: icons/containers/bags/pack-simple-leather.webp
+img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
 system:
   quantity: 1
   weight:

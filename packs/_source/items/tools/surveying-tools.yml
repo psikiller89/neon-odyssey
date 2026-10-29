@@ -1,7 +1,7 @@
 _id: WmVo3QzG4etjXFNi
 name: Surveying Tools
 type: tool
-img: icons/tools/navigation/map-chart-tan.webp
+img: modules/neon-odyssey/icons/neon/i-compass-teal.webp
 system:
   quantity: 1
   weight:

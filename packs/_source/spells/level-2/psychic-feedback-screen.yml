@@ -1,7 +1,7 @@
 _id: uQ59GDJO1DdvQfA8
 name: Psychic Feedback Screen
 type: spell
-img: icons/magic/control/hypnosis-mesmerism-swirl.webp
+img: modules/neon-odyssey/icons/neon/s-brain-pink.webp
 system:
   description:
     value: <p>An aura radiates from you in a 15-foot Emanation for the duration, affecting you and your allies. When a creature causes one of the following effects it takes 3d8 Psychic damage:</p><ul><li><p>Deals

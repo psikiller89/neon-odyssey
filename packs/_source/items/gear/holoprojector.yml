@@ -1,7 +1,7 @@
 _id: qiVKjWJun0JZKRt1
 name: Holoprojector
 type: equipment
-img: icons/containers/bags/case-leather-tan.webp
+img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
 system:
   quantity: 1
   weight:

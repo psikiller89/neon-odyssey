@@ -1,7 +1,7 @@
 _id: O8Ol022jP2ih0oAR
 name: Summon Emissary
 type: spell
-img: icons/magic/symbols/runes-star-pentagon-blue.webp
+img: modules/neon-odyssey/icons/neon/s-ghost-teal.webp
 system:
   description:
     value: '<p>You call forth cosmic spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>Cosmic  Spirit</strong> stat block. When you cast the spell, choose a
