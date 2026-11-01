@@ -125,6 +125,10 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 
 - **Tidy 5e tab names:** with the Neon Odyssey theme for Tidy 5e on, the character sheet tabs use the book terms: Outrunner, Gear, Spells, Abilities, Status and Dossier (Sheet and Journal keep their names).
 
+## v0.6.5
+
+- **Species speeds:** Saurian no longer gets Swim and Fly from the species itself (they come from the Deepfin and Skywing lineages), Bitling now chooses one Arcade Archetype (Soaring, Strong or Swift) instead of getting all three, so Fly/Climb come only from Soaring/Strong, and Murexian's Traversal has Burrow and Climb effects to switch on (pick one). Wings of Night (Varg) carries its own Fly Speed.
+
 ## Credits
 
 Item and spell icon glyphs are from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the neon styling was added for this module.

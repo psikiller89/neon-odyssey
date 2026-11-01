@@ -138,7 +138,6 @@ system:
     speeds:
       walk: '30'
       swim: '30'
-      climb: '30'
     ignoredDifficultTerrain: []
   senses:
     units: null

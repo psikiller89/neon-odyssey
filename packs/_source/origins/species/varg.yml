@@ -71,7 +71,6 @@ system:
     hover: false
     speeds:
       walk: '30'
-      fly: '30'
     ignoredDifficultTerrain: []
   senses:
     units: null

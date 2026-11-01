@@ -4,7 +4,83 @@ type: feat
 img: modules/neon-odyssey/icons/species/murexian.webp
 folder: npeQLHhkOLtCAR2F
 sort: 0
-effects: []
+effects:
+- _id: ABkoCco8smN4MfXH
+  name: 'Traversal: Burrow Speed (pick one)'
+  img: modules/neon-odyssey/icons/species/murexian.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.burrow
+      value: '@attributes.movement.walk'
+      type: upgrade
+      phase: initial
+      priority: null
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!X0VmNZMpIlw0gSai.ABkoCco8smN4MfXH'
+- _id: xIVPSqPhvZnNeq9h
+  name: 'Traversal: Climb Speed (pick one)'
+  img: modules/neon-odyssey/icons/species/murexian.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.climb
+      value: '@attributes.movement.walk'
+      type: upgrade
+      phase: initial
+      priority: null
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!X0VmNZMpIlw0gSai.xIVPSqPhvZnNeq9h'
 system:
   description:
     value: <p>You have proficiency in the Athletics or Stealth skill, and you gain your choice of a Burrow Speed or a Climb Speed equal to your Speed.</p>

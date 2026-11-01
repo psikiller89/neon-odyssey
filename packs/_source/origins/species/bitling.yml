@@ -40,15 +40,6 @@ system:
         - uuid: Compendium.neon-odyssey.origins.Item.n07yUTmLQFEn8OAo
           optional: false
           sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.He90ynjqtVwFRTel
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.URbLZlfPtIPiJ0sm
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.vEwWysuoi6k1gYHX
-          optional: false
-          sort: 0
         - uuid: Compendium.neon-odyssey.origins.Item.skcXNi6tw5QhsqOG
           optional: false
           sort: 0
@@ -62,13 +53,33 @@ system:
       level: 0
       hint: ''
       title: Bitling Traits
+    h0jzgzRgqabl7BMp:
+      _id: h0jzgzRgqabl7BMp
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.origins.Item.He90ynjqtVwFRTel
+        - uuid: Compendium.neon-odyssey.origins.Item.URbLZlfPtIPiJ0sm
+        - uuid: Compendium.neon-odyssey.origins.Item.vEwWysuoi6k1gYHX
+        restriction:
+          type: race
+          subtype: ''
+          list: []
+      value: {}
+      level: 0
+      title: Arcade Archetype
+      hint: Choose Soaring, Strong, or Swift.
   movement:
     units: null
     hover: false
     speeds:
       walk: '30'
-      climb: '30'
-      fly: '30'
     ignoredDifficultTerrain: []
   senses:
     units: null

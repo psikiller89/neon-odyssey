@@ -4,7 +4,45 @@ type: feat
 img: modules/neon-odyssey/icons/species/bitling.webp
 folder: WFSGsoVHjaFqQTxv
 sort: 0
-effects: []
+effects:
+- _id: VPtNccbWv6OjTG01
+  name: 'Soaring: Fly Speed'
+  img: modules/neon-odyssey/icons/species/bitling.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.fly
+      value: '@attributes.movement.walk'
+      type: upgrade
+      phase: initial
+      priority: null
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!He90ynjqtVwFRTel.VPtNccbWv6OjTG01'
 system:
   description:
     value: <p>You have a Fly Speed equal to your Speed while you&#x27;re not wearing Medium or Heavy armor. As a Magic action, you can expend a token and touch an ally to give it a Fly Speed equal to your

@@ -108,3 +108,46 @@ for a in d['system']['activities'].values():
     if a['type']=='summon': a['bonuses']['hp']='5 * @classes.machinist.levels - 5'; a['activation']={'type':'bonus','value':None,'override':False,'condition':''}
 D(P,d)
 print('fix_gaps done')
+
+# ---------- Species base speeds that really come from a lineage/option choice ----------
+WRONG={'bitling':['fly','climb'],'murexian':['climb'],'saurian':['swim','fly'],'varg':['fly']}
+for sp,keys in WRONG.items():
+    P=f'origins/species/{sp}.yml'; d=L(P)
+    for k in keys: d['system']['movement']['speeds'].pop(k,None)
+    D(P,d)
+import glob as _g
+for sp,names in {'bitling':['Soaring','Strong'],'murexian':['Traversal'],'varg':['Wings of Night']}.items():
+    for f in _g.glob(os.path.join(OUT,f'origins/species-traits/{sp}/*.yml')):
+        d=yaml.safe_load(open(f))
+        if d.get('name') in names: print('speed option',sp,d['name'],[ [c['key'] for c in e['system']['changes']] for e in d.get('effects',[])])
+print('species speeds fixed')
+
+# ---------- Speed effects for option traits ----------
+def speff(d,tag,name,key,disabled=False):
+    eid=mkid(d['_id']+':fg:spd:'+tag)
+    return {'_id':eid,'name':name,'img':d.get('img'),'type':'base','system':{'changes':[{'key':f'system.attributes.movement.{key}','value':'@attributes.movement.walk','type':'upgrade','phase':'initial','priority':None}]},
+      'disabled':disabled,'transfer':True,'duration':{'value':None,'units':'seconds','expiry':None,'expired':False},'description':'','tint':'#ffffff','statuses':[],'sort':0,'flags':{},
+      'origin':None,'start':None,'showIcon':1,'folder':None,'_stats':stats(),'_key':f"!items.effects!{d['_id']}.{eid}"}
+for sp,name,effs in [('bitling','Soaring',[('fly','Soaring: Fly Speed','fly',False)]),('varg','Wings of Night',[('fly','Wings of Night: Fly Speed','fly',False)]),
+                     ('murexian','Traversal',[('burrow','Traversal: Burrow Speed (pick one)','burrow',True),('climb','Traversal: Climb Speed (pick one)','climb',True)])]:
+    for f in _g.glob(os.path.join(OUT,f'origins/species-traits/{sp}/*.yml')):
+        d=yaml.safe_load(open(f))
+        if d.get('name')==name:
+            keep=[e for e in d.get('effects',[]) if not any(c['key'].startswith('system.attributes.movement') for c in e['system'].get('changes',[]))]
+            d['effects']=keep+[speff(d,t,n,k,dis) for t,n,k,dis in effs]
+            yaml.safe_dump(d,open(f,'w'),sort_keys=False,allow_unicode=True,width=200)
+print('option speed effects added')
+
+# ---------- Bitling Arcade Archetype: choose Soaring, Strong or Swift ----------
+P='origins/species/bitling.yml'; d=L(P); adv=d['system']['advancement']
+ids={}
+for f in _g.glob(os.path.join(OUT,'origins/species-traits/bitling/*.yml')):
+    x=yaml.safe_load(open(f))
+    if x.get('name') in ('Soaring','Strong','Swift'): ids[x['name']]=x['_id']
+pool=[uuid('origins',ids[n]) for n in ('Soaring','Strong','Swift')]
+for a in adv.values():
+    if a['type']=='ItemGrant': a['configuration']['items']=[i for i in a['configuration']['items'] if i['uuid'] not in pool]
+cid=mkid('oc:bitling:archetype')
+adv[cid]={'_id':cid,'type':'ItemChoice','configuration':{'choices':{'0':{'count':1,'replacement':False}},'allowDrops':False,'type':'feat','pool':[{'uuid':u} for u in pool],
+  'restriction':{'type':'race','subtype':'','list':[]}},'value':{},'level':0,'title':'Arcade Archetype','hint':'Choose Soaring, Strong, or Swift.'}
+D(P,d); print('bitling archetype choice', pool)

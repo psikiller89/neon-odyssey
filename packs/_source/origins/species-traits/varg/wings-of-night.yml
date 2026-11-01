@@ -4,7 +4,45 @@ type: feat
 img: modules/neon-odyssey/icons/species/varg.webp
 folder: lWV6CwSgdkzyK5b1
 sort: 0
-effects: []
+effects:
+- _id: MNNk1TldziKrezYj
+  name: 'Wings of Night: Fly Speed'
+  img: modules/neon-odyssey/icons/species/varg.webp
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.fly
+      value: '@attributes.movement.walk'
+      type: upgrade
+      phase: initial
+      priority: null
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Qf3rC1lQ3DJ4Iljv.MNNk1TldziKrezYj'
 system:
   description:
     value: <p>Your creature type becomes Fiend, and you grow a pair of bat wings from your shoulders that grant you a Fly Speed equal to your Speed. When you cast <em>Chill </em> <em>Touch</em>, you can
