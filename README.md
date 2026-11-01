@@ -113,6 +113,14 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 
 - **Weightless Galactic Notes:** Galactic Notes ($) never add weight, on characters or in containers, even with dnd5e's *Track Currency Weight* setting on. Other coins still weigh as normal.
 
+## v0.6.3
+
+- **Weapon Protocols (Commando):** use counter (2/3/4/5/6 at Soldier levels 3/5/9/13/17, back on a Short or Long Rest) and one button per option: Plasma Charge, Resolve Breaker (penalty die), Rocket Launch (Dex save, DC 8 + Str/Dex + PB) and Suppressive Fire. Advanced Arsenal upgrades (level 10) apply automatically, including the extra 1d8 Force for Resolve Breaker.
+- **Warzone Supremacy:** Dreadnought reaction button rolls 1d10 + Soldier level and spends a Frontline Rally use.
+- **Saurian:** Natural Weapon is now a weapon (1d6, pick Piercing/Slashing/Bludgeoning). Sharptooth has a Bonus Action Bite plus Feeding Bite extra damage (PB) and healing (Con + PB), once per Short or Long Rest.
+- **Rivet Turret:** full stat block (AC 17, HP 5 × Machinist level, Necrotic resistance, Poison/Psychic immunity, 60 ft fly) with Flash Charge (Con save or Blinded), Rivet Burst, Plasma Arc and Relocate buttons that use your spell attack and save DC.
+- **Broken icons:** items on existing characters that pointed at old dnd5e icon paths are repaired automatically when the GM loads the world.
+
 ## Credits
 
 Item and spell icon glyphs are from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the neon styling was added for this module.

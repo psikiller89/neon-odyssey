@@ -25,18 +25,19 @@ system:
       proficient: 0
   attributes:
     ac:
-      flat: 10
+      flat: 17
       calc: natural
     hp:
-      value: 10
-      max: 10
+      value: 5
+      max: 5
       formula: ''
       temp: null
       tempmax: null
     movement:
-      walk: '30'
+      walk: '0'
       units: ft
-      hover: false
+      hover: true
+      fly: '60'
     senses:
       units: ft
       special: ''
@@ -48,12 +49,13 @@ system:
   details:
     cr: 0
     type:
-      value: object
-      subtype: ''
+      value: construct
+      subtype: Object
       custom: ''
     alignment: ''
     biography:
-      value: <p>Summoned creature from Neon Odyssey (page 86).</p>
+      value: '<p>Small Object created by the Riveter Machinist’s Deploy Turret feature. Hit Points: 5 × your Machinist level (casting Mending on the turret restores 2d6 Hit Points to it). It collapses into
+        scrap at 0 Hit Points, after 1 hour, or if you dismiss it as a Magic action.</p>'
       public: ''
     source:
       custom: ''
@@ -77,7 +79,512 @@ system:
       value: []
       custom: ''
   skills: {}
-items: []
+items:
+- _id: 3mqlNaPbTNHysmWB
+  name: Activate Turret
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-robot-cyan.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Requires you to be within 60 feet of the turret. When you create the turret, or as a Bonus Action on your subsequent turns, you order the turret to use Flash Charge, Rivet Burst, Plasma
+        Arc, or Relocate.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: bonus
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: activate-turret
+  _key: '!actors.items!bnY5vMbCYJ6j4A8r.3mqlNaPbTNHysmWB'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: oi8cBEWM2GEbJ813
+  name: Flash Charge
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-crosshairs-pink.webp
+  effects:
+  - _id: nn921NF7DGLCUBek
+    name: 'Flash Charge: Blinded'
+    img: systems/dnd5e/icons/svg/statuses/blinded.svg
+    type: base
+    system:
+      changes: []
+    disabled: false
+    transfer: false
+    duration:
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
+    description: <p>Blinded until the start of the turret creator’s next turn.</p>
+    tint: '#ffffff'
+    statuses:
+    - blinded
+    sort: 0
+    flags: {}
+    origin: null
+    start: null
+    showIcon: 1
+    folder: null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: null
+    _key: '!actors.items.effects!bnY5vMbCYJ6j4A8r.oi8cBEWM2GEbJ813.nn921NF7DGLCUBek'
+  sort: 0
+  system:
+    description:
+      value: <p>The turret fires a disorienting charge at a creature within 60 feet of it. The target must succeed on a Constitution saving throw against your spell save DC or have the Blinded condition
+        until the start of your next turn.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      AggqNrEuyYVvT3ml:
+        _id: AggqNrEuyYVvT3ml
+        type: save
+        name: Flash Charge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects:
+        - _id: nn921NF7DGLCUBek
+          riders:
+            activity: []
+            effect: []
+            item: []
+        range:
+          value: '60'
+          units: ft
+          special: ''
+          override: true
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        save:
+          ability:
+          - con
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: none
+          parts: []
+    properties: []
+    requirements: ''
+    identifier: flash-charge
+  _key: '!actors.items!bnY5vMbCYJ6j4A8r.oi8cBEWM2GEbJ813'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: tShNKMEPTbEcZbZC
+  name: Rivet Burst
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The turret fires a stream of rivets. Ranged spell attack against one creature or object within 120 feet of it. On a hit, the target takes 2d6 Piercing damage, and the next attack roll it
+        makes before the start of your next turn has Disadvantage.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      MuTa4TDVLwsEpzNP:
+        _id: MuTa4TDVLwsEpzNP
+        type: attack
+        name: Rivet Burst
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          value: '120'
+          units: ft
+          special: ''
+          override: true
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: ''
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: ranged
+            classification: spell
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 6
+            bonus: ''
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: rivet-burst
+  _key: '!actors.items!bnY5vMbCYJ6j4A8r.tShNKMEPTbEcZbZC'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: fPM2oJuey8LyqSKL
+  name: Plasma Arc
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-bolt-lightning-cyan.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The turret unleashes a 30-foot-long, 5-foot-wide Line of plasma. Each creature in that area makes a Dexterity saving throw against your spell save DC, taking 2d8 Lightning damage on a failed
+        save or half as much on a success. Flammable objects in the Line that aren’t worn or carried start burning.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      hcthoFi4g3rWtmuv:
+        _id: hcthoFi4g3rWtmuv
+        type: save
+        name: Plasma Arc
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: line
+            size: '30'
+            width: '5'
+            count: ''
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
+          override: false
+          prompt: true
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: spellcasting
+            formula: ''
+        damage:
+          onSave: half
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: ''
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: plasma-arc
+  _key: '!actors.items!bnY5vMbCYJ6j4A8r.fPM2oJuey8LyqSKL'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: YfziumRBqACsm2PJ
+  name: Relocate
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The turret flies up to 60 feet to an unoccupied space that you can see.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      LfmMfqHC5LIjY69v:
+        _id: LfmMfqHC5LIjY69v
+        type: utility
+        name: Relocate
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!bnY5vMbCYJ6j4A8r.YfziumRBqACsm2PJ'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
 effects: []
 sort: 0
 prototypeToken:

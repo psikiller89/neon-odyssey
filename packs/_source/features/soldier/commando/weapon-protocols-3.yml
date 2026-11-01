@@ -22,9 +22,13 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: min(6, floor((@classes.soldier.levels + 3) / 4) + 1)
     spent: 0
-    recovery: []
+    recovery:
+    - period: sr
+      type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -35,31 +39,39 @@ system:
   properties: []
   requirements: Commando Soldier
   activities:
-    rm6Z3BY7Uvj4qeXd:
-      _id: rm6Z3BY7Uvj4qeXd
-      type: save
-      name: ''
+    qkITsxp70Nx5V7Ap:
+      _id: qkITsxp70Nx5V7Ap
+      type: damage
+      name: Plasma Charge
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Move up to half your Speed; once during this movement, deal this damage to a creature you move within 5 feet of (2d8 and no Opportunity Attacks from Soldier level 10).
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -68,29 +80,170 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: str
-          formula: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       damage:
-        onSave: half
+        critical:
+          allow: false
+          bonus: ''
         parts:
-        - number: 2
-          denomination: 6
+        - number: null
+          denomination: null
           bonus: ''
           types:
-          - fire
+          - lightning
+          custom:
+            enabled: true
+            formula: (1 + floor(min(@classes.soldier.levels, 10) / 10))d8 + max(@abilities.str.mod, @abilities.dex.mod)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    9E2ti2IZNBFosJb1:
+      _id: 9E2ti2IZNBFosJb1
+      type: utility
+      name: Resolve Breaker
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Make an attack with the weapon. On a hit, the target subtracts this die from its next attack roll or saving throw before the end of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d(6 + 2 * floor(min(@classes.soldier.levels, 10) / 10))
+        name: Penalty die
+        prompt: false
+        visible: true
+    0Howj81i3lDLeGnk:
+      _id: 0Howj81i3lDLeGnk
+      type: damage
+      name: 'Resolve Breaker: Extra Force'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 10
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: ''
+          types:
+          - force
           custom:
             enabled: false
             formula: ''
@@ -98,14 +251,168 @@ system:
             mode: ''
             number: null
             formula: ''
-        - number: 1
-          denomination: 8
+    IDTld5tonVTH1CGv:
+      _id: IDTld5tonVTH1CGv
+      type: save
+      name: Rocket Launch
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '120'
+        units: ft
+        special: ''
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: 5 + 10 * floor(min(@classes.soldier.levels, 10) / 10)
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: ''
+          formula: 8 + max(@abilities.str.mod, @abilities.dex.mod) + @prof
+      damage:
+        onSave: half
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: true
+            formula: (2 + floor(min(@classes.soldier.levels, 10) / 10))d6
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    12f6Sa4fu4fs0tDZ:
+      _id: 12f6Sa4fu4fs0tDZ
+      type: damage
+      name: Suppressive Fire
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Creatures in the Cube have Disadvantage on attack rolls. A creature takes this damage for every 5 feet it moves into or within the Cube.
+      duration:
+        units: turn
+        value: '1'
+        concentration: false
+        override: false
+        special: Until the start of your next turn
+      effects: []
+      range:
+        value: '120'
+        units: ft
+        special: ''
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: 10 + 10 * floor(min(@classes.soldier.levels, 10) / 10)
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - lightning
           custom:
-            enabled: false
-            formula: ''
+            enabled: true
+            formula: 1d(8 + 2 * floor(min(@classes.soldier.levels, 10) / 10))
           scaling:
             mode: ''
             number: null

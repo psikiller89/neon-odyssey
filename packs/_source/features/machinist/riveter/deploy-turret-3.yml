@@ -94,8 +94,8 @@ system:
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
         targets:
         - type: itemUses
@@ -128,7 +128,7 @@ system:
       bonuses:
         ac: ''
         hd: ''
-        hp: ''
+        hp: 5 * @classes.machinist.levels - 5
         attackDamage: ''
         saveDamage: ''
         healing: ''

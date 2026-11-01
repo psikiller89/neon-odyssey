@@ -129,3 +129,41 @@ Hooks.once("init", () => {
     }
   }
 });
+
+// Repair item and activity icons that point at dnd5e paths which no longer exist (copies made from older module versions).
+const NEON_IMG_FIX = {
+  "systems/dnd5e/icons/svg/action/attack.svg": "systems/dnd5e/icons/svg/activity/attack.svg",
+  "systems/dnd5e/icons/svg/action/magic.svg": "systems/dnd5e/icons/svg/activity/cast.svg",
+  "systems/dnd5e/icons/svg/action/move.svg": "systems/dnd5e/icons/svg/action/dash.svg",
+  "systems/dnd5e/icons/svg/action/disengage.svg": "systems/dnd5e/icons/svg/activity/forward.svg",
+  "systems/dnd5e/icons/svg/action/restore-use.svg": "systems/dnd5e/icons/svg/activity/heal.svg",
+  "systems/dnd5e/icons/svg/action/push.svg": "systems/dnd5e/icons/svg/activity/utility.svg",
+  "systems/dnd5e/icons/svg/action/dodge.svg": "systems/dnd5e/icons/svg/activity/utility.svg",
+  "icons/magic/unholy/orb-colllecting-energy-green.webp": "icons/magic/unholy/orb-collecting-energy-green.webp",
+  "icons/sundries/books/book-embossed-bound-purple.webp": "icons/sundries/books/book-embossed-bound-brown.webp"
+};
+
+function neonImageFixes(item) {
+  const update = {};
+  if ( NEON_IMG_FIX[item.img] ) update.img = NEON_IMG_FIX[item.img];
+  for ( const activity of item.system?.activities ?? [] ) {
+    if ( NEON_IMG_FIX[activity.img] ) update[`system.activities.${activity.id}.img`] = NEON_IMG_FIX[activity.img];
+  }
+  return Object.keys(update).length ? { _id: item.id, ...update } : null;
+}
+
+Hooks.once("ready", async () => {
+  if ( !game.user.isGM ) return;
+  let fixed = 0;
+  try {
+    const worldItems = game.items.map(neonImageFixes).filter(Boolean);
+    if ( worldItems.length ) { await Item.updateDocuments(worldItems); fixed += worldItems.length; }
+    for ( const actor of game.actors ) {
+      const updates = actor.items.map(neonImageFixes).filter(Boolean);
+      if ( updates.length ) { await actor.updateEmbeddedDocuments("Item", updates); fixed += updates.length; }
+    }
+    if ( fixed ) console.log(`neon-odyssey | repaired ${fixed} item icon(s)`);
+  } catch (err) {
+    console.error("neon-odyssey | icon repair failed", err);
+  }
+});

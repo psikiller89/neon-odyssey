@@ -1,15 +1,84 @@
 _id: jVbBzbWKGB1HufT1
 name: Natural Weapon
-type: feat
+type: weapon
 img: modules/neon-odyssey/icons/species/saurian.webp
-folder: EYJDACraFtUaKRXo
-sort: 0
-effects: []
 system:
+  activities:
+    rv5jHDOgoPzBQQvd:
+      _id: rv5jHDOgoPzBQQvd
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+        value: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        expiry: null
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          stationary: false
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      behaviors: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
   description:
     value: <p>You have a natural weapon you can use to make Unarmed Strikes. It deals 1d6 damage of a type appropriate to the weapon instead of the normal damage; Bludgeoning for a slam (club, tail, or
       headbutt), Piercing for a bite or gore, or Slashing for a claw. Your Saurian Lineage trait determines your natural weapon.</p>
     chat: ''
+  identifier: saurian-natural-weapon
   source:
     custom: ''
     book: 'Neon Odyssey: Outrunner’s Handbook'
@@ -17,22 +86,70 @@ system:
     license: ''
     rules: '2024'
     revision: 1
-  uses:
-    max: ''
-    spent: 0
-    recovery: []
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+  cover: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
   type:
-    value: race
-    subtype: ''
-  prerequisites:
-    level: null
-    repeatable: false
+    value: natural
+    baseItem: ''
+  ammunition: {}
+  damage:
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
+      - piercing
+      - slashing
+      - bludgeoning
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        number: 1
+      modifiers: []
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      modifiers: []
   properties: []
-  requirements: Saurian
-  activities: {}
-  enchant: {}
-  identifier: natural-weapon
-  advancement: {}
+  proficient: 1
+  range:
+    value: null
+    long: null
+    reach: null
+    units: ft
+  mastery: ''
+  rarities: []
+  crew:
+    value: []
+effects: []
+folder: EYJDACraFtUaKRXo
+flags: {}
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e
@@ -43,7 +160,7 @@ _stats:
   duplicateSource: null
   exportSource: null
   compendiumSource: null
-flags: {}
+sort: 0
 ownership:
   default: 0
 _key: '!items!jVbBzbWKGB1HufT1'

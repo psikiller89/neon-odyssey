@@ -23,6 +23,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: race
     subtype: ''
@@ -31,7 +33,233 @@ system:
     repeatable: false
   properties: []
   requirements: Saurian
-  activities: {}
+  activities:
+    DLWlagvY6Sfea9ND:
+      _id: DLWlagvY6Sfea9ND
+      type: attack
+      name: Bite (Bonus Action)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '5'
+        special: ''
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: str
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: '@mod'
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    VATSuKQiIt06VnbZ:
+      _id: VATSuKQiIt06VnbZ
+      type: damage
+      name: 'Feeding Bite: Extra Damage'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you hit a creature with your bite
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: true
+            formula: '@prof'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    tASSbz1NxybfWRgo:
+      _id: tASSbz1NxybfWRgo
+      type: heal
+      name: 'Feeding Bite: Regain Hit Points'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: After dealing Feeding Bite extra damage
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '@abilities.con.mod + @prof'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: saurian-lineage-sharptooth
   advancement: {}
