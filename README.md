@@ -121,6 +121,10 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 - **Rivet Turret:** full stat block (AC 17, HP 5 × Machinist level, Necrotic resistance, Poison/Psychic immunity, 60 ft fly) with Flash Charge (Con save or Blinded), Rivet Burst, Plasma Arc and Relocate buttons that use your spell attack and save DC.
 - **Broken icons:** items on existing characters that pointed at old dnd5e icon paths are repaired automatically when the GM loads the world.
 
+## v0.6.4
+
+- **Tidy 5e tab names:** with the Neon Odyssey theme for Tidy 5e on, the character sheet tabs use the book terms: Outrunner, Gear, Spells, Abilities, Status and Dossier (Sheet and Journal keep their names).
+
 ## Credits
 
 Item and spell icon glyphs are from [Font Awesome Free](https://fontawesome.com) by Fonticons, Inc., licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the neon styling was added for this module.

@@ -13,9 +13,33 @@ Hooks.once("init", () => {
   });
 });
 
+const NEON_TIDY_TABS = {
+  attributes: "Outrunner",
+  inventory: "Gear",
+  spellbook: "Spells",
+  features: "Abilities",
+  effects: "Status",
+  biography: "Dossier"
+};
+
+function renameTidyTabs(element) {
+  for ( const [id, label] of Object.entries(NEON_TIDY_TABS) ) {
+    for ( const tab of element.querySelectorAll(`.tab-option[data-tab-id="${id}"]`) ) {
+      const title = tab.querySelector(".tab-title");
+      if ( title && title.textContent !== label ) title.textContent = label;
+      if ( tab.getAttribute("title") !== label ) tab.setAttribute("title", label);
+    }
+  }
+}
+
 Hooks.on("renderActorSheetV2", (app, element) => {
   if (!element?.classList?.contains("tidy5e-sheet") || !useTheme()) return;
   element.classList.add("neon-tidy");
+  if ( !element.classList.contains("character") ) return;
+  renameTidyTabs(element);
+  if ( element._neonTabObserver ) return;
+  element._neonTabObserver = new MutationObserver(() => renameTidyTabs(element));
+  element._neonTabObserver.observe(element, { childList: true, subtree: true, characterData: true });
 });
 
 Hooks.once("tidy5e-sheet.ready", api => {
