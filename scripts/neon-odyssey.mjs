@@ -95,3 +95,37 @@ Hooks.on("createActiveEffect", async (effect, options, userId) => {
   const others = actor.appliedEffects.filter(e => (e.id !== effect.id) && (e.getFlag("neon-odyssey", "exclusive") === group));
   for ( const e of others ) await e.delete();
 });
+
+// Galactic Notes are digital credits: they never count toward encumbrance or container weight.
+function withoutGalacticNotes(model, fn) {
+  const currency = model?.currency;
+  const gn = currency?.gn;
+  if ( !gn ) return fn();
+  currency.gn = 0;
+  try { return fn(); } finally { currency.gn = gn; }
+}
+
+Hooks.once("init", () => {
+  const AF = dnd5e?.dataModels?.actor?.AttributesFields;
+  if ( typeof AF?.prepareEncumbrance === "function" ) {
+    const original = AF.prepareEncumbrance;
+    AF.prepareEncumbrance = function(...args) {
+      return withoutGalacticNotes(this, () => original.apply(this, args));
+    };
+  } else console.warn("neon-odyssey | could not make Galactic Notes weightless for actors");
+
+  const patched = new Set();
+  const models = [...Object.values(CONFIG.Item.dataModels ?? {}), ...Object.values(CONFIG.Actor.dataModels ?? {})];
+  for ( const model of models ) {
+    for ( let proto = model?.prototype; proto && proto !== Object.prototype; proto = Object.getPrototypeOf(proto) ) {
+      if ( patched.has(proto) ) continue;
+      patched.add(proto);
+      const desc = Object.getOwnPropertyDescriptor(proto, "currencyWeight");
+      if ( !desc?.get ) continue;
+      Object.defineProperty(proto, "currencyWeight", {
+        ...desc,
+        get() { return withoutGalacticNotes(this, () => desc.get.call(this)); }
+      });
+    }
+  }
+});
