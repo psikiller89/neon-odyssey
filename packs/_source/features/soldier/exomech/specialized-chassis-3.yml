@@ -24,7 +24,7 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: max(1, @abilities.dex.mod)
+    max: max(1, max(@abilities.str.mod, @abilities.dex.mod))
     spent: 0
     recovery:
     - period: lr
@@ -39,35 +39,39 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    9v68RFxRrtsq4crK:
-      _id: 9v68RFxRrtsq4crK
-      type: damage
-      name: ''
+    rebohrUmonLwGn2h:
+      _id: rebohrUmonLwGn2h
+      type: utility
+      name: 'Bastion: Evasion Circuits (Dodge)'
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Take the Dodge action.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -77,39 +81,218 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    MYCUej4GRTRa7WHp:
+      _id: MYCUej4GRTRa7WHp
+      type: utility
+      name: 'Bastion: Threat Attractor'
+      img: ''
       sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you hit a creature with an attack roll
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The marked target has Disadvantage on attack rolls against targets other than you until the start of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    tNspfLkBxIeCzBmC:
+      _id: tNspfLkBxIeCzBmC
+      type: damage
+      name: 'Comet: Momentum Amplifier'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, hit with an installed melee weapon or Unarmed Strike
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: true
+            formula: (1 + min(1, floor(@classes.soldier.levels / 10)))d8
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    DcAcSGfJ3hVM70RK:
+      _id: DcAcSGfJ3hVM70RK
+      type: damage
+      name: 'Mortar: Plasma Battery'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, hit with an installed ranged weapon; another target within 15 ft
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       damage:
         critical:
           allow: false
           bonus: ''
         parts:
-        - number: 1
-          denomination: 8
-          bonus: ''
-          types:
-          - force
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        - number: 1
-          denomination: 8
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - lightning
           custom:
-            enabled: false
-            formula: ''
+            enabled: true
+            formula: (1 + min(1, floor(@classes.soldier.levels / 10)))d8
           scaling:
             mode: ''
             number: null
@@ -117,7 +300,52 @@ system:
   enchant: {}
   identifier: specialized-chassis
   advancement: {}
-effects: []
+effects:
+- _id: LPWuZ2fV5sfuXnVB
+  name: Comet Chassis
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.walk
+      value: '10'
+      priority: null
+      type: add
+      phase: initial
+      _id: jKf905q3jSZPoIZN
+    - key: flags.dnd5e.weaponCriticalThreshold
+      value: '19'
+      priority: null
+      type: downgrade
+      phase: initial
+      _id: R7W2Zeaj6BmDl9mp
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Turn on while piloting a Comet exosuit: +10 ft Speed (Rocket Booster) and Critical Hits on 19-20 (Meteor Matrix, installed melee weapons).</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!vC9DrV56YKmuq6ia.LPWuZ2fV5sfuXnVB'
 folder: X91gcBRCD5t5HCHj
 sort: 0
 _stats:

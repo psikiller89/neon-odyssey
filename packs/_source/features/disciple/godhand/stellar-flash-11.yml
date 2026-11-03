@@ -30,31 +30,39 @@ system:
   properties: []
   requirements: Godhand Disciple
   activities:
-    qou58Cr8Riqt7q2V:
-      _id: qou58Cr8Riqt7q2V
+    7oSJyDugXRz9cTmb:
+      _id: 7oSJyDugXRz9cTmb
       type: utility
-      name: ''
+      name: Stellar Flash (Flowing Step)
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:channeled-essence
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Dash; teleport up to your Speed, then shed Dim Light in a 30-ft Emanation and apply Divine Resonance to creatures of your choice there.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -64,19 +72,23 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: stellar-flash
   advancement: {}

@@ -45,6 +45,9 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
           optional: false
           sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHex0000000
+          optional: false
+          sort: 0
         optional: false
         spell:
           ability: []

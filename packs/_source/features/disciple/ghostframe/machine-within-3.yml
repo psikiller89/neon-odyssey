@@ -32,8 +32,121 @@ system:
   activities: {}
   enchant: {}
   identifier: machine-within
-  advancement: {}
-effects: []
+  advancement:
+    dzzRIM0yxbAVm44a:
+      _id: dzzRIM0yxbAVm44a
+      type: Trait
+      level: 3
+      title: Synthetic Speech
+      hint: ''
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - languages:neonOdyssey:signal
+        choices: []
+      value: {}
+    LAEUNeIaS0hzO3rt:
+      _id: LAEUNeIaS0hzO3rt
+      type: Trait
+      level: 3
+      title: Tech Interface
+      hint: ''
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:cmp
+          - skills:tec
+      value: {}
+effects:
+- _id: MCDT0QQDLcoK8r3r
+  name: Sensory Upgrade
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.darkvision
+      value: '60'
+      priority: null
+      type: add
+      phase: initial
+      _id: DSYGdEQQNC6zdGki
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uZwu01C8nOWuhn4P.MCDT0QQDLcoK8r3r'
+- _id: mYCLumhI1ZNBeExi
+  name: Tech Interface
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.skills.cmp.bonuses.check
+      value: max(1, @abilities.wis.mod)
+      priority: null
+      type: override
+      phase: initial
+      _id: 4EAgO7FA2XTaqZjo
+    - key: system.skills.tec.bonuses.check
+      value: max(1, @abilities.wis.mod)
+      priority: null
+      type: override
+      phase: initial
+      _id: PoxvEIVTTXCYCPTg
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uZwu01C8nOWuhn4P.mYCLumhI1ZNBeExi'
 folder: bqQIVg0cPp9SIgRN
 sort: 0
 _stats:

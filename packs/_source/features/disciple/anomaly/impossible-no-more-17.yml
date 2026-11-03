@@ -30,33 +30,44 @@ system:
   properties: []
   requirements: Anomaly Disciple
   activities:
-    5LMMro09wmBUL2mJ:
-      _id: 5LMMro09wmBUL2mJ
+    te3xKXTVgId4auPx:
+      _id: te3xKXTVgId4auPx
       type: utility
-      name: ''
+      name: Impossible No More
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '3'
+          target: feat:channeled-essence
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
+        special: ''
       effects:
-      - _id: uJX81mQNVAWCOaQj
-        onSave: false
+      - _id: bobn2DCPJS51XHL5
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,43 +77,112 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    DcQ67RkPSH6kzM3f:
+      _id: DcQ67RkPSH6kzM3f
+      type: utility
+      name: Overclock (4 Unarmed Strikes)
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:channeled-essence
+          scaling: {}
+      description:
+        chatFlavor: Use Ensouled Strikes and make four Unarmed Strikes instead of three.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: impossible-no-more
   advancement: {}
 effects:
-- _id: N58yw4Bhm5PhlxYI
+- _id: bobn2DCPJS51XHL5
   name: Impossible No More
   img: icons/svg/upgrade.svg
   type: base
   system:
     changes:
     - key: system.attributes.movement.fly
-      value: '@attributes.movement.speed'
+      value: '@attributes.movement.walk'
       priority: null
       type: upgrade
       phase: initial
-      _id: YbTdm6ME4RRBvLvH
+      _id: 16293c8EMKzTgCNj
+    - key: system.attributes.movement.hover
+      value: 'true'
+      priority: null
+      type: override
+      phase: initial
+      _id: 5zVnuvzwzExXmGF8
   disabled: false
-  transfer: true
+  transfer: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false
-  description: ''
+  description: '<p>Bullet Time (10-ft Emanation: ranged attacks have Disadvantage, Resistance to ranged weapon damage), Fly Speed and hover, Overclock.</p>'
   tint: '#ffffff'
   statuses: []
   sort: 0
@@ -121,41 +201,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!FUE6tI9pHEUfxHyC.N58yw4Bhm5PhlxYI'
-- _id: uJX81mQNVAWCOaQj
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!FUE6tI9pHEUfxHyC.uJX81mQNVAWCOaQj'
+  _key: '!items.effects!FUE6tI9pHEUfxHyC.bobn2DCPJS51XHL5'
 folder: R1sTyl01UoM2xoW9
 sort: 0
 _stats:

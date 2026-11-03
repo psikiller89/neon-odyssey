@@ -22,6 +22,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -32,35 +34,39 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    YhiuEtinnylPmXTo:
-      _id: YhiuEtinnylPmXTo
+    hQMqalrXhWs5wbsQ:
+      _id: hQMqalrXhWs5wbsQ
       type: utility
-      name: ''
+      name: 'Mortar: Force Critical Hit'
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you hit with an attack roll
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: The hit becomes a Critical Hit.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,19 +76,23 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: perfected-exosuit
   advancement: {}

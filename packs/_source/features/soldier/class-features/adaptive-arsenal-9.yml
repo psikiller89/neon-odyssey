@@ -30,7 +30,7 @@ system:
   enchant: {}
   identifier: adaptive-arsenal
 effects:
-- name: Tactial Master
+- name: Adaptive Arsenal
   img: icons/sundries/documents/blueprint-axe.webp
   _id: 9Dwnc4r39iE997j0
   type: base

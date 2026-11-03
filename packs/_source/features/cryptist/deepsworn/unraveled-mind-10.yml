@@ -27,58 +27,7 @@ system:
     repeatable: false
   properties: []
   requirements: Deepsworn Cryptist
-  activities:
-    1h00Ob9uDLbPY5lI:
-      _id: 1h00Ob9uDLbPY5lI
-      type: save
-      name: ''
-      activation:
-        type: ''
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      save:
-        ability:
-        - int
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+  activities: {}
   enchant: {}
   identifier: unraveled-mind
   advancement:

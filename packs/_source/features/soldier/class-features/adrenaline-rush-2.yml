@@ -20,6 +20,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''

@@ -21,6 +21,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -31,35 +33,44 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    CHiyYHH2y8FkHyKp:
-      _id: CHiyYHH2y8FkHyKp
+    RqTQDt8BQ90t1wcI:
+      _id: RqTQDt8BQ90t1wcI
       type: utility
-      name: ''
+      name: Compression Form
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: E5jqmvRDsaJc1Dp5
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,23 +80,121 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    naC2emz2LrYnusjr:
+      _id: naC2emz2LrYnusjr
+      type: utility
+      name: Thruster Jets
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Expend 10 feet of movement to jump up to 30 feet.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: mobile-frame
   advancement: {}
-effects: []
+effects:
+- _id: E5jqmvRDsaJc1Dp5
+  name: Compression Form
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.size
+      value: med
+      priority: 40
+      type: override
+      phase: initial
+      _id: CQ5j9LZgVi4vFLLt
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oEKJrkmhxhMLVvze.E5jqmvRDsaJc1Dp5'
 folder: X91gcBRCD5t5HCHj
 sort: 0
 _stats:

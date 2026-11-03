@@ -29,29 +29,39 @@ system:
   properties: []
   requirements: Soldier
   activities:
-    84EBzlT1nDmNqhqM:
+    tnHKpeiyWeyxKGVB:
+      _id: tnHKpeiyWeyxKGVB
       type: utility
-      _id: 84EBzlT1nDmNqhqM
+      name: Reroll Failed Save
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: special
         value: null
         override: false
-        condition: ''
+        condition: When you fail a saving throw
       consumption:
-        targets: []
         scaling:
           allowed: false
-        spellSlot: true
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Reroll the failed saving throw with a bonus equal to your Soldier level; you must use the new roll.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -62,20 +72,27 @@ system:
           choice: false
           count: ''
           type: self
-          special: ''
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       roll:
+        formula: 1d20 + @classes.soldier.levels
+        name: Reroll (add your save modifier)
         prompt: false
-        visible: false
-        name: Bonus
-        formula: '@classes.soldier.levels'
-      name: ''
+        visible: true
   enchant: {}
   identifier: no-surrender
 effects: []

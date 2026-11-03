@@ -167,3 +167,52 @@ Hooks.once("ready", async () => {
     console.error("neon-odyssey | icon repair failed", err);
   }
 });
+
+/* Resolve "type:identifier" item-uses consumption targets to the actor's real item IDs. */
+const NEON_TARGET_REF = /^([a-z]+):([a-z0-9-]+)$/;
+
+function neonTargetUpdates(actor) {
+  const updates = [];
+  for ( const item of actor.items ) {
+    const update = {};
+    for ( const activity of item.system.activities ?? [] ) {
+      const targets = activity.consumption?.targets ?? [];
+      let changed = false;
+      const data = targets.map(t => {
+        const obj = t.toObject?.() ?? { ...t };
+        const m = (obj.type === "itemUses") && NEON_TARGET_REF.exec(obj.target ?? "");
+        if ( !m ) return obj;
+        const found = actor.items.find(i => (i.type === m[1]) && (i.system.identifier === m[2]));
+        if ( !found ) return obj;
+        changed = true;
+        return { ...obj, target: found.id };
+      });
+      if ( changed ) update[`system.activities.${activity.id}.consumption.targets`] = data;
+    }
+    if ( Object.keys(update).length ) updates.push({ _id: item.id, ...update });
+  }
+  return updates;
+}
+
+const neonPendingTargets = new Map();
+function neonResolveTargets(actor) {
+  if ( !actor || (actor.documentName !== "Actor") || !actor.isOwner ) return;
+  clearTimeout(neonPendingTargets.get(actor.uuid));
+  neonPendingTargets.set(actor.uuid, setTimeout(async () => {
+    neonPendingTargets.delete(actor.uuid);
+    const updates = neonTargetUpdates(actor);
+    if ( updates.length ) await actor.updateEmbeddedDocuments("Item", updates).catch(err =>
+      console.error("neon-odyssey | consumption target repair failed", err));
+  }, 300));
+}
+
+Hooks.on("createItem", (item, options, userId) => {
+  if ( userId === game.user.id ) neonResolveTargets(item.parent);
+});
+Hooks.on("updateItem", (item, changes, options, userId) => {
+  if ( (userId === game.user.id) && foundry.utils.hasProperty(changes, "system.identifier") ) neonResolveTargets(item.parent);
+});
+Hooks.once("ready", () => {
+  if ( !game.user.isGM ) return;
+  for ( const actor of game.actors ) neonResolveTargets(actor);
+});

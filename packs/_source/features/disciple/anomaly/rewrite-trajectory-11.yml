@@ -31,35 +31,44 @@ system:
   properties: []
   requirements: Anomaly Disciple
   activities:
-    2QcZ7mqQeaVcRiiv:
-      _id: 2QcZ7mqQeaVcRiiv
+    kx73ZWjAda56h8rp:
+      _id: kx73ZWjAda56h8rp
       type: utility
-      name: ''
+      name: Rewrite Trajectory
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you use Centered Deflection against a ranged attack
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects: []
+        value: ''
+        special: ''
+      effects:
+      - _id: IMayAzWP0VQY8les
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,23 +78,60 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: rewrite-trajectory
   advancement: {}
-effects: []
+effects:
+- _id: IMayAzWP0VQY8les
+  name: Rewrite Trajectory
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    units: round
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Three-Quarters Cover (+5 AC) against ranged attacks until the start of your next turn.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!LpeVsmbeKqj1hCuK.IMayAzWP0VQY8les'
 folder: R1sTyl01UoM2xoW9
 sort: 0
 _stats:

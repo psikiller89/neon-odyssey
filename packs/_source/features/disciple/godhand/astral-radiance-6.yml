@@ -30,57 +30,90 @@ system:
   properties: []
   requirements: Godhand Disciple
   activities:
-    0lYRE2ApWukHBTM2:
-      _id: 0lYRE2ApWukHBTM2
+    YkEWOejkFiqx3rTg:
+      _id: YkEWOejkFiqx3rTg
       type: save
-      name: ''
+      name: Astral Wave
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '2'
+          target: feat:channeled-essence
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: line
+          size: '60'
+          width: '10'
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - dex
         dc:
-          calculation: wis
-          formula: ''
+          calculation: ''
+          formula: (8 + @abilities.wis.mod + @prof)
       damage:
         onSave: half
-        parts: []
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: true
+            formula: 3d@scale.disciple.die.faces
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: astral-radiance
   advancement: {}

@@ -29,66 +29,7 @@ system:
     repeatable: false
   properties: []
   requirements: Commando Soldier
-  activities:
-    2VdK72hnqEddLMJT:
-      _id: 2VdK72hnqEddLMJT
-      type: damage
-      name: ''
-      activation:
-        type: ''
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-        - number: 1
-          denomination: 8
-          bonus: ''
-          types:
-          - force
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
+  activities: {}
   enchant: {}
   identifier: advanced-arsenal
   advancement: {}

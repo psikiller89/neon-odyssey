@@ -18,9 +18,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: 5 * @classes.soldier.levels
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -31,33 +33,361 @@ system:
   properties: []
   requirements: Nanomedic Soldier
   activities:
-    DUAcktbq2kv0BS7L:
-      _id: DUAcktbq2kv0BS7L
-      type: utility
-      name: ''
+    WfGMm9GwMMi9sAWi:
+      _id: WfGMm9GwMMi9sAWi
+      type: heal
+      name: 'Nanite Medicine: Heal'
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: Or in place of an attack
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
+          allowed: true
+          max: '@item.uses.value'
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Scale the use up to spend more Hit Points from the cluster (1 point = 1 Hit Point).
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: H6AdW1UlXkKGqNwa
-        onSave: false
+        value: ''
+        special: ''
+      effects: []
       range:
+        value: 30 + 30 * min(1, floor(@classes.soldier.levels / 10))
+        units: ft
+        special: ''
         override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          mode: whole
+          number: null
+          formula: '1'
+    JOxBUH5qm3NUGIaa:
+      _id: JOxBUH5qm3NUGIaa
+      type: heal
+      name: 'Nano-Stim: Temporary Hit Points'
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: Or in place of an attack
+      consumption:
+        scaling:
+          allowed: true
+          max: '@item.uses.value'
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Scale the use up to spend more Hit Points from the cluster (1 point = 1 Hit Point).
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: 30 + 30 * min(1, floor(@classes.soldier.levels / 10))
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 7
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          mode: whole
+          number: null
+          formula: '1'
+    Fp6i8Zl4ByD2qlwz:
+      _id: Fp6i8Zl4ByD2qlwz
+      type: utility
+      name: Cure Poisoned (5 HP)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Remove the Poisoned condition.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    Km2YbSU7ORhXMlur:
+      _id: Km2YbSU7ORhXMlur
+      type: utility
+      name: Cure-All (5 HP)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Remove Blinded, Deafened or Frightened.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 7
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    5zG04jxQLa93BtZk:
+      _id: 5zG04jxQLa93BtZk
+      type: utility
+      name: Trauma Triage (5 HP)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Remove Charmed, Paralyzed or Stunned.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 10
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    VdUEmY3DNfzX7j7p:
+      _id: VdUEmY3DNfzX7j7p
+      type: utility
+      name: Lingering Nanites
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: At the start of the target’s next turn
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The target can expend and roll one Hit Point Die and regain that many Hit Points.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -67,57 +397,149 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 7
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    O2oJnSbuLXX88BS8:
+      _id: O2oJnSbuLXX88BS8
+      type: utility
+      name: Sustaining Swarm (+5 HP)
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you expend an Adrenaline Rush use
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '-5'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 10
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    7sns8BK0lAw3gUkV:
+      _id: 7sns8BK0lAw3gUkV
+      type: utility
+      name: Rapid Replenishment
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you roll Initiative
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: hitDice
+          value: '1'
+          target: smallest
+          scaling: {}
+        - type: itemUses
+          value: '-5'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Each Hit Point Die expended restores 5 Hit Points to the cluster. Use it once per die.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 18
+          max: null
+        identifier: soldier
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: nanite-medicine
   advancement: {}
-effects:
-- _id: H6AdW1UlXkKGqNwa
-  name: Poisoned
-  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - poisoned
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!QPkwuE3FS2uLEaBY.H6AdW1UlXkKGqNwa'
+effects: []
 folder: Zo9hh6MVnLQdRBie
 sort: 0
 _stats:

@@ -31,7 +31,46 @@ system:
   enchant: {}
   identifier: endless-war
   advancement: {}
-effects: []
+effects:
+- _id: ndERxb3Swo4iS4uW
+  name: Death Denied
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.death.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: xMXa5LnEJUv2H3Xv
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!SUf3RTExmfkEtusg.ndERxb3Swo4iS4uW'
 folder: PXmW0cBvIjaX4KtP
 sort: 0
 _stats:

@@ -32,31 +32,43 @@ system:
   properties: []
   requirements: Trooper Soldier
   activities:
-    qRLCPIySFxS02S2I:
-      _id: qRLCPIySFxS02S2I
+    YYscSOeciPqhL22w:
+      _id: YYscSOeciPqhL22w
       type: utility
-      name: ''
+      name: Regain Tactical Die (Hit Die)
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you have no Tactical Dice left
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: hitDice
+          value: '1'
+          target: smallest
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: feat:tactical-leader
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,19 +78,153 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    mTLV6OFWwW9kqAwa:
+      _id: mTLV6OFWwW9kqAwa
+      type: utility
+      name: Create Diversion
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: When one chosen ally deals damage before your next turn, the other can react to Hide, adding the die to Stealth.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '2'
+          type: ally
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
+    HBn58b6qzKcy4F4G:
+      _id: HBn58b6qzKcy4F4G
+      type: utility
+      name: Cut Them Off
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: For 1 minute, the allies add the die to Opportunity Attacks; a hit reduces the target’s Speed to 0.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '2'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
   enchant: {}
   identifier: lead-from-the-front
   advancement: {}

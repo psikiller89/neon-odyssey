@@ -31,35 +31,39 @@ system:
   properties: []
   requirements: Shadowtongue Cryptist
   activities:
-    Wwp8FNlK38xIo5j2:
-      _id: Wwp8FNlK38xIo5j2
-      type: utility
-      name: ''
+    iDRp5vxCqWxMYdsu:
+      _id: iDRp5vxCqWxMYdsu
+      type: cast
+      name: Summon Silent (Reaction, free)
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A non-Undead creature within 30 ft dies
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,19 +73,33 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.neon-odyssey.spells.Item.8o4oYaFouhUAfANQ
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 3
   enchant: {}
   identifier: spoken-severance
   advancement: {}

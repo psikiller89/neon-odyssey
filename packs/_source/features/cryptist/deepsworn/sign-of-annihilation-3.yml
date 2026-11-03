@@ -16,9 +16,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -29,31 +31,39 @@ system:
   properties: []
   requirements: Deepsworn Cryptist
   activities:
-    i39A4BzfG02jzH2N:
-      _id: i39A4BzfG02jzH2N
-      type: save
-      name: ''
+    DsCh74AP3W7HLRR8:
+      _id: DsCh74AP3W7HLRR8
+      type: cast
+      name: Hex (free)
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -63,27 +73,202 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHex0000000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 1
+    BXY5L90bQfASVjVv:
+      _id: BXY5L90bQfASVjVv
+      type: save
+      name: Sign of Annihilation (start of turn)
+      img: ''
       sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Start of each turn of a creature cursed by your Hex
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: TKfUH0A3bxnz2ow6
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - con
         dc:
           calculation: spellcasting
           formula: ''
-      damage:
-        onSave: none
-        parts: []
+    n4PYvV8JMtB6zP9G:
+      _id: n4PYvV8JMtB6zP9G
+      type: utility
+      name: Consuming Annihilation (-1d6 saves)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: The affected creature makes a saving throw
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 10
+          max: null
+        identifier: cryptist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d6
+        name: Subtract from save
+        prompt: false
+        visible: true
   enchant: {}
   identifier: sign-of-annihilation
   advancement: {}
-effects: []
+effects:
+- _id: TKfUH0A3bxnz2ow6
+  name: 'Sign of Annihilation: -1 AC'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.ac.bonus
+      value: '-1'
+      priority: null
+      type: add
+      phase: initial
+      _id: 7omwfjC4XLHQ67Xe
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply once per failed save (max 5). Ends when the creature succeeds.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Qj5gVMiGuNxqmvEs.TKfUH0A3bxnz2ow6'
 folder: eLWbUPabyo7jvGuT
 sort: 0
 _stats:

@@ -35,36 +35,41 @@ system:
   properties: []
   requirements: Deepsworn Cryptist
   activities:
-    gGaJNz31HTHDEA64:
-      _id: gGaJNz31HTHDEA64
+    Ata0dyJEW9TCNILU:
+      _id: Ata0dyJEW9TCNILU
       type: save
-      name: ''
+      name: Inevitable Oblivion (per lash)
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Up to four lashes; each lash that strikes a creature adds this damage. Expend a level 6+ Eldritch Revelation to use it again (+2d8 per level above 6 on one lash).
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -72,15 +77,24 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '4'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - dex
@@ -92,7 +106,7 @@ system:
         parts:
         - number: 2
           denomination: 8
-          bonus: ''
+          bonus: '10'
           types:
           - force
           custom:

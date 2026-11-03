@@ -36,32 +36,41 @@ system:
   properties: []
   requirements: Trooper Soldier
   activities:
-    EQmTB99NumddJ6iL:
-      _id: EQmTB99NumddJ6iL
-      type: save
-      name: ''
+    IW8wb38MubRGAjuf:
+      _id: IW8wb38MubRGAjuf
+      type: utility
+      name: Bolster Morale
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: The target repeats the save against Charmed, Frightened or Stunned (DC 15 Wisdom if none), adding the die.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -69,24 +78,224 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: ally
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
+    gHMiMkidulL6mcUw:
+      _id: gHMiMkidulL6mcUw
+      type: utility
+      name: Counterattack
+      img: ''
       sort: 0
-      save:
-        ability:
-        - wis
-        dc:
-          calculation: str
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: An ally within 30 ft takes damage
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: Reduce the damage by the number rolled. The next time the ally is attacked before the end of its next turn, it can react to attack the attacker with Advantage.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
+    AfGD9OeIfSZqqsfM:
+      _id: AfGD9OeIfSZqqsfM
+      type: utility
+      name: Medevac
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: The target adds the number rolled to its AC and Death Saving Throws until the start of your next turn and regains an extra die of Hit Points the first time it heals.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
+    8ZX11vijQRAhPbad:
+      _id: 8ZX11vijQRAhPbad
+      type: utility
+      name: Vault Over
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: The ally can boost a jump by the die.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
   enchant: {}
   identifier: decisive-action
   advancement: {}

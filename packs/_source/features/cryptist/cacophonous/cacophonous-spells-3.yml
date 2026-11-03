@@ -30,25 +30,19 @@ system:
   enchant: {}
   identifier: cacophonous-spells
   advancement:
-    T4Qy5uIuRkEEvaD7:
-      _id: T4Qy5uIuRkEEvaD7
+    2WX4ykTxTdiDWIJh:
+      _id: 2WX4ykTxTdiDWIJh
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilence000
-          optional: false
-          sort: 0
         - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
           optional: false
           sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.voIIMmKb7SvS9rvP
+          optional: false
+          sort: 0
         optional: false
-        spell:
+        spell: &id001
           ability: []
           uses:
             max: ''
@@ -59,83 +53,197 @@ system:
         sorting: m
       value: {}
       level: 3
-      title: Cacophonous Spells
+      title: Cacophony Spells
       hint: ''
-    D6Cc09ass0kfEbAZ:
-      _id: D6Cc09ass0kfEbAZ
+    sutoGsPnknAolqN8:
+      _id: sutoGsPnknAolqN8
+      type: ItemChoice
+      level: 3
+      title: Discordant Tone Spells
+      hint: Pick the spells of your discordant tone (Entropy, Instinct, Progress or Thrill).
+      configuration:
+        choices:
+          '3':
+            count: 2
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSilence000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMelfsAcidA
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRayofSickn
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.yFPYVj4jCAQgtIo2
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+          optional: false
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell: *id001
+        type: spell
+      value: {}
+    adexGKkavByThmHW:
+      _id: adexGKkavByThmHW
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        - uuid: Compendium.neon-odyssey.spells.Item.wge0EHZYdkKMtyEw
           optional: false
           sort: 0
         optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: pact
-          prepared: 2
+        spell: *id001
         sorting: m
       value: {}
       level: 5
-      title: Cacophonous Spells
+      title: Cacophony Spells
       hint: ''
-    4cnXqO62jI8HjqH8:
-      _id: 4cnXqO62jI8HjqH8
+    9AyVALX6odd7ijjE:
+      _id: 9AyVALX6odd7ijjE
+      type: ItemChoice
+      level: 5
+      title: Discordant Tone Spells
+      hint: Pick the spells of your discordant tone (Entropy, Instinct, Progress or Thrill).
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.855Enaz0viH6nnpc
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+          optional: false
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell: *id001
+        type: spell
+      value: {}
+    ttvtEzPvfzRib9tU:
+      _id: ttvtEzPvfzRib9tU
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
-          optional: false
-          sort: 0
         - uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
           optional: false
           sort: 0
         optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: pact
-          prepared: 2
+        spell: *id001
         sorting: m
       value: {}
       level: 7
-      title: Cacophonous Spells
+      title: Cacophony Spells
       hint: ''
-    aMW7OXYY2EXOPH3N:
-      _id: aMW7OXYY2EXOPH3N
+    MDOnCEzCJkXeFzoX:
+      _id: MDOnCEzCJkXeFzoX
+      type: ItemChoice
+      level: 7
+      title: Discordant Tone Spells
+      hint: Pick the spells of your discordant tone (Entropy, Instinct, Progress or Thrill).
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplOtilukesRe
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+          optional: false
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell: *id001
+        type: spell
+      value: {}
+    ercv1podqZZH81yQ:
+      _id: ercv1podqZZH81yQ
       type: ItemGrant
       configuration:
         items:
         - uuid: Compendium.neon-odyssey.spells.Item.iOfnFrOwpKHYKuOc
           optional: false
           sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
-          optional: false
-          sort: 0
         optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: pact
-          prepared: 2
+        spell: *id001
         sorting: m
       value: {}
       level: 9
-      title: Cacophonous Spells
+      title: Cacophony Spells
       hint: ''
+    9O9Kg0Pc62uK1htc:
+      _id: 9O9Kg0Pc62uK1htc
+      type: ItemChoice
+      level: 9
+      title: Discordant Tone Spells
+      hint: Pick the spells of your discordant tone (Entropy, Instinct, Progress or Thrill).
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWallofForc
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
+          optional: false
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell: *id001
+        type: spell
+      value: {}
 effects: []
 folder: T4nBRlumg2E718hz
 sort: 0

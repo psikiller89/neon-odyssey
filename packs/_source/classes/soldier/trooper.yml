@@ -91,6 +91,75 @@ system:
       level: 18
       title: Subclass Features
       hint: ''
+    vNc0rKx107iOo1Cb:
+      _id: vNc0rKx107iOo1Cb
+      type: ScaleValue
+      level: 0
+      title: Tactical Die
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        identifier: die
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: null
+            faces: 6
+          '10':
+            number: null
+            faces: 8
+          '18':
+            number: null
+            faces: 10
+      value: {}
+    3YV0axWiUMgqw6KZ:
+      _id: 3YV0axWiUMgqw6KZ
+      type: ScaleValue
+      level: 0
+      title: Tactical Dice
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        identifier: dice
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 4
+          '7':
+            value: 5
+          '15':
+            value: 6
+      value: {}
+    W8FjBoIr1tTOEd75:
+      _id: W8FjBoIr1tTOEd75
+      type: Trait
+      level: 3
+      title: Negotiator
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:dec
+          - skills:ins
+          - skills:itm
+          - skills:per
+      value:
+        chosen: []
   spellcasting:
     progression: none
     ability: ''

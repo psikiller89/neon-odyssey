@@ -31,35 +31,44 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    zJUqP0JPdhTGuycY:
-      _id: zJUqP0JPdhTGuycY
+    BnBHt1NtQ1zwNRS1:
+      _id: BnBHt1NtQ1zwNRS1
       type: utility
-      name: ''
+      name: Battle Assault
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects: []
+        value: ''
+        special: ''
+      effects:
+      - _id: 17duEZpsUb3dEXF2
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,23 +78,61 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: battle-assault
   advancement: {}
-effects: []
+effects:
+- _id: 17duEZpsUb3dEXF2
+  name: Battle Assault
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    units: turns
+    value: '1'
+    expiry: turnEnd
+    expired: false
+  description: <p>Until the end of the turn, your hits deal maximum damage. At the end of your turn you gain 4 Exhaustion levels, which vanish at the end of your next turn or when you expend a Frontline
+    Rally use.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!6dWg0PQNwvYeCmEP.17duEZpsUb3dEXF2'
 folder: X91gcBRCD5t5HCHj
 sort: 0
 _stats:

@@ -31,7 +31,85 @@ system:
   enchant: {}
   identifier: augment-overcharge
   advancement: {}
-effects: []
+effects:
+- _id: rRSbril6e2oOCVd0
+  name: Augment Overcharge
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.blindsight
+      value: '10'
+      priority: null
+      type: add
+      phase: initial
+      _id: CZMr9ggT6uoMtrul
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!fwH3CzDWbNAAqXR4.rRSbril6e2oOCVd0'
+- _id: 6QsDrUn2tsNxNUGN
+  name: Augment Overcharge (Cyber Assassin)
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.blindsight
+      value: '60'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: v8p6iX37NunfmB72
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on while Cyber Assassin is active.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!fwH3CzDWbNAAqXR4.6QsDrUn2tsNxNUGN'
 folder: bqQIVg0cPp9SIgRN
 sort: 0
 _stats:

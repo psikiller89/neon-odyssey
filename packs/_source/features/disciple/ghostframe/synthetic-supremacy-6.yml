@@ -17,9 +17,13 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: sr
+      type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -30,33 +34,44 @@ system:
   properties: []
   requirements: Ghostframe Disciple
   activities:
-    2IFnWNf4yL1flPSV:
-      _id: 2IFnWNf4yL1flPSV
+    n9VgP4ZU2WBmMn9p:
+      _id: n9VgP4ZU2WBmMn9p
       type: utility
-      name: ''
+      name: Cyber Assassin
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Start of your turn
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:channeled-essence
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
+        special: ''
       effects:
-      - _id: YyYZIaIhvhHMjQkE
-        onSave: false
+      - _id: xOuY6zSG4pwZ6p3N
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,45 +81,118 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    5mGcP0HVmhfbx2l7:
+      _id: 5mGcP0HVmhfbx2l7
+      type: utility
+      name: Power Drain
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Destroy a fully charged Power Cell; restore the rolled Essence Points on Channeled Essence.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d8
+        name: Essence Points regained
+        prompt: false
+        visible: true
   enchant: {}
   identifier: synthetic-supremacy
   advancement: {}
 effects:
-- _id: YyYZIaIhvhHMjQkE
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: xOuY6zSG4pwZ6p3N
+  name: Cyber Assassin
+  img: icons/svg/upgrade.svg
   type: base
   system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
+    changes:
+    - key: flags.dnd5e.weaponCriticalThreshold
+      value: '19'
+      priority: null
+      type: downgrade
+      phase: initial
+      _id: R7W2Zeaj6BmDl9mp
   disabled: false
+  transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: <p>Power Cell weapons need no charges and score Critical Hits on 19-20.</p>
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -116,7 +204,46 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!UrJNwA4DKpIto7ph.YyYZIaIhvhHMjQkE'
+  _key: '!items.effects!UrJNwA4DKpIto7ph.xOuY6zSG4pwZ6p3N'
+- _id: O0idg9kGnU8ZXYBI
+  name: Shielded Core
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: aWUsXe3uYwt62FKi
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!UrJNwA4DKpIto7ph.O0idg9kGnU8ZXYBI'
 folder: bqQIVg0cPp9SIgRN
 sort: 0
 _stats:

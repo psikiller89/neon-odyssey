@@ -31,7 +31,237 @@ system:
     repeatable: false
   properties: []
   requirements: Godhand Disciple
-  activities: {}
+  activities:
+    7Z6Jq4rNHQnY3rVu:
+      _id: 7Z6Jq4rNHQnY3rVu
+      type: utility
+      name: 'Resonance: Beacon'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn on a hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The next attack roll that misses the target before the end of your next turn adds 1d4.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d4
+        name: Add to the next missed attack
+        prompt: false
+        visible: true
+    6AA8YtvSORI8tVR0:
+      _id: 6AA8YtvSORI8tVR0
+      type: utility
+      name: 'Resonance: Chronicle'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn on a hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Push the target up to 10 feet away from you.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    VmZW4o8AjvtLSLsL:
+      _id: VmZW4o8AjvtLSLsL
+      type: utility
+      name: 'Resonance: Fountain'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn on a hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The next time the target deals damage before the start of your next turn, reduce it by this roll.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.disciple.die'
+        name: Damage reduction
+        prompt: false
+        visible: true
+    NOa54CKAzUELhovh:
+      _id: NOa54CKAzUELhovh
+      type: utility
+      name: 'Resonance: Tower'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn on a hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The target has Disadvantage on its next attack roll before the end of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: divine-resonance
   advancement:
@@ -56,6 +286,19 @@ system:
       level: 3
       title: Divine Resonance
       hint: ''
+    jgwJ4iNQ6isNa80F:
+      _id: jgwJ4iNQ6isNa80F
+      type: Trait
+      level: 3
+      title: 'Divine Resonance: Religion'
+      hint: Religion proficiency (another skill if you already have it).
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+        - skills:rel
+        choices: []
+      value: {}
 effects: []
 folder: Nhk9pe5HQ8Aa5HxI
 sort: 0

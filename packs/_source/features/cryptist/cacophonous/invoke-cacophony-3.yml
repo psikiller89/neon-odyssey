@@ -40,62 +40,73 @@ system:
   properties: []
   requirements: Cacophonous Cryptist
   activities:
-    xLU11WyW5VBJXFDK:
-      _id: xLU11WyW5VBJXFDK
-      type: save
-      name: ''
+    hFcgFepgeZMZqf6V:
+      _id: hFcgFepgeZMZqf6V
+      type: damage
+      name: Entropy
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: You damage an enemy (or an enemy within 10 ft dies)
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Targets’ Speed is reduced by 10 feet until the end of their next turn.
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: hJsXh867eodR6cKm
-        onSave: false
-      range:
-        override: false
-        units: self
+        value: ''
         special: ''
-      target:
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target: &id001
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '10'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - con
-        dc:
-          calculation: spellcasting
-          formula: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       damage:
-        onSave: none
+        critical:
+          allow: false
+          bonus: ''
         parts:
         - number: 1
           denomination: 6
@@ -109,6 +120,135 @@ system:
             mode: ''
             number: null
             formula: ''
+    t7AwE0lC00AEco8l:
+      _id: t7AwE0lC00AEco8l
+      type: save
+      name: Instinct
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You damage an enemy (or an enemy within 10 ft dies)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: hJsXh867eodR6cKm
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target: *id001
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: true
+            formula: max(1, @attributes.spell.mod)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    KHSpdyRSQ4IqeqA5:
+      _id: KHSpdyRSQ4IqeqA5
+      type: damage
+      name: Progress
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You damage an enemy (or an enemy within 10 ft dies)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Targets can’t take Reactions until the start of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target: *id001
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 1
           denomination: 8
           bonus: ''
@@ -121,6 +261,64 @@ system:
             mode: ''
             number: null
             formula: ''
+    xDeH4TQAO3i6LDp6:
+      _id: xDeH4TQAO3i6LDp6
+      type: save
+      name: Thrill
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You damage an enemy (or an enemy within 10 ft dies)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Failed targets must use a Reaction to move up to half their Speed in a direction you choose. Allies take no damage.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target: *id001
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        onSave: none
+        parts:
         - number: 1
           denomination: 6
           bonus: ''

@@ -32,32 +32,41 @@ system:
   properties: []
   requirements: Trooper Soldier
   activities:
-    N3VnsQi90W48tMnU:
-      _id: N3VnsQi90W48tMnU
-      type: save
-      name: ''
+    wbRkntmp0aUiyMGC:
+      _id: wbRkntmp0aUiyMGC
+      type: utility
+      name: Bombard
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: One ally adds a die to an attack roll; one creature subtracts a die from a Dexterity save forced by another ally.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -65,24 +74,94 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '2'
+          type: ally
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
+    49A2BWf8UH6mtGUc:
+      _id: 49A2BWf8UH6mtGUc
+      type: utility
+      name: Secure the Area
+      img: ''
       sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: str
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Or when you roll Initiative
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:tactical-leader
+          scaling: {}
+      description:
+        chatFlavor: For 1 minute, one ally adds a die to Search checks and gains 10 ft Blindsight; the other adds a die to Initiative and Dexterity saves.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '2'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
   enchant: {}
   identifier: tactical-commander
   advancement: {}

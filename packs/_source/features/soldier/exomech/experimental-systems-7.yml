@@ -20,7 +20,7 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: max(1, @abilities.dex.mod)
+    max: max(1, max(@abilities.str.mod, @abilities.dex.mod))
     spent: 0
     recovery:
     - period: lr
@@ -35,35 +35,39 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    UIxxvmI0pOZpG6XU:
-      _id: UIxxvmI0pOZpG6XU
-      type: save
-      name: ''
+    UnLCYlpov8EdoY47:
+      _id: UnLCYlpov8EdoY47
+      type: utility
+      name: 'Bastion: Defensive Screen'
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you use Evasion Circuits
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: You and allies in a 10-foot Emanation have Half Cover until the start of your next turn.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -73,20 +77,151 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    sGYCLXO74UXrph2T:
+      _id: sGYCLXO74UXrph2T
+      type: utility
+      name: 'Comet: Rocket Rush'
+      img: ''
       sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Move up to your Speed without provoking Opportunity Attacks. Your next melee hit this turn can also apply Push or Topple.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    iHzjWjTEMH9dv8ru:
+      _id: iHzjWjTEMH9dv8ru
+      type: save
+      name: 'Mortar: Micro Rockets'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Replace one attack of the Attack action
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - dex
         dc:
-          calculation: str
-          formula: ''
+          calculation: ''
+          formula: 8 + max(@abilities.str.mod, @abilities.dex.mod) + @prof
       damage:
         onSave: half
         parts:

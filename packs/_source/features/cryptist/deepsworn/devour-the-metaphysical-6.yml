@@ -31,11 +31,11 @@ system:
     TvUYo6iTTglrLZD8:
       _id: TvUYo6iTTglrLZD8
       type: damage
-      name: ''
+      name: Devour the Metaphysical
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
+        condition: You end a spell with Counterspell or Dispel Magic
         override: false
       consumption:
         targets: []

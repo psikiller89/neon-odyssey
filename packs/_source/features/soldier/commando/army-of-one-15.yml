@@ -29,33 +29,39 @@ system:
   properties: []
   requirements: Commando Soldier
   activities:
-    M7P3MpYLPKGVYBUK:
-      _id: M7P3MpYLPKGVYBUK
+    G22w5jCgorSYtJDI:
+      _id: G22w5jCgorSYtJDI
       type: utility
-      name: ''
+      name: Glorious Fervor
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: An enemy within 10 ft of you drops to 0 Hit Points
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '-1'
+          target: feat:weapon-protocols
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Regain one expended use of Weapon Protocols.
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: LdBqKvLZ9UK9395O
-        onSave: false
+        value: ''
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -65,45 +71,109 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    sg6zmqshYBxtCwTg:
+      _id: sg6zmqshYBxtCwTg
+      type: utility
+      name: Ignore Pain
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you activate Frontline Rally with a Bonus Action
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Gain Resistance to one damage type of your choice until the start of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: army-of-one
   advancement: {}
 effects:
-- _id: LdBqKvLZ9UK9395O
-  name: Frightened
-  img: systems/dnd5e/icons/svg/statuses/frightened.svg
+- _id: mnv9FkJsBi4GOjuz
+  name: Unbreakable
+  img: icons/svg/upgrade.svg
   type: base
   system:
-    changes: []
-  statuses:
-  - frightened
-  transfer: false
+    changes:
+    - key: system.traits.ci.value
+      value: frightened
+      priority: null
+      type: add
+      phase: initial
+      _id: pYvlmdEjlobDYZ6N
   disabled: false
+  transfer: true
   duration:
     value: null
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: ''
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -115,7 +185,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!6T8Atv1YPMQanu8W.LdBqKvLZ9UK9395O'
+  _key: '!items.effects!6T8Atv1YPMQanu8W.mnv9FkJsBi4GOjuz'
 folder: PXmW0cBvIjaX4KtP
 sort: 0
 _stats:

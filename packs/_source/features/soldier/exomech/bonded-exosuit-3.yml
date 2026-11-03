@@ -36,31 +36,40 @@ system:
   properties: []
   requirements: Exomech Soldier
   activities:
-    ISW0luTJqqm3d6lH:
-      _id: ISW0luTJqqm3d6lH
-      type: save
-      name: ''
+    JqW9fEaR7ujM90HR:
+      _id: JqW9fEaR7ujM90HR
+      type: utility
+      name: Enter / Exit Exosuit
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Spend movement equal to half your Speed
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
-        chatFlavor: ''
+        chatFlavor: Apply Piloting Exosuit when you enter; delete it from the Effects tab when you exit.
       duration:
         units: inst
         concentration: false
         override: false
-      effects: []
+        value: ''
+        special: ''
+      effects:
+      - _id: fAzKJha9e9VNWfKj
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,27 +79,160 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    PgvLXdTMFYyIGAeM:
+      _id: PgvLXdTMFYyIGAeM
+      type: attack
+      name: Exosuit Unarmed Strike
+      img: ''
       sort: 0
-      save:
-        ability:
-        - str
-        dc:
-          calculation: str
-          formula: ''
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '5'
+        special: ''
+        override: true
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: str
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
       damage:
-        onSave: none
-        parts: []
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: '@mod'
+          types:
+          - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: bonded-exosuit
   advancement: {}
-effects: []
+effects:
+- _id: fAzKJha9e9VNWfKj
+  name: Piloting Exosuit
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.size
+      value: lg
+      priority: 20
+      type: override
+      phase: initial
+      _id: Dz4JYLMY2rfQGvU3
+    - key: system.abilities.str.check.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: ULUgZuYuZOiO8Dp2
+    - key: system.abilities.str.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: B9DTyfg4v2z3jkPr
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Hulking Form: Large, Advantage on Strength checks and saving throws, Unarmed Strikes deal 1d8 Bludgeoning.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!GUjh57r6YH7c1wOr.fAzKJha9e9VNWfKj'
 folder: X91gcBRCD5t5HCHj
 sort: 0
 _stats:

@@ -29,31 +29,35 @@ system:
   properties: []
   requirements: Trooper Soldier
   activities:
-    3GM7GJlOJ5bnvU6L:
-      _id: 3GM7GJlOJ5bnvU6L
+    VjiewlWgvc2KLpIJ:
+      _id: VjiewlWgvc2KLpIJ
       type: utility
-      name: ''
+      name: 'Facilitator: Help'
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
-        chatFlavor: ''
+        chatFlavor: Take the Help action.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -63,19 +67,23 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: squad-rapport
   advancement: {}

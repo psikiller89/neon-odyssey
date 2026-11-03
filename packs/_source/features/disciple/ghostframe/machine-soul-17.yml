@@ -30,33 +30,40 @@ system:
   properties: []
   requirements: Ghostframe Disciple
   activities:
-    mID6q4TuZkv5ocnB:
-      _id: mID6q4TuZkv5ocnB
+    c3jE46rDX7Bk4NpR:
+      _id: c3jE46rDX7Bk4NpR
       type: utility
-      name: ''
+      name: Active Camouflage
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects:
       - _id: qKgx1dBR6X0cs4XC
-        onSave: false
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,19 +73,95 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    NQKFEfv8RtUYfvJV:
+      _id: NQKFEfv8RtUYfvJV
+      type: damage
+      name: Core Conduit
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn on a hit while Cyber Assassin is active
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: true
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: true
+            formula: 1d@scale.disciple.die.faces
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: machine-soul
   advancement: {}
@@ -94,8 +177,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: round
+    value: '1'
     expiry: null
     expired: false
   origin: null
@@ -117,6 +200,45 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!KvCIvqNZ8bjXILsS.qKgx1dBR6X0cs4XC'
+- _id: Nf3HUytVPxGVzGSg
+  name: Cutting Edge Sensors
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.truesight
+      value: '60'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: K28dAXnLFsSa8FIX
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on while Cyber Assassin is active.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!KvCIvqNZ8bjXILsS.Nf3HUytVPxGVzGSg'
 folder: bqQIVg0cPp9SIgRN
 sort: 0
 _stats:

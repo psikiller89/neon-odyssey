@@ -23,9 +23,13 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '@scale.trooper.dice'
     spent: 0
-    recovery: []
+    recovery:
+    - period: sr
+      type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -36,32 +40,41 @@ system:
   properties: []
   requirements: Trooper Soldier
   activities:
-    ZHNkRvoZvxVlCYQQ:
-      _id: ZHNkRvoZvxVlCYQQ
+    wwcvNIzBSQkLZgPc:
+      _id: wwcvNIzBSQkLZgPc
       type: utility
-      name: ''
+      name: Advance
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: The ally can take a Reaction to move up to its Speed, adding the die to its AC against Opportunity Attacks this turn.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -69,20 +82,227 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: ally
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       roll:
-        formula: ''
-        name: ''
+        formula: '@scale.trooper.die'
+        name: Tactical Die
         prompt: false
-        visible: false
+        visible: true
+    iyo4DzuuwQry4tZm:
+      _id: iyo4DzuuwQry4tZm
+      type: utility
+      name: Focus Fire
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: One ally adds the die to one attack roll, the other adds it to one damage roll, before the end of its next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '2'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    s2X4raJUsQj6SClZ:
+      _id: s2X4raJUsQj6SClZ
+      type: heal
+      name: Hold Position
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '2'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: '@scale.trooper.die + @scale.trooper.die'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+    2L6U5QxmEfCcq3EP:
+      _id: 2L6U5QxmEfCcq3EP
+      type: utility
+      name: Push Through
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You or an ally within 30 ft makes a skill check
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Add the die to the ability check that uses a skill proficiency.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.trooper.die'
+        name: Tactical Die
+        prompt: false
+        visible: true
   enchant: {}
   identifier: tactical-leader
   advancement: {}

@@ -22,7 +22,7 @@ system:
     max: '1'
     spent: 0
     recovery:
-    - period: sr
+    - period: lr
       type: recoverAll
   type:
     value: class
@@ -34,35 +34,39 @@ system:
   properties: []
   requirements: Shadowtongue Cryptist
   activities:
-    6oArnLB0d43cs9mL:
-      _id: 6oArnLB0d43cs9mL
-      type: utility
-      name: ''
+    RLeBt2QB1OHWCLQW:
+      _id: RLeBt2QB1OHWCLQW
+      type: cast
+      name: Animate Dead (free)
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,19 +76,88 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplAnimateDea
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 3
+    mpv2OcmEGEEDILy7:
+      _id: mpv2OcmEGEEDILy7
+      type: utility
+      name: Proxy Senses
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: See and hear through one of your Undead until the start of your next turn. Once per Short or Long Rest you can cast a level 1+ spell from its space.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: silent-proxy
   advancement: {}

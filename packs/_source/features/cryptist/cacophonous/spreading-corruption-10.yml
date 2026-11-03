@@ -31,35 +31,39 @@ system:
   properties: []
   requirements: Cacophonous Cryptist
   activities:
-    9aOlo92fIVcvuVaB:
-      _id: 9aOlo92fIVcvuVaB
-      type: utility
-      name: ''
+    bGmwzIOz7oUm88SH:
+      _id: bGmwzIOz7oUm88SH
+      type: cast
+      name: Hex (Reaction, free)
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature you can see within 90 ft damages you
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,23 +73,193 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHex0000000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 1
   enchant: {}
   identifier: spreading-corruption
   advancement: {}
-effects: []
+effects:
+- _id: euJRl4QpevwZwYz0
+  name: 'Resistance: Cold (Entropy)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: cold
+      priority: null
+      type: add
+      phase: initial
+      _id: w88vkbAYja55HmOf
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the one for your discordant tone.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Gkb5rzs0ah4stvUH.euJRl4QpevwZwYz0'
+- _id: UjaXS2PdS1W4JDeJ
+  name: 'Resistance: Acid (Instinct)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: xKJQ66PcOAd9bkVg
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the one for your discordant tone.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Gkb5rzs0ah4stvUH.UjaXS2PdS1W4JDeJ'
+- _id: ro4kZ2iGecsUSiP2
+  name: 'Resistance: Lightning (Progress)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: aWUsXe3uYwt62FKi
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the one for your discordant tone.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Gkb5rzs0ah4stvUH.ro4kZ2iGecsUSiP2'
+- _id: b1lLQWupDFvvyzYf
+  name: 'Resistance: Psychic (Thrill)'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: P9I7X4r57ASBjuVM
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the one for your discordant tone.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!Gkb5rzs0ah4stvUH.b1lLQWupDFvvyzYf'
 folder: T4nBRlumg2E718hz
 sort: 0
 _stats:
