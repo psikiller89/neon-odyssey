@@ -31,32 +31,38 @@ system:
   properties: []
   requirements: Gravgunner Machinist
   activities:
-    7204GnwlwVQVIZlk:
-      _id: 7204GnwlwVQVIZlk
-      type: damage
-      name: ''
+    Xm0kLi7l5SFLqkoz:
+      _id: Xm0kLi7l5SFLqkoz
+      type: attack
+      name: Grav Gun
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '100'
+        long: '400'
+        units: ft
         special: ''
+        override: true
       target:
         template:
           contiguous: false
@@ -64,23 +70,41 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: int
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
       damage:
         critical:
-          allow: false
           bonus: ''
+        includeBase: false
         parts:
         - number: 1
           denomination: 12
-          bonus: ''
+          bonus: '@mod'
           types:
           - force
           custom:

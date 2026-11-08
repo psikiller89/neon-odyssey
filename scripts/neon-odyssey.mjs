@@ -6,8 +6,8 @@ const PACT_SLOT_LEVEL = level => level >= 9 ? 5 : Math.ceil(level / 2);
 
 Hooks.once("init", () => {
   const cfg = CONFIG.DND5E;
-  cfg.skills.cmp ??= { label: "Computers", ability: "int", fullKey: "computers", icon: "icons/svg/terminal.svg" };
-  cfg.skills.tec ??= { label: "Technology", ability: "int", fullKey: "technology", icon: "icons/svg/circuit.svg" };
+  cfg.skills.cmp ??= { label: "Computers", ability: "int", fullKey: "computers", icon: "modules/neon-odyssey/icons/neon/i-laptop-code-cyan.webp" };
+  cfg.skills.tec ??= { label: "Technology", ability: "int", fullKey: "technology", icon: "modules/neon-odyssey/icons/neon/i-microchip-cyan.webp" };
   const subtypes = cfg.featureTypes?.class?.subtypes;
   if ( subtypes ) Object.assign(subtypes, {
     esotericSecret: "Esoteric Secret",

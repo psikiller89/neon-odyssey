@@ -146,9 +146,7 @@ system:
         concentration: false
         override: false
         expiry: null
-      effects:
-      - _id: Qky1o9eiI7AfKPkJ
-        onSave: false
+      effects: []
       range:
         override: false
         units: ft
@@ -208,7 +206,7 @@ system:
       flags: {}
     aOptL5pMaj3WtR8S:
       type: save
-      name: Turn Undead
+      name: Rebuke Anathema
       _id: aOptL5pMaj3WtR8S
       activation:
         type: action
@@ -288,7 +286,7 @@ system:
         parts: []
     rprxorXdFoHbRERZ:
       type: save
-      name: Sear Undead
+      name: Rebuke Anathema (Doom Anathema)
       activation:
         type: action
         value: null
@@ -399,11 +397,11 @@ system:
             value: 4
       value: {}
       hint: ''
-      name: Divine Spark Die Count
+      name: Cosmic Pulse Die Count
       flags: {}
   crewed: false
 effects:
-- name: Turned
+- name: Rebuked
   img: icons/magic/symbols/star-rising-purple.webp
   origin: Compendium.neon-odyssey.features.Item.S8mIumrSi2avdkst
   transfer: false

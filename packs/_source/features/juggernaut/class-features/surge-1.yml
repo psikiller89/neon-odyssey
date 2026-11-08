@@ -75,8 +75,36 @@ system:
         level:
           min: null
           max: null
-      - _id: JDZdnFzH7OPaBaSO
-        onSave: false
+      - _id: bUKhTqRAoXrAPEOE
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: ww5LnC4b2wq4tFwh
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: jlDQjVoDoFoXyu7d
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: rIyHOzwLStRZBmeA
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: kA0dukSJYvReKlNm
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: yXv7EMIon9GP18Vx
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
         units: self
         special: ''
@@ -139,9 +167,9 @@ effects:
   tint: '#ffffff'
   transfer: true
   name: Surge
-  description: <p><strong>Damage Resistance.</strong> You have Resistance to Bludgeoning, Piercing, and Slashing damage.</p><p><strong>Rage Damage.</strong> When you make an attack using Strength—with either
-    a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features
-    table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>
+  description: '<p><strong>Damage Resistance.</strong> You have Resistance to three of the following damage types of your choice: Bludgeoning, Fire, Lightning, Piercing, Radiant, or Slashing (apply the
+    matching Surge Resistance effects).</p><p><strong>Surge Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus
+    to the damage shown in the Surge Damage column of the Juggernaut table.</p><p><strong>Strength Advantage.</strong> You have Advantage on Strength checks and Strength saving throws.</p>'
   statuses: []
   img: icons/creatures/abilities/mouth-teeth-human.webp
   type: base
@@ -153,30 +181,6 @@ effects:
       type: add
       phase: initial
       _id: 8pe5DmqLcdO11THO
-      conditions: '{}'
-      replacement: ''
-    - key: system.traits.dr.value
-      value: slashing
-      priority: null
-      type: add
-      phase: initial
-      _id: 2UPRBkSrbnjVP4y0
-      conditions: '{}'
-      replacement: ''
-    - key: system.traits.dr.value
-      value: piercing
-      priority: null
-      type: add
-      phase: initial
-      _id: veMjUbYnE0l8vTzG
-      conditions: '{}'
-      replacement: ''
-    - key: system.traits.dr.value
-      value: bludgeoning
-      priority: null
-      type: add
-      phase: initial
-      _id: zkc9c9TRInoXTKjX
       conditions: '{}'
       replacement: ''
     - key: system.abilities.str.check.roll.mode
@@ -218,28 +222,33 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!uKbFSOh6dq9GNvRb.G5XZTi4zYTFiHVll'
-- _id: JDZdnFzH7OPaBaSO
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: bUKhTqRAoXrAPEOE
+  name: 'Surge Resistance: Bludgeoning'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
   type: base
   system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
+    changes:
+    - key: system.traits.dr.value
+      value: bludgeoning
+      priority: null
+      type: add
+      phase: initial
+      _id: ifbNcFf2MEDatelx
   disabled: false
+  transfer: false
   duration:
     value: null
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: <p>Apply three of these when you activate Surge.</p>
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -251,7 +260,202 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!uKbFSOh6dq9GNvRb.JDZdnFzH7OPaBaSO'
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.bUKhTqRAoXrAPEOE'
+- _id: ww5LnC4b2wq4tFwh
+  name: 'Surge Resistance: Fire'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: isCWPpRx1azudEbt
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply three of these when you activate Surge.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.ww5LnC4b2wq4tFwh'
+- _id: jlDQjVoDoFoXyu7d
+  name: 'Surge Resistance: Lightning'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: aWUsXe3uYwt62FKi
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply three of these when you activate Surge.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.jlDQjVoDoFoXyu7d'
+- _id: rIyHOzwLStRZBmeA
+  name: 'Surge Resistance: Piercing'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: piercing
+      priority: null
+      type: add
+      phase: initial
+      _id: OlBp9lDphgu6wMoG
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply three of these when you activate Surge.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.rIyHOzwLStRZBmeA'
+- _id: kA0dukSJYvReKlNm
+  name: 'Surge Resistance: Radiant'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: radiant
+      priority: null
+      type: add
+      phase: initial
+      _id: SO8wjuRYDL3mbTpC
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply three of these when you activate Surge.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.kA0dukSJYvReKlNm'
+- _id: yXv7EMIon9GP18Vx
+  name: 'Surge Resistance: Slashing'
+  img: icons/creatures/abilities/mouth-teeth-human.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: slashing
+      priority: null
+      type: add
+      phase: initial
+      _id: oHrTBpnS9dZw3PDK
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Apply three of these when you activate Surge.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!uKbFSOh6dq9GNvRb.yXv7EMIon9GP18Vx'
 flags:
   neon-odyssey:
     srcIdentifier: rage

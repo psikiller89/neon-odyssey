@@ -32,7 +32,7 @@ def heal(f,t='healing'): return dpart(None,None,[t],f)
 def setacts(d,pairs): d['system']['activities']={i:a for i,a in pairs}
 def rec(*p): return [{'period':x,'type':'recoverAll'} for x in p]
 def setuses(d,mx,*p): d['system']['uses']={'max':str(mx),'spent':0,'recovery':rec(*p)}
-def rnd(n=1): return {'units':'round','value':str(n),'expiry':None,'expired':False}
+def rnd(n=1): return {'units':'rounds','value':str(n),'expiry':None,'expired':False}
 def turn(): return {'units':'turns','value':'1','expiry':'turnEnd','expired':False}
 def mins(n): return {'value':n*60,'units':'seconds','expiry':None,'expired':False}
 F='features/'

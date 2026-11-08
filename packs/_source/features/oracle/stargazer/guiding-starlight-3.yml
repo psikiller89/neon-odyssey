@@ -35,7 +35,7 @@ system:
     mwsaNKbtnIxt3vec:
       _id: mwsaNKbtnIxt3vec
       type: utility
-      name: ''
+      name: Guiding Starlight
       activation:
         type: reaction
         value: null
@@ -59,9 +59,10 @@ system:
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -79,10 +80,10 @@ system:
         max: ''
       sort: 0
       roll:
-        formula: ''
-        name: ''
+        formula: 1d4
+        name: Add or subtract
         prompt: false
-        visible: false
+        visible: true
   enchant: {}
   identifier: guiding-starlight
   advancement: {}

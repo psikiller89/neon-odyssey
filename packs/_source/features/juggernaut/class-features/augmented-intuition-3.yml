@@ -5,12 +5,8 @@ img: icons/creatures/birds/raptor-owl-flying-moon.webp
 system:
   description:
     value: '<p>You can focus the power coursing through you, honing your agility, bearing, and senses. You gain proficiency in another skill of your choice from the skill list available to Juggernauts at
-      level 1. +2 Hardened Form, Surge, Weapon Mastery 2 +2 2 +2 Amplified Reflexes, Unstable Assault 2 +2 2 +2 Augmented Intuition, Juggernaut Subclass 3 +2 2 +2 Ability Score Improvement 3 +2 3 +3 Driving
-      Momentum, Extra Attack 3 +2 3 +3 Subclass feature 4 +2 3 +3 Acceleration Burst, Heightened Awareness 4 +2 3 +3 Ability Score Improvement 4 +2 3 +4 Kinetic Impact 4 +3 3 +4 Subclass feature 4 +3 4
-      +4 Unstoppable Force 4 +3 4 +4 Ability Score Improvement 5 +3 4 +5 Kinetic Expansion 5 +3 4 +5 Subclass feature 5 +3 4 +5 Surging Core 5 +3 4 +5 Ability Score Improvement 5 +4 4 +6 Kinetic Overload
-      6 +4 4 +6 Overcharged Might 6 +4 4 +6 Epic Boon 6 +4 4 +6 Shattered Limits 6 +4 4</p><p>In addition, while your Surge is active, you can channel inner power when you attempt certain tasks; whenever
-      you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Medicine, Perception, Stealth,
-      or Survival.</p>'
+      level 1. </p><p>In addition, while your Surge is active, you can channel inner power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make
+      it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Medicine, Perception, Stealth, or Survival.</p>'
     chat: ''
   source:
     custom: ''

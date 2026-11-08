@@ -119,7 +119,7 @@ system:
       value: {}
       hint: ''
       flags: {}
-      name: Rage Damage
+      name: Surge Damage
     Hc3cNal60BVZjgi5:
       _id: Hc3cNal60BVZjgi5
       type: ScaleValue
@@ -335,7 +335,7 @@ system:
       value: {}
       hint: ''
       flags: {}
-      name: Rages
+      name: Surges
     Ab9IuXTuVV9GY2s0:
       type: AbilityScoreImprovement
       _id: Ab9IuXTuVV9GY2s0

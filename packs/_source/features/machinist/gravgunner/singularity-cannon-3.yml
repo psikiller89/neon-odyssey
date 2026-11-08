@@ -39,54 +39,69 @@ system:
   properties: []
   requirements: Gravgunner Machinist
   activities:
-    7MTI9cg2uaYbwV03:
-      _id: 7MTI9cg2uaYbwV03
+    pBcRae9A6qhswrid:
+      _id: pBcRae9A6qhswrid
       type: save
-      name: ''
+      name: Disruptor Beam
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: HZsjlBrRe8S5gWYC
-        onSave: false
+        value: ''
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: line
+          size: '30'
+          width: '5'
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - dex
@@ -94,7 +109,9 @@ system:
           calculation: spellcasting
           formula: ''
       damage:
-        onSave: half
+        critical:
+          allow: false
+          bonus: ''
         parts:
         - number: 2
           denomination: 8
@@ -108,6 +125,86 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: half
+    RX94nQpB1tCUcE9E:
+      _id: RX94nQpB1tCUcE9E
+      type: save
+      name: Suppression Barrage
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: HZsjlBrRe8S5gWYC
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 1
           denomination: 8
           bonus: ''
@@ -120,6 +217,150 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: half
+    ow1A7ot4DdsvO6Fz:
+      _id: ow1A7ot4DdsvO6Fz
+      type: save
+      name: Vector Manipulator
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: 'Vector Manipulator. Gathering rings that surround the singularity chamber unleash a wave of gravity in a 30foot Cone. Each Large or smaller creature in that area must succeed on a Strength
+          saving throw or be pushed up to 30 feet straight toward or away from you (choose one). '
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+    PgLxvWH81wMXVsjM:
+      _id: PgLxvWH81wMXVsjM
+      type: heal
+      name: Graviton Forcefield
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 5
+          max: null
+        identifier: machinist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: 2d8 + @abilities.int.mod
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: singularity-cannon
   advancement: {}

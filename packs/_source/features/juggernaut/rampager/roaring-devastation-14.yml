@@ -70,13 +70,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '20'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
@@ -103,6 +107,69 @@ system:
             mode: ''
             number: null
             formula: ''
+    HdpTmRLCLdhIZhPL:
+      _id: HdpTmRLCLdhIZhPL
+      type: utility
+      name: Restore (expend a Surge)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: After your Surge ends
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+        - type: itemUses
+          value: '1'
+          target: feat:surge
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: roaring-devastation
   advancement: {}

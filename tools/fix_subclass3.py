@@ -319,7 +319,7 @@ for a in ce['system']['activities'].values():
         if key not in made:
             e=copy.deepcopy(s); e['_id']=mkid('ce:'+key); e['_key']=f"!items.effects!{ce['_id']}.{e['_id']}"
             e['name']=f"{base}: {s['name']}"; e['transfer']=False; e['origin']=None
-            e['duration']={'value':1,'units':'rounds','expiry':'turnStart','expired':False} if s['name']!='Dashing' else {'value':None,'units':'turn','expiry':'turnEnd','expired':False}
+            e['duration']={'value':1,'units':'rounds','expiry':'turnStart','expired':False} if s['name']!='Dashing' else {'value':None,'units':'turns','expiry':'turnEnd','expired':False}
             e.setdefault('flags',{}).setdefault('neon-odyssey',{}).update(ceLocal=True,ceKey=key)
             e.pop('folder',None); e.pop('sort',None); e.pop('_stats',None)
             ce['effects'].append(e); made[key]=e['_id']

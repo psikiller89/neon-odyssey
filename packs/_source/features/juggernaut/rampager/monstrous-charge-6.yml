@@ -35,7 +35,7 @@ system:
     UAcuyltoxAfh3e1Z:
       _id: UAcuyltoxAfh3e1Z
       type: save
-      name: ''
+      name: Toss Aside
       activation:
         type: ''
         value: null
@@ -55,8 +55,6 @@ system:
         override: false
       effects:
       - _id: zSZyiplUvKFcMu3d
-        onSave: false
-      - _id: R58jxyQ2GXTWWupM
         onSave: false
       range:
         override: false
@@ -125,40 +123,6 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!8vS4zld7mFXw3vwz.zSZyiplUvKFcMu3d'
-- _id: R58jxyQ2GXTWWupM
-  name: Restrained
-  img: systems/dnd5e/icons/svg/statuses/restrained.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - restrained
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!8vS4zld7mFXw3vwz.R58jxyQ2GXTWWupM'
 folder: hLU5UDAQzd80GlTj
 sort: 0
 _stats:

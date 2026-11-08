@@ -32,7 +32,7 @@ system:
     R1icZTBRgtxooqNY:
       _id: R1icZTBRgtxooqNY
       type: save
-      name: ''
+      name: Earthshaking Leap
       activation:
         type: bonus
         value: null
@@ -59,13 +59,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '10'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
@@ -78,8 +82,23 @@ system:
           calculation: str
           formula: ''
       damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - force
+          custom:
+            enabled: true
+            formula: (@scale.juggernaut.rage-damage)d10
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
         onSave: half
-        parts: []
   enchant: {}
   identifier: earthshaking-leap
   advancement: {}

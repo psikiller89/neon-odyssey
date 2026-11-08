@@ -29,7 +29,150 @@ system:
     repeatable: false
   properties: []
   requirements: Harmonious Oracle
-  activities: {}
+  activities:
+    2QmopdaWitYwzt0k:
+      _id: 2QmopdaWitYwzt0k
+      type: damage
+      name: Somber Grasp
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A spell slot spell restores Hit Points (one target per creature healed)
+      consumption:
+        scaling:
+          allowed: true
+          max: '8'
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Base is a level 1 slot (2 + 1); scale up one step per slot level above 1.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - radiant
+          - necrotic
+          custom:
+            enabled: true
+            formula: '3'
+          scaling:
+            mode: whole
+            number: null
+            formula: '1'
+    INfw4TmG4tjbJ89A:
+      _id: INfw4TmG4tjbJ89A
+      type: heal
+      name: Vital Surge
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A spell slot spell deals damage (one target per creature damaged)
+      consumption:
+        scaling:
+          allowed: true
+          max: '8'
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Base is a level 1 slot (2 + 1); scale up one step per slot level above 1.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '3'
+        scaling:
+          mode: whole
+          number: null
+          formula: '1'
   enchant: {}
   identifier: weave-duality
   advancement: {}

@@ -43,9 +43,9 @@ system:
         allowDrops: false
         type: feat
         pool:
-        - uuid: Compendium.dnd5e.classes24.Item.phbDivineStrike0
+        - uuid: Compendium.neon-odyssey.features.Item.YyKk8h53LVmW1bMN
           sort: 0
-        - uuid: Compendium.dnd5e.classes24.Item.phbClcPotentSpel
+        - uuid: Compendium.neon-odyssey.features.Item.p0awKsDz7ISTndXI
           sort: 0
         spell: null
         restriction:
@@ -57,9 +57,8 @@ system:
       value:
         added: {}
         replaced: {}
-      hint: <p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose
-        for this feature).</p>
-      name: Blessed Strikes Choice
+      hint: <p>Your strikes become guided by cosmic forces. You gain one of the following options of your choice.</p>
+      name: Ominous Horizon Choice
       flags: {}
   crewed: false
 effects: []

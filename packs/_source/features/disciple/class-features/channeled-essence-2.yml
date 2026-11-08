@@ -687,7 +687,7 @@ effects:
   start: null
   duration:
     value: null
-    units: turn
+    units: turns
     expiry: turnEnd
     expired: false
   description: ''

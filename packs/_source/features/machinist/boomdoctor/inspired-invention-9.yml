@@ -310,34 +310,7 @@ system:
         level: 4
   enchant: {}
   identifier: inspired-invention
-  advancement:
-    KGnIuVYKh7suzF89:
-      _id: KGnIuVYKh7suzF89
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: true
-          method: spell
-          prepared: 2
-      value: {}
-      level: 9
-      title: Inspired Invention
-      hint: ''
+  advancement: {}
 effects: []
 folder: F8X7I1SODp46VLHw
 sort: 0

@@ -57,11 +57,7 @@ system:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: uErZrymMDkzT5M9V
-        onSave: false
-      - _id: U3lPAAYJmGlo96sr
-        onSave: false
+      effects: []
       range:
         override: false
         units: self
@@ -90,75 +86,7 @@ system:
   enchant: {}
   identifier: lifeforce-confluence
   advancement: {}
-effects:
-- _id: uErZrymMDkzT5M9V
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!LnxUJ8qFEFLl6kNE.uErZrymMDkzT5M9V'
-- _id: U3lPAAYJmGlo96sr
-  name: Unconscious
-  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - unconscious
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!LnxUJ8qFEFLl6kNE.U3lPAAYJmGlo96sr'
+effects: []
 folder: CFltsA9FK9M1Wdn2
 sort: 0
 _stats:

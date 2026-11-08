@@ -30,7 +30,24 @@ system:
   activities: {}
   enchant: {}
   identifier: unfathomable-whispers
-  advancement: {}
+  advancement:
+    2EWFdsexUzAizNCM:
+      _id: 2EWFdsexUzAizNCM
+      type: Trait
+      level: 3
+      title: Unfathomable Whispers
+      hint: Arcana and Religion (Expertise if already proficient).
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+        - skills:arc
+        - skills:rel
+        choices: []
+      value: {}
 effects: []
 folder: L8lMOeWgMj3Vj0Fc
 sort: 0

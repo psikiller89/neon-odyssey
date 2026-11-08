@@ -32,36 +32,41 @@ system:
   properties: []
   requirements: Harmonious Oracle
   activities:
-    y7YaOmqqVuRtMAqf:
-      _id: y7YaOmqqVuRtMAqf
-      type: utility
-      name: ''
+    gF8hnMF6XgVwJmfS:
+      _id: gF8hnMF6XgVwJmfS
+      type: damage
+      name: Flow of Energy
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature within 30 ft takes Acid, Cold, Fire, Lightning, Necrotic, Radiant or Thunder damage
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Give that creature Resistance to the triggering type; a different creature takes this damage.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -69,20 +74,42 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - necrotic
+          - radiant
+          custom:
+            enabled: true
+            formula: floor(@classes.oracle.levels / 2)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: flow-of-energy
   advancement: {}

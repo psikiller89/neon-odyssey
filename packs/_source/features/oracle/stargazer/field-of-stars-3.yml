@@ -34,33 +34,170 @@ system:
   properties: []
   requirements: Stargazer Oracle
   activities:
-    XDx6skbws4w1SdV1:
-      _id: XDx6skbws4w1SdV1
-      type: damage
-      name: ''
+    b1JGyybKgXoFD3qV:
+      _id: b1JGyybKgXoFD3qV
+      type: utility
+      name: Field of Stars
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: action
         value: null
-        condition: ''
         override: false
+        condition:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Dim Light; Frightened is suppressed for you and allies inside. Apply your triad benefit.
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    HS3Cf2xXDSTCvgJC:
+      _id: HS3Cf2xXDSTCvgJC
+      type: damage
+      name: Beacon
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, an affected creature hits and deals damage
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: fRtX6fqHy8wWSgyM
-        onSave: false
+        value: ''
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - radiant
+          custom:
+            enabled: true
+            formula: 1d(4 + 2 * min(1, floor(@classes.oracle.levels / 6)))
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    hOLSeMGxjU03P4P2:
+      _id: hOLSeMGxjU03P4P2
+      type: utility
+      name: Chronicle
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: +5 ft Speed (+10 at Oracle 6) for you and allies entering or starting in the field; no Opportunity Attacks while boosted.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,69 +207,147 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    5KvCgOej8Tz5fi8R:
+      _id: 5KvCgOej8Tz5fi8R
+      type: utility
+      name: Fountain
+      img: ''
       sort: 0
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-        - number: 1
-          denomination: 4
-          bonus: ''
-          types:
-          - radiant
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: An affected creature fails a saving throw
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d(4 + 2 * min(1, floor(@classes.oracle.levels / 6)))
+        name: Add to the save
+        prompt: false
+        visible: true
+    pP8WIGxb7w0Zkf7i:
+      _id: pP8WIGxb7w0Zkf7i
+      type: utility
+      name: Tower
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: An affected creature takes damage (its Reaction)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d(4 + 4 * min(1, floor(@classes.oracle.levels / 6))) + max(1, @abilities.wis.mod)
+        name: Damage reduced
+        prompt: false
+        visible: true
   enchant: {}
   identifier: field-of-stars
   advancement: {}
-effects:
-- _id: fRtX6fqHy8wWSgyM
-  name: Frightened
-  img: systems/dnd5e/icons/svg/statuses/frightened.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - frightened
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!PY3YFlz46IhW7kSA.fRtX6fqHy8wWSgyM'
+effects: []
 folder: S0v5ja68ap8lA9lh
 sort: 0
 _stats:

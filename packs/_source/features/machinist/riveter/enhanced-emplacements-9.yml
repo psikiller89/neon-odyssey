@@ -30,58 +30,7 @@ system:
     repeatable: false
   properties: []
   requirements: Riveter Machinist
-  activities:
-    KiOz5cfjGO499N24:
-      _id: KiOz5cfjGO499N24
-      type: save
-      name: ''
-      activation:
-        type: ''
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      save:
-        ability:
-        - con
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+  activities: {}
   enchant: {}
   identifier: enhanced-emplacements
   advancement: {}

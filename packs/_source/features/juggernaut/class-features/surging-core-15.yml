@@ -63,11 +63,7 @@ system:
         override: false
         concentration: false
         expiry: null
-      effects:
-      - _id: lswSa3gGj0twkdSs
-        onSave: false
-      - _id: CEOp7xVtM4qLsmnx
-        onSave: false
+      effects: []
       range:
         units: self
         special: ''
@@ -117,75 +113,7 @@ system:
   identifier: surging-core
   advancement: {}
   crewed: false
-effects:
-- _id: lswSa3gGj0twkdSs
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!eyoszpyWUkUCnf2w.lswSa3gGj0twkdSs'
-- _id: CEOp7xVtM4qLsmnx
-  name: Unconscious
-  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - unconscious
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!eyoszpyWUkUCnf2w.CEOp7xVtM4qLsmnx'
+effects: []
 flags:
   neon-odyssey:
     srcIdentifier: persistent-rage

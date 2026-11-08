@@ -33,31 +33,192 @@ system:
   properties: []
   requirements: Mutant Juggernaut
   activities:
-    KLSuzMaNgseM55Gk:
-      _id: KLSuzMaNgseM55Gk
-      type: utility
-      name: ''
+    1RVLjiYgnXh06hSE:
+      _id: 1RVLjiYgnXh06hSE
+      type: damage
+      name: Caustic Secretions
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature within 5 ft damages you
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
+        value: '5'
+        units: ft
+        special: ''
         override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          custom:
+            enabled: true
+            formula: '@abilities.str.mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    9XdSClc7zGbbaFkj:
+      _id: 9XdSClc7zGbbaFkj
+      type: attack
+      name: Sprouted Appendage
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: str
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 6
+          bonus: '@mod'
+          types:
+          - acid
+          - bludgeoning
+          - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    NmsGk1JdACp75T1n:
+      _id: NmsGk1JdACp75T1n
+      type: utility
+      name: Shrieking Mouths
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you hit a creature
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Until the start of your next turn you have Advantage on Opportunity Attacks against it, and it has Disadvantage on attacks against targets other than you.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,24 +227,73 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: mutagenic-flesh
   advancement: {}
-effects: []
+effects:
+- _id: lgmvVMNoQ0t0TPmI
+  name: Aberrant Senses
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.blindsight
+      value: '10'
+      priority: null
+      type: add
+      phase: initial
+      _id: CZMr9ggT6uoMtrul
+    - key: system.attributes.senses.ranges.darkvision
+      value: '30'
+      priority: null
+      type: add
+      phase: initial
+      _id: 6uTdUEJMHFFLOvzV
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!HDK6W0qjfsJeQ4mP.lgmvVMNoQ0t0TPmI'
 folder: pHst4AIH8mv1gllA
 sort: 0
 _stats:

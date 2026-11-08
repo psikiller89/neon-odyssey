@@ -33,7 +33,7 @@ system:
   activities:
     nN5gsB6AcSQ4uQPN:
       type: damage
-      name: Extra Damage
+      name: 'Kinetic Impact: Extra Damage'
       _id: nN5gsB6AcSQ4uQPN
       sort: 0
       activation:
@@ -83,7 +83,7 @@ system:
         parts:
         - custom:
             enabled: true
-            formula: '@scale.kinetic-impact.damage'
+            formula: (1 + min(1, floor(@classes.juggernaut.levels / 17)) + min(1, floor(@classes.juggernaut.levels / 20)))d10
           number: null
           denomination: 0
           bonus: ''
@@ -115,32 +115,92 @@ system:
         requireMagic: false
       behaviors: []
       flags: {}
-    WKgVJp5AQRLqOlDh:
+    ifKOg4LHoggikhzC:
+      _id: ifKOg4LHoggikhzC
       type: utility
-      name: Forceful Blow
-      _id: WKgVJp5AQRLqOlDh
-      img: systems/dnd5e/icons/svg/activity/utility.svg
-      sort: 100000
+      name: Disrupt Momentum
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
+        value: null
         override: false
-        condition: ''
-      behaviors: []
+        condition: A Kinetic Impact hit
       consumption:
         scaling:
           allowed: false
-        spellSlot: true
+          max: ''
+        spellSlot: false
         targets: []
       description:
-        value: ''
         chatFlavor: ''
       duration:
         units: inst
-        expiry: null
         concentration: false
         override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: vs8GMB3LSRzIAUlV
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    BzAPUIA2gIvetfwT:
+      _id: BzAPUIA2gIvetfwT
+      type: utility
+      name: Repelling Force
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A Kinetic Impact hit
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Push the target 15 feet straight away; you can move up to half your Speed toward it without provoking Opportunity Attacks.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
       effects: []
-      flags: {}
       range:
         units: self
         override: false
@@ -148,232 +208,148 @@ system:
       target:
         template:
           contiguous: false
-          stationary: false
           units: ft
           type: ''
         affects:
           choice: false
-          type: creature
           count: '1'
-          special: ''
+          type: creature
         override: false
-        prompt: true
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
       visibility:
         level:
           min: null
           max: null
+        identifier: ''
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-    l33Ty0yfpOXRiLve:
-      type: utility
-      name: Hamstring Blow
-      _id: l33Ty0yfpOXRiLve
-      img: systems/dnd5e/icons/svg/activity/attack.svg
-      sort: 200000
-      activation:
-        type: ''
-        override: false
-        condition: ''
       behaviors: []
-      consumption:
-        scaling:
-          allowed: false
-        spellSlot: true
-        targets: []
-      description:
-        value: ''
-        chatFlavor: ''
-      duration:
-        units: inst
-        expiry: null
-        concentration: false
-        override: false
-      effects:
-      - _id: bg9jWpPRIJ0Q2vPY
-        uuid: null
-        level:
-          min: null
-          max: null
-      flags: {}
-      range:
-        units: self
-        override: false
-        special: ''
-        value: '5'
-      target:
-        template:
-          contiguous: false
-          stationary: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          type: creature
-          count: '1'
-          special: ''
-        override: false
-        prompt: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-    vcAdrcmUKQWA68QT:
+    ix2lYWKDFkm10S8a:
+      _id: ix2lYWKDFkm10S8a
       type: utility
-      name: Staggering Blow
+      name: Dazing Impact
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
         override: false
-        condition: ''
+        condition: A Kinetic Impact hit
       consumption:
-        targets: []
         scaling:
           allowed: false
-        spellSlot: true
+          max: ''
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
-        value: ''
       duration:
         units: inst
         concentration: false
         override: false
-        expiry: null
+        value: ''
+        special: ''
       effects:
-      - _id: uacly0JAXLVwAS6y
-        uuid: null
-        level:
-          min: null
-          max: null
+      - _id: SNqEG4jJQFV2HKZ7
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: '1'
           type: creature
-          special: ''
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 300000
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
-      behaviors: []
       flags: {}
       visibility:
         level:
           min: 13
           max: null
+        identifier: juggernaut
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: juggernaut
-      _id: vcAdrcmUKQWA68QT
-    MP1qQsApCj19F2M5:
+      behaviors: []
+    aQt2EZEjPlyxfgfN:
+      _id: aQt2EZEjPlyxfgfN
       type: utility
+      name: Fracture Defenses
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
         override: false
-        condition: ''
+        condition: A Kinetic Impact hit
       consumption:
-        targets: []
         scaling:
           allowed: false
-        spellSlot: true
+          max: ''
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
-        value: ''
       duration:
         units: inst
-        override: false
-        expiry: null
         concentration: false
-      effects:
-      - _id: tUyuyTQGmpUqMcFe
-        uuid: null
-        level: {}
-      - _id: Q0ou16II1WEcCdyW
-        uuid: null
-        level: {}
-      range:
         override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: iW999fXvXn2apyMx
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: '1'
           type: creature
-          special: ''
         override: false
-        prompt: true
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 400000
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      name: Sundering Blow
-      img: systems/dnd5e/icons/svg/properties/magical.svg
-      behaviors: []
       flags: {}
       visibility:
         level:
           min: 13
           max: null
+        identifier: juggernaut
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
-        identifier: juggernaut
-      _id: MP1qQsApCj19F2M5
+      behaviors: []
   enchant: {}
   identifier: kinetic-impact
   advancement:
@@ -397,119 +373,111 @@ system:
       name: Brutal Strike
   crewed: false
 effects:
-- _id: bg9jWpPRIJ0Q2vPY
-  disabled: false
-  duration:
-    value: null
-    units: turns
-    expiry: sourceStart
-    expired: false
-  origin: Compendium.neon-odyssey.features.Item.SEZo8wfqKyM4Klnv
-  transfer: false
-  flags:
-    dnd5e:
-      riders: {}
-  tint: '#ffffff'
-  name: Hamstrung
-  description: <p>Hit by a hamstring blow, this character's Speed has been reduced by 15 feet until the start of the attacker's next turn.</p>
-  statuses: []
+- _id: vs8GMB3LSRzIAUlV
+  name: Disrupt Momentum
   img: icons/skills/melee/strike-axe-blood-red.webp
   type: base
   system:
     changes:
     - key: system.attributes.movement.bonus
-      value: 15
+      value: '15'
       priority: null
       type: subtract
       phase: initial
-      _id: gFTJuyGkMWRCzpmE
-      conditions: '{}'
-      replacement: ''
-    rider:
-      statuses: []
-    origin:
-      actor: null
-      behavior: null
-      effect: null
-      item: null
-      message: null
-    conditions: '{}'
-    magical: false
+      _id: ZekWFg2h4Q5NPwtv
+  disabled: false
+  transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Speed reduced by 15 feet until the start of your next turn.</p>
+  tint: '#ffffff'
+  statuses: []
   sort: 0
+  flags: {}
+  origin: null
   start: null
   showIcon: 1
   folder: null
-  _key: '!items.effects!SEZo8wfqKyM4Klnv.bg9jWpPRIJ0Q2vPY'
-- name: Staggered
-  origin: null
-  duration:
-    value: null
-    units: turns
-    expiry: sourceStart
-    expired: false
-  disabled: false
-  flags:
-    dnd5e:
-      riders: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!SEZo8wfqKyM4Klnv.vs8GMB3LSRzIAUlV'
+- _id: SNqEG4jJQFV2HKZ7
+  name: Dazing Impact
   img: icons/skills/melee/strike-axe-blood-red.webp
-  _id: uacly0JAXLVwAS6y
   type: base
   system:
     changes: []
-    rider:
-      statuses: []
-    origin:
-      behavior: null
-      item: Compendium.neon-odyssey.features.Item.SEZo8wfqKyM4Klnv
-      message: null
-      actor: null
-      effect: null
-    conditions: '{}'
-    magical: false
-  description: <p>Hit by a staggering blow, this character has Disadvantage on the next Saving Throw it makes, and it can't make Opportunity Attacks until the start of the attacker's next turn.</p>
-  tint: '#ffffff'
+  disabled: false
   transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Disadvantage on the next saving throw; can’t make Opportunity Attacks until the start of your next turn.</p>
+  tint: '#ffffff'
   statuses: []
   sort: 0
+  flags: {}
+  origin: null
   start: null
   showIcon: 1
   folder: null
-  _key: '!items.effects!SEZo8wfqKyM4Klnv.uacly0JAXLVwAS6y'
-- name: Sundered
-  origin: null
-  duration:
-    value: null
-    units: turns
-    expiry: sourceStart
-    expired: false
-  disabled: false
-  flags:
-    dnd5e:
-      riders: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!SEZo8wfqKyM4Klnv.SNqEG4jJQFV2HKZ7'
+- _id: iW999fXvXn2apyMx
+  name: Fracture Defenses
   img: icons/skills/melee/strike-axe-blood-red.webp
-  _id: Q0ou16II1WEcCdyW
   type: base
   system:
     changes: []
-    rider:
-      statuses: []
-    origin:
-      behavior: null
-      item: Compendium.neon-odyssey.features.Item.SEZo8wfqKyM4Klnv
-      message: null
-      actor: null
-      effect: null
-    conditions: '{}'
-    magical: false
-  description: <p>Hit by a sundering blow, the next attack roll made by another creature against the target gains a +5 bonus to the roll.</p>
-  tint: '#ffffff'
+  disabled: false
   transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>The next attack roll by another creature against this target before the start of your next turn gains +5.</p>
+  tint: '#ffffff'
   statuses: []
   sort: 0
+  flags: {}
+  origin: null
   start: null
   showIcon: 1
   folder: null
-  _key: '!items.effects!SEZo8wfqKyM4Klnv.Q0ou16II1WEcCdyW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!SEZo8wfqKyM4Klnv.iW999fXvXn2apyMx'
 flags:
   neon-odyssey:
     srcIdentifier: brutal-strike

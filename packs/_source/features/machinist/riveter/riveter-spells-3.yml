@@ -64,6 +64,9 @@ system:
         - uuid: Compendium.neon-odyssey.spells.Item.z4T4Xc6cubUQMO03
           optional: false
           sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+          optional: false
+          sort: 0
         optional: false
         spell:
           ability: []
@@ -109,6 +112,9 @@ system:
       configuration:
         items:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.nw8WLScRIXy19tAp
           optional: false
           sort: 0
         optional: false

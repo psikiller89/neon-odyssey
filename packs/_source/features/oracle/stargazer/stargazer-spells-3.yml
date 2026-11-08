@@ -31,27 +31,18 @@ system:
   enchant: {}
   identifier: stargazer-spells
   advancement:
-    5TT2xPy9LimXXD0k:
-      _id: 5TT2xPy9LimXXD0k
+    i6zioec6VYNxXqHT:
+      _id: i6zioec6VYNxXqHT
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
-          optional: false
-          sort: 0
         - uuid: Compendium.dnd5e.spells24.Item.phbsplGuidingBol
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
           optional: false
           sort: 0
         - uuid: Compendium.neon-odyssey.spells.Item.rFOqMpX3JRXjiGhd
           optional: false
           sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplIdentify00
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplStarryWisp
           optional: false
           sort: 0
         optional: false
@@ -66,20 +57,58 @@ system:
         sorting: m
       value: {}
       level: 3
-      title: Stargazer Spells
+      title: Stargazer Spells (General)
       hint: ''
-    KDKhekPGIsL1GtnT:
-      _id: KDKhekPGIsL1GtnT
+    g9QAPnvrHJ7BgmwO:
+      _id: g9QAPnvrHJ7BgmwO
+      type: ItemChoice
+      level: 3
+      title: Triad Spells
+      hint: Pick the spells of your Guiding Starlight triad (Beacon, Chronicle, Fountain or Tower).
+      configuration:
+        choices:
+          '3':
+            count: 2
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplIdentify00
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMistyStep0
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.or2IiLF4cMFbLkbX
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplShieldofFa
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWardingBon
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        type: spell
+      value: {}
+    fz5pBEntvPQkQknU:
+      _id: fz5pBEntvPQkQknU
       type: ItemGrant
       configuration:
         items:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplSpiritGuar
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
           optional: false
           sort: 0
         optional: false
@@ -94,17 +123,50 @@ system:
         sorting: m
       value: {}
       level: 5
-      title: Stargazer Spells
+      title: Stargazer Spells (General)
       hint: ''
-    FdbhJopOyIHW0Sgy:
-      _id: FdbhJopOyIHW0Sgy
+    iXXMmLjpo7fQIh4w:
+      _id: iXXMmLjpo7fQIh4w
+      type: ItemChoice
+      level: 5
+      title: Triad Spells
+      hint: Pick the spells of your Guiding Starlight triad (Beacon, Chronicle, Fountain or Tower).
+      configuration:
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.61LHNZtzRRtxBsaa
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbProtectionFro
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        type: spell
+      value: {}
+    JKoWECMOVQmU3nHS:
+      _id: JKoWECMOVQmU3nHS
       type: ItemGrant
       configuration:
         items:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplDivination
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplLight00000
           optional: false
           sort: 0
         optional: false
@@ -119,20 +181,50 @@ system:
         sorting: m
       value: {}
       level: 7
-      title: Stargazer Spells
+      title: Stargazer Spells (General)
       hint: ''
-    LHYxw6hiAtotb4OC:
-      _id: LHYxw6hiAtotb4OC
+    pU2gqGOa5dmTI8lc:
+      _id: pU2gqGOa5dmTI8lc
+      type: ItemChoice
+      level: 7
+      title: Triad Spells
+      hint: Pick the spells of your Guiding Starlight triad (Beacon, Chronicle, Fountain or Tower).
+      configuration:
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.neon-odyssey.spells.Item.0v2e6WBYr6qvJdsA
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAuraofLife
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.rASJHD2XMwwEUUJa
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        type: spell
+      value: {}
+    SCmI2ABBmBDZ4ngi:
+      _id: SCmI2ABBmBDZ4ngi
       type: ItemGrant
       configuration:
         items:
         - uuid: Compendium.neon-odyssey.spells.Item.O8Ol022jP2ih0oAR
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
           optional: false
           sort: 0
         optional: false
@@ -147,8 +239,44 @@ system:
         sorting: m
       value: {}
       level: 9
-      title: Stargazer Spells
+      title: Stargazer Spells (General)
       hint: ''
+    1MWDX44SBTMttlfx:
+      _id: 1MWDX44SBTMttlfx
+      type: ItemChoice
+      level: 9
+      title: Triad Spells
+      hint: Pick the spells of your Guiding Starlight triad (Beacon, Chronicle, Fountain or Tower).
+      configuration:
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFlameStrik
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHallow0000
+          sort: 0
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: pact
+          prepared: 2
+        type: spell
+      value: {}
 effects: []
 folder: S0v5ja68ap8lA9lh
 sort: 0

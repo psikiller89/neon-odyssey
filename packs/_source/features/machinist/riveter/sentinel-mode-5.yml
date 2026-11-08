@@ -34,7 +34,7 @@ system:
     zk1Cf3dPzANw66Dk:
       _id: zk1Cf3dPzANw66Dk
       type: utility
-      name: ''
+      name: Sentry Gun
       activation:
         type: reaction
         value: null
@@ -52,9 +52,7 @@ system:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: lAUebM2sgmcd7My2
-        onSave: false
+      effects: []
       range:
         override: false
         units: self
@@ -83,41 +81,7 @@ system:
   enchant: {}
   identifier: sentinel-mode
   advancement: {}
-effects:
-- _id: lAUebM2sgmcd7My2
-  name: Invisible
-  img: systems/dnd5e/icons/svg/statuses/invisible.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - invisible
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!8otkdZGUAsU2MvMb.lAUebM2sgmcd7My2'
+effects: []
 folder: 2QlK6RvbP5omfpcX
 sort: 0
 _stats:

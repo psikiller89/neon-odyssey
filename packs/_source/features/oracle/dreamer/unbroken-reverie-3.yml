@@ -32,36 +32,41 @@ system:
   properties: []
   requirements: Dreamer Oracle
   activities:
-    MOI2wSYfNld1HvF4:
-      _id: MOI2wSYfNld1HvF4
-      type: save
-      name: ''
+    YQ6nsK1TL8UZLVXi:
+      _id: YQ6nsK1TL8UZLVXi
+      type: utility
+      name: Unbroken Reverie
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: You or a creature within 30 ft fails a Concentration save
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Not expended if the target has your Dream Figment.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -69,24 +74,29 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - con
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: max(1, @abilities.wis.mod)
+        name: Bonus to the save
+        prompt: false
+        visible: true
   enchant: {}
   identifier: unbroken-reverie
   advancement: {}

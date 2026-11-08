@@ -34,33 +34,104 @@ system:
   properties: []
   requirements: Voidcaller Oracle
   activities:
-    oKyrHf9p3g1znf46:
-      _id: oKyrHf9p3g1znf46
-      type: save
-      name: ''
+    sfCIUm0UDuFEzxNb:
+      _id: sfCIUm0UDuFEzxNb
+      type: utility
+      name: Open Abyssal Breach
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: 10-ft Sphere (20-ft at Oracle 6). Move it 30 ft as a Bonus Action on later turns.
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '10'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    tTQj2Ii29l9Je9PB:
+      _id: tTQj2Ii29l9Je9PB
+      type: save
+      name: Crushing Deep
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature enters or starts its turn in the breach
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects:
-      - _id: fi6ulmNYBeLAx2PU
-        onSave: false
+      - _id: 6X6G4B2nVpavZvSO
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,63 +140,135 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - wis
         dc:
           calculation: spellcasting
           formula: ''
+    EXtHbxhIa7G0R5dv:
+      _id: EXtHbxhIa7G0R5dv
+      type: save
+      name: Hunger Beyond
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature enters or starts its turn in the breach
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
       damage:
-        onSave: none
+        critical:
+          allow: false
+          bonus: ''
         parts:
-        - number: 1
-          denomination: 8
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - necrotic
           - psychic
           custom:
-            enabled: false
-            formula: ''
+            enabled: true
+            formula: (1 + min(1, floor(@classes.oracle.levels / 5)) + min(1, floor(@classes.oracle.levels / 13)))d8
           scaling:
             mode: ''
             number: null
             formula: ''
+        onSave: none
   enchant: {}
   identifier: abyssal-breach
   advancement: {}
 effects:
-- _id: fi6ulmNYBeLAx2PU
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: 6X6G4B2nVpavZvSO
+  name: Crushing Deep
+  img: icons/svg/upgrade.svg
   type: base
   system:
     changes: []
-  statuses:
-  - incapacitated
-  transfer: false
   disabled: false
+  transfer: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
-  origin: null
+  description: <p>Speed halved in the breach; Disadvantage on attack rolls and ability checks until the start of its next turn.</p>
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -137,7 +280,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!k1MKCZMiDDDEbsLm.fi6ulmNYBeLAx2PU'
+  _key: '!items.effects!k1MKCZMiDDDEbsLm.6X6G4B2nVpavZvSO'
 folder: L8lMOeWgMj3Vj0Fc
 sort: 0
 _stats:

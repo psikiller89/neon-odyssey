@@ -108,7 +108,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    units: round
+    units: rounds
     value: '1'
     expiry: null
     expired: false

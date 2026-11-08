@@ -38,35 +38,126 @@ system:
   properties: []
   requirements: Scrapper Juggernaut
   activities:
-    txsQWf6Oq9Al3Hpb:
-      _id: txsQWf6Oq9Al3Hpb
+    Ro0fOPvGzrwIVUyl:
+      _id: Ro0fOPvGzrwIVUyl
       type: save
-      name: ''
+      name: Junkerbuss
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Replace one attack of the Attack action
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Failed targets begin burning.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cone
+          size: '30'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: str
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: true
+            formula: (@scale.juggernaut.rage-damage)d8
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+    vZUNWa3MZ7nd0HSd:
+      _id: vZUNWa3MZ7nd0HSd
+      type: damage
+      name: Scrapburst
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, hit with a Melee weapon
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: You can also apply Push or Topple.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
         special: ''
       target:
         template:
@@ -75,32 +166,37 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: str
-          formula: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       damage:
-        onSave: half
+        critical:
+          allow: false
+          bonus: ''
         parts:
-        - number: 1
-          denomination: 8
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - thunder
           custom:
-            enabled: false
-            formula: ''
+            enabled: true
+            formula: (1 + min(1, floor(@classes.juggernaut.levels / 9)) + min(1, floor(@classes.juggernaut.levels / 16)))d8
           scaling:
             mode: ''
             number: null

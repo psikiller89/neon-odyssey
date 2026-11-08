@@ -29,11 +29,242 @@ system:
     repeatable: false
   properties: []
   requirements: Eternal Juggernaut
-  activities: {}
+  activities:
+    JYvuD4wN2RmqwfH2:
+      _id: JYvuD4wN2RmqwfH2
+      type: utility
+      name: Mythic Awakening
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you activate your Surge (apply Sight Beyond Sight and one Heroic Resolve)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: zrd2aNpok3JMbZ3F
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: Znq1FWteDjygjo3n
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: 386PiQJw74utEmDp
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: gz30m1ZFnMK127lF
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: mythic-awakening
   advancement: {}
-effects: []
+effects:
+- _id: zrd2aNpok3JMbZ3F
+  name: Sight Beyond Sight
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.blindsight
+      value: '10'
+      priority: null
+      type: add
+      phase: initial
+      _id: CZMr9ggT6uoMtrul
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!68C6adt4AyfTOMiX.zrd2aNpok3JMbZ3F'
+- _id: Znq1FWteDjygjo3n
+  name: 'Heroic Resolve: Intelligence'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.int.bonuses.save
+      value: '@abilities.str.mod'
+      priority: null
+      type: add
+      phase: initial
+      _id: 9w8nWVoTMxm1dHVh
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!68C6adt4AyfTOMiX.Znq1FWteDjygjo3n'
+- _id: 386PiQJw74utEmDp
+  name: 'Heroic Resolve: Wisdom'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.wis.bonuses.save
+      value: '@abilities.str.mod'
+      priority: null
+      type: add
+      phase: initial
+      _id: SawaUL3XAeK8qmHP
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!68C6adt4AyfTOMiX.386PiQJw74utEmDp'
+- _id: gz30m1ZFnMK127lF
+  name: 'Heroic Resolve: Charisma'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.cha.bonuses.save
+      value: '@abilities.str.mod'
+      priority: null
+      type: add
+      phase: initial
+      _id: Mo1qmQVdm6RtKvvo
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!68C6adt4AyfTOMiX.gz30m1ZFnMK127lF'
 folder: m9J3z6dsJoJabIPZ
 sort: 0
 _stats:

@@ -1,0 +1,97 @@
+_id: icQfLLWd5qUFPpWa
+name: 'Destined Path: Seer'
+type: feat
+img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+system:
+  description:
+    value: <p>You know one extra cantrip from the Oracle spell list (add it from the Spells compendium). You add your Wisdom modifier (minimum of +1) to Intelligence (Arcana or Religion) checks.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Oracle 1
+  activities: {}
+  enchant: {}
+  identifier: seer
+  advancement: {}
+  crewed: false
+effects:
+- _id: SHGjWr9oBp7YGUtP
+  name: Seer
+  img: icons/magic/fire/flame-burning-skeleton-explosion.webp
+  type: base
+  system:
+    changes:
+    - key: system.skills.arc.bonuses.check
+      value: max(1, @abilities.wis.mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: EdVKk4j5oFwK2dk9
+    - key: system.skills.rel.bonuses.check
+      value: max(1, @abilities.wis.mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: ZalAmReNCBDoGE0D
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!icQfLLWd5qUFPpWa.SHGjWr9oBp7YGUtP'
+flags:
+  neon-odyssey:
+    srcIdentifier: sear-undead
+sort: 900000
+ownership:
+  default: 0
+folder: UozpvDEh5FPxwX8f
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!icQfLLWd5qUFPpWa'

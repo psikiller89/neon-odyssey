@@ -35,8 +35,8 @@ system:
   activities:
     gVdsIoqxR7EzdTxw:
       _id: gVdsIoqxR7EzdTxw
-      type: damage
-      name: ''
+      type: save
+      name: Devouring Collapse
       activation:
         type: action
         value: null
@@ -53,7 +53,7 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Failed targets are affected by Banishment (you concentrate).
       duration:
         units: inst
         concentration: false
@@ -96,6 +96,14 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: full
+      save:
+        ability:
+        - cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      flavor: ''
   enchant: {}
   identifier: abyssal-maw
   advancement: {}

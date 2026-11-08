@@ -43,9 +43,9 @@ system:
         allowDrops: false
         type: feat
         pool:
-        - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderPr
+        - uuid: Compendium.neon-odyssey.features.Item.icQfLLWd5qUFPpWa
           sort: 0
-        - uuid: Compendium.dnd5e.classes24.Item.phbDivineOrderTh
+        - uuid: Compendium.neon-odyssey.features.Item.w7dH8uR2G15HqZct
           sort: 0
         spell: null
         restriction:
@@ -57,8 +57,8 @@ system:
       value:
         added: {}
         replaced: {}
-      hint: <p>You have dedicated yourself to one of the following sacred roles of your choice.</p>
-      name: Divine Order Choice
+      hint: <p>You have dedicated yourself to one of the following cosmic pursuits of your choice.</p>
+      name: Destined Path Choice
       flags: {}
   crewed: false
 effects: []

@@ -33,7 +33,157 @@ system:
   enchant: {}
   identifier: adaptive-mutation
   advancement: {}
-effects: []
+effects:
+- _id: QM3UeJoLSr9UOtf8
+  name: 'Adaptive Mutation: Amphibious'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.swim
+      value: '@attributes.movement.walk'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: qRGCl9r5pSnCNsM4
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the mutation you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!YlBcXbXqgry25RAf.QM3UeJoLSr9UOtf8'
+- _id: 4blOlo51Lnhf9sZL
+  name: 'Adaptive Mutation: Subterranean'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.burrow
+      value: '@attributes.movement.walk'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: WYyOEDVIuzifuebn
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the mutation you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!YlBcXbXqgry25RAf.4blOlo51Lnhf9sZL'
+- _id: Uc6jHTpthqseVr8C
+  name: 'Adaptive Mutation: Clinging'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.climb
+      value: '@attributes.movement.walk'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: 1UORehgmDi7mXtWb
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the mutation you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!YlBcXbXqgry25RAf.Uc6jHTpthqseVr8C'
+- _id: MXu8a8HUPUTgW3bS
+  name: 'Adaptive Mutation: Amorphous'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the mutation you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!YlBcXbXqgry25RAf.MXu8a8HUPUTgW3bS'
 folder: pHst4AIH8mv1gllA
 sort: 0
 _stats:
