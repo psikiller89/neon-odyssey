@@ -34,12 +34,12 @@ system:
     nMmrwy9FBNidcdvE:
       _id: nMmrwy9FBNidcdvE
       type: save
-      name: ''
+      name: Chrono Control
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you deal Cheap Shot damage
       consumption:
         targets:
         - type: itemUses
@@ -72,10 +72,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -105,8 +105,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null

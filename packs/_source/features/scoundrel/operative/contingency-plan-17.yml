@@ -36,35 +36,39 @@ system:
   properties: []
   requirements: Operative Scoundrel
   activities:
-    vmUax2TIRPXT75nR:
-      _id: vmUax2TIRPXT75nR
-      type: utility
-      name: ''
+    2yhGK5ICmXLgvd6g:
+      _id: 2yhGK5ICmXLgvd6g
+      type: cast
+      name: Anticipated Tactics (Foresight)
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Start of your turn, until end of next turn
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -74,55 +78,450 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplForesight0
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 9
+    dedbItGOFtvgZ1zZ:
+      _id: dedbItGOFtvgZ1zZ
+      type: cast
+      name: Exit Strategy (Mislead)
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Requires a Holoprojector
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 5
+    VgTSEbmDwzccuHgS:
+      _id: VgTSEbmDwzccuHgS
+      type: cast
+      name: 'The Best Defense: Chain Lightning'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplChainLight
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 6
+    hS2LmZ1s8xYmLzKc:
+      _id: hS2LmZ1s8xYmLzKc
+      type: cast
+      name: 'The Best Defense: Cloudkill'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: 1 minute, no Concentration, stationary
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplCloudkill0
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 5
+    c42IDBxwfQFh6iQm:
+      _id: c42IDBxwfQFh6iQm
+      type: cast
+      name: 'The Best Defense: Cone of Cold'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 5
+    2kXMpa0fWuv0SgbM:
+      _id: 2kXMpa0fWuv0SgbM
+      type: cast
+      name: 'The Best Defense: Fireball'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 3
+    cCl2Sk2ILAc0naxL:
+      _id: cCl2Sk2ILAc0naxL
+      type: cast
+      name: 'The Best Defense: Psychic Storm'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.neon-odyssey.spells.Item.KVted2ztd8uPdBmG
+        challenge:
+          attack: null
+          save: null
+          override: false
+        properties: []
+        spellbook: false
+        ability: dex
+        level: 5
   enchant: {}
   identifier: contingency-plan
-  advancement:
-    DRO4ZsQ9oZ4M17qJ:
-      _id: DRO4ZsQ9oZ4M17qJ
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplForesight0
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplChainLight
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: true
-          method: spell
-          prepared: 2
-      value: {}
-      level: 17
-      title: Contingency Plan
-      hint: ''
+  advancement: {}
 effects: []
 folder: 5aLGQfj1PneVxUbs
 sort: 0

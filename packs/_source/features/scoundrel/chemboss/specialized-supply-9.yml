@@ -31,34 +31,41 @@ system:
   properties: []
   requirements: Chemboss Scoundrel
   activities:
-    SdHSC4czomtn90Su:
-      _id: SdHSC4czomtn90Su
+    YqiFFuPmOtz4hoAC:
+      _id: YqiFFuPmOtz4hoAC
       type: utility
-      name: ''
+      name: Emergency Stim
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature you can see within 30 ft drops to 0 HP but isn’t killed
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:unstable-compounds
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: The target drops to 1 Hit Point instead.
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: EMOeM2yfJrEc63Vc
-        onSave: false
-      range:
-        override: false
-        units: self
+        value: ''
         special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -66,58 +73,28 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: specialized-supply
   advancement: {}
-effects:
-- _id: EMOeM2yfJrEc63Vc
-  name: Poisoned
-  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - poisoned
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!DqrWrhn8volBl9cr.EMOeM2yfJrEc63Vc'
+effects: []
 folder: FWGRR74KJLokKsjj
 sort: 0
 _stats:

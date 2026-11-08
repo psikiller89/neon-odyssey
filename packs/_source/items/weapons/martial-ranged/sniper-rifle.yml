@@ -30,7 +30,7 @@ system:
     revision: 1
   type:
     value: martialR
-    baseItem: ''
+    baseItem: sniperrifle
   damage:
     base:
       number: 2

@@ -31,12 +31,12 @@ system:
     R7Jz1UaEiMHMJMnW:
       _id: R7Jz1UaEiMHMJMnW
       type: damage
-      name: ''
+      name: Phantom Strike
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you use Without a Trace
       consumption:
         targets: []
         scaling:
@@ -63,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -104,8 +104,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null

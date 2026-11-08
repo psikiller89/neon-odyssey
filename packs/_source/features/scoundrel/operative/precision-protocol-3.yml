@@ -32,7 +32,7 @@ system:
     EEOF0Juoxu4VKrSj:
       _id: EEOF0Juoxu4VKrSj
       type: utility
-      name: ''
+      name: Gadget Savvy
       activation:
         type: bonus
         value: null
@@ -78,7 +78,48 @@ system:
         visible: false
   enchant: {}
   identifier: precision-protocol
-  advancement: {}
+  advancement:
+    guG6vglnlg190uce:
+      _id: guG6vglnlg190uce
+      type: Trait
+      level: 3
+      title: Precision Protocol
+      hint: Sniper Rifles, Forger's Kit, Infiltrator's Kit (Disguise Kit).
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - weapon:mar:sniperrifle
+        - tool:forg
+        - tool:disg
+        choices: []
+      value: {}
+    etjZgGCVTdoVQpZq:
+      _id: etjZgGCVTdoVQpZq
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.items.Item.8yxOAgALwDE6AMmB
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.items.Item.zc9lxJDbkrn3oAq8
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.items.Item.xOz8LRmBRgySduYQ
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Tools of the Trade
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: 5aLGQfj1PneVxUbs
 sort: 0

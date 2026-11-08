@@ -32,12 +32,12 @@ system:
     QZIB1qvqpCDXxXZi:
       _id: QZIB1qvqpCDXxXZi
       type: save
-      name: ''
+      name: Berserk Toxin (3d6)
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Dirty Trick when you deal Cheap Shot damage
       consumption:
         targets: []
         scaling:
@@ -45,7 +45,7 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: On a failed save the target uses its Reaction to attack one of its allies; with no ally in reach or range it takes the 2d6 Psychic damage.
       duration:
         units: inst
         concentration: false
@@ -62,10 +62,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

@@ -33,12 +33,12 @@ system:
     58FXYpSTU5vKr2B4:
       _id: 58FXYpSTU5vKr2B4
       type: save
-      name: ''
+      name: Drop It (2d6)
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Dirty Trick when you deal Cheap Shot damage with a Ranged weapon
       consumption:
         targets: []
         scaling:
@@ -63,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -81,6 +81,91 @@ system:
       damage:
         onSave: none
         parts: []
+    BwonY0G2AeRxSNY8:
+      _id: BwonY0G2AeRxSNY8
+      type: damage
+      name: Fan the Hammer (1d6)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: 'Dirty Trick: second creature within 30 ft of the first'
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - bludgeoning
+          - cold
+          - fire
+          - force
+          - lightning
+          - necrotic
+          - piercing
+          - poison
+          - psychic
+          - radiant
+          - slashing
+          - thunder
+          custom:
+            enabled: true
+            formula: (ceil(@scale.scoundrel.sneak-attack.number / 2))d6
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: trick-shot
   advancement: {}

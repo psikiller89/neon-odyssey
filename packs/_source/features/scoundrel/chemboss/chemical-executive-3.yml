@@ -28,31 +28,35 @@ system:
   properties: []
   requirements: Chemboss Scoundrel
   activities:
-    IsbSNPhl6Xb3PzKZ:
-      _id: IsbSNPhl6Xb3PzKZ
+    u4I8gz2vx2WcPlqn:
+      _id: u4I8gz2vx2WcPlqn
       type: utility
-      name: ''
+      name: Quick Mixing
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
-        chatFlavor: ''
+        chatFlavor: Take the Utilize action with Chemist's Supplies or a Toxin Kit.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -62,22 +66,63 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: chemical-executive
-  advancement: {}
+  advancement:
+    hEeMIpAChPeG8Xga:
+      _id: hEeMIpAChPeG8Xga
+      type: Trait
+      level: 3
+      title: Black Market Tools
+      hint: Chemist's Supplies (Alchemist's Supplies) and Toxin Kit (Poisoner's Kit).
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - tool:art:alchemist
+        - tool:pois
+        choices: []
+      value: {}
+    PGyDWltFpMimz2yz:
+      _id: PGyDWltFpMimz2yz
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.items.Item.yTNGm8Mlp1gckpKP
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.items.Item.BtfnXgHN6AsXeJVt
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Black Market Tools
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: FWGRR74KJLokKsjj
 sort: 0

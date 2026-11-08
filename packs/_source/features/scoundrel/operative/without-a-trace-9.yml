@@ -34,12 +34,12 @@ system:
     jkhIWYu9jWvzWJFJ:
       _id: jkhIWYu9jWvzWJFJ
       type: utility
-      name: ''
+      name: Without a Trace
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: End of a turn you dealt Cheap Shot damage (Stealth check as Hide)
       consumption:
         targets:
         - type: itemUses

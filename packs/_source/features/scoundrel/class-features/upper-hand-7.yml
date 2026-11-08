@@ -40,7 +40,7 @@ effects:
   transfer: true
   flags: {}
   tint: '#ffffff'
-  name: Reliable Talent
+  name: Upper Hand
   description: ''
   statuses: []
   img: icons/skills/ranged/target-bullseye-arrow-glowing.webp

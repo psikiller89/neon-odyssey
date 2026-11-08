@@ -292,7 +292,7 @@ system:
             faces: 6
             modifiers: []
       value: {}
-      title: Sneak Attack
+      title: Cheap Shot
       hint: ''
     IHbn6EXoBfxHdj7c:
       _id: IHbn6EXoBfxHdj7c
@@ -301,7 +301,7 @@ system:
         mode: default
         allowReplacements: false
         grants:
-        - languages:exotic:cant
+        - languages:neonOdyssey:smugglersslang
         choices:
         - count: 1
           pool:
@@ -309,9 +309,8 @@ system:
       value:
         chosen: []
       level: 1
-      title: Thieves' Cant
-      hint: You picked up various languages in the communities where you plied your roguish talents. You know Thieves’ Cant and one other language of your choice, which you can choose from the languages
-        below.
+      title: Smuggler's Slang
+      hint: Your time in the galaxy’s underworld has allowed you to pick up useful languages. You know Smuggler’s Slang and one other language of your choice.
     FiaNLovfP6tnY4tD:
       _id: FiaNLovfP6tnY4tD
       type: Trait

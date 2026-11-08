@@ -28,31 +28,39 @@ system:
   properties: []
   requirements: Echo Scoundrel
   activities:
-    1tyMwuU0v2fObVqK:
-      _id: 1tyMwuU0v2fObVqK
-      type: save
-      name: ''
+    biNuTZUTmiwjDXgf:
+      _id: biNuTZUTmiwjDXgf
+      type: heal
+      name: Temporal Rewind
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Lucky Break Reaction, or no damage from Agile Escape
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: hitDice
+          value: '1'
+          target: smallest
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -62,23 +70,36 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: dex
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: 1d8 + @abilities.dex.mod
+        scaling:
+          mode: ''
+          number: null
           formula: ''
-      damage:
-        onSave: none
-        parts: []
   enchant: {}
   identifier: temporal-rewind
   advancement: {}

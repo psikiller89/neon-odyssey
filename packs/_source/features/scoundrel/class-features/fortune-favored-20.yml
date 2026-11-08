@@ -20,6 +20,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -31,7 +33,7 @@ system:
   activities:
     y4PG8Ow1eNEle580:
       type: utility
-      name: Stroke of Luck
+      name: Defy the Odds
       _id: y4PG8Ow1eNEle580
       activation:
         type: ''

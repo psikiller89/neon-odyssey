@@ -29,7 +29,7 @@ system:
   activities:
     VGVYnecMRcu0f5Sq:
       type: utility
-      name: Steady Aim
+      name: Zero In
       _id: VGVYnecMRcu0f5Sq
       activation:
         type: bonus

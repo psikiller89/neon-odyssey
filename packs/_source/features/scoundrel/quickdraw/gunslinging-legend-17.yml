@@ -29,7 +29,146 @@ system:
     repeatable: false
   properties: []
   requirements: Quickdraw Scoundrel
-  activities: {}
+  activities:
+    xb3S6FujX0b0hrWU:
+      _id: xb3S6FujX0b0hrWU
+      type: damage
+      name: Deadshot (half Cheap Shot)
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Extra attack after dropping a creature to 0 HP with a Ranged weapon hits
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - bludgeoning
+          - cold
+          - fire
+          - force
+          - lightning
+          - necrotic
+          - piercing
+          - poison
+          - psychic
+          - radiant
+          - slashing
+          - thunder
+          custom:
+            enabled: true
+            formula: floor((@scale.scoundrel.sneak-attack) / 2)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    yPNEL67eYtXoCxnr:
+      _id: yPNEL67eYtXoCxnr
+      type: utility
+      name: Run for Cover
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you use Lucky Break
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Move up to half your Speed without provoking Opportunity Attacks.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: gunslinging-legend
   advancement: {}

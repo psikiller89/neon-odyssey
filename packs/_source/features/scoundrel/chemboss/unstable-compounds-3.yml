@@ -21,9 +21,15 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: 4 + 2 * (min(1, floor(@classes.scoundrel.levels / 5)) + min(1, floor(@classes.scoundrel.levels / 9)) + min(1, floor(@classes.scoundrel.levels / 13)) + min(1, floor(@classes.scoundrel.levels / 17)))
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
+    - period: sr
+      type: formula
+      formula: 2 + (min(1, floor(@classes.scoundrel.levels / 5)) + min(1, floor(@classes.scoundrel.levels / 9)) + min(1, floor(@classes.scoundrel.levels / 13)) + min(1, floor(@classes.scoundrel.levels /
+        17)))
   type:
     value: class
     subtype: ''
@@ -34,34 +40,46 @@ system:
   properties: []
   requirements: Chemboss Scoundrel
   activities:
-    HGDUTsrfOmIluBBQ:
-      _id: HGDUTsrfOmIluBBQ
+    WyK7CRJSLtlRM2nV:
+      _id: WyK7CRJSLtlRM2nV
       type: utility
-      name: ''
+      name: Chem Strike
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you deal Cheap Shot damage within 30 ft (damage becomes Poison)
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: pslnoIdUqPPknDw3
-        onSave: false
-      range:
-        override: false
-        units: self
+        value: ''
         special: ''
+      effects:
+      - _id: obHmihFR9KawxpOC
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -69,46 +87,197 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    1ygWe2OugG8p0Fan:
+      _id: 1ygWe2OugG8p0Fan
+      type: utility
+      name: Stim Injection
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: CJhoPFWQ4cKWjHdY
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    dBCfGBjDNBGDfQDO:
+      _id: dBCfGBjDNBGDfQDO
+      type: damage
+      name: Toxic Delegation
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Forgo one attack; an ally's Reaction attack hits
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: YWA4BwBz6bDYiDPQ
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - poison
+          custom:
+            enabled: true
+            formula: '@scale.scoundrel.sneak-attack'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: unstable-compounds
   advancement: {}
 effects:
-- _id: pslnoIdUqPPknDw3
-  name: Poisoned
-  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
+- _id: obHmihFR9KawxpOC
+  name: 'Chem Strike: Poisoned'
+  img: icons/svg/upgrade.svg
   type: base
   system:
     changes: []
-  statuses:
-  - poisoned
-  transfer: false
   disabled: false
+  transfer: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
-  origin: null
+  description: ''
   tint: '#ffffff'
+  statuses:
+  - poisoned
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -120,7 +289,109 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!txwRx5y0Pwvdk5cS.pslnoIdUqPPknDw3'
+  _key: '!items.effects!txwRx5y0Pwvdk5cS.obHmihFR9KawxpOC'
+- _id: CJhoPFWQ4cKWjHdY
+  name: Stim Injection
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Advantage on the next ability check or attack roll before the end of the Chemboss’s next turn.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!txwRx5y0Pwvdk5cS.CJhoPFWQ4cKWjHdY'
+- _id: YWA4BwBz6bDYiDPQ
+  name: Toxic Delegation
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.abilities.check
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: 04Km2ANdh3pMQVd4
+    - key: system.bonuses.abilities.save
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: 0d7L0ah9hPDAiBLx
+    - key: system.bonuses.mwak.attack
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: pzfzSeSxTGEXM627
+    - key: system.bonuses.rwak.attack
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: hdzdK1oX6fFkKSVc
+    - key: system.bonuses.msak.attack
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: v4HPcwefRcpdtapY
+    - key: system.bonuses.rsak.attack
+      value: -1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: fynOa1IklHsaMG9i
+  disabled: false
+  transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Subtract 1d4 from D20 Tests until the start of the Chemboss’s next turn.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!txwRx5y0Pwvdk5cS.YWA4BwBz6bDYiDPQ'
 folder: FWGRR74KJLokKsjj
 sort: 0
 _stats:

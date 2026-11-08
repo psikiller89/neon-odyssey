@@ -33,7 +33,7 @@ system:
     Gw9AOAABpmKFhUJ8:
       _id: Gw9AOAABpmKFhUJ8
       type: utility
-      name: ''
+      name: Time Skip
       activation:
         type: bonus
         value: null
@@ -50,16 +50,17 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Teleport up to 30 feet to an unoccupied space you can see (no use spent if you return to a space you occupied this turn).
       duration:
         units: inst
         concentration: false
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false

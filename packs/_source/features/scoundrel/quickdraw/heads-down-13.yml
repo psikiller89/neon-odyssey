@@ -34,12 +34,12 @@ system:
     XLpPLnDEipxaw6dV:
       _id: XLpPLnDEipxaw6dV
       type: save
-      name: ''
+      name: Heads Down
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you hit a creature with an attack roll
       consumption:
         targets:
         - type: itemUses
@@ -56,7 +56,12 @@ system:
         units: inst
         concentration: false
         override: false
-      effects: []
+      effects:
+      - _id: 7NjNFJhc0viFLRfY
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
         override: false
         units: self
@@ -68,10 +73,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -89,7 +94,40 @@ system:
   enchant: {}
   identifier: heads-down
   advancement: {}
-effects: []
+effects:
+- _id: 7NjNFJhc0viFLRfY
+  name: Heads Down
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Disadvantage on attack rolls and ability checks until the start of the Quickdraw’s next turn.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!EMqPYORXr0exIFhB.7NjNFJhc0viFLRfY'
 folder: c6BNif2mWF4lJyqj
 sort: 0
 _stats:

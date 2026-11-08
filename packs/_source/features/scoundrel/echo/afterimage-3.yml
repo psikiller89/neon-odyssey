@@ -35,12 +35,12 @@ system:
     U4fH67G2xjPlQwoJ:
       _id: U4fH67G2xjPlQwoJ
       type: utility
-      name: ''
+      name: Try Again
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You fail a D20 Test (Cheap Shot -1d6 until end of next turn)
       consumption:
         targets:
         - type: itemUses
@@ -86,7 +86,52 @@ system:
   enchant: {}
   identifier: afterimage
   advancement: {}
-effects: []
+effects:
+- _id: pTYUO3Ncew97t0Iq
+  name: Afterimage
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.walk
+      value: '5'
+      priority: null
+      type: add
+      phase: initial
+      _id: bdp7jLS8kYLG8XV4
+    - key: system.attributes.init.bonus
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: RZ0uz6ZMn8zaGHWd
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Dilated Steps (+5 ft Speed) and Prescient Glimpse (add Proficiency Bonus to Initiative).</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!arYEmw90JNDM6dBw.pTYUO3Ncew97t0Iq'
 folder: FdzKYNMlQWd7KSiC
 sort: 0
 _stats:

@@ -8,6 +8,7 @@ Hooks.once("init", () => {
   const cfg = CONFIG.DND5E;
   cfg.skills.cmp ??= { label: "Computers", ability: "int", fullKey: "computers", icon: "modules/neon-odyssey/icons/neon/i-laptop-code-cyan.webp" };
   cfg.skills.tec ??= { label: "Technology", ability: "int", fullKey: "technology", icon: "modules/neon-odyssey/icons/neon/i-microchip-cyan.webp" };
+  CONFIG.DND5E.weaponIds.sniperrifle ??= "Compendium.neon-odyssey.items.Item.WQfmBiZHCdLyIH40";
   const subtypes = cfg.featureTypes?.class?.subtypes;
   if ( subtypes ) Object.assign(subtypes, {
     esotericSecret: "Esoteric Secret",

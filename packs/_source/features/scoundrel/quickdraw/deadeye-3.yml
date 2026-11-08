@@ -21,7 +21,7 @@ system:
     max: max(1, @abilities.dex.mod)
     spent: 0
     recovery:
-    - period: sr
+    - period: lr
       type: recoverAll
   type:
     value: class
@@ -33,35 +33,39 @@ system:
   properties: []
   requirements: Quickdraw Scoundrel
   activities:
-    5XDEAGCrSkFhntko:
-      _id: 5XDEAGCrSkFhntko
+    FBiVJLwOummYK2a9:
+      _id: FBiVJLwOummYK2a9
       type: utility
-      name: ''
+      name: Bullseye
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You roll an 18 or 19 on an attack roll (make it a Critical Hit)
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -71,23 +75,129 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    o7UCFj4feERy8h4Z:
+      _id: o7UCFj4feERy8h4Z
+      type: utility
+      name: Shoot First
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: When you roll Initiative and can see an enemy
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: activityUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Make one attack with a Ranged weapon that lacks Heavy and Two-Handed; Advantage if your Initiative is higher than the target’s.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery:
+        - period: sr
+          type: recoverAll
+        - period: lr
+          type: recoverAll
+        max: '1'
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: deadeye
   advancement: {}
-effects: []
+effects:
+- _id: 12zeWsgIneBXQirD
+  name: One Eye Open
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: flags.dnd5e.initiativeAdv
+      value: 'true'
+      priority: null
+      type: override
+      phase: initial
+      _id: pKQvu7oqu8X4JhH9
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!3m2c4IlzaZ1GnOcq.12zeWsgIneBXQirD'
 folder: c6BNif2mWF4lJyqj
 sort: 0
 _stats:

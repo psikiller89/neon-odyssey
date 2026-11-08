@@ -34,35 +34,44 @@ system:
   properties: []
   requirements: Echo Scoundrel
   activities:
-    ZZlvPiG6hC4ruJXr:
-      _id: ZZlvPiG6hC4ruJXr
+    zdVd8KxpIUym5oo2:
+      _id: zdVd8KxpIUym5oo2
       type: utility
-      name: ''
+      name: Split Timeline
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: Magic action, or when you roll Initiative
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: 43G0pogEwzsRIIsQ
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,23 +81,170 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    MrIGv6fdEsXQ0Rep:
+      _id: MrIGv6fdEsXQ0Rep
+      type: utility
+      name: Switch Timelines (Action)
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take an action or Bonus Action
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    sww4t9OQTuDSxTOA:
+      _id: sww4t9OQTuDSxTOA
+      type: utility
+      name: Switch Timelines (Harm)
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: Hit by an attack, take damage, or forced to save
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: If you are now out of reach or range, the triggering effect fails.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: diverging-timelines
   advancement: {}
-effects: []
+effects:
+- _id: 43G0pogEwzsRIIsQ
+  name: Diverging Timelines
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Your echo is present. Swap with it when you take an action or Bonus Action, or as a Reaction when hit, damaged, or forced to save.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gpq3KNV9bu0Yc3wW.43G0pogEwzsRIIsQ'
 folder: FdzKYNMlQWd7KSiC
 sort: 0
 _stats:
