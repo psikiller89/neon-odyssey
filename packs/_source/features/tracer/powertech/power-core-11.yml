@@ -22,6 +22,8 @@ system:
     recovery:
     - period: sr
       type: recoverAll
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -35,11 +37,11 @@ system:
     8RTlMUQkUi5NAPXl:
       _id: 8RTlMUQkUi5NAPXl
       type: utility
-      name: ''
+      name: Stim Jolt
       activation:
         type: reaction
         value: null
-        condition: ''
+        condition: You fail a saving throw (succeed instead)
         override: false
       consumption:
         targets:

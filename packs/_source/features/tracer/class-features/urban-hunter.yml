@@ -1,0 +1,73 @@
+_id: jQwliqVeSqN29TX9
+name: Urban Hunter
+type: feat
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  description:
+    value: '<p>You gain proficiency in two skills of your choice from the following: Acrobatics, Deception, Intimidation, or Persuasion.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: fightingStyle
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Tracer
+  activities: {}
+  enchant: {}
+  identifier: urban-hunter
+  advancement:
+    1XCV4ppAKRcEVj3c:
+      _id: 1XCV4ppAKRcEVj3c
+      type: Trait
+      level: null
+      title: Urban Hunter
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 2
+          pool:
+          - skills:acr
+          - skills:dec
+          - skills:itm
+          - skills:per
+      value: {}
+  crewed: false
+effects: []
+flags:
+  neon-odyssey:
+    srcIdentifier: relentless-hunter
+sort: 0
+ownership:
+  default: 0
+folder: pmncZZNV51DkSe9o
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!jQwliqVeSqN29TX9'

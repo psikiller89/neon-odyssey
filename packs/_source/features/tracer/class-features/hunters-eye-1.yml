@@ -91,7 +91,7 @@ system:
         requireIdentification: false
         requireMagic: false
         identifier: ''
-      name: ''
+      name: Hunter's Mark (free)
       behaviors: []
   enchant: {}
   identifier: hunters-eye

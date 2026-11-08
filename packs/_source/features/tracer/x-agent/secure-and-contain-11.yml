@@ -32,12 +32,12 @@ system:
     XllADipomFvBSS1A:
       _id: XllADipomFvBSS1A
       type: save
-      name: ''
+      name: Containment Protocol
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Bonus Action attack hits and the target is Bloodied
       consumption:
         targets: []
         scaling:
@@ -64,10 +64,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -97,8 +97,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null

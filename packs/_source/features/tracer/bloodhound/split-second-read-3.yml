@@ -34,35 +34,39 @@ system:
   properties: []
   requirements: Bloodhound Tracer
   activities:
-    rY9lIra1JT0LeWPc:
-      _id: rY9lIra1JT0LeWPc
-      type: save
-      name: ''
+    JEkyNhWFt1c0MFE4:
+      _id: JEkyNhWFt1c0MFE4
+      type: utility
+      name: Split-Second Read
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: You miss with an attack roll or fail a Dexterity save
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,23 +76,28 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: max(1, @abilities.wis.mod)
+        name: Bonus to the roll
+        prompt: false
+        visible: true
   enchant: {}
   identifier: split-second-read
   advancement: {}

@@ -30,7 +30,28 @@ system:
   activities: {}
   enchant: {}
   identifier: sleuths-eye-silver-tongue
-  advancement: {}
+  advancement:
+    wxtrH85PWtLcxYhU:
+      _id: wxtrH85PWtLcxYhU
+      type: Trait
+      level: 3
+      title: Silver Tongue
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:dec
+          - skills:his
+          - skills:inv
+          - skills:per
+      value: {}
 effects: []
 folder: 8ed9dx0J5FCd9Fw5
 sort: 0

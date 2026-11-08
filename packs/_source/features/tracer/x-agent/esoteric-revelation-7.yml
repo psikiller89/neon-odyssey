@@ -33,12 +33,12 @@ system:
     HM3jenu1EWfaTv3E:
       _id: HM3jenu1EWfaTv3E
       type: damage
-      name: ''
+      name: Occult Scouring (1d8)
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Once per turn, hit with your occultech weapon
       consumption:
         targets: []
         scaling:
@@ -63,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

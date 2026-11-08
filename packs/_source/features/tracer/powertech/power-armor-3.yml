@@ -37,12 +37,12 @@ system:
     vzgxxhs0NMR4ZOZc:
       _id: vzgxxhs0NMR4ZOZc
       type: utility
-      name: ''
+      name: Activate Power Armor
       activation:
-        type: bonus
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: Magic action with Mechanic's Tools in hand
       consumption:
         targets: []
         scaling:

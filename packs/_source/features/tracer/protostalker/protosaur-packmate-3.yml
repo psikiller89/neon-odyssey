@@ -35,33 +35,132 @@ system:
   properties: []
   requirements: Protostalker Tracer
   activities:
-    63sMUL1XmpBiBYFU:
-      _id: 63sMUL1XmpBiBYFU
-      type: utility
-      name: ''
+    8e1wJPopkhl4E4A5:
+      _id: 8e1wJPopkhl4E4A5
+      type: summon
+      name: Summon Protosaur
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
+        condition: When you finish a Long Rest
         override: false
       consumption:
         targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
       description:
         chatFlavor: ''
       duration:
         units: inst
-        concentration: false
         override: false
-      effects:
-      - _id: XWNTqzrNTye5pjjp
-        onSave: false
+        concentration: false
+        value: ''
+        special: ''
       range:
         override: false
+        units: ft
+        value: '5'
+        special: ''
+      target:
+        override: false
+        prompt: false
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+      effects: []
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '@abilities.wis.mod'
+        hd: ''
+        hp: 5 * @classes.tracer.levels
+        attackDamage: '@abilities.wis.mod'
+        saveDamage: ''
+        healing: ''
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+      - _id: PriymCKkIPfpxvPy
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Protosaur Bloodripper
+        uuid: Compendium.neon-odyssey.bestiary.Actor.4LN5NsOX8rNLVRnu
+      - _id: trO6XGAGS2x1Gkpg
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Protosaur Bonestomper
+        uuid: Compendium.neon-odyssey.bestiary.Actor.CqGOTV22VhC5XyFl
+      - _id: 8MrnxuAFZfKeSf3g
+        count: '1'
+        cr: ''
+        level:
+          min: null
+          max: null
+        name: Protosaur Skyterror
+        uuid: Compendium.neon-odyssey.bestiary.Actor.15HsUIHlHtBJKL5F
+      summon:
+        mode: ''
+        prompt: true
+      creatureSizes: []
+      creatureTypes: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    YEmQLVnjBpgsaWqO:
+      _id: YEmQLVnjBpgsaWqO
+      type: utility
+      name: Command Protosaur
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: The protosaur takes an action in its stat block (or Proto Strike in place of one of your attacks).
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -71,57 +170,27 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: protosaur-packmate
   advancement: {}
-effects:
-- _id: XWNTqzrNTye5pjjp
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!OMnorU8C9VhLWGiR.XWNTqzrNTye5pjjp'
+effects: []
 folder: EIFt2WpGhAg7Oc3J
 sort: 0
 _stats:

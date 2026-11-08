@@ -30,7 +30,41 @@ system:
   activities: {}
   enchant: {}
   identifier: suit-specialist
-  advancement: {}
+  advancement:
+    C4ZPIbl67FDYEUi7:
+      _id: C4ZPIbl67FDYEUi7
+      type: Trait
+      level: 3
+      title: Suit Specialist
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:hvy
+        - tool:art:tinker
+        choices: []
+      value: {}
+    1o9noq04AjanfOy3:
+      _id: 1o9noq04AjanfOy3
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.items.Item.ls9En7asIx46b5et
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Power Mechanic
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: X4HPIohiyzVSXvRW
 sort: 0

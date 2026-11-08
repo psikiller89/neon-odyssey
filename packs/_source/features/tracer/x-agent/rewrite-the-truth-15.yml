@@ -312,10 +312,10 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: '@prof'
+    max: '1'
     spent: 0
     recovery:
-    - period: sr
+    - period: lr
       type: recoverAll
   type:
     value: class
@@ -327,45 +327,39 @@ system:
   properties: []
   requirements: X-Agent Tracer
   activities:
-    veBHeFVdFuYVH6BM:
-      _id: veBHeFVdFuYVH6BM
-      type: save
-      name: ''
+    Tb5tRrbLt2DlH5nW:
+      _id: Tb5tRrbLt2DlH5nW
+      type: cast
+      name: Hold Monster (free)
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: J5hKI18ikMk0SjAg
-        onSave: false
-      - _id: ydcX5y4WJ4171u1W
-        onSave: false
-      - _id: sKkVKvfZP1lizrSm
-        onSave: false
-      - _id: 09vhcmiFAFd7RFgJ
-        onSave: false
-      - _id: ro6t3kqHkmiEL4bb
-        onSave: false
+        value: ''
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -375,371 +369,106 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 5
+    xzwtOXcleUiLuVqI:
+      _id: xzwtOXcleUiLuVqI
+      type: cast
+      name: Modify Memory (free)
+      img: ''
       sort: 0
-      save:
-        ability:
-        - str
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts:
-        - number: 1
-          denomination: 4
-          bonus: ''
-          types:
-          - force
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        - number: 1
-          denomination: 6
-          bonus: ''
-          types:
-          - radiant
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        - number: 2
-          denomination: 6
-          bonus: ''
-          types:
-          - radiant
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplModifyMemo
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 5
   enchant: {}
   identifier: rewrite-the-truth
-  advancement:
-    wLmiwsACksDSOfPa:
-      _id: wLmiwsACksDSOfPa
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.neon-odyssey.spells.Item.pYSAP7GEPAoMCu7d
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplAcidSplash
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.spells.Item.ZOSwz4XxQcoxLvyv
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHeroism000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplLesserRest
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplAugury0000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMistyStep0
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.spells.Item.xiBfq4gdVxNRi4jR
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMageHand00
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMessage000
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.spells.Item.X7E3zb2e9z4vepkJ
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplResistance
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplMending000
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.spells.Item.XGkbUA9wS2o4lCLY
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplProduceFla
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFogCloud00
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.spells.Item.IMqVx9OOI2DS9i0I
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: true
-          method: spell
-          prepared: 2
-      value: {}
-      level: 15
-      title: Rewrite the Truth
-      hint: ''
-effects:
-- _id: 0fSqtyBAVDoZlNOd
-  name: Rewrite the Truth
-  img: icons/svg/upgrade.svg
-  type: base
-  system:
-    changes:
-    - key: system.traits.dr.value
-      value: radiant
-      priority: null
-      type: add
-      phase: initial
-      _id: eBPbFqldUNi87Foo
-  disabled: false
-  transfer: true
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  description: ''
-  tint: '#ffffff'
-  statuses: []
-  sort: 0
-  flags: {}
-  origin: null
-  start: null
-  showIcon: 1
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.0fSqtyBAVDoZlNOd'
-- _id: J5hKI18ikMk0SjAg
-  name: Frightened
-  img: systems/dnd5e/icons/svg/statuses/frightened.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - frightened
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.J5hKI18ikMk0SjAg'
-- _id: ydcX5y4WJ4171u1W
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.ydcX5y4WJ4171u1W'
-- _id: sKkVKvfZP1lizrSm
-  name: Petrified
-  img: systems/dnd5e/icons/svg/statuses/petrified.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - petrified
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.sKkVKvfZP1lizrSm'
-- _id: 09vhcmiFAFd7RFgJ
-  name: Poisoned
-  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - poisoned
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.09vhcmiFAFd7RFgJ'
-- _id: ro6t3kqHkmiEL4bb
-  name: Unconscious
-  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - unconscious
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!4v37clO57qEGWwyx.ro6t3kqHkmiEL4bb'
+  advancement: {}
+effects: []
 folder: zHKdbS3wrngiYRsW
 sort: 0
 _stats:

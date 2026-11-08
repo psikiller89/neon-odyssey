@@ -1,0 +1,297 @@
+_id: 15HsUIHlHtBJKL5F
+name: Protosaur Skyterror
+type: npc
+img: icons/svg/mystery-man.svg
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 16
+      proficient: 0
+    con:
+      value: 12
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 0
+    cha:
+      value: 8
+      proficient: 0
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 4
+      max: 4
+      formula: ''
+      temp: null
+      tempmax: null
+    movement:
+      walk: '10'
+      climb: ''
+      swim: ''
+      fly: '60'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: beast
+      subtype: ''
+      custom: ''
+    alignment: ''
+    biography:
+      value: '<p>Medium or Small Beast. Fly 60 ft. Summoned by the Protostalker Tracer’s Protosaur Packmate. AC 13 + your Wisdom modifier; HP 4 + 5 × your Tracer level. Primal Bond: add your Proficiency
+        Bonus to its ability checks and saving throws. Understands the languages you know.</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: med
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: ''
+  skills: {}
+items:
+- _id: NDK8XFiKV6SWc9Yl
+  name: Proto Strike
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: bonus equals your spell attack modifier, reach 5 ft. Hit: 1d4 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      MuTa4TDVLwsEpzNP:
+        _id: MuTa4TDVLwsEpzNP
+        type: attack
+        name: Proto Strike
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '5'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: ''
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: melee
+            classification: spell
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 4
+            bonus: '2'
+            types:
+            - bludgeoning
+            - piercing
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: rivet-burst
+  _key: '!actors.items!15HsUIHlHtBJKL5F.NDK8XFiKV6SWc9Yl'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: DQNgxjm2ncnSyF6y
+  name: Flyby
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Doesn’t provoke Opportunity Attacks when it flies out of an enemy’s reach.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!15HsUIHlHtBJKL5F.DQNgxjm2ncnSyF6y'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: YBOCTBTzDlJTMnSz
+  name: Primal Bond
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Add your Proficiency Bonus to any ability check or saving throw the protosaur makes.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!15HsUIHlHtBJKL5F.YBOCTBTzDlJTMnSz'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Protosaur Skyterror
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!15HsUIHlHtBJKL5F'

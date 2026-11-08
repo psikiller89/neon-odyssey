@@ -91,7 +91,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: Veil
+      name: Cloaking
       img: ''
       visibility:
         requireMagic: true
@@ -108,7 +108,7 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Veiled
+- name: Cloaked
   img: icons/magic/nature/leaf-armor-scale-green.webp
   origin: Compendium.neon-odyssey.features.Item.dbogDl7IMlCM9F6H
   transfer: true
@@ -153,9 +153,9 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
-    expiry: null
+    units: turns
+    value: '1'
+    expiry: turnEnd
     expired: false
   origin: null
   tint: '#ffffff'

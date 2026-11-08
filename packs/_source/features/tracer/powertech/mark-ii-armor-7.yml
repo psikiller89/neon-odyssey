@@ -22,7 +22,7 @@ system:
     max: max(1, @abilities.wis.mod)
     spent: 0
     recovery:
-    - period: sr
+    - period: lr
       type: recoverAll
   type:
     value: class
@@ -34,35 +34,44 @@ system:
   properties: []
   requirements: Powertech Tracer
   activities:
-    dG6YnJYyp4Xzr51J:
-      _id: dG6YnJYyp4Xzr51J
+    kplJRTKvKoXcZaD5:
+      _id: kplJRTKvKoXcZaD5
       type: utility
-      name: ''
+      name: Flight Jets
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: While wearing your Power Armor
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: kEGLc2hCA4p8cvOY
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,23 +81,66 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: mark-ii-armor
   advancement: {}
-effects: []
+effects:
+- _id: kEGLc2hCA4p8cvOY
+  name: Flight Jets
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.speeds.fly
+      value: '@attributes.movement.speed'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: Imqmkzz9QgcJJ37W
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!nmJvTZ52dKX051GD.kEGLc2hCA4p8cvOY'
 folder: X4HPIohiyzVSXvRW
 sort: 0
 _stats:

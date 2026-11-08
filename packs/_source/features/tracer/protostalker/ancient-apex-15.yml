@@ -33,37 +33,44 @@ system:
   properties: []
   requirements: Protostalker Tracer
   activities:
-    195gepwdkvIaw2JH:
-      _id: 195gepwdkvIaw2JH
+    hl4lltVOgbBXbolK:
+      _id: hl4lltVOgbBXbolK
       type: utility
-      name: ''
+      name: Fearsome Roar
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
+        special: ''
       effects:
-      - _id: 3J1s68WJXBgK4IJy
-        onSave: false
+      - _id: tj7cfCXb2TVsY1is
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -73,45 +80,55 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: ancient-apex
   advancement: {}
 effects:
-- _id: 3J1s68WJXBgK4IJy
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: tj7cfCXb2TVsY1is
+  name: Ancient Apex
+  img: icons/svg/upgrade.svg
   type: base
   system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
+    changes:
+    - key: system.bonuses.abilities.save
+      value: max(1, @abilities.wis.mod)
+      priority: null
+      type: add
+      phase: initial
+      _id: FszNgjMqyPWWITOL
   disabled: false
+  transfer: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: '<p>Apex Onslaught: the protosaur makes two Proto Strikes when it takes the Attack action. Preternatural Packmates: Advantage on attacks against targets within 5 ft of your protosaur. Survival
+    Sense: you and the protosaur add your Wisdom modifier to saving throws.</p>'
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -123,7 +140,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!844rJfgoPfQzigH7.3J1s68WJXBgK4IJy'
+  _key: '!items.effects!844rJfgoPfQzigH7.tj7cfCXb2TVsY1is'
 folder: EIFt2WpGhAg7Oc3J
 sort: 0
 _stats:

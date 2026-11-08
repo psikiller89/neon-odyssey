@@ -32,7 +32,7 @@ system:
   activities:
     T17ZXCxvxeDwPoz5:
       type: heal
-      name: Temporary Hit Points
+      name: Hunt Hardened
       _id: T17ZXCxvxeDwPoz5
       activation:
         type: action
@@ -46,6 +46,7 @@ system:
         targets:
         - type: activityUses
           value: '1'
+          target: ''
           scaling: {}
       description:
         chatFlavor: ''
@@ -104,7 +105,7 @@ system:
       flags: {}
     y2cSZJxteG7Yew0u:
       type: utility
-      name: Decrease Exhaustion
+      name: Tireless Pursuit
       _id: y2cSZJxteG7Yew0u
       activation:
         type: shortRest

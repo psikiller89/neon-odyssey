@@ -21,10 +21,12 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: max(1, @abilities.wis.mod)
+    max: max(2, @abilities.wis.mod)
     spent: 0
     recovery:
     - period: sr
+      type: recoverAll
+    - period: lr
       type: recoverAll
   type:
     value: class
@@ -36,35 +38,36 @@ system:
   properties: []
   requirements: Powertech Tracer
   activities:
-    5QKbbSVIreOQqg9I:
-      _id: 5QKbbSVIreOQqg9I
-      type: damage
-      name: ''
+    GUPDSkd3FFdvKQzS:
+      _id: GUPDSkd3FFdvKQzS
+      type: attack
+      name: Arsenal System (Melee)
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets:
-        - type: itemUses
-          value: '1'
-          target: ''
-          scaling: {}
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
+        units: ft
+        value: '5'
         override: false
-        units: self
         special: ''
       target:
         template:
@@ -73,23 +76,298 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
       damage:
         critical:
-          allow: false
           bonus: ''
+        includeBase: false
         parts:
         - number: 1
           denomination: 8
+          bonus: '@mod'
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    d5BCdEc0JuzRLppq:
+      _id: d5BCdEc0JuzRLppq
+      type: attack
+      name: Arsenal System (Ranged)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '100'
+        long: '300'
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
           bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: '@mod'
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    hNExQKTbJTruceAj:
+      _id: hNExQKTbJTruceAj
+      type: attack
+      name: Charge Burst
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: On a hit, activate Push or Sap
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '100'
+        long: '300'
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: 14
+        identifier: tracer
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 1
+          denomination: 8
+          bonus: '@mod'
+          types:
+          - force
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    CNuxXNfv7DDf0i84:
+      _id: CNuxXNfv7DDf0i84
+      type: attack
+      name: Overcharged Pulse
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: On a hit, activate Push, Sap or Topple
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '100'
+        long: '300'
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 15
+          max: null
+        identifier: tracer
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: dex
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: 2
+          denomination: 8
+          bonus: '@mod'
           types:
           - force
           custom:

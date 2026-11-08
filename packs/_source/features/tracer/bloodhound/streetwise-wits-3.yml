@@ -29,31 +29,35 @@ system:
   properties: []
   requirements: Bloodhound Tracer
   activities:
-    8lgcbZixM0bSf4Qr:
-      _id: 8lgcbZixM0bSf4Qr
+    5bmfDYko6312WVkO:
+      _id: 5bmfDYko6312WVkO
       type: utility
-      name: ''
+      name: Streetwise Wits
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: Influence, Search or Study as a Bonus Action
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
-        chatFlavor: ''
+        chatFlavor: 'Search to scrutinize a creature within 60 ft (DC 15 Insight): Advantage on your first attack roll against it each turn for 1 minute.'
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -63,19 +67,28 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       roll:
-        formula: ''
-        name: ''
+        formula: 1d20 + @skills.ins.total
+        name: Insight
         prompt: false
-        visible: false
+        visible: true
   enchant: {}
   identifier: streetwise-wits
   advancement: {}

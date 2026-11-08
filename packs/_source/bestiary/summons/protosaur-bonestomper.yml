@@ -1,0 +1,369 @@
+_id: CqGOTV22VhC5XyFl
+name: Protosaur Bonestomper
+type: npc
+img: icons/svg/mystery-man.svg
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+    dex:
+      value: 10
+      proficient: 0
+    con:
+      value: 14
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 15
+      proficient: 0
+    cha:
+      value: 11
+      proficient: 0
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 5
+      max: 5
+      formula: ''
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      climb: ''
+      swim: '60'
+      fly: ''
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: null
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: beast
+      subtype: ''
+      custom: ''
+    alignment: ''
+    biography:
+      value: '<p>Large or Medium Beast. Swim 60 ft. (Sea only). Summoned by the Protostalker Tracer’s Protosaur Packmate. AC 13 + your Wisdom modifier; HP 5 + 5 × your Tracer level. Primal Bond: add your
+        Proficiency Bonus to its ability checks and saving throws. Understands the languages you know.</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: lg
+    dr:
+      value: []
+    di:
+      value: []
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: ''
+  skills: {}
+items:
+- _id: TkVdQnnBRg8e6LeE
+  name: Proto Strike
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Melee Attack Roll: bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      MuTa4TDVLwsEpzNP:
+        _id: MuTa4TDVLwsEpzNP
+        type: attack
+        name: Proto Strike
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '5'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: ''
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: melee
+            classification: spell
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '2'
+            types:
+            - bludgeoning
+            - piercing
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: rivet-burst
+  _key: '!actors.items!CqGOTV22VhC5XyFl.TkVdQnnBRg8e6LeE'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: yHQXBIFeHivWbiM3
+  name: Aspect
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Choose Land or Sea when summoned. Amphibious (Sea only): breathes air and water, and you gain this trait.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!CqGOTV22VhC5XyFl.yHQXBIFeHivWbiM3'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: OjYuBzLX3Ifqmdif
+  name: Standing Leap (Land Only)
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Long Jump up to 20 feet and High Jump up to 10 feet, with or without a running start.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!CqGOTV22VhC5XyFl.OjYuBzLX3Ifqmdif'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: 6a9rZFxegn6Jfsak
+  name: Trampling Charge
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the protosaur moved at least 20 feet straight toward the target before a Proto Strike hit, the target takes an extra 1d6 damage and is Prone if Large or smaller.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!CqGOTV22VhC5XyFl.6a9rZFxegn6Jfsak'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: ELNR6kAcYs2NTQFL
+  name: Primal Bond
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Add your Proficiency Bonus to any ability check or saving throw the protosaur makes.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!CqGOTV22VhC5XyFl.ELNR6kAcYs2NTQFL'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Protosaur Bonestomper
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!CqGOTV22VhC5XyFl'

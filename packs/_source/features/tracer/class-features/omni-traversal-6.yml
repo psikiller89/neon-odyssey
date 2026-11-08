@@ -33,7 +33,7 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Roving
+- name: Omni-Traversal
   img: icons/skills/movement/feet-winged-sandals-tan.webp
   _id: J9RWCSmYGnP0fkn1
   type: base

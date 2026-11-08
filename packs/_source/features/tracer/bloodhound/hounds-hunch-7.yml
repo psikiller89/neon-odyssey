@@ -27,7 +27,68 @@ system:
     repeatable: false
   properties: []
   requirements: Bloodhound Tracer
-  activities: {}
+  activities:
+    9QW99fZM5gVaTnyf:
+      _id: 9QW99fZM5gVaTnyf
+      type: utility
+      name: Hound's Hunch
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: Study action, creature within 60 ft (DC 15)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 1d20 + @skills.inv.total
+        name: Investigation
+        prompt: false
+        visible: true
   enchant: {}
   identifier: hounds-hunch
   advancement: {}

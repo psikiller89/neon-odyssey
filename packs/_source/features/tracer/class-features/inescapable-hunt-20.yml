@@ -32,81 +32,75 @@ system:
   properties: []
   requirements: Tracer
   activities:
-    GG4mc3Bw4ArJEUJY:
-      type: damage
+    4fdFHljFD93gajTt:
+      _id: 4fdFHljFD93gajTt
+      type: cast
+      name: Amplified Instincts (Hunter's Mark)
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        override: true
-        condition: ''
+        override: false
+        condition: When you hit a creature with an attack roll (ignore range)
       consumption:
-        targets:
-        - type: itemUses
-          target: ''
-          value: '1'
-          scaling:
-            mode: ''
-            formula: ''
         scaling:
           allowed: false
           max: ''
         spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
       description:
         chatFlavor: ''
-        value: ''
       duration:
         units: inst
-        override: true
         concentration: false
-        expiry: null
+        override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: true
-        units: any
+        units: self
+        override: false
         special: ''
       target:
-        prompt: true
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: ''
-          type: ''
+          type: self
         override: false
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-        - custom:
-            enabled: false
-            formula: ''
-          number: 1
-          denomination: 10
-          bonus: ''
-          types:
-          - force
-          scaling:
-            number: 1
-          modifiers: []
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 100000
-      name: Improved Hunter's Mark Damage
-      _id: GG4mc3Bw4ArJEUJY
-      img: ''
-      behaviors: []
       flags: {}
       visibility:
-        level: {}
+        level:
+          min: null
+          max: null
+        identifier: ''
         requireAttunement: false
         requireIdentification: false
         requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHuntersMar
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 1
   enchant: {}
   identifier: inescapable-hunt
   advancement: {}
