@@ -60,8 +60,7 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
-        value: ''
+        chatFlavor: Choose three Resistances in the Surge window; the Surge effects are applied to you automatically.
       duration:
         value: '10'
         units: minute
@@ -136,7 +135,7 @@ system:
         recovery: []
         max: ''
       sort: 0
-      name: Activate
+      name: Activate Surge
       img: ''
       visibility:
         level:
@@ -157,15 +156,15 @@ effects:
   flags:
     dnd5e:
       riders: {}
-  disabled: true
+  disabled: false
   duration:
-    value: 10
-    units: minutes
+    value: 600
+    units: seconds
     expiry: null
     expired: false
   origin: Compendium.neon-odyssey.features.Item.uKbFSOh6dq9GNvRb
   tint: '#ffffff'
-  transfer: true
+  transfer: false
   name: Surge
   description: '<p><strong>Damage Resistance.</strong> You have Resistance to three of the following damage types of your choice: Bludgeoning, Fire, Lightning, Piercing, Radiant, or Slashing (apply the
     matching Surge Resistance effects).</p><p><strong>Surge Damage.</strong> When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus
@@ -237,7 +236,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
@@ -276,7 +275,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
@@ -315,7 +314,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
@@ -354,7 +353,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
@@ -393,7 +392,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false
@@ -432,7 +431,7 @@ effects:
   disabled: false
   transfer: false
   duration:
-    value: null
+    value: 600
     units: seconds
     expiry: null
     expired: false

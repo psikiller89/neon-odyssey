@@ -4,7 +4,241 @@ type: feat
 img: modules/neon-odyssey/icons/species/cygnian.webp
 folder: EiU5Oi8YAxdZiazv
 sort: 0
-effects: []
+effects:
+- _id: qUcguup8bpxu0RJr
+  name: 'Chronicle: Strength'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.str.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: uY5GgxYXmBUdwB2T
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.qUcguup8bpxu0RJr'
+- _id: r016JfcDT3fXqfcn
+  name: 'Chronicle: Dexterity'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.dex.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: tDfCA824CZA7Vyr5
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.r016JfcDT3fXqfcn'
+- _id: 1bPRl8NJirMpzg11
+  name: 'Chronicle: Constitution'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.con.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: 1XzjqutSAZ2TWuJg
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.1bPRl8NJirMpzg11'
+- _id: ycZ78BqyD07v7HXz
+  name: 'Chronicle: Intelligence'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.int.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: kGVnwjNzsJwFcPkM
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.ycZ78BqyD07v7HXz'
+- _id: xPC1s4qjYTe2naps
+  name: 'Chronicle: Wisdom'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.wis.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: 8hv4zhH2utOR1CUA
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.xPC1s4qjYTe2naps'
+- _id: hQaJCKuoQvYXHSWo
+  name: 'Chronicle: Charisma'
+  img: modules/neon-odyssey/icons/species/cygnian.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.cha.bonuses.save
+      value: '@prof'
+      priority: null
+      type: add
+      phase: initial
+      _id: vN74r5Jfi6R8pGMG
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4nIQcuVqM8jZTpTq.hQaJCKuoQvYXHSWo'
 system:
   description:
     value: <p>Choose an ability score. For 1 minute, you can add a bonus equal to your Proficiency Bonus to saving throws using the chosen score.</p>
@@ -17,9 +251,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: race
     subtype: ''
@@ -28,7 +264,96 @@ system:
     repeatable: false
   properties: []
   requirements: Cygnian
-  activities: {}
+  activities:
+    XA3UuXp2zk2EF9mz:
+      _id: XA3UuXp2zk2EF9mz
+      type: utility
+      name: Chronicle (pick an ability)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: Spend Heroic Inspiration to use it again without a Long Rest.
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: qUcguup8bpxu0RJr
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: r016JfcDT3fXqfcn
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: 1bPRl8NJirMpzg11
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: ycZ78BqyD07v7HXz
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: xPC1s4qjYTe2naps
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: hQaJCKuoQvYXHSWo
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: chronicle
   advancement: {}

@@ -46,18 +46,6 @@ system:
         - uuid: Compendium.neon-odyssey.origins.Item.sBfFewW1w0D9S7s9
           optional: false
           sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.ek97L1gs27UIqdEb
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.4nIQcuVqM8jZTpTq
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.IVGSJLyHTd3noqmZ
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.t8XgHlcHRTMRXlc2
-          optional: false
-          sort: 0
         - uuid: Compendium.neon-odyssey.origins.Item.56DPhKSfK7yHv8qg
           optional: false
           sort: 0
@@ -71,6 +59,30 @@ system:
       level: 0
       hint: ''
       title: Cygnian Traits
+    GUSqR9NnOaHNgTb8:
+      _id: GUSqR9NnOaHNgTb8
+      type: ItemChoice
+      level: 0
+      title: Glory of Agathos
+      hint: 'Choose your triad: Beacon, Chronicle, Fountain or Tower.'
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.neon-odyssey.origins.Item.ek97L1gs27UIqdEb
+        - uuid: Compendium.neon-odyssey.origins.Item.4nIQcuVqM8jZTpTq
+        - uuid: Compendium.neon-odyssey.origins.Item.IVGSJLyHTd3noqmZ
+        - uuid: Compendium.neon-odyssey.origins.Item.t8XgHlcHRTMRXlc2
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        type: feat
+      value: {}
   movement:
     units: null
     hover: false

@@ -45,7 +45,7 @@ effects:
     dnd5e:
       riders: {}
   tint: '#ffffff'
-  name: Fast Movement
+  name: Driving Momentum
   description: ''
   statuses: []
   img: icons/skills/movement/feet-winged-boots-brown.webp

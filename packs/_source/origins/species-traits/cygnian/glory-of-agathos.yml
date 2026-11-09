@@ -18,11 +18,9 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: '1'
+    max: ''
     spent: 0
-    recovery:
-    - period: lr
-      type: recoverAll
+    recovery: []
   type:
     value: race
     subtype: ''
@@ -31,58 +29,7 @@ system:
     repeatable: false
   properties: []
   requirements: Cygnian
-  activities:
-    934Sao7zIfeLofPc:
-      _id: 934Sao7zIfeLofPc
-      type: utility
-      name: ''
-      activation:
-        type: bonus
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets:
-        - type: itemUses
-          value: '1'
-          target: ''
-          scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+  activities: {}
   enchant: {}
   identifier: glory-of-agathos
   advancement: {}

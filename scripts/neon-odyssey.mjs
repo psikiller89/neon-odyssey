@@ -217,3 +217,34 @@ Hooks.once("ready", () => {
   if ( !game.user.isGM ) return;
   for ( const actor of game.actors ) neonResolveTargets(actor);
 });
+
+/* Surge: choose three Resistances, then apply the Surge effects to the Juggernaut. */
+const SURGE_TYPES = ["bludgeoning", "fire", "lightning", "piercing", "radiant", "slashing"];
+Hooks.on("dnd5e.postUseActivity", async (activity) => {
+  const item = activity.item;
+  const actor = item?.actor;
+  if ( !actor?.isOwner || (item.system.identifier !== "surge") || (activity.type !== "utility") ) return;
+  let picks = SURGE_TYPES;
+  if ( !actor.items.some(i => i.system.identifier === "master-of-the-eternal") ) {
+    const boxes = SURGE_TYPES.map(t => `<label style="display:block"><input type="checkbox" name="${t}"> ${CONFIG.DND5E.damageTypes[t]?.label ?? t}</label>`).join("");
+    const chosen = await foundry.applications.api.DialogV2.wait({
+      window: { title: "Surge: Choose 3 Resistances" },
+      content: `<p>Choose three damage types.</p>${boxes}`,
+      buttons: [{ action: "ok", label: "Surge", default: true, callback: (event, button) => SURGE_TYPES.filter(t => button.form.elements[t]?.checked) }],
+      rejectClose: false
+    });
+    if ( !chosen ) return;
+    picks = chosen.slice(0, 3);
+  }
+  const names = new Set(["Surge", ...picks.map(t => `Surge Resistance: ${t.charAt(0).toUpperCase()}${t.slice(1)}`)]);
+  const old = actor.effects.filter(e => e.getFlag(MODULE_ID, "surge")).map(e => e.id);
+  if ( old.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", old);
+  const data = item.effects.filter(e => names.has(e.name)).map(e => {
+    const o = e.toObject();
+    delete o._id;
+    Object.assign(o, { transfer: false, disabled: false, origin: item.uuid });
+    foundry.utils.setProperty(o, `flags.${MODULE_ID}.surge`, true);
+    return o;
+  });
+  if ( data.length ) await actor.createEmbeddedDocuments("ActiveEffect", data);
+});

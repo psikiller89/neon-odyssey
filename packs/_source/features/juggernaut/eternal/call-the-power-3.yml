@@ -256,6 +256,126 @@ system:
         requireIdentification: false
         requireMagic: false
       behaviors: []
+    aIyNBLZgtBTje0iN:
+      _id: aIyNBLZgtBTje0iN
+      type: utility
+      name: Mythic Presence
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: While your Surge is active (10-ft Emanation)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: RJD08THVkkaKkeze
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: 13
+        identifier: juggernaut
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    NKyhvMTiUz3r0iAd:
+      _id: NKyhvMTiUz3r0iAd
+      type: utility
+      name: Glorious Presence
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: While your Surge is active (30-ft Emanation)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: fcXcDzCyFjfyk4Fv
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 14
+          max: null
+        identifier: juggernaut
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: call-the-power
   advancement: {}
@@ -299,6 +419,85 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!pswAzUrhI0mwXJO7.g4wBKmY019kk02AN'
+- _id: RJD08THVkkaKkeze
+  name: Mythic Presence
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.abilities.save
+      value: +1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: e6b04qaQDHld0HEp
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Add 1d4 to saving throws while within 10 feet of the Eternal Juggernaut.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!pswAzUrhI0mwXJO7.RJD08THVkkaKkeze'
+- _id: fcXcDzCyFjfyk4Fv
+  name: Glorious Presence
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.abilities.save
+      value: +1d4
+      priority: null
+      type: add
+      phase: initial
+      _id: e6b04qaQDHld0HEp
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Add 1d4 to saving throws while within 30 feet of the Eternal Juggernaut. An ally that starts its turn in the Emanation adds the Juggernaut’s Surge Damage bonus to its damage rolls until
+    the start of its next turn.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!pswAzUrhI0mwXJO7.fcXcDzCyFjfyk4Fv'
 folder: m9J3z6dsJoJabIPZ
 sort: 0
 _stats:

@@ -32,7 +32,7 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Danger Sense
+- name: Amplified Reflexes
   img: icons/skills/wounds/injury-face-impact-orange.webp
   origin: Compendium.neon-odyssey.features.Item.OHgn8EpQ7ObuZejo
   _id: lTOwmIJoE8GLm1oy
