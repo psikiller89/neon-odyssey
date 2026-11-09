@@ -30,7 +30,46 @@ system:
   enchant: {}
   identifier: tremorsense
   advancement: {}
-effects: []
+effects:
+- _id: W6WvUzhUO2ovMZea
+  name: Tremorsense
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.tremorsense
+      value: '60'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: WLxe4yY5SmfHuqdG
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!qHn1WJa7PVTbEQJ7.W6WvUzhUO2ovMZea'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

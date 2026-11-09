@@ -25,8 +25,9 @@ system:
       proficient: 0
   attributes:
     ac:
-      flat: 12
-      calc: natural
+      calc: custom
+      formula: 12 + @abilities.wis.mod
+      flat: null
     hp:
       value: 10
       max: 10
@@ -172,8 +173,8 @@ items:
     activities:
       kz1PLLlY52HkCitE:
         _id: kz1PLLlY52HkCitE
-        type: save
-        name: ''
+        type: attack
+        name: Primal Thrash
         activation:
           type: action
           value: null
@@ -184,7 +185,7 @@ items:
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
         description:
           chatFlavor: ''
         duration:
@@ -193,8 +194,9 @@ items:
           override: false
         effects: []
         range:
+          units: ft
+          value: '5'
           override: false
-          units: self
           special: ''
         target:
           template:
@@ -203,10 +205,10 @@ items:
             type: ''
           affects:
             choice: false
-            count: ''
-            type: ''
-          prompt: true
+            count: '1'
+            type: creature
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
@@ -219,8 +221,94 @@ items:
             calculation: spellcasting
             formula: ''
         damage:
-          onSave: none
-          parts: []
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 8
+            bonus: '@abilities.wis.mod'
+            types:
+            - bludgeoning
+            - piercing
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        attack:
+          ability: wis
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: melee
+            classification: spell
+      VlJVoiKMo2n89Del:
+        _id: VlJVoiKMo2n89Del
+        type: save
+        name: 'Thrash: Knock Prone'
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: Target no larger than you
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        save:
+          ability:
+          - str
+          dc:
+            calculation: spellcasting
+            formula: ''
     properties: []
     requirements: ''
     identifier: primal-thrash
@@ -383,10 +471,10 @@ items:
           max: ''
         sort: 0
         roll:
-          formula: ''
-          name: ''
+          formula: 1d8 + @abilities.wis.mod
+          name: Damage reduced
           prompt: false
-          visible: false
+          visible: true
     properties: []
     requirements: ''
     identifier: pack-protection

@@ -25,8 +25,9 @@ system:
       proficient: 0
   attributes:
     ac:
-      flat: 10
-      calc: natural
+      calc: custom
+      formula: 10 + @abilities.wis.mod
+      flat: null
     hp:
       value: 10
       max: 10
@@ -208,8 +209,8 @@ items:
     activities:
       6VFFsIsj5I4ycKDe:
         _id: 6VFFsIsj5I4ycKDe
-        type: utility
-        name: ''
+        type: attack
+        name: Primal Strike
         activation:
           type: action
           value: null
@@ -220,7 +221,7 @@ items:
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
         description:
           chatFlavor: ''
         duration:
@@ -229,8 +230,9 @@ items:
           override: false
         effects: []
         range:
+          units: ft
+          value: '5'
           override: false
-          units: self
           special: ''
         target:
           template:
@@ -239,10 +241,10 @@ items:
             type: ''
           affects:
             choice: false
-            count: ''
-            type: ''
-          prompt: true
+            count: '1'
+            type: creature
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
@@ -253,6 +255,34 @@ items:
           name: ''
           prompt: false
           visible: false
+        attack:
+          ability: wis
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: melee
+            classification: spell
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: '@abilities.wis.mod'
+            types:
+            - bludgeoning
+            - piercing
+            - slashing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
     properties: []
     requirements: ''
     identifier: primal-strike

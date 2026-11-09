@@ -30,7 +30,202 @@ system:
   enchant: {}
   identifier: environmental-adaptation
   advancement: {}
-effects: []
+effects:
+- _id: 9hGycfFwB8EqVStf
+  name: 'Environmental Adaptation: Acid'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: wfUSawtzGKyHkss6
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gfcGeycfOVtn4BCH.9hGycfFwB8EqVStf'
+- _id: bL3H0rpwLfBT6Jkj
+  name: 'Environmental Adaptation: Cold'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: cold
+      priority: null
+      type: add
+      phase: initial
+      _id: oPgYPqjds2ehypMJ
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gfcGeycfOVtn4BCH.bL3H0rpwLfBT6Jkj'
+- _id: sX7NlmLAz7E0UJGk
+  name: 'Environmental Adaptation: Fire'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: 4CVVaVEPwGM5RHrX
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gfcGeycfOVtn4BCH.sX7NlmLAz7E0UJGk'
+- _id: bG9rGXeqbh844ZXe
+  name: 'Environmental Adaptation: Lightning'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: HVX1g2OTFRs7NS4m
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gfcGeycfOVtn4BCH.bG9rGXeqbh844ZXe'
+- _id: lEx5XiCOVoBXYq9g
+  name: 'Environmental Adaptation: Poison'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: poison
+      priority: null
+      type: add
+      phase: initial
+      _id: Me0FakxI70nQ9zFN
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!gfcGeycfOVtn4BCH.lEx5XiCOVoBXYq9g'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

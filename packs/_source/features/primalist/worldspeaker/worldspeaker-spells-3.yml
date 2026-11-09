@@ -49,6 +49,9 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplEntangle00
           optional: false
           sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.9j1zwLFm4wGwP9q1
+          optional: false
+          sort: 0
         optional: false
         spell:
           ability: []

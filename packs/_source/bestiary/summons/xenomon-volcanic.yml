@@ -1,0 +1,413 @@
+_id: wE3U9v2Z31NQpEeL
+name: Volcanic Xenomon
+type: npc
+img: icons/svg/mystery-man.svg
+folder: zffxSCFFcVJK6PwY
+system:
+  abilities:
+    str:
+      value: 14
+      proficient: 0
+    dex:
+      value: 14
+      proficient: 0
+    con:
+      value: 15
+      proficient: 0
+    int:
+      value: 8
+      proficient: 0
+    wis:
+      value: 14
+      proficient: 0
+    cha:
+      value: 11
+      proficient: 0
+  attributes:
+    ac:
+      flat: 13
+      calc: natural
+    hp:
+      value: 5
+      max: 5
+      formula: ''
+      temp: null
+      tempmax: null
+    movement:
+      walk: '30'
+      climb: ''
+      swim: ''
+      fly: ''
+      burrow: '30'
+      units: ft
+      hover: false
+    senses:
+      units: ft
+      special: ''
+      ranges:
+        darkvision: 60
+        blindsight: null
+        tremorsense: 60
+        truesight: null
+  details:
+    cr: 0
+    type:
+      value: monstrosity
+      subtype: ''
+      custom: ''
+    alignment: ''
+    biography:
+      value: '<p>Small Monstrosity summoned by the Xenotrainer’s Xenomon Partner. AC 13 + your Wisdom modifier; HP 5 + 5 × your Primalist level. Metamorphosis: Medium at level 6, Large at level 14.</p>'
+      public: ''
+    source:
+      custom: ''
+      book: 'Neon Odyssey: Outrunner’s Handbook'
+      page: ''
+      license: ''
+      rules: '2024'
+      revision: 1
+  traits:
+    size: sm
+    dr:
+      value: []
+    di:
+      value:
+      - fire
+    ci:
+      value: []
+    languages:
+      value: []
+      custom: ''
+  skills: {}
+items:
+- _id: AYFN9157zPQegHFx
+  name: Elemental Swipe
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Attack roll: bonus equals your spell attack modifier, reach 5 ft; the target starts burning. Hit: 1d6 plus your Wisdom modifier Fire damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      MuTa4TDVLwsEpzNP:
+        _id: MuTa4TDVLwsEpzNP
+        type: attack
+        name: Elemental Swipe
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '5'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: ''
+          bonus: ''
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: melee
+            classification: spell
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+            - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: rivet-burst
+  _key: '!actors.items!wE3U9v2Z31NQpEeL.AYFN9157zPQegHFx'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: nfI0MPodANNz0bdr
+  name: Magma Breath (1/Summon; Level 10+)
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>DEX save vs your spell save DC. Failure: 4d8 Fire damage. Success: half damage.</p>'
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      MuTa4TDVLwsEpzNP:
+        _id: MuTa4TDVLwsEpzNP
+        type: save
+        name: Magma Breath
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: ''
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: cone
+            size: '30'
+            width: ''
+            count: ''
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
+          override: false
+          prompt: true
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        damage:
+          onSave: half
+          parts:
+          - number: 4
+            denomination: 8
+            bonus: ''
+            types:
+            - fire
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+        save:
+          ability:
+          - dex
+          dc:
+            calculation: ''
+            formula: '@attributes.spell.dc'
+    properties: []
+    requirements: ''
+    identifier: rivet-burst
+  _key: '!actors.items!wE3U9v2Z31NQpEeL.nfI0MPodANNz0bdr'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: HAumEpDqiREAklcf
+  name: Illumination
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The xenomon sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!wE3U9v2Z31NQpEeL.HAumEpDqiREAklcf'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: mRVB8TYP7amw1b9v
+  name: Primal Bond
+  type: feat
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Add your Proficiency Bonus to any ability check or saving throw the xenomon makes.</p>
+      chat: ''
+    type:
+      value: monster
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: relocate
+  _key: '!actors.items!wE3U9v2Z31NQpEeL.mRVB8TYP7amw1b9v'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+sort: 0
+prototypeToken:
+  name: Volcanic Xenomon
+  texture:
+    src: icons/svg/mystery-man.svg
+  width: 1
+  height: 1
+  disposition: 1
+  actorLink: false
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!actors!wE3U9v2Z31NQpEeL'

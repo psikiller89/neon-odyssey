@@ -1,0 +1,149 @@
+_id: 4xvYtCXKlNvaWnON
+name: 'Discordant Tone: Thrill'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your tone is Thrill. Its damage type is Psychic: when you deal damage with a spell or Hivemind feature, you can change the damage type to Psychic.</p><p>You always have this tone''s Hivemind
+      spells prepared.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities: {}
+  enchant: {}
+  identifier: discordant-tone-thrill
+  advancement:
+    Pl0Rloq5AzJsi262:
+      _id: Pl0Rloq5AzJsi262
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMirrorImag
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Hivemind Spells (Thrill)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    Dwy6pIPeaYSqHBV2:
+      _id: Dwy6pIPeaYSqHBV2
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Hivemind Spells (Thrill)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    QRsw5ypKxUzGUtib:
+      _id: QRsw5ypKxUzGUtib
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConfusion0
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Hivemind Spells (Thrill)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    W9Ujmhgac3oDK0jW:
+      _id: W9Ujmhgac3oDK0jW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMislead000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Hivemind Spells (Thrill)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!4xvYtCXKlNvaWnON'

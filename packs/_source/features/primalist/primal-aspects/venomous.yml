@@ -30,12 +30,12 @@ system:
     AslwTqAlIUmMvkqf:
       _id: AslwTqAlIUmMvkqf
       type: damage
-      name: ''
+      name: Venomous
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You hit with an attack
       consumption:
         targets: []
         scaling:
@@ -60,10 +60,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -74,14 +74,14 @@ system:
           allow: false
           bonus: ''
         parts:
-        - number: 1
-          denomination: 6
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - poison
           custom:
-            enabled: false
-            formula: ''
+            enabled: true
+            formula: '(@classes.primalist.levels >= 8 ? 2 : 1)d6'
           scaling:
             mode: ''
             number: null

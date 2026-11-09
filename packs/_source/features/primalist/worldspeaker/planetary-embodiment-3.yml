@@ -40,33 +40,39 @@ system:
   properties: []
   requirements: Worldspeaker Primalist
   activities:
-    VghwRH7kvFjC7ZQe:
-      _id: VghwRH7kvFjC7ZQe
-      type: save
-      name: ''
+    IBe721wAaUji9ezT:
+      _id: IBe721wAaUji9ezT
+      type: utility
+      name: Embody World Soul
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:primal-channel
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Free once per Long Rest if you embody the bond matching the world you are on.
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
-      effects:
-      - _id: J2CVzkt88ZAOHTVi
-        onSave: false
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -76,49 +82,362 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    wytql5tqrxcumIyk:
+      _id: wytql5tqrxcumIyk
+      type: heal
+      name: 'Abundant: Heal'
+      img: ''
       sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you activate this embodiment
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: 1
+        denomination: 8
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+    sYRGtErg1Kj0kt1G:
+      _id: sYRGtErg1Kj0kt1G
+      type: save
+      name: Defiled
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: EcHW1N1EB8PQ6rBF
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - con
-        dc:
+        dc: &id001
           calculation: spellcasting
           formula: ''
       damage:
-        onSave: half
-        parts: []
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - piercing
+          - poison
+          - necrotic
+          - psychic
+          - slashing
+          - cold
+          - lightning
+          - thunder
+          - bludgeoning
+          - fire
+          - radiant
+          custom:
+            enabled: true
+            formula: max(1, @abilities.wis.mod)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: full
+    sDAWleU2cegdNzgJ:
+      _id: sDAWleU2cegdNzgJ
+      type: save
+      name: 'Turbulent: Push 10 ft'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Speed halved until the start of your next turn
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - str
+        dc: *id001
+    B9G35u28R9dMX5Zm:
+      _id: B9G35u28R9dMX5Zm
+      type: save
+      name: Unforgiving
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - acid
+          - piercing
+          - poison
+          - necrotic
+          - psychic
+          - slashing
+          - cold
+          - lightning
+          - thunder
+          - bludgeoning
+          - fire
+          - radiant
+          custom:
+            enabled: true
+            formula: (max(1, @abilities.wis.mod))d6
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: none
   enchant: {}
   identifier: planetary-embodiment
   advancement: {}
 effects:
-- _id: J2CVzkt88ZAOHTVi
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: EcHW1N1EB8PQ6rBF
+  name: 'Defiled: Disadvantage'
+  img: icons/svg/upgrade.svg
   type: base
   system:
     changes: []
-  statuses:
-  - incapacitated
-  transfer: false
   disabled: false
+  transfer: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
-  origin: null
+  description: <p>Disadvantage on attack rolls and ability checks until the start of your next turn.</p>
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -130,7 +449,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!kSRDQ8VFQ2rCemKe.J2CVzkt88ZAOHTVi'
+  _key: '!items.effects!kSRDQ8VFQ2rCemKe.EcHW1N1EB8PQ6rBF'
 folder: jVxTF8ax7KraYs7u
 sort: 0
 _stats:

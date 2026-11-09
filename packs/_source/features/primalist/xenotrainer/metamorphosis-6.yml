@@ -33,11 +33,11 @@ system:
     Z1FYhTVU5mqhj8Bm:
       _id: Z1FYhTVU5mqhj8Bm
       type: save
-      name: ''
+      name: Switch Out
       activation:
         type: bonus
         value: null
-        condition: ''
+        condition: Replace your summoned xenomon (damage type of the new xenomon)
         override: false
       consumption:
         targets: []
@@ -60,13 +60,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '10'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
@@ -79,8 +83,25 @@ system:
           calculation: spellcasting
           formula: ''
       damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 6
+          bonus: ''
+          types:
+          - cold
+          - acid
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
         onSave: none
-        parts: []
   enchant: {}
   identifier: metamorphosis
   advancement: {}

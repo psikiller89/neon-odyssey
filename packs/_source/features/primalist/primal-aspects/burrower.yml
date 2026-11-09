@@ -31,18 +31,18 @@ system:
   identifier: burrower
   advancement: {}
 effects:
-- _id: sPCghKk3JvXSC5R0
+- _id: HsxGYKKHxdmgNDVV
   name: Burrower
   img: icons/svg/upgrade.svg
   type: base
   system:
     changes:
-    - key: system.attributes.movement.burrow
+    - key: system.attributes.movement.speeds.burrow
       value: '@attributes.movement.speed'
       priority: null
       type: upgrade
       phase: initial
-      _id: eFKBpZW0yfLR9GgP
+      _id: iRQfGkv078zAdtn0
   disabled: false
   transfer: true
   duration:
@@ -69,7 +69,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!QNqdwbXzhs7Kb4r8.sPCghKk3JvXSC5R0'
+  _key: '!items.effects!QNqdwbXzhs7Kb4r8.HsxGYKKHxdmgNDVV'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

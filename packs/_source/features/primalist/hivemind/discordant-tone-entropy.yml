@@ -1,0 +1,149 @@
+_id: 7rFr7A23H2SnMZL2
+name: 'Discordant Tone: Entropy'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your tone is Entropy. Its damage type is Cold: when you deal damage with a spell or Hivemind feature, you can change the damage type to Cold.</p><p>You always have this tone''s Hivemind spells
+      prepared.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities: {}
+  enchant: {}
+  identifier: discordant-tone-entropy
+  advancement:
+    7rz0BGd0rrdOdg05:
+      _id: 7rz0BGd0rrdOdg05
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Hivemind Spells (Entropy)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    xvA2i5yMJ8DvjG5H:
+      _id: xvA2i5yMJ8DvjG5H
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVampiricTo
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Hivemind Spells (Entropy)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    KY4oStvX0kq2zu7L:
+      _id: KY4oStvX0kq2zu7L
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlight0000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Hivemind Spells (Entropy)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    knuRI4SAOajkw3Cx:
+      _id: knuRI4SAOajkw3Cx
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Hivemind Spells (Entropy)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!7rFr7A23H2SnMZL2'

@@ -1,0 +1,149 @@
+_id: FtOUG98bRvcr4Bfz
+name: 'Discordant Tone: Instinct'
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: '<p>Your tone is Instinct. Its damage type is Acid: when you deal damage with a spell or Hivemind feature, you can change the damage type to Acid.</p><p>You always have this tone''s Hivemind
+      spells prepared.</p>'
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Overdrive Expansion'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Hivemind Primalist
+  activities: {}
+  enchant: {}
+  identifier: discordant-tone-instinct
+  advancement:
+    3l3s8BASjfUPgApu:
+      _id: 3l3s8BASjfUPgApu
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Hivemind Spells (Instinct)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    RncGeYXTGY64fm0Q:
+      _id: RncGeYXTGY64fm0Q
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFly0000000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Hivemind Spells (Instinct)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    N4DoDoD1uGQMa1Qg:
+      _id: N4DoDoD1uGQMa1Qg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 7
+      title: Hivemind Spells (Instinct)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    YTODNWDf3K5hR7aE:
+      _id: YTODNWDf3K5hR7aE
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Hivemind Spells (Instinct)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+effects: []
+folder: 7uUFt7ms4ofJUUpP
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!FtOUG98bRvcr4Bfz'

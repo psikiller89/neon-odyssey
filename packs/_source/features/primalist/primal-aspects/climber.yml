@@ -31,18 +31,18 @@ system:
   identifier: climber
   advancement: {}
 effects:
-- _id: jtFNzPFPXRZ6JMqL
+- _id: oEPY4xS85kF6tCcm
   name: Climber
   img: icons/svg/upgrade.svg
   type: base
   system:
     changes:
-    - key: system.attributes.movement.climb
+    - key: system.attributes.movement.speeds.climb
       value: '@attributes.movement.speed'
       priority: null
       type: upgrade
       phase: initial
-      _id: wrSYcw79RUpvrJ9H
+      _id: SkHyv7vuXgLBZrJJ
   disabled: false
   transfer: true
   duration:
@@ -69,7 +69,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!MD70RBCHUM8lJGQP.jtFNzPFPXRZ6JMqL'
+  _key: '!items.effects!MD70RBCHUM8lJGQP.oEPY4xS85kF6tCcm'
 folder: 6paiNqmrbvrvrO5j
 sort: 0
 _stats:

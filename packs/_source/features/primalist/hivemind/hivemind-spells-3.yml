@@ -4,7 +4,8 @@ type: feat
 img: icons/sundries/books/book-embossed-bound-brown.webp
 system:
   description:
-    value: <p>When you reach a Primalist level specified in the Hivemind Spells table, you thereafter always have the listed spells determined by your Discordant Tone prepared.</p>
+    value: <p>When you reach a Primalist level specified in the Hivemind Spells table, you thereafter always have the listed spells determined by your Discordant Tone prepared.</p><p><em>Your spells are
+      granted by the Discordant Tone you choose.</em></p>
     chat: ''
   source:
     custom: ''
@@ -29,104 +30,7 @@ system:
   activities: {}
   enchant: {}
   identifier: hivemind-spells
-  advancement:
-    UXX1WNpWwztNauc5:
-      _id: UXX1WNpWwztNauc5
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: spell
-          prepared: 2
-        sorting: m
-      value: {}
-      level: 3
-      title: Hivemind Spells
-      hint: ''
-    il9aDpR9eUrXP8qo:
-      _id: il9aDpR9eUrXP8qo
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplVampiricTo
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: spell
-          prepared: 2
-        sorting: m
-      value: {}
-      level: 5
-      title: Hivemind Spells
-      hint: ''
-    BANWcLsg6gdkOoFp:
-      _id: BANWcLsg6gdkOoFp
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplVitriolicS
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlight0000
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: spell
-          prepared: 2
-        sorting: m
-      value: {}
-      level: 7
-      title: Hivemind Spells
-      hint: ''
-    FiI0wln5I3HjrrJJ:
-      _id: FiI0wln5I3HjrrJJ
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplInsectPlag
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: false
-          method: spell
-          prepared: 2
-        sorting: m
-      value: {}
-      level: 9
-      title: Hivemind Spells
-      hint: ''
+  advancement: {}
 effects: []
 folder: 7uUFt7ms4ofJUUpP
 sort: 0

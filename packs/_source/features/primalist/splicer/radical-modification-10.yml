@@ -34,33 +34,40 @@ system:
   properties: []
   requirements: Splicer Primalist
   activities:
-    adUFQb5HiO2CxFbk:
-      _id: adUFQb5HiO2CxFbk
+    gc94TLxenci6g9BM:
+      _id: gc94TLxenci6g9BM
       type: save
-      name: ''
+      name: Neurotoxin
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You hit with Piercing or Slashing damage
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects:
       - _id: taWzhEQZdZWp1TST
-        onSave: false
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -69,23 +76,34 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - con
-        dc:
+        dc: &id001
           calculation: spellcasting
           formula: ''
       damage:
-        onSave: half
+        critical:
+          allow: false
+          bonus: ''
         parts:
         - number: 2
           denomination: 8
@@ -99,6 +117,163 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: half
+    3bPJNiS7nIkwYdms:
+      _id: 3bPJNiS7nIkwYdms
+      type: save
+      name: Shriek (Recharge 5–6)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: activityUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '30'
+          width: ''
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        max: '1'
+        recovery:
+        - period: recharge
+          formula: '5'
+          type: recoverAll
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 8
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: none
+    3q6jskHXR6mJlwLQ:
+      _id: 3q6jskHXR6mJlwLQ
+      type: heal
+      name: Regeneration
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Start of your turn while Bloodied (at least 1 HP)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: '5'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: radical-modification
   advancement: {}
@@ -114,8 +289,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null
@@ -137,6 +312,162 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!5U5M6HFzxA4fyiMk.taWzhEQZdZWp1TST'
+- _id: rYBUs4ueYBLIbB2Y
+  name: 'Alien Adaptation: Force'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: force
+      priority: null
+      type: add
+      phase: initial
+      _id: KkbvXJxY2jgQl5hW
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!5U5M6HFzxA4fyiMk.rYBUs4ueYBLIbB2Y'
+- _id: 2u0jDcYhNZpl9rBj
+  name: 'Alien Adaptation: Necrotic'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: necrotic
+      priority: null
+      type: add
+      phase: initial
+      _id: 8rAyMpx2Ecm9Ir2k
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!5U5M6HFzxA4fyiMk.2u0jDcYhNZpl9rBj'
+- _id: uD3BrKX8VUeLCN6f
+  name: 'Alien Adaptation: Psychic'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: uGANA8pSn7OXoMxI
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!5U5M6HFzxA4fyiMk.uD3BrKX8VUeLCN6f'
+- _id: AVBQWgKMSeZrCsIE
+  name: 'Alien Adaptation: Radiant'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: radiant
+      priority: null
+      type: add
+      phase: initial
+      _id: T3ax96tBPrQAcoU0
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the type you chose.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!5U5M6HFzxA4fyiMk.AVBQWgKMSeZrCsIE'
 folder: osfCE3XmJgJuQ0v7
 sort: 0
 _stats:

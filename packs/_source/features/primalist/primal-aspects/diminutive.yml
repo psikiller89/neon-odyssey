@@ -31,11 +31,11 @@ system:
     xDJeutjG23Q1JgMg:
       _id: xDJeutjG23Q1JgMg
       type: utility
-      name: ''
+      name: Impose Disadvantage
       activation:
         type: reaction
         value: null
-        condition: ''
+        condition: A creature you can see targets you with an attack
         override: false
       consumption:
         targets: []

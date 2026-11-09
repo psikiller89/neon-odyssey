@@ -1,0 +1,98 @@
+_id: 4YtjFzMmo0uzBlrp
+name: Guardian
+type: feat
+img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+system:
+  description:
+    value: <p>Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 1
+    repeatable: false
+  properties: []
+  requirements: Primalist
+  activities: {}
+  enchant: {}
+  identifier: guardian
+effects:
+- _id: KenXfxeQGyIoNEzt
+  name: Guardian
+  img: icons/magic/nature/leaf-juggle-humanoid-green.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.weaponProf.value
+      value: mar
+      priority: null
+      type: add
+      phase: initial
+      _id: cV0zp3YC5XG6qZBR
+    - key: system.traits.armorProf.value
+      value: med
+      priority: null
+      type: add
+      phase: initial
+      _id: j0NrroQpbIJ2eT8a
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!4YtjFzMmo0uzBlrp.KenXfxeQGyIoNEzt'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+  neon-odyssey:
+    srcIdentifier: primal-order
+sort: 700000
+ownership:
+  default: 0
+folder: bvOn564EFMLeIJNI
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!4YtjFzMmo0uzBlrp'

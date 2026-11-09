@@ -39,7 +39,7 @@ system:
     HE9MocGMRDRk5x4u:
       _id: HE9MocGMRDRk5x4u
       type: utility
-      name: ''
+      name: Empower Embodiment
       activation:
         type: bonus
         value: null
@@ -91,6 +91,77 @@ system:
         name: ''
         prompt: false
         visible: false
+    5gy3iL4c7nMol4Wp:
+      _id: 5gy3iL4c7nMol4Wp
+      type: cast
+      name: Commune with Nature (free)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: activityUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+        - period: lr
+          type: recoverAll
+        max: '1'
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplCommunewit
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 5
   enchant: {}
   identifier: the-world-speaks
   advancement: {}

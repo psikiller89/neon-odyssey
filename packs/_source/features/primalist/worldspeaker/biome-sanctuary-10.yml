@@ -32,11 +32,11 @@ system:
     5XYh2IbWBcRkEiKR:
       _id: 5XYh2IbWBcRkEiKR
       type: utility
-      name: ''
+      name: Spend Hit Die
       activation:
         type: reaction
         value: null
-        condition: ''
+        condition: You or an ally take damage of your Worldly Resistance type
         override: false
       consumption:
         targets: []
@@ -72,10 +72,10 @@ system:
         max: ''
       sort: 0
       roll:
-        formula: ''
-        name: ''
+        formula: 1d@attributes.hd.largestFace
+        name: Hit Points regained
         prompt: false
-        visible: false
+        visible: true
   enchant: {}
   identifier: biome-sanctuary
   advancement: {}

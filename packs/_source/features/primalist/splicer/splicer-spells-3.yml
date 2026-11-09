@@ -45,6 +45,12 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplGrease0000
           optional: false
           sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.RixDonTjNecGTNDP
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplWeb0000000
+          optional: false
+          sort: 0
         optional: false
         spell:
           ability: []

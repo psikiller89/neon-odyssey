@@ -37,39 +37,39 @@ system:
   properties: []
   requirements: Hivemind Primalist
   activities:
-    hmGJsaAfxjMKAfQV:
-      _id: hmGJsaAfxjMKAfQV
-      type: save
-      name: ''
+    68QDnXmm6DSaNA7M:
+      _id: 68QDnXmm6DSaNA7M
+      type: utility
+      name: Manifest Swarm
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:primal-channel
+          scaling: {}
       description:
-        chatFlavor: ''
+        chatFlavor: Then target a creature with Cacophonous Swarm.
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
-      effects:
-      - _id: MaTQXch9HwqRrZaw
-        onSave: false
-      - _id: jEaZ3hrO4SvVsopa
-        onSave: false
-      - _id: WozgIp4mdRSmNgam
-        onSave: false
-      - _id: Tk3lf8xgotrXEqu7
-        onSave: false
+        special: ''
+      effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -79,9 +79,81 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    mywbbJsIItWCYycz:
+      _id: mywbbJsIItWCYycz
+      type: save
+      name: Cacophonous Swarm (1d6)
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Swarm is active
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: MaTQXch9HwqRrZaw
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: jEaZ3hrO4SvVsopa
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: WozgIp4mdRSmNgam
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: b8QKKsca5ydUJ5RK
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -90,17 +162,23 @@ system:
       save:
         ability:
         - con
-        dc:
+        dc: &id001
           calculation: spellcasting
           formula: ''
       damage:
-        onSave: none
+        critical:
+          allow: false
+          bonus: ''
         parts:
         - number: 1
           denomination: 6
           bonus: ''
           types:
           - necrotic
+          - cold
+          - acid
+          - lightning
+          - psychic
           custom:
             enabled: false
             formula: ''
@@ -108,11 +186,96 @@ system:
             mode: ''
             number: null
             formula: ''
-        - number: 1
+        onSave: none
+      visibility:
+        level:
+          min: null
+          max: 5
+        identifier: primalist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    H2javvTWMoiUInms:
+      _id: H2javvTWMoiUInms
+      type: save
+      name: Cacophonous Swarm (2d6)
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Swarm is active
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: MaTQXch9HwqRrZaw
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: jEaZ3hrO4SvVsopa
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: WozgIp4mdRSmNgam
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: b8QKKsca5ydUJ5RK
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '15'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
           denomination: 6
           bonus: ''
           types:
           - necrotic
+          - cold
+          - acid
+          - lightning
+          - psychic
           custom:
             enabled: false
             formula: ''
@@ -120,6 +283,172 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: none
+      visibility:
+        level:
+          min: 6
+          max: 13
+        identifier: primalist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    uKqm3lYGFJK2sC69:
+      _id: uKqm3lYGFJK2sC69
+      type: save
+      name: Cacophonous Swarm (4d6)
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Swarm is active
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+      - _id: MaTQXch9HwqRrZaw
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: jEaZ3hrO4SvVsopa
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: WozgIp4mdRSmNgam
+        riders:
+          activity: []
+          effect: []
+          item: []
+      - _id: b8QKKsca5ydUJ5RK
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '15'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - necrotic
+          - cold
+          - acid
+          - lightning
+          - psychic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+      visibility:
+        level:
+          min: 14
+          max: null
+        identifier: primalist
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+    A1b8l03dBTYVeyzW:
+      _id: A1b8l03dBTYVeyzW
+      type: damage
+      name: 'Tone: Extra 1d6 Necrotic (Entropy/Thrill)'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 1
           denomination: 6
           bonus: ''
@@ -134,37 +463,7 @@ system:
             formula: ''
   enchant: {}
   identifier: cacophonous-swarm
-  advancement:
-    TXwDmnB5AGI1DZih:
-      _id: TXwDmnB5AGI1DZih
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFaerieFire
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplTashasHide
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: true
-          method: spell
-          prepared: 2
-      value: {}
-      level: 3
-      title: Cacophonous Swarm
-      hint: ''
+  advancement: {}
 effects:
 - _id: MaTQXch9HwqRrZaw
   name: Blinded
@@ -268,28 +567,28 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!xDDIgCFP2c5oQit3.WozgIp4mdRSmNgam'
-- _id: Tk3lf8xgotrXEqu7
-  name: Unconscious
-  img: systems/dnd5e/icons/svg/statuses/unconscious.svg
+- _id: b8QKKsca5ydUJ5RK
+  name: Exhaustion (Entropy)
+  img: icons/svg/upgrade.svg
   type: base
   system:
     changes: []
-  statuses:
-  - unconscious
-  transfer: false
   disabled: false
+  transfer: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
-  origin: null
+  description: ''
   tint: '#ffffff'
+  statuses:
+  - exhaustion
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -301,7 +600,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!xDDIgCFP2c5oQit3.Tk3lf8xgotrXEqu7'
+  _key: '!items.effects!xDDIgCFP2c5oQit3.b8QKKsca5ydUJ5RK'
 folder: 7uUFt7ms4ofJUUpP
 sort: 0
 _stats:

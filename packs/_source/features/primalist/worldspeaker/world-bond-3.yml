@@ -31,8 +31,157 @@ system:
   activities: {}
   enchant: {}
   identifier: world-bond
-  advancement: {}
-effects: []
+  advancement:
+    NpIhIxZHiplXS4OW:
+      _id: NpIhIxZHiplXS4OW
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplElementali
+          optional: false
+          sort: 0
+        optional: true
+        spell: null
+      value: {}
+      level: 3
+      title: World Bond Cantrip
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+effects:
+- _id: c29ANSQ8NG0PaCNE
+  name: 'World Bond: Abundant'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Turn on after a Long Rest to mark your Abundant bond. Damage types: Acid, Piercing, Poison.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!s0Y6FYhKiqYr1RQ8.c29ANSQ8NG0PaCNE'
+- _id: 8kZGfQhVXQDF2FWn
+  name: 'World Bond: Defiled'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Turn on after a Long Rest to mark your Defiled bond. Damage types: Necrotic, Psychic, Slashing.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!s0Y6FYhKiqYr1RQ8.8kZGfQhVXQDF2FWn'
+- _id: HBh88nmAdlCzkMmA
+  name: 'World Bond: Turbulent'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Turn on after a Long Rest to mark your Turbulent bond. Damage types: Cold, Lightning, Thunder.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!s0Y6FYhKiqYr1RQ8.HBh88nmAdlCzkMmA'
+- _id: QtD108c9xHjpl5VO
+  name: 'World Bond: Unforgiving'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Turn on after a Long Rest to mark your Unforgiving bond. Damage types: Bludgeoning, Fire, Radiant.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!s0Y6FYhKiqYr1RQ8.QtD108c9xHjpl5VO'
 folder: jVxTF8ax7KraYs7u
 sort: 0
 _stats:

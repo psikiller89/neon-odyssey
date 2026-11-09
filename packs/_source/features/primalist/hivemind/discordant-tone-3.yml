@@ -31,7 +31,32 @@ system:
   activities: {}
   enchant: {}
   identifier: discordant-tone
-  advancement: {}
+  advancement:
+    KXdZVyosbTXtq6ph:
+      _id: KXdZVyosbTXtq6ph
+      type: ItemChoice
+      level: 3
+      title: Discordant Tone
+      hint: Choose Entropy (Cold), Instinct (Acid), Progress (Lightning) or Thrill (Psychic).
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: false
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.7rFr7A23H2SnMZL2
+        - uuid: Compendium.neon-odyssey.features.Item.FtOUG98bRvcr4Bfz
+        - uuid: Compendium.neon-odyssey.features.Item.Ofqt7FJavFAEXflG
+        - uuid: Compendium.neon-odyssey.features.Item.4xvYtCXKlNvaWnON
+        restriction:
+          type: ''
+          subtype: ''
+          level: ''
+          list: []
+        spell: null
+        type: feat
+      value: {}
 effects: []
 folder: 7uUFt7ms4ofJUUpP
 sort: 0

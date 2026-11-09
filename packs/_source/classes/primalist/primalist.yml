@@ -258,24 +258,6 @@ system:
       value: {}
       title: Max Prepared Spells
       hint: ''
-    pIfdGSkqdp00omkE:
-      _id: pIfdGSkqdp00omkE
-      type: ScaleValue
-      configuration:
-        identifier: wild-shape
-        type: cr
-        distance:
-          units: ''
-        scale:
-          '2':
-            value: 0.25
-          '4':
-            value: 0.5
-          '8':
-            value: 1
-      value: {}
-      title: Wild Shape CR
-      hint: ''
     MIVwoANGkc6gmUWN:
       _id: MIVwoANGkc6gmUWN
       type: ScaleValue
@@ -292,25 +274,7 @@ system:
           '17':
             value: 4
       value: {}
-      title: Wild Shape Uses
-      hint: ''
-    EoM7g9kruaS8VvhA:
-      _id: EoM7g9kruaS8VvhA
-      type: ScaleValue
-      configuration:
-        identifier: known-forms
-        type: number
-        distance:
-          units: ''
-        scale:
-          '2':
-            value: 4
-          '4':
-            value: 6
-          '8':
-            value: 8
-      value: {}
-      title: Known Forms
+      title: Primal Channel
       hint: ''
     NpBpNlHOO43gMD0U:
       _id: NpBpNlHOO43gMD0U
@@ -323,8 +287,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-        - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderMa
-        - uuid: Compendium.dnd5e.classes24.Item.phbPrimalOrderWa
+        - uuid: Compendium.neon-odyssey.features.Item.4YtjFzMmo0uzBlrp
+        - uuid: Compendium.neon-odyssey.features.Item.TX1gGWEC2iEgUhVT
         spell: null
         restriction:
           type: class
@@ -333,8 +297,8 @@ system:
       value:
         added: {}
         replaced: {}
-      title: Primal Order
-      hint: You have dedicated yourself to one of the following sacred roles of your choice.
+      title: Archaic Pathways
+      hint: Choose Guardian or Naturalist.
     HYDmnuNUbI5liP08:
       _id: HYDmnuNUbI5liP08
       type: ItemChoice
@@ -346,8 +310,8 @@ system:
         allowDrops: false
         type: feat
         pool:
-        - uuid: Compendium.dnd5e.classes24.Item.phbFuryPotentSpe
-        - uuid: Compendium.dnd5e.classes24.Item.phbFuryPrimalStr
+        - uuid: Compendium.neon-odyssey.features.Item.bM0izz2pmD9BBzDW
+        - uuid: Compendium.neon-odyssey.features.Item.bFldxcmXNT3p9Duq
         spell: null
         restriction:
           type: class
@@ -355,8 +319,8 @@ system:
       value:
         added: {}
         replaced: {}
-      title: Elemental Fury
-      hint: The might of the elements flows through you. You gain one of the following options of your choice.
+      title: Untamed Wrath
+      hint: Choose Elemental Chaos or Ferocious Mysticism.
     W0d3c6X31SgnFFYM:
       _id: W0d3c6X31SgnFFYM
       type: ScaleValue
@@ -375,7 +339,7 @@ system:
             faces: 8
             modifiers: []
       value: {}
-      title: Elemental Fury
+      title: Elemental Chaos
       hint: ''
     jOMGuG8a0KfmaeJd:
       _id: jOMGuG8a0KfmaeJd
@@ -424,12 +388,12 @@ system:
         mode: default
         allowReplacements: false
         grants:
-        - languages:exotic:druidic
+        - languages:neonOdyssey:clysmic
         choices: []
       value:
         chosen: []
       level: 1
-      title: Primalistic
+      title: Speech of the Untamed
       hint: You know Primalistic, the secret language of Primalists.
     gLRZK2OjtSnWNVJv:
       type: AbilityScoreImprovement
@@ -595,6 +559,22 @@ system:
       level: 20
       title: Class Features
       hint: ''
+    6vIuUDev5y0jc3Ig:
+      _id: 6vIuUDev5y0jc3Ig
+      type: Trait
+      level: 1
+      title: Tool Proficiencies
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - tool:herb
+        choices: []
+      value: {}
   spellcasting:
     progression: full
     ability: wis
