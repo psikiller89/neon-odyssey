@@ -65,8 +65,8 @@ for e in d['effects']:
 a=next(iter(d['system']['activities'].values())); a['name']='Activate Surge'
 a['description']={'chatFlavor':'Choose three Resistances in the Surge window; the Surge effects are applied to you automatically.'}; D(p,d)
 p=J+'eternal/call-the-power-3.yml'; d=L(p)
-mp=eff(d,'Mythic Presence',[chg('system.bonuses.abilities.save','+1d4','add')],'mythic',duration=mins(10),desc='<p>Add 1d4 to saving throws while within 10 feet of the Eternal Juggernaut.</p>')
-gp=eff(d,'Glorious Presence',[chg('system.bonuses.abilities.save','+1d4','add')],'glorious',duration=mins(10),desc='<p>Add 1d4 to saving throws while within 30 feet of the Eternal Juggernaut. An ally that starts its turn in the Emanation adds the Juggernaut\u2019s Surge Damage bonus to its damage rolls until the start of its next turn.</p>')
+mp=eff(d,'Mythic Presence',[],'mythic',duration=mins(10),desc='<p>10-foot Emanation: allies in it add 1d4 to saving throws. The module applies Mythic Presence (Aura) to allied tokens in range automatically.</p>')
+gp=eff(d,'Glorious Presence',[],'glorious',duration=mins(10),desc='<p>30-foot Emanation: allies in it add 1d4 to saving throws and your Surge Damage bonus to damage rolls. The module applies Glorious Presence (Aura) to allied tokens in range automatically.</p>')
 d['effects']=[e for e in d['effects'] if e['name'] not in ('Mythic Presence','Glorious Presence')]+[mp,gp]
 i1,a1=act(d,'mythic','utility','Mythic Presence','special','While your Surge is active (10-ft Emanation)',effects=[mp['_id']],duration=MIN(10)); maxlvl(a1,'juggernaut',13)
 i2,a2=act(d,'glorious','utility','Glorious Presence','special','While your Surge is active (30-ft Emanation)',effects=[gp['_id']],duration=MIN(10),minlvl=14,cls='juggernaut')

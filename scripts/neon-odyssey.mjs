@@ -218,33 +218,138 @@ Hooks.once("ready", () => {
   for ( const actor of game.actors ) neonResolveTargets(actor);
 });
 
-/* Surge: choose three Resistances, then apply the Surge effects to the Juggernaut. */
+/* Surge: one window for the Resistances and every Surge-linked ability the Juggernaut has, then apply them together. */
 const SURGE_TYPES = ["bludgeoning", "fire", "lightning", "piercing", "radiant", "slashing"];
+const SURGE_LINKS = {
+  "call-the-power": [{ name: "Heroic Alter-Ego" }, { name: "Mythic Presence", max: 13 }, { name: "Glorious Presence", min: 14 }],
+  "mythic-awakening": [{ name: "Sight Beyond Sight" }],
+  "master-of-the-eternal": [{ name: "Eternal Hero" }],
+  "rampaging-destruction": [{ name: "Titanic Surge", off: true }]
+};
+const HEROIC_RESOLVE = { int: "Intelligence", wis: "Wisdom", cha: "Charisma" };
+const cap = t => `${t.charAt(0).toUpperCase()}${t.slice(1)}`;
+
+function neonSurgeLinks(actor) {
+  const level = actor.classes?.juggernaut?.system.levels ?? 20;
+  const links = [];
+  for ( const it of actor.items ) {
+    for ( const l of SURGE_LINKS[it.system.identifier] ?? [] ) {
+      if ( (l.min && (level < l.min)) || (l.max && (level > l.max)) ) continue;
+      const effect = it.effects.find(e => e.name === l.name);
+      if ( effect ) links.push({ ...l, item: it, effect, key: `link${links.length}` });
+    }
+  }
+  return links;
+}
+
 Hooks.on("dnd5e.postUseActivity", async (activity) => {
   const item = activity.item;
   const actor = item?.actor;
   if ( !actor?.isOwner || (item.system.identifier !== "surge") || (activity.type !== "utility") ) return;
-  let picks = SURGE_TYPES;
-  if ( !actor.items.some(i => i.system.identifier === "master-of-the-eternal") ) {
-    const boxes = SURGE_TYPES.map(t => `<label style="display:block"><input type="checkbox" name="${t}"> ${CONFIG.DND5E.damageTypes[t]?.label ?? t}</label>`).join("");
-    const chosen = await foundry.applications.api.DialogV2.wait({
-      window: { title: "Surge: Choose 3 Resistances" },
-      content: `<p>Choose three damage types.</p>${boxes}`,
-      buttons: [{ action: "ok", label: "Surge", default: true, callback: (event, button) => SURGE_TYPES.filter(t => button.form.elements[t]?.checked) }],
-      rejectClose: false
-    });
-    if ( !chosen ) return;
-    picks = chosen.slice(0, 3);
-  }
-  const names = new Set(["Surge", ...picks.map(t => `Surge Resistance: ${t.charAt(0).toUpperCase()}${t.slice(1)}`)]);
-  const old = actor.effects.filter(e => e.getFlag(MODULE_ID, "surge")).map(e => e.id);
-  if ( old.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", old);
-  const data = item.effects.filter(e => names.has(e.name)).map(e => {
+  const pickRes = !actor.items.some(i => i.system.identifier === "master-of-the-eternal");
+  const awakening = actor.items.find(i => i.system.identifier === "mythic-awakening");
+  const links = neonSurgeLinks(actor);
+  let content = "";
+  if ( pickRes ) content += `<fieldset><legend>Choose 3 Resistances</legend>${SURGE_TYPES.map(t =>
+    `<label style="display:block"><input type="checkbox" name="${t}"> ${CONFIG.DND5E.damageTypes[t]?.label ?? t}</label>`).join("")}</fieldset>`;
+  if ( awakening ) content += `<fieldset><legend>Heroic Resolve</legend><label>Add your Strength bonus to saves using
+    <select name="resolve">${Object.entries(HEROIC_RESOLVE).map(([k, v]) => `<option value="${k}">${v}</option>`).join("")}</select></label></fieldset>`;
+  if ( links.length ) content += `<fieldset><legend>Surge abilities</legend>${links.map(l =>
+    `<label style="display:block"><input type="checkbox" name="${l.key}" ${l.off ? "" : "checked"}> ${l.name} <small>(${l.item.name})</small></label>`).join("")}</fieldset>`;
+  const chosen = await foundry.applications.api.DialogV2.wait({
+    window: { title: "Activate Surge" },
+    content,
+    buttons: [{ action: "ok", label: "Surge", default: true, callback: (event, button) => {
+      const f = button.form.elements;
+      return {
+        res: pickRes ? SURGE_TYPES.filter(t => f[t]?.checked).slice(0, 3) : [],
+        resolve: f.resolve?.value,
+        links: links.filter(l => f[l.key]?.checked)
+      };
+    } }],
+    rejectClose: false
+  });
+  if ( !chosen ) return;
+  const toData = (e, src) => {
     const o = e.toObject();
     delete o._id;
-    Object.assign(o, { transfer: false, disabled: false, origin: item.uuid });
+    Object.assign(o, { transfer: false, disabled: false, origin: src.uuid });
     foundry.utils.setProperty(o, `flags.${MODULE_ID}.surge`, true);
     return o;
-  });
+  };
+  const names = new Set(["Surge", ...chosen.res.map(t => `Surge Resistance: ${cap(t)}`)]);
+  const data = item.effects.filter(e => names.has(e.name)).map(e => toData(e, item));
+  for ( const l of chosen.links ) data.push(toData(l.effect, l.item));
+  const resolve = awakening?.effects.find(e => e.name === `Heroic Resolve: ${HEROIC_RESOLVE[chosen.resolve]}`);
+  if ( resolve ) data.push(toData(resolve, awakening));
+  const old = actor.effects.filter(e => e.getFlag(MODULE_ID, "surge")).map(e => e.id);
+  if ( old.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", old);
   if ( data.length ) await actor.createEmbeddedDocuments("ActiveEffect", data);
+});
+
+/* Mythic / Glorious Presence: an Emanation that gives allied tokens in range their aura bonus. */
+const NEON_AURAS = { "Mythic Presence": 10, "Glorious Presence": 30 };
+function neonAuraOf(actor) {
+  const e = actor?.effects.find(e => !e.disabled && !e.isSuppressed && NEON_AURAS[e.name] && !e.getFlag(MODULE_ID, "auraFrom"));
+  return e ? { effect: e, name: e.name, radius: NEON_AURAS[e.name] } : null;
+}
+function neonTokenGap(a, b, scene) {
+  const size = scene.grid.size;
+  const gx = Math.max(0, b.x - (a.x + (a.width * size)), a.x - (b.x + (b.width * size)));
+  const gy = Math.max(0, b.y - (a.y + (a.height * size)), a.y - (b.y + (b.height * size)));
+  return ((Math.max(gx, gy) / size) * scene.grid.distance) + scene.grid.distance;
+}
+async function neonRefreshAuras(scene) {
+  if ( !scene || !game.users.activeGM?.isSelf ) return;
+  const sources = scene.tokens.filter(t => t.actor && neonAuraOf(t.actor)).map(t => ({ token: t, ...neonAuraOf(t.actor) }));
+  for ( const t of scene.tokens ) {
+    const actor = t.actor;
+    if ( !actor ) continue;
+    const inRange = sources.filter(s => (s.token !== t) && (s.token.actor !== actor) && (s.token.disposition === t.disposition)
+      && (neonTokenGap(s.token, t, scene) <= s.radius)).sort((a, b) => b.radius - a.radius);
+    const want = inRange[0];
+    const have = actor.effects.filter(e => e.getFlag(MODULE_ID, "auraFrom"));
+    const keep = have.find(e => want && (e.getFlag(MODULE_ID, "auraFrom") === want.token.uuid) && (e.name === `${want.name} (Aura)`));
+    const drop = have.filter(e => e !== keep).map(e => e.id);
+    if ( drop.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", drop);
+    if ( !want || keep ) continue;
+    const changes = [{ key: "system.bonuses.abilities.save", type: "add", value: "+1d4", phase: "initial" }];
+    if ( want.name === "Glorious Presence" ) {
+      const dmg = want.token.actor.system.scale?.juggernaut?.["rage-damage"]?.value ?? 0;
+      if ( dmg ) for ( const k of ["mwak", "rwak", "msak", "rsak"] ) changes.push({ key: `system.bonuses.${k}.damage`, type: "add", value: `+${dmg}`, phase: "initial" });
+    }
+    const o = want.effect.toObject();
+    delete o._id;
+    Object.assign(o, { name: `${want.name} (Aura)`, origin: want.effect.uuid, transfer: false, disabled: false, duration: {}, statuses: [] });
+    o.system = { ...(o.system ?? {}), changes };
+    o.description = `<p>Within ${want.radius} feet of ${want.token.name}: add 1d4 to saving throws${changes.length > 1 ? " and the Surge Damage bonus to damage rolls" : ""}.</p>`;
+    foundry.utils.setProperty(o, `flags.${MODULE_ID}.auraFrom`, want.token.uuid);
+    await actor.createEmbeddedDocuments("ActiveEffect", [o]);
+  }
+}
+let neonAuraTimer;
+function neonQueueAuras(actor, scene) {
+  if ( canvas?.ready ) for ( const t of actor?.getActiveTokens?.() ?? [] ) t.renderFlags?.set({ refreshState: true });
+  scene ??= game.scenes.viewed ?? game.scenes.active;
+  clearTimeout(neonAuraTimer);
+  neonAuraTimer = setTimeout(() => neonRefreshAuras(scene).catch(err => console.error("neon-odyssey | aura refresh failed", err)), 250);
+}
+Hooks.on("updateToken", (token, changes) => {
+  if ( ["x", "y", "width", "height", "disposition"].some(k => k in changes) ) neonQueueAuras(null, token.parent);
+});
+Hooks.on("createToken", token => neonQueueAuras(null, token.parent));
+Hooks.on("deleteToken", token => neonQueueAuras(null, token.parent));
+Hooks.on("canvasReady", () => neonQueueAuras());
+for ( const h of ["createActiveEffect", "updateActiveEffect", "deleteActiveEffect"] ) Hooks.on(h, effect => {
+  if ( NEON_AURAS[effect.name] ) neonQueueAuras(effect.parent);
+});
+Hooks.on("refreshToken", token => {
+  const aura = neonAuraOf(token.actor);
+  let g = token.neonAura;
+  if ( !aura ) { if ( g ) g.visible = false; return; }
+  if ( !g || g.destroyed ) g = token.neonAura = token.addChildAt(new PIXI.Graphics(), 0);
+  const r = (aura.radius / canvas.grid.distance) * canvas.grid.size;
+  const color = aura.name === "Glorious Presence" ? 0xffd23f : 0xff2bd6;
+  g.clear().lineStyle(3, color, 0.9).beginFill(color, 0.08).drawRoundedRect(-r, -r, token.w + (2 * r), token.h + (2 * r), r / 2).endFill();
+  g.visible = true;
 });
