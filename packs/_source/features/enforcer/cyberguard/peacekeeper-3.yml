@@ -30,15 +30,79 @@ system:
   properties: []
   requirements: Cyberguard Enforcer
   activities:
+    2TUUMrpleP7ZJfV9:
+      _id: 2TUUMrpleP7ZJfV9
+      type: utility
+      name: Imbue Ranged Weapon
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Attack action
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: QdKtCqQ7lHCdZ57j
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
     nAiQfRbpcMeGZO6R:
       _id: nAiQfRbpcMeGZO6R
       type: save
-      name: ''
+      name: Peacekeeper Restraint
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You hit with Cosmic Smite using a Ranged weapon
       consumption:
         targets: []
         scaling:
@@ -53,7 +117,10 @@ system:
         override: false
       effects:
       - _id: tN6dNqkj8m9JREPU
-        onSave: false
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
         override: false
         units: self
@@ -65,10 +132,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -87,6 +154,39 @@ system:
   identifier: peacekeeper
   advancement: {}
 effects:
+- _id: QdKtCqQ7lHCdZ57j
+  name: Peacekeeper
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>You ignore Half Cover, and after you hit with a Ranged weapon you can cast Cosmic Smite as a Bonus Action (target makes a Con save or is Restrained).</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!oyuoSZsp0J0NfH9f.QdKtCqQ7lHCdZ57j'
 - _id: tN6dNqkj8m9JREPU
   name: Restrained
   img: systems/dnd5e/icons/svg/statuses/restrained.svg
@@ -98,7 +198,7 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false

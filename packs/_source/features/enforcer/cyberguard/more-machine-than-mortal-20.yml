@@ -34,35 +34,44 @@ system:
   properties: []
   requirements: Cyberguard Enforcer
   activities:
-    Oni3Iu3VAt0Z1y9J:
-      _id: Oni3Iu3VAt0Z1y9J
+    aeXPHSDwt5vAOHTq:
+      _id: aeXPHSDwt5vAOHTq
       type: utility
-      name: ''
+      name: More Machine than Mortal
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: UjvHaFKqJIN1gCwb
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,23 +81,116 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    uY9xtOfptBj6Htff:
+      _id: uY9xtOfptBj6Htff
+      type: utility
+      name: Multi-Target Array
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You hit a target with a Ranged weapon
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Make one Ranged weapon attack against another target within range.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: more-machine-than-mortal
   advancement: {}
-effects: []
+effects:
+- _id: UjvHaFKqJIN1gCwb
+  name: More Machine than Mortal
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Body Reforged: you are a Construct. Disruptor Pulse: Cosmic Smite also Blinds and Deafens until the start of your next turn. Multi-Target Array: Reaction attack after a ranged hit. Threat
+    Simulator: enemies can’t gain Advantage on attacks against you, and you ignore Disadvantage on your attacks and saves.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!stjEgnF22pHAwiho.UjvHaFKqJIN1gCwb'
 folder: VAgsVJenCJRIz7GM
 sort: 0
 _stats:

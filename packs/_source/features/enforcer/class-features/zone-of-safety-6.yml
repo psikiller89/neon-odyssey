@@ -64,7 +64,7 @@ effects:
     units: seconds
     expiry: null
     expired: false
-  description: ''
+  description: <p>You add your Charisma modifier (min +1) to saving throws. Allied tokens in your Zone of Safety get the same bonus automatically.</p>
   origin: null
   tint: '#ffffff'
   transfer: true

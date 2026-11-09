@@ -27,7 +27,67 @@ system:
     repeatable: false
   properties: []
   requirements: Cyberguard Enforcer
-  activities: {}
+  activities:
+    KDg7fhUGbWgEr34J:
+      _id: KDg7fhUGbWgEr34J
+      type: utility
+      name: Ballistic Shielding
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You or an ally in your Zone of Safety takes damage from a ranged attack
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: min(6, 3 + floor((@classes.enforcer.levels - 5) / 4))
+        name: Damage Reduced
+        prompt: false
+        visible: true
   enchant: {}
   identifier: ballistic-shielding
   advancement: {}

@@ -37,7 +37,7 @@ system:
       _id: jIdizZFknw8W4QWV
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFindSteed0
+        - uuid: Compendium.neon-odyssey.spells.Item.pMUW91MVaFti0hpy
           optional: false
           sort: 0
         optional: false

@@ -287,11 +287,36 @@ Hooks.on("dnd5e.postUseActivity", async (activity) => {
   if ( data.length ) await actor.createEmbeddedDocuments("ActiveEffect", data);
 });
 
-/* Mythic / Glorious Presence: an Emanation that gives allied tokens in range their aura bonus. */
+/* Auras: Mythic / Glorious Presence and the Enforcer's Zone of Safety give allied tokens in range their bonus. */
 const NEON_AURAS = { "Mythic Presence": 10, "Glorious Presence": 30 };
-function neonAuraOf(actor) {
-  const e = actor?.effects.find(e => !e.disabled && !e.isSuppressed && NEON_AURAS[e.name] && !e.getFlag(MODULE_ID, "auraFrom"));
-  return e ? { effect: e, name: e.name, radius: NEON_AURAS[e.name] } : null;
+function neonAurasOf(actor) {
+  if ( !actor ) return [];
+  const out = [];
+  const e = actor.effects.find(e => !e.disabled && !e.isSuppressed && NEON_AURAS[e.name] && !e.getFlag(MODULE_ID, "auraFrom"));
+  if ( e ) {
+    const changes = [{ key: "system.bonuses.abilities.save", type: "add", value: "+1d4", phase: "initial" }];
+    if ( e.name === "Glorious Presence" ) {
+      const dmg = actor.system.scale?.juggernaut?.["rage-damage"]?.value ?? 0;
+      if ( dmg ) for ( const k of ["mwak", "rwak", "msak", "rsak"] ) changes.push({ key: `system.bonuses.${k}.damage`, type: "add", value: `+${dmg}`, phase: "initial" });
+    }
+    out.push({ kind: "presence", name: e.name, radius: NEON_AURAS[e.name], img: e.img, origin: e.uuid, changes, color: e.name === "Glorious Presence" ? 0xffd23f : 0xff2bd6,
+      text: `add 1d4 to saving throws${changes.length > 1 ? " and the Surge Damage bonus to damage rolls" : ""}` });
+  }
+  const zone = actor.items.find(i => i.system.identifier === "zone-of-safety");
+  if ( zone && !actor.statuses?.has("incapacitated") ) {
+    const has = id => actor.items.some(i => i.system.identifier === id);
+    const bonus = Math.max(1, actor.system.abilities?.cha?.mod ?? 0);
+    const changes = [{ key: "system.bonuses.abilities.save", type: "add", value: `+${bonus}`, phase: "initial" }];
+    const parts = [`+${bonus} to saving throws`];
+    if ( has("fearless-conviction") ) { changes.push({ key: "system.traits.ci.value", type: "add", value: "frightened", phase: "initial" }); parts.push("Immunity to Frightened"); }
+    if ( has("harmonic-vigil") ) {
+      for ( const t of ["necrotic", "radiant"] ) changes.push({ key: "system.traits.dr.value", type: "add", value: t, phase: "initial" });
+      parts.push("Resistance to Necrotic and Radiant");
+    }
+    out.push({ kind: "zone", name: "Zone of Safety", radius: actor.system.scale?.enforcer?.aura?.value ?? 10, img: zone.img, origin: zone.uuid,
+      changes, color: 0x2bf0ff, text: parts.join(", ") });
+  }
+  return out;
 }
 function neonTokenGap(a, b, scene) {
   const size = scene.grid.size;
@@ -301,38 +326,47 @@ function neonTokenGap(a, b, scene) {
 }
 async function neonRefreshAuras(scene) {
   if ( !scene || !game.users.activeGM?.isSelf ) return;
-  const sources = scene.tokens.filter(t => t.actor && neonAuraOf(t.actor)).map(t => ({ token: t, ...neonAuraOf(t.actor) }));
+  const sources = scene.tokens.filter(t => t.actor).flatMap(t => neonAurasOf(t.actor).map(a => ({ token: t, ...a })));
   for ( const t of scene.tokens ) {
     const actor = t.actor;
     if ( !actor ) continue;
-    const inRange = sources.filter(s => (s.token !== t) && (s.token.actor !== actor) && (s.token.disposition === t.disposition)
-      && (neonTokenGap(s.token, t, scene) <= s.radius)).sort((a, b) => b.radius - a.radius);
-    const want = inRange[0];
-    const have = actor.effects.filter(e => e.getFlag(MODULE_ID, "auraFrom"));
-    const keep = have.find(e => want && (e.getFlag(MODULE_ID, "auraFrom") === want.token.uuid) && (e.name === `${want.name} (Aura)`));
-    const drop = have.filter(e => e !== keep).map(e => e.id);
-    if ( drop.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", drop);
-    if ( !want || keep ) continue;
-    const changes = [{ key: "system.bonuses.abilities.save", type: "add", value: "+1d4", phase: "initial" }];
-    if ( want.name === "Glorious Presence" ) {
-      const dmg = want.token.actor.system.scale?.juggernaut?.["rage-damage"]?.value ?? 0;
-      if ( dmg ) for ( const k of ["mwak", "rwak", "msak", "rsak"] ) changes.push({ key: `system.bonuses.${k}.damage`, type: "add", value: `+${dmg}`, phase: "initial" });
+    const want = {};
+    for ( const s of sources ) {
+      if ( (s.token === t) || (s.token.actor === actor) || (s.token.disposition !== t.disposition) || (neonTokenGap(s.token, t, scene) > s.radius) ) continue;
+      if ( !want[s.kind] || (s.radius > want[s.kind].radius) ) want[s.kind] = s;
     }
-    const o = want.effect.toObject();
-    delete o._id;
-    Object.assign(o, { name: `${want.name} (Aura)`, origin: want.effect.uuid, transfer: false, disabled: false, duration: {}, statuses: [] });
-    o.system = { ...(o.system ?? {}), changes };
-    o.description = `<p>Within ${want.radius} feet of ${want.token.name}: add 1d4 to saving throws${changes.length > 1 ? " and the Surge Damage bonus to damage rolls" : ""}.</p>`;
-    foundry.utils.setProperty(o, `flags.${MODULE_ID}.auraFrom`, want.token.uuid);
-    await actor.createEmbeddedDocuments("ActiveEffect", [o]);
+    const have = actor.effects.filter(e => e.getFlag(MODULE_ID, "auraFrom"));
+    const keep = new Set();
+    for ( const e of have ) {
+      const w = Object.values(want).find(w => (e.getFlag(MODULE_ID, "auraFrom") === w.token.uuid) && (e.name === `${w.name} (Aura)`)
+        && (JSON.stringify(e.system?.changes?.map(c => c.value) ?? []) === JSON.stringify(w.changes.map(c => c.value))));
+      if ( w ) keep.add(w);
+    }
+    const drop = have.filter(e => ![...keep].some(w => (e.getFlag(MODULE_ID, "auraFrom") === w.token.uuid) && (e.name === `${w.name} (Aura)`))).map(e => e.id);
+    if ( drop.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", drop.filter(id => actor.effects.has(id))).catch(() => null);
+    const add = Object.values(want).filter(w => !keep.has(w)).map(w => ({
+      name: `${w.name} (Aura)`, img: w.img, origin: w.origin, type: "base", transfer: false, disabled: false,
+      system: { changes: w.changes }, description: `<p>Within ${w.radius} feet of ${w.token.name}: ${w.text}.</p>`,
+      flags: { [MODULE_ID]: { auraFrom: w.token.uuid } }
+    }));
+    if ( add.length ) await actor.createEmbeddedDocuments("ActiveEffect", add).catch(() => null);
   }
 }
-let neonAuraTimer;
+let neonAuraTimer = null;
+let neonAuraScene = null;
+let neonAuraBusy = false;
 function neonQueueAuras(actor, scene) {
   if ( canvas?.ready ) for ( const t of actor?.getActiveTokens?.() ?? [] ) t.renderFlags?.set({ refreshState: true });
-  scene ??= game.scenes.viewed ?? game.scenes.active;
-  clearTimeout(neonAuraTimer);
-  neonAuraTimer = setTimeout(() => neonRefreshAuras(scene).catch(err => console.error("neon-odyssey | aura refresh failed", err)), 250);
+  neonAuraScene = scene ?? game.scenes.viewed ?? game.scenes.active;
+  if ( neonAuraTimer ) return;
+  neonAuraTimer = setTimeout(async () => {
+    neonAuraTimer = null;
+    if ( neonAuraBusy ) return neonQueueAuras(null, neonAuraScene);
+    neonAuraBusy = true;
+    try { await neonRefreshAuras(neonAuraScene); }
+    catch(err) { console.error("neon-odyssey | aura refresh failed", err); }
+    finally { neonAuraBusy = false; }
+  }, 250);
 }
 Hooks.on("updateToken", (token, changes) => {
   if ( ["x", "y", "width", "height", "disposition"].some(k => k in changes) ) neonQueueAuras(null, token.parent);
@@ -341,15 +375,36 @@ Hooks.on("createToken", token => neonQueueAuras(null, token.parent));
 Hooks.on("deleteToken", token => neonQueueAuras(null, token.parent));
 Hooks.on("canvasReady", () => neonQueueAuras());
 for ( const h of ["createActiveEffect", "updateActiveEffect", "deleteActiveEffect"] ) Hooks.on(h, effect => {
-  if ( NEON_AURAS[effect.name] ) neonQueueAuras(effect.parent);
+  if ( effect.getFlag(MODULE_ID, "auraFrom") ) return;
+  if ( NEON_AURAS[effect.name] || effect.statuses?.has("incapacitated") ) neonQueueAuras(effect.parent);
+});
+for ( const h of ["createItem", "deleteItem"] ) Hooks.on(h, item => {
+  if ( ["zone-of-safety", "fearless-conviction", "harmonic-vigil"].includes(item.system?.identifier) ) neonQueueAuras(item.parent);
+});
+Hooks.on("updateActor", (actor, changes) => {
+  if ( foundry.utils.hasProperty(changes, "system.abilities.cha") && actor.items.some(i => i.system.identifier === "zone-of-safety") ) neonQueueAuras(actor);
 });
 Hooks.on("refreshToken", token => {
-  const aura = neonAuraOf(token.actor);
+  const auras = neonAurasOf(token.actor);
   let g = token.neonAura;
-  if ( !aura ) { if ( g ) g.visible = false; return; }
+  if ( !auras.length ) { if ( g ) g.visible = false; return; }
   if ( !g || g.destroyed ) g = token.neonAura = token.addChildAt(new PIXI.Graphics(), 0);
-  const r = (aura.radius / canvas.grid.distance) * canvas.grid.size;
-  const color = aura.name === "Glorious Presence" ? 0xffd23f : 0xff2bd6;
-  g.clear().lineStyle(3, color, 0.9).beginFill(color, 0.08).drawRoundedRect(-r, -r, token.w + (2 * r), token.h + (2 * r), r / 2).endFill();
+  g.clear();
+  for ( const aura of auras ) {
+    const r = (aura.radius / canvas.grid.distance) * canvas.grid.size;
+    g.lineStyle(3, aura.color, 0.9).beginFill(aura.color, 0.06).drawRoundedRect(-r, -r, token.w + (2 * r), token.h + (2 * r), r / 2).endFill();
+  }
   g.visible = true;
+});
+
+/* Cyberguard Full-System Upgrade: add every Tactical Cybernetics implant the Enforcer doesn't already have. */
+Hooks.on("createItem", async (item, options, userId) => {
+  const actor = item.parent;
+  if ( (userId !== game.user.id) || (item.system?.identifier !== "full-system-upgrade") || !actor ) return;
+  const pack = game.packs.get(`${MODULE_ID}.features`);
+  const index = await pack.getIndex({ fields: ["system.identifier"] });
+  const owned = new Set(actor.items.map(i => i.system.identifier));
+  const missing = index.filter(e => e.system?.identifier?.startsWith("implant-") && !owned.has(e.system.identifier));
+  const docs = await Promise.all(missing.map(e => pack.getDocument(e._id)));
+  if ( docs.length ) await actor.createEmbeddedDocuments("Item", docs.map(d => game.items.fromCompendium(d)));
 });

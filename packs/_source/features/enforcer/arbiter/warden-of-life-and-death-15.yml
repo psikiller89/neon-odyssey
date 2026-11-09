@@ -30,31 +30,35 @@ system:
   properties: []
   requirements: Arbiter Enforcer
   activities:
-    DjaKDcYyv7AQoled:
-      _id: DjaKDcYyv7AQoled
+    6WcvFcSDKSHVyD7E:
+      _id: 6WcvFcSDKSHVyD7E
       type: utility
-      name: ''
+      name: Somber Retribution
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature hits you or an ally in your Zone of Safety (Somber)
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
-        chatFlavor: ''
+        chatFlavor: Make one melee attack against it, or use Harmony's Grasp on it without expending a use.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -64,19 +68,83 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    byZl6KoTRd7Vt9wW:
+      _id: byZl6KoTRd7Vt9wW
+      type: utility
+      name: Vital Deflection
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You or an ally in your Zone of Safety takes damage (Vital)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: 2d8 + max(1, @abilities.cha.mod)
+        name: Damage Reduced
+        prompt: false
+        visible: true
   enchant: {}
   identifier: warden-of-life-and-death
   advancement: {}

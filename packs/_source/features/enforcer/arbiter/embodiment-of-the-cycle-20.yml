@@ -35,35 +35,44 @@ system:
   properties: []
   requirements: Arbiter Enforcer
   activities:
-    ot1kftuIZiebJIhT:
-      _id: ot1kftuIZiebJIhT
-      type: heal
-      name: ''
+    KVyItyEpipPrSs0w:
+      _id: KVyItyEpipPrSs0w
+      type: utility
+      name: 'Embody: Somber'
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: KW3fGrwoZitJvqb1
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -73,14 +82,298 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    IiOD262dXYYvKqXr:
+      _id: IiOD262dXYYvKqXr
+      type: utility
+      name: 'Embody: Vital'
+      img: ''
       sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: WUkCYnHgRyLrayJo
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    uGsG7GDfnSdcPU2k:
+      _id: uGsG7GDfnSdcPU2k
+      type: save
+      name: Choking Grasp
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature fails its save against Harmony's Grasp
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: 7UoC2WyqXMeIoVvh
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 3
+          denomination: 10
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+    HRuROpDrIJhLwQFQ:
+      _id: HRuROpDrIJhLwQFQ
+      type: damage
+      name: Death Sentence
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You hit a creature that is missing Hit Points
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 2
+          denomination: 10
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    zdiVH1clKA093EMr:
+      _id: zdiVH1clKA093EMr
+      type: heal
+      name: Life Spring
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: On activation and at the start of each of your turns
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       healing:
         number: null
         denomination: null
@@ -98,6 +391,72 @@ system:
   identifier: embodiment-of-the-cycle
   advancement: {}
 effects:
+- _id: KW3fGrwoZitJvqb1
+  name: 'Embodiment: Somber'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Choking Grasp and Death Sentence are active.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!plv4kj6E7uL8OGkN.KW3fGrwoZitJvqb1'
+- _id: WUkCYnHgRyLrayJo
+  name: 'Embodiment: Vital'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Harmony's Reach and Life Spring are active.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!plv4kj6E7uL8OGkN.WUkCYnHgRyLrayJo'
 - _id: 7UoC2WyqXMeIoVvh
   name: Restrained
   img: systems/dnd5e/icons/svg/statuses/restrained.svg
@@ -109,8 +468,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null

@@ -32,25 +32,29 @@ system:
   activities:
     8OzyfPPGOVyHODBy:
       _id: 8OzyfPPGOVyHODBy
-      type: utility
-      name: ''
+      type: heal
+      name: Extra Life
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You would drop to 0 Hit Points but aren’t killed outright
       consumption:
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
+        - type: hitDice
+          value: '1'
+          target: smallest
+          scaling: {}
         scaling:
           allowed: false
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: You drop to 1 HP instead, then expend and roll a Hit Point Die (the heal includes the 1 HP).
       duration:
         units: inst
         concentration: false
@@ -81,6 +85,19 @@ system:
         name: ''
         prompt: false
         visible: false
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: 1 + 1d10 + max(1, @abilities.cha.mod)
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: extra-life
   advancement: {}

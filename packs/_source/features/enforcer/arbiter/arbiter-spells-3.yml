@@ -33,21 +33,15 @@ system:
   enchant: {}
   identifier: arbiter-spells
   advancement:
-    gUFlQvq9J2QKNhbE:
-      _id: gUFlQvq9J2QKNhbE
+    2mDHrWvb44Yj4AUX:
+      _id: 2mDHrWvb44Yj4AUX
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHealingWor
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplLight00000
-          optional: false
-          sort: 0
         - uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.3NqjXkINWCjCeBSt
           optional: false
           sort: 0
         optional: false
@@ -59,20 +53,73 @@ system:
             requireSlot: false
           method: spell
           prepared: 2
-        sorting: m
       value: {}
       level: 3
-      title: Arbiter Spells
+      title: Arbiter Spells (Somber)
       hint: ''
-    c29iqBW9PAwbjObO:
-      _id: c29iqBW9PAwbjObO
+      icon: null
+      classRestriction: ''
+      flags: {}
+    pTpCHg6DCJD2j9vk:
+      _id: pTpCHg6DCJD2j9vk
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHealingWor
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 3
+      title: Arbiter Spells (Vital)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    fiuXfKaMFzRcvvRi:
+      _id: fiuXfKaMFzRcvvRi
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 5
+      title: Arbiter Spells (Somber)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    LV4RhkgG4t8oie7K:
+      _id: LV4RhkgG4t8oie7K
       type: ItemGrant
       configuration:
         items:
         - uuid: Compendium.neon-odyssey.spells.Item.4FFg2gtVtRPWV5RA
-          optional: false
-          sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
           optional: false
           sort: 0
         - uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
@@ -87,13 +134,42 @@ system:
             requireSlot: false
           method: spell
           prepared: 2
-        sorting: m
       value: {}
       level: 5
-      title: Arbiter Spells
+      title: Arbiter Spells (Vital)
       hint: ''
-    KZJBFMC6gmMgatmz:
-      _id: KZJBFMC6gmMgatmz
+      icon: null
+      classRestriction: ''
+      flags: {}
+    PReVUbpeWZBFppVv:
+      _id: PReVUbpeWZBFppVv
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.PW3cPsltN2947cCR
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Arbiter Spells (Somber)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    m8TNSVfRyMmDonBX:
+      _id: m8TNSVfRyMmDonBX
       type: ItemGrant
       configuration:
         items:
@@ -103,7 +179,31 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplSending000
           optional: false
           sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplFear000000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 9
+      title: Arbiter Spells (Vital)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    syl34WSq3BBcp2Ox:
+      _id: syl34WSq3BBcp2Ox
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlight0000
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPhantasmal
           optional: false
           sort: 0
         optional: false
@@ -115,13 +215,15 @@ system:
             requireSlot: false
           method: spell
           prepared: 2
-        sorting: m
       value: {}
-      level: 9
-      title: Arbiter Spells
+      level: 13
+      title: Arbiter Spells (Somber)
       hint: ''
-    EvUtnpiPWndIMrnh:
-      _id: EvUtnpiPWndIMrnh
+      icon: null
+      classRestriction: ''
+      flags: {}
+    KsMtit34nu3ctkdd:
+      _id: KsMtit34nu3ctkdd
       type: ItemGrant
       configuration:
         items:
@@ -131,7 +233,31 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplDivination
           optional: false
           sort: 0
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplBlight0000
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 13
+      title: Arbiter Spells (Vital)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    OkscOSkP6pxzD2kA:
+      _id: OkscOSkP6pxzD2kA
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAntilifeSh
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplContagion0
           optional: false
           sort: 0
         optional: false
@@ -143,11 +269,40 @@ system:
             requireSlot: false
           method: spell
           prepared: 2
-        sorting: m
       value: {}
-      level: 13
-      title: Arbiter Spells
+      level: 17
+      title: Arbiter Spells (Somber)
       hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+    rVO1d6EQMiXZszsM:
+      _id: rVO1d6EQMiXZszsM
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplScrying000
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 17
+      title: Arbiter Spells (Vital)
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: IMuGSJX19FaEdpSg
 sort: 0

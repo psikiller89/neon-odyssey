@@ -32,35 +32,44 @@ system:
   properties: []
   requirements: Renegade Enforcer
   activities:
-    HS7CXxsrs8Dq7H8L:
-      _id: HS7CXxsrs8Dq7H8L
+    efA4wpPH1Pj3Brk1:
+      _id: efA4wpPH1Pj3Brk1
       type: utility
-      name: ''
+      name: Urban Legend
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you activate Rage of the Streets
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: pFH9i8q4agGIy4sI
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,23 +79,574 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: urban-legend
   advancement: {}
-effects: []
+effects:
+- _id: pFH9i8q4agGIy4sI
+  name: Urban Legend
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.walk
+      value: '2'
+      priority: null
+      type: multiply
+      phase: initial
+      _id: pOnjokgPhgVMG8FO
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Combo Breaker: two Unarmed Strike or improvised weapon attacks as a Bonus Action. Shrug It Off: Resistance to two damage types (turn on two Shrug It Off effects). Street Runner: Speed
+    doubled.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.pFH9i8q4agGIy4sI'
+- _id: 8wJSPN7X6Cqk0yho
+  name: 'Shrug It Off: Acid'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: acid
+      priority: null
+      type: add
+      phase: initial
+      _id: wfUSawtzGKyHkss6
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.8wJSPN7X6Cqk0yho'
+- _id: rNqIIMOvGzv3nZuv
+  name: 'Shrug It Off: Bludgeoning'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: bludgeoning
+      priority: null
+      type: add
+      phase: initial
+      _id: c7OMzpydpI6LzZRi
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.rNqIIMOvGzv3nZuv'
+- _id: a4ljnYLRQswWiFrw
+  name: 'Shrug It Off: Cold'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: cold
+      priority: null
+      type: add
+      phase: initial
+      _id: oPgYPqjds2ehypMJ
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.a4ljnYLRQswWiFrw'
+- _id: 4DlHsF7DX0htZ2Kd
+  name: 'Shrug It Off: Fire'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: fire
+      priority: null
+      type: add
+      phase: initial
+      _id: 4CVVaVEPwGM5RHrX
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.4DlHsF7DX0htZ2Kd'
+- _id: tuIfK7klVMTZo0G9
+  name: 'Shrug It Off: Force'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: force
+      priority: null
+      type: add
+      phase: initial
+      _id: KkbvXJxY2jgQl5hW
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.tuIfK7klVMTZo0G9'
+- _id: kZXFxtpWsPUyoskA
+  name: 'Shrug It Off: Lightning'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: lightning
+      priority: null
+      type: add
+      phase: initial
+      _id: HVX1g2OTFRs7NS4m
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.kZXFxtpWsPUyoskA'
+- _id: nLGXOQwPx9kXMQ23
+  name: 'Shrug It Off: Necrotic'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: necrotic
+      priority: null
+      type: add
+      phase: initial
+      _id: 8rAyMpx2Ecm9Ir2k
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.nLGXOQwPx9kXMQ23'
+- _id: IJ4IEkF4fspFQnCI
+  name: 'Shrug It Off: Piercing'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: piercing
+      priority: null
+      type: add
+      phase: initial
+      _id: oZJ2BV2jVnv6e4sr
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.IJ4IEkF4fspFQnCI'
+- _id: mw7c7e8PeoeYbDgR
+  name: 'Shrug It Off: Poison'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: poison
+      priority: null
+      type: add
+      phase: initial
+      _id: Me0FakxI70nQ9zFN
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.mw7c7e8PeoeYbDgR'
+- _id: Mmv7YoIicI1RdscM
+  name: 'Shrug It Off: Psychic'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: psychic
+      priority: null
+      type: add
+      phase: initial
+      _id: uGANA8pSn7OXoMxI
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.Mmv7YoIicI1RdscM'
+- _id: s3Bqy7uyXvIUvXQb
+  name: 'Shrug It Off: Radiant'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: radiant
+      priority: null
+      type: add
+      phase: initial
+      _id: T3ax96tBPrQAcoU0
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.s3Bqy7uyXvIUvXQb'
+- _id: qhAwULj4DfOw7lhr
+  name: 'Shrug It Off: Slashing'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: slashing
+      priority: null
+      type: add
+      phase: initial
+      _id: xGIvVtwMybWCQQjB
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.qhAwULj4DfOw7lhr'
+- _id: xH6B4acP6Iff2Vao
+  name: 'Shrug It Off: Thunder'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: thunder
+      priority: null
+      type: add
+      phase: initial
+      _id: Qwsxn4A6uooSWquP
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Turn on the two types you chose while Urban Legend lasts.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!zo0TZ87bTuC0SUaC.xH6B4acP6Iff2Vao'
 folder: VePsIxjaLdRqQXJR
 sort: 0
 _stats:

@@ -57,34 +57,24 @@ system:
         override: false
         expiry: null
       effects:
-      - _id: iY8KgqafX22tiBVw
-        uuid: null
-        onSave: false
-        level:
-          min: null
-          max: null
       - _id: es8x7NuJgjyYH9vG
         onSave: false
       range:
-        override: false
+        value: '60'
         units: ft
         special: ''
-        value: '60'
+        override: false
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          size: ''
-          count: ''
-          stationary: false
         affects:
           choice: false
           count: max(1, @abilities.cha.mod)
           type: creature
-          special: That you can see
         override: false
-        prompt: true
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -118,40 +108,6 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Abjured
-  img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
-  origin: Compendium.neon-odyssey.features.Item.GNT2BlLYrSIZfHw4
-  transfer: false
-  _id: iY8KgqafX22tiBVw
-  type: base
-  system:
-    changes: []
-    magical: true
-    origin:
-      actor: null
-      behavior: null
-      effect: null
-      item: null
-      message: null
-    conditions: '{}'
-    rider:
-      statuses: []
-  disabled: false
-  duration:
-    value: 60
-    units: seconds
-    expiry: turnStart
-    expired: false
-  description: ''
-  tint: '#ffffff'
-  statuses:
-  - frightened
-  sort: 0
-  flags: {}
-  showIcon: 2
-  start: null
-  folder: null
-  _key: '!items.effects!GNT2BlLYrSIZfHw4.iY8KgqafX22tiBVw'
 - _id: es8x7NuJgjyYH9vG
   name: Frightened
   img: systems/dnd5e/icons/svg/statuses/frightened.svg
@@ -163,7 +119,7 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false

@@ -1,0 +1,100 @@
+_id: GWN3XhSFrF7VqMXR
+name: Optical Scanner
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>You gain Darkvision with a range of 60 feet, and you have Advantage on Intelligence (Investigation) and Wisdom (Perception) checks.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities: {}
+  enchant: {}
+  identifier: implant-optical-scanner
+  advancement: {}
+effects:
+- _id: P21ak2phVLZ3S14d
+  name: Optical Scanner
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.senses.ranges.darkvision
+      value: '60'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: Qwjy8xhZu73XSSfs
+    - key: system.skills.inv.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: lcvC9xAlGpAeY0Q9
+    - key: system.skills.prc.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: Q3x9SSZ7apkpfFqU
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!GWN3XhSFrF7VqMXR.P21ak2phVLZ3S14d'
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!GWN3XhSFrF7VqMXR'

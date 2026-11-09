@@ -16,9 +16,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '3'
     spent: 0
-    recovery: []
+    recovery:
+    - period: turnStart
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -32,17 +34,21 @@ system:
     vfNchcMuCCQ9WUC6:
       _id: vfNchcMuCCQ9WUC6
       type: utility
-      name: ''
+      name: Spinning Shell
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: You or an ally in your Zone of Safety is hit by an attack roll
       consumption:
-        targets: []
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '3'
         spellSlot: true
       description:
         chatFlavor: ''
@@ -72,10 +78,10 @@ system:
         max: ''
       sort: 0
       roll:
-        formula: ''
-        name: ''
+        formula: '@scaling'
+        name: AC Bonus (tokens spent)
         prompt: false
-        visible: false
+        visible: true
   enchant: {}
   identifier: spinning-shell
   advancement: {}

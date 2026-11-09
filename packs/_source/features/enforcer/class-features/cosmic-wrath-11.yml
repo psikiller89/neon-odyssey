@@ -43,9 +43,13 @@ effects:
       priority: null
       type: add
       phase: initial
-      _id: 3VkIWiOeo25UT8ef
-      conditions: '{}'
-      replacement: ''
+      _id: JKWU4vaFkZ5wX8L3
+    - key: system.bonuses.rwak.damage
+      value: 1d8[radiant]
+      priority: null
+      type: add
+      phase: initial
+      _id: QWmKlqN8Y2H31W9E
     origin:
       actor: null
       behavior: null

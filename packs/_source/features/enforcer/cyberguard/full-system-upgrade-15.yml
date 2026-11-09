@@ -5,7 +5,8 @@ img: icons/svg/upgrade.svg
 system:
   description:
     value: <p>You replace more of your flesh with cybernetics. You enhance your body with all four Tactical Cybernetics implants at once.</p><p>In addition, your optics are fitted with enhanced targeting
-      sensors. While your Peacekeeper is active, you gain Advantage on attack rolls against creatures that dealt damage to you or an ally since the end of your last turn.</p>
+      sensors. While your Peacekeeper is active, you gain Advantage on attack rolls against creatures that dealt damage to you or an ally since the end of your last turn.</p><p><em>The module adds any Tactical
+      Cybernetics implants you don’t already have when you gain this feature.</em></p>
     chat: ''
   source:
     custom: ''

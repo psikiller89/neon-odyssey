@@ -1,0 +1,49 @@
+_id: vD9L7EcLojH80suK
+name: Dermal-Fused Armor
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your armor is integrated into your body and can’t be doffed except with surgery. When you use Invigorate to target another creature, you also regain half as many Hit Points (rounded down).</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities: {}
+  enchant: {}
+  identifier: implant-dermal-fused-armor
+  advancement: {}
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!vD9L7EcLojH80suK'

@@ -33,78 +33,77 @@ system:
     repeatable: false
   properties: []
   requirements: Cyberguard Enforcer
-  activities:
-    Rx5UggUKBgc2WATn:
-      _id: Rx5UggUKBgc2WATn
-      type: utility
-      name: ''
-      activation:
-        type: bonus
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      range:
-        override: false
-        units: self
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+  activities: {}
   enchant: {}
   identifier: tactical-cybernetics
   advancement:
-    RRSClHH5CFiJLVyE:
-      _id: RRSClHH5CFiJLVyE
+    gkT6MstH7jWSKZPe:
+      _id: gkT6MstH7jWSKZPe
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 2
+            replacement: false
+        allowDrops: true
+        type: feat
+        pool:
+        - uuid: Compendium.neon-odyssey.features.Item.vD9L7EcLojH80suK
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.GWN3XhSFrF7VqMXR
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.r11CIgAgA8jlwpTG
+          sort: 0
+        - uuid: Compendium.neon-odyssey.features.Item.mNWT9Lulnxut43bj
+          sort: 0
+        spell: null
+        restriction:
+          type: feat
+          subtype: fightingStyle
+          list: []
+          school: []
+        sorting: a
+      value:
+        added: {}
+        replaced: {}
+      hint: Choose two implants.
+      name: Cybernetic Systems
+      flags: {}
+      level: 3
+      title: Cybernetic Systems
+    ohOZdaZh1W1whubx:
+      _id: ohOZdaZh1W1whubx
+      type: Trait
+      level: 3
+      title: Tool Proficiencies
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - tool:art:tinker
+        choices: []
+      value: {}
+    0V9wW8jJN79DjW8c:
+      _id: 0V9wW8jJN79DjW8c
       type: ItemGrant
       configuration:
         items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+        - uuid: Compendium.neon-odyssey.items.Item.33sXsmnMQakxMFCD
           optional: false
           sort: 0
         optional: false
-        spell:
-          ability: []
-          uses:
-            max: ''
-            per: ''
-            requireSlot: true
-          method: spell
-          prepared: 2
+        spell: null
       value: {}
       level: 3
-      title: Tactical Cybernetics
+      title: Engineer's Tools
       hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: VAgsVJenCJRIz7GM
 sort: 0

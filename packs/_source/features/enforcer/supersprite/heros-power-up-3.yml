@@ -31,31 +31,44 @@ system:
   properties: []
   requirements: Supersprite Enforcer
   activities:
-    xr6JSsLGyeRVdafu:
-      _id: xr6JSsLGyeRVdafu
-      type: save
-      name: ''
+    VEzCaoblEENMadFe:
+      _id: VEzCaoblEENMadFe
+      type: utility
+      name: Dragon Pepper
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you take the Attack action (switch at the start of your turn without spending a use)
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: 1mJMkTH2AizDvWsC
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -65,27 +78,285 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    PrlWidO64I5l3Lck:
+      _id: PrlWidO64I5l3Lck
+      type: heal
+      name: Hearty Honeycomb
+      img: ''
       sort: 0
-      save:
-        ability:
-        - con
-        dc:
-          calculation: spellcasting
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Attack action (switch at the start of your turn without spending a use)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: cbLbwFGB9roUeXkI
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: max(2, 2 * @abilities.cha.mod)
+        scaling:
+          mode: ''
+          number: null
           formula: ''
-      damage:
-        onSave: none
-        parts: []
+    nXhoIzVnE4YOr3m3:
+      _id: nXhoIzVnE4YOr3m3
+      type: utility
+      name: Spring Sneakers
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Attack action (switch at the start of your turn without spending a use)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: GYPLrjZ05pDG95E7
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: heros-power-up
   advancement: {}
-effects: []
+effects:
+- _id: 1mJMkTH2AizDvWsC
+  name: Dragon Pepper
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Reach +10 ft; no Disadvantage at long range; once per turn a weapon hit sets the target burning.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!egr6gmrBvBJ4JlRT.1mJMkTH2AizDvWsC'
+- _id: cbLbwFGB9roUeXkI
+  name: Hearty Honeycomb
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.abilities.str.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: pX44WZmALpF9pDau
+    - key: system.abilities.con.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: Jx7EV1flDcAh95Bf
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Advantage on Strength and Constitution saves.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!egr6gmrBvBJ4JlRT.cbLbwFGB9roUeXkI'
+- _id: GYPLrjZ05pDG95E7
+  name: Spring Sneakers
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.walk
+      value: '10'
+      priority: null
+      type: add
+      phase: initial
+      _id: krG2p9Sf4qCnemSq
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Speed +10 ft; Opportunity Attacks have Disadvantage against you; once per turn jump 30 ft for 10 ft of movement.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!egr6gmrBvBJ4JlRT.GYPLrjZ05pDG95E7'
 folder: DYc5L750iJ36XVct
 sort: 0
 _stats:

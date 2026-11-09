@@ -31,7 +31,7 @@ system:
     jjpWxc5qwyrOMwIv:
       _id: jjpWxc5qwyrOMwIv
       type: save
-      name: ''
+      name: Beatdown
       activation:
         type: reaction
         value: null
@@ -63,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -76,7 +76,7 @@ system:
         ability:
         - str
         dc:
-          calculation: spellcasting
+          calculation: str
           formula: ''
       damage:
         onSave: none

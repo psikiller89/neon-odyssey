@@ -47,7 +47,15 @@ system:
         allowDrops: true
         type: feat
         pool:
-        - uuid: Compendium.dnd5e.classes24.Item.phbfstBlessedWar
+        - uuid: Compendium.neon-odyssey.features.Item.Z12bvzFwiSXofN2n
+          sort: 0
+        - uuid: Compendium.dnd5e.feats24.Item.phbfstArchery000
+          sort: 0
+        - uuid: Compendium.dnd5e.feats24.Item.phbfstDefense000
+          sort: 0
+        - uuid: Compendium.dnd5e.feats24.Item.phbfstGreatWeapo
+          sort: 0
+        - uuid: Compendium.dnd5e.feats24.Item.phbfstTwoWeaponF
           sort: 0
         spell: null
         restriction:
@@ -62,6 +70,8 @@ system:
       hint: <p>You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.</p>
       name: Fighting Style
       flags: {}
+      level: 2
+      title: Fighting Style
   crewed: false
 effects: []
 flags:

@@ -64,6 +64,9 @@ system:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplBlur000000
           optional: false
           sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplAid0000000
+          optional: false
+          sort: 0
         optional: false
         spell:
           ability: []
@@ -109,6 +112,9 @@ system:
       configuration:
         items:
         - uuid: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.spells.Item.pOQPNetkP9uakzDL
           optional: false
           sort: 0
         optional: false

@@ -30,23 +30,111 @@ system:
     repeatable: false
   properties: []
   requirements: Renegade Enforcer
-  activities: {}
+  activities:
+    7zGFeXdCtXKFksri:
+      _id: 7zGFeXdCtXKFksri
+      type: attack
+      name: Street Brawler Strike
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: Unarmed Strike or improvised weapon
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: ft
+        value: '5'
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: str
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - bludgeoning
+          custom:
+            enabled: true
+            formula: '@scale.renegade.street-brawler + @abilities.str.mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: dirty-fighting
   advancement: {}
 effects:
-- _id: lKkTZDrSPab3hI96
-  name: 'Dirty Fighting: Unarmored Defense'
+- _id: 0SFtD3ZbjLs3h694
+  name: Rowdy Defense
   img: icons/svg/upgrade.svg
   type: base
   system:
     changes:
-    - key: system.attributes.ac.calcs
-      value: unarmoredBard
+    - key: system.attributes.ac.calc
+      value: custom
       priority: null
-      type: add
+      type: override
       phase: initial
-      _id: wUClORlRhnlUdSGw
+      _id: UN14v1NGaYhPyOsR
+    - key: system.attributes.ac.formula
+      value: 10 + @abilities.dex.mod + @abilities.cha.mod
+      priority: null
+      type: override
+      phase: initial
+      _id: YGnoaotdhgTOTzh5
   disabled: false
   transfer: true
   duration:
@@ -54,7 +142,7 @@ effects:
     units: seconds
     expiry: null
     expired: false
-  description: ''
+  description: <p>AC 10 + Dex + Cha while you wear no armor (Shield allowed). Turn this off while wearing armor.</p>
   tint: '#ffffff'
   statuses: []
   sort: 0
@@ -73,7 +161,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!Bl3MkYgLTu8HdC7A.lKkTZDrSPab3hI96'
+  _key: '!items.effects!Bl3MkYgLTu8HdC7A.0SFtD3ZbjLs3h694'
 folder: VePsIxjaLdRqQXJR
 sort: 0
 _stats:

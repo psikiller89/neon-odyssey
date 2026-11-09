@@ -1,0 +1,104 @@
+_id: r11CIgAgA8jlwpTG
+name: Pursuit Chassis
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>As a Bonus Action, you can take the Dash action, and your jump distance is doubled until the end of your turn.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities:
+    lJ9QvK7TCn9F0pUq:
+      _id: lJ9QvK7TCn9F0pUq
+      type: utility
+      name: Pursuit Dash
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: Dash; your jump distance is doubled until the end of your turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+  enchant: {}
+  identifier: implant-pursuit-chassis
+  advancement: {}
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!r11CIgAgA8jlwpTG'

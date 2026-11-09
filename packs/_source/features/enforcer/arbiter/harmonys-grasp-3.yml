@@ -38,12 +38,12 @@ system:
     SltxPIudjhl8QJ3U:
       _id: SltxPIudjhl8QJ3U
       type: save
-      name: ''
+      name: Harmony's Grasp
       activation:
-        type: ''
+        type: action
         value: null
-        condition: ''
         override: false
+        condition: In place of an attack (Attack action)
       consumption:
         targets:
         - type: itemUses
@@ -62,9 +62,10 @@ system:
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -72,10 +73,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

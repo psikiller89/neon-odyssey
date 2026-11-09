@@ -131,9 +131,7 @@ system:
         concentration: false
         override: false
         expiry: null
-      effects:
-      - _id: I32KHo8GtD8EnulL
-        onSave: false
+      effects: []
       range:
         override: false
         units: self
@@ -173,41 +171,7 @@ system:
   identifier: invigorate
   advancement: {}
   crewed: false
-effects:
-- _id: I32KHo8GtD8EnulL
-  name: Poisoned
-  img: systems/dnd5e/icons/svg/statuses/poisoned.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - poisoned
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!d0UZXchcfg69xWZh.I32KHo8GtD8EnulL'
+effects: []
 flags:
   neon-odyssey:
     srcIdentifier: lay-on-hands

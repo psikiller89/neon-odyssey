@@ -1,0 +1,120 @@
+_id: mNWT9Lulnxut43bj
+name: Vox Amplifier
+type: feat
+img: icons/svg/upgrade.svg
+system:
+  description:
+    value: <p>Your voice can be audible to 300 feet. You can cast Command once without a spell slot (regained on a Long Rest), and a target of your Command has Disadvantage on the save.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: class
+    subtype: ''
+  prerequisites:
+    level: 3
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Cyberguard Enforcer
+  activities:
+    M6n006FDPCNwpQBb:
+      _id: M6n006FDPCNwpQBb
+      type: cast
+      name: Command (Vox Amplifier)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: activityUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+        - period: lr
+          type: recoverAll
+        max: '1'
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplCommand000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 1
+  enchant: {}
+  identifier: implant-vox-amplifier
+  advancement: {}
+effects: []
+folder: VAgsVJenCJRIz7GM
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!items!mNWT9Lulnxut43bj'

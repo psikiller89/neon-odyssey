@@ -1,0 +1,53 @@
+_id: Z12bvzFwiSXofN2n
+name: Cosmic Adjudicator
+type: feat
+img: icons/skills/melee/spear-tips-triple-orange.webp
+system:
+  description:
+    value: <p>You learn two Oracle cantrips of your choice (Guidance and Sacred Flame are recommended). The chosen cantrips count as Enforcer spells for you, and Charisma is your spellcasting ability for
+      them. Whenever you gain an Enforcer level, you can replace one of these cantrips with another Oracle cantrip.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: ''
+    license: ''
+    rules: '2024'
+    revision: 1
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: feat
+    subtype: fightingStyle
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  properties: []
+  requirements: Enforcer
+  activities: {}
+  enchant: {}
+  identifier: cosmic-adjudicator
+  advancement: {}
+  crewed: false
+effects: []
+flags:
+  neon-odyssey:
+    srcIdentifier: extra-attack
+sort: 0
+ownership:
+  default: 0
+folder: nkpLVdnp0UsQZ0CM
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+_key: '!items!Z12bvzFwiSXofN2n'

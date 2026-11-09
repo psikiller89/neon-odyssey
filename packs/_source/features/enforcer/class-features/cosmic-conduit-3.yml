@@ -70,8 +70,6 @@ system:
         level:
           min: null
           max: null
-      - _id: Cl3LG9IlVSi5Fz9U
-        onSave: false
       range:
         override: false
         units: ft
@@ -136,7 +134,7 @@ effects:
   duration:
     value: 600
     units: seconds
-    expiry: turnStart
+    expiry: null
     expired: false
   description: ''
   origin: null
@@ -149,40 +147,6 @@ effects:
   showIcon: 1
   folder: null
   _key: '!items.effects!GHyeTZ1OdBS3PiaN.hr8wnlgs3uXphCnI'
-- _id: Cl3LG9IlVSi5Fz9U
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!GHyeTZ1OdBS3PiaN.Cl3LG9IlVSi5Fz9U'
 flags:
   neon-odyssey:
     srcIdentifier: channel-divinity-paladin

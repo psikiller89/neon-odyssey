@@ -33,31 +33,44 @@ system:
   properties: []
   requirements: Arbiter Enforcer
   activities:
-    xlu0R29NCLAS5gFB:
-      _id: xlu0R29NCLAS5gFB
+    CkONYY0bbnKoShw3:
+      _id: CkONYY0bbnKoShw3
       type: utility
-      name: ''
+      name: 'Imbue: Somber'
+      img: ''
+      sort: 0
       activation:
-        type: action
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you take the Attack action
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '10'
         concentration: false
         override: false
-      effects: []
+        special: ''
+      effects:
+      - _id: 0C2T1Wwrik83ljnq
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -67,23 +80,297 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    bPI9PRbb7Au1rUCX:
+      _id: bPI9PRbb7Au1rUCX
+      type: utility
+      name: 'Imbue: Vital'
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you take the Attack action
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '10'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: g4GOrIS8s8js8fmT
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    oHpCKdjZVUTvvuYV:
+      _id: oHpCKdjZVUTvvuYV
+      type: damage
+      name: Somber Strike
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, when you hit with a Somber weapon
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: true
+            formula: max(2, 2 * @abilities.cha.mod)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    zEAlynde0z6sghK3:
+      _id: zEAlynde0z6sghK3
+      type: heal
+      name: Vital Strike
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once per turn, when you hit with a Vital weapon
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - healing
+        custom:
+          enabled: true
+          formula: max(1, @abilities.cha.mod)
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
   enchant: {}
   identifier: aspect-of-balance
   advancement: {}
-effects: []
+effects:
+- _id: 0C2T1Wwrik83ljnq
+  name: 'Imbued: Somber'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Somber: your imbued weapons can deal Necrotic damage; once per turn add twice your Charisma modifier (min 2).</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!MPKOqWIGL6UKY08W.0C2T1Wwrik83ljnq'
+- _id: g4GOrIS8s8js8fmT
+  name: 'Imbued: Vital'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 600
+    units: seconds
+    expiry: null
+    expired: false
+  description: '<p>Vital: your imbued weapons can deal Radiant damage; once per turn regain Charisma modifier (min 1) HP, excess as Temp HP.</p>'
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!MPKOqWIGL6UKY08W.g4GOrIS8s8js8fmT'
 folder: IMuGSJX19FaEdpSg
 sort: 0
 _stats:

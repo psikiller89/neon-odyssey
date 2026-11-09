@@ -80,6 +80,34 @@ system:
       level: 20
       title: Subclass Features
       hint: ''
+    3xEJv6Ej9ob3P0Oy:
+      _id: 3xEJv6Ej9ob3P0Oy
+      type: ScaleValue
+      configuration:
+        identifier: street-brawler
+        type: dice
+        scale:
+          '3':
+            number: 1
+            faces: 6
+            modifiers: []
+          '5':
+            number: 1
+            faces: 8
+            modifiers: []
+          '11':
+            number: 1
+            faces: 10
+            modifiers: []
+          '17':
+            number: 1
+            faces: 12
+            modifiers: []
+      value: {}
+      hint: ''
+      name: Aura Distance
+      flags: {}
+      title: Street Brawler
   spellcasting:
     progression: none
     ability: ''

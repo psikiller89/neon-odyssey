@@ -30,33 +30,44 @@ system:
   properties: []
   requirements: Supersprite Enforcer
   activities:
-    lhm6ViuDlNy1W31T:
-      _id: lhm6ViuDlNy1W31T
-      type: damage
-      name: ''
+    Ble6kv7kzjW1shaA:
+      _id: Ble6kv7kzjW1shaA
+      type: utility
+      name: Colossus Roar
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Instead of a Hero's Power-Up option
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
+        special: ''
       effects:
-      - _id: EEiGkNU4kCyUlebe
-        onSave: false
+      - _id: VSxCoaQasCP4t7ih
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -66,57 +77,254 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    a0PE0EBMeV4VYOpT:
+      _id: a0PE0EBMeV4VYOpT
+      type: utility
+      name: Fairy Dust
+      img: ''
       sort: 0
-      damage:
-        critical:
-          allow: false
-          bonus: ''
-        parts:
-        - number: 1
-          denomination: 12
-          bonus: ''
-          types:
-          - force
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Instead of a Hero's Power-Up option
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: w9Ytqb83dOR5jggf
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    rEasAAuQzjTdvMbk:
+      _id: rEasAAuQzjTdvMbk
+      type: utility
+      name: Steel Block
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Instead of a Hero's Power-Up option
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:cosmic-conduit
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: m94Hey9EojM8nOvo
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    ahzvYKhcdCQmeCpy:
+      _id: ahzvYKhcdCQmeCpy
+      type: utility
+      name: 'Steel Block: Reduce Damage'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You take damage while Steel Block is active
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: max(1, @abilities.cha.mod)
+        name: Damage Reduced
+        prompt: false
+        visible: true
   enchant: {}
   identifier: rare-power-up
   advancement: {}
 effects:
-- _id: EEiGkNU4kCyUlebe
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: VSxCoaQasCP4t7ih
+  name: Colossus Roar
+  img: icons/svg/upgrade.svg
   type: base
   system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
+    changes:
+    - key: system.traits.size
+      value: lg
+      priority: null
+      type: override
+      phase: initial
+      _id: sHiEMa4pWgOJjTQo
+    - key: system.bonuses.mwak.damage
+      value: 1d12[force]
+      priority: null
+      type: add
+      phase: initial
+      _id: Sq1kAHipU06S7MVl
+    - key: system.bonuses.rwak.damage
+      value: 1d12[force]
+      priority: null
+      type: add
+      phase: initial
+      _id: GHW02w1WGYMhONZc
   disabled: false
+  transfer: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: ''
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -128,7 +336,85 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!WG1zuOqV5EjXpcpX.EEiGkNU4kCyUlebe'
+  _key: '!items.effects!WG1zuOqV5EjXpcpX.VSxCoaQasCP4t7ih'
+- _id: w9Ytqb83dOR5jggf
+  name: Fairy Dust
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.fly
+      value: '60'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: Ury6cq3T003epbKO
+    - key: system.attributes.movement.hover
+      value: 'true'
+      priority: null
+      type: override
+      phase: initial
+      _id: dOFT5AAydY4rFHh0
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!WG1zuOqV5EjXpcpX.w9Ytqb83dOR5jggf'
+- _id: m94Hey9EojM8nOvo
+  name: Steel Block
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>You can’t be moved or teleported against your will, and damage you take is reduced by your Charisma modifier (min 1).</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!WG1zuOqV5EjXpcpX.m94Hey9EojM8nOvo'
 folder: DYc5L750iJ36XVct
 sort: 0
 _stats:
