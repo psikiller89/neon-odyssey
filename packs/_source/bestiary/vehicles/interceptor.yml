@@ -1,7 +1,7 @@
 _id: MSYDGrsWMO6DaEeI
 name: Interceptor
 type: vehicle
-img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+img: modules/neon-odyssey/icons/vehicles/interceptor.webp
 system:
   identifier: interceptor
   currency:
@@ -234,7 +234,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    src: modules/neon-odyssey/icons/vehicles/interceptor-token.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain

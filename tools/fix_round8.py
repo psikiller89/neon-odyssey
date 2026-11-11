@@ -186,3 +186,12 @@ for name,cls,tok in [('Superiority Fighter','standardStarfighter',None),('Interc
     A['items']=items; A['prototypeToken']['name']=name; A['prototypeToken']['width']=1; A['prototypeToken']['height']=1
     D(VD+s['identifier']+'.yml',A)
 print('round8 vehicles done')
+# ---- per-vehicle art
+import glob as _g
+for f in _g.glob(os.path.join(OUT,VD,'*.yml')):
+    if f.endswith('_folder.yml'): continue
+    A=yaml.safe_load(open(f)); k=A['system'].get('identifier') or os.path.basename(f)[:-4]
+    if os.path.exists(f'/home/ubuntu/work/neon-odyssey/icons/vehicles/{k}.webp'):
+        A['img']=f'modules/neon-odyssey/icons/vehicles/{k}.webp'; A['prototypeToken']['texture']['src']=f'modules/neon-odyssey/icons/vehicles/{k}-token.webp'
+        yaml.safe_dump(A,open(f,'w'),sort_keys=False,allow_unicode=True,width=200)
+print('round8 art done')

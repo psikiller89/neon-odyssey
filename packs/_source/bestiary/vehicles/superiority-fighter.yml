@@ -1,7 +1,7 @@
 _id: b0DeUmj3C8w8paqa
 name: Superiority Fighter
 type: vehicle
-img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+img: modules/neon-odyssey/icons/vehicles/superiority-fighter.webp
 system:
   identifier: superiority-fighter
   currency:
@@ -234,7 +234,7 @@ prototypeToken:
   width: 1
   height: 1
   texture:
-    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    src: modules/neon-odyssey/icons/vehicles/superiority-fighter-token.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain

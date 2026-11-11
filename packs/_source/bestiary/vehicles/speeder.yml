@@ -1,7 +1,7 @@
 _id: fRQ2P6HoU7piihHq
 name: Speeder
 type: vehicle
-img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+img: modules/neon-odyssey/icons/vehicles/speeder.webp
 system:
   identifier: speeder
   currency:
@@ -240,7 +240,7 @@ prototypeToken:
   width: 2
   height: 2
   texture:
-    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    src: modules/neon-odyssey/icons/vehicles/speeder-token.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain

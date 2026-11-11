@@ -1,7 +1,7 @@
 _id: rDWKOGLNV0P04slO
 name: Racing Bike
 type: vehicle
-img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+img: modules/neon-odyssey/icons/vehicles/racing-bike.webp
 system:
   identifier: racing-bike
   currency:
@@ -231,7 +231,7 @@ prototypeToken:
   width: 2
   height: 2
   texture:
-    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    src: modules/neon-odyssey/icons/vehicles/racing-bike-token.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain

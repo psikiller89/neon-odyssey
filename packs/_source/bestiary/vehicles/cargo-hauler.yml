@@ -1,7 +1,7 @@
 _id: lCk1JwP9kXWs5FCP
 name: Cargo Hauler
 type: vehicle
-img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+img: modules/neon-odyssey/icons/vehicles/cargo-hauler.webp
 system:
   identifier: cargo-hauler
   currency:
@@ -232,7 +232,7 @@ prototypeToken:
   width: 2
   height: 2
   texture:
-    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    src: modules/neon-odyssey/icons/vehicles/cargo-hauler-token.webp
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
