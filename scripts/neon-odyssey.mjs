@@ -408,3 +408,68 @@ Hooks.on("createItem", async (item, options, userId) => {
   const docs = await Promise.all(missing.map(e => pack.getDocument(e._id)));
   if ( docs.length ) await actor.createEmbeddedDocuments("Item", docs.map(d => game.items.fromCompendium(d)));
 });
+
+/* Neon Odyssey tools (Bypass Tools, Electronics Tools, Spiking Deck) and the Malware status. */
+Hooks.once("init", () => {
+  const tools = CONFIG.DND5E.tools;
+  const I = `Compendium.${MODULE_ID}.items.Item.`;
+  tools.bypass ??= { ability: "dex", id: `${I}7uvYP4Hpk5NqzkQB` };
+  tools.electronics ??= { ability: "int", id: `${I}QtEnNlpK8ltfZ9gd` };
+  tools.spiking ??= { ability: "int", id: `${I}Rt7adqDDyIE4taqD` };
+});
+function neonMalwareStatus() {
+  if ( CONFIG.statusEffects.some(s => s.id === "malware") ) return;
+  CONFIG.statusEffects.push({ id: "malware", name: "Malware", img: `modules/${MODULE_ID}/icons/neon/s-biohazard-lime.webp`, _id: "neonmalware00000" });
+}
+Hooks.once("setup", neonMalwareStatus);
+Hooks.once("ready", neonMalwareStatus);
+
+/* Virus Malware: -1d6 on the next D20 Test (works for NPCs too), then the status is removed after that roll. */
+const neonMalwareActor = subject => subject instanceof Actor ? subject : subject?.actor;
+Hooks.on("dnd5e.preRollD20TestV2", config => {
+  const actor = neonMalwareActor(config?.subject);
+  if ( !actor?.statuses?.has("malware") ) return;
+  config.rolls ??= [{}];
+  const roll = config.rolls[0] ??= {};
+  roll.parts = [...(roll.parts ?? []), "-1d6"];
+});
+for ( const name of ["AbilityCheck", "SavingThrow", "Skill", "ToolCheck", "Attack", "Concentration"] ) {
+  Hooks.on(`dnd5e.roll${name}`, (rolls, data) => {
+    const actor = neonMalwareActor(data?.subject);
+    if ( !actor?.isOwner ) return;
+    const ids = actor.effects.filter(e => e.statuses?.has("malware")).map(e => e.id);
+    if ( ids.length ) actor.deleteEmbeddedDocuments("ActiveEffect", ids).catch(() => null);
+  });
+}
+
+/* Gorgonite Gorgon's Gaze: choose the save DC ability when the trait is added. */
+Hooks.on("createItem", async (item, options, userId) => {
+  if ( (userId !== game.user.id) || (item.system?.identifier !== "gorgons-gaze") || (item.parent?.type !== "character") ) return;
+  if ( item.getFlag(MODULE_ID, "abilityChosen") ) return;
+  const A = CONFIG.DND5E.abilities;
+  const ability = await foundry.applications.api.DialogV2.wait({
+    window: { title: "Gorgon's Gaze: Save DC" },
+    content: "<p>Choose the ability used for your Gorgon's Gaze save DC (8 + Proficiency Bonus + modifier).</p>",
+    buttons: [
+      { action: "int", label: A.int.label },
+      { action: "wis", label: A.wis.label },
+      { action: "cha", label: A.cha.label, default: true }
+    ],
+    rejectClose: false
+  }) ?? "cha";
+  const update = { [`flags.${MODULE_ID}.abilityChosen`]: true };
+  for ( const a of item.system.activities ) if ( a.type === "save" ) update[`system.activities.${a.id}.save.dc.calculation`] = ability;
+  await item.update(update);
+});
+
+/* Gorgonite Toxin Resistant: Advantage on Constitution saves while Poisoned (saves to end it). */
+async function neonToxinAdvantage(effect, removed) {
+  if ( !effect.statuses?.has("poisoned") ) return;
+  const actor = effect.parent instanceof Actor ? effect.parent : effect.parent?.parent;
+  const toggle = actor?.items.find(i => i.system.identifier === "toxin-resistant")?.effects.find(e => e.name === "Toxin Resistant: Advantage vs Poisoned");
+  if ( !toggle ) return;
+  const poisoned = actor.effects.some(e => (!removed || (e.id !== effect.id)) && e.statuses?.has("poisoned"));
+  if ( toggle.disabled === poisoned ) await toggle.update({ disabled: !poisoned });
+}
+Hooks.on("createActiveEffect", (effect, options, userId) => { if ( userId === game.user.id ) neonToxinAdvantage(effect, false); });
+Hooks.on("deleteActiveEffect", (effect, options, userId) => { if ( userId === game.user.id ) neonToxinAdvantage(effect, true); });

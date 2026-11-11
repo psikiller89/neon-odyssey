@@ -34,12 +34,12 @@ system:
     FBFsZUZaHPBZUzDs:
       _id: FBFsZUZaHPBZUzDs
       type: save
-      name: ''
+      name: Junk Data
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: When you use Malware
       consumption:
         targets:
         - type: itemUses
@@ -70,10 +70,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -115,9 +115,9 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
-    expiry: null
+    units: turns
+    value: '1'
+    expiry: turnStart
     expired: false
   origin: null
   tint: '#ffffff'

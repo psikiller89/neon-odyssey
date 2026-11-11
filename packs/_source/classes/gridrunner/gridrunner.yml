@@ -426,6 +426,42 @@ system:
       level: 20
       title: Class Features
       hint: ''
+    FMYNQjwjbueRUMWT:
+      _id: FMYNQjwjbueRUMWT
+      type: Trait
+      level: 1
+      title: Tool Proficiencies
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - tool:spiking
+        choices: []
+      value: {}
+    YUpfTHkPyAQ19SKg:
+      _id: YUpfTHkPyAQ19SKg
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.neon-odyssey.items.Item.i8Wu2vepUzLtYc6E
+          optional: false
+          sort: 0
+        - uuid: Compendium.neon-odyssey.items.Item.Rt7adqDDyIE4taqD
+          optional: false
+          sort: 0
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Hyperpad and Spiking Deck
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
   spellcasting:
     progression: full
     ability: int

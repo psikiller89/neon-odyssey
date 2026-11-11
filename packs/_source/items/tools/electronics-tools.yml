@@ -31,7 +31,7 @@ system:
     revision: 1
   type:
     value: art
-    baseItem: ''
+    baseItem: electronics
   ability: dex
   chatFlavor: ''
   proficient: null

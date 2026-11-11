@@ -30,7 +30,7 @@ system:
     revision: 1
   type:
     value: ''
-    baseItem: ''
+    baseItem: bypass
   ability: dex
   chatFlavor: ''
   proficient: null

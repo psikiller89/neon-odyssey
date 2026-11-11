@@ -4,12 +4,81 @@ type: feat
 img: modules/neon-odyssey/icons/species/gorgonite.webp
 folder: XTMsCNdLEGfz0u2k
 sort: 0
-effects: []
+effects:
+- _id: lf37wX8wNsRtk1wO
+  name: Charmed
+  img: modules/neon-odyssey/icons/species/gorgonite.webp
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Charmed by Gorgon’s Gaze. Ends if you or your allies damage it or force it to make a saving throw; it is then immune to your gaze for 24 hours.</p>
+  tint: '#ffffff'
+  statuses:
+  - charmed
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!BEU9EejKRNG4G3Z0.lf37wX8wNsRtk1wO'
+- _id: uhMYHMPY7NgHYben
+  name: Restrained (Petrifying Gaze)
+  img: modules/neon-odyssey/icons/species/gorgonite.webp
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Partially turned to stone. Repeats the Constitution save at the end of each of its turns, ending the effect on a success.</p>
+  tint: '#ffffff'
+  statuses:
+  - restrained
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!BEU9EejKRNG4G3Z0.uhMYHMPY7NgHYben'
 system:
   description:
     value: <p>As a Bonus Action, you can fix your gaze on a creature you can see within 30 feet of yourself. The target is subjected to the effects of one of the options below (choose when you use the trait).
       The save DC is 8 plus your Proficiency Bonus and your Intelligence, Wisdom, or Charisma modifier (choose the ability when you select this species). You can use this Bonus Action a number of times
-      equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>
+      equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p><p><em>Click Beam, Hypnotic or Petrifying to use the gaze. When you add the species you choose Intelligence,
+      Wisdom or Charisma for the save DC.</em></p>
     chat: ''
   source:
     custom: ''
@@ -33,36 +102,41 @@ system:
   properties: []
   requirements: Gorgonite
   activities:
-    f6gCuravKQizJ7gq:
-      _id: f6gCuravKQizJ7gq
-      type: utility
-      name: ''
+    EvXWSxE1YvEbRqmU:
+      _id: EvXWSxE1YvEbRqmU
+      type: save
+      name: 'Gorgon''s Gaze: Beam'
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -70,20 +144,200 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: cha
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: true
+            formula: (1 + floor((@details.level + 1) / 6))d6
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+    cvbl4KV2TiqbO4Sw:
+      _id: cvbl4KV2TiqbO4Sw
+      type: save
+      name: 'Gorgon''s Gaze: Hypnotic'
+      img: ''
       sort: 0
-      roll:
-        formula: ''
-        name: ''
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: lf37wX8wNsRtk1wO
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
         prompt: false
-        visible: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - wis
+        dc:
+          calculation: cha
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts: []
+    xGSLMocjfgECtg7f:
+      _id: xGSLMocjfgECtg7f
+      type: save
+      name: 'Gorgon''s Gaze: Petrifying'
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: uhMYHMPY7NgHYben
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc:
+          calculation: cha
+          formula: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts: []
   enchant: {}
   identifier: gorgons-gaze
   advancement: {}

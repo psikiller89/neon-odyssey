@@ -4,7 +4,85 @@ type: feat
 img: modules/neon-odyssey/icons/species/gorgonite.webp
 folder: XTMsCNdLEGfz0u2k
 sort: 0
-effects: []
+effects:
+- _id: o6T5Q5nAjfqJtLAM
+  name: Toxin Resistant
+  img: modules/neon-odyssey/icons/species/gorgonite.webp
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: poison
+      priority: null
+      type: add
+      phase: initial
+      _id: Me0FakxI70nQ9zFN
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Resistance to Poison damage.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!UtQbkUOkxwk0mT7T.o6T5Q5nAjfqJtLAM'
+- _id: 8m1HHImUfNthvgsY
+  name: 'Toxin Resistant: Advantage vs Poisoned'
+  img: modules/neon-odyssey/icons/species/gorgonite.webp
+  type: base
+  system:
+    changes:
+    - key: system.abilities.con.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: Jx7EV1flDcAh95Bf
+  disabled: true
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Advantage on Constitution saves. Turned on automatically while you are Poisoned (to end it); turn it on yourself when saving to avoid being Poisoned.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!UtQbkUOkxwk0mT7T.8m1HHImUfNthvgsY'
 system:
   description:
     value: <p>You have Resistance to Poison damage, and you have Advantage on saving throws to avoid or end the Poisoned condition.</p>

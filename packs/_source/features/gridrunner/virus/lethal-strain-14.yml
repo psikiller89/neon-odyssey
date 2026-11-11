@@ -32,7 +32,7 @@ system:
     HTTAbnrE4IG6WTMr:
       _id: HTTAbnrE4IG6WTMr
       type: damage
-      name: ''
+      name: Lethal Strain
       activation:
         type: bonus
         value: null
@@ -41,8 +41,8 @@ system:
       consumption:
         targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '10'
         spellSlot: true
       description:
         chatFlavor: ''
@@ -52,9 +52,10 @@ system:
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '100'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -62,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '2'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -85,8 +86,8 @@ system:
             enabled: false
             formula: ''
           scaling:
-            mode: ''
-            number: null
+            mode: whole
+            number: 1
             formula: ''
   enchant: {}
   identifier: lethal-strain

@@ -30,7 +30,27 @@ system:
   activities: {}
   enchant: {}
   identifier: grid-spiker
-  advancement: {}
+  advancement:
+    xjo9JYNM0XHxOjn3:
+      _id: xjo9JYNM0XHxOjn3
+      type: Trait
+      level: 2
+      title: Grid Spiker
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - tool:bypass
+          - tool:art:electronics
+          - tool:forg
+      value: {}
 effects: []
 folder: vpRfQY6bZevS9uKl
 sort: 0

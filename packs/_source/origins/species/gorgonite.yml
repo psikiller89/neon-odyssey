@@ -39,15 +39,6 @@ system:
         - uuid: Compendium.neon-odyssey.origins.Item.BEU9EejKRNG4G3Z0
           optional: false
           sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.lqNqrPUt1Q3N5ZWB
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.1nyY0CWQ3FkxRQ5A
-          optional: false
-          sort: 0
-        - uuid: Compendium.neon-odyssey.origins.Item.dDxDCnR1lxDPPDtM
-          optional: false
-          sort: 0
         - uuid: Compendium.neon-odyssey.origins.Item.hcG5Oi2ppXzjKkRI
           optional: false
           sort: 0
@@ -73,6 +64,7 @@ system:
           pool:
           - skills:ins
           - skills:prc
+          - skills:sur
       value:
         chosen: []
       level: 0

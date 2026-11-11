@@ -31,7 +31,7 @@ system:
     revision: 1
   type:
     value: ''
-    baseItem: ''
+    baseItem: spiking
   ability: int
   chatFlavor: ''
   proficient: null
