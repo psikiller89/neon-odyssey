@@ -303,43 +303,6 @@ prototypeToken:
   movementAction: null
   depth: 2
 items:
-- _id: tA16GM1LrM3vljVB
-  name: Cargo Bay
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: <p>The hauler has an enclosed cargo bay accessible by a hatch in the main cab and with a rolling door at the back. Creatures inside the closed cargo bay have Total Cover against effects originating
-        outside the hauler.</p>
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: ''
-      value: null
-      condition: ''
-    activities: {}
-    properties: []
-    requirements: ''
-    identifier: cargo-bay
-  _key: '!actors.items!lCk1JwP9kXWs5FCP.tA16GM1LrM3vljVB'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
 - _id: QwyCRUL0CNnw2Bct
   name: Prone Deficiency
   type: feat
@@ -351,7 +314,7 @@ items:
       value: <p>If the hauler rolls over and has the Prone condition, it can’t right itself and its Speed is 0 until flipped upright.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -376,7 +339,44 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: do5qEGY4EtrkSFTB
+- _id: tA16GM1LrM3vljVB
+  name: Cargo Bay
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>The hauler has an enclosed cargo bay accessible by a hatch in the main cab and with a rolling door at the back. Creatures inside the closed cargo bay have Total Cover against effects originating
+        outside the hauler.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: cargo-bay
+  _key: '!actors.items!lCk1JwP9kXWs5FCP.tA16GM1LrM3vljVB'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: FbzyniycKV4gHCFI
   name: Towing
   type: feat
   img: icons/svg/upgrade.svg
@@ -384,10 +384,11 @@ items:
   sort: 0
   system:
     description:
-      value: <p>The hauler can tow 25,000 lb. of weight using its</p>
+      value: <p>The hauler can tow 25,000 lb. of weight using its Mag Cable or a hitched trailer. While towing weight beyond its Cargo Capacity, it has Advantage on Strength saving throws and Disadvantage
+        on Dexterity saving throws.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -401,7 +402,7 @@ items:
     properties: []
     requirements: ''
     identifier: towing
-  _key: '!actors.items!lCk1JwP9kXWs5FCP.do5qEGY4EtrkSFTB'
+  _key: '!actors.items!lCk1JwP9kXWs5FCP.FbzyniycKV4gHCFI'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -412,18 +413,19 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: 0wgAkhGNnuFF3skj
-  name: Mag Cable or a hitched trailer
+- _id: DHib0LQg4z82Dgor
+  name: Controls
   type: feat
   img: icons/svg/upgrade.svg
   effects: []
   sort: 0
   system:
     description:
-      value: <p>While towing weight beyond its Cargo Capacity, it has Advantage on Strength saving throws and Disadvantage on Dexterity saving throws.</p>
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -433,68 +435,36 @@ items:
       type: ''
       value: null
       condition: ''
-    activities: {}
-    properties: []
-    requirements: ''
-    identifier: mag-cable-or-a-hitched-trailer
-  _key: '!actors.items!lCk1JwP9kXWs5FCP.0wgAkhGNnuFF3skj'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-- _id: q28dj7nPnVvZjJWs
-  name: Controls
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: <p>Drive and steer the hauler.</p>
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: action
-      value: null
-      condition: ''
     activities:
-      lQKH4a7WdPQpEvOt:
-        _id: lQKH4a7WdPQpEvOt
+      7U1YgDF7JtYxnUVy:
+        _id: 7U1YgDF7JtYxnUVy
         type: utility
-        name: ''
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: bonus
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -504,23 +474,247 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      tBppJwtSGZOFwSiy:
+        _id: tBppJwtSGZOFwSiy
+        type: utility
+        name: Dash
+        img: ''
         sort: 0
-        roll:
-          formula: ''
-          name: ''
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
           prompt: false
-          visible: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      eTqRM0mJhXA52UW8:
+        _id: eTqRM0mJhXA52UW8
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      b3mI2oWTTPzWTGtU:
+        _id: b3mI2oWTTPzWTGtU
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      2s2ROd91veTa9Yct:
+        _id: 2s2ROd91veTa9Yct
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: controls
-  _key: '!actors.items!lCk1JwP9kXWs5FCP.q28dj7nPnVvZjJWs'
+  _key: '!actors.items!lCk1JwP9kXWs5FCP.DHib0LQg4z82Dgor'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -531,11 +725,44 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: 354XLLmfHCDgxIYb
+- _id: dapQkpWxDiYdxd7Q
   name: Mag Cable
   type: feat
   img: icons/svg/upgrade.svg
-  effects: []
+  effects:
+  - _id: buucOmKZbD1HOJhu
+    name: Mag Cable Attached
+    img: icons/svg/upgrade.svg
+    type: base
+    system:
+      changes: []
+    disabled: false
+    transfer: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>Can’t move beyond the cable length. An attached creature or driver can use an action for a DC 15 vehicle Strength save to detach.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    origin: null
+    start: null
+    showIcon: 1
+    folder: null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: null
+    _key: '!actors.items.effects!lCk1JwP9kXWs5FCP.dapQkpWxDiYdxd7Q.buucOmKZbD1HOJhu'
   sort: 0
   system:
     description:
@@ -545,38 +772,84 @@ items:
         cargo capacity, the hauler can’t move beyond the cable length and is pulled toward the load if the cable is retracted.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      xh3u2nPKPQWJwHNb:
-        _id: xh3u2nPKPQWJwHNb
+      WW3bU3HkwNpaMLhE:
+        _id: WW3bU3HkwNpaMLhE
         type: attack
-        name: ''
+        name: Mag Cable
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: Requires open Cargo Bay
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects:
+        - _id: buucOmKZbD1HOJhu
+          riders:
+            activity: []
+            effect: []
+            item: []
+        range:
+          units: ft
+          value: '15'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         attack:
-          ability: ''
-          bonus: '5'
+          ability: str
+          bonus: '@flags.neon-odyssey.crewPB'
           critical:
             threshold: null
-          flat: true
+          flat: false
           type:
             value: melee
             classification: weapon
@@ -585,29 +858,65 @@ items:
             bonus: ''
           includeBase: false
           parts: []
-        range:
-          override: true
-          value: '15'
-          long: null
-          units: ft
-        uses:
-          spent: 0
-          recovery: []
-          max: ''
+      pB92UJxNBAy6nbtx:
+        _id: pB92UJxNBAy6nbtx
+        type: utility
+        name: Retract / Extend / Detach Cable
+        img: ''
         sort: 0
-        effects: []
+        activation:
+          type: bonus
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
+          concentration: false
           override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
         target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
           override: false
-          prompt: true
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: mag-cable
-  _key: '!actors.items!lCk1JwP9kXWs5FCP.354XLLmfHCDgxIYb'
+  _key: '!actors.items!lCk1JwP9kXWs5FCP.dapQkpWxDiYdxd7Q'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -620,7 +929,9 @@ items:
     compendiumSource: null
 effects: []
 folder: B7KoyN2Wquc83gzV
-flags: {}
+flags:
+  neon-odyssey:
+    vehicleClass: lightPlanetary
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e

@@ -322,7 +322,7 @@ items:
       value: <p>If the speeder rolls over and has the Prone condition, it can’t right itself and its Speed is 0 until flipped upright.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -347,7 +347,7 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: eH8JWhySAOjwBXLS
+- _id: au1eyAzhPcWuOiWv
   name: Controls
   type: feat
   img: icons/svg/upgrade.svg
@@ -355,45 +355,50 @@ items:
   sort: 0
   system:
     description:
-      value: <p>Drive and steer the speeder. Reactions</p>
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      Eybsfa0NH9NPCtPt:
-        _id: Eybsfa0NH9NPCtPt
+      ianNWaosCH7K5x8K:
+        _id: ianNWaosCH7K5x8K
         type: utility
-        name: ''
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: bonus
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -403,23 +408,247 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      ysuCmw9PWDvDeDT8:
+        _id: ysuCmw9PWDvDeDT8
+        type: utility
+        name: Dash
+        img: ''
         sort: 0
-        roll:
-          formula: ''
-          name: ''
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
           prompt: false
-          visible: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      NdcjIDG1XNGGDyvE:
+        _id: NdcjIDG1XNGGDyvE
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      VL42Y2I8cwPUySBk:
+        _id: VL42Y2I8cwPUySBk
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      zMgvCmedL228a4jf:
+        _id: zMgvCmedL228a4jf
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: controls
-  _key: '!actors.items!fRQ2P6HoU7piihHq.eH8JWhySAOjwBXLS'
+  _key: '!actors.items!fRQ2P6HoU7piihHq.au1eyAzhPcWuOiWv'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -430,7 +659,7 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: xXWg01Ye8sOJAZpo
+- _id: LwTDhYTmOrtHrHUu
   name: Juke
   type: feat
   img: icons/svg/upgrade.svg
@@ -441,42 +670,46 @@ items:
       value: '<p>Trigger. The driver makes a vehicle Dexterity saving throw while the speeder can move. Response: The driver has Advantage on the triggering save</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      I3f4s0JULHdmHZii:
-        _id: I3f4s0JULHdmHZii
-        type: save
-        name: ''
+      C3kTkh4pJYF18qjW:
+        _id: C3kTkh4pJYF18qjW
+        type: utility
+        name: Juke
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: reaction
           value: null
-          condition: ''
           override: false
+          condition: The driver makes a vehicle Dexterity saving throw
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
-          chatFlavor: ''
+          chatFlavor: The driver has Advantage on the triggering save.
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -486,27 +719,27 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
-        save:
-          ability:
-          - dex
-          dc:
-            calculation: spellcasting
-            formula: ''
-        damage:
-          onSave: none
-          parts: []
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: juke
-  _key: '!actors.items!fRQ2P6HoU7piihHq.xXWg01Ye8sOJAZpo'
+  _key: '!actors.items!fRQ2P6HoU7piihHq.LwTDhYTmOrtHrHUu'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -519,7 +752,9 @@ items:
     compendiumSource: null
 effects: []
 folder: B7KoyN2Wquc83gzV
-flags: {}
+flags:
+  neon-odyssey:
+    vehicleClass: lightPlanetary
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e

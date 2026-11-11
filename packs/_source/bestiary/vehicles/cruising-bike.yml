@@ -302,43 +302,6 @@ prototypeToken:
   movementAction: null
   depth: 2
 items:
-- _id: Co9SMizX0CddZi1n
-  name: Jump
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: <p>If the bike moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap or obstacle. It reaches a maximum height of
-        one-quarter the distance jumped. Each foot it clears on the jump costs 1 foot of movement.</p>
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: ''
-      value: null
-      condition: ''
-    activities: {}
-    properties: []
-    requirements: ''
-    identifier: jump
-  _key: '!actors.items!RGVCrHx8IRrTxk26.Co9SMizX0CddZi1n'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
 - _id: PaYSocofZi6ZTju0
   name: Prone Deficiency
   type: feat
@@ -350,7 +313,7 @@ items:
       value: <p>If the bike has the Prone condition, it can’t right itself and its Speed is 0 until pulled upright.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -375,7 +338,44 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: M4f2C0r4rZ1DLBkf
+- _id: Co9SMizX0CddZi1n
+  name: Jump
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>If the bike moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap or obstacle. It reaches a maximum height of
+        one-quarter the distance jumped. Each foot it clears on the jump costs 1 foot of movement.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities: {}
+    properties: []
+    requirements: ''
+    identifier: jump
+  _key: '!actors.items!RGVCrHx8IRrTxk26.Co9SMizX0CddZi1n'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: jVJ88GvTEXat7PMR
   name: Stunt
   type: feat
   img: icons/svg/upgrade.svg
@@ -389,7 +389,7 @@ items:
         it gain the Prone condition as the bike wipes out and comes to a dead stop.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -399,68 +399,36 @@ items:
       type: ''
       value: null
       condition: ''
-    activities: {}
-    properties: []
-    requirements: ''
-    identifier: stunt
-  _key: '!actors.items!RGVCrHx8IRrTxk26.M4f2C0r4rZ1DLBkf'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-- _id: uV3bWqxvMWBeoMI5
-  name: Controls
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: <p>Drive and steer the bike. Reactions</p>
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: action
-      value: null
-      condition: ''
     activities:
-      N4vUbw887X5Ikqfb:
-        _id: N4vUbw887X5Ikqfb
-        type: utility
-        name: ''
+      XKbwwMTxce4V33IH:
+        _id: XKbwwMTxce4V33IH
+        type: check
+        name: Stunt (DC 10)
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
-          chatFlavor: ''
+          chatFlavor: 'Fail by 5 or more: the bike and riders become Prone and stop.'
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -470,23 +438,33 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
-        roll:
-          formula: ''
-          name: ''
-          prompt: false
-          visible: false
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '10'
     properties: []
     requirements: ''
-    identifier: controls
-  _key: '!actors.items!RGVCrHx8IRrTxk26.uV3bWqxvMWBeoMI5'
+    identifier: stunt
+  _key: '!actors.items!RGVCrHx8IRrTxk26.jVJ88GvTEXat7PMR'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -497,7 +475,319 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: 1tzwox1do2b1Am7Q
+- _id: yZ2xQmMeBc00FSNW
+  name: Controls
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      SlkhkO9vJiLm6mN9:
+        _id: SlkhkO9vJiLm6mN9
+        type: utility
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
+        activation:
+          type: bonus
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      5O2zuVbHYmz3XkLc:
+        _id: 5O2zuVbHYmz3XkLc
+        type: utility
+        name: Dash
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      JaEEk1KOZ7n6Cojo:
+        _id: JaEEk1KOZ7n6Cojo
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      cExC7NxGZM3cPjrz:
+        _id: cExC7NxGZM3cPjrz
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      fjgDNoYBKlnhESKK:
+        _id: fjgDNoYBKlnhESKK
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+    properties: []
+    requirements: ''
+    identifier: controls
+  _key: '!actors.items!RGVCrHx8IRrTxk26.yZ2xQmMeBc00FSNW'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: mvfHHFJFV7ZQ27cF
   name: Stabilize
   type: feat
   img: icons/svg/upgrade.svg
@@ -508,42 +798,46 @@ items:
       value: '<p>Trigger. The driver makes a vehicle Strength or Constitution saving throw. Response: The driver has Advantage on the triggering save.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      XfWSSD0dbUYkHp7n:
-        _id: XfWSSD0dbUYkHp7n
-        type: save
-        name: ''
+      9uHVvOVfPGHyknFL:
+        _id: 9uHVvOVfPGHyknFL
+        type: utility
+        name: Stabilize
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: reaction
           value: null
-          condition: ''
           override: false
+          condition: The driver makes a vehicle Strength or Constitution saving throw
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
-          chatFlavor: ''
+          chatFlavor: The driver has Advantage on the triggering save.
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -553,27 +847,27 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
-        save:
-          ability:
-          - con
-          dc:
-            calculation: spellcasting
-            formula: ''
-        damage:
-          onSave: none
-          parts: []
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: stabilize
-  _key: '!actors.items!RGVCrHx8IRrTxk26.1tzwox1do2b1Am7Q'
+  _key: '!actors.items!RGVCrHx8IRrTxk26.mvfHHFJFV7ZQ27cF'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -586,7 +880,9 @@ items:
     compendiumSource: null
 effects: []
 folder: B7KoyN2Wquc83gzV
-flags: {}
+flags:
+  neon-odyssey:
+    vehicleClass: lightPlanetary
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e

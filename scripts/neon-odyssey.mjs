@@ -473,3 +473,82 @@ async function neonToxinAdvantage(effect, removed) {
 }
 Hooks.on("createActiveEffect", (effect, options, userId) => { if ( userId === game.user.id ) neonToxinAdvantage(effect, false); });
 Hooks.on("deleteActiveEffect", (effect, options, userId) => { if ( userId === game.user.id ) neonToxinAdvantage(effect, true); });
+
+/* ---------------- Vehicles ---------------- */
+const NEON_VEHICLE_CLASSES = {
+  lightPlanetary: "Light Planetary", heavyPlanetary: "Heavy Planetary", lightMech: "Light Mech", standardMech: "Standard Mech",
+  heavyMech: "Heavy Mech", lightStarfighter: "Light Starfighter", standardStarfighter: "Standard Starfighter",
+  heavyStarfighter: "Heavy Starfighter", lightTransport: "Light Transport", heavyTransport: "Heavy Transport", capitalShip: "Capital Ship"
+};
+Hooks.once("init", () => Object.assign(CONFIG.DND5E.vehicleTypes, NEON_VEHICLE_CLASSES));
+
+/* Crew: the first crew member's PB is added to vehicle weapon attacks; also to saves and initiative if proficient with the vehicle class. */
+async function neonVehicleCrew(vehicle) {
+  if ( (vehicle?.type !== "vehicle") || !vehicle.isOwner ) return;
+  const uuids = vehicle.system.crew?.value ?? [];
+  const driver = uuids.length ? await fromUuid(uuids[0]).catch(() => null) : null;
+  const pb = driver?.system?.attributes?.prof ?? 0;
+  const cls = vehicle.getFlag(MODULE_ID, "vehicleClass");
+  const tools = driver?.system?.tools ?? {};
+  const proficient = !!driver && Object.entries(tools).some(([k, t]) => (t.value >= 1) && ((k === cls) || (k === vehicle.system.details?.type)));
+  const driverPB = proficient ? pb : 0;
+  const flags = vehicle.flags?.[MODULE_ID] ?? {};
+  if ( (flags.crewPB !== pb) || (flags.driverPB !== driverPB) || (flags.driver !== (driver?.name ?? "")) ) {
+    await vehicle.update({ [`flags.${MODULE_ID}.crewPB`]: pb, [`flags.${MODULE_ID}.driverPB`]: driverPB, [`flags.${MODULE_ID}.driver`]: driver?.name ?? "" });
+  }
+  const changes = driverPB ? [
+    ...["str", "dex", "con"].map(a => ({ key: `system.abilities.${a}.bonuses.save`, type: "add", value: String(driverPB), phase: "initial" })),
+    { key: "system.attributes.init.bonus", type: "add", value: String(driverPB), phase: "initial" }
+  ] : [{ key: "system.attributes.init.bonus", type: "add", value: String(pb), phase: "initial" }];
+  const existing = vehicle.effects.find(e => e.getFlag(MODULE_ID, "crewEffect"));
+  const name = driver ? `Crew: ${driver.name} (PB +${pb}${driverPB ? ", proficient" : ""})` : "Crew: none";
+  if ( existing ) { if ( existing.name !== name ) await existing.update({ name, "system.changes": changes }); }
+  else await vehicle.createEmbeddedDocuments("ActiveEffect", [{ name, img: "icons/svg/wing.svg", type: "base", system: { changes }, flags: { [MODULE_ID]: { crewEffect: true } } }]);
+}
+Hooks.on("updateActor", (actor, changes, options, userId) => {
+  if ( (userId === game.user.id) && (actor.type === "vehicle") && foundry.utils.hasProperty(changes, "system.crew") ) neonVehicleCrew(actor);
+});
+Hooks.once("ready", () => { if ( game.user.isGM ) for ( const a of game.actors.filter(a => a.type === "vehicle") ) neonVehicleCrew(a); });
+
+/* Damage Threshold, Shield Points (= Temp HP, with their own threshold) and Mishaps. */
+const NEON_MISHAPS = [
+  [1, 1, "Fire", "A fire breaks out in the engine. A creature that starts its turn in or on the vehicle takes 11 (2d10) Fire damage.", "15 (Dex)", []],
+  [2, 4, "Frozen Steering", "The vehicle can’t turn. It automatically fails vehicle Dexterity checks and saves until repaired.", "15 (Str)", [["system.abilities.dex.check.roll.mode", "-1"], ["system.abilities.dex.save.roll.mode", "-1"]]],
+  [5, 7, "Power Drain", "The vehicle gains 1 Exhaustion level (−2 to its D20 Tests per level; at 6 it breaks down).", "Repair Parts (DC 15 Int (Technology), 1 hour)", "exhaustion"],
+  [8, 10, "Weapon Malfunction", "One of the vehicle’s weapons (random) is disabled until repaired.", "20 (Str)", []],
+  [11, 13, "Sharp Veer", "The driver must take an action at the start of each of its turns to hold course, or the vehicle swerves 45° and moves ¼ of its last Speed that way.", "15 (Dex)", []],
+  [14, 16, "Buckled Frame", "The vehicle’s Damage Threshold is reduced by 10 until repaired.", "15 (Str)", [["system.attributes.hp.dt", "-10"]]],
+  [17, 19, "Damaged Drive", "Disadvantage on vehicle Dexterity checks; riders have Disadvantage on ability checks and attack rolls.", "20 (Dex)", [["system.abilities.dex.check.roll.mode", "-1"]]],
+  [20, 20, "Roll Over", "The vehicle rolls, is Prone and stops. Riders inside are Prone and take 11 (2d10) Bludgeoning; riders outside make a DC 20 Str save or are thrown 30 ft and Prone.", "—", "prone"]
+];
+const neonPendingMishap = new WeakMap();
+Hooks.on("dnd5e.preApplyDamage", (actor, amount, updates, options) => {
+  if ( actor?.type !== "vehicle" ) return;
+  const hp = actor.system.attributes.hp;
+  if ( (amount > 0) && hp.dt && (amount < hp.dt) ) {
+    ui.notifications?.info(`${actor.name}: ${amount} damage doesn’t beat its Damage Threshold (${hp.dt}).`);
+    return false;
+  }
+  const after = updates["system.attributes.hp.value"] ?? hp.value;
+  const loss = hp.value - after;
+  const half = Math.floor(hp.max / 2);
+  if ( (loss > 0) && (after > 0) && ((hp.mt && (loss >= hp.mt)) || ((hp.value > half) && (after <= half))) ) neonPendingMishap.set(actor, true);
+});
+Hooks.on("dnd5e.applyDamage", async (actor, amount) => {
+  if ( !neonPendingMishap.get(actor) ) return;
+  neonPendingMishap.delete(actor);
+  if ( !game.users.activeGM?.isSelf && !actor.isOwner ) return;
+  const roll = await new Roll("1d20").evaluate();
+  const [, , name, text, dc, fx] = NEON_MISHAPS.find(([lo, hi]) => (roll.total >= lo) && (roll.total <= hi));
+  await roll.toMessage({ speaker: ChatMessage.getSpeaker({ actor }), flavor: `<strong>${actor.name}: Vehicle Mishap — ${name}</strong><br>${text}<br><em>Repair DC: ${dc}</em>` });
+  const data = { name: `Mishap: ${name}`, img: "icons/svg/hazard.svg", type: "base", description: `<p>${text}</p><p>Repair DC: ${dc}. Delete this effect when repaired.</p>`, system: { changes: [] }, flags: { [MODULE_ID]: { mishap: name } } };
+  if ( Array.isArray(fx) ) data.system.changes = fx.map(([key, value]) => ({ key, value, type: "add", phase: "initial" }));
+  else if ( fx === "prone" ) data.statuses = ["prone"];
+  else if ( fx === "exhaustion" ) {
+    const level = actor.effects.filter(e => e.getFlag(MODULE_ID, "mishap") === "Power Drain").length + 1;
+    data.name = `Vehicle Exhaustion ${level}`;
+    data.system.changes = ["str", "dex", "con", "int", "wis", "cha"].flatMap(a => ["check", "save"].map(t => ({ key: `system.abilities.${a}.bonuses.${t}`, value: "-2", type: "add", phase: "initial" })));
+    if ( level >= 6 ) await actor.update({ "system.attributes.hp.value": 0 });
+  }
+  await actor.createEmbeddedDocuments("ActiveEffect", [data]);
+});

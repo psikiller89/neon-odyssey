@@ -313,7 +313,7 @@ items:
       value: <p>The walker uses its Strength modifier for attack rolls and damage rolls with Ranged weapons.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -338,7 +338,7 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: ZzS3pSEPwwBHbiNp
+- _id: pvKlKfYob5jjq0vF
   name: Controls
   type: feat
   img: icons/svg/upgrade.svg
@@ -346,45 +346,50 @@ items:
   sort: 0
   system:
     description:
-      value: <p>Pilot and steer the walker and use the following actions:</p>
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      102f7jKjcYFpdp4L:
-        _id: 102f7jKjcYFpdp4L
+      vDpjFq4irHFYlglD:
+        _id: vDpjFq4irHFYlglD
         type: utility
-        name: ''
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: bonus
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -394,23 +399,247 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      ebj9pLzKuklz5Y6v:
+        _id: ebj9pLzKuklz5Y6v
+        type: utility
+        name: Dash
+        img: ''
         sort: 0
-        roll:
-          formula: ''
-          name: ''
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
           prompt: false
-          visible: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      4WoqYWsnjttNS11V:
+        _id: 4WoqYWsnjttNS11V
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      TbyIv14aOt3fKJ0u:
+        _id: TbyIv14aOt3fKJ0u
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      40LsJUbH2AqjhSdA:
+        _id: 40LsJUbH2AqjhSdA
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: controls
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.ZzS3pSEPwwBHbiNp'
+  _key: '!actors.items!sbJ5MuGebeGcsyFg.pvKlKfYob5jjq0vF'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -421,49 +650,129 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: rrsDbKv2et7jy7IS
+- _id: uI0AgtZ5DhzXtjsI
   name: Crushing Strike
   type: feat
   img: icons/svg/upgrade.svg
-  effects: []
+  effects:
+  - _id: gO560ACd61AZ4EAX
+    name: Prone
+    img: icons/svg/upgrade.svg
+    type: base
+    system:
+      changes: []
+    disabled: false
+    transfer: false
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>Large or smaller targets only.</p>
+    tint: '#ffffff'
+    statuses:
+    - prone
+    sort: 0
+    flags: {}
+    origin: null
+    start: null
+    showIcon: 1
+    folder: null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: null
+    _key: '!actors.items.effects!sbJ5MuGebeGcsyFg.uI0AgtZ5DhzXtjsI.gO560ACd61AZ4EAX'
   sort: 0
   system:
     description:
       value: '<p>Melee Attack Roll: +5 plus crew’s PB, reach 5 ft. Hit: 9 (1d8 + 5) Bludgeoning damage. If the target is Large or smaller, it has the Prone condition.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      Lsbngve3nvYb2brz:
-        _id: Lsbngve3nvYb2brz
+      NWhXpzZm8Uv3fwlZ:
+        _id: NWhXpzZm8Uv3fwlZ
         type: attack
-        name: ''
+        name: Crushing Strike
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects:
+        - _id: gO560ACd61AZ4EAX
+          riders:
+            activity: []
+            effect: []
+            item: []
+        range:
+          units: ft
+          value: '5'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         attack:
-          ability: ''
-          bonus: '5'
+          ability: str
+          bonus: '@flags.neon-odyssey.crewPB'
           critical:
             threshold: null
-          flat: true
+          flat: false
           type:
             value: melee
             classification: weapon
@@ -474,7 +783,7 @@ items:
           parts:
           - number: 1
             denomination: 8
-            bonus: '5'
+            bonus: '@mod'
             types:
             - bludgeoning
             custom:
@@ -484,29 +793,10 @@ items:
               mode: ''
               number: null
               formula: ''
-        range:
-          override: true
-          value: '5'
-          long: null
-          units: ft
-        uses:
-          spent: 0
-          recovery: []
-          max: ''
-        sort: 0
-        effects: []
-        description:
-          chatFlavor: ''
-        duration:
-          units: inst
-          override: false
-        target:
-          override: false
-          prompt: true
     properties: []
     requirements: ''
     identifier: crushing-strike
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.rrsDbKv2et7jy7IS'
+  _key: '!actors.items!sbJ5MuGebeGcsyFg.uI0AgtZ5DhzXtjsI'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -517,7 +807,7 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: I331gzDhGDuNrEir
+- _id: yX5NyCQmeOzUEKxD
   name: Repeating Lasers
   type: feat
   img: icons/svg/upgrade.svg
@@ -528,38 +818,80 @@ items:
       value: '<p>Ranged Attack Roll: +5 plus crew’s PB, range 200/800 ft. Hit: 16 (2d10 + 5) Radiant damage.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      fNOeXJe1XOWc8TCJ:
-        _id: fNOeXJe1XOWc8TCJ
+      7lAQiH3GMZ4sip9O:
+        _id: 7lAQiH3GMZ4sip9O
         type: attack
-        name: ''
+        name: Repeating Lasers
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '200'
+          long: '800'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         attack:
-          ability: ''
-          bonus: '5'
+          ability: str
+          bonus: '@flags.neon-odyssey.crewPB'
           critical:
             threshold: null
-          flat: true
+          flat: false
           type:
             value: ranged
             classification: weapon
@@ -570,7 +902,7 @@ items:
           parts:
           - number: 2
             denomination: 10
-            bonus: '5'
+            bonus: '@mod'
             types:
             - radiant
             custom:
@@ -580,29 +912,10 @@ items:
               mode: ''
               number: null
               formula: ''
-        range:
-          override: true
-          value: '200'
-          long: '800'
-          units: ft
-        uses:
-          spent: 0
-          recovery: []
-          max: ''
-        sort: 0
-        effects: []
-        description:
-          chatFlavor: ''
-        duration:
-          units: inst
-          override: false
-        target:
-          override: false
-          prompt: true
     properties: []
     requirements: ''
     identifier: repeating-lasers
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.I331gzDhGDuNrEir'
+  _key: '!actors.items!sbJ5MuGebeGcsyFg.yX5NyCQmeOzUEKxD'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -613,7 +926,7 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: se6y9MXmZBxkeM6T
+- _id: iG4UQWvIZ11WxQH2
   name: Grenade Launcher
   type: feat
   img: icons/svg/upgrade.svg
@@ -621,63 +934,85 @@ items:
   sort: 0
   system:
     description:
-      value: '<p>The walker fires a grenade at a point within 150 feet using one of the following options: • Frag Grenade (4 Grenades). Dexterity Saving Throw: DC 15, each creature in a 20-foot-radius Sphere.
-        Failure: 14 (4d6)</p>'
+      value: '<p>Fire a grenade at a point within 150 feet. Frag Grenade (4): DC 15 Dex save, 20-ft-radius Sphere, 4d6 Piercing (half on success). Smoke Grenade (4): 20-ft-radius Sphere of smoke, Heavily
+        Obscured for 1 minute.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      9RGXRj6L2sw0MIbc:
-        _id: 9RGXRj6L2sw0MIbc
+      iSlFjXDeUBMERotn:
+        _id: iSlFjXDeUBMERotn
         type: save
-        name: ''
+        name: Frag Grenade
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets:
+          - type: activityUses
+            value: '1'
+            target: ''
+            scaling: {}
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
-          units: self
+          value: '150'
+          units: ft
           special: ''
+          override: false
         target:
           template:
             contiguous: false
             units: ft
-            type: ''
-          affects:
-            choice: false
+            type: sphere
+            size: '20'
+            width: ''
             count: ''
-            type: ''
-          prompt: true
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
           override: false
+          prompt: true
         uses:
           spent: 0
           recovery: []
-          max: ''
-        sort: 0
+          max: '4'
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         save:
           ability:
           - dex
@@ -685,96 +1020,91 @@ items:
             calculation: ''
             formula: '15'
         damage:
-          onSave: none
-          parts: []
-    properties: []
-    requirements: ''
-    identifier: grenade-launcher
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.se6y9MXmZBxkeM6T'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-- _id: Qnv37MJYcyzTwke7
-  name: Piercing damage
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: '<p>Success: Half damage. • Smoke Grenade (4 Grenades). A 20-foot-radius Sphere of smoke appears centered on the point. The Sphere is Heavily Obscured for 1 minute or until strong wind disperses
-        it. Reactions</p>'
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: action
-      value: null
-      condition: ''
-    activities:
-      L5UoosYbcwOgqlnl:
-        _id: L5UoosYbcwOgqlnl
+          critical:
+            allow: false
+            bonus: ''
+          parts:
+          - number: 4
+            denomination: 6
+            bonus: ''
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          onSave: half
+      C4FNUBq4fkfhThWz:
+        _id: C4FNUBq4fkfhThWz
         type: utility
-        name: ''
+        name: Smoke Grenade
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets:
+          - type: activityUses
+            value: '1'
+            target: ''
+            scaling: {}
         description:
-          chatFlavor: ''
+          chatFlavor: Heavily Obscured for 1 minute or until strong wind disperses it.
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
-          units: self
+          value: '150'
+          units: ft
           special: ''
+          override: false
         target:
           template:
             contiguous: false
             units: ft
-            type: ''
-          affects:
-            choice: false
+            type: sphere
+            size: '20'
+            width: ''
             count: ''
-            type: ''
-          prompt: true
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
           override: false
+          prompt: true
         uses:
           spent: 0
           recovery: []
-          max: ''
-        sort: 0
-        roll:
-          formula: ''
-          name: ''
-          prompt: false
-          visible: false
+          max: '4'
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
-    identifier: piercing-damage
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.Qnv37MJYcyzTwke7'
+    identifier: grenade-launcher
+  _key: '!actors.items!sbJ5MuGebeGcsyFg.iG4UQWvIZ11WxQH2'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -785,11 +1115,44 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: P8FXG1wzfvr3htZd
+- _id: lGJWKD3hIqDOxwgO
   name: Assault Suppression
   type: feat
   img: icons/svg/upgrade.svg
-  effects: []
+  effects:
+  - _id: w7mdevoNLNxubuv0
+    name: No Reactions
+    img: icons/svg/upgrade.svg
+    type: base
+    system:
+      changes: []
+    disabled: false
+    transfer: false
+    duration:
+      units: rounds
+      value: '1'
+      expiry: null
+      expired: false
+    description: <p>Can’t take Reactions until the end of the walker’s next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    origin: null
+    start: null
+    showIcon: 1
+    folder: null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: null
+    _key: '!actors.items.effects!sbJ5MuGebeGcsyFg.lGJWKD3hIqDOxwgO.w7mdevoNLNxubuv0'
   sort: 0
   system:
     description:
@@ -797,42 +1160,51 @@ items:
         until the end of the walker’s next turn. Success: Half damage only.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
       spent: 0
       recovery: []
     activation:
-      type: action
+      type: ''
       value: null
       condition: ''
     activities:
-      ppUQRdHgjwxRJlOz:
-        _id: ppUQRdHgjwxRJlOz
+      mjmZEK6GDLYxO2yY:
+        _id: mjmZEK6GDLYxO2yY
         type: save
-        name: ''
+        name: Assault Suppression
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: reaction
           value: null
-          condition: ''
           override: false
+          condition: The walker is hit by a melee attack roll (requires pilot)
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
-        effects: []
+          value: ''
+          special: ''
+        effects:
+        - _id: w7mdevoNLNxubuv0
+          riders:
+            activity: []
+            effect: []
+            item: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -841,15 +1213,24 @@ items:
             type: ''
           affects:
             choice: false
-            count: ''
-            type: ''
-          prompt: true
+            count: '1'
+            type: creature
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         save:
           ability:
           - dex
@@ -857,12 +1238,27 @@ items:
             calculation: ''
             formula: '14'
         damage:
-          onSave: none
-          parts: []
+          critical:
+            allow: false
+            bonus: ''
+          parts:
+          - number: 2
+            denomination: 8
+            bonus: ''
+            types:
+            - lightning
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+          onSave: half
     properties: []
     requirements: ''
     identifier: assault-suppression
-  _key: '!actors.items!sbJ5MuGebeGcsyFg.P8FXG1wzfvr3htZd'
+  _key: '!actors.items!sbJ5MuGebeGcsyFg.lGJWKD3hIqDOxwgO'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -875,7 +1271,9 @@ items:
     compendiumSource: null
 effects: []
 folder: B7KoyN2Wquc83gzV
-flags: {}
+flags:
+  neon-odyssey:
+    vehicleClass: lightMech
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e

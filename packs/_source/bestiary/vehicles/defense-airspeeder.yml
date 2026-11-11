@@ -303,7 +303,7 @@ prototypeToken:
   movementAction: null
   depth: 2
 items:
-- _id: nJgHeoSSYCihKep3
+- _id: ZjkieM6JEcMXRlv6
   name: Controls
   type: feat
   img: icons/svg/upgrade.svg
@@ -311,10 +311,11 @@ items:
   sort: 0
   system:
     description:
-      value: <p>Pilot and steer the airspeeder and fire the Light Machine Guns:</p>
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -325,31 +326,35 @@ items:
       value: null
       condition: ''
     activities:
-      9ig7oiMrf8oXwQiU:
-        _id: 9ig7oiMrf8oXwQiU
+      uE2iRkgORCoiyONv:
+        _id: uE2iRkgORCoiyONv
         type: utility
-        name: ''
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: bonus
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -359,76 +364,306 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      nt5rRcF26PNZXrJc:
+        _id: nt5rRcF26PNZXrJc
+        type: utility
+        name: Dash
+        img: ''
         sort: 0
-        roll:
-          formula: ''
-          name: ''
-          prompt: false
-          visible: false
-    properties: []
-    requirements: ''
-    identifier: controls
-  _key: '!actors.items!S7XGez0zqXyCfSY3.nJgHeoSSYCihKep3'
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-- _id: W1Z0hBuxlhKiaOOU
-  name: Light Machine Guns
-  type: feat
-  img: icons/svg/upgrade.svg
-  effects: []
-  sort: 0
-  system:
-    description:
-      value: '<p>Ranged Attack Roll: +3 plus crew’s PB, range 200/800 ft. Hit: 14 (2d10 + 3) Piercing damage.</p>'
-      chat: ''
-    type:
-      value: monster
-      subtype: ''
-    uses:
-      max: ''
-      spent: 0
-      recovery: []
-    activation:
-      type: action
-      value: null
-      condition: ''
-    activities:
-      3rggPCDn7tfKnvRU:
-        _id: 3rggPCDn7tfKnvRU
-        type: attack
-        name: ''
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      xwSyyZ96BXbxidpS:
+        _id: xwSyyZ96BXbxidpS
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      9VjDA9lZbohgHqzc:
+        _id: 9VjDA9lZbohgHqzc
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      2mq1GZMxsiqLOdKN:
+        _id: 2mq1GZMxsiqLOdKN
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      Oxe1MWxsk3362o0x:
+        _id: Oxe1MWxsk3362o0x
+        type: attack
+        name: Light Machine Guns
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '200'
+          long: '800'
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
         attack:
-          ability: ''
-          bonus: '3'
+          ability: dex
+          bonus: '@flags.neon-odyssey.crewPB'
           critical:
             threshold: null
-          flat: true
+          flat: false
           type:
             value: ranged
             classification: weapon
@@ -439,7 +674,7 @@ items:
           parts:
           - number: 2
             denomination: 10
-            bonus: '3'
+            bonus: '@mod'
             types:
             - piercing
             custom:
@@ -449,29 +684,10 @@ items:
               mode: ''
               number: null
               formula: ''
-        range:
-          override: true
-          value: '200'
-          long: '800'
-          units: ft
-        uses:
-          spent: 0
-          recovery: []
-          max: ''
-        sort: 0
-        effects: []
-        description:
-          chatFlavor: ''
-        duration:
-          units: inst
-          override: false
-        target:
-          override: false
-          prompt: true
     properties: []
     requirements: ''
-    identifier: light-machine-guns
-  _key: '!actors.items!S7XGez0zqXyCfSY3.W1Z0hBuxlhKiaOOU'
+    identifier: controls
+  _key: '!actors.items!S7XGez0zqXyCfSY3.ZjkieM6JEcMXRlv6'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -482,18 +698,18 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: 5cUlTqnWb00MOvvF
-  name: Signal Intercept
+- _id: rbqI0uC0Yo3i1fXo
+  name: Light Machine Guns
   type: feat
   img: icons/svg/upgrade.svg
   effects: []
   sort: 0
   system:
     description:
-      value: <p>Operate the airspeeder’s communications and sensors. Reactions</p>
+      value: '<p>Ranged Attack Roll: +3 plus crew’s PB, range 200/800 ft. Hit: 14 (2d10 + 3) Piercing damage.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -504,31 +720,37 @@ items:
       value: null
       condition: ''
     activities:
-      ROGA7STrCgy19Vxi:
-        _id: ROGA7STrCgy19Vxi
-        type: utility
-        name: ''
+      oHb0Q9RYc3odeZL5:
+        _id: oHb0Q9RYc3odeZL5
+        type: attack
+        name: Light Machine Guns
+        img: ''
+        sort: 0
         activation:
           type: action
           value: null
-          condition: ''
           override: false
+          condition: ''
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
           chatFlavor: ''
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
+          units: ft
+          value: '200'
+          long: '800'
           override: false
-          units: self
           special: ''
         target:
           template:
@@ -537,24 +759,54 @@ items:
             type: ''
           affects:
             choice: false
-            count: ''
-            type: ''
-          prompt: true
+            count: '1'
+            type: creature
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
-        roll:
-          formula: ''
-          name: ''
-          prompt: false
-          visible: false
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: dex
+          bonus: '@flags.neon-odyssey.crewPB'
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 2
+            denomination: 10
+            bonus: '@mod'
+            types:
+            - piercing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
     properties: []
     requirements: ''
-    identifier: signal-intercept
-  _key: '!actors.items!S7XGez0zqXyCfSY3.5cUlTqnWb00MOvvF'
+    identifier: light-machine-guns
+  _key: '!actors.items!S7XGez0zqXyCfSY3.rbqI0uC0Yo3i1fXo'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -565,7 +817,291 @@ items:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-- _id: 2LRtFiOr6E3QyLms
+- _id: iNfhUpqiTdSE2wIm
+  name: Signal Intercept
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Operate the vehicle’s communications and sensors (requires 1 crew).</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: action
+      value: null
+      condition: ''
+    activities:
+      1h8gLhloPz22lXfM:
+        _id: 1h8gLhloPz22lXfM
+        type: check
+        name: Jam Comms
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: 'Record the total: enemy vehicles within 1 mile must beat it on a vehicle Charisma save to communicate.'
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: cha
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: ''
+      jsu3shw16qGvTVFo:
+        _id: jsu3shw16qGvTVFo
+        type: check
+        name: Malware Strike
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: Target vehicle with Int makes a vehicle Int save vs your total or has Disadvantage on checks, attacks or saves (your choice) for 1 minute.
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: int
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: ''
+      HnZ5pLIT4aaWnHUA:
+        _id: HnZ5pLIT4aaWnHUA
+        type: check
+        name: 'Sensors: Search'
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: wis
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: ''
+      LpEwmAbpscO5KDjo:
+        _id: LpEwmAbpscO5KDjo
+        type: check
+        name: 'Sensors: Scan (DC 10, Advantage)'
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: wis
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: '10'
+    properties: []
+    requirements: ''
+    identifier: signal-intercept
+  _key: '!actors.items!S7XGez0zqXyCfSY3.iNfhUpqiTdSE2wIm'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: JGgGiNBDLbsAnILb
   name: Juke
   type: feat
   img: icons/svg/upgrade.svg
@@ -576,7 +1112,7 @@ items:
       value: '<p>Trigger. The pilot makes a vehicle Dexterity saving throw. Response: The driver has Advantage on the triggering save.</p>'
       chat: ''
     type:
-      value: monster
+      value: vehicle
       subtype: ''
     uses:
       max: ''
@@ -587,31 +1123,35 @@ items:
       value: null
       condition: ''
     activities:
-      4Iget9q79ssjRJFB:
-        _id: 4Iget9q79ssjRJFB
-        type: save
-        name: ''
+      3ahXWXQ0oyH8fEDq:
+        _id: 3ahXWXQ0oyH8fEDq
+        type: utility
+        name: Juke
+        img: ''
+        sort: 0
         activation:
-          type: action
+          type: reaction
           value: null
-          condition: ''
           override: false
+          condition: The driver makes a vehicle Dexterity saving throw
         consumption:
-          targets: []
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
+          targets: []
         description:
-          chatFlavor: ''
+          chatFlavor: The driver has Advantage on the triggering save.
         duration:
           units: inst
           concentration: false
           override: false
+          value: ''
+          special: ''
         effects: []
         range:
-          override: false
           units: self
+          override: false
           special: ''
         target:
           template:
@@ -621,27 +1161,27 @@ items:
           affects:
             choice: false
             count: ''
-            type: ''
-          prompt: true
+            type: self
           override: false
+          prompt: false
         uses:
           spent: 0
           recovery: []
           max: ''
-        sort: 0
-        save:
-          ability:
-          - dex
-          dc:
-            calculation: spellcasting
-            formula: ''
-        damage:
-          onSave: none
-          parts: []
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: juke
-  _key: '!actors.items!S7XGez0zqXyCfSY3.2LRtFiOr6E3QyLms'
+  _key: '!actors.items!S7XGez0zqXyCfSY3.JGgGiNBDLbsAnILb'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e
@@ -654,7 +1194,9 @@ items:
     compendiumSource: null
 effects: []
 folder: B7KoyN2Wquc83gzV
-flags: {}
+flags:
+  neon-odyssey:
+    vehicleClass: lightPlanetary
 _stats:
   coreVersion: '14.360'
   systemId: dnd5e

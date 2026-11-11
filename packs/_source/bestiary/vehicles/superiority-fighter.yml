@@ -1,0 +1,1183 @@
+_id: b0DeUmj3C8w8paqa
+name: Superiority Fighter
+type: vehicle
+img: modules/neon-odyssey/icons/vehicles/planetary-vehicles-icon.webp
+system:
+  identifier: superiority-fighter
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      units: ft
+      hover: true
+      ignoredDifficultTerrain: []
+      fly: 5000
+      walk: 0
+    ac:
+      flat: 22
+      calc: flat
+      motionless: 19 while stationary
+    hp:
+      value: 90
+      max: 90
+      temp: 30
+      tempmax: 0
+      dt: 20
+      mt: 30
+    actions:
+      stations: true
+      thresholds:
+        '0': null
+        '1': null
+        '2': null
+      max: 0
+      spent: 0
+    capacity:
+      creature: '2'
+      cargo:
+        value: 0.1
+        units: tn
+    travel:
+      units: mph
+      paces: {}
+      speeds:
+        air: 900
+      time: 24
+    price:
+      value: null
+      denomination: gp
+    quality:
+      value: 4
+  details:
+    biography:
+      value: '<p>Superiority fighters are larger, all-around vessels: close dogfights, long-range torpedo support against bulkier craft, and robust sensors for patrol or scouting.</p><p><strong>Class</strong>
+        Standard Starfighter (Tiny Starship). <strong>Crew</strong> 1–2. <strong>Initiative</strong> +3 plus PB. <strong>Power Dice</strong> 4d6. <strong>SP</strong> 30 (Damage Threshold 20) — Shield Points
+        are the Temporary HP. <strong>Speed</strong> Fly 10 hexes (500 ft per hex in atmosphere). <strong>Sensors</strong> 50 hexes; Passive Perception 12 plus crew’s PB.</p><p><em>From the earlier Neon
+        Odyssey playtest (starship rules).</em></p>'
+      public: ''
+    type: space
+  source:
+    revision: 1
+    rules: '2024'
+    license: ''
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    page: '197'
+    custom: ''
+  traits:
+    size: tiny
+    di:
+      bypasses: []
+      value:
+      - poison
+      - psychic
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+      - blinded
+      - charmed
+      - deafened
+      - frightened
+      - paralyzed
+      - petrified
+      - poisoned
+      - stunned
+      - unconscious
+      custom: ''
+    dimensions: ''
+    weight:
+      value: 2500
+      units: lb
+    keel:
+      units: ft
+    beam:
+      units: ft
+  cargo:
+    crew: []
+    passengers: []
+  crew:
+    value: []
+  draft:
+    value: []
+  passengers:
+    value: []
+prototypeToken:
+  name: Superiority Fighter
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: modules/neon-odyssey/icons/vehicles/vehicle-token.webp
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 20
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  depth: 2
+items:
+- _id: m15arQ8AGHPFgf4g
+  name: Controls
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Drive or pilot the vehicle (requires 1 crew). The driver can use its movement to move the vehicle up to its Speed, and its action to make the vehicle Dash, Disengage, Dodge or Hide, or Attack
+        with weapons operated from the Controls.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      2jyrtz4QbSpUDgN5:
+        _id: 2jyrtz4QbSpUDgN5
+        type: utility
+        name: Start / Stop Engine
+        img: ''
+        sort: 0
+        activation:
+          type: bonus
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      Q3Xc8R8n5UfvsBZk:
+        _id: Q3Xc8R8n5UfvsBZk
+        type: utility
+        name: Dash
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      SQjauE8kuxWstez0:
+        _id: SQjauE8kuxWstez0
+        type: utility
+        name: Disengage
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      pIMT6VDDvwnC1sgf:
+        _id: pIMT6VDDvwnC1sgf
+        type: utility
+        name: Dodge
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      ZJCxMyPcjWXWYVut:
+        _id: ZJCxMyPcjWXWYVut
+        type: utility
+        name: Hide
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+    properties: []
+    requirements: ''
+    identifier: controls
+  _key: '!actors.items!b0DeUmj3C8w8paqa.m15arQ8AGHPFgf4g'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: EzYUsXBOc72pRwqh
+  name: Laser Cannons
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Martial Weapon, Front. Ranged Attack Roll: +3 plus crew’s PB, range 5/20 hexes. Hit: 5d10 + 4 Radiant damage.</p>'
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      L0m5Ygjw2qfN2qTS:
+        _id: L0m5Ygjw2qfN2qTS
+        type: attack
+        name: Laser Cannons
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: ft
+          value: '2500'
+          long: '10000'
+          override: false
+          special: 5/20 hexes
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: dex
+          bonus: '@flags.neon-odyssey.crewPB'
+          critical:
+            threshold: null
+          flat: false
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 5
+            denomination: 10
+            bonus: '4'
+            types:
+            - radiant
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: laser-cannons
+  _key: '!actors.items!b0DeUmj3C8w8paqa.EzYUsXBOc72pRwqh'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: PshdF1zDTquda5ie
+  name: Pulse Torpedo
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects:
+  - _id: vcLMlHN91DtnUIdk
+    name: Torpedo/Missile Hit
+    img: icons/svg/upgrade.svg
+    type: base
+    system:
+      changes: []
+    disabled: false
+    transfer: false
+    duration:
+      units: rounds
+      value: '1'
+      expiry: null
+      expired: false
+    description: <p>Disadvantage on D20 Tests until the start of the starfighter’s next turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    origin: null
+    start: null
+    showIcon: 1
+    folder: null
+    _stats:
+      coreVersion: '14.360'
+      systemId: dnd5e
+      systemVersion: 6.0.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      duplicateSource: null
+      exportSource: null
+      compendiumSource: null
+    _key: '!actors.items.effects!b0DeUmj3C8w8paqa.PshdF1zDTquda5ie.vcLMlHN91DtnUIdk'
+  sort: 0
+  system:
+    description:
+      value: '<p>Front; 2 missiles. Fires at a target on its sensors; when it enters the target’s space it attacks. Miss: it keeps tracking and can attack again on the starfighter’s next turn.</p>'
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      by4ysFl5vx2mr9Zy:
+        _id: by4ysFl5vx2mr9Zy
+        type: attack
+        name: Pulse Torpedo
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets:
+          - type: activityUses
+            value: '1'
+            target: ''
+            scaling: {}
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects:
+        - _id: vcLMlHN91DtnUIdk
+          riders:
+            activity: []
+            effect: []
+            item: []
+        range:
+          units: ft
+          value: '2500'
+          long: '10000'
+          override: false
+          special: 5/20 hexes
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: '1'
+            type: creature
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: '2'
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        attack:
+          ability: none
+          bonus: '8'
+          critical:
+            threshold: null
+          flat: true
+          type:
+            value: ranged
+            classification: weapon
+        damage:
+          critical:
+            bonus: ''
+          includeBase: false
+          parts:
+          - number: 9
+            denomination: 10
+            bonus: ''
+            types:
+            - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+    properties: []
+    requirements: ''
+    identifier: pulse-torpedo
+  _key: '!actors.items!b0DeUmj3C8w8paqa.PshdF1zDTquda5ie'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: zFRbmUEqG6pPpF3B
+  name: Sensors
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Operate the starfighter’s sensors (requires 1 crew).</p><p><strong>Sensor Sweep.</strong> While the sensors aren’t Passive, the starfighter has Blindsight 5 hexes.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      5TMKiKn9r8Oax8FE:
+        _id: 5TMKiKn9r8Oax8FE
+        type: check
+        name: 'Sensors: Search'
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: wis
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: ''
+      6hkOIYEaPTxBxfDy:
+        _id: 6hkOIYEaPTxBxfDy
+        type: check
+        name: 'Sensors: Scan (DC 10, Advantage)'
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: wis
+          associated:
+          - cmp
+          dc:
+            calculation: ''
+            formula: '10'
+    properties: []
+    requirements: ''
+    identifier: sensors
+  _key: '!actors.items!b0DeUmj3C8w8paqa.zFRbmUEqG6pPpF3B'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: RwghF0RCv1m41ESy
+  name: Shields
+  type: feat
+  img: icons/svg/upgrade.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: <p>Shield Points (30) are tracked as Temporary Hit Points and absorb damage first. They have their own Damage Threshold. After 1 minute without taking damage they return to maximum.</p>
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      d6TOzBBzqcA1dgu3:
+        _id: d6TOzBBzqcA1dgu3
+        type: heal
+        name: Restore Shield Points
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: 1 minute without taking damage
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        healing:
+          number: null
+          denomination: null
+          bonus: ''
+          types:
+          - temphp
+          custom:
+            enabled: true
+            formula: '30'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    properties: []
+    requirements: ''
+    identifier: shields
+  _key: '!actors.items!b0DeUmj3C8w8paqa.RwghF0RCv1m41ESy'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+effects: []
+folder: B7KoyN2Wquc83gzV
+flags:
+  neon-odyssey:
+    vehicleClass: standardStarfighter
+    shieldMax: 30
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+sort: 200000
+ownership:
+  default: 0
+_key: '!actors!b0DeUmj3C8w8paqa'
