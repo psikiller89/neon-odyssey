@@ -45,7 +45,7 @@ system:
         allowReplacements: false
         grants:
         - armor:hvy
-        - tool:art:tinker
+        - tool:art:mechanic
         choices: []
       value: {}
     1o9noq04AjanfOy3:

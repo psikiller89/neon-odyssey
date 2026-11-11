@@ -34,7 +34,7 @@ system:
     revision: 1
   type:
     value: art
-    baseItem: ''
+    baseItem: mechanic
   ability: str
   chatFlavor: ''
   proficient: null

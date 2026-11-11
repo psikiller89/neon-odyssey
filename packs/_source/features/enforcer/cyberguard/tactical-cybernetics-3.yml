@@ -84,7 +84,7 @@ system:
         mode: default
         allowReplacements: false
         grants:
-        - tool:art:tinker
+        - tool:art:engineer
         choices: []
       value: {}
     0V9wW8jJN79DjW8c:

@@ -42,7 +42,7 @@ system:
     revision: 1
   type:
     value: ''
-    baseItem: ''
+    baseItem: pois
   ability: int
   chatFlavor: ''
   proficient: null

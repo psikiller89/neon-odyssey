@@ -30,7 +30,7 @@ system:
     revision: 1
   type:
     value: art
-    baseItem: ''
+    baseItem: surveying
   ability: wis
   chatFlavor: ''
   proficient: null

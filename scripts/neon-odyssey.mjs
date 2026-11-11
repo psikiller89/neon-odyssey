@@ -409,13 +409,20 @@ Hooks.on("createItem", async (item, options, userId) => {
   if ( docs.length ) await actor.createEmbeddedDocuments("Item", docs.map(d => game.items.fromCompendium(d)));
 });
 
-/* Neon Odyssey tools (Bypass Tools, Electronics Tools, Spiking Deck) and the Malware status. */
+/* Neon Odyssey tools from the book. Core keys with a Neon equivalent point to the Neon item so existing grants show the book name. */
 Hooks.once("init", () => {
   const tools = CONFIG.DND5E.tools;
   const I = `Compendium.${MODULE_ID}.items.Item.`;
-  tools.bypass ??= { ability: "dex", id: `${I}7uvYP4Hpk5NqzkQB` };
-  tools.electronics ??= { ability: "int", id: `${I}QtEnNlpK8ltfZ9gd` };
-  tools.spiking ??= { ability: "int", id: `${I}Rt7adqDDyIE4taqD` };
+  const NEON_TOOLS = {
+    painter: ["dex", "469Ci9cfRjPurGvA"], brewer: ["int", "57DVSNEEAzuy0P30"], cook: ["wis", "ec86miJotQkOIlaj"],
+    alchemist: ["int", "yTNGm8Mlp1gckpKP"], mason: ["str", "ir4TscEIA7h7YHBG"], electronics: ["dex", "QtEnNlpK8ltfZ9gd"],
+    engineer: ["dex", "33sXsmnMQakxMFCD"], jeweler: ["int", "znvghkskhrqYeiUe"], mechanic: ["str", "ls9En7asIx46b5et"],
+    polymer: ["int", "AaNTKKWGQo5EPgXF"], surveying: ["wis", "WmVo3QzG4etjXFNi"], weaver: ["dex", "mhsFOJedTzJLibht"],
+    bypass: ["dex", "7uvYP4Hpk5NqzkQB"], forg: ["dex", "8yxOAgALwDE6AMmB"], gameset: ["dex", "OuSBOtZopTjQZpLI"],
+    disg: ["cha", "zc9lxJDbkrn3oAq8"], instrument: ["cha", "QvMKgjq1gOIunojJ"], navg: ["wis", "uBf4FF5qHapyAgXz"],
+    herb: ["int", "3L3ZSmaDIPpkc9HJ"], spiking: ["int", "Rt7adqDDyIE4taqD"], pois: ["int", "BtfnXgHN6AsXeJVt"]
+  };
+  for ( const [key, [ability, id]] of Object.entries(NEON_TOOLS) ) tools[key] = { ...(tools[key] ?? {}), ability, id: `${I}${id}` };
 });
 function neonMalwareStatus() {
   if ( CONFIG.statusEffects.some(s => s.id === "malware") ) return;

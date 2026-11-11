@@ -30,7 +30,7 @@ system:
     revision: 1
   type:
     value: ''
-    baseItem: ''
+    baseItem: disg
   ability: cha
   chatFlavor: ''
   proficient: null

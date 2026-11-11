@@ -32,7 +32,7 @@ system:
     revision: 1
   type:
     value: music
-    baseItem: ''
+    baseItem: instrument
   ability: cha
   chatFlavor: ''
   proficient: null
