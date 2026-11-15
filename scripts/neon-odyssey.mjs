@@ -614,3 +614,24 @@ Hooks.on("dnd5e.rollInitiative", actor => {
   const u = item?.system.uses;
   if ( u && (u.value < 2) ) item.update({ "system.uses.spent": Math.max(0, u.spent - (2 - u.value)) });
 });
+
+/* Esper: Unbound Psyche gains Kinetic Suspension (Critical Mass) and Psionic Omnipresence (Infinite Psyche); Chronokeeper uses the spellcasting ability for Initiative. */
+Hooks.on("createActiveEffect", (effect, options, userId) => {
+  const actor = effect.parent;
+  if ( (userId !== game.user.id) || (effect.name !== "Unbound Psyche") || !(actor instanceof Actor) ) return;
+  const changes = [...(effect.system?.changes ?? effect.changes ?? [])];
+  if ( actor.items.some(i => i.system.identifier === "critical-mass") ) {
+    changes.push({ key: "system.attributes.movement.fly", value: "60", type: "upgrade", phase: "initial", priority: null });
+    changes.push({ key: "system.attributes.movement.hover", value: "true", type: "override", phase: "initial", priority: null });
+  }
+  if ( actor.items.some(i => i.system.identifier === "infinite-psyche") ) changes.push({ key: "system.attributes.senses.ranges.truesight", value: "30", type: "upgrade", phase: "initial", priority: null });
+  if ( changes.length !== (effect.system?.changes ?? effect.changes ?? []).length ) effect.update({ "system.changes": changes });
+});
+Hooks.on("createItem", (item, options, userId) => {
+  if ( (userId !== game.user.id) || (item.system.identifier !== "chronokeeper") || !item.actor ) return;
+  const ability = item.actor.system.attributes?.spellcasting || "cha";
+  for ( const e of item.effects ) {
+    const changes = (e.system?.changes ?? []).map(c => c.key === "system.attributes.init.ability" ? { ...c, value: ability } : c);
+    e.update({ "system.changes": changes });
+  }
+});

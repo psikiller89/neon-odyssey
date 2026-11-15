@@ -53,7 +53,46 @@ system:
       level: 1
       title: Psychic Talent
       hint: ''
-effects: []
+effects:
+- _id: slOTdIcQMxAXqUsV
+  name: Telepathic Speech
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.languages.communication.telepathy.value
+      value: '30'
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: oBwgs38Db3ehT0df
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!TTx9mtCjOqeImqUb.slOTdIcQMxAXqUsV'
 folder: A48O1TAuWsYMNrHN
 sort: 0
 _stats:

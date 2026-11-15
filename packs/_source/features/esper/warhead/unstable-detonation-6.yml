@@ -34,7 +34,7 @@ system:
     eJ9KwSoxMpDYQT3Z:
       _id: eJ9KwSoxMpDYQT3Z
       type: save
-      name: ''
+      name: Unstable Detonation
       activation:
         type: bonus
         value: null
@@ -51,7 +51,7 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: 'Failed save: also pushed up to 10 ft away from you.'
       duration:
         units: inst
         concentration: false
@@ -65,13 +65,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '20'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []

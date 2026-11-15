@@ -80,6 +80,27 @@ system:
       level: 18
       title: Subclass Features
       hint: ''
+    SOAyhfU7fySZdBvV:
+      _id: SOAyhfU7fySZdBvV
+      type: ScaleValue
+      configuration:
+        identifier: rift-walk
+        type: distance
+        distance:
+          units: ft
+        scale:
+          '3':
+            value: 10
+          '6':
+            value: 20
+          '14':
+            value: 30
+      value: {}
+      title: Rift Walk
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
   spellcasting:
     progression: none
     ability: ''

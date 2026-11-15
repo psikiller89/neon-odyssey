@@ -19,7 +19,7 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: '2'
+    max: 2 + @scale.warhead.exploding-power
     spent: 0
     recovery:
     - period: lr
@@ -56,10 +56,11 @@ system:
         chatFlavor: ''
         value: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-        expiry: null
+        special: ''
       effects:
       - _id: WtiHwWONdmCOeSDR
         uuid: null
@@ -93,7 +94,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: Unleash Magic
+      name: Unleash Psyche
       img: systems/dnd5e/icons/svg/activity/cast.svg
       visibility:
         level:
@@ -110,7 +111,7 @@ system:
   advancement: {}
   crewed: false
 effects:
-- name: Innate Sorcery
+- name: Unbound Psyche
   img: icons/magic/control/silhouette-hold-change-blue.webp
   origin: Compendium.neon-odyssey.features.Item.wifkqt1ggPIjpsK4
   transfer: true
@@ -131,7 +132,7 @@ effects:
       value: 1
       phase: initial
       _id: RLa3vOTEprQFBCLV
-      conditions: "{\n  \"k\": \"item.classIdentifier\",\n  \"v\": \"sorcerer\"\n}"
+      conditions: "{\n  \"k\": \"item.classIdentifier\",\n  \"v\": \"esper\"\n}"
       replacement: ''
       priority: null
     origin:
@@ -148,9 +149,9 @@ effects:
   duration:
     value: 60
     units: seconds
-    expiry: turnStart
+    expiry: null
     expired: false
-  description: <p>The spell save DC of your Sorcerer spells increases by 1.</p><p>You have Advantage on the attack rolls of Sorcerer spells you cast.</p>
+  description: <p>Spell save DC +1 and Advantage on Esper spell attack rolls for 1 minute.</p>
   tint: '#ffffff'
   statuses: []
   sort: 0

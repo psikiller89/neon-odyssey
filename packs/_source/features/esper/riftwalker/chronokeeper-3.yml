@@ -27,11 +27,109 @@ system:
     repeatable: false
   properties: []
   requirements: Riftwalker Esper
-  activities: {}
+  activities:
+    uLG7Sq4lH7C7J84Z:
+      _id: uLG7Sq4lH7C7J84Z
+      type: utility
+      name: Reroll Initiative (1 Psi Point)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: After rolling Initiative, before any turns
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:psionic-wellspring
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: chronokeeper
   advancement: {}
-effects: []
+effects:
+- _id: ZXebx1qkcT6w3GG2
+  name: 'Chronokeeper: Initiative uses spellcasting ability'
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.init.ability
+      value: cha
+      priority: null
+      type: override
+      phase: initial
+      _id: uZ5KJu8KtnqsyCFX
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!R8ZltttC3iRxt1SB.ZXebx1qkcT6w3GG2'
 folder: DitCL3G22RycGBNb
 sort: 0
 _stats:

@@ -33,35 +33,39 @@ system:
   properties: []
   requirements: Riftwalker Esper
   activities:
-    RaX894QJaf4R0Mvg:
-      _id: RaX894QJaf4R0Mvg
-      type: damage
-      name: ''
+    F0gYAOXhHHdoCAcs:
+      _id: F0gYAOXhHHdoCAcs
+      type: save
+      name: 'Unwound Future: Space'
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When you hit a creature or deal damage to it (once per turn)
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: On a failed save the target teleports up to 100 ft and its Speed is 0 until the start of your next turn.
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -70,15 +74,30 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - cha
+        dc: &id001
+          calculation: spellcasting
+          formula: ''
       damage:
         critical:
           allow: false
@@ -96,6 +115,75 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: none
+    yrT67opHjhPvzD67:
+      _id: yrT67opHjhPvzD67
+      type: save
+      name: 'Unwound Future: Time'
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: When you hit a creature or deal damage to it (once per turn)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: On a failed save the target vanishes until the start of your next turn.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - cha
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
         - number: 10
           denomination: 10
           bonus: ''
@@ -108,6 +196,70 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: none
+    T7aU9iRvinCvI2Hi:
+      _id: T7aU9iRvinCvI2Hi
+      type: utility
+      name: Restore Use (9 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '9'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: unwound-future
   advancement: {}

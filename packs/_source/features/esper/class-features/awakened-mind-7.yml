@@ -28,64 +28,61 @@ system:
   properties: []
   requirements: Esper
   activities:
-    qSLk2DaH21SNZxve:
+    225nyo5S38pc2tNM:
+      _id: 225nyo5S38pc2tNM
       type: utility
-      name: Restore Innate Sorcery
-      _id: qSLk2DaH21SNZxve
+      name: Unleash Psyche (2 Psi Points)
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: bonus
         value: null
         override: false
-        condition: ''
+        condition: Only when Unbound Psyche has no uses left
       consumption:
         scaling:
           allowed: false
-        spellSlot: true
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '2'
           target: feat:psionic-wellspring
           scaling: {}
-        - type: itemUses
-          value: '-1'
-          target: feat:unbound-psyche
-          scaling: {}
       description:
         chatFlavor: ''
-        value: ''
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-        expiry: null
-      effects: []
+        special: ''
+      effects:
+      - _id: wGDPOxr9it3gfM53
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: ''
-          type: ''
+          type: self
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      flags: {}
       visibility:
         level:
           min: null
@@ -95,12 +92,60 @@ system:
         requireIdentification: false
         requireMagic: false
       behaviors: []
-      flags: {}
   enchant: {}
   identifier: awakened-mind
   advancement: {}
   crewed: false
-effects: []
+effects:
+- name: Unbound Psyche
+  img: icons/magic/control/silhouette-hold-change-blue.webp
+  origin: Compendium.neon-odyssey.features.Item.wifkqt1ggPIjpsK4
+  transfer: true
+  _id: wGDPOxr9it3gfM53
+  type: base
+  system:
+    changes:
+    - key: system.bonuses.spell.dc
+      value: 1
+      priority: null
+      type: add
+      phase: initial
+      _id: 11n5CmLzkmXX9zkt
+      conditions: '{}'
+      replacement: ''
+    - key: attack
+      type: dnd5e.advantage
+      value: 1
+      phase: initial
+      _id: RLa3vOTEprQFBCLV
+      conditions: "{\n  \"k\": \"item.classIdentifier\",\n  \"v\": \"esper\"\n}"
+      replacement: ''
+      priority: null
+    origin:
+      actor: null
+      behavior: null
+      effect: null
+      item: null
+      message: null
+    conditions: '{}'
+    magical: false
+    rider:
+      statuses: []
+  disabled: true
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Spell save DC +1 and Advantage on Esper spell attack rolls for 1 minute.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  start: null
+  showIcon: 1
+  folder: null
+  _key: '!items.effects!h9W3y8KraCaBgamU.wGDPOxr9it3gfM53'
 flags:
   neon-odyssey:
     srcIdentifier: sorcery-incarnate

@@ -28,31 +28,39 @@ system:
   properties: []
   requirements: Esper
   activities:
-    b9Inj2l26jAlXDAS:
-      _id: b9Inj2l26jAlXDAS
+    Nbb4h0UDnpYjCFFQ:
+      _id: Nbb4h0UDnpYjCFFQ
       type: utility
-      name: ''
+      name: Rapid Psi (2 Psi Points)
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When you cast a spell
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '2'
+          target: feat:psionic-wellspring
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -62,19 +70,23 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: rapid-psi
   advancement: {}

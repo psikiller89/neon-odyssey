@@ -84,6 +84,27 @@ system:
       level: 18
       title: Subclass Features
       hint: ''
+    bWcg5vtcjgzuvAqm:
+      _id: bWcg5vtcjgzuvAqm
+      type: ScaleValue
+      configuration:
+        identifier: shred
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 1
+            faces: 8
+          '18':
+            number: 2
+            faces: 8
+      value: {}
+      title: Symbiotic Shred
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
   spellcasting:
     progression: none
     ability: ''

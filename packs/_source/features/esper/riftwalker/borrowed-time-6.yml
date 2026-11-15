@@ -17,9 +17,11 @@ system:
     rules: '2024'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+    - period: lr
+      type: recoverAll
   type:
     value: class
     subtype: ''
@@ -30,15 +32,213 @@ system:
   properties: []
   requirements: Riftwalker Esper
   activities:
+    4y2YcK3D3PCtPxMH:
+      _id: 4y2YcK3D3PCtPxMH
+      type: cast
+      name: Cast Haste (free)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 3
+    ofojmlT0jstcfjmN:
+      _id: ofojmlT0jstcfjmN
+      type: cast
+      name: Cast Slow (free)
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      spell:
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        challenge:
+          override: false
+        properties:
+        - vocal
+        - somatic
+        spellbook: false
+        ability: ''
+        level: 3
+    7SoEvPs6mlpMPJVH:
+      _id: 7SoEvPs6mlpMPJVH
+      type: utility
+      name: 'Borrowed Time: +1 AC'
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: While concentrating on Haste
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: Ryla1604fsvtLoTC
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
     sfWmaojxsn8LmXmH:
       _id: sfWmaojxsn8LmXmH
       type: heal
-      name: ''
+      name: 'Slow: 5 Temp HP per failed save'
       activation:
-        type: ''
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: Use once per target that fails its first save against Slow
       consumption:
         targets: []
         scaling:
@@ -64,9 +264,9 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -85,33 +285,75 @@ system:
           mode: ''
           number: null
           formula: ''
+    nECkLa3k1XFz52bA:
+      _id: nECkLa3k1XFz52bA
+      type: utility
+      name: Restore Use (5 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: borrowed-time
-  advancement:
-    ved0RAxeUlHZ7k4Y:
-      _id: ved0RAxeUlHZ7k4Y
-      type: ItemGrant
-      configuration:
-        items:
-        - uuid: Compendium.dnd5e.spells24.Item.phbsplHaste00000
-          optional: false
-          sort: 0
-        optional: false
-        spell:
-          ability: []
-          uses:
-            max: '1'
-            per: lr
-            requireSlot: false
-          method: spell
-          prepared: 2
-      value: {}
-      level: 6
-      title: Borrowed Time
-      hint: ''
+  advancement: {}
 effects:
 - _id: Ryla1604fsvtLoTC
-  name: Borrowed Time (concentrating on Haste)
+  name: 'Borrowed Time: +1 AC (Haste)'
   img: icons/svg/upgrade.svg
   type: base
   system:
@@ -123,7 +365,7 @@ effects:
       phase: initial
       _id: Mn4LSrwYcbOTBgRF
   disabled: true
-  transfer: true
+  transfer: false
   duration:
     value: null
     units: seconds

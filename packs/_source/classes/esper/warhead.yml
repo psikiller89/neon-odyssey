@@ -77,6 +77,23 @@ system:
       level: 18
       title: Subclass Features
       hint: ''
+    JzXBEOvg7fSPO7EA:
+      _id: JzXBEOvg7fSPO7EA
+      type: ScaleValue
+      configuration:
+        identifier: exploding-power
+        type: number
+        distance:
+          units: ''
+        scale:
+          '14':
+            value: 1
+      value: {}
+      title: Exploding Power
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
   spellcasting:
     progression: none
     ability: ''

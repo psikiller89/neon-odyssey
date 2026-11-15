@@ -29,11 +29,156 @@ system:
     repeatable: false
   properties: []
   requirements: Psychonaut Esper
-  activities: {}
+  activities:
+    EemvSekNc2LPhvO6:
+      _id: EemvSekNc2LPhvO6
+      type: utility
+      name: Fractal Telepathy
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        value: '1'
+        concentration: true
+        override: false
+        special: ''
+      effects:
+      - _id: 6K1BVbcxOgWsKfme
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '1'
+        units: mi
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: max(2, @attributes.spell.mod)
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: empathic-presence
   advancement: {}
-effects: []
+effects:
+- _id: z68zJTrJwoLxJghJ
+  name: Boundless Broadcast
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.languages.communication.telepathy.value
+      value: 20 * @classes.esper.levels
+      priority: null
+      type: upgrade
+      phase: initial
+      _id: wzlHjKtI3T9kPJjP
+  disabled: false
+  transfer: true
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!z0z3nC6ToXjLEsEo.z68zJTrJwoLxJghJ'
+- _id: 6K1BVbcxOgWsKfme
+  name: Fractal Telepathy
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.skills.inv.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: lcvC9xAlGpAeY0Q9
+    - key: system.skills.prc.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: Q3x9SSZ7apkpfFqU
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Advantage on Investigation and Perception checks while you concentrate on the telepathic links.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!z0z3nC6ToXjLEsEo.6K1BVbcxOgWsKfme'
 folder: iIYvvG9Ga4e5RgAN
 sort: 0
 _stats:

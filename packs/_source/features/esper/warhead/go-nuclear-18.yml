@@ -36,7 +36,7 @@ system:
     ZY6zoTePaHAEivby:
       _id: ZY6zoTePaHAEivby
       type: save
-      name: ''
+      name: Go Nuclear
       activation:
         type: action
         value: null
@@ -53,14 +53,14 @@ system:
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Creatures entering or starting their turn in the emanation save; on a fail they are also pushed 10 ft.
       duration:
-        units: inst
+        units: minute
+        value: '1'
         concentration: false
         override: false
-      effects:
-      - _id: LYVvCH56DryDvH4c
-        onSave: false
+        special: ''
+      effects: []
       range:
         override: false
         units: self
@@ -69,13 +69,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '30'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
@@ -102,44 +106,73 @@ system:
             mode: ''
             number: null
             formula: ''
+    aKanN8WW2Xjhijpw:
+      _id: aKanN8WW2Xjhijpw
+      type: utility
+      name: Restore Use (5 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: go-nuclear
   advancement: {}
-effects:
-- _id: LYVvCH56DryDvH4c
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
-  type: base
-  system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
-  sort: 0
-  flags: {}
-  description: ''
-  showIcon: 1
-  start: null
-  folder: null
-  _stats:
-    coreVersion: '14.360'
-    systemId: dnd5e
-    systemVersion: 6.0.6
-    createdTime: null
-    modifiedTime: null
-    lastModifiedBy: null
-    duplicateSource: null
-    exportSource: null
-    compendiumSource: null
-  _key: '!items.effects!Pw3rv9vhdc1ppezf.LYVvCH56DryDvH4c'
+effects: []
 folder: rox6ZyB1LxbRugjH
 sort: 0
 _stats:

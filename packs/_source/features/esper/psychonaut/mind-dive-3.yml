@@ -31,15 +31,87 @@ system:
   properties: []
   requirements: Psychonaut Esper
   activities:
+    kic8d4oUehNNevpx:
+      _id: kic8d4oUehNNevpx
+      type: damage
+      name: Crack Psyche
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: When you deal Psychic damage with a spell
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: true
+            formula: max(0, @attributes.spell.mod)
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
     QuFySyF1KupwzY2U:
       _id: QuFySyF1KupwzY2U
       type: utility
-      name: ''
+      name: Thought Reader
       activation:
-        type: ''
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When you cast Detect Thoughts
       consumption:
         targets:
         - type: itemUses

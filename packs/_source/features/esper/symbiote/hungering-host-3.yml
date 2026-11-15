@@ -29,31 +29,41 @@ system:
   properties: []
   requirements: Symbiote Esper
   activities:
-    X60LACOu1sdg3Uyn:
-      _id: X60LACOu1sdg3Uyn
+    RZDaSOxvrNnDmyrC:
+      _id: RZDaSOxvrNnDmyrC
       type: utility
-      name: ''
+      name: Consume Pain
+      img: ''
+      sort: 0
       activation:
-        type: bonus
+        type: reaction
         value: null
-        condition: ''
         override: false
+        condition: When you take damage
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
+          allowed: true
+          max: '@prof'
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:psionic-wellspring
+          scaling:
+            mode: amount
+            formula: '1'
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -63,19 +73,114 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       roll:
-        formula: ''
-        name: ''
+        formula: (1 + @scaling)d6
+        name: Damage reduced
         prompt: false
-        visible: false
+        visible: true
+    2q08QAT7LlMuUEif:
+      _id: 2q08QAT7LlMuUEif
+      type: attack
+      name: Void Rend (1 Psi Point)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Advantage if you cast a spell this turn
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:psionic-wellspring
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '10'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      attack:
+        ability: spellcasting
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+      damage:
+        critical:
+          bonus: ''
+        includeBase: false
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: true
+            formula: '@scale.symbiote.shred + @mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: hungering-host
   advancement: {}

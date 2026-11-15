@@ -30,15 +30,70 @@ system:
   properties: []
   requirements: Psychonaut Esper
   activities:
-    lyVMvGnE0t0iLSya:
-      _id: lyVMvGnE0t0iLSya
-      type: save
-      name: ''
+    3EcFp2CiWUTe5KQS:
+      _id: 3EcFp2CiWUTe5KQS
+      type: utility
+      name: Borrow Senses
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        value: '1'
+        concentration: false
+        override: false
+        special: Until the start of your next turn
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    lyVMvGnE0t0iLSya:
+      _id: lyVMvGnE0t0iLSya
+      type: save
+      name: Transfer Spell
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: When you cast a Divination, Enchantment or Illusion spell
       consumption:
         targets: []
         scaling:
@@ -63,10 +118,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

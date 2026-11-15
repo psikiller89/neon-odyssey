@@ -33,12 +33,12 @@ system:
     659z8XoscUrZz42g:
       _id: 659z8XoscUrZz42g
       type: save
-      name: ''
+      name: Temporal Doorway (enemy enters rift)
       activation:
-        type: ''
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When an enemy enters one of your rifts
       consumption:
         targets: []
         scaling:
@@ -63,10 +63,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

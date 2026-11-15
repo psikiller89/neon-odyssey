@@ -36,10 +36,12 @@ system:
   - mgc
   requirements: Esper
   activities:
-    rYDgagyWjp6f3jtO:
+    CD6Qkv8kT2VfmAHO:
+      _id: CD6Qkv8kT2VfmAHO
       type: utility
-      name: Regain Spell Slot
-      _id: rYDgagyWjp6f3jtO
+      name: Create Level 1 Spell Slot (2 Psi Points)
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
@@ -47,73 +49,316 @@ system:
         condition: ''
       consumption:
         scaling:
-          allowed: true
-          max: '5'
-        spellSlot: true
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
-          value: 1 + @scaling + floor(@scaling / 3)
-          target: ''
-          scaling:
-            mode: ''
+          value: '2'
+          target: feat:psionic-wellspring
+          scaling: {}
         - type: spellSlots
           value: '-1'
           target: '1'
-          scaling:
-            mode: level
-            formula: ''
+          scaling: {}
       description:
         chatFlavor: ''
-        value: ''
       duration:
         units: inst
         concentration: false
         override: false
-        expiry: null
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: ''
-          type: ''
+          type: self
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: systems/dnd5e/icons/svg/damage/force.svg
+      flags: {}
       visibility:
         level:
-          min: null
+          min: 2
           max: null
-        identifier: ''
-        requireMagic: true
+        identifier: esper
         requireAttunement: false
         requireIdentification: false
+        requireMagic: false
       behaviors: []
-      flags: {}
-    qAphJay1yKd7VWxH:
+    WHadHWZs15hs2jhl:
+      _id: WHadHWZs15hs2jhl
       type: utility
-      name: Regain Psi Points
-      _id: qAphJay1yKd7VWxH
+      name: Create Level 2 Spell Slot (3 Psi Points)
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '3'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: spellSlots
+          value: '-1'
+          target: '2'
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 3
+          max: null
+        identifier: esper
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    lrUDxurvy1QW034V:
+      _id: lrUDxurvy1QW034V
+      type: utility
+      name: Create Level 3 Spell Slot (5 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '5'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: spellSlots
+          value: '-1'
+          target: '3'
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 5
+          max: null
+        identifier: esper
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    aLXE3o81Tvg7XUer:
+      _id: aLXE3o81Tvg7XUer
+      type: utility
+      name: Create Level 4 Spell Slot (6 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '6'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: spellSlots
+          value: '-1'
+          target: '4'
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 7
+          max: null
+        identifier: esper
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    mZqJX4EJFRGa2x8W:
+      _id: mZqJX4EJFRGa2x8W
+      type: utility
+      name: Create Level 5 Spell Slot (7 Psi Points)
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '7'
+          target: feat:psionic-wellspring
+          scaling: {}
+        - type: spellSlots
+          value: '-1'
+          target: '5'
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: 9
+          max: null
+        identifier: esper
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    XKaJIhCbZL8ZKdRM:
+      _id: XKaJIhCbZL8ZKdRM
+      type: utility
+      name: Convert Spell Slot to Psi Points
+      img: ''
+      sort: 0
+      activation:
+        type: none
         value: null
         override: false
         condition: ''
@@ -121,7 +366,7 @@ system:
         scaling:
           allowed: true
           max: '9'
-        spellSlot: true
+        spellSlot: false
         targets:
         - type: spellSlots
           value: '1'
@@ -137,50 +382,42 @@ system:
             formula: '-1'
       description:
         chatFlavor: ''
-        value: ''
       duration:
         units: inst
         concentration: false
         override: false
-        expiry: null
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
           contiguous: false
           units: ft
           type: ''
-          stationary: false
         affects:
           choice: false
           count: ''
-          type: ''
+          type: self
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: systems/dnd5e/icons/svg/activity/heal.svg
+      flags: {}
       visibility:
         level:
           min: null
           max: null
         identifier: ''
-        requireMagic: true
         requireAttunement: false
         requireIdentification: false
+        requireMagic: false
       behaviors: []
-      flags: {}
   enchant: {}
   identifier: psionic-wellspring
   advancement: {}

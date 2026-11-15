@@ -34,10 +34,10 @@ system:
       type: utility
       _id: H8hZYUmd4BHU3mek
       activation:
-        type: shortRest
+        type: none
         value: null
         override: false
-        condition: ''
+        condition: When you finish a Short Rest
       consumption:
         scaling:
           allowed: false
@@ -49,7 +49,7 @@ system:
           target: ''
           scaling: {}
         - type: itemUses
-          value: -(floor(@classes.esper.levels / 2))
+          value: -floor(@classes.esper.levels / 2)
           target: feat:psionic-wellspring
           scaling: {}
       description:
