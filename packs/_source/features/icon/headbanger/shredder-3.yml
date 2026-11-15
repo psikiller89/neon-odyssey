@@ -31,7 +31,61 @@ system:
   activities: {}
   enchant: {}
   identifier: shredder
-  advancement: {}
+  advancement:
+    cbbyEQkEY6Gj96bN:
+      _id: cbbyEQkEY6Gj96bN
+      type: Trait
+      level: 0
+      title: Studs and Leather
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+        - armor:med
+        - armor:shl
+        choices: []
+      value: {}
+    TJNWDVzujfbzhTYv:
+      _id: TJNWDVzujfbzhTYv
+      type: Trait
+      level: 0
+      title: 'Studs and Leather: Skill'
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - skills:ath
+          - skills:itm
+      value: {}
+    mClzRzqfUjnCZkHR:
+      _id: mClzRzqfUjnCZkHR
+      type: Trait
+      level: 0
+      title: 'Axe-Slinger: Martial Weapon'
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 1
+          pool:
+          - weapon:mar:*
+      value: {}
 effects: []
 folder: 4HG1MuYpX6idf014
 sort: 0

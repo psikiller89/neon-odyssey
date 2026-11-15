@@ -1,11 +1,12 @@
 /* Neon Odyssey character sheet: a themed variant of the dnd5e character sheet, selectable per character. */
 const NEON_ID = "neon-odyssey";
+const NEON_NPC_TABS = { features: "Abilities", inventory: "Gear", effects: "Status", biography: "Dossier", specialTraits: "Traits" };
 const NEON_TABS = { details: "Outrunner", inventory: "Gear", features: "Abilities", spells: "Spells", effects: "Status", biography: "Dossier" };
 
 Hooks.once("init", () => {
   game.settings.register(NEON_ID, "defaultSheet", {
     name: "Neon Odyssey Sheet by Default",
-    hint: "Use the Neon Odyssey character sheet for characters that haven't picked a sheet. Each character can still change sheet from its sheet configuration.",
+    hint: "Use the Neon Odyssey sheets for characters and NPCs that haven't picked a sheet. Each character can still change sheet from its sheet configuration.",
     scope: "world", config: true, type: Boolean, default: false, requiresReload: true
   });
   const Base = dnd5e.applications.actor.CharacterActorSheet;
@@ -63,5 +64,21 @@ Hooks.once("init", () => {
 
   foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, NEON_ID, NeonOdysseySheet, {
     types: ["character"], label: "Neon Odyssey Sheet", makeDefault: game.settings.get(NEON_ID, "defaultSheet")
+  });
+
+  const NpcBase = dnd5e.applications.actor.NPCActorSheet;
+  class NeonOdysseyNPCSheet extends NpcBase {
+    static DEFAULT_OPTIONS = { classes: ["neon-odyssey-sheet", "neon-npc"] };
+    static TABS = NpcBase.TABS.map(t => ({ ...t, label: NEON_NPC_TABS[t.tab] ?? t.label }));
+    _onRender(context, options) {
+      super._onRender(context, options);
+      const header = this.element.querySelector(".sheet-header");
+      if ( header && !header.querySelector(".neon-brand") ) {
+        header.insertAdjacentHTML("afterbegin", `<div class="neon-brand"><span>Neon Odyssey</span><em>Threat Dossier</em></div>`);
+      }
+    }
+  }
+  foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, NEON_ID, NeonOdysseyNPCSheet, {
+    types: ["npc"], label: "Neon Odyssey NPC Sheet", makeDefault: game.settings.get(NEON_ID, "defaultSheet")
   });
 });

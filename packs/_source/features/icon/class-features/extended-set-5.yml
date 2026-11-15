@@ -27,36 +27,44 @@ system:
   properties: []
   requirements: Icon
   activities:
-    MTIru0Pv58RveWan:
+    ViNLkOx0gkX4KYRY:
+      _id: ViNLkOx0gkX4KYRY
       type: utility
-      name: Recharge with Spell Slot
-      _id: MTIru0Pv58RveWan
+      name: Regain Iconic Inspiration (Spell Slot)
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: none
         value: null
         override: false
         condition: ''
       consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: false
         targets:
-        - type: itemUses
-          value: '-1'
-          target: feat:iconic-inspiration
         - type: spellSlots
           value: '1'
           target: '1'
-        scaling:
-          allowed: false
-        spellSlot: true
+          scaling:
+            mode: level
+        - type: itemUses
+          value: '-1'
+          target: feat:iconic-inspiration
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -67,21 +75,22 @@ system:
           choice: false
           count: ''
           type: self
-          special: ''
         override: false
         prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      img: ''
-      appliedEffects: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: extended-set
 effects: []

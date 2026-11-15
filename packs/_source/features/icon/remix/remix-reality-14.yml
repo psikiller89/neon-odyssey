@@ -36,7 +36,7 @@ system:
     uTBajtP1Qg0FBlbu:
       _id: uTBajtP1Qg0FBlbu
       type: save
-      name: ''
+      name: Drop the Beat
       activation:
         type: action
         value: null
@@ -60,11 +60,22 @@ system:
         override: false
       effects:
       - _id: u2HQvmZR6eM6Rq1F
+        riders:
+          activity: []
+          effect: []
+          item: []
         onSave: false
+      - _id: bPlvDN4FllLD8ekH
+        onSave: true
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -72,10 +83,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '2'
+          type: enemy
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -90,6 +101,70 @@ system:
       damage:
         onSave: none
         parts: []
+    u6jHAVfiXrTd6eho:
+      _id: u6jHAVfiXrTd6eho
+      type: utility
+      name: Restore Use (Level 5+ Spell Slot)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: false
+        targets:
+        - type: spellSlots
+          value: '1'
+          target: '5'
+          scaling:
+            mode: level
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: remix-reality
   advancement: {}
@@ -105,8 +180,8 @@ effects:
   transfer: false
   disabled: false
   duration:
-    value: null
-    units: seconds
+    units: rounds
+    value: '1'
     expiry: null
     expired: false
   origin: null
@@ -128,6 +203,45 @@ effects:
     exportSource: null
     compendiumSource: null
   _key: '!items.effects!58T6fAJ9KEA9YYoO.u2HQvmZR6eM6Rq1F'
+- _id: bPlvDN4FllLD8ekH
+  name: Off Beat
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.attributes.movement.walk
+      value: '0.5'
+      priority: null
+      type: multiply
+      phase: initial
+      _id: 1MHWB7EPCunmhCCI
+  disabled: false
+  transfer: false
+  duration:
+    units: rounds
+    value: '1'
+    expiry: null
+    expired: false
+  description: <p>Speed halved; Disadvantage on its next attack roll.</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!58T6fAJ9KEA9YYoO.bPlvDN4FllLD8ekH'
 folder: uOX2aXIm3TCM5Aaf
 sort: 0
 _stats:

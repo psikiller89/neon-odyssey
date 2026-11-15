@@ -4,8 +4,8 @@ type: feat
 img: icons/magic/sonic/explosion-impact-shock-wave.webp
 system:
   description:
-    value: <p>The thrill of a crowd or an important performance replenishes your creativity. When you roll Initiative, you regain expended uses of Iconic Inspiration until you have two if you have fewer
-      than that.</p>
+    value: '<p>The thrill of a crowd or an important performance replenishes your creativity. When you roll Initiative, you regain expended uses of Iconic Inspiration until you have two if you have fewer
+      than that.</p><p><em>Automated: when you roll Initiative, your Iconic Inspiration uses are topped up to 2.</em></p>'
     chat: ''
   source:
     custom: ''

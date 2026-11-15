@@ -36,9 +36,9 @@ system:
     z7KdTVKmYWytgIzJ:
       _id: z7KdTVKmYWytgIzJ
       type: utility
-      name: ''
+      name: Lightshow (Silent Image, no Concentration, 10 min)
       activation:
-        type: ''
+        type: special
         value: null
         condition: ''
         override: false
@@ -84,6 +84,69 @@ system:
         name: ''
         prompt: false
         visible: false
+    gZu0bb1opkDRa8cz:
+      _id: gZu0bb1opkDRa8cz
+      type: utility
+      name: Restore Use (Iconic Inspiration)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:iconic-inspiration
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: glitz-and-glamour
   advancement:

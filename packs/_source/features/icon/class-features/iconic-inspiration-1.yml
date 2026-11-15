@@ -69,20 +69,15 @@ system:
         override: false
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
+          choice: false
           count: '1'
           type: creature
-          choice: false
-          special: ''
-        prompt: false
         override: false
+        prompt: false
       roll:
         formula: '@scale.icon.inspiration'
         name: Bardic Inspiration
@@ -95,6 +90,66 @@ system:
       sort: 0
       name: Inspire
       img: systems/dnd5e/icons/svg/damage/psychic.svg
+    aIoQov1obrKcEhiu:
+      _id: aIoQov1obrKcEhiu
+      type: utility
+      name: Roll Iconic Inspiration Die
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you fail a D20 Test while holding the die
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      roll:
+        formula: '@scale.icon.inspiration'
+        name: Roll Iconic Inspiration Die
+        prompt: false
+        visible: true
   enchant: {}
   identifier: iconic-inspiration
 effects:
@@ -103,7 +158,7 @@ effects:
   duration:
     value: 3600
     units: seconds
-    expiry: turnStart
+    expiry: null
     expired: false
   disabled: false
   flags: {}
@@ -112,8 +167,7 @@ effects:
   type: base
   system:
     changes: []
-  description: <p>You have received Bardic Inspiration. Once within the next hour when you fail a D20 Test, you can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning
-    the failure into a success. A Bardic Inspiration die is expended when it's rolled.</p>
+  description: '<p>Holds an Iconic Inspiration die for 1 hour: once, after failing a D20 Test, roll it and add it to the d20.</p>'
   tint: '#ffffff'
   transfer: false
   statuses: []

@@ -1,5 +1,5 @@
 /* Neon Odyssey character sheet theme */
-.dnd5e2.sheet.actor.character.neon-odyssey-sheet {
+.dnd5e2.sheet.actor.neon-odyssey-sheet {
   --neon-bg: #120826; --neon-panel: #1e1040; --neon-panel2: #2a1656; --neon-line: #5b34a6;
   --neon-pink: #ff2e97; --neon-cyan: #2de2ff; --neon-yellow: #ffd31a; --neon-orange: #ff7a2f;
   --neon-text: #f3eaff; --neon-muted: #a99ad3;

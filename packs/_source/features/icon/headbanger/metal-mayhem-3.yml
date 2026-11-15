@@ -1,7 +1,7 @@
 _id: nkuNZ4PzT34Vp67z
 name: Metal Mayhem
 type: feat
-img: icons/svg/upgrade.svg
+img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
 system:
   description:
     value: <p>You unleash the defiant aggression of your screaming song. When you expend a use of Iconic Inspiration, you can enter a rocking fury (no action required) that lasts for 1 minute or until you
@@ -30,35 +30,40 @@ system:
   properties: []
   requirements: Headbanger Icon
   activities:
-    lETbxa5BuLD95YNR:
-      _id: lETbxa5BuLD95YNR
-      type: save
-      name: ''
+    PdOV0o0vEbOURkvE:
+      _id: PdOV0o0vEbOURkvE
+      type: heal
+      name: Enter Metal Mayhem
+      img: ''
+      sort: 0
       activation:
-        type: ''
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When you expend a use of Iconic Inspiration
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects:
-      - _id: ACMIX0KVGLEYX0ar
-        onSave: false
-      - _id: uNzvfB78ynrNsz8G
-        onSave: false
+      - _id: m28mt9CfOOunnIMq
+        riders:
+          activity: []
+          effect: []
+          item: []
       range:
-        override: false
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -68,49 +73,128 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: '@scale.icon.inspiration.faces'
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+    7lWWqvKjo2mIZX39:
+      _id: 7lWWqvKjo2mIZX39
+      type: save
+      name: Steel Slam
+      img: ''
       sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: Once on each of your turns when you hit a creature (while in Metal Mayhem)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: VpLmllBf16kiCmfz
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - str
         dc:
           calculation: spellcasting
           formula: ''
-      damage:
-        onSave: none
-        parts: []
   enchant: {}
   identifier: metal-mayhem
   advancement: {}
 effects:
-- _id: ACMIX0KVGLEYX0ar
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: m28mt9CfOOunnIMq
+  name: Metal Mayhem
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
   type: base
   system:
     changes: []
-  statuses:
-  - incapacitated
-  transfer: false
   disabled: false
+  transfer: false
   duration:
-    value: null
+    value: 60
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: '<p>Rocking fury: Advantage on saves to avoid or end Charmed/Frightened. Once per turn on a hit, Steel Slam.</p>'
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -122,29 +206,29 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!nkuNZ4PzT34Vp67z.ACMIX0KVGLEYX0ar'
-- _id: uNzvfB78ynrNsz8G
-  name: Prone
-  img: systems/dnd5e/icons/svg/statuses/prone.svg
+  _key: '!items.effects!nkuNZ4PzT34Vp67z.m28mt9CfOOunnIMq'
+- _id: VpLmllBf16kiCmfz
+  name: Prone (Steel Slam)
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
   type: base
   system:
     changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: null
+    units: seconds
+    expiry: null
+    expired: false
+  description: ''
+  tint: '#ffffff'
   statuses:
   - prone
-  transfer: false
-  disabled: false
-  duration:
-    value: null
-    units: seconds
-    expiry: null
-    expired: false
-  origin: null
-  tint: '#ffffff'
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -156,7 +240,7 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!nkuNZ4PzT34Vp67z.uNzvfB78ynrNsz8G'
+  _key: '!items.effects!nkuNZ4PzT34Vp67z.VpLmllBf16kiCmfz'
 folder: 4HG1MuYpX6idf014
 sort: 0
 _stats:

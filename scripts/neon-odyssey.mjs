@@ -599,3 +599,18 @@ Hooks.on("dnd5e.applyDamage", async (actor, amount) => {
   }
   await actor.createEmbeddedDocuments("ActiveEffect", [data]);
 });
+
+/* Icon: Extended Set (level 5) restores Iconic Inspiration on a Short Rest; Endless Encore tops it up to 2 on Initiative. */
+const neonIconicItem = actor => actor?.items.find(i => i.system.identifier === "iconic-inspiration");
+const neonHasFeat = (actor, id) => actor?.items.some(i => i.system.identifier === id);
+Hooks.on("dnd5e.restCompleted", (actor, result, config) => {
+  if ( (config?.type ?? (result?.longRest ? "long" : "short")) !== "short" || !neonHasFeat(actor, "extended-set") ) return;
+  const item = neonIconicItem(actor);
+  if ( item?.system.uses.spent ) item.update({ "system.uses.spent": 0 });
+});
+Hooks.on("dnd5e.rollInitiative", actor => {
+  if ( !neonHasFeat(actor, "endless-encore") ) return;
+  const item = neonIconicItem(actor);
+  const u = item?.system.uses;
+  if ( u && (u.value < 2) ) item.update({ "system.uses.spent": Math.max(0, u.spent - (2 - u.value)) });
+});

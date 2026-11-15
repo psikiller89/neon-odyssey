@@ -34,11 +34,11 @@ system:
     FEim5HNZ8xssTZ47:
       _id: FEim5HNZ8xssTZ47
       type: utility
-      name: ''
+      name: Hologram Grants a Die
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
+        condition: When you grant an Iconic Inspiration die
         override: false
       consumption:
         targets:
@@ -58,9 +58,10 @@ system:
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -68,10 +69,10 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []

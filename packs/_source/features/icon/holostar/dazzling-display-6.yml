@@ -32,7 +32,7 @@ system:
     pMsiwg08O5jeJKIe:
       _id: pMsiwg08O5jeJKIe
       type: utility
-      name: ''
+      name: Switch Places with Hologram
       activation:
         type: bonus
         value: null
@@ -52,9 +52,10 @@ system:
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -78,7 +79,31 @@ system:
         visible: false
   enchant: {}
   identifier: dazzling-display
-  advancement: {}
+  advancement:
+    Rsu4W6tJh0FIh0ys:
+      _id: Rsu4W6tJh0FIh0ys
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 6
+      title: Dazzling Display
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 folder: gHY5pYrSBJNC2d2E
 sort: 0

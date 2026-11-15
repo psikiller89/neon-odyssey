@@ -29,6 +29,34 @@ system:
   activities: {}
   enchant: {}
   identifier: song-of-the-cosmos
+  advancement:
+    2Ghm28L7RlMY5vCa:
+      _id: 2Ghm28L7RlMY5vCa
+      type: ItemGrant
+      configuration:
+        items:
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordH
+          optional: false
+          sort: 0
+        - uuid: Compendium.dnd5e.spells24.Item.phbsplPowerWordK
+          optional: false
+          sort: 0
+        optional: false
+        spell:
+          ability: []
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          method: spell
+          prepared: 2
+      value: {}
+      level: 20
+      title: Song of the Cosmos
+      hint: ''
+      icon: null
+      classRestriction: ''
+      flags: {}
 effects: []
 flags:
   dnd5e:

@@ -31,34 +31,102 @@ system:
   properties: []
   requirements: Souljammer Icon
   activities:
-    tt3viIWST3qba56c:
-      _id: tt3viIWST3qba56c
+    bPZIoi112CoI5DpU:
+      _id: bPZIoi112CoI5DpU
       type: utility
-      name: ''
+      name: Transcendent Bebop
+      img: ''
+      sort: 0
       activation:
         type: bonus
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:iconic-inspiration
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: IlXyLNCje1Y5C7q7
-        onSave: false
-      range:
-        override: false
-        units: self
+        value: ''
         special: ''
+      effects:
+      - _id: Egogs8xv2T1jI1UU
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: true
+          count: max(1,@abilities.cha.mod)
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    L7UxGei7Dyddvt5L:
+      _id: L7UxGei7Dyddvt5L
+      type: damage
+      name: Bebop Backlash
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature damages a Transcendent Bebop target (once per turn)
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -66,46 +134,78 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: enemy
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - psychic
+          custom:
+            enabled: true
+            formula: '@scale.icon.inspiration'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
   enchant: {}
   identifier: rhapsody-in-blues
   advancement: {}
 effects:
-- _id: IlXyLNCje1Y5C7q7
-  name: Incapacitated
-  img: systems/dnd5e/icons/svg/statuses/incapacitated.svg
+- _id: 1Ns5ay2oworcVIw3
+  name: Soothed Soul
+  img: icons/svg/upgrade.svg
   type: base
   system:
-    changes: []
-  statuses:
-  - incapacitated
-  transfer: false
+    changes:
+    - key: system.traits.ci.value
+      value: charmed
+      priority: null
+      type: add
+      phase: initial
+      _id: 8VcNLpfsb1VXqa3d
+    - key: system.traits.ci.value
+      value: frightened
+      priority: null
+      type: add
+      phase: initial
+      _id: pCCffK6LKIvY5Gy1
   disabled: false
+  transfer: true
   duration:
     value: null
     units: seconds
     expiry: null
     expired: false
-  origin: null
+  description: <p>Immunity to Charmed and Frightened.</p>
   tint: '#ffffff'
+  statuses: []
   sort: 0
   flags: {}
-  description: ''
-  showIcon: 1
+  origin: null
   start: null
+  showIcon: 1
   folder: null
   _stats:
     coreVersion: '14.360'
@@ -117,7 +217,40 @@ effects:
     duplicateSource: null
     exportSource: null
     compendiumSource: null
-  _key: '!items.effects!yqIbD3BrHn2zVXOb.IlXyLNCje1Y5C7q7'
+  _key: '!items.effects!yqIbD3BrHn2zVXOb.1Ns5ay2oworcVIw3'
+- _id: Egogs8xv2T1jI1UU
+  name: Transcendent Bebop
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes: []
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Heroic Inspiration granted. A creature that damages this target takes Psychic damage equal to one roll of the Iconic Inspiration die (once per turn).</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!yqIbD3BrHn2zVXOb.Egogs8xv2T1jI1UU'
 folder: qaA0bMPEx2BVOKkM
 sort: 0
 _stats:

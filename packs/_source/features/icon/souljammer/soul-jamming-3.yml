@@ -28,32 +28,41 @@ system:
   properties: []
   requirements: Souljammer Icon
   activities:
-    GMPn19FYXTz68qzq:
-      _id: GMPn19FYXTz68qzq
+    0Yah4hgKJ26FAEjy:
+      _id: 0Yah4hgKJ26FAEjy
       type: utility
-      name: ''
+      name: Soul Jamming
+      img: ''
+      sort: 0
       activation:
         type: reaction
         value: null
-        condition: ''
         override: false
+        condition: A creature within 60 ft succeeds on an ability check or saving throw
       consumption:
-        targets: []
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:iconic-inspiration
+          scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
@@ -61,20 +70,29 @@ system:
           type: ''
         affects:
           choice: false
-          count: ''
-          type: ''
-        prompt: true
+          count: '1'
+          type: creature
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       roll:
-        formula: ''
-        name: ''
+        formula: -@scale.icon.inspiration
+        name: Soul Jamming
         prompt: false
-        visible: false
+        visible: true
   enchant: {}
   identifier: soul-jamming
   advancement: {}

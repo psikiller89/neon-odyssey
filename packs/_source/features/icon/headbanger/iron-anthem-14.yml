@@ -34,35 +34,182 @@ system:
   properties: []
   requirements: Headbanger Icon
   activities:
-    v33UCpDKzouqHEb5:
-      _id: v33UCpDKzouqHEb5
-      type: save
-      name: ''
+    04nYBV4YLvApZ0wB:
+      _id: 04nYBV4YLvApZ0wB
+      type: utility
+      name: Invoke Iron Anthem
+      img: ''
+      sort: 0
       activation:
-        type: reaction
+        type: none
         value: null
-        condition: ''
         override: false
+        condition: When you activate Metal Mayhem
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        value: '1'
+        concentration: false
+        override: false
+        special: ''
+      effects:
+      - _id: BnJQiE3NdpzWfzNH
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: true
+          count: max(1,@abilities.cha.mod)
+          type: ally
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    uYq3PuBWkmKY1eSV:
+      _id: uYq3PuBWkmKY1eSV
+      type: damage
+      name: Power Chord
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: An affected creature is hit by an attack roll
+      consumption:
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
+        targets: []
       description:
         chatFlavor: ''
       duration:
         units: inst
         concentration: false
         override: false
+        value: ''
+        special: ''
       effects: []
       range:
+        value: '5'
+        units: ft
+        special: ''
         override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - thunder
+          custom:
+            enabled: true
+            formula: '@abilities.cha.mod'
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+    zodoVeV3eaGO7KCS:
+      _id: zodoVeV3eaGO7KCS
+      type: utility
+      name: Restore Use (Level 7+ Spell Slot)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: false
+        targets:
+        - type: spellSlots
+          value: '1'
+          target: '7'
+          scaling:
+            mode: level
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
         units: self
+        override: false
         special: ''
       target:
         template:
@@ -72,27 +219,78 @@ system:
         affects:
           choice: false
           count: ''
-          type: ''
-        prompt: true
+          type: self
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
-      save:
-        ability:
-        - dex
-        dc:
-          calculation: spellcasting
-          formula: ''
-      damage:
-        onSave: none
-        parts: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: iron-anthem
   advancement: {}
-effects: []
+effects:
+- _id: BnJQiE3NdpzWfzNH
+  name: Iron Anthem
+  img: icons/svg/upgrade.svg
+  type: base
+  system:
+    changes:
+    - key: system.traits.dr.value
+      value: thunder
+      priority: null
+      type: add
+      phase: initial
+      _id: Qwsxn4A6uooSWquP
+    - key: system.abilities.str.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: pX44WZmALpF9pDau
+    - key: system.abilities.dex.save.roll.mode
+      value: '1'
+      priority: null
+      type: add
+      phase: initial
+      _id: PcVSagwUuaiEg0cc
+  disabled: false
+  transfer: false
+  duration:
+    value: 60
+    units: seconds
+    expiry: null
+    expired: false
+  description: <p>Thunder Resistance, Advantage on Str/Dex saves. Power Chord reaction; Screaming Defiance (drop to 1 HP instead of 0, once per Long Rest).</p>
+  tint: '#ffffff'
+  statuses: []
+  sort: 0
+  flags: {}
+  origin: null
+  start: null
+  showIcon: 1
+  folder: null
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  _key: '!items.effects!mltaFZyz0175Ro8O.BnJQiE3NdpzWfzNH'
 folder: 4HG1MuYpX6idf014
 sort: 0
 _stats:

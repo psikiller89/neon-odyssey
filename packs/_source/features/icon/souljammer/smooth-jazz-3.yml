@@ -34,45 +34,50 @@ system:
   activities:
     98IC1ew0ncfSkiGk:
       _id: 98IC1ew0ncfSkiGk
-      type: utility
-      name: ''
+      type: heal
+      name: Smooth Jazz
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: Right after you cast a level 1+ Abjuration or Enchantment spell
       consumption:
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
+        - type: itemUses
+          value: '1'
+          target: feat:iconic-inspiration
+          scaling: {}
         scaling:
           allowed: false
           max: ''
         spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: Charmed and Frightened end on each target.
       duration:
         units: inst
         concentration: false
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '60'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
           units: ft
           type: ''
         affects:
-          choice: false
-          count: ''
-          type: ''
-        prompt: true
+          choice: true
+          count: max(1,@abilities.cha.mod)
+          type: ally
         override: false
+        prompt: false
       uses:
         spent: 0
         recovery: []
@@ -83,6 +88,82 @@ system:
         name: ''
         prompt: false
         visible: false
+      healing:
+        number: null
+        denomination: null
+        bonus: ''
+        types:
+        - temphp
+        custom:
+          enabled: true
+          formula: 2@scale.icon.inspiration.die
+        scaling:
+          mode: ''
+          number: null
+          formula: ''
+    4lp4MMp8jAaS9ywj:
+      _id: 4lp4MMp8jAaS9ywj
+      type: utility
+      name: Restore Use (Iconic Inspiration)
+      img: ''
+      sort: 0
+      activation:
+        type: none
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: feat:iconic-inspiration
+          scaling: {}
+        - type: itemUses
+          value: '-1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
   enchant: {}
   identifier: smooth-jazz
   advancement:
