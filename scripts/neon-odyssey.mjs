@@ -434,8 +434,12 @@ Hooks.once("init", () => {
   Object.assign(CONFIG.DND5E.toolProficiencies, neonToolTypes);
 });
 function neonMalwareStatus() {
-  if ( CONFIG.statusEffects.some(s => s.id === "malware") ) return;
-  CONFIG.statusEffects.push({ id: "malware", name: "Malware", img: `modules/${MODULE_ID}/icons/neon/s-biohazard-lime.webp`, _id: "neonmalware00000" });
+  const icon = f => `modules/${MODULE_ID}/icons/neon/${f}.webp`;
+  for ( const s of [
+    { id: "malware", name: "Malware", img: icon("s-biohazard-lime"), _id: "neonmalware00000" },
+    { id: "infection-vector", name: "Infection Vector", img: icon("s-shield-virus-lime"), _id: "neoninfvector000" },
+    { id: "infected", name: "Infected", img: icon("s-virus-pink"), _id: "neoninfected0000" }
+  ] ) if ( !CONFIG.statusEffects.some(e => e.id === s.id) ) CONFIG.statusEffects.push(s);
 }
 Hooks.once("setup", neonMalwareStatus);
 Hooks.once("ready", neonMalwareStatus);
@@ -457,6 +461,33 @@ for ( const name of ["AbilityCheck", "SavingThrow", "Skill", "ToolCheck", "Attac
     if ( ids.length ) actor.deleteEmbeddedDocuments("ActiveEffect", ids).catch(() => null);
   });
 }
+
+/* Virus Infection Vector: Infected attackers have Disadvantage on ability checks and attack rolls until the start of their next turn. */
+for ( const name of ["AbilityCheck", "Attack"] ) {
+  Hooks.on(`dnd5e.preRoll${name}V2`, config => {
+    if ( !neonMalwareActor(config?.subject)?.statuses?.has("infected") ) return;
+    config.rolls ??= [{}];
+    const roll = config.rolls[0] ??= {};
+    roll.options = { ...(roll.options ?? {}), disadvantage: true };
+  });
+}
+const neonStatusIds = (actor, status, filter = () => true) =>
+  actor?.effects.filter(e => e.statuses?.has(status) && filter(e)).map(e => e.id) ?? [];
+Hooks.on("updateCombat", (combat, change) => {
+  if ( !game.users.activeGM?.isSelf || !(("turn" in change) || ("round" in change)) ) return;
+  const actor = combat.combatant?.actor;
+  const ids = neonStatusIds(actor, "infected");
+  if ( ids.length ) actor.deleteEmbeddedDocuments("ActiveEffect", ids).catch(() => null);
+});
+/* Infusing a new host ends the previous one. */
+Hooks.on("createActiveEffect", effect => {
+  if ( !game.users.activeGM?.isSelf || !effect.statuses?.has("infection-vector") || !effect.origin ) return;
+  const actors = new Set([...game.actors, ...(canvas?.scene?.tokens.map(t => t.actor) ?? [])].filter(Boolean));
+  for ( const actor of actors ) {
+    const ids = neonStatusIds(actor, "infection-vector", e => (e.origin === effect.origin) && (e.id !== effect.id));
+    if ( ids.length ) actor.deleteEmbeddedDocuments("ActiveEffect", ids).catch(() => null);
+  }
+});
 
 /* Gorgonite Gorgon's Gaze: choose the save DC ability when the trait is added. */
 Hooks.on("createItem", async (item, options, userId) => {

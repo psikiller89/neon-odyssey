@@ -111,6 +111,9 @@ SPELL_RULES = [
 SCHOOL = {"abj": ("shield-halved", "cyan"), "con": ("wand-magic-sparkles", "yellow"), "div": ("eye", "teal"), "enc": ("brain", "pink"),
           "evo": ("explosion", "red"), "ill": ("masks-theater", "violet"), "nec": ("skull", "lime"), "trs": ("dna", "green")}
 
+# Status icons used only by scripts (Virus statuses).
+EXTRA_ICONS = [("biohazard", "lime", "s"), ("shield-virus", "lime", "s"), ("virus", "pink", "s")]
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     made, changed = set(), 0
@@ -129,6 +132,10 @@ def main():
             if d.get("img") != img:
                 new = re.sub(r"(?m)^img: .*$", f"img: {img}", text, count=1)
                 if new != text: open(f, "w").write(new); changed += 1
+    for glyph, pal, shape in EXTRA_ICONS:
+        key = f"{shape}-{glyph}-{pal}"
+        if key not in made:
+            render(glyph, pal, shape == "s").save(os.path.join(OUT, key + ".webp"), "WEBP", quality=90); made.add(key)
     for f in os.listdir(OUT):
         if f.endswith(".webp") and f[:-5] not in made: os.remove(os.path.join(OUT, f))
     print(f"icons: {len(made)} generated, {changed} documents updated")
