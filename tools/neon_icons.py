@@ -71,6 +71,8 @@ def first(name, rules, default):
     return default
 
 ITEM_RULES = [
+    ("guitar|violin|bass", ("guitar", "violet")), ("drum pad|drum kit", ("drum", "orange")), ("keytar|synthesizer", ("sliders", "cyan")),
+    ("microphone", ("microphone-lines", "pink")), ("brass wind|wood wind", ("music", "yellow")),
     ("grenade|explosive|bomb|charge|mine", ("bomb", "orange")), ("flamethrower|thermite|incendiar", ("fire-flame-curved", "red")),
     ("laser|plasma|pulse|beam|ray", ("gun", "cyan")), ("sniper|scope", ("crosshairs", "pink")),
     ("pistol|rifle|gun|carbine|cannon|scatter|blaster|smg|shotgun", ("gun", "orange")),

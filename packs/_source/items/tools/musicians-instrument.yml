@@ -19,9 +19,12 @@ system:
   equipped: false
   attuned: false
   description:
-    value: <p><strong>Ability:</strong> Charisma</p><p><strong>Weight:</strong> Varies</p><p><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p><p><strong>Variants:</strong>
-      Brass wind ($1,500, 2 lb.), drums (single $300, 1 lb.; set $1,500, 50 lb.), keys (portable $1,500, 5 lb., standing $3,000, 300 lb.), microphone ($250, 1 lb.), wood wind ($100, 1 lb.), stringed (small
-      $1,500, 1 lb.; medium</p><p>$2,000, 5 lb., large $3,000, 80 lb.)</p>
+    value: <p><strong>Ability:</strong> Charisma</p><p><strong>Weight:</strong> Varies</p><p><strong>Utilize:</strong> Play a known tune (DC 10), or improvise a song (DC 15)</p><p>Pick a specific instrument:</p><ul><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstBrass001]{Brass
+      Wind (Trumpet, Saxophone)} ($1,500, 2 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstDrumPad1]{Drum Pad} ($300, 1 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstDrumKit1]{Electronic
+      Drum Kit} ($1,500, 50 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstKeytar01]{Keytar} ($1,500, 5 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstSynth001]{Synthesizer}
+      ($3,000, 300 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstMicro001]{Microphone} ($250, 1 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstWoodWnd1]{Wood Wind (Flute,
+      Clarinet)} ($100, 1 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstEViolin1]{Electric Violin} ($1,500, 1 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstEGuitar1]{Electric
+      Guitar} ($2,000, 5 lb.)</li><li>@UUID[Compendium.neon-odyssey.items.Item.neonInstEBass001]{Electric Upright Bass} ($3,000, 80 lb.)</li></ul>
     chat: ''
   source:
     custom: ''

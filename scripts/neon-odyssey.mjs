@@ -419,10 +419,19 @@ Hooks.once("init", () => {
     engineer: ["dex", "33sXsmnMQakxMFCD"], jeweler: ["int", "znvghkskhrqYeiUe"], mechanic: ["str", "ls9En7asIx46b5et"],
     polymer: ["int", "AaNTKKWGQo5EPgXF"], surveying: ["wis", "WmVo3QzG4etjXFNi"], weaver: ["dex", "mhsFOJedTzJLibht"],
     bypass: ["dex", "7uvYP4Hpk5NqzkQB"], forg: ["dex", "8yxOAgALwDE6AMmB"], gameset: ["dex", "OuSBOtZopTjQZpLI"],
-    disg: ["cha", "zc9lxJDbkrn3oAq8"], instrument: ["cha", "QvMKgjq1gOIunojJ"], navg: ["wis", "uBf4FF5qHapyAgXz"],
-    herb: ["int", "3L3ZSmaDIPpkc9HJ"], spiking: ["int", "Rt7adqDDyIE4taqD"], pois: ["int", "BtfnXgHN6AsXeJVt"]
+    disg: ["cha", "zc9lxJDbkrn3oAq8"], navg: ["wis", "uBf4FF5qHapyAgXz"],
+    herb: ["int", "3L3ZSmaDIPpkc9HJ"], spiking: ["int", "Rt7adqDDyIE4taqD"], pois: ["int", "BtfnXgHN6AsXeJVt"],
+    brass: ["cha", "neonInstBrass001"], drumpad: ["cha", "neonInstDrumPad1"], drumkit: ["cha", "neonInstDrumKit1"],
+    keytar: ["cha", "neonInstKeytar01"], synth: ["cha", "neonInstSynth001"], mic: ["cha", "neonInstMicro001"],
+    woodwind: ["cha", "neonInstWoodWnd1"], eviolin: ["cha", "neonInstEViolin1"], eguitar: ["cha", "neonInstEGuitar1"],
+    ebass: ["cha", "neonInstEBass001"]
   };
   for ( const [key, [ability, id]] of Object.entries(NEON_TOOLS) ) tools[key] = { ...(tools[key] ?? {}), ability, id: `${I}${id}` };
+  /* Hide D&D tools and instruments without a Neon equivalent. */
+  for ( const key of Object.keys(tools) ) if ( !(key in NEON_TOOLS) ) delete tools[key];
+  const neonToolTypes = { art: "Crafter’s Tools", game: "Game Sets", music: "Musician’s Instruments" };
+  Object.assign(CONFIG.DND5E.toolTypes, neonToolTypes);
+  Object.assign(CONFIG.DND5E.toolProficiencies, neonToolTypes);
 });
 function neonMalwareStatus() {
   if ( CONFIG.statusEffects.some(s => s.id === "malware") ) return;

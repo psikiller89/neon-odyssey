@@ -1,0 +1,148 @@
+_id: neonInstSynth001
+_key: '!items!neonInstSynth001'
+_stats:
+  compendiumSource: null
+  coreVersion: '14.360'
+  createdTime: null
+  duplicateSource: null
+  exportSource: null
+  lastModifiedBy: null
+  modifiedTime: null
+  systemId: dnd5e
+  systemVersion: 6.0.6
+effects: []
+flags: {}
+folder: 6W1gxS8tI2etLdmC
+img: modules/neon-odyssey/icons/neon/i-sliders-cyan.webp
+name: Synthesizer
+ownership:
+  default: 0
+sort: 0
+system:
+  ability: cha
+  activities:
+    bDg9na80wNM9dCQe:
+      _id: bDg9na80wNM9dCQe
+      activation:
+        condition: ''
+        override: false
+        type: action
+        value: null
+      check:
+        ability: cha
+        associated: []
+        dc:
+          calculation: ''
+          formula: '15'
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        override: false
+        units: inst
+      effects: []
+      name: Improvise a song
+      range:
+        override: false
+      sort: 0
+      target:
+        affects:
+          choice: false
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+      type: check
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+    djr9sN5r8RJOwnnb:
+      _id: djr9sN5r8RJOwnnb
+      activation:
+        condition: ''
+        override: false
+        type: action
+        value: null
+      check:
+        ability: cha
+        associated: []
+        dc:
+          calculation: ''
+          formula: '10'
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        override: false
+        units: inst
+      effects: []
+      name: Play a known tune
+      range:
+        override: false
+      sort: 0
+      target:
+        affects:
+          choice: false
+        override: false
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+      type: check
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+  attuned: false
+  attunement: ''
+  bonus: ''
+  chatFlavor: ''
+  container: null
+  description:
+    chat: ''
+    value: '<p>Standing keys rig with modular synth racks.</p><p><strong>Ability:</strong> Charisma</p><p><strong>Weight:</strong> 300 lb.</p><p><strong>Utilize:</strong> Play a known tune (DC 10), or improvise
+      a song (DC 15)</p><p>This is a Musician’s Instrument: an Icon can use it as a Spellcasting Focus.</p>'
+  equipped: false
+  identified: true
+  identifier: musicians-instrument
+  price:
+    denomination: gn
+    value: 3000
+  proficient: null
+  properties: []
+  quantity: 1
+  rarity: ''
+  source:
+    book: 'Neon Odyssey: Outrunner’s Handbook'
+    custom: ''
+    license: ''
+    page: ''
+    revision: 1
+    rules: '2024'
+  type:
+    value: music
+    baseItem: synth
+  unidentified:
+    description: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  weight:
+    units: lb
+    value: 300
+type: tool

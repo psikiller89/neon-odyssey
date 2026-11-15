@@ -303,6 +303,24 @@ system:
       level: 3
       title: ''
       hint: ''
+    neonIconTools001:
+      _id: neonIconTools001
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+        - count: 3
+          pool:
+          - tool:art:painter
+          - tool:music:*
+      value:
+        chosen: []
+      level: 1
+      title: Tool Proficiencies
+      hint: Pick Artist’s Supplies, or 3 Musician’s Instruments.
+      classRestriction: primary
     iFuxb8gJBCVtfegb:
       _id: iFuxb8gJBCVtfegb
       type: Trait

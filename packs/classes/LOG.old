@@ -1,5 +1,5 @@
-2026/11/11-15:46:40.567973 71e5c27fc640 Delete type=3 #1
-2026/11/11-15:46:40.611543 71e5c1bff640 Level-0 table #5: started
-2026/11/11-15:46:40.612874 71e5c1bff640 Level-0 table #5: 132784 bytes OK
-2026/11/11-15:46:40.613201 71e5c1bff640 Delete type=0 #3
-2026/11/11-15:46:40.613277 71e5c1bff640 Manual compaction at level-0 from '!folders!3gZ4ytt18QnUbQoV' @ 72057594037927935 : 1 .. '!items!zbZ4agy39s5vB0Ip' @ 0 : 0; will stop at (end)
+2026/11/15-15:36:02.107517 7b9f427bf640 Delete type=3 #1
+2026/11/15-15:36:02.197830 7b9ca3fff640 Level-0 table #5: started
+2026/11/15-15:36:02.200491 7b9ca3fff640 Level-0 table #5: 132891 bytes OK
+2026/11/15-15:36:02.203445 7b9ca3fff640 Delete type=0 #3
+2026/11/15-15:36:02.203546 7b9ca3fff640 Manual compaction at level-0 from '!folders!3gZ4ytt18QnUbQoV' @ 72057594037927935 : 1 .. '!items!zbZ4agy39s5vB0Ip' @ 0 : 0; will stop at (end)
