@@ -85,7 +85,7 @@ system:
         max: ''
       bonuses:
         ac: '@abilities.wis.mod'
-        hd: ''
+        hd: '@classes.primalist.levels'
         hp: 5 * @classes.primalist.levels
         attackDamage: '@abilities.wis.mod'
         saveDamage: ''

@@ -1065,7 +1065,8 @@ items:
   sort: 0
   system:
     description:
-      value: <p>Shield Points (30) are tracked as Temporary Hit Points and absorb damage first. They have their own Damage Threshold. After 1 minute without taking damage they return to maximum.</p>
+      value: <p>Shield Points (30) are tracked as Temporary Hit Points and absorb damage first. They have their own Damage Threshold. After 1 minute (10 rounds) of game time without taking damage they return
+        to maximum automatically. Use Restore Shield Points to refill them by hand.</p>
       chat: ''
     type:
       value: vehicle

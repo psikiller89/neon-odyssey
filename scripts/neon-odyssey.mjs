@@ -295,12 +295,8 @@ function neonAurasOf(actor) {
   const e = actor.effects.find(e => !e.disabled && !e.isSuppressed && NEON_AURAS[e.name] && !e.getFlag(MODULE_ID, "auraFrom"));
   if ( e ) {
     const changes = [{ key: "system.bonuses.abilities.save", type: "add", value: "+1d4", phase: "initial" }];
-    if ( e.name === "Glorious Presence" ) {
-      const dmg = actor.system.scale?.juggernaut?.["rage-damage"]?.value ?? 0;
-      if ( dmg ) for ( const k of ["mwak", "rwak", "msak", "rsak"] ) changes.push({ key: `system.bonuses.${k}.damage`, type: "add", value: `+${dmg}`, phase: "initial" });
-    }
     out.push({ kind: "presence", name: e.name, radius: NEON_AURAS[e.name], img: e.img, origin: e.uuid, changes, color: e.name === "Glorious Presence" ? 0xffd23f : 0xff2bd6,
-      text: `add 1d4 to saving throws${changes.length > 1 ? " and the Surge Damage bonus to damage rolls" : ""}` });
+      text: "add 1d4 to saving throws" });
   }
   const zone = actor.items.find(i => i.system.identifier === "zone-of-safety");
   if ( zone && !actor.statuses?.has("incapacitated") ) {
@@ -634,4 +630,88 @@ Hooks.on("createItem", (item, options, userId) => {
     const changes = (e.system?.changes ?? []).map(c => c.key === "system.attributes.init.ability" ? { ...c, value: ability } : c);
     e.update({ "system.changes": changes });
   }
+});
+
+/* Juggernaut Eternal: Glorious Presence gives the Surge Damage bonus to an ally that starts its turn within 30 ft, until the start of its next turn. */
+async function neonGloriousTurn(combat, current) {
+  if ( !game.users.activeGM?.isSelf ) return;
+  const combatant = combat.combatants.get(current?.combatantId);
+  const token = combatant?.token; const actor = combatant?.actor;
+  if ( !token || !actor ) return;
+  const old = actor.effects.filter(e => e.getFlag(MODULE_ID, "gloriousSurge")).map(e => e.id);
+  if ( old.length ) await actor.deleteEmbeddedDocuments("ActiveEffect", old);
+  const scene = token.parent;
+  const src = scene?.tokens.find(t => (t !== token) && t.actor && (t.actor !== actor) && (t.disposition === token.disposition)
+    && neonAurasOf(t.actor).some(a => a.name === "Glorious Presence") && (neonTokenGap(t, token, scene) <= 30));
+  const dmg = src?.actor.system.scale?.juggernaut?.["rage-damage"]?.value ?? 0;
+  if ( !dmg ) return;
+  await actor.createEmbeddedDocuments("ActiveEffect", [{
+    name: "Glorious Presence: Surge Damage", img: src.actor.effects.find(e => e.name === "Glorious Presence")?.img ?? "icons/svg/sun.svg", type: "base",
+    system: { changes: ["mwak", "rwak", "msak", "rsak"].map(k => ({ key: `system.bonuses.${k}.damage`, type: "add", value: `+${dmg}`, phase: "initial" })) },
+    description: `<p>Started its turn within 30 feet of ${src.name}: +${dmg} to damage rolls until the start of its next turn.</p>`,
+    flags: { [MODULE_ID]: { gloriousSurge: src.uuid } }
+  }]);
+}
+Hooks.on("combatTurnChange", (combat, prior, current) => neonGloriousTurn(combat, current));
+Hooks.on("combatStart", combat => neonGloriousTurn(combat, { combatantId: combat.combatant?.id }));
+Hooks.on("deleteCombat", async combat => {
+  if ( !game.users.activeGM?.isSelf ) return;
+  for ( const c of combat.combatants ) {
+    const ids = c.actor?.effects.filter(e => e.getFlag(MODULE_ID, "gloriousSurge")).map(e => e.id) ?? [];
+    if ( ids.length ) await c.actor.deleteEmbeddedDocuments("ActiveEffect", ids);
+  }
+});
+
+/* Starfighter Shield Points (Temp HP) return to maximum after 1 minute of game time without taking damage. */
+Hooks.on("dnd5e.applyDamage", (actor, amount) => {
+  if ( (actor?.type !== "vehicle") || !actor.getFlag(MODULE_ID, "shieldMax") || !(amount > 0) ) return;
+  if ( game.users.activeGM?.isSelf || (!game.users.activeGM && actor.isOwner) ) actor.setFlag(MODULE_ID, "shieldHitAt", game.time.worldTime);
+});
+Hooks.on("updateWorldTime", async worldTime => {
+  if ( !game.users.activeGM?.isSelf ) return;
+  const actors = new Set(game.actors.filter(a => a.type === "vehicle"));
+  for ( const scene of game.scenes ) for ( const t of scene.tokens ) if ( !t.actorLink && (t.actor?.type === "vehicle") ) actors.add(t.actor);
+  for ( const actor of actors ) {
+    const max = Number(actor.getFlag(MODULE_ID, "shieldMax")) || 0;
+    const temp = Number(actor.system.attributes.hp.temp) || 0;
+    if ( !max || (temp >= max) || (actor.system.attributes.hp.value <= 0) ) continue;
+    if ( worldTime - (actor.getFlag(MODULE_ID, "shieldHitAt") ?? -Infinity) < 60 ) continue;
+    await actor.update({ "system.attributes.hp.temp": max });
+    ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor }), content: `<p><strong>${actor.name}</strong>: Shield Points restored to ${max} after 1 minute without damage.</p>` });
+  }
+});
+
+/* Arbiter: only the current balance's Arbiter Spells stay prepared. Balance buttons and Imbue effects shift it. */
+async function neonArbiterSync(actor) {
+  const aspect = actor?.getFlag(MODULE_ID, "arbiterAspect");
+  const feat = actor?.items.find(i => i.system.identifier === "arbiter-spells");
+  if ( !aspect || !feat ) return;
+  const titles = Object.fromEntries(Object.values(feat.advancement?.byId ?? {}).map(a => [a.id, a.title ?? ""]));
+  const updates = [];
+  for ( const spell of actor.items.filter(i => i.type === "spell") ) {
+    const [fid, aid] = (spell.getFlag("dnd5e", "advancementOrigin") ?? "").split(".");
+    if ( (fid !== feat.id) || !titles[aid] ) continue;
+    const want = titles[aid].toLowerCase().includes(aspect) ? 2 : 0;
+    if ( spell.system.prepared !== want ) updates.push({ _id: spell.id, "system.prepared": want });
+  }
+  if ( updates.length ) await actor.updateEmbeddedDocuments("Item", updates);
+}
+async function neonSetArbiterAspect(actor, aspect) {
+  if ( !actor?.isOwner ) return;
+  if ( actor.getFlag(MODULE_ID, "arbiterAspect") !== aspect ) {
+    await actor.setFlag(MODULE_ID, "arbiterAspect", aspect);
+    ui.notifications?.info(`${actor.name}: balance shifts to ${aspect === "somber" ? "Somber" : "Vital"}. Only those Arbiter Spells are prepared.`);
+  }
+  await neonArbiterSync(actor);
+}
+Hooks.on("dnd5e.postUseActivity", activity => {
+  const m = /^Balance: (Somber|Vital)$/.exec(activity?.name ?? "");
+  if ( m && (activity.item?.system.identifier === "aspect-of-balance") ) neonSetArbiterAspect(activity.actor, m[1].toLowerCase());
+});
+Hooks.on("createActiveEffect", (effect, options, userId) => {
+  const m = /^Imbued: (Somber|Vital)$/.exec(effect.name ?? "");
+  if ( m && (userId === game.user.id) && (effect.parent instanceof Actor) ) neonSetArbiterAspect(effect.parent, m[1].toLowerCase());
+});
+Hooks.on("createItem", (item, options, userId) => {
+  if ( (userId === game.user.id) && (item.type === "spell") && item.actor?.getFlag(MODULE_ID, "arbiterAspect") && item.getFlag("dnd5e", "advancementOrigin") ) neonArbiterSync(item.actor);
 });

@@ -10,7 +10,7 @@ system:
       all imbued weapons.</p><p><strong>Somber.</strong> When you hit with the weapon, you can cause it to deal Necrotic damage instead of its normal damage type. Once on each of your turns when you do
       so, you can deal extra damage equal to twice your Charisma modifier (minimum of 2 extra damage).</p><p><strong>Vital.</strong> When you hit with the weapon, you can cause it to deal Radiant damage
       instead of its normal damage type. Once on each of your turns when you do so, you regain a number of Hit Points equal to your Charisma modifier (minimum of 1), gaining any excess beyond your maximum
-      as Temporary Hit Points.</p>'
+      as Temporary Hit Points.</p><p><em>Foundry: click Balance: Somber or Balance: Vital after a Long Rest. Only that aspect’s Arbiter Spells stay prepared; Imbue buttons also shift your balance.</em></p>'
     chat: ''
   source:
     custom: ''
@@ -33,6 +33,116 @@ system:
   properties: []
   requirements: Arbiter Enforcer
   activities:
+    AXo5wb8un4DRdJFh:
+      _id: AXo5wb8un4DRdJFh
+      type: utility
+      name: 'Balance: Somber'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you finish a Long Rest
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    7aFKfVcxcgH5icAa:
+      _id: 7aFKfVcxcgH5icAa
+      type: utility
+      name: 'Balance: Vital'
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: When you finish a Long Rest
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: self
+        override: false
+        prompt: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
     CkONYY0bbnKoShw3:
       _id: CkONYY0bbnKoShw3
       type: utility
