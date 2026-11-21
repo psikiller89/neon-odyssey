@@ -21,6 +21,9 @@ For Foundry VTT v14 with the dnd5e system 6.0.6 (2024 rules). Content comes from
 - Tools have check activities with the Utilize DCs. Consumables (Acid Vial, Healing Stim, Toxin, etc.) have save, heal or damage activities and are used up when spent.
 - Cryptist Occult Magic uses its own slot table (3 slots at level 7, 4 at 13, 5 at 19), applied by `scripts/neon-odyssey.mjs`.
 
+## Character sheet export
+On a character sheet, open the ⋮ menu and click **Export Character Sheet (PDF)** to download the official Neon Odyssey form-fillable sheet filled with the character (abilities, skills, HP, attacks, features, proficiencies, equipment, spell slots and prepared spells). Uses [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT, `lib/pdf-lib-LICENSE.md`).
+
 ## Install
 Unzip into `Data/modules/neon-odyssey` (or install the zip with a manifest host), then enable it in your world.
 
