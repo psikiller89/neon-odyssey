@@ -22,7 +22,7 @@ For Foundry VTT v14 with the dnd5e system 6.0.6 (2024 rules). Content comes from
 - Cryptist Occult Magic uses its own slot table (3 slots at level 7, 4 at 13, 5 at 19), applied by `scripts/neon-odyssey.mjs`.
 
 ## Character sheet export
-On a character sheet, open the ⋮ menu and click **Export Character Sheet (PDF)** to download the official Neon Odyssey form-fillable sheet filled with the character (abilities, skills, HP, attacks, features, proficiencies, equipment, spell slots and prepared spells). Uses [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT, `lib/pdf-lib-LICENSE.md`).
+On a character sheet, open the ⋮ menu and click **Export Character Sheet (PDF)** to download the official Neon Odyssey form-fillable sheet filled with the character (abilities, skills, HP, attacks, features, proficiencies, equipment, spell slots and prepared spells). Extra pages at the end list every species trait, class and subclass feature, feat and prepared spell with its full description. Uses [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT, `lib/pdf-lib-LICENSE.md`).
 
 ## Neon Odyssey DM campaign import
 In the Neon Odyssey DM app, use **Export campaign** to save a `.json` file. In Foundry (GM only), open the Journal tab and click **Import from Neon Odyssey DM**, then pick that file. Wiki entries become Journal Entries (sorted into type folders, `[[links]]` become working links), saved NPCs become NPC actors with their species, maps become Scenes with pins as map notes, and sessions become pages in a Sessions journal. Importing the same campaign again updates the existing documents instead of duplicating them. Scripts can call `game.modules.get("neon-odyssey").api.importDmCampaign(data)`.

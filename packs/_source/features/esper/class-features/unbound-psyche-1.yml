@@ -6,10 +6,7 @@ system:
   description:
     value: <p>Your unlocked psionic potential swells. As a Bonus Action, you can unleash that power for 1 minute, during which you gain the following benefits:</p><ul><li><p>The spell save DC of your Esper
       spells increases by 1.</p></li><li><p>You have Advantage on the attack rolls of Esper spells you cast. You can use this feature twice, and you regain all expended uses of it when you finish a Long
-      Rest. +2 Spellcasting, Psychic Talent, Unbound Psyche 4 2 2 +2 Psionic Wellspring, Psi Shaping 2 4 4 3 +2 Esper Subclass 3 4 6 4 2 +2 Ability Score Improvement 4 5 7 4 3 +3 Mental Recovery 5 5 9 4
-      3 2 +3 Subclass feature 6 5 10 4 3 3 +3 Awakened Mind 7 5 11 4 3 3 1 +3 Ability Score Improvement 8 5 12 4 3 3 2 +4 9 5 14 4 3 3 3 1 +4 Psi Shaping 10 6 15 4 3 3 3 2 +4 11 6 16 4 3 3 3 2 1 +4 Ability
-      Score Improvement 12 6 16 4 3 3 3 2 1 +5 13 6 17 4 3 3 3 2 1 1 +5 Subclass feature 14 6 17 4 3 3 3 2 1 1 +5 15 6 18 4 3 3 3 2 1 1 1 +5 Ability Score Improvement 16 6 18 4 3 3 3 2 1 1 1 +6 Psi Shaping
-      17 6 19 4 3 3 3 2 1 1 1 1 +6 Subclass feature 18 6 20 4 3 3 3 3 1 1 1 1 +6 Epic Boon 19 6 21 4 3 3 3 3 2 1 1 1 +6 Infinite Psyche 20 6 22 4 3 3 3 3 2 2 1 1</p></li></ul>
+      Rest.</p></li></ul>
     chat: ''
   source:
     custom: ''

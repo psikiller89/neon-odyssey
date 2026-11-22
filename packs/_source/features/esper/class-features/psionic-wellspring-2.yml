@@ -9,8 +9,7 @@ system:
       your level. You regain all expended Psi Points when you finish a Long Rest.</p><p>You can use your Psi Points to fuel the options below, along with other features, such as Psi Shaping, that use those
       points.</p><p><strong>Converting Spell Slots to Psi Points.</strong> You can expend a spell slot to gain a number of Psi Points equal to the slot’s level (no action required).</p><p><strong>Creating
       Spell Slots.</strong> As a Bonus Action, you can transform unexpended Psi Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it
-      lists the minimum Esper level you must be to create a slot. You can create a spell slot no higher than level 5.</p><p>Any spell slot you create with this feature vanishes when you finish a Long Rest.
-      2 2 3 3 5 5 6 7 7 9</p>
+      lists the minimum Esper level you must be to create a slot. You can create a spell slot no higher than level 5.</p><p>Any spell slot you create with this feature vanishes when you finish a Long Rest.</p><table><thead><tr><th>Spell Slot Level</th><th>Psi Point Cost</th><th>Min. Esper Level</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>2</td></tr><tr><td>2</td><td>3</td><td>3</td></tr><tr><td>3</td><td>5</td><td>5</td></tr><tr><td>4</td><td>6</td><td>7</td></tr><tr><td>5</td><td>7</td><td>9</td></tr></tbody></table>
     chat: ''
   source:
     custom: ''

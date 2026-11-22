@@ -160,10 +160,7 @@ export function neonSheetData(actor) {
     if ( slots[l].max ) f[`Total ${l}`] = slots[l].max;
     SLOT_BOXES[l].slice(0, slots[l].spent).forEach(n => checks.push(`Spell Expended ${n}`));
   }
-  const seen = new Set();
-  const spells = actor.itemTypes.spell.filter(i => !isCopy(i) && ((i.system.level === 0) || (i.system.prepared >= 1) || (i.system.method && !["spell", "prepared"].includes(i.system.method))))
-    .sort((a, b) => (a.system.level - b.system.level) || a.name.localeCompare(b.name))
-    .filter(i => !seen.has(i.name) && seen.add(i.name));
+  const spells = spellList(actor);
   spells.forEach((sp, i) => {
     const props = sp.system.properties ?? new Set();
     const feat = [props.has("concentration") ? "C" : "", props.has("ritual") ? "R" : "", props.has("material") ? `M${sp.system.materials?.cost ? "*" : ""}` : ""].filter(Boolean).join(", ");
@@ -201,8 +198,204 @@ function fitSize(font, text, w, h, multiline, max) {
   return 4;
 }
 
+/* ---------- feature description pages ---------- */
+function plainText(html) {
+  const div = document.createElement("div");
+  div.innerHTML = String(html ?? "");
+  div.querySelectorAll("section.secret, .secret").forEach(e => e.remove());
+  div.querySelectorAll("li").forEach(li => li.prepend("• "));
+  div.querySelectorAll("td, th").forEach(td => td.append(" | "));
+  div.querySelectorAll("p, li, tr, h1, h2, h3, h4, h5, h6, div, br, table, ul, ol").forEach(e => e.append("\n"));
+  return div.textContent.replace(/\t/g, " ").replace(/[\u0000-\u0008\u000b-\u001f\u007f]/g, "").replace(/ \| \n/g, "\n").replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+const GRANTS = new WeakMap();
+function grantMap(actor) {
+  if ( GRANTS.has(actor) ) return GRANTS.get(actor);
+  const map = new Map();
+  for ( const parent of actor.items.filter(i => ["class", "subclass", "race", "background"].includes(i.type)) ) {
+    for ( const adv of Object.values(parent.advancement?.byId ?? {}) ) {
+      const c = adv.configuration ?? {};
+      const levels = adv.levels?.length ? adv.levels : [adv.level];
+      for ( const e of [...(c.items ?? []), ...(c.pool ?? [])] ) {
+        const uuid = e?.uuid ?? e;
+        if ( (typeof uuid === "string") && !map.has(uuid) ) map.set(uuid, { parent, level: Math.min(...levels.map(Number).filter(n => !isNaN(n))) || null });
+      }
+    }
+  }
+  GRANTS.set(actor, map);
+  return map;
+}
+
+function featureLevel(actor, item) {
+  const [parentId, advId] = String(item.getFlag("dnd5e", "advancementOrigin") ?? "").split(".");
+  const parent = actor.items.get(parentId);
+  const adv = parent?.advancement?.byId?.[advId] ?? parent?.system.advancement?.find?.(a => a._id === advId);
+  if ( parent ) return { parent, level: adv?.level ?? null };
+  const src = item._stats?.compendiumSource ?? item.getFlag("dnd5e", "sourceId") ?? item.getFlag("core", "sourceId");
+  return grantMap(actor).get(src) ?? { parent: null, level: null };
+}
+
+function featureMeta(item, level) {
+  const out = [];
+  if ( level ) out.push(`Level ${level}`);
+  try {
+    const act = item.system.activities?.contents?.[0] ?? [...(item.system.activities ?? [])][0];
+    const type = act?.activation?.type;
+    if ( type && !["", "none", "special"].includes(type) ) out.push(label(CONFIG.DND5E.activityActivationTypes?.[type]) || type);
+  } catch {}
+  const u = item.system.uses;
+  if ( u?.max ) {
+    const per = (u.recovery ?? []).map(r => label(CONFIG.DND5E.limitedUsePeriods?.[r.period]) || r.period).filter(Boolean)[0];
+    out.push(`${u.max} use${Number(u.max) === 1 ? "" : "s"}${per ? ` per ${per}` : ""}`);
+  }
+  return out.join(" · ");
+}
+
+async function featureSections(actor) {
+  const TE = foundry.applications.ux.TextEditor.implementation;
+  const classes = actor.itemTypes.class.sort((a, b) => b.system.levels - a.system.levels);
+  const groups = new Map();
+  const add = (key, title, entry) => { if ( !groups.has(key) ) groups.set(key, { title, items: [] }); groups.get(key).items.push(entry); };
+  for ( const item of actor.itemTypes.feat ) {
+    if ( isCopy(item) ) continue;
+    const html = await TE.enrichHTML(item.system.description?.value ?? "", { rollData: item.getRollData(), relativeTo: item, secrets: false });
+    const text = plainText(html);
+    const { parent, level } = featureLevel(actor, item);
+    const entry = { name: item.name, text, level, meta: "" };
+    let key, title;
+    if ( item.system.type?.value === "feat" ) [key, title] = ["9feat", "Feats"];
+    else if ( parent?.type === "race" || item.system.type?.value === "race" ) [key, title] = ["0race", `Species: ${parent?.name ?? actor.system.details.race?.name ?? ""}`.replace(/: $/, "")];
+    else if ( parent?.type === "background" || item.system.type?.value === "background" ) [key, title] = ["8bg", `Background: ${parent?.name ?? ""}`.replace(/: $/, "")];
+    else if ( parent?.type === "class" ) [key, title] = [`1class${classes.indexOf(parent)}`, `${parent.name} Features`];
+    else if ( parent?.type === "subclass" ) {
+      const cls = parent.class ?? classes.find(c => c.system.identifier === parent.system.classIdentifier);
+      [key, title] = [`2sub${classes.indexOf(cls)}`, `${parent.name} Features${cls ? ` (${cls.name})` : ""}`];
+    } else [key, title] = ["7other", "Other Features"];
+    entry.meta = featureMeta(item, level);
+    add(key, title, entry);
+  }
+  return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([, g]) => {
+    g.items.sort((a, b) => ((a.level ?? 0) - (b.level ?? 0)) || a.name.localeCompare(b.name));
+    return g;
+  });
+}
+
+function wrapText(text, font, size, width) {
+  const lines = [];
+  for ( const para of text.split("\n") ) {
+    if ( lines.length && !lines.at(-1).gap && para.trim() ) lines.push({ text: "", gap: true, small: true });
+    if ( !para.trim() ) { lines.push({ text: "", gap: true }); continue; }
+    const bullet = para.startsWith("• ");
+    const indent = bullet ? font.widthOfTextAtSize("• ", size) : 0;
+    let cur = "", first = true;
+    const push = () => { lines.push({ text: cur, indent: (bullet && !first) ? indent : 0 }); first = false; cur = ""; };
+    for ( let word of para.split(/[ \u00a0]+/) ) {
+      const avail = width - ((bullet && !first) ? indent : 0);
+      while ( (word.length > 1) && (font.widthOfTextAtSize(word, size) > avail) ) {
+        let n = 0, w = 0;
+        while ( n < word.length ) {
+          w += font.widthOfTextAtSize(word[n], size);
+          if ( w > avail ) break;
+          n++;
+        }
+        n = Math.max(n, 1);
+        if ( cur ) push();
+        cur = word.slice(0, n); push(); word = word.slice(n);
+      }
+      const next = cur ? `${cur} ${word}` : word;
+      if ( cur && font.widthOfTextAtSize(next, size) > avail ) { push(); cur = word; } else cur = next;
+    }
+    if ( cur ) push();
+  }
+  while ( lines.length && lines.at(-1).gap ) lines.pop();
+  return lines;
+}
+
+function spellList(actor) {
+  const seen = new Set();
+  return actor.itemTypes.spell.filter(i => !isCopy(i) && ((i.system.level === 0) || (i.system.prepared >= 1) || (i.system.method && !["spell", "prepared"].includes(i.system.method))))
+    .sort((a, b) => (a.system.level - b.system.level) || a.name.localeCompare(b.name))
+    .filter(i => !seen.has(i.name) && seen.add(i.name));
+}
+
+async function spellSections(actor) {
+  const TE = foundry.applications.ux.TextEditor.implementation;
+  const groups = new Map();
+  for ( const sp of spellList(actor) ) {
+    const lvl = sp.system.level;
+    if ( !groups.has(lvl) ) groups.set(lvl, { title: lvl === 0 ? "Spells: Cantrips" : `Spells: Level ${lvl}`, items: [] });
+    const html = await TE.enrichHTML(sp.system.description?.value ?? "", { rollData: sp.getRollData(), relativeTo: sp, secrets: false });
+    const props = sp.system.properties ?? new Set();
+    const comps = ["vocal", "somatic", "material"].filter(c => props.has(c)).map(c => c[0].toUpperCase()).join(", ");
+    const mat = props.has("material") && sp.system.materials?.value ? ` (${sp.system.materials.value})` : "";
+    const meta = [sp.labels?.school, sp.labels?.activation, sp.labels?.range && `Range ${sp.labels.range}`,
+      sp.labels?.duration && `Duration ${sp.labels.duration}`, props.has("concentration") ? "Concentration" : "",
+      props.has("ritual") ? "Ritual" : "", comps && `${comps}${mat}`].filter(Boolean).join(" · ");
+    groups.get(lvl).items.push({ name: sp.name, text: plainText(html), level: null, meta });
+  }
+  return [...groups.entries()].sort(([a], [b]) => a - b).map(([, g]) => g);
+}
+
+async function addFeaturePages(pdf, actor, lib, clean) {
+  const { StandardFonts, rgb } = lib;
+  const sections = [...await featureSections(actor), ...await spellSections(actor)];
+  if ( !sections.some(s => s.items.length) ) return;
+  const F = {
+    reg: await pdf.embedFont(StandardFonts.Helvetica), bold: await pdf.embedFont(StandardFonts.HelveticaBold),
+    ital: await pdf.embedFont(StandardFonts.HelveticaOblique), title: await pdf.embedFont(StandardFonts.HelveticaBoldOblique)
+  };
+  const BLACK = rgb(0.08, 0.08, 0.1), PINK = rgb(1, 0.18, 0.59), GREY = rgb(0.38, 0.38, 0.42), WHITE = rgb(1, 1, 1);
+  const W = 612, H = 792, M = 36, GAP = 18, COLW = (W - (2 * M) - GAP) / 2, TOP = H - 66, BOTTOM = 44;
+  const pages = [];
+  let page, col, y;
+  const newPage = () => {
+    page = pdf.addPage([W, H]); pages.push(page); col = 0; y = TOP;
+    page.drawSvgPath("M0 0 L250 0 L236 22 L0 22 Z", { x: M, y: H - 26, color: BLACK });
+    page.drawText("FEATURES, ABILITIES & SPELLS", { x: M + 8, y: H - 42, size: 12, font: F.title, color: WHITE });
+    const nm = clean(actor.name);
+    page.drawText(nm, { x: W - M - F.bold.widthOfTextAtSize(nm, 10), y: H - 41, size: 10, font: F.bold, color: BLACK });
+    page.drawRectangle({ x: M, y: H - 52, width: W - (2 * M), height: 1.5, color: PINK });
+    page.drawSvgPath("M14 0 L200 0 L186 14 L0 14 Z", { x: W - M - 200, y: 44, color: BLACK });
+    page.drawLine({ start: { x: M + COLW + (GAP / 2), y: TOP + 6 }, end: { x: M + COLW + (GAP / 2), y: BOTTOM }, thickness: 0.5, color: rgb(0.8, 0.8, 0.82) });
+  };
+  const x = () => M + (col * (COLW + GAP));
+  const nextCol = () => { if ( col === 0 ) { col = 1; y = TOP; } else newPage(); };
+  const ensure = h => { if ( y - h < BOTTOM ) nextCol(); };
+  const draw = (line, font, size, color, lead) => {
+    ensure(lead);
+    if ( line.text ) page.drawText(line.text, { x: x() + (line.indent ?? 0), y: y - size, size, font, color });
+    y -= line.small ? 2.5 : line.gap ? lead * 0.5 : lead;
+  };
+  newPage();
+  for ( const sec of sections ) {
+    const head = clean(sec.title).toUpperCase();
+    ensure(18 + 40);
+    page.drawSvgPath(`M0 0 L${COLW} 0 L${COLW - 8} 13 L0 13 Z`, { x: x(), y, color: BLACK });
+    page.drawText(head, { x: x() + 5, y: y - 9.5, size: 8, font: F.bold, color: WHITE, maxWidth: COLW - 14 });
+    y -= 19;
+    for ( const it of sec.items ) {
+      const name = wrapText(clean(it.name), F.bold, 9, COLW);
+      const meta = it.meta ? wrapText(clean(it.meta), F.ital, 7, COLW) : [];
+      const body = wrapText(clean(it.text), F.reg, 7.5, COLW);
+      ensure((name.length * 11) + (meta.length * 8.5) + (Math.min(body.length, 3) * 9));
+      page.drawRectangle({ x: x() - 5, y: y - 9, width: 2, height: 9, color: PINK });
+      for ( const l of name ) draw(l, F.bold, 9, BLACK, 11);
+      for ( const l of meta ) draw(l, F.ital, 7, GREY, 8.5);
+      for ( const l of body ) draw(l, F.reg, 7.5, BLACK, 9);
+      y -= 6;
+    }
+    y -= 4;
+  }
+  pages.forEach((p, i) => {
+    const t = `Features ${i + 1}/${pages.length}`;
+    p.drawText(t, { x: W - M - 20 - F.bold.widthOfTextAtSize(t, 7), y: 34, size: 7, font: F.bold, color: WHITE });
+  });
+}
+
 export async function neonBuildSheetPdf(actor) {
-  const { PDFDocument, StandardFonts, PDFTextField, PDFCheckBox } = await import("../lib/pdf-lib.esm.min.js");
+  const lib = await import("../lib/pdf-lib.esm.min.js");
+  const { PDFDocument, StandardFonts, PDFTextField, PDFCheckBox } = lib;
   const bytes = await (await fetch(foundry.utils.getRoute(SHEET_PDF))).arrayBuffer();
   const pdf = await PDFDocument.load(bytes);
   const font = await pdf.embedFont(StandardFonts.Helvetica);
@@ -233,6 +426,7 @@ export async function neonBuildSheetPdf(actor) {
     if ( field instanceof PDFCheckBox ) field.check();
   }
   form.updateFieldAppearances(font);
+  await addFeaturePages(pdf, actor, lib, clean);
   return pdf.save();
 }
 
