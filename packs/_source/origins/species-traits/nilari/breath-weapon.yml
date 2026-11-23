@@ -37,11 +37,11 @@ system:
     0Vpjf2NOa5g4aMGk:
       _id: 0Vpjf2NOa5g4aMGk
       type: save
-      name: ''
+      name: Breath Weapon (15-ft Cone)
       activation:
         type: action
         value: null
-        condition: ''
+        condition: Replaces one attack when you take the Attack action
         override: false
       consumption:
         targets:
@@ -52,7 +52,7 @@ system:
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
       description:
         chatFlavor: ''
       duration:
@@ -68,13 +68,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: cone
+          size: '15'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
@@ -89,14 +93,85 @@ system:
       damage:
         onSave: half
         parts:
-        - number: 1
-          denomination: 10
+        - number: null
+          denomination: null
           bonus: ''
           types:
           - necrotic
           custom:
-            enabled: false
+            enabled: true
+            formula: (floor((@details.level + 1) / 6) + 1)d10
+          scaling:
+            mode: ''
+            number: null
             formula: ''
+    qhQUbEezo2ddjr1K:
+      _id: qhQUbEezo2ddjr1K
+      type: save
+      name: Breath Weapon (30-ft Line)
+      activation:
+        type: action
+        value: null
+        condition: Replaces one attack when you take the Attack action
+        override: false
+      consumption:
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '30'
+          width: '5'
+          count: ''
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 1
+      save:
+        ability:
+        - dex
+        dc:
+          calculation: con
+          formula: ''
+      damage:
+        onSave: half
+        parts:
+        - number: null
+          denomination: null
+          bonus: ''
+          types:
+          - necrotic
+          custom:
+            enabled: true
+            formula: (floor((@details.level + 1) / 6) + 1)d10
           scaling:
             mode: ''
             number: null

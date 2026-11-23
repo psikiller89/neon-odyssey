@@ -50,29 +50,34 @@ system:
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
       description:
-        chatFlavor: ''
+        chatFlavor: Difficult Terrain for enemies until the end of the turn (place it on your starting or destination space).
       duration:
         units: inst
         concentration: false
         override: false
       effects: []
       range:
-        override: false
-        units: self
+        value: '30'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: radius
+          size: '10'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: enemy
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
