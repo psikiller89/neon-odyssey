@@ -87,6 +87,44 @@ Hooks.once("init", () => {
   };
 });
 
+/* Primeval Cryptist: Archaic Element lets spell and weapon damage switch to a mastered type and ignore Resistance to it. */
+function archaicElements(actor) {
+  return (actor?.items ?? [])
+    .map(i => /^archaic-element-(\w+)$/.exec(i.system.identifier ?? "")?.[1])
+    .filter(t => t && (t in CONFIG.DND5E.damageTypes));
+}
+
+Hooks.on("dnd5e.preRollDamageV2", (config, dialog, message) => {
+  const activity = config.subject;
+  const item = activity?.item;
+  if ( !["spell", "weapon"].includes(item?.type) ) return;
+  const mastered = archaicElements(item.actor);
+  if ( !mastered.length ) return;
+  for ( const roll of config.rolls ?? [] ) {
+    const types = roll.options?.types ?? (roll.options?.type ? [roll.options.type] : []);
+    if ( !types.length || types.some(t => t in CONFIG.DND5E.healingTypes) ) continue;
+    roll.options.type ??= types[0];
+    roll.options.types = Array.from(new Set([...types, ...mastered]));
+  }
+  config.applicationOptions ??= {};
+  config.applicationOptions.ignore ??= {};
+  const ignored = new Set(config.applicationOptions.ignore.resistance ?? []);
+  for ( const t of mastered ) ignored.add(t);
+  config.applicationOptions.ignore.resistance = ignored;
+});
+
+// dnd5e before 6.1 has no card-level application options: ignore the Resistance when the damage is applied.
+Hooks.on("dnd5e.preCalculateDamage", (actor, damages, options) => {
+  const msg = options.originatingMessage;
+  if ( !msg || msg.system?.getDamageApplicationOptions || (options.ignore === true) ) return;
+  const item = msg.getAssociatedItem?.();
+  if ( !["spell", "weapon"].includes(item?.type) ) return;
+  const mastered = archaicElements(item.actor ?? msg.getAssociatedActor?.());
+  if ( !mastered.length ) return;
+  options.ignore ??= {};
+  options.ignore.resistance = new Set([...(options.ignore.resistance ?? []), ...mastered]);
+});
+
 /* Mutually exclusive effects (e.g. Symmetric Vital/Somber balance): applying one removes the others in its group. */
 Hooks.on("createActiveEffect", async (effect, options, userId) => {
   if ( userId !== game.user.id ) return;

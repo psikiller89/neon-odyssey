@@ -80,6 +80,7 @@ https://github.com/psikiller89/neon-odyssey/releases/latest/download/module.json
 ## v0.5.2 fixes
 
 - **Shield of the Elements (Cryptist, Primeval):** adds a "Shield of the Elements" AC calculation (10 + Con + your spellcasting ability modifier while unarmored). Foundry uses whichever AC calculation is highest.
+- **Archaic Element (Cryptist, Primeval):** spell and weapon damage rolls add your mastered damage types to the damage type list in the roll window, so you can switch the damage to them. Damage of a mastered type ignores the target's Resistance (dnd5e 6.1+ marks it on the damage card; older dnd5e applies it when you click Apply).
 - **Dirty Fighting (Enforcer, Renegade):** unarmored AC 10 + Dex + Cha.
 - **Thick Hide (Primal Aspect):** +1 AC.
 - **Conditional AC bonuses** as toggleable effects (turn on in the Effects tab): Upgrade Algorithm (+2 while Hardlight Armory is active), Borrowed Time (+1 while concentrating on Haste), Abyssal Parasite (+2 while under Mage Armor).
