@@ -1,0 +1,185 @@
+_id: ANQoMdx1g7vB8JmD
+name: 'Loot: Premium (5,000+ GN)'
+img: icons/containers/chest/chest-reinforced-steel-cherry.webp
+description: <p>A random Neon Odyssey item worth 5,000+ GN.</p>
+results:
+- type: document
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: DTLvzFpwfrSeq8C7
+  img: modules/neon-odyssey/icons/neon/i-tower-broadcast-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Communicator, High Power
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.DTLvzFpwfrSeq8C7'
+  documentUuid: Compendium.neon-odyssey.items.Item.2YQ2kRLgNmE8teg9
+- type: document
+  weight: 1
+  range:
+  - 2
+  - 2
+  drawn: false
+  _id: JvMFL0Tyuv8b9D2X
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Generator
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.JvMFL0Tyuv8b9D2X'
+  documentUuid: Compendium.neon-odyssey.items.Item.rPkYHgyZCOZWwXO7
+- type: document
+  weight: 1
+  range:
+  - 3
+  - 3
+  drawn: false
+  _id: mOEHnr66cQZA8O4Y
+  img: modules/neon-odyssey/icons/neon/i-tower-broadcast-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Signal Jammer
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.mOEHnr66cQZA8O4Y'
+  documentUuid: Compendium.neon-odyssey.items.Item.yRN1b7ojZBwAY7Dj
+- type: document
+  weight: 1
+  range:
+  - 4
+  - 4
+  drawn: false
+  _id: tmulUdErMVqGRh7g
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Dynasteel Plating (Armor Module)
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.tmulUdErMVqGRh7g'
+  documentUuid: Compendium.neon-odyssey.items.Item.VeazOlieR6gKPRkv
+- type: document
+  weight: 1
+  range:
+  - 5
+  - 5
+  drawn: false
+  _id: BOQVBNHV98P8Kwf0
+  img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Grenade Chamber (Weapon Module)
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.BOQVBNHV98P8Kwf0'
+  documentUuid: Compendium.neon-odyssey.items.Item.LuPu4LFaCd10y347
+- type: document
+  weight: 1
+  range:
+  - 6
+  - 6
+  drawn: false
+  _id: xseZJmlw4jWT1GRd
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Heavy Laser Rifle
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.xseZJmlw4jWT1GRd'
+  documentUuid: Compendium.neon-odyssey.items.Item.cO5YVdDZiO7AS42L
+- type: document
+  weight: 1
+  range:
+  - 7
+  - 7
+  drawn: false
+  _id: YR2Hes0n43Cvrc4R
+  img: modules/neon-odyssey/icons/neon/i-crosshairs-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Sniper Rifle
+  description: ''
+  _key: '!tables.results!ANQoMdx1g7vB8JmD.YR2Hes0n43Cvrc4R'
+  documentUuid: Compendium.neon-odyssey.items.Item.WQfmBiZHCdLyIH40
+replacement: true
+displayRoll: true
+folder: 0EG7R32OPAea9uTw
+formula: 1d7
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!ANQoMdx1g7vB8JmD'

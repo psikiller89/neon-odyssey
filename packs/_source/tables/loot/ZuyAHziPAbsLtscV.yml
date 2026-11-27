@@ -1,0 +1,1703 @@
+_id: ZuyAHziPAbsLtscV
+name: 'Loot: Valuable (1,000–4,999 GN)'
+img: icons/containers/chest/chest-reinforced-steel-cherry.webp
+description: <p>A random Neon Odyssey item worth 1,000–4,999 GN.</p>
+results:
+- type: document
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: t5D8SMp0ykT0hKx2
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Heavy Armor
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.t5D8SMp0ykT0hKx2'
+  documentUuid: Compendium.neon-odyssey.items.Item.1WkfdQsWuMpndXNN
+- type: document
+  weight: 1
+  range:
+  - 2
+  - 2
+  drawn: false
+  _id: edHxSU459eayhvZO
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Medium Armor Suit
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.edHxSU459eayhvZO'
+  documentUuid: Compendium.neon-odyssey.items.Item.V2h4sh4QmRQ9Lcdv
+- type: document
+  weight: 1
+  range:
+  - 3
+  - 3
+  drawn: false
+  _id: Gs17Ok7Zp8CFMJ8P
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Medium Armor Vest
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.Gs17Ok7Zp8CFMJ8P'
+  documentUuid: Compendium.neon-odyssey.items.Item.CKXz5DGf7qOyKRv4
+- type: document
+  weight: 1
+  range:
+  - 4
+  - 4
+  drawn: false
+  _id: et6hgypcKvw4KAt3
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Academic’s Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.et6hgypcKvw4KAt3'
+  documentUuid: Compendium.neon-odyssey.items.Item.4ye9d8gUKhuHktf1
+- type: document
+  weight: 1
+  range:
+  - 5
+  - 5
+  drawn: false
+  _id: MZvOL01RX8kTyJlH
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Acolyte’s Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.MZvOL01RX8kTyJlH'
+  documentUuid: Compendium.neon-odyssey.items.Item.wyk5UV4O3Oyn8Cew
+- type: document
+  weight: 1
+  range:
+  - 6
+  - 6
+  drawn: false
+  _id: IHgbbYkYUeDEGmdu
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Antidote
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.IHgbbYkYUeDEGmdu'
+  documentUuid: Compendium.neon-odyssey.items.Item.0WXb1xQk8gKVt3TY
+- type: document
+  weight: 1
+  range:
+  - 7
+  - 7
+  drawn: false
+  _id: A2DA4lIdYaLszT2v
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Ascension Gun
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.A2DA4lIdYaLszT2v'
+  documentUuid: Compendium.neon-odyssey.items.Item.xOz8LRmBRgySduYQ
+- type: document
+  weight: 1
+  range:
+  - 8
+  - 8
+  drawn: false
+  _id: KcFEaqx535BjVJJc
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Climbing Gear
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.KcFEaqx535BjVJJc'
+  documentUuid: Compendium.neon-odyssey.items.Item.MVCU9EXvMwl0EID6
+- type: document
+  weight: 1
+  range:
+  - 9
+  - 9
+  drawn: false
+  _id: bK4hkTgwLKarLmq6
+  img: modules/neon-odyssey/icons/neon/i-tower-broadcast-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Communicator, Personal
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.bK4hkTgwLKarLmq6'
+  documentUuid: Compendium.neon-odyssey.items.Item.b8mX7z3Jm77sNXZK
+- type: document
+  weight: 1
+  range:
+  - 10
+  - 10
+  drawn: false
+  _id: 2RvXRPUU7zENmoMn
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Component Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.2RvXRPUU7zENmoMn'
+  documentUuid: Compendium.neon-odyssey.items.Item.IJ5mZZlB15ZQY33c
+- type: document
+  weight: 1
+  range:
+  - 11
+  - 11
+  drawn: false
+  _id: yK7cXuFfzv3Hz5mW
+  img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Cosmic Suspension
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.yK7cXuFfzv3Hz5mW'
+  documentUuid: Compendium.neon-odyssey.items.Item.1cvzHiIkTxb4wZGp
+- type: document
+  weight: 1
+  range:
+  - 12
+  - 12
+  drawn: false
+  _id: GECtBRXzHGS8RELN
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Enviro Suit
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.GECtBRXzHGS8RELN'
+  documentUuid: Compendium.neon-odyssey.items.Item.AJg4Vrk9YlYwotl9
+- type: document
+  weight: 1
+  range:
+  - 13
+  - 13
+  drawn: false
+  _id: z9tO0XqE5hYidRcN
+  img: modules/neon-odyssey/icons/neon/i-fire-flame-curved-red.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Flamethrower
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.z9tO0XqE5hYidRcN'
+  documentUuid: Compendium.neon-odyssey.items.Item.fpN0YbZ4DVuNWsMJ
+- type: document
+  weight: 1
+  range:
+  - 14
+  - 14
+  drawn: false
+  _id: qcc0LNLVzYG63cJ3
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Healing Stim
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.qcc0LNLVzYG63cJ3'
+  documentUuid: Compendium.neon-odyssey.items.Item.QDEoUGmbfpHDDxIA
+- type: document
+  weight: 1
+  range:
+  - 15
+  - 15
+  drawn: false
+  _id: zC0MDmTVbaiW6loQ
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Hypertech Component Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.zC0MDmTVbaiW6loQ'
+  documentUuid: Compendium.neon-odyssey.items.Item.lBq6AuGzxkUp91Ks
+- type: document
+  weight: 1
+  range:
+  - 16
+  - 16
+  drawn: false
+  _id: 5Uo4Bu1t14Oi14xW
+  img: modules/neon-odyssey/icons/neon/i-glasses-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Night Vision Goggles
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.5Uo4Bu1t14Oi14xW'
+  documentUuid: Compendium.neon-odyssey.items.Item.0hHBiLDFklRXi5MT
+- type: document
+  weight: 1
+  range:
+  - 17
+  - 17
+  drawn: false
+  _id: ZDj3Ppp11hsVjKEm
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Performer’s Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.ZDj3Ppp11hsVjKEm'
+  documentUuid: Compendium.neon-odyssey.items.Item.UkkQ5CtN1WjfrVYc
+- type: document
+  weight: 1
+  range:
+  - 18
+  - 18
+  drawn: false
+  _id: p8Jtuy7Fk2YmdIBQ
+  img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Power Cell, Rechargeable
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.p8Jtuy7Fk2YmdIBQ'
+  documentUuid: Compendium.neon-odyssey.items.Item.yJpSMUfzZktIDom5
+- type: document
+  weight: 1
+  range:
+  - 19
+  - 19
+  drawn: false
+  _id: 4jvsBegkSz4xuj6q
+  img: modules/neon-odyssey/icons/neon/i-satellite-dish-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Scanner
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.4jvsBegkSz4xuj6q'
+  documentUuid: Compendium.neon-odyssey.items.Item.SjZMjGV04XgtmcSm
+- type: document
+  weight: 1
+  range:
+  - 20
+  - 20
+  drawn: false
+  _id: 6xUC3U9WgISb1Iwq
+  img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Silencer
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.6xUC3U9WgISb1Iwq'
+  documentUuid: Compendium.neon-odyssey.items.Item.ZpUcD8yGQkZyyVds
+- type: document
+  weight: 1
+  range:
+  - 21
+  - 21
+  drawn: false
+  _id: DxGD664cMCjSXwpC
+  img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Spell Chip
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.DxGD664cMCjSXwpC'
+  documentUuid: Compendium.neon-odyssey.items.Item.z3JhGTbRXjbt40yA
+- type: document
+  weight: 1
+  range:
+  - 22
+  - 22
+  drawn: false
+  _id: saExQjfiWpcTtVkA
+  img: modules/neon-odyssey/icons/neon/i-box-open-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Survivor’s Pack
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.saExQjfiWpcTtVkA'
+  documentUuid: Compendium.neon-odyssey.items.Item.rqAteONd99zN3DDR
+- type: document
+  weight: 1
+  range:
+  - 23
+  - 23
+  drawn: false
+  _id: rsGQPy7o2vRk3qxn
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Composite Weave (Armor Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.rsGQPy7o2vRk3qxn'
+  documentUuid: Compendium.neon-odyssey.items.Item.gX4j3a3QYGPa8ToT
+- type: document
+  weight: 1
+  range:
+  - 24
+  - 24
+  drawn: false
+  _id: 1KoL1dhIzRGUxXZv
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Concealed Compartment (Armor Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.1KoL1dhIzRGUxXZv'
+  documentUuid: Compendium.neon-odyssey.items.Item.wer9adHAPzs515tU
+- type: document
+  weight: 1
+  range:
+  - 25
+  - 25
+  drawn: false
+  _id: gbSNd8ns6T1mLztE
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Deflection Circuitry (Weapon Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.gbSNd8ns6T1mLztE'
+  documentUuid: Compendium.neon-odyssey.items.Item.6wTzXNrzbEAg2z8G
+- type: document
+  weight: 1
+  range:
+  - 26
+  - 26
+  drawn: false
+  _id: H5w5wE9H8RRXaS0i
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Environment Seals (Armor Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.H5w5wE9H8RRXaS0i'
+  documentUuid: Compendium.neon-odyssey.items.Item.b3NfNKDVRhBJKM4E
+- type: document
+  weight: 1
+  range:
+  - 27
+  - 27
+  drawn: false
+  _id: eXNSUW2uWR3yXQs4
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Extended Magazine (Weapon Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.eXNSUW2uWR3yXQs4'
+  documentUuid: Compendium.neon-odyssey.items.Item.qCYvi8jnKZD0KOhY
+- type: document
+  weight: 1
+  range:
+  - 28
+  - 28
+  drawn: false
+  _id: xTyfr50G0HX0g2jA
+  img: modules/neon-odyssey/icons/neon/i-battery-full-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Extra Battery (Weapon Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.xTyfr50G0HX0g2jA'
+  documentUuid: Compendium.neon-odyssey.items.Item.HCTgmJD20TaPt4zV
+- type: document
+  weight: 1
+  range:
+  - 29
+  - 29
+  drawn: false
+  _id: 1jJeuvS4cdYRLryR
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Filament-Tether Grapnel (Weapon Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.1jJeuvS4cdYRLryR'
+  documentUuid: Compendium.neon-odyssey.items.Item.zHtvflQyIC4J9Fdh
+- type: document
+  weight: 1
+  range:
+  - 30
+  - 30
+  drawn: false
+  _id: IRsdyGpJG2Y9403Y
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Integrated Tool (Armor Module)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.IRsdyGpJG2Y9403Y'
+  documentUuid: Compendium.neon-odyssey.items.Item.MpA4jdm06VRyzOF5
+- type: document
+  weight: 1
+  range:
+  - 31
+  - 31
+  drawn: false
+  _id: OvEZKeyF107dIQzw
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Brewing Supplies
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.OvEZKeyF107dIQzw'
+  documentUuid: Compendium.neon-odyssey.items.Item.57DVSNEEAzuy0P30
+- type: document
+  weight: 1
+  range:
+  - 32
+  - 32
+  drawn: false
+  _id: cmcBls9KvW9xyvKS
+  img: modules/neon-odyssey/icons/neon/i-unlock-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Bypass Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.cmcBls9KvW9xyvKS'
+  documentUuid: Compendium.neon-odyssey.items.Item.7uvYP4Hpk5NqzkQB
+- type: document
+  weight: 1
+  range:
+  - 33
+  - 33
+  drawn: false
+  _id: YV0592uvkN5BG3F1
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Chemist’s Supplies
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.YV0592uvkN5BG3F1'
+  documentUuid: Compendium.neon-odyssey.items.Item.yTNGm8Mlp1gckpKP
+- type: document
+  weight: 1
+  range:
+  - 34
+  - 34
+  drawn: false
+  _id: NIfm0K3e5TveZKvh
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Engineer’s Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.NIfm0K3e5TveZKvh'
+  documentUuid: Compendium.neon-odyssey.items.Item.33sXsmnMQakxMFCD
+- type: document
+  weight: 1
+  range:
+  - 35
+  - 35
+  drawn: false
+  _id: b3SUd2KXNE3YBPbS
+  img: modules/neon-odyssey/icons/neon/i-unlock-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Infiltrator’s Kit
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.b3SUd2KXNE3YBPbS'
+  documentUuid: Compendium.neon-odyssey.items.Item.zc9lxJDbkrn3oAq8
+- type: document
+  weight: 1
+  range:
+  - 36
+  - 36
+  drawn: false
+  _id: fG8Lj8xZYDVDHinX
+  img: modules/neon-odyssey/icons/neon/i-music-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Brass Wind (Trumpet, Saxophone)
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.fG8Lj8xZYDVDHinX'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstBrass001
+- type: document
+  weight: 1
+  range:
+  - 37
+  - 37
+  drawn: false
+  _id: atbIiDPi0zA06BwE
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Guitar
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.atbIiDPi0zA06BwE'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEGuitar1
+- type: document
+  weight: 1
+  range:
+  - 38
+  - 38
+  drawn: false
+  _id: C5AkPmjeVIQFxY66
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Upright Bass
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.C5AkPmjeVIQFxY66'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEBass001
+- type: document
+  weight: 1
+  range:
+  - 39
+  - 39
+  drawn: false
+  _id: tkyAmikdG6q5L3x1
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Violin
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.tkyAmikdG6q5L3x1'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEViolin1
+- type: document
+  weight: 1
+  range:
+  - 40
+  - 40
+  drawn: false
+  _id: ImGLWaLtAIEFnJv6
+  img: modules/neon-odyssey/icons/neon/i-drum-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electronic Drum Kit
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.ImGLWaLtAIEFnJv6'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstDrumKit1
+- type: document
+  weight: 1
+  range:
+  - 41
+  - 41
+  drawn: false
+  _id: vKVF7XfGEltDa3ti
+  img: modules/neon-odyssey/icons/neon/i-sliders-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Keytar
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.vKVF7XfGEltDa3ti'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstKeytar01
+- type: document
+  weight: 1
+  range:
+  - 42
+  - 42
+  drawn: false
+  _id: FuEk6rjIUW5df3WN
+  img: modules/neon-odyssey/icons/neon/i-sliders-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Synthesizer
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.FuEk6rjIUW5df3WN'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstSynth001
+- type: document
+  weight: 1
+  range:
+  - 43
+  - 43
+  drawn: false
+  _id: q8ijrIC83Ut7KTTp
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Jewelry Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.q8ijrIC83Ut7KTTp'
+  documentUuid: Compendium.neon-odyssey.items.Item.znvghkskhrqYeiUe
+- type: document
+  weight: 1
+  range:
+  - 44
+  - 44
+  drawn: false
+  _id: mrdZReWdoDloxcUd
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Mechanic’s Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.mrdZReWdoDloxcUd'
+  documentUuid: Compendium.neon-odyssey.items.Item.ls9En7asIx46b5et
+- type: document
+  weight: 1
+  range:
+  - 45
+  - 45
+  drawn: false
+  _id: eqNWtrzhvgcGi3Ym
+  img: modules/neon-odyssey/icons/neon/i-compass-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Navigation Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.eqNWtrzhvgcGi3Ym'
+  documentUuid: Compendium.neon-odyssey.items.Item.uBf4FF5qHapyAgXz
+- type: document
+  weight: 1
+  range:
+  - 46
+  - 46
+  drawn: false
+  _id: Obb1fbnuw5bvWP70
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Polymer-Molding Tools
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.Obb1fbnuw5bvWP70'
+  documentUuid: Compendium.neon-odyssey.items.Item.AaNTKKWGQo5EPgXF
+- type: document
+  weight: 1
+  range:
+  - 47
+  - 47
+  drawn: false
+  _id: yuKpaDV6OZizVcWx
+  img: modules/neon-odyssey/icons/neon/i-laptop-code-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Spiking Deck
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.yuKpaDV6OZizVcWx'
+  documentUuid: Compendium.neon-odyssey.items.Item.Rt7adqDDyIE4taqD
+- type: document
+  weight: 1
+  range:
+  - 48
+  - 48
+  drawn: false
+  _id: bsBXpQuYYQwpAmN5
+  img: modules/neon-odyssey/icons/neon/i-skull-crossbones-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Toxin Kit
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.bsBXpQuYYQwpAmN5'
+  documentUuid: Compendium.neon-odyssey.items.Item.BtfnXgHN6AsXeJVt
+- type: document
+  weight: 1
+  range:
+  - 49
+  - 49
+  drawn: false
+  _id: O50u23yZZPccxWAS
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Breaker Axe
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.O50u23yZZPccxWAS'
+  documentUuid: Compendium.neon-odyssey.items.Item.SCKysecQaNXRVEDo
+- type: document
+  weight: 1
+  range:
+  - 50
+  - 50
+  drawn: false
+  _id: 0cKqu3j0XEI6V6Qd
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Breaker Sword
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.0cKqu3j0XEI6V6Qd'
+  documentUuid: Compendium.neon-odyssey.items.Item.D3KxwO265LaqvvXX
+- type: document
+  weight: 1
+  range:
+  - 51
+  - 51
+  drawn: false
+  _id: NbECID2uK1AWpwsA
+  img: modules/neon-odyssey/icons/neon/i-hammer-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Concussion Maul
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.NbECID2uK1AWpwsA'
+  documentUuid: Compendium.neon-odyssey.items.Item.mP2P2YVvdU5wR4Kv
+- type: document
+  weight: 1
+  range:
+  - 52
+  - 52
+  drawn: false
+  _id: sBE9PfncBygSwERC
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Dueling Blade
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.sBE9PfncBygSwERC'
+  documentUuid: Compendium.neon-odyssey.items.Item.iW4rqnIdlTcye9gW
+- type: document
+  weight: 1
+  range:
+  - 53
+  - 53
+  drawn: false
+  _id: HFgMHP9b4dWLcpxm
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Pole Axe
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.HFgMHP9b4dWLcpxm'
+  documentUuid: Compendium.neon-odyssey.items.Item.vYa2aPo2JIkkviMe
+- type: document
+  weight: 1
+  range:
+  - 54
+  - 54
+  drawn: false
+  _id: X7eUzbDBH3g1SeSW
+  img: modules/neon-odyssey/icons/neon/i-hand-fist-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Power Fist
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.X7eUzbDBH3g1SeSW'
+  documentUuid: Compendium.neon-odyssey.items.Item.paxFOI16H1TOrkeU
+- type: document
+  weight: 1
+  range:
+  - 55
+  - 55
+  drawn: false
+  _id: NUDJpPchmBybMs69
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Power Glaive
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.NUDJpPchmBybMs69'
+  documentUuid: Compendium.neon-odyssey.items.Item.os7eo8yBQhoXH1nl
+- type: document
+  weight: 1
+  range:
+  - 56
+  - 56
+  drawn: false
+  _id: aAfEJ3GqzCyBDXhp
+  img: modules/neon-odyssey/icons/neon/i-blade-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Saber
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.aAfEJ3GqzCyBDXhp'
+  documentUuid: Compendium.neon-odyssey.items.Item.wUoh9qUDDP9ssnMf
+- type: document
+  weight: 1
+  range:
+  - 57
+  - 57
+  drawn: false
+  _id: 6oPvdD7VHYRM6qOH
+  img: modules/neon-odyssey/icons/neon/i-bolt-lightning-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Shock Lance
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.6oPvdD7VHYRM6qOH'
+  documentUuid: Compendium.neon-odyssey.items.Item.pKPYDE1NUBfmqVCb
+- type: document
+  weight: 1
+  range:
+  - 58
+  - 58
+  drawn: false
+  _id: 7E4ENPldYOrYP6hO
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Vibro Pike
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.7E4ENPldYOrYP6hO'
+  documentUuid: Compendium.neon-odyssey.items.Item.O08lJ0gjo19eeFEJ
+- type: document
+  weight: 1
+  range:
+  - 59
+  - 59
+  drawn: false
+  _id: MjFxfFfDTDGu63AH
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Assault Rifle
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.MjFxfFfDTDGu63AH'
+  documentUuid: Compendium.neon-odyssey.items.Item.S2woClmSl0ddigAd
+- type: document
+  weight: 1
+  range:
+  - 60
+  - 60
+  drawn: false
+  _id: 4Zuvt9M9xZBetLfM
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Breach Rifle
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.4Zuvt9M9xZBetLfM'
+  documentUuid: Compendium.neon-odyssey.items.Item.0qjUeR99Upfd5XxS
+- type: document
+  weight: 1
+  range:
+  - 61
+  - 61
+  drawn: false
+  _id: v7eqUiK4DrzTntfn
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Hand Cannon
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.v7eqUiK4DrzTntfn'
+  documentUuid: Compendium.neon-odyssey.items.Item.cBfDJQNbmxsLuMZn
+- type: document
+  weight: 1
+  range:
+  - 62
+  - 62
+  drawn: false
+  _id: d4onvKGHbeVAz9J3
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Laser Rifle
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.d4onvKGHbeVAz9J3'
+  documentUuid: Compendium.neon-odyssey.items.Item.T6pxNlAzbw6cY80F
+- type: document
+  weight: 1
+  range:
+  - 63
+  - 63
+  drawn: false
+  _id: 0FG3DgKvvfDgopQD
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Light Machine Gun
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.0FG3DgKvvfDgopQD'
+  documentUuid: Compendium.neon-odyssey.items.Item.5dn22xxbMQeuPHAR
+- type: document
+  weight: 1
+  range:
+  - 64
+  - 64
+  drawn: false
+  _id: zgSzIKzIqb5NvgST
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Plasma Pistol
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.zgSzIKzIqb5NvgST'
+  documentUuid: Compendium.neon-odyssey.items.Item.t7AEGsh61W9VsNYc
+- type: document
+  weight: 1
+  range:
+  - 65
+  - 65
+  drawn: false
+  _id: gWNQvR3Xox68KIpb
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Plasma Rifle
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.gWNQvR3Xox68KIpb'
+  documentUuid: Compendium.neon-odyssey.items.Item.VgYovzlUKssAjOsh
+- type: document
+  weight: 1
+  range:
+  - 66
+  - 66
+  drawn: false
+  _id: ALUl7qJZVOdSRRQ9
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Pulse Cannon
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.ALUl7qJZVOdSRRQ9'
+  documentUuid: Compendium.neon-odyssey.items.Item.0D3fqysXxfCTrB94
+- type: document
+  weight: 1
+  range:
+  - 67
+  - 67
+  drawn: false
+  _id: b6L1A0cghjR3DgDG
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Repeating Laser
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.b6L1A0cghjR3DgDG'
+  documentUuid: Compendium.neon-odyssey.items.Item.RL33Ft5YTWBhOOlX
+- type: document
+  weight: 1
+  range:
+  - 68
+  - 68
+  drawn: false
+  _id: x9dXyFTYvHwR7rCB
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Scatterblast
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.x9dXyFTYvHwR7rCB'
+  documentUuid: Compendium.neon-odyssey.items.Item.pum1HDE5VeeueSHG
+- type: document
+  weight: 1
+  range:
+  - 69
+  - 69
+  drawn: false
+  _id: D7G9FCxeMeg2ZCkQ
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Shotgun
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.D7G9FCxeMeg2ZCkQ'
+  documentUuid: Compendium.neon-odyssey.items.Item.CEgtCwJrW1cRyWPI
+- type: document
+  weight: 1
+  range:
+  - 70
+  - 70
+  drawn: false
+  _id: EPAs8A4SiWb50lZs
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Heavy Laser Pistol
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.EPAs8A4SiWb50lZs'
+  documentUuid: Compendium.neon-odyssey.items.Item.37FcIBrVmMZ7kKJZ
+- type: document
+  weight: 1
+  range:
+  - 71
+  - 71
+  drawn: false
+  _id: IGSwvHR5UjjS4AiI
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Heavy Pistol
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.IGSwvHR5UjjS4AiI'
+  documentUuid: Compendium.neon-odyssey.items.Item.2rlXk2lIwDSvTahg
+- type: document
+  weight: 1
+  range:
+  - 72
+  - 72
+  drawn: false
+  _id: IHSM5JHICsFABMPk
+  img: modules/neon-odyssey/icons/neon/i-gun-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Laser Carbine
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.IHSM5JHICsFABMPk'
+  documentUuid: Compendium.neon-odyssey.items.Item.HdR5RWBYJDdhcF5Z
+- type: document
+  weight: 1
+  range:
+  - 73
+  - 73
+  drawn: false
+  _id: KMufdCZYUc7RF482
+  img: modules/neon-odyssey/icons/neon/i-gun-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Submachine Gun
+  description: ''
+  _key: '!tables.results!ZuyAHziPAbsLtscV.KMufdCZYUc7RF482'
+  documentUuid: Compendium.neon-odyssey.items.Item.S8wJgGsBhNUDn0z0
+replacement: true
+displayRoll: true
+folder: 0EG7R32OPAea9uTw
+formula: 1d73
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!ZuyAHziPAbsLtscV'

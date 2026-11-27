@@ -1,0 +1,691 @@
+_id: hV5COgbBw6rxdwdy
+name: 'Shop: Tools & Instruments'
+img: icons/tools/hand/hammer-and-nail.webp
+description: <p>A random item for a Tools & Instruments shop.</p>
+results:
+- type: document
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: D66pGIZZsuOpHvUh
+  img: modules/neon-odyssey/icons/neon/i-palette-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Artist’s Supplies
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.D66pGIZZsuOpHvUh'
+  documentUuid: Compendium.neon-odyssey.items.Item.469Ci9cfRjPurGvA
+- type: document
+  weight: 1
+  range:
+  - 2
+  - 2
+  drawn: false
+  _id: Ngb9q2XVSSapb0dn
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Brewing Supplies
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.Ngb9q2XVSSapb0dn'
+  documentUuid: Compendium.neon-odyssey.items.Item.57DVSNEEAzuy0P30
+- type: document
+  weight: 1
+  range:
+  - 3
+  - 3
+  drawn: false
+  _id: uOmkniL5wUEXN1hU
+  img: modules/neon-odyssey/icons/neon/i-unlock-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Bypass Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.uOmkniL5wUEXN1hU'
+  documentUuid: Compendium.neon-odyssey.items.Item.7uvYP4Hpk5NqzkQB
+- type: document
+  weight: 1
+  range:
+  - 4
+  - 4
+  drawn: false
+  _id: m5al3TSszf2zZ2jh
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Chef’s Utensils
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.m5al3TSszf2zZ2jh'
+  documentUuid: Compendium.neon-odyssey.items.Item.ec86miJotQkOIlaj
+- type: document
+  weight: 1
+  range:
+  - 5
+  - 5
+  drawn: false
+  _id: fhJNrhuPznFEIkLM
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Chemist’s Supplies
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.fhJNrhuPznFEIkLM'
+  documentUuid: Compendium.neon-odyssey.items.Item.yTNGm8Mlp1gckpKP
+- type: document
+  weight: 1
+  range:
+  - 6
+  - 6
+  drawn: false
+  _id: r5he5hmMUozcUfsr
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Construction Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.r5he5hmMUozcUfsr'
+  documentUuid: Compendium.neon-odyssey.items.Item.ir4TscEIA7h7YHBG
+- type: document
+  weight: 1
+  range:
+  - 7
+  - 7
+  drawn: false
+  _id: sQ5pNkZxsuiqR2sh
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electronics Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.sQ5pNkZxsuiqR2sh'
+  documentUuid: Compendium.neon-odyssey.items.Item.QtEnNlpK8ltfZ9gd
+- type: document
+  weight: 1
+  range:
+  - 8
+  - 8
+  drawn: false
+  _id: QFq4umXAVv3P48Js
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Engineer’s Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.QFq4umXAVv3P48Js'
+  documentUuid: Compendium.neon-odyssey.items.Item.33sXsmnMQakxMFCD
+- type: document
+  weight: 1
+  range:
+  - 9
+  - 9
+  drawn: false
+  _id: vCHeAiWpbliX38lI
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Forger’s Kit
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.vCHeAiWpbliX38lI'
+  documentUuid: Compendium.neon-odyssey.items.Item.8yxOAgALwDE6AMmB
+- type: document
+  weight: 1
+  range:
+  - 10
+  - 10
+  drawn: false
+  _id: VZX5MsTdRRDwkUA2
+  img: modules/neon-odyssey/icons/neon/i-unlock-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Infiltrator’s Kit
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.VZX5MsTdRRDwkUA2'
+  documentUuid: Compendium.neon-odyssey.items.Item.zc9lxJDbkrn3oAq8
+- type: document
+  weight: 1
+  range:
+  - 11
+  - 11
+  drawn: false
+  _id: LWBpgJPVj54dcPT3
+  img: modules/neon-odyssey/icons/neon/i-music-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Brass Wind (Trumpet, Saxophone)
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.LWBpgJPVj54dcPT3'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstBrass001
+- type: document
+  weight: 1
+  range:
+  - 12
+  - 12
+  drawn: false
+  _id: WL1GudjG1dzWXqb3
+  img: modules/neon-odyssey/icons/neon/i-drum-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Drum Pad
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.WL1GudjG1dzWXqb3'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstDrumPad1
+- type: document
+  weight: 1
+  range:
+  - 13
+  - 13
+  drawn: false
+  _id: 94gvYtIuwVA89MOb
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Guitar
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.94gvYtIuwVA89MOb'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEGuitar1
+- type: document
+  weight: 1
+  range:
+  - 14
+  - 14
+  drawn: false
+  _id: r9ufxY7uXR9wGj0y
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Upright Bass
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.r9ufxY7uXR9wGj0y'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEBass001
+- type: document
+  weight: 1
+  range:
+  - 15
+  - 15
+  drawn: false
+  _id: G7ZWQAba4L2PUaTK
+  img: modules/neon-odyssey/icons/neon/i-guitar-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electric Violin
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.G7ZWQAba4L2PUaTK'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstEViolin1
+- type: document
+  weight: 1
+  range:
+  - 16
+  - 16
+  drawn: false
+  _id: 1AT4qCuo2FjN3xmk
+  img: modules/neon-odyssey/icons/neon/i-drum-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Electronic Drum Kit
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.1AT4qCuo2FjN3xmk'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstDrumKit1
+- type: document
+  weight: 1
+  range:
+  - 17
+  - 17
+  drawn: false
+  _id: EbLJ3RaxWchU1lEK
+  img: modules/neon-odyssey/icons/neon/i-sliders-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Keytar
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.EbLJ3RaxWchU1lEK'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstKeytar01
+- type: document
+  weight: 1
+  range:
+  - 18
+  - 18
+  drawn: false
+  _id: tXZFGN0YR3oGSPBc
+  img: modules/neon-odyssey/icons/neon/i-microphone-lines-pink.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Microphone
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.tXZFGN0YR3oGSPBc'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstMicro001
+- type: document
+  weight: 1
+  range:
+  - 19
+  - 19
+  drawn: false
+  _id: 8mP71XQHboiYbtvn
+  img: modules/neon-odyssey/icons/neon/i-sliders-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Synthesizer
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.8mP71XQHboiYbtvn'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstSynth001
+- type: document
+  weight: 1
+  range:
+  - 20
+  - 20
+  drawn: false
+  _id: jtbLZh0EX8gDu2Ki
+  img: modules/neon-odyssey/icons/neon/i-music-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Wood Wind (Flute, Clarinet)
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.jtbLZh0EX8gDu2Ki'
+  documentUuid: Compendium.neon-odyssey.items.Item.neonInstWoodWnd1
+- type: document
+  weight: 1
+  range:
+  - 21
+  - 21
+  drawn: false
+  _id: 2Cg3ssrvRlZxZ3zO
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Jewelry Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.2Cg3ssrvRlZxZ3zO'
+  documentUuid: Compendium.neon-odyssey.items.Item.znvghkskhrqYeiUe
+- type: document
+  weight: 1
+  range:
+  - 22
+  - 22
+  drawn: false
+  _id: ubjmGN2U8EPVHzcF
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Mechanic’s Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.ubjmGN2U8EPVHzcF'
+  documentUuid: Compendium.neon-odyssey.items.Item.ls9En7asIx46b5et
+- type: document
+  weight: 1
+  range:
+  - 23
+  - 23
+  drawn: false
+  _id: Khpqd2Wm047AKv6j
+  img: modules/neon-odyssey/icons/neon/i-compass-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Navigation Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.Khpqd2Wm047AKv6j'
+  documentUuid: Compendium.neon-odyssey.items.Item.uBf4FF5qHapyAgXz
+- type: document
+  weight: 1
+  range:
+  - 24
+  - 24
+  drawn: false
+  _id: O6JXAAwdIyWlglmg
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Pharma Kit
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.O6JXAAwdIyWlglmg'
+  documentUuid: Compendium.neon-odyssey.items.Item.3L3ZSmaDIPpkc9HJ
+- type: document
+  weight: 1
+  range:
+  - 25
+  - 25
+  drawn: false
+  _id: d6x7cGkmlTnUuiBD
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Polymer-Molding Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.d6x7cGkmlTnUuiBD'
+  documentUuid: Compendium.neon-odyssey.items.Item.AaNTKKWGQo5EPgXF
+- type: document
+  weight: 1
+  range:
+  - 26
+  - 26
+  drawn: false
+  _id: DR6glwz9RHd9HGjd
+  img: modules/neon-odyssey/icons/neon/i-laptop-code-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Spiking Deck
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.DR6glwz9RHd9HGjd'
+  documentUuid: Compendium.neon-odyssey.items.Item.Rt7adqDDyIE4taqD
+- type: document
+  weight: 1
+  range:
+  - 27
+  - 27
+  drawn: false
+  _id: 49FhUE0iUaf0bH8g
+  img: modules/neon-odyssey/icons/neon/i-compass-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Surveying Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.49FhUE0iUaf0bH8g'
+  documentUuid: Compendium.neon-odyssey.items.Item.WmVo3QzG4etjXFNi
+- type: document
+  weight: 1
+  range:
+  - 28
+  - 28
+  drawn: false
+  _id: 0O0nlJoCLNPBHIuK
+  img: modules/neon-odyssey/icons/neon/i-screwdriver-wrench-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Textile Tools
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.0O0nlJoCLNPBHIuK'
+  documentUuid: Compendium.neon-odyssey.items.Item.mhsFOJedTzJLibht
+- type: document
+  weight: 1
+  range:
+  - 29
+  - 29
+  drawn: false
+  _id: 6TEvdZVbjMZLWbBo
+  img: modules/neon-odyssey/icons/neon/i-skull-crossbones-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Toxin Kit
+  description: ''
+  _key: '!tables.results!hV5COgbBw6rxdwdy.6TEvdZVbjMZLWbBo'
+  documentUuid: Compendium.neon-odyssey.items.Item.BtfnXgHN6AsXeJVt
+replacement: true
+displayRoll: true
+folder: N7gZSFikgmnbsN0L
+formula: 1d29
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!hV5COgbBw6rxdwdy'

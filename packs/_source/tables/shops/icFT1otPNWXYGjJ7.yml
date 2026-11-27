@@ -1,0 +1,369 @@
+_id: icFT1otPNWXYGjJ7
+name: 'Shop: Armor & Modules'
+img: icons/equipment/chest/breastplate-banded-steel.webp
+description: <p>A random item for a Armor & Modules shop.</p>
+results:
+- type: document
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: frgQ2vpiX22A5OIs
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Heavy Armor
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.frgQ2vpiX22A5OIs'
+  documentUuid: Compendium.neon-odyssey.items.Item.1WkfdQsWuMpndXNN
+- type: document
+  weight: 1
+  range:
+  - 2
+  - 2
+  drawn: false
+  _id: Ucg2c5WQg0FWb0u9
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Light Armor
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.Ucg2c5WQg0FWb0u9'
+  documentUuid: Compendium.neon-odyssey.items.Item.lAMG4zR378snhyS6
+- type: document
+  weight: 1
+  range:
+  - 3
+  - 3
+  drawn: false
+  _id: Sz8E8lxAP8hoHP5c
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Medium Armor Suit
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.Sz8E8lxAP8hoHP5c'
+  documentUuid: Compendium.neon-odyssey.items.Item.V2h4sh4QmRQ9Lcdv
+- type: document
+  weight: 1
+  range:
+  - 4
+  - 4
+  drawn: false
+  _id: Re7ZCJUEIpmu5Zbl
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Medium Armor Vest
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.Re7ZCJUEIpmu5Zbl'
+  documentUuid: Compendium.neon-odyssey.items.Item.CKXz5DGf7qOyKRv4
+- type: document
+  weight: 1
+  range:
+  - 5
+  - 5
+  drawn: false
+  _id: tTC73OENofk7rCdt
+  img: modules/neon-odyssey/icons/neon/i-shield-halved-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Shield
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.tTC73OENofk7rCdt'
+  documentUuid: Compendium.neon-odyssey.items.Item.QivqvWK41jGn7tMT
+- type: document
+  weight: 1
+  range:
+  - 6
+  - 6
+  drawn: false
+  _id: Pmsjmb5wtdGsaHrE
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Composite Weave (Armor Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.Pmsjmb5wtdGsaHrE'
+  documentUuid: Compendium.neon-odyssey.items.Item.gX4j3a3QYGPa8ToT
+- type: document
+  weight: 1
+  range:
+  - 7
+  - 7
+  drawn: false
+  _id: V9irDtoV16pvLe18
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Concealed Compartment (Armor Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.V9irDtoV16pvLe18'
+  documentUuid: Compendium.neon-odyssey.items.Item.wer9adHAPzs515tU
+- type: document
+  weight: 1
+  range:
+  - 8
+  - 8
+  drawn: false
+  _id: eqq3Kg4WKH5YzofZ
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Deflection Circuitry (Weapon Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.eqq3Kg4WKH5YzofZ'
+  documentUuid: Compendium.neon-odyssey.items.Item.6wTzXNrzbEAg2z8G
+- type: document
+  weight: 1
+  range:
+  - 9
+  - 9
+  drawn: false
+  _id: 56PxBSaVzxFqdqwb
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Dynasteel Plating (Armor Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.56PxBSaVzxFqdqwb'
+  documentUuid: Compendium.neon-odyssey.items.Item.VeazOlieR6gKPRkv
+- type: document
+  weight: 1
+  range:
+  - 10
+  - 10
+  drawn: false
+  _id: KY5nPB7SknJXMWm1
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Environment Seals (Armor Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.KY5nPB7SknJXMWm1'
+  documentUuid: Compendium.neon-odyssey.items.Item.b3NfNKDVRhBJKM4E
+- type: document
+  weight: 1
+  range:
+  - 11
+  - 11
+  drawn: false
+  _id: 1iOoskvN2iwN5nNJ
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Extended Magazine (Weapon Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.1iOoskvN2iwN5nNJ'
+  documentUuid: Compendium.neon-odyssey.items.Item.qCYvi8jnKZD0KOhY
+- type: document
+  weight: 1
+  range:
+  - 12
+  - 12
+  drawn: false
+  _id: BXiCeNEDYQsWNhol
+  img: modules/neon-odyssey/icons/neon/i-battery-full-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Extra Battery (Weapon Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.BXiCeNEDYQsWNhol'
+  documentUuid: Compendium.neon-odyssey.items.Item.HCTgmJD20TaPt4zV
+- type: document
+  weight: 1
+  range:
+  - 13
+  - 13
+  drawn: false
+  _id: ZyO78Zx4DOreZn5D
+  img: modules/neon-odyssey/icons/neon/i-gear-teal.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Filament-Tether Grapnel (Weapon Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.ZyO78Zx4DOreZn5D'
+  documentUuid: Compendium.neon-odyssey.items.Item.zHtvflQyIC4J9Fdh
+- type: document
+  weight: 1
+  range:
+  - 14
+  - 14
+  drawn: false
+  _id: Acz73etc6Zoo19Z2
+  img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Grenade Chamber (Weapon Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.Acz73etc6Zoo19Z2'
+  documentUuid: Compendium.neon-odyssey.items.Item.LuPu4LFaCd10y347
+- type: document
+  weight: 1
+  range:
+  - 15
+  - 15
+  drawn: false
+  _id: VZFxyWaab6dtdmmC
+  img: modules/neon-odyssey/icons/neon/i-user-shield-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Integrated Tool (Armor Module)
+  description: ''
+  _key: '!tables.results!icFT1otPNWXYGjJ7.VZFxyWaab6dtdmmC'
+  documentUuid: Compendium.neon-odyssey.items.Item.MpA4jdm06VRyzOF5
+replacement: true
+displayRoll: true
+folder: N7gZSFikgmnbsN0L
+formula: 1d15
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!icFT1otPNWXYGjJ7'

@@ -1,0 +1,438 @@
+_id: lTEONi6UMnJYHeXX
+name: 'Shop: Consumables & Explosives'
+img: icons/consumables/potions/bottle-round-corked-green.webp
+description: <p>A random item for a Consumables & Explosives shop.</p>
+results:
+- type: document
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: Qj1wgCmWR4glfN0z
+  img: modules/neon-odyssey/icons/neon/i-burst-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Bullets
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.Qj1wgCmWR4glfN0z'
+  documentUuid: Compendium.neon-odyssey.items.Item.PT2cicmwDV82e1PY
+- type: document
+  weight: 1
+  range:
+  - 2
+  - 2
+  drawn: false
+  _id: hDEuQiTHhhn5S2Dt
+  img: modules/neon-odyssey/icons/neon/i-burst-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Shells
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.hDEuQiTHhhn5S2Dt'
+  documentUuid: Compendium.neon-odyssey.items.Item.RIcLjliNizqL39oE
+- type: document
+  weight: 1
+  range:
+  - 3
+  - 3
+  drawn: false
+  _id: KXo8up462qhzqKrU
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Acid Vial
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.KXo8up462qhzqKrU'
+  documentUuid: Compendium.neon-odyssey.items.Item.uWUuSztRizBzcfZi
+- type: document
+  weight: 1
+  range:
+  - 4
+  - 4
+  drawn: false
+  _id: 2FTFdFQci8DObN3A
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Antidote
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.2FTFdFQci8DObN3A'
+  documentUuid: Compendium.neon-odyssey.items.Item.0WXb1xQk8gKVt3TY
+- type: document
+  weight: 1
+  range:
+  - 5
+  - 5
+  drawn: false
+  _id: soKRcRbgMEwhQ4eQ
+  img: modules/neon-odyssey/icons/neon/i-vial-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Fragrance
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.soKRcRbgMEwhQ4eQ'
+  documentUuid: Compendium.neon-odyssey.items.Item.v78tgzAPcqSquUrI
+- type: document
+  weight: 1
+  range:
+  - 6
+  - 6
+  drawn: false
+  _id: QQqAgyzPh7ntTh0y
+  img: modules/neon-odyssey/icons/neon/i-vial-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Fuel Oil
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.QQqAgyzPh7ntTh0y'
+  documentUuid: Compendium.neon-odyssey.items.Item.VK58YIjhWkw3HQNV
+- type: document
+  weight: 1
+  range:
+  - 7
+  - 7
+  drawn: false
+  _id: zqV2xrdC83Ppzhmi
+  img: modules/neon-odyssey/icons/neon/i-flask-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Gas Canister
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.zqV2xrdC83Ppzhmi'
+  documentUuid: Compendium.neon-odyssey.items.Item.OLLAsmzhJ1p8EHQV
+- type: document
+  weight: 1
+  range:
+  - 8
+  - 8
+  drawn: false
+  _id: 7PcENIKS6nzw4DyO
+  img: modules/neon-odyssey/icons/neon/i-vial-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Grav Spikes
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.7PcENIKS6nzw4DyO'
+  documentUuid: Compendium.neon-odyssey.items.Item.PmF6XPn9eMfgmRpS
+- type: document
+  weight: 1
+  range:
+  - 9
+  - 9
+  drawn: false
+  _id: 7cjVXfG85tpEv1dA
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Healing Stim
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.7cjVXfG85tpEv1dA'
+  documentUuid: Compendium.neon-odyssey.items.Item.QDEoUGmbfpHDDxIA
+- type: document
+  weight: 1
+  range:
+  - 10
+  - 10
+  drawn: false
+  _id: FfH6caig35XnrpZZ
+  img: modules/neon-odyssey/icons/neon/i-kit-medical-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Med Pack
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.FfH6caig35XnrpZZ'
+  documentUuid: Compendium.neon-odyssey.items.Item.TD2QUoexYggnacpp
+- type: document
+  weight: 1
+  range:
+  - 11
+  - 11
+  drawn: false
+  _id: dxFGoCoLpf0VDD48
+  img: modules/neon-odyssey/icons/neon/i-palette-violet.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Pigment
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.dxFGoCoLpf0VDD48'
+  documentUuid: Compendium.neon-odyssey.items.Item.cZ0Omh9fEyjNjbIA
+- type: document
+  weight: 1
+  range:
+  - 12
+  - 12
+  drawn: false
+  _id: ZH5Jh5xexDY8geAP
+  img: modules/neon-odyssey/icons/neon/i-bomb-orange.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Power Cell, Rechargeable
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.ZH5Jh5xexDY8geAP'
+  documentUuid: Compendium.neon-odyssey.items.Item.yJpSMUfzZktIDom5
+- type: document
+  weight: 1
+  range:
+  - 13
+  - 13
+  drawn: false
+  _id: XCgP7gs7aFl0ASdj
+  img: modules/neon-odyssey/icons/neon/i-battery-full-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Power Cell
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.XCgP7gs7aFl0ASdj'
+  documentUuid: Compendium.neon-odyssey.items.Item.GoMlQcqqRfMU9TNN
+- type: document
+  weight: 1
+  range:
+  - 14
+  - 14
+  drawn: false
+  _id: PeWRidItNAnEBBOU
+  img: modules/neon-odyssey/icons/neon/i-bowl-food-yellow.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Ration Pouch
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.PeWRidItNAnEBBOU'
+  documentUuid: Compendium.neon-odyssey.items.Item.gd885zRP0q6XFFd8
+- type: document
+  weight: 1
+  range:
+  - 15
+  - 15
+  drawn: false
+  _id: DBjIS1NxfKNw044q
+  img: modules/neon-odyssey/icons/neon/i-microchip-cyan.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Spell Chip
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.DBjIS1NxfKNw044q'
+  documentUuid: Compendium.neon-odyssey.items.Item.z3JhGTbRXjbt40yA
+- type: document
+  weight: 1
+  range:
+  - 16
+  - 16
+  drawn: false
+  _id: dMpPca7Qho7JsvJm
+  img: modules/neon-odyssey/icons/neon/i-vial-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Steel Bearings
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.dMpPca7Qho7JsvJm'
+  documentUuid: Compendium.neon-odyssey.items.Item.nmG9h6LRZRT6QfhB
+- type: document
+  weight: 1
+  range:
+  - 17
+  - 17
+  drawn: false
+  _id: SWQCfQCwITZPcBlm
+  img: modules/neon-odyssey/icons/neon/i-vial-green.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Thermasene
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.SWQCfQCwITZPcBlm'
+  documentUuid: Compendium.neon-odyssey.items.Item.zJbQvRAf2Eqo9HT8
+- type: document
+  weight: 1
+  range:
+  - 18
+  - 18
+  drawn: false
+  _id: mrca0rGtoiyS3KXy
+  img: modules/neon-odyssey/icons/neon/i-skull-crossbones-lime.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: Toxin, Simple
+  description: ''
+  _key: '!tables.results!lTEONi6UMnJYHeXX.mrca0rGtoiyS3KXy'
+  documentUuid: Compendium.neon-odyssey.items.Item.UWONJg956aZvnDCI
+replacement: true
+displayRoll: true
+folder: N7gZSFikgmnbsN0L
+formula: 1d18
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!lTEONi6UMnJYHeXX'

@@ -1,0 +1,46 @@
+_id: ShLXj6ZzLFZu0W6j
+name: 'Credits: CR 5–10'
+img: icons/commodities/currency/coins-plain-stack-gold.webp
+description: <p>Galactic Notes carried by one creature of this Challenge Rating.</p>
+results:
+- type: text
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  _id: KFq7EnmmZihrT6BD
+  img: icons/commodities/currency/coins-plain-stack-gold.webp
+  flags: {}
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+  name: ''
+  description: '[[/r 2d8 * 500]] Galactic Notes'
+  _key: '!tables.results!ShLXj6ZzLFZu0W6j.KFq7EnmmZihrT6BD'
+replacement: true
+displayRoll: true
+folder: SnGhDDhM956vojlf
+formula: 1d1
+sort: 0
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 6.0.6
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  duplicateSource: null
+  exportSource: null
+  compendiumSource: null
+flags: {}
+ownership:
+  default: 0
+_key: '!tables!ShLXj6ZzLFZu0W6j'
