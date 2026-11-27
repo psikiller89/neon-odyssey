@@ -71,75 +71,81 @@ system:
     replace: false
   magicalBonus: null
   activities:
-    2vIWAA6OgtRcHQsg:
-      _id: 2vIWAA6OgtRcHQsg
+    5qqq4MyfDdtg93c9:
+      _id: 5qqq4MyfDdtg93c9
       type: save
-      name: ''
+      name: Small Breaching Charge
+      img: ''
+      sort: 0
       activation:
         type: action
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
         targets:
         - type: itemUses
           value: '1'
           target: ''
           scaling: {}
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
       description:
-        chatFlavor: ''
+        chatFlavor: The surface the charge is attached to takes 8d10 Force damage.
       duration:
         units: inst
         concentration: false
         override: false
-      effects:
-      - _id: g2cssut6ExAs43ni
-        onSave: false
-      range:
-        override: false
-        units: self
+        value: ''
         special: ''
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: sphere
+          size: '20'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []
         max: ''
-      sort: 0
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
       save:
         ability:
         - con
-        dc:
-          calculation: spellcasting
-          formula: ''
+        dc: &id001
+          calculation: ''
+          formula: '15'
       damage:
-        onSave: half
-        parts:
-        - number: 8
-          denomination: 10
+        critical:
+          allow: false
           bonus: ''
-          types:
-          - force
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
+        parts:
         - number: 4
           denomination: 10
           bonus: ''
@@ -152,11 +158,85 @@ system:
             mode: ''
             number: null
             formula: ''
-        - number: 20
+        onSave: half
+    jEqsSj4PqzThvbQN:
+      _id: jEqsSj4PqzThvbQN
+      type: save
+      name: Large Breaching Charge
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: The surface the charge is attached to takes 20d10 Force damage.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '5'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '50'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 10
           denomination: 10
           bonus: ''
           types:
-          - force
+          - thunder
           custom:
             enabled: false
             formula: ''
@@ -164,6 +244,482 @@ system:
             mode: ''
             number: null
             formula: ''
+        onSave: half
+    kR33KimsCgK7yRFW:
+      _id: kR33KimsCgK7yRFW
+      type: save
+      name: EMP Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: 'Failed save: powered devices carried stop working for 1 minute; a Construct is Incapacitated. Repeat the save at the end of each turn.'
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects:
+      - _id: g2cssut6ExAs43ni
+        riders:
+          activity: []
+          effect: []
+          item: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts: []
+        onSave: none
+    iP03FhD7PQ7h7Ffv:
+      _id: iP03FhD7PQ7h7Ffv
+      type: save
+      name: Flashbang Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: 'Failed save: Blinded and Deafened. Repeat the save at the end of each turn; succeeds automatically after 1 minute.'
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - con
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts: []
+        onSave: none
+    osklshQAivzDFJ5G:
+      _id: osklshQAivzDFJ5G
+      type: save
+      name: Frag Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+    p27gITCpbWHsaFvr:
+      _id: p27gITCpbWHsaFvr
+      type: save
+      name: Incendiary Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: 'Failed save: the creature starts burning. Flammable objects in the area start burning.'
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 4
+          denomination: 6
+          bonus: ''
+          types:
+          - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
+    BE3gvOtrBQhWu82z:
+      _id: BE3gvOtrBQhWu82z
+      type: utility
+      name: Smoke Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: The Sphere is Heavily Obscured for 1 minute. A strong wind disperses the smoke.
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+    ibf8QcAcL5tQ9aHv:
+      _id: ibf8QcAcL5tQ9aHv
+      type: save
+      name: Plasma Grenade
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+        targets:
+        - type: itemUses
+          value: '1'
+          target: ''
+          scaling: {}
+      description:
+        chatFlavor: 'Failed save: the creature can''t take Reactions until the start of its next turn.'
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+        special: ''
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '20'
+          width: ''
+          count: ''
+          stationary: true
+        affects:
+          choice: true
+          count: ''
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      behaviors: []
+      save:
+        ability:
+        - dex
+        dc: *id001
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+        - number: 5
+          denomination: 6
+          bonus: ''
+          types:
+          - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        onSave: half
   identifier: explosives
 effects:
 - _id: g2cssut6ExAs43ni
