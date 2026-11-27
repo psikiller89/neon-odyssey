@@ -72,7 +72,7 @@ system:
         scaling:
           allowed: false
           max: ''
-        spellSlot: true
+        spellSlot: false
       description:
         chatFlavor: ''
       duration:
@@ -83,20 +83,25 @@ system:
       - _id: TN8204AekFEksmRv
         onSave: false
       range:
-        override: false
-        units: self
+        value: '10'
+        units: ft
         special: ''
+        override: false
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
-        affects:
-          choice: false
+          type: square
+          size: '10'
+          width: ''
           count: ''
-          type: ''
-        prompt: true
+          stationary: false
+        affects:
+          choice: true
+          count: ''
+          type: creature
         override: false
+        prompt: true
       uses:
         spent: 0
         recovery: []

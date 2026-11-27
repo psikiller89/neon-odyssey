@@ -223,13 +223,17 @@ system:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: radius
+          size: '5'
+          width: ''
+          count: ''
+          stationary: false
         affects:
-          choice: false
-          count: '1'
+          choice: true
+          count: ''
           type: creature
         override: false
-        prompt: false
+        prompt: true
       uses:
         spent: 0
         recovery: []

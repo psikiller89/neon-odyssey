@@ -30,8 +30,8 @@ system:
       choice: false
       special: ''
     template:
-      type: ''
-      size: ''
+      type: radius
+      size: '10'
       units: ft
       contiguous: false
       count: ''

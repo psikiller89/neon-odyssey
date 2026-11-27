@@ -638,7 +638,7 @@ items:
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
         description:
           chatFlavor: ''
         duration:
@@ -647,20 +647,25 @@ items:
           override: false
         effects: []
         range:
-          override: false
-          units: self
+          value: '150'
+          units: ft
           special: ''
+          override: false
         target:
           template:
             contiguous: false
             units: ft
-            type: ''
-          affects:
-            choice: false
+            type: sphere
+            size: '20'
+            width: ''
             count: ''
-            type: ''
-          prompt: true
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
           override: false
+          prompt: true
         uses:
           spent: 0
           recovery: []

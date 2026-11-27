@@ -159,7 +159,7 @@ items:
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
         description:
           chatFlavor: ''
         duration:
@@ -175,13 +175,17 @@ items:
           template:
             contiguous: false
             units: ft
-            type: ''
-          affects:
-            choice: false
+            type: radius
+            size: '30'
+            width: ''
             count: ''
-            type: ''
-          prompt: true
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
           override: false
+          prompt: true
         uses:
           spent: 0
           recovery: []
@@ -386,7 +390,7 @@ items:
           scaling:
             allowed: false
             max: ''
-          spellSlot: true
+          spellSlot: false
         description:
           chatFlavor: ''
         duration:
@@ -402,13 +406,17 @@ items:
           template:
             contiguous: false
             units: ft
-            type: ''
-          affects:
-            choice: false
+            type: cone
+            size: '30'
+            width: ''
             count: ''
-            type: ''
-          prompt: true
+            stationary: false
+          affects:
+            choice: true
+            count: ''
+            type: creature
           override: false
+          prompt: true
         uses:
           spent: 0
           recovery: []
