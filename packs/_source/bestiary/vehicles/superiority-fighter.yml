@@ -127,6 +127,8 @@ system:
       ignoredDifficultTerrain: []
       fly: 5000
       walk: 0
+      speeds:
+        fly: '5000'
     ac:
       flat: 22
       calc: flat
@@ -1065,8 +1067,9 @@ items:
   sort: 0
   system:
     description:
-      value: <p>Shield Points (30) are tracked as Temporary Hit Points and absorb damage first. They have their own Damage Threshold. After 1 minute (10 rounds) of game time without taking damage they return
-        to maximum automatically. Use Restore Shield Points to refill them by hand.</p>
+      value: '<p>Shield Points (30) are tracked as Temporary Hit Points and absorb damage first. They have their own Damage Threshold. After 1 minute (10 rounds) of game time without taking damage they
+        return to maximum automatically. Use Restore Shield Points to refill them by hand.</p><p><strong>Focus Shields</strong> (Utilize action): double the current and maximum Shield Points and put them
+        on one fire arc; the other three arcs aren''t protected. <strong>Reset Shields</strong> (Utilize action): halve the focused Shield Points and cover all arcs again; the maximum returns to normal.</p>'
       chat: ''
     type:
       value: vehicle
@@ -1143,15 +1146,783 @@ items:
           - temphp
           custom:
             enabled: true
-            formula: '30'
+            formula: '@flags.neon-odyssey.shieldMax'
           scaling:
             mode: ''
             number: null
             formula: ''
+      aILYoZPCwAycBrHW:
+        _id: aILYoZPCwAycBrHW
+        type: utility
+        name: Focus Shields
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags:
+          neon-odyssey:
+            shields: focus
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+      QHOfLtZvGc2bGRZK:
+        _id: QHOfLtZvGc2bGRZK
+        type: utility
+        name: Reset Shields
+        img: ''
+        sort: 0
+        activation:
+          type: action
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags:
+          neon-odyssey:
+            shields: reset
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
     properties: []
     requirements: ''
     identifier: shields
   _key: '!actors.items!b0DeUmj3C8w8paqa.RwghF0RCv1m41ESy'
+  _stats:
+    coreVersion: '14.360'
+    systemId: dnd5e
+    systemVersion: 6.0.6
+    createdTime: null
+    modifiedTime: null
+    lastModifiedBy: null
+    duplicateSource: null
+    exportSource: null
+    compendiumSource: null
+- _id: IRJOazXobdJtsO8I
+  name: Starship Maneuvers
+  type: feat
+  img: icons/svg/wing.svg
+  effects: []
+  sort: 0
+  system:
+    description:
+      value: '<p>Starships move on a hex grid (1 hex = 500 ft in atmosphere, 1,500 ft in space) and facing matters. Open the <strong>Helm</strong> from the token HUD (ship wheel icon) to move the ship.</p><p><strong>Simple
+        Maneuvers.</strong> <em>Forward</em>: up to Speed; on later turns the ship keeps going the same number of hexes unless the pilot changes course. <em>Reverse</em>: 1 hex backward for all of its Speed.
+        <em>Turn</em>: 1 hex of movement to turn 60°, after moving at least 1 hex forward; or all movement to pivot to any facing. <em>Side Slip</em>: diagonally forward 1 hex for 2 hexes of movement, needing
+        1 hex forward before the next slip. <em>Loop</em>: 12 hexes, ending 1 hex behind its start, same facing. <em>Landing and Docking</em>: at a Speed of 1 hex or less.</p><p><strong>Stunts</strong>
+        (one per move, vehicle Dexterity check): <em>Tight Turn</em> turns in place for free (DC 10 for 60°, 15 for 120°, 20 for 180°). <em>Hard Loop</em> (DC 25) ends 1 hex behind, same facing, for free.
+        <em>Wingover</em> (DC 20) ends 1 hex behind facing the opposite way, for free. <em>Pursuit</em>: move into the enemy''s space from its left, right or rear arc; it makes a vehicle Dexterity save
+        against your check or you shadow it, moving with it and firing one front weapon as a Reaction; two pursuers have Advantage on attacks against it. <em>Skimming Run</em> (DC 10 Gargantuan, 20 Huge,
+        25 Large target): off sensors and untargetable by that target until the end of your next turn; fail by more than 5 and you crash. <em>Fast Landing</em> (DC 15): fail by more than 5 and you crash.</p><p><em>From
+        the Neon Odyssey Pre-Launch playtest starship rules; the current playtest says new starship rules will follow.</em></p>'
+      chat: ''
+    type:
+      value: vehicle
+      subtype: ''
+    uses:
+      max: ''
+      spent: 0
+      recovery: []
+    activation:
+      type: ''
+      value: null
+      condition: ''
+    activities:
+      UiVw4x1nD5wGXfEn:
+        _id: UiVw4x1nD5wGXfEn
+        type: check
+        name: Tight Turn 60° (DC 10)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '10'
+      MqWDXYMDxUKSyjq0:
+        _id: MqWDXYMDxUKSyjq0
+        type: check
+        name: Tight Turn 120° (DC 15)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '15'
+      Q4Tk74jNFSRVW0EI:
+        _id: Q4Tk74jNFSRVW0EI
+        type: check
+        name: Tight Turn 180° (DC 20)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '20'
+      wkE6oXGzD3QB7Iml:
+        _id: wkE6oXGzD3QB7Iml
+        type: check
+        name: Hard Loop (DC 25)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '25'
+      s5FW1HPCWfifevZr:
+        _id: s5FW1HPCWfifevZr
+        type: check
+        name: Wingover (DC 20)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '20'
+      GByLx2SW7DEx3jGb:
+        _id: GByLx2SW7DEx3jGb
+        type: check
+        name: Pursuit (vs. target's vehicle Dex save)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: ''
+      8NO4OKqRhZS8y8wK:
+        _id: 8NO4OKqRhZS8y8wK
+        type: check
+        name: 'Skimming Run: Gargantuan (DC 10)'
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '10'
+      094a3kJKuRxHtKBS:
+        _id: 094a3kJKuRxHtKBS
+        type: check
+        name: 'Skimming Run: Huge (DC 20)'
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '20'
+      VlSYEnaz63nKBLbL:
+        _id: VlSYEnaz63nKBLbL
+        type: check
+        name: 'Skimming Run: Large (DC 25)'
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '25'
+      wwI0sAVGwMYBb4Mj:
+        _id: wwI0sAVGwMYBb4Mj
+        type: check
+        name: Fast Landing (DC 15)
+        img: ''
+        sort: 0
+        activation:
+          type: special
+          value: null
+          override: false
+          condition: ''
+        consumption:
+          scaling:
+            allowed: false
+            max: ''
+          spellSlot: false
+          targets: []
+        description:
+          chatFlavor: ''
+        duration:
+          units: inst
+          concentration: false
+          override: false
+          value: ''
+          special: ''
+        effects: []
+        range:
+          units: self
+          override: false
+          special: ''
+        target:
+          template:
+            contiguous: false
+            units: ft
+            type: ''
+          affects:
+            choice: false
+            count: ''
+            type: self
+          override: false
+          prompt: false
+        uses:
+          spent: 0
+          recovery: []
+          max: ''
+        flags: {}
+        visibility:
+          level:
+            min: null
+            max: null
+          identifier: ''
+          requireAttunement: false
+          requireIdentification: false
+          requireMagic: false
+        behaviors: []
+        check:
+          ability: dex
+          associated: []
+          dc:
+            calculation: ''
+            formula: '15'
+    properties: []
+    requirements: ''
+    identifier: sensors
+  _key: '!actors.items!b0DeUmj3C8w8paqa.IRJOazXobdJtsO8I'
   _stats:
     coreVersion: '14.360'
     systemId: dnd5e

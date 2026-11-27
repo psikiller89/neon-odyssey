@@ -126,6 +126,8 @@ system:
       hover: true
       ignoredDifficultTerrain: []
       fly: 160
+      speeds:
+        fly: '160'
     ac:
       flat: 22
       calc: flat

@@ -126,6 +126,8 @@ system:
       hover: false
       ignoredDifficultTerrain: []
       walk: 60
+      speeds:
+        walk: '60'
     ac:
       flat: 21
       calc: flat

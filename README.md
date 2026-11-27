@@ -33,6 +33,12 @@ In the Neon Odyssey DM app, use **Export campaign** to save a `.json` file. In F
 - **Shop Generator** (Roll Tables tab): creates a journal in "Neon Shops" with random stock, prices (with an optional % change) and quantities for a General Store, Weapon Shop, Armor & Modules, Tools & Instruments, Pharmacy & Explosives or Black Market. Players drag items from it onto their sheet. Scripts: `api.generateShop(options)`.
 - **Loot & Shop Tables** compendium: roll tables for loot by value, shop stock by category and credits by Challenge Rating, for rolling by hand.
 
+## Starship combat
+Select a starship token (Interceptor, Superiority Fighter) and click the ship-wheel **Helm** button on its token HUD. Use a hex grid: 1 hex = 500 ft in atmosphere or 1,500 ft in space, so a 5,000 ft Fly Speed is 10 hexes. The Helm tracks movement used and facing, and moves and turns the token for Forward, Keep Course (last turn's momentum), Side Slip, Turn, Reverse, Pivot, Loop and Dash, with Undo. The stunts (Tight Turn, Hard Loop, Wingover, Pursuit, Skimming Run, Fast Landing) roll the vehicle's Dexterity check against their DC; one stunt per move. In combat the Helm resets at the start of the ship's turn and whispers the GM its momentum. The Shields station has **Focus Shields** (double Shield Points on one arc) and **Reset Shields**. The rules come from the Neon Odyssey Pre-Launch playtest; the current playtest says new starship rules will follow. Scripts: `api.openHelm(tokenDocument)`.
+
+## Character creator
+Click **Neon Character Creator** in the Actors tab. It walks through name and ability scores (Standard Array, Point Buy or manual), species, background (with its Homeworld origin feat), class and starting level, then creates the character and opens dnd5e's advancement windows for the species, background and each class level, including the subclass at level 3. Tick **Include dnd5e 2024 content** to also offer the 2024 species, backgrounds and classes. Scripts: `api.characterCreator()`.
+
 ## Install
 Unzip into `Data/modules/neon-odyssey` (or install the zip with a manifest host), then enable it in your world.
 
