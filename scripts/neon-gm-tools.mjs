@@ -270,26 +270,17 @@ async function neonShopDialog() {
   if ( res ) return neonGenerateShop({ ...res, stock: Number(res.stock), markup: Number(res.markup) });
 }
 
-function neonDirButtons(html, buttons) {
-  if ( !game.user.isGM ) return;
-  const root = html instanceof HTMLElement ? html : html[0];
-  const actions = root?.querySelector(".header-actions");
-  if ( !actions || root.querySelector(".neon-gm-tools") ) return;
-  const row = document.createElement("div");
-  row.className = "neon-gm-tools header-actions action-buttons flexrow";
-  for ( const [cls, icon, label, fn] of buttons ) {
-    const b = document.createElement("button");
-    b.type = "button"; b.className = cls;
-    b.innerHTML = `<i class="fa-solid ${icon}" inert></i><span>${label}</span>`;
-    b.addEventListener("click", ev => { ev.preventDefault(); fn(); });
-    row.append(b);
-  }
-  actions.after(row);
-}
 const neonOpenEncounter = () => new NeonEncounterBuilder().render(true);
-Hooks.on("renderActorDirectory", (app, html) => neonDirButtons(html, [["neon-encounter-builder", "fa-skull", "Encounter Builder", neonOpenEncounter]]));
-Hooks.on("renderRollTableDirectory", (app, html) => neonDirButtons(html, [
-  ["neon-loot", "fa-sack-dollar", "Loot Generator", neonLootDialog], ["neon-shop", "fa-store", "Shop Generator", neonShopDialog]]));
+Hooks.on("getSceneControlButtons", controls => {
+  if ( !game.user.isGM ) return;
+  const tools = controls.tokens?.tools;
+  if ( !tools ) return;
+  [["neonEncounter", "Neon Encounter Builder", "fa-solid fa-skull", neonOpenEncounter],
+   ["neonLoot", "Neon Loot Generator", "fa-solid fa-sack-dollar", neonLootDialog],
+   ["neonShop", "Neon Shop Generator", "fa-solid fa-store", neonShopDialog]].forEach(([name, title, icon, fn], i) => {
+    tools[name] = { name, title, icon, order: 100 + i, button: true, visible: true, onChange: () => fn() };
+  });
+});
 
 Hooks.once("init", () => {
   const mod = game.modules.get(NEON_GM);
